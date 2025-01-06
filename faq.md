@@ -1,5 +1,20 @@
 # CRA FAQ
 
+## The Cyber Resilience Act (CRA) itself
+
+#### Q: What is the Cyber Resilience Act (CRA)?
+
+The Cyber Resilience Act (CRA) is a new EU Regulation that aims to safeguard consumers and businesses who use software or products with a digital components. It creates mandatory cybersecurity requirements for manufacturers and retailers that extend throughout the product lifecycle and the whole software supply chain (including all open source dependencies ans transitive dependencies) and helps consumers and business identify such products through the CE mark.
+
+#### Q: Where is the official text of the CRA?
+
+The final text of the CRA can be found on [EUR-Lex][CRA] ([English HTML version][CRA HTML]).
+
+#### Q: When does the CRA enter into force and when does the regulation start to apply?
+
+The CRA enters into force on December 11, 2024. Reporting obligations of manufacturers ([Article 14][]) start to apply on September 11, 2026.
+The notitifcation of conformity of assement bodies ([Chapter IV][]) start to apply on June 11, 2026. Everything else starts to apply on December, 11 2027.
+
 ## Maintainers
 
 #### Q: Am I subject to the CRA if I only contribute to an open source project?
@@ -42,6 +57,10 @@ Yes, a _manufacturer_ can also be an _open-source software steward_, but it cann
 
 #### Q: What is a _legal person_?
 
+[CRA]: https://eur-lex.europa.eu/eli/reg/2024/2847/oj
+[CRA HTML]: https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=OJ:L_202402847
 [Recital 18]: https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=OJ:L_202402847#rct_18
 [Article 3(13)]: https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=OJ:L_202402847#art_3
 [Article 3(14)]: https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=OJ:L_202402847#art_3
+[Article 14]: https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=OJ:L_202402847#art_14
+[Chapter IV]: https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=OJ:L_202402847#cpt_IV
