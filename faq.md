@@ -15,6 +15,17 @@ The final text of the CRA can be found on [EUR-Lex][CRA] ([English HTML version]
 The CRA enters into force on December 11, 2024. Reporting obligations of manufacturers ([Article 14][]) start to apply on September 11, 2026.
 The notitifcation of conformity of assement bodies ([Chapter IV][]) start to apply on June 11, 2026. Everything else starts to apply on December, 11 2027.
 
+
+## Open source projects
+
+#### Q: What criteria determine whether an open source project is in scope of the CRA?
+
+#### Q: Is distributing binaries or container images of an open source project considered as making it available on the market?
+
+No. Monetization by the original manufacturer is what determines whether a product is made available on the market. As per [Recital 18][], merely supplying open source components isn't indicative of a commercial activity:
+
+> Furthermore, the supply of products with digital elements qualifying as free and open-source software components intended for integration by other manufacturers into their own products with digital elements should be considered to be making available on the market only if the component is monetised by its original manufacturer. […] In addition, the mere presence of regular releases should not in itself lead to the conclusion that a product with digital elements is supplied in the course of a commercial activity.
+
 ## Maintainers
 
 #### Q: Am I subject to the CRA if I only contribute to an open source project?
