@@ -20,6 +20,7 @@ _Open-source software steward_ is a term defined in [Article 3(14)][] of the CRA
 
 #### Q: Can a loosely organized group of maintainers be considered to be an _open-source software steward_?
 
+In [Article 3(14)][], the CRA defines _open-source software steward_ as a "legal person, other than a manufacturer." In European regulation, groups of people acting in concert are generally seen as a legal person, whether or not they have formalized their relationship by creating a society, trust, foundation, or company. So in general, it is fair to assume that a group of open source developers maintaining an open source project together will be considered to be an _open-source software steward_, even if it is only loosely organized together.
 
 ## Manufacturers
 
