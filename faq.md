@@ -10,5 +10,14 @@ No. Contributions to an open source project are explicitely not in scope of the 
 
 ## Open Source Stewards
 
+#### Q: What is an _Open Source Steward_?
+
 ## Manufacturers
 
+## EU Legislation
+
+#### Q: What is the _Blue Guide_?
+
+#### Q: What is the _New Legislative Framework_ (NLP)?
+
+#### Q: What is a _Harmonized Standard_ and why does it matter?
