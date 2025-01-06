@@ -2,7 +2,7 @@
 
 ## Maintainers
 
-#### Am I subject to the CRA if I only contribute to an open source project?
+#### Q: Am I subject to the CRA if I only contribute to an open source project?
 
 No. Contributions to an open source project are explicitely not in scope of the CRA. See [Recital 18](https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=OJ:L_202402847#rct_18): 
 
