@@ -12,6 +12,10 @@ No. Contributions to an open source project are explicitely not in scope of the 
 
 #### Q: What is an _Open Source Steward_?
 
+#### Q: Can an solo maintainer be considered to be an _Open Source Steward_?
+
+#### Q: Can a loosely organized group of maintainers be considered to be an _Open Source Steward_?
+
 ## Manufacturers
 
 ## EU Legislation
@@ -21,3 +25,6 @@ No. Contributions to an open source project are explicitely not in scope of the 
 #### Q: What is the _New Legislative Framework_ (NLP)?
 
 #### Q: What is a _Harmonized Standard_ and why does it matter?
+
+#### Q: What is a _legal person_?
+
