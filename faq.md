@@ -20,8 +20,17 @@ _Open-source software steward_ is a term defined in [Article 3(14)][] of the CRA
 
 #### Q: Can a loosely organized group of maintainers be considered to be an _open-source software steward_?
 
-
 ## Manufacturers
+
+#### Q: What is a _manufacturer_?
+
+The term _Manufacturer_ is defined in [Article 3(13)][] of the CRA:
+	
+> ‘manufacturer’ means a natural or legal person who develops or manufactures products with digital elements or has products with digital elements designed, developed or manufactured, and markets them under its name or trademark, whether for payment, monetisation or free of charge;
+
+#### Q: Can a _manufacturer_ also be an _open-source software steward_?
+
+Yes, a _manufacturer_ can also be an _open-source software steward_, but it cannot be both the _manufacturer_ and _open-source software steward_ of the same project.
 
 ## EU Legislation
 
@@ -34,4 +43,5 @@ _Open-source software steward_ is a term defined in [Article 3(14)][] of the CRA
 #### Q: What is a _legal person_?
 
 [Recital 18]: https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=OJ:L_202402847#rct_18
+[Article 3(13)]: https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=OJ:L_202402847#art_3
 [Article 3(14)]: https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=OJ:L_202402847#art_3
