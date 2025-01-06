@@ -24,6 +24,16 @@ In [Article 3(14)][], the CRA defines _open-source software steward_ as a "legal
 
 ## Manufacturers
 
+#### Q: What is a _manufacturer_?
+
+The term _Manufacturer_ is defined in [Article 3(13)][] of the CRA:
+	
+> ‘manufacturer’ means a natural or legal person who develops or manufactures products with digital elements or has products with digital elements designed, developed or manufactured, and markets them under its name or trademark, whether for payment, monetisation or free of charge;
+
+#### Q: Can a _manufacturer_ also be an _open-source software steward_?
+
+Yes, a _manufacturer_ can also be an _open-source software steward_, but it cannot be both the _manufacturer_ and _open-source software steward_ of the same project.
+
 ## EU Legislation
 
 #### Q: What is the _Blue Guide_?
@@ -35,4 +45,5 @@ In [Article 3(14)][], the CRA defines _open-source software steward_ as a "legal
 #### Q: What is a _legal person_?
 
 [Recital 18]: https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=OJ:L_202402847#rct_18
+[Article 3(13)]: https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=OJ:L_202402847#art_3
 [Article 3(14)]: https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=OJ:L_202402847#art_3
