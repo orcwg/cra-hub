@@ -15,6 +15,24 @@ The final text of the CRA can be found on [EUR-Lex][CRA] ([English HTML version]
 The CRA enters into force on December 11, 2024. Reporting obligations of manufacturers ([Article 14][]) start to apply on September 11, 2026.
 The notitifcation of conformity of assement bodies ([Chapter IV][]) start to apply on June 11, 2026. Everything else starts to apply on December, 11 2027.
 
+#### Q: What is in scope of the CRA?
+
+The following types of product are in scope of the CRA:
+
+- Hardware products (e.g. laptops, smart appliances, mobile phones, network equipment, CPUs, etc.)
+- Software products (e.g. operating systems, word processing, games or mobile apps, software libraries, etc.)
+- Remote data processing solutions for any of the above
+
+#### Q: What is NOT in scope of the CRA?
+
+The following types of product are NOT in scope of the CRA:
+
+- Products already covered by other regulations or directives: civil aviation equipment ([2018/1139][]), marine equipment ([2014/90][]), medical devices ([2017/745][] and [2017/746][]), motor vehicles ([2019/2144][]), and software as a service (SaaS) ([NIS 2][])
+- Products exclusively designed for national security or defence purposes
+- Products specifically designed to process classified information
+
+_It is worth noting however, that the intent of the EU legislators is to harmonize the various regulations mentioned above with the CRA in the near future._
+
 ## Maintainers
 
 #### Q: Am I subject to the CRA if I only contribute to an open source project?
@@ -64,3 +82,12 @@ Yes, a _manufacturer_ can also be an _open-source software steward_, but it cann
 [Article 3(14)]: https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=OJ:L_202402847#art_3
 [Article 14]: https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=OJ:L_202402847#art_14
 [Chapter IV]: https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=OJ:L_202402847#cpt_IV
+
+[2014/90]: https://eur-lex.europa.eu/eli/dir/2014/90/oj
+[2017/745]: https://eur-lex.europa.eu/eli/reg/2017/745/oj
+[2017/746]: https://eur-lex.europa.eu/eli/reg/2017/746/oj
+[2018/1139]: https://eur-lex.europa.eu/eli/reg/2018/1139/oj
+[2019/2144]: https://eur-lex.europa.eu/eli/reg/2019/2144/oj
+[NIS 2]: https://eur-lex.europa.eu/eli/dir/2022/2555/oj
+
+	
