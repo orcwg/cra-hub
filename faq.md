@@ -51,11 +51,14 @@ Yes, a _manufacturer_ can also be an _open-source software steward_, but it cann
 
 #### Q: What is the _Blue Guide_?
 
-#### Q: What is the _New Legislative Framework_ (NLP)?
+The [Blue Guide][] is one of the main reference documents of the European Commission explaining how to implement legislation based on the New Legislative Framework (NLF).
+
+#### Q: What is the _New Legislative Framework_ (NLF)?
 
 #### Q: What is a _Harmonized Standard_ and why does it matter?
 
 #### Q: What is a _legal person_?
+
 
 [CRA]: https://eur-lex.europa.eu/eli/reg/2024/2847/oj
 [CRA HTML]: https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=OJ:L_202402847
@@ -64,3 +67,5 @@ Yes, a _manufacturer_ can also be an _open-source software steward_, but it cann
 [Article 3(14)]: https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=OJ:L_202402847#art_3
 [Article 14]: https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=OJ:L_202402847#art_14
 [Chapter IV]: https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=OJ:L_202402847#cpt_IV
+
+[Blue Guide]: https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:52022XC0629(04)
