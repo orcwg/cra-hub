@@ -51,7 +51,8 @@ Yes, a _manufacturer_ can also be an _open-source software steward_, but it cann
 
 #### Q: What is the _Blue Guide_?
 
-The [Blue Guide][] is one of the main reference documents of the European Commission explaining how to implement legislation based on the New Legislative Framework (NLF).
+The [Blue Guide][] is one of the main reference documents of the European Commission explaining how to implement legislation based on the New Legislative Framework (NLF). Unlike the CRA, the Blue Guide does not have legal force. The current Blue Guide, published in the summer of 2022, predates the CRA. Unlike the CRA, it discusses software as something embedded into a physical product, not as a standalone product.
+For this reason, until an updated version is available, the Blue Guide's guidance should be read in light of the CRA's wider scope and take into account the nuances introduced in the CRA for software. For example, on the concept of "commercial activity", recital 18 CRA provides more specific guidance on "monetisation" and "non-profit organisations" relating to FOSS than is available in the Blue Guide in its section "Making available on the market".
 
 #### Q: What is the _New Legislative Framework_ (NLF)?
 
