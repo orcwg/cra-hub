@@ -39,7 +39,7 @@ No. As defined in [Article 3(14)][], an _open-source software steward_ must be a
 
 #### Q: Can a loosely organized group of maintainers be considered to be an _open-source software steward_?
 
-In [Article 3(14)][], the CRA defines _open-source software steward_ as a "legal person, other than a manufacturer." In European regulation, groups of people acting in concert can be considered as a legal person, whether or not they have formalized their relationship by creating a society, trust, foundation, or company. So it is possible to that in some cases, a group of open source developers maintaining an open source project together might be considered to be an _open-source software steward_, even if it is only loosely organized together.
+In [Article 3(14)][], the CRA defines _open-source software steward_ as a _legal person_ which whould exempt loosely organized groups of maintainers from the obligations of _open-source software stewards_. However, in certain European jurisdictions, groups of people acting in concert have been considered as a _legal person_ in certain cases, even though their relationship wasn't formalized through by creating an organization of any kind. So it is possible that in some cases, a loosely organized group of maintainers might be considered to be an _open-source software steward_ and therefore subject to the obligations of _open-source software stewards_ described in [Article 24][]. It is worth noting that not complying to those obligations doesn't carry penalties as per [Article 64(10)(b)][].
 
 ## Manufacturers
 
@@ -71,4 +71,5 @@ Yes, a _manufacturer_ can also be an _open-source software steward_, but it cann
 [Article 3(14)]: https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=OJ:L_202402847#art_3
 [Article 14]: https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=OJ:L_202402847#art_14
 [Article 24]: https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=OJ:L_202402847#art_24
+[Article 64(10)(b)]: https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=OJ:L_202402847#art_64
 [Chapter IV]: https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=OJ:L_202402847#cpt_IV
