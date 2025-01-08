@@ -39,7 +39,7 @@ No. As defined in [Article 3(14)][], an _open-source software steward_ must be a
 
 #### Q: Can a loosely organized group of maintainers be considered to be an _open-source software steward_?
 
-In [Article 3(14)][], the CRA defines _open-source software steward_ as a _legal person_ which whould exempt loosely organized groups of maintainers from the obligations of _open-source software stewards_. However, in certain European jurisdictions, groups of people acting in concert have been considered as a _legal person_ in certain cases, even though their relationship wasn't formalized through by creating an organization of any kind. So it is possible that in some cases, a loosely organized group of maintainers might be considered to be an _open-source software steward_ and therefore subject to the obligations of _open-source software stewards_ described in [Article 24][]. It is worth noting that not complying to those obligations doesn't carry penalties as per [Article 64(10)(b)][].
+In [Article 3(14)][], the CRA defines _open-source software steward_ as a _legal person_ which whould exempt loosely organized groups of maintainers from the obligations of _open-source software stewards_. However, in certain European jurisdictions, groups of people acting in concert have been considered as a _legal person_ in certain cases, even though their relationship wasn't formalized by creating an organization of any kind. So it is possible that in some cases, a loosely organized group of maintainers might be considered as an _open-source software steward_ and therefore be subject to the obligations described in [Article 24][]. It is worth noting that not complying to those obligations doesn't carry penalties as per [Article 64(10)(b)][].
 
 ## Manufacturers
 
