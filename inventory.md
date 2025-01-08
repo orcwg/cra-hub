@@ -137,6 +137,14 @@ CRA ref: [Article 24(1)](https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?ur
 | ---- | ---- | ---- | ---- | ---- | ---- |
 |  |  |  |  |  |  |
 
+## Due diligence requirements of manufacturers
+
+CRA ref: [Article 13(5)](https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=OJ:L_202402847#art_24) | Standards request ref: N/A | Impact on steward: `attestations`
+
+| Name & URL | Publisher | License | Type | Date | Notes |
+| ---- | ---- | ---- | ---- | ---- | ---- |
+|  |  |  |  |  |  |
+
 ## Voluntary security attestation programmes
 
 CRA ref: [Article 25](https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=OJ:L_202402847#art_25) | Standards request ref: N/A | Impact on steward: `attestations`
