@@ -15,6 +15,20 @@ The final text of the CRA can be found on [EUR-Lex][CRA] ([English HTML version]
 The CRA enters into force on December 11, 2024. Reporting obligations of manufacturers ([Article 14][]) start to apply on September 11, 2026.
 The notification of conformity of assement bodies ([Chapter IV][]) start to apply on June 11, 2026. Everything else starts to apply on December 11, 2027.
 
+```mermaid
+gantt
+    title CRA Implementation Timeline
+    dateFormat  YYYY-MM-DD
+    axisFormat %Y-Q%q
+
+    Publication in the Official Journal of the EU (November 20, 2024): milestone, 2024-11-20, 5m
+    Entry into force (December 11, 2024): milestone, 2024-12-11, 5m
+    Implementation phase: 2024-12-11, 3y
+    Reporting obligations of manufacturers (September 11, 2026): milestone, 2026-09-11, 5m
+    Notification of conformity of assement bodies (June 11, 2026): milestone, 2027-06-11, 5m
+    All other obligations (December 11, 2027): milestone, 2027-12-11, 5m
+```
+
 
 ## Open source projects
 
