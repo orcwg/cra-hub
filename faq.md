@@ -4,7 +4,7 @@
 
 #### Q: What is the Cyber Resilience Act (CRA)?
 
-The Cyber Resilience Act (CRA) is a new EU Regulation that aims to safeguard consumers and businesses who use software or products with a digital components. It creates mandatory cybersecurity requirements for manufacturers and retailers that extend throughout the product lifecycle and the whole software supply chain (including all open source dependencies ans transitive dependencies) and helps consumers and business identify such products through the CE mark.
+The Cyber Resilience Act (CRA) is a new EU Regulation that aims to safeguard consumers and businesses who use software or products with a digital components. It creates mandatory cybersecurity requirements for manufacturers and retailers that extend throughout the product lifecycle and the whole software supply chain (including all open source dependencies and transitive dependencies) and helps consumers and business identify such products through the CE mark.
 
 #### Q: Where is the official text of the CRA?
 
