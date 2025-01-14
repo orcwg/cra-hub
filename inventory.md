@@ -152,3 +152,12 @@ CRA ref: [Article 25](https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=O
 | Name & URL | Publisher | License | Type | Date | Notes |
 | ---- | ---- | ---- | ---- | ---- | ---- |
 |  |  |  |  |  |  |
+
+## Other
+CRA ref: TBD | Standards request ref: N/A | Impact on steward: TBD
+
+_Please add relevant resources below that don't fit well in the other categories. Please explain why they're important in the notes._
+
+| Name & URL | Publisher | License | Type | Date | Notes |
+| ---- | ---- | ---- | ---- | ---- | ---- |
+|  |  |  |  |  |  |
