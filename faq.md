@@ -16,6 +16,7 @@ The CRA enters into force on December 11, 2024. Reporting obligations of manufac
 The notification of conformity of assement bodies ([Chapter IV][]) start to apply on June 11, 2026. Everything else starts to apply on December 11, 2027.
 
 ```mermaid
+%%{init: {'theme':'base'}}%%
 gantt
     title CRA Implementation Timeline
     dateFormat  YYYY-MM-DD
