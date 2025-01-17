@@ -47,7 +47,7 @@ No. As long as the revenue you receive cover development costs (including the co
 #### Q: Am I subject to the CRA if I sell support for an open source project I maintain?
 
 TODO: finalize text
-If the revenue eanred by providing support only serves to cover cover development costs (including the cost of your labor), you're not considered to be monetising your project so are not subject to the CRA. However, if you're making a profit out of providing support, then you would be considered as amanufacturer.
+If the revenue earned by providing support only serves to cover cover development costs (including the cost of your labor), you're not considered to be monetising your project so are not subject to the CRA. However, if you're making a profit out of providing support, then you would be considered as a manufacturer.
 
 #### Q: What does monetizing an open source project mean in the context of the CRA?
 
