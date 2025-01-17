@@ -53,6 +53,10 @@ If the revenue earned by providing support only serves to cover cover developmen
 
 TODO: finalize text
 In the context of the CRA, monetizing means to make revenue from a project in excess of the cost of supporting the project's development, i.e., is a profit genersated from the activity. Labor is considered a cost, so getting paid to develop and maintain an open source project isn't generating a profit.
+It's worth noting here that from an accounting perspective, your labor is a cost. So the money that goes to pay you a work wage (on which you're paying social taxes, etc.) isn't profit. What's profit is any extra money that would be left after you've paid yourself a reasonable work wage and covered all other work expenses (including an accountant, legal fees, social taxes, office space, etc.). The money you spend on living expenses, any personal savings you might make, etc., are taken out of the wages you're paying yourself and so are already accounted for as part of the cost of labor.
+
+> ![WARNING]
+> If you're receiving revenue for the services you are providing, we recommend consulting a legal professional, accountant, etc.
 
 #### Q: As a maintainer if I monetize an open source project, what are my obligations in relation to the CRA?
 
