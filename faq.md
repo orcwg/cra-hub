@@ -12,7 +12,8 @@ The final text of the CRA can be found on [EUR-Lex][CRA] ([English HTML version]
 
 #### Q: When does the CRA enter into force and when does the regulation start to apply?
 
-The CRA enters into force on December 11, 2024. Reporting obligations of actively exploited vulnerabilities and severe incidents ([Article 14][]) start to apply on September 11, 2026. The notification of conformity of assement bodies ([Chapter IV][]) start to apply on June 11, 2026. Everything else starts to apply on December 11, 2027. _(Source: [Article 71][])_
+The CRA enters into force on December 11, 2024. Reporting obligations of actively exploited vulnerabilities and severe incidents ([Article 14][]) start to apply on September 11, 2026.
+The notification of conformity of assement bodies ([Chapter IV][]) start to apply on June 11, 2026. Everything else starts to apply on December 11, 2027. _(Source: [Article 71][])_
 
 ```mermaid
 %%{init: {'theme':'base'}}%%
