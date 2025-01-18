@@ -12,8 +12,7 @@ The final text of the CRA can be found on [EUR-Lex][CRA] ([English HTML version]
 
 #### Q: When does the CRA enter into force and when does the regulation start to apply?
 
-The CRA enters into force on December 11, 2024. Reporting obligations of manufacturers ([Article 14][]) start to apply on September 11, 2026.
-The notification of conformity of assement bodies ([Chapter IV][]) start to apply on June 11, 2026. Everything else starts to apply on December 11, 2027.
+The CRA enters into force on December 11, 2024. Reporting obligations of actively exploited vulnerabilities and severe incidents ([Article 14][]) start to apply on September 11, 2026. The notification of conformity of assement bodies ([Chapter IV][]) start to apply on June 11, 2026. Everything else starts to apply on December 11, 2027. _(Source: [Article 71][])_
 
 ```mermaid
 %%{init: {'theme':'base'}}%%
@@ -27,12 +26,11 @@ gantt
     Publication in the Official Journal of the EU (November 20, 2024): milestone, 2024-11-20, 5m
     Entry into force (December 11, 2024): milestone, 2024-12-11, 5m
     Implementation phase: 2024-12-11, 3y
-    Reporting obligations of manufacturers (September 11, 2026): milestone, 2026-09-11, 5m
+    Reporting obligations of vulnerabilities and incidents (September 11, 2026): milestone, 2026-09-11, 5m
     Notification of conformity of assement bodies (June 11, 2026): milestone, 2027-06-11, 5m
     All other obligations (December 11, 2027): milestone, 2027-12-11, 5m
     Application phase: 2026-09-11, 2029-06-30
 ```
-
 
 ## Open source projects
 
@@ -105,6 +103,7 @@ For this reason, until an updated version is available, the Blue Guide's guidanc
 [Article 14]: https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=OJ:L_202402847#art_14
 [Article 24]: https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=OJ:L_202402847#art_24
 [Article 64(10)(b)]: https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=OJ:L_202402847#art_64
+[Article 71]: https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=OJ:L_202402847#art_71
 [Chapter IV]: https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=OJ:L_202402847#cpt_IV
 
 [Blue Guide]: https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:52022XC0629(04)
