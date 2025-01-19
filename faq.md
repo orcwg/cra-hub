@@ -69,6 +69,35 @@ No. Contributions to an open source project are explicitely not in scope of the 
 
 > This Regulation does not apply to natural or legal persons who contribute with source code to products with digital elements qualifying as free and open-source software that are not under their responsibility.
 
+#### Q: Am I subject to the CRA if I maintain an open source project?
+
+TODO: finalize text
+It depends whether you're monetising it or not. If you are monetising it, then you are considered a manufacturer and subject to the obligations of manufacturers. Otherwise, you are not subject to the CRA.
+
+#### Q: Am I subject to the CRA if I receive donations or sponsoring to support the development of the open source project that I maintain or contribute to?
+
+TODO: finalize text
+No. As long as the revenue you receive cover development costs (including the cost of your labor), you're not considered to be monetising your project so are not subject to the CRA.
+
+#### Q: Am I subject to the CRA if I sell support for an open source project I maintain?
+
+TODO: finalize text
+If the revenue earned by providing support only serves to cover cover development costs (including the cost of your labor), you're not considered to be monetising your project so are not subject to the CRA. However, if you're making a profit out of providing support, then you would be considered as a manufacturer.
+
+#### Q: What does monetizing an open source project mean in the context of the CRA?
+
+TODO: finalize text
+In the context of the CRA, monetizing means to make revenue from a project in excess of the cost of supporting the project's development, i.e., is a profit genersated from the activity. Labor is considered a cost, so getting paid to develop and maintain an open source project isn't generating a profit.
+It's worth noting here that from an accounting perspective, your labor is a cost. So the money that goes to pay you a work wage (on which you're paying social taxes, etc.) isn't profit. What's profit is any extra money that would be left after you've paid yourself a reasonable work wage and covered all other work expenses (including an accountant, legal fees, social taxes, office space, etc.). The money you spend on living expenses, any personal savings you might make, etc., are taken out of the wages you're paying yourself and so are already accounted for as part of the cost of labor.
+
+> ![WARNING]
+> If you're receiving revenue for the services you are providing, we recommend consulting a legal professional, accountant, etc.
+
+#### Q: As a maintainer if I monetize an open source project, what are my obligations in relation to the CRA?
+
+TODO: finalize text
+As a maintainer, if you monetize an open source project (as described in [link to FAQ above][]), your are considered as a manufacturer from the perspective of the CRA, and subject to all of the obligations of a manufacturer.
+
 ## Open-Source Software Stewards
 
 #### Q: What is an _open-source software steward_?
