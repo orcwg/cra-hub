@@ -22,7 +22,7 @@ This is a draft document and may be updated, replaced or obsoleted at any time. 
 
 #### Questions which would benefit from European Commission guidance
 
-Frequently asked questions which would benefit from guidance from the Euopean Commission are indicated with the following callout:
+Frequently asked questions which would benefit from guidance from the European Commission are indicated with the following callout:
 
 > [!CAUTION]
 > Pending confirmation through European Commission Guidance that [REASON].
