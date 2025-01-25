@@ -1,6 +1,35 @@
 # CRA FAQ
 
-## The Cyber Resilience Act (CRA) itself
+## About this document
+
+This document represents a community effort to collect and answer frequently asked questions about the Cyber Resilience Act (CRA) as it relates to open source. 
+
+The purpose of this document is twofold:
+
+1. to consolidate community understanding of the CRA, and
+2. to outline areas of the CRA which remain unclear and would [benefit from guidance][] from the European Commission.
+
+### Disclaimer
+
+> [!WARNING]
+> Nothing contained in this document constitutes legal advice. If you have any legal questions about the CRA, you should consult with an attorney.
+
+### Document Status
+
+This is a draft document and may be updated, replaced or obsoleted at any time. It is inappropriate to cite this document as other than a work in progress. Publication of this document as a draft does not imply endorsement by the Eclipse Foundation, Open Regulatory Working Group Members, or contributors.
+
+### Notation conventions
+
+#### Questions which would benefit from European Commission guidance
+
+Frequently asked questions which would benefit from guidance from the European Commission are indicated with the following callout:
+
+> [!CAUTION]
+> Pending confirmation through European Commission Guidance that [REASON].
+
+## Frequently Asked Questions about the Cyber Resilience Act (CRA)
+
+### The Cyber Resilience Act (CRA) itself
 
 #### Q: What is the Cyber Resilience Act (CRA)?
 
@@ -51,7 +80,7 @@ The following types of product are NOT in scope of the CRA:
 
 _It is worth noting however, that the intent of the EU legislators is to harmonize the various regulations mentioned above with the CRA in the near future._
 
-## Open source projects
+### Open source projects
 
 #### Q: What criteria determine whether an open source project is in scope of the CRA?
 
@@ -61,7 +90,7 @@ No. Monetization by the original manufacturer is what determines whether a produ
 
 > Furthermore, the supply of products with digital elements qualifying as free and open-source software components intended for integration by other manufacturers into their own products with digital elements should be considered to be making available on the market only if the component is monetised by its original manufacturer. […] In addition, the mere presence of regular releases should not in itself lead to the conclusion that a product with digital elements is supplied in the course of a commercial activity.
 
-## Maintainers
+### Maintainers
 
 #### Q: Am I subject to the CRA if I only contribute to an open source project?
 
@@ -69,7 +98,7 @@ No. Contributions to an open source project are explicitely not in scope of the 
 
 > This Regulation does not apply to natural or legal persons who contribute with source code to products with digital elements qualifying as free and open-source software that are not under their responsibility.
 
-## Open-Source Software Stewards
+### Open-Source Software Stewards
 
 #### Q: What is an _open-source software steward_?
 
@@ -96,7 +125,7 @@ No. As defined in [Article 3(14)][], an _open-source software steward_ must be a
 > [!CAUTION]
 > Pending confirmation through European Commission Guidance that _legal persons_ do not include _natural persons_ in the context of the CRA.
 
-## Manufacturers
+### Manufacturers
 
 #### Q: What is a _manufacturer_?
 
@@ -108,7 +137,7 @@ The term _Manufacturer_ is defined in [Article 3(13)][] of the CRA:
 
 Yes, a _manufacturer_ can also be an _open-source software steward_, but it cannot be both the _manufacturer_ and _open-source software steward_ of the same project.
 
-## EU Legislation
+### EU Legislation
 
 #### Q: What is the _Blue Guide_?
 
@@ -127,6 +156,7 @@ In the context of the CRA, a _legal person_ means an legal entity such as a busi
 > Pending confirmation through European Commission Guidance that _legal persons_ do not include _natural persons_ in the context of the CRA.
 
 
+[benefit from guidance]: #questions-which-would-benefit-from-european-commission-guidance
 
 [CRA]: https://eur-lex.europa.eu/eli/reg/2024/2847/oj
 [CRA HTML]: https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=OJ:L_202402847
