@@ -42,10 +42,10 @@ Maturity level statuses are assigned using the following process. All answers st
 
 ```mermaid
 flowchart TD
-    A[⚠️ status: draft]
-    B[☕️ status: pending review]
-    C[✅ status: approved]
-    D[🛑 status: pending guidance]
+    A[Status: Draft ⚠️]
+    B[Status: Pending Review ☕️]
+    C[Status: Approved ✅]
+    D[Status: Pending Guidance 🛑]
     A -- Ready for review --> B
     B --> SIG{"Passes SIG Review?"}
     SIG -- YES --> Q{"Requires EU guidance?"}
