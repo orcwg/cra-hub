@@ -1,5 +1,9 @@
 # Inventory of resources relevant to the horizontal CRA standards, Open Source Steward obligations, and voluntary attestation program
 
+The goal of this document is to collect resources that are relevant to the CRA obligations of _open-source software stewards_ and _manufacturers_ when it comes to the development and usage of open source.
+
+_Please add all relevant resources as a table row under the relevant section or subsection._
+
 ## Table of Content
 
 * [Horizontal Type A Standards (due Aug. 2026)](#horizontal-type-a-standards-due-aug-2026)
@@ -8,8 +12,6 @@
 * [Due diligence requirements of manufacturers](#due-diligence-requirements-of-manufacturers)
 * [Voluntary security attestation programmes](#voluntary-security-attestation-programmes)
 * [Other](#other)
-
-_Please add all relevant resources as a table row under the relevant standard title._
 
 ## Horizontal Type A Standards (due Aug. 2026)
 
