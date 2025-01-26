@@ -174,6 +174,6 @@ _Please add relevant resources below that don't fit well in the other categories
 
 | Name & URL | Publisher | License | Type | Date | Notes |
 | ---- | ---- | ---- | ---- | ---- | ---- |
-| [RFC 9116](https://www.rfc-editor.org/rfc/rfc9116) | IETF | CC BY 4.0. | RFC | 2022-04 | A File Format to Aid in Security Vulnerability Disclosure |
+| [RFC 9116](https://www.rfc-editor.org/rfc/rfc9116) | IETF | IETF Trust Legal Provisions (TLP) | RFC | 2022-04 | A File Format to Aid in Security Vulnerability Disclosure |
 | [PHP release process](https://github.com/php/php-src/blob/master/docs/release-process.md) | PHP project | PHP 3.01 | informal | 2007-11-22 - present | It includes some info about releasing of security fixes |
 |  |  |  |  |  |  |
