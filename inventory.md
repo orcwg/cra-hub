@@ -17,7 +17,9 @@ _Please add all relevant resources as a table row under the relevant section or 
 
 ### Designing, developing and producing products with digital elements in such a way that they ensure an appropriate level of cybersecurity based on the risks
 
-CRA ref: [Annex I, Part I, point (1)](https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=OJ:L_202402847#anx_I) | Standards request ref: 1 | Impact on steward: `Partial obligation` ("foster development of secure product", [Article. 24(1)](https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=OJ:L_202402847#art_24))
+CRA ref: [Annex I, Part I, point (1)](https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=OJ:L_202402847#anx_I)\
+Standards request ref: 1\
+Impact on steward: `Partial obligation` ("foster development of secure product", [Article. 24(1)](https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=OJ:L_202402847#art_24))
 
 
 | Name & URL | Publisher | License | Type | Date | Notes |
@@ -29,7 +31,9 @@ CRA ref: [Annex I, Part I, point (1)](https://eur-lex.europa.eu/legal-content/EN
 
 ### Vulnerability handling for products with digital elements
 
-CRA ref: [Annex I, Part II](https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=OJ:L_202402847#anx_I) | Standards request ref: 15 | Impact on steward: `obligation`
+CRA ref: [Annex I, Part II](https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=OJ:L_202402847#anx_I)\
+Standards request ref: 15\
+Impact on steward: `obligation`
 
 | Name & URL | Publisher | License | Type | Date | Notes |
 | ---- | ---- | ---- | ---- | ---- | ---- |
@@ -39,7 +43,9 @@ CRA ref: [Annex I, Part II](https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/
 
 ### Making products with digital elements available on the market without known exploitable vulnerabilities
 
-CRA ref: [Annex I, Part I, point (2)(a)](https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=OJ:L_202402847#anx_I) | Standards request ref: 2 | Impact on steward: `attestations`
+CRA ref: [Annex I, Part I, point (2)(a)](https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=OJ:L_202402847#anx_I)\
+Standards request ref: 2\
+Impact on steward: `attestations`
 
 | Name & URL | Publisher | License | Type | Date | Notes |
 | ---- | ---- | ---- | ---- | ---- | ---- |
@@ -47,7 +53,9 @@ CRA ref: [Annex I, Part I, point (2)(a)](https://eur-lex.europa.eu/legal-content
 
 ### Making products with digital elements available on the market with a secure by default configuration
 
-CRA ref: [Annex I, Part I, point (2)(b)](https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=OJ:L_202402847#anx_I) | Standards request ref: 3 | Impact on steward: `attestations`
+CRA ref: [Annex I, Part I, point (2)(b)](https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=OJ:L_202402847#anx_I)\
+Standards request ref: 3\
+Impact on steward: `attestations`
 
 | Name & URL | Publisher | License | Type | Date | Notes |
 | ---- | ---- | ---- | ---- | ---- | ---- |
@@ -55,7 +63,9 @@ CRA ref: [Annex I, Part I, point (2)(b)](https://eur-lex.europa.eu/legal-content
 
 ### Ensuring that vulnerabilities in products with digital elements can be addressed through security updates
 
-CRA ref: [Annex I, Part I, point (2)(c)](https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=OJ:L_202402847#anx_I) | Standards request ref: 4 | Impact on steward: `attestations`
+CRA ref: [Annex I, Part I, point (2)(c)](https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=OJ:L_202402847#anx_I)\
+Standards request ref: 4\
+Impact on steward: `attestations`
 
 | Name & URL | Publisher | License | Type | Date | Notes |
 | ---- | ---- | ---- | ---- | ---- | ---- |
@@ -63,7 +73,9 @@ CRA ref: [Annex I, Part I, point (2)(c)](https://eur-lex.europa.eu/legal-content
 
 ### Ensuring protection of products with digital elements from unauthorised access and reporting on possible unauthorised access
 
-CRA ref: [Annex I, Part I, point (2)(d)](https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=OJ:L_202402847#anx_I) | Standards request ref: 5 | Impact on steward: `attestations`
+CRA ref: [Annex I, Part I, point (2)(d)](https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=OJ:L_202402847#anx_I)\
+Standards request ref: 5\
+Impact on steward: `attestations`
 
 | Name & URL | Publisher | License | Type | Date | Notes |
 | ---- | ---- | ---- | ---- | ---- | ---- |
@@ -71,7 +83,9 @@ CRA ref: [Annex I, Part I, point (2)(d)](https://eur-lex.europa.eu/legal-content
 
 ### Protecting the confidentiality of data stored, transmitted or otherwise processed by a product with digital elements
 
-CRA ref: [Annex I, Part I, point (2)(e)](https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=OJ:L_202402847#anx_I) | Standards request ref: 6 | Impact on steward: `attestations`
+CRA ref: [Annex I, Part I, point (2)(e)](https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=OJ:L_202402847#anx_I)\
+Standards request ref: 6\
+Impact on steward: `attestations`
 
 | Name & URL | Publisher | License | Type | Date | Notes |
 | ---- | ---- | ---- | ---- | ---- | ---- |
@@ -79,7 +93,9 @@ CRA ref: [Annex I, Part I, point (2)(e)](https://eur-lex.europa.eu/legal-content
 
 ### Protecting the integrity of data, commands, programs by a product with digital elements, and its configuration against any manipulation or modification not authorised by the user, as well as reporting on corruptions
 
-CRA ref: [Annex I, Part I, point (2)(f)](https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=OJ:L_202402847#anx_I) | Standards request ref: 7 | Impact on steward: `attestations`
+CRA ref: [Annex I, Part I, point (2)(f)](https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=OJ:L_202402847#anx_I)\
+Standards request ref: 7\
+Impact on steward: `attestations`
 
 | Name & URL | Publisher | License | Type | Date | Notes |
 | ---- | ---- | ---- | ---- | ---- | ---- |
@@ -87,7 +103,9 @@ CRA ref: [Annex I, Part I, point (2)(f)](https://eur-lex.europa.eu/legal-content
 
 ### Processing only personal or other data that are adequate, relevant and limited to what is necessary in relation to the intended purpose of the product with digital elements (‘minimisation of data’)
 
-CRA ref: [Annex I, Part I, point (2)(g)](https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=OJ:L_202402847#anx_I) | Standards request ref: 8 | Impact on steward: `attestations`
+CRA ref: [Annex I, Part I, point (2)(g)](https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=OJ:L_202402847#anx_I)\
+Standards request ref: 8\
+Impact on steward: `attestations`
 
 | Name & URL | Publisher | License | Type | Date | Notes |
 | ---- | ---- | ---- | ---- | ---- | ---- |
@@ -95,7 +113,9 @@ CRA ref: [Annex I, Part I, point (2)(g)](https://eur-lex.europa.eu/legal-content
 
 ### Protecting the availability of essential and basic functions of the product with digital elements
 
-CRA ref: [Annex I, Part I, point (2)(h)](https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=OJ:L_202402847#anx_I) | Standards request ref: 9 | Impact on steward: `attestations`
+CRA ref: [Annex I, Part I, point (2)(h)](https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=OJ:L_202402847#anx_I)\
+Standards request ref: 9\
+Impact on steward: `attestations`
 
 | Name & URL | Publisher | License | Type | Date | Notes |
 | ---- | ---- | ---- | ---- | ---- | ---- |
@@ -103,7 +123,9 @@ CRA ref: [Annex I, Part I, point (2)(h)](https://eur-lex.europa.eu/legal-content
 
 ### Minimising the negative impact of a product with digital elements or its connected devices on the availability of services provided by other devices or networks
 
-CRA ref: [Annex I, Part I, point (2)(i)](https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=OJ:L_202402847#anx_I) | Standards request ref: 10 | Impact on steward: `attestations`
+CRA ref: [Annex I, Part I, point (2)(i)](https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=OJ:L_202402847#anx_I)\
+Standards request ref: 10\
+Impact on steward: `attestations`
 
 | Name & URL | Publisher | License | Type | Date | Notes |
 | ---- | ---- | ---- | ---- | ---- | ---- |
@@ -111,7 +133,9 @@ CRA ref: [Annex I, Part I, point (2)(i)](https://eur-lex.europa.eu/legal-content
 
 ### Designing, developing and producing products with digital elements with limitted attack surfaces
 
-CRA ref: [Annex I, Part I, point (2)(j)](https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=OJ:L_202402847#anx_I) | Standards request ref: 11 | Impact on steward: `attestations`
+CRA ref: [Annex I, Part I, point (2)(j)](https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=OJ:L_202402847#anx_I)\
+Standards request ref: 11\
+Impact on steward: `attestations`
 
 | Name & URL | Publisher | License | Type | Date | Notes |
 | ---- | ---- | ---- | ---- | ---- | ---- |
@@ -119,7 +143,9 @@ CRA ref: [Annex I, Part I, point (2)(j)](https://eur-lex.europa.eu/legal-content
 
 ### Designing, developing and producing products with digital elements that reduce the impact of an incident using appropriate exploitation mitigation mechanisms and techniques
 
-CRA ref: [Annex I, Part I, point (2)(k)](https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=OJ:L_202402847#anx_I) | Standards request ref: 12 | Impact on steward: `attestations`
+CRA ref: [Annex I, Part I, point (2)(k)](https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=OJ:L_202402847#anx_I)\
+Standards request ref: 12\
+Impact on steward: `attestations`
 
 | Name & URL | Publisher | License | Type | Date | Notes |
 | ---- | ---- | ---- | ---- | ---- | ---- |
@@ -127,7 +153,9 @@ CRA ref: [Annex I, Part I, point (2)(k)](https://eur-lex.europa.eu/legal-content
 
 ### Providing security related information by recording and/or monitoring relevant internal activity of products with digital elements with an opt-out mechanism for the user
 
-CRA ref: [Annex I, Part I, point (2)(l)](https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=OJ:L_202402847#anx_I) | Standards request ref: 13 | Impact on steward: `attestations`
+CRA ref: [Annex I, Part I, point (2)(l)](https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=OJ:L_202402847#anx_I)\
+Standards request ref: 13\
+Impact on steward: `attestations`
 
 | Name & URL | Publisher | License | Type | Date | Notes |
 | ---- | ---- | ---- | ---- | ---- | ---- |
@@ -135,7 +163,9 @@ CRA ref: [Annex I, Part I, point (2)(l)](https://eur-lex.europa.eu/legal-content
 
 ### Securely and easily removing or transferring all data and settings of a product with digital elements.
 
-CRA ref: [Annex I, Part I, point (2)(m)](https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=OJ:L_202402847#anx_I) | Standards request ref: 14 | Impact on steward: `attestations`
+CRA ref: [Annex I, Part I, point (2)(m)](https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=OJ:L_202402847#anx_I)\
+Standards request ref: 14\
+Impact on steward: `attestations`
 
 | Name & URL | Publisher | License | Type | Date | Notes |
 | ---- | ---- | ---- | ---- | ---- | ---- |
@@ -143,7 +173,9 @@ CRA ref: [Annex I, Part I, point (2)(m)](https://eur-lex.europa.eu/legal-content
 
 ## Open Source Steward Cybersecurity policy
 
-CRA ref: [Article 24(1)](https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=OJ:L_202402847#art_24) | Standards request ref: N/A | Impact on steward: `obligation`
+CRA ref: [Article 24(1)](https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=OJ:L_202402847#art_24)\
+Standards request ref: N/A\
+Impact on steward: `obligation`
 
 | Name & URL | Publisher | License | Type | Date | Notes |
 | ---- | ---- | ---- | ---- | ---- | ---- |
@@ -151,7 +183,9 @@ CRA ref: [Article 24(1)](https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?ur
 
 ## Due diligence requirements of manufacturers
 
-CRA ref: [Article 13(5)](https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=OJ:L_202402847#art_24) | Standards request ref: N/A | Impact on steward: `attestations`
+CRA ref: [Article 13(5)](https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=OJ:L_202402847#art_24)\
+Standards request ref: N/A\
+Impact on steward: `attestations`
 
 | Name & URL | Publisher | License | Type | Date | Notes |
 | ---- | ---- | ---- | ---- | ---- | ---- |
@@ -159,14 +193,18 @@ CRA ref: [Article 13(5)](https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?ur
 
 ## Voluntary security attestation programmes
 
-CRA ref: [Article 25](https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=OJ:L_202402847#art_25) | Standards request ref: N/A | Impact on steward: `attestations`
+CRA ref: [Article 25](https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=OJ:L_202402847#art_25)\
+Standards request ref: N/A\
+Impact on steward: `attestations`
 
 | Name & URL | Publisher | License | Type | Date | Notes |
 | ---- | ---- | ---- | ---- | ---- | ---- |
 |  |  |  |  |  |  |
 
 ## Other
-CRA ref: TBD | Standards request ref: N/A | Impact on steward: TBD
+CRA ref: TBD\
+Standards request ref: N/A\
+Impact on steward: TBD
 
 _Please add relevant resources below that don't fit well in the other categories. Please explain why they're important in the notes._
 
