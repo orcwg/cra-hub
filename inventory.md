@@ -23,12 +23,13 @@ CRA ref: [Annex I, Part I, point (1)](https://eur-lex.europa.eu/legal-content/EN
 | Name & URL | Publisher | License | Type | Date | Notes |
 | ---- | ---- | ---- | ---- | ---- | ---- |
 | [OpenStack Secure Development Guidelines](https://security.openstack.org/#secure-development-guidelines) | OpenStack Community | CC-BY-3.0 | informal | 2015-02-18 – present | |
-
+| [OWASP Software Assurance Maturity Model (SAMM)](https://owaspsamm.org) | OWASP | CC-BY-SA-4.0 | Maturity Model | 2009 – present | SAMM is a maturity model that helps organizations implement a Secure Development Lifecycle. |
+| [OWASP DevSecOps Maturity Model (DSOMM)](https://dsomm.owasp.org) | OWASP | GPL-3 | Maturity Model | 2017 – present | DSOMM is a maturity model aimed at implementing DevSecOps best practices. |
+| [OWASP Cheat Sheet Series](https://cheatsheetseries.owasp.org) | OWASP | CC BY-SA 4.0 | Informal Guidelines | 2014 – present | OWASP Cheat Sheets are a collection of pragmatic secruity guidelines and best practices for a wide range of technologies. |
 
 ### Vulnerability handling for products with digital elements
 
 CRA ref: [Annex I, Part II](https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=OJ:L_202402847#anx_I) | Standards request ref: 15 | Impact on steward: `obligation`
-
 
 | Name & URL | Publisher | License | Type | Date | Notes |
 | ---- | ---- | ---- | ---- | ---- | ---- |
