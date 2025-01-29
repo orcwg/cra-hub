@@ -27,7 +27,6 @@ Frequently asked questions which would benefit from guidance from the European C
 > [!CAUTION]
 > Pending confirmation through European Commission Guidance that [REASON].
 
-<a name="levels"></a>
 #### Maturity level of answers
 
 The maturity level of the answers contained in this document are indicated using the following system:
@@ -166,25 +165,21 @@ Yes, a _manufacturer_ can also be an _open-source software steward_, but it cann
 ### EU Legislation
 
 <a name="q-what-is-the-blue-guide"></a>
-**[👀](#levels "FAQ status: pending review")**
-**[ <a name="faq-tmp-4" href="#faq-tmp-4">FAQ TMP-4</a> ]**
+**<span title="FAQ status: pending review">👀</span> [ <a name="faq-tmp-4" href="#faq-tmp-4">FAQ TMP-4</a> ]**
 **What is the _Blue Guide_?**
 The [Blue Guide][] is one of the main reference documents of the European Commission explaining how to implement legislation based on the New Legislative Framework (NLF). Unlike the CRA, the Blue Guide does not have legal force. It predates the CRA and only discusses software as something embedded into a physical product, not as standalone.
 For this reason, until an updated version is available, the Blue Guide's guidance should be read in light of the CRA's wider scope and take into account the nuances introduced in the CRA for software. For example, on the concept of "commercial activity", [Recital 18][] CRA provides more specific guidance on "monetisation" and "non-profit organisations" than is available in the Blue Guide's "Making available on the market" section.
 
 <a name="q-what-is-the-new-legislative-framework-nlf"></a>
-**[⚠️](#levels "FAQ status: draft")**
-**[ <a name="faq-tmp-57" href="#faq-tmp-57">FAQ TMP-57</a> ]**
+**<span title="FAQ status: draft">⚠️</span> [ <a name="faq-tmp-57" href="#faq-tmp-57">FAQ TMP-57</a> ]**
 **What is the _New Legislative Framework_ (NLF)?**
 
 <a name="q-what-is-a-harmonized-standard-and-why-does-it-matter"></a>
-**[⚠️](#levels "FAQ status: draft")**
-**[ <a name="faq-tmp-56" href="#faq-tmp-56">FAQ TMP-56</a> ]**
+**<span title="FAQ status: draft">⚠️</span> [ <a name="faq-tmp-56" href="#faq-tmp-56">FAQ TMP-56</a> ]**
 **What is a _Harmonized Standard_ and why does it matter?**
 
 <a name="q-what-is-a-legal-person"></a>
-**[⚠️](#levels "FAQ status: draft")**
-**[ <a name="faq-tmp-55" href="#faq-tmp-55">FAQ TMP-55</a> ]**
+**<span title="FAQ status: draft">⚠️</span> [ <a name="faq-tmp-55" href="#faq-tmp-55">FAQ TMP-55</a> ]**
 **What is a _legal person_?**
 
 [benefit from guidance]: #questions-which-would-benefit-from-european-commission-guidance
