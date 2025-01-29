@@ -203,7 +203,7 @@ Impact on steward: `attestations`
 
 | Name & URL | Publisher | License | Type | Date | Notes |
 | ---- | ---- | ---- | ---- | ---- | ---- |
-|  |  |  |  |  |  |
+| [Secure Software Development Framework (SSDF)](https://csrc.nist.gov/projects/ssdf) | [NIST](https://www.nist.gov/) | Public Domain (attribution appreciated) | recommendations | 2022-02-03 |  |
 
 ## Other
 CRA ref: TBD\
