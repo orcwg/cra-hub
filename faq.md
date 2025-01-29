@@ -27,6 +27,34 @@ Frequently asked questions which would benefit from guidance from the European C
 > [!CAUTION]
 > Pending confirmation through European Commission Guidance that [REASON].
 
+#### Maturity level of answers
+
+The maturity level of the answers contained in this document are indicated using the following system:
+
+| Maturity level status | Icon | Description |
+| :-------------------- |:----:| :---------- |
+| Draft                 |   ⚠️  | Hasn't been reviewed by SIG. Answer may be incompplete or incorrect. |
+| Pending Review        |   👀  | Ready to be reviewed by the SIG. |
+| Pending Guidance      |   🛑  | Identified by the SIG as requiring input from the EU Commission. |
+| Approved              |   ✅  | Has been reviewed by the SIG. Represents community best effort to provide an actionable answer. |
+
+Maturity level statuses are assigned using the following process. All answers start with a maturity level status of "Draft".
+
+```mermaid
+flowchart TD
+    A[Status: Draft ⚠️]
+    B[Status: Pending Review 👀]
+    C[Status: Approved ✅]
+    D[Status: Pending Guidance 🛑]
+    A -- Ready for review --> B
+    B --> SIG{"Passes SIG Review?"}
+    SIG -- YES --> Q{"Requires EU guidance?"}
+    SIG -- NO --> A
+    Q -- NO --> C
+    Q -- YES --> D
+    D -- Guidance received --> SIG
+```
+
 ## Frequently Asked Questions about the Cyber Resilience Act (CRA)
 
 ### The Cyber Resilience Act (CRA) itself
