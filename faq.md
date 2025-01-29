@@ -34,7 +34,7 @@ The maturity level of the answers contained in this document are indicated using
 | Maturity level status | Icon | Description |
 | :-------------------- |:----:| :---------- |
 | Draft                 |   ⚠️  | Hasn't been reviewed by SIG. Answer may be incompplete or incorrect. |
-| Pending Review        |   ☕️  | Ready to be reviewed by the SIG. |
+| Pending Review        |   👀  | Ready to be reviewed by the SIG. |
 | Pending Guidance      |   🛑  | Identified by the SIG as requiring input from the EU Commission. |
 | Approved              |   ✅  | Has been reviewed by the SIG. Represents community best effort to provide an actionable answer. |
 
@@ -43,7 +43,7 @@ Maturity level statuses are assigned using the following process. All answers st
 ```mermaid
 flowchart TD
     A[Status: Draft ⚠️]
-    B[Status: Pending Review ☕️]
+    B[Status: Pending Review 👀]
     C[Status: Approved ✅]
     D[Status: Pending Guidance 🛑]
     A -- Ready for review --> B
