@@ -13,6 +13,10 @@ _Please add all relevant resources as a table row under the relevant section or 
 * [Voluntary security attestation programmes](#voluntary-security-attestation-programmes)
 * [Other](#other)
 
+## General 'meta' guidance
+
+* [CNNL guide to CRA implementation for open soure SMEs](https://cnll.fr/documents/95/CNLL_inno3_Guide-CRA_1.1.pdf)
+
 ## Horizontal Type A Standards (due Aug. 2026)
 
 ### Designing, developing and producing products with digital elements in such a way that they ensure an appropriate level of cybersecurity based on the risks
