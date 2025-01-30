@@ -126,12 +126,12 @@ No. Contributions to an open source project are explicitely not in scope of the 
 
 > This Regulation does not apply to natural or legal persons who contribute with source code to products with digital elements qualifying as free and open-source software that are not under their responsibility.
 
-#### Q: I am not subject to the CRA, but I am receiving requests from integrators of my code who seem to think I must help them, and/or I am worried that I may be held responsible under the CRA. How can I protect myself?
+#### Q: I am not subject to the CRA, and want to make this clear to downstream integrators. What should I say? / I am receiving requests from integrators of my code who seem to think I must help them. How can I politely and helpfully explain that I am not their supplier?
 Reply to their requests, stating the following:
 "
-- On the basis of Recital 18 of the Cyber Resilience Act (see below), I do not fall within the scope of the regulation, and cannot be considered as a Manufacturer or an Open source software steward under the Cyber Resilience Act.
-- On the basis of Recital 15 of the Product Liability Directive, I cannot be held liable for your use of my code.
-- On the basis of Article 13.6 of the Cyber Resilience Act, if you find a security flaw in my code, you are responsible for fixing it within your product, and forwarding the fix to me.
+- On the basis of [Recital 18 of the Cyber Resilience Act](https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=OJ:L_202402847#rct_18), I do not fall within the scope of the regulation, and cannot be considered as a Manufacturer or an Open source software steward under the Cyber Resilience Act.
+- On the basis of [Recital 15 of the Product Liability Directive](https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=OJ:L_202402853#rct_15), I cannot be held liable for your use of my code.
+- On the basis of [Article 13.6 the Cyber Resilience Act](https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=OJ:L_202402847#art_13), if you believe you have found a security flaw in this code, you are responsible for fixing it within your product and reporting it by following the vulnerability disclosure process here: << project link >>.
 "
 
 
