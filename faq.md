@@ -173,6 +173,8 @@ For this reason, until an updated version is available, the Blue Guide's guidanc
 
 #### Q: What is a _Harmonized Standard_ and why does it matter?
 
+A _Harmonized Standard_ is a standard developed by European Standardization organisations, which is designed to provide organisations who follow them with a presumption of compliance with the law. It takes the legal requirements of the law and translates them into technical requirements for those implementing it. The Harmonised Standards for the Cyber Resilience Act will define how most developers comply with the law.
+
 #### Q: What is a _legal person_?
 
 [benefit from guidance]: #questions-which-would-benefit-from-european-commission-guidance
