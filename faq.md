@@ -112,6 +112,15 @@ _It is worth noting however, that the intent of the EU legislators is to harmoni
 
 #### Q: What criteria determine whether an open source project is in scope of the CRA?
 
+- The CRA regulates _natural and legal persons_ (either an individual or an organisation that has a legal personality, like a business, foundation or charity). It places legal persons in three possible categories which with ascending requirements: out of scope, software steward, and manufacturer.
+- You are **out of scope** of the CRA (meaning you are not required to comply with the regulation), if you have not placed your project on the market. This means:
+  - If you are not monetising your project at all, you are out of scope.
+  - If you are monetising your project, without the intention of making a profit, you are out of scope as per [Recital 15 of the CRA](https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=OJ:L_202402847#rct_15). Monetising without intention of making a profit means you fulfil the following cumulative requirements:
+    - You are not providing a software platform through which you monetise other services (for instance, Google's Android).
+    - You are not requiring as a condition for use the processing of personal data for reasons other than exclusively for improving the security, compatibility or interoperability of your software.
+    - You are receiving donations or providing technical services in exchange for remuneration, where the total received does not exceed the cost of development of your software. (_Keep track of the costs of the project(hosting, hardware, compute etc..) these costs can be covered by donations. In order to include remuneration for your worked hours in the costs of the project, you may have to create a separate legal entity that contracts you to work on the project._)
+
+
 #### Q: Is distributing binaries or container images of an open source project considered as making it available on the market?
 
 No. Monetization by the original manufacturer is what determines whether a product is made available on the market. As per [Recital 18][], merely supplying open source components isn't indicative of a commercial activity:
