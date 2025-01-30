@@ -33,7 +33,7 @@ The maturity level of the answers contained in this document are indicated using
 
 | Maturity level status | Icon | Description |
 | :-------------------- |:----:| :---------- |
-| Draft                 |   ⚠️  | Hasn't been reviewed by SIG. Answer may be incompplete or incorrect. |
+| Draft                 |   ⚠️  | Hasn't been reviewed by SIG. Answer may be incomplete or incorrect. |
 | Pending Review        |   👀  | Ready to be reviewed by the SIG. |
 | Pending Guidance      |   🛑  | Identified by the SIG as requiring input from the EU Commission. |
 | Approved              |   ✅  | Has been reviewed by the SIG. Represents community best effort to provide an actionable answer. |
