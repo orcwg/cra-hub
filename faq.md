@@ -158,7 +158,10 @@ The term _Manufacturer_ is defined in [Article 3(13)][] of the CRA:
 	
 > ‘manufacturer’ means a natural or legal person who develops or manufactures products with digital elements or has products with digital elements designed, developed or manufactured, and markets them under its name or trademark, whether for payment, monetisation or free of charge;
 
-#### Q: Can a _manufacturer_ also be an _open-source software steward_?
+
+<a name="#q-can-a-manufacturer-also-be-an-open-source-software-steward"></a>
+**<span title="FAQ status: pending review">👀</span> [ <a name="faq-tmp-30" href="#faq-tmp-30">FAQ TMP-30</a> ]**
+**Can a _manufacturer_ also be an _open-source software steward_?**
 
 Yes, a _manufacturer_ can also be an _open-source software steward_, but it cannot be both the _manufacturer_ and _open-source software steward_ of the same project.
 
