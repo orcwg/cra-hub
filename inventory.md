@@ -15,7 +15,7 @@ _Please add all relevant resources as a table row under the relevant section or 
 
 ## General 'meta' guidance
 
-* [CNNL guide to CRA implementation for open soure SMEs](https://cnll.fr/documents/95/CNLL_inno3_Guide-CRA_1.1.pdf)
+* [CNLL guide to CRA implementation for open soure SMEs](https://code.inno3.eu/ouvert/guide-cra/-/tree/main?ref_type=heads)
 
 ## Horizontal Type A Standards (due Aug. 2026)
 
