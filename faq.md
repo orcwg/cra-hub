@@ -130,13 +130,19 @@ No. Contributions to an open source project are explicitely not in scope of the 
 
 #### Q: What is an _open-source software steward_?
 
-_Open-source software steward_ is a term defined in [Article 3(14)][] of the CRA. It describes an organization which supports open source software but isn't itself a commercial actor (e.g. an open source foundation):
+_Open-source software steward_ is a term defined in [Article 3(14)][] of the CRA, to subject specific organisations to a subset of CRA obligations because they exist to support free and open source software that is intended for commercial activities (by others):
 
 > ‘open-source software steward’ means a legal person, other than a manufacturer, that has the purpose or objective of systematically providing support on a sustained basis for the development of specific products with digital elements, qualifying as free and open-source software and intended for commercial activities, and that ensures the viability of those products;
 
-_Open-source software steward_ are subject to a "light-touch and tailor-made regulatory regime" ([Recital 19][]), defined in [Article 24][].
+[Recital 19][] states "Open-source software stewards include certain foundations as well as entities that develop and publish free and open-source software in a business context, including not-for-profit entities." At [FOSDEM 2024][FOSDEM24], the European Commission provided three examples of entities the co-legislators had in mind [^EC@FOSDEM24]:
+
+  1. Foundations supporting specific FOSS projects
+  2. Companies that build FOSS for their own use but make it public
+  3. Not-for-profit entities that develop FOSS
 
 #### Q: What are the obligations of _open-source software stewards_?
+
+_Open-source software steward_ are subject to a "light-touch and tailor-made regulatory regime" ([Recital 19][]), defined in [Article 24][].
 
 #### Q: How do _open-source software stewards_ demonstrate that they meet their obligations?
 
@@ -196,3 +202,5 @@ For this reason, until an updated version is available, the Blue Guide's guidanc
 [NIS 2]: https://eur-lex.europa.eu/eli/dir/2022/2555/oj
 
 [Blue Guide]: https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:52022XC0629(04)
+[^EC@FOSDEM24]: https://fosdem.org/2024/schedule/event/fosdem-2024-3683-the-regulators-are-coming-one-year-on/, at 18 min 10 seconds into the recording
+
