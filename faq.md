@@ -112,7 +112,7 @@ _It is worth noting however, that the intent of the EU legislators is to harmoni
 
 #### Q: What criteria determine whether an open source project is in scope of the CRA?
 
-- The CRA regulates _natural and legal persons_ (either an individual or an organisation that has a legal personality, like a business, foundation or charity). It places legal persons in three possible categories which with ascending requirements: out of scope, software steward, and manufacturer.
+- The CRA regulates _natural and legal persons_ (either an individual or an organisation that has a legal personality, like a business, foundation or charity). There are three possible categories with descending requirements. A natural person can be either a manufacturer or out out of scope. A legal person can be either a manufacturer, open-source software steward, or out of scope.
 - You are **out of scope** of the CRA (meaning you are not required to comply with the regulation), if you have not placed your project on the market. This means:
   - If you are not monetising your project at all, you are out of scope.
   - If you are monetising your project, without the intention of making a profit, you are out of scope as per [Recital 15 of the CRA](https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=OJ:L_202402847#rct_15). Monetising without intention of making a profit means you fulfil the following cumulative requirements:
