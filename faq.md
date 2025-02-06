@@ -18,6 +18,10 @@ The purpose of this document is twofold:
 
 This is a draft document and may be updated, replaced or obsoleted at any time. It is inappropriate to cite this document as other than a work in progress. Publication of this document as a draft does not imply endorsement by the Eclipse Foundation, Open Regulatory Working Group Members, or contributors.
 
+### Issue tracker
+
+Open issues, pull requests, and untriagged FAQs can be found on [GitHub](https://github.com/orcwg/cra-hub/labels/FAQ).
+
 ### Notation conventions
 
 #### Questions which would benefit from European Commission guidance
