@@ -4,6 +4,9 @@ The goal of this document is to collect resources that are relevant to the CRA o
 
 _Please add all relevant resources as a table row under the relevant section or subsection._
 
+> [!Note]
+> Additional resources are currently collected in this [spreadsheet](https://docs.google.com/spreadsheets/d/1Y36Vueb3Eo_djOuRdpyzoCS1vzGaKpjP-99g3J6rw7Y/edit?gid=0#gid=0) and will be folded into this document shortly.
+
 ## Table of Content
 
 * [Horizontal Type A Standards (due Aug. 2026)](#horizontal-type-a-standards-due-aug-2026)
