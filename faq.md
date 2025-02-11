@@ -112,14 +112,26 @@ _It is worth noting however, that the intent of the EU legislators is to harmoni
 
 #### Q: What criteria determine whether an open source project is in scope of the CRA?
 
-- The CRA regulates _natural and legal persons_ (either an individual or an organisation that has a legal personality, like a business, foundation or charity). There are three possible categories with descending requirements. A natural person can be either a manufacturer or out out of scope. A legal person can be either a manufacturer, open-source software steward, or out of scope.
-- You are **out of scope** of the CRA (meaning you are not required to comply with the regulation), if you have not placed your project on the market. This means:
-  - If you are not monetising your project at all, you are out of scope.
-  - If you are monetising your project, without the intention of making a profit, you are out of scope as per [Recital 15 of the CRA](https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=OJ:L_202402847#rct_15). Monetising without intention of making a profit means you fulfil the following cumulative requirements:
-    - You are not providing a software platform through which you monetise other services (for instance, Google's Android).
-    - You are not requiring as a condition for use the processing of personal data for reasons other than exclusively for improving the security, compatibility or interoperability of your software.
-    - You are receiving donations or providing technical services in exchange for remuneration, where the total received does not exceed the cost of development of your software. (_Keep track of the costs of the project(hosting, hardware, compute etc..) these costs can be covered by donations. In order to include remuneration for your worked hours in the costs of the project, you may have to create a separate legal entity that contracts you to work on the project._)
+- The CRA regulates _natural and legal persons_ (either an individual or an organisation that has a legal personality, like a business, foundation or charity). There are three possible categories with descending requirements. These categories are _manufacturer_, _Open Source Software Steward_, or _Out of Scope_.
 
+> Note: At present, we believe that a natural person (an individual) cannot be considered an Open Source Software Steward, however we are currently verifying this with the European Commission. We will provide more detailed guidance as soon as possible.
+
+- You are **out of scope** of the CRA (meaning you are not required to comply with the regulation), if you are a natural person (an individual), and:
+  - you are not monetising your project at all, or
+  - you are monetising your project, without the intention of making a profit. (See Question: What does "Monetizing without making a profit" mean?)
+
+> Note: Further information for legal persons (organisations, foundations, associations) will be provided here as soon as we receive further clarifications and information from the European Commission.
+
+#### Q: What does "Monetizing without making a profit" mean?
+
+- As an individual, if you are monetizing your project without the intention of making a profit, you are outside the scope of the regulation.
+- According to [Recital 15 of the CRA](https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=OJ:L_202402847#rct_15), monetising without intention of making a profit means you fulfil the following cumulative requirements:
+    - You are not providing a software platform through which you monetise other services (for instance, Google's Android).
+    - You are not requiring as a condition for use the processing of personal data for reasons other than exclusively for improving the security, compatibility or interoperability of your software. (in particular, you're not giving people access to your software in exchange for their personal data)
+   - You are receiving donations or providing technical services in exchange for remuneration, where the total received does not exceed the cost of development of your software (hosting, hardware, compute etc..).
+
+> Note: We are waiting for clarification from the Commission as to if remuneration for hours worked on the project can be counted in the cost of development. 
+    
 
 #### Q: Is distributing binaries or container images of an open source project considered as making it available on the market?
 
