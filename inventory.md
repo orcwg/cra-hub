@@ -10,7 +10,7 @@ _Please add all relevant resources as a table row under the relevant section or 
 ## Table of Content
 
 * [Horizontal Type A Standards (due Aug. 2026)](#horizontal-type-a-standards-due-aug-2026)
-* [Horizontal Type B Standards (due Sept. 2027)](##horizontal-type-b-standards-due-sept-2027)
+* [Horizontal Type B Standards (due Sept. 2027)](#horizontal-type-b-standards-due-sept-2027)
 * [Open Source Steward Cybersecurity policy](#open-source-steward-cybersecurity-policy)
 * [Due diligence requirements of manufacturers](#due-diligence-requirements-of-manufacturers)
 * [Voluntary security attestation programmes](#voluntary-security-attestation-programmes)
