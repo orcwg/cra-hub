@@ -18,6 +18,10 @@ The purpose of this document is twofold:
 
 This is a draft document and may be updated, replaced or obsoleted at any time. It is inappropriate to cite this document as other than a work in progress. Publication of this document as a draft does not imply endorsement by the Eclipse Foundation, Open Regulatory Working Group Members, or contributors.
 
+### Issue tracker
+
+Open issues, pull requests, and untriagged FAQs can be found on [GitHub](https://github.com/orcwg/cra-hub/labels/FAQ).
+
 ### Notation conventions
 
 #### Questions which would benefit from European Commission guidance
@@ -33,7 +37,7 @@ The maturity level of the answers contained in this document are indicated using
 
 | Maturity level status | Icon | Description |
 | :-------------------- |:----:| :---------- |
-| Draft                 |   ⚠️  | Hasn't been reviewed by SIG. Answer may be incompplete or incorrect. |
+| Draft                 |   ⚠️  | Hasn't been reviewed by SIG. Answer may be incomplete or incorrect. |
 | Pending Review        |   👀  | Ready to be reviewed by the SIG. |
 | Pending Guidance      |   🛑  | Identified by the SIG as requiring input from the EU Commission. |
 | Approved              |   ✅  | Has been reviewed by the SIG. Represents community best effort to provide an actionable answer. |

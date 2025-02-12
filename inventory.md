@@ -4,10 +4,13 @@ The goal of this document is to collect resources that are relevant to the CRA o
 
 _Please add all relevant resources as a table row under the relevant section or subsection._
 
+> [!Note]
+> Additional resources are currently collected in this [spreadsheet](https://docs.google.com/spreadsheets/d/1Y36Vueb3Eo_djOuRdpyzoCS1vzGaKpjP-99g3J6rw7Y/edit?gid=0#gid=0) and will be folded into this document shortly.
+
 ## Table of Content
 
 * [Horizontal Type A Standards (due Aug. 2026)](#horizontal-type-a-standards-due-aug-2026)
-* [Horizontal Type B Standards (due Sept. 2027)](##horizontal-type-b-standards-due-sept-2027)
+* [Horizontal Type B Standards (due Sept. 2027)](#horizontal-type-b-standards-due-sept-2027)
 * [Open Source Steward Cybersecurity policy](#open-source-steward-cybersecurity-policy)
 * [Due diligence requirements of manufacturers](#due-diligence-requirements-of-manufacturers)
 * [Voluntary security attestation programmes](#voluntary-security-attestation-programmes)
@@ -32,6 +35,7 @@ Impact on steward: `Partial obligation` ("foster development of secure product",
 | [OWASP Software Assurance Maturity Model (SAMM)](https://owaspsamm.org) | OWASP | CC-BY-SA-4.0 | Maturity Model | 2009 – present | SAMM is a maturity model that helps organizations implement a Secure Development Lifecycle. |
 | [OWASP DevSecOps Maturity Model (DSOMM)](https://dsomm.owasp.org) | OWASP | GPL-3 | Maturity Model | 2017 – present | DSOMM is a maturity model aimed at implementing DevSecOps best practices. |
 | [OWASP Cheat Sheet Series](https://cheatsheetseries.owasp.org) | OWASP | CC BY-SA 4.0 | Informal Guidelines | 2014 – present | OWASP Cheat Sheets are a collection of pragmatic secruity guidelines and best practices for a wide range of technologies. |
+| [NIST Secure Software Development Framework (NIST SP 800-218)](https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-218.pdf) | National Institute of Standards and Technology (NIST) | No License Required | Guidelines | 2022-02 - present | SSDF is a set of community-derived and regulatory-aligned practices for the creation and usage of software |
 
 ### Vulnerability handling for products with digital elements
 
@@ -49,7 +53,9 @@ Impact on steward: `obligation`
 | [ASF Classification of vulnerabilties ](https://security.apache.org/blog/severityrating/) | ASF | [ASLv2](https://www.apache.org/licenses/LICENSE-2.0) | practice | 25 Apr, 2023  | Captures lessons learned and best practices around vulnerability classification; Improves upon similar scales used by [Microsoft](https://www.microsoft.com/en-us/msrc/security-update-severity-rating-system?oneroute=true), OpenSSL, Red Hat various Apache projects] |
 | [Generic ASF vulnerability reporting process](https://apache.org/security/) | ASF | [ASLv2](https://www.apache.org/licenses/LICENSE-2.0) | policy | current | Generic process for reporting a vulnerability (i.e. not project specific) |
 |[Generic ASF handling process for vulnerabilities](https://apache.org/security/committers.html) | ASF | [ASLv2](https://www.apache.org/licenses/LICENSE-2.0) | policy | current | Generic process for developers to follow when handling a vulnerability report (i.e. not project/risk specific) |
- 
+| [Guide to coordinated vulnerability disclosure for open source software projects](https://github.com/ossf/oss-vulnerability-guide) | OpenSSF | CC-BY-4.0 | Guidance, templates, and advise for how open source projects and security researchers can better coordinate vulnerability disclosures together | 2022 - present | |
+| [Guidelines and Practices for Multi-Party Vulnerability Coordination and Disclosure](https://www.first.org/global/sigs/vulnerability-coordination/multiparty/guidelines-v1.1) | Forum of Incident Response and Security Teams (FIRST) | none | Guidelines for handling coordiantion of complex (multiparty) vulnerabilities | Spring 2020 | |
+| [The CERT® Guide to Coordinated Vulnerability Disclosure](https://insights.sei.cmu.edu/documents/1945/2017_003_001_503340.pdf) | CERT-CC/Software Engineering Institure (SEI) at Carnegie Mellon University | None - approved for public release and unlimited distribution | Guide | | 
 
 ## Horizontal Type B Standards (due Sept. 2027)
 
@@ -191,7 +197,9 @@ Impact on steward: `obligation`
 
 | Name & URL | Publisher | License | Type | Date | Notes |
 | ---- | ---- | ---- | ---- | ---- | ---- |
-|  |  |  |  |  |  |
+| [OpenSSF Outbound Vulnerability Disclosure Policy Template](https://github.com/ossf/wg-vulnerability-disclosures/blob/main/docs/Outbound_Vulnerability_Disclosure_Policy_template.md) | OpenSSF | Apache-2.0 | Policy Template | 2024- present | |
+| [OpenSSF Security Policy Templates](https://github.com/ossf/oss-vulnerability-guide/tree/main/templates/security_policies) | OpenSSF | Apache-2.0 | Policy Template | 2022- present | |
+
 
 ## Due diligence requirements of manufacturers
 
