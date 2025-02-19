@@ -1,6 +1,6 @@
-# Summary of European Commission Draft standardisation request
+# Summary of European Commission implementing decision of a standardisation request to the ESOs
 
-This is a summary of the [European Commission Draft standardisation request](https://ec.europa.eu/docsroom/documents/58974) of April 17, 2024.
+This is a summary of the [European Commission implementing decision of a standardisation request to the ESOs](https://ec.europa.eu/transparency/documents-register/detail?ref=C(2025)618&lang=en) of February 2, 2025.
 
 ## Milestone 1 - Standards due Aug. 2026
 
