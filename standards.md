@@ -1,6 +1,6 @@
 # Summary of European Commission implementing decision of a standardisation request to the ESOs
 
-This is a summary of the [European Commission implementing decision of a standardisation request to the ESOs](https://ec.europa.eu/transparency/documents-register/detail?ref=C(2025)618&lang=en) of February 2, 2025.
+This is a summary of the [European Commission implementing decision of a standardisation request to the ESOs](https://ec.europa.eu/transparency/documents-register/detail?ref=C(2025)618&lang=en) of February 2, 2025 (PDFs: [act](./resources/C(2025)618_0.pdf), [annexes](./resources/C(2025)618_1.pdf)).
 
 ## Milestone 1 - Horizontal standards due August 30, 2026
 
