@@ -9,20 +9,20 @@ _Please add all relevant resources as a table row under the relevant section or 
 
 ## Table of Content
 
-* [Horizontal Type A Standards (due Aug. 2026)](#horizontal-type-a-standards-due-aug-2026)
-* [Horizontal Type B Standards (due Sept. 2027)](#horizontal-type-b-standards-due-sept-2027)
+* [Horizontal Type A Standards (due Aug. 2026)](#horizontal-type-a-standards-due-august-30-2026)
+* [Horizontal Type B Standards (due Sept. 2027)](#horizontal-type-b-standards-due-october-30-2027)
 * [Open Source Steward Cybersecurity policy](#open-source-steward-cybersecurity-policy)
 * [Due diligence requirements of manufacturers](#due-diligence-requirements-of-manufacturers)
 * [Voluntary security attestation programmes](#voluntary-security-attestation-programmes)
 * [Other](#other)
 
-## Horizontal Type A Standards (due Aug. 2026)
+## Horizontal Type A Standards (due August 30, 2026)
 
 ### Designing, developing and producing products with digital elements in such a way that they ensure an appropriate level of cybersecurity based on the risks
 
-CRA ref: [Annex I, Part I, point (1)](https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=OJ:L_202402847#anx_I)\
+CRA ref: [Annex I, Part I, point (1)][Annex I]\
 Standards request ref: 1\
-Impact on steward: `Partial obligation` ("foster development of secure product", [Article. 24(1)](https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=OJ:L_202402847#art_24))
+Impact on steward: `Partial obligation` ("foster development of secure product", [Article 24(1)][Article 24])
 
 
 | Name & URL | Publisher | License | Type | Date | Notes |
@@ -35,7 +35,7 @@ Impact on steward: `Partial obligation` ("foster development of secure product",
 
 ### Vulnerability handling for products with digital elements
 
-CRA ref: [Annex I, Part II](https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=OJ:L_202402847#anx_I)\
+CRA ref: [Annex I, Part II][Annex I]\
 Standards request ref: 15\
 Impact on steward: `obligation`
 
@@ -54,11 +54,11 @@ Impact on steward: `obligation`
 | [The CERT® Guide to Coordinated Vulnerability Disclosure](https://insights.sei.cmu.edu/documents/1945/2017_003_001_503340.pdf) | CERT-CC/Software Engineering Institure (SEI) at Carnegie Mellon University | None - approved for public release and unlimited distribution | Guide | |
  
 
-## Horizontal Type B Standards (due Sept. 2027)
+## Horizontal Type B Standards (due October 30, 2027)
 
 ### Making products with digital elements available on the market without known exploitable vulnerabilities
 
-CRA ref: [Annex I, Part I, point (2)(a)](https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=OJ:L_202402847#anx_I)\
+CRA ref: [Annex I, Part I, point (2)(a)][Annex I]\
 Standards request ref: 2\
 Impact on steward: `attestations`
 
@@ -68,7 +68,7 @@ Impact on steward: `attestations`
 
 ### Making products with digital elements available on the market with a secure by default configuration
 
-CRA ref: [Annex I, Part I, point (2)(b)](https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=OJ:L_202402847#anx_I)\
+CRA ref: [Annex I, Part I, point (2)(b)][Annex I]\
 Standards request ref: 3\
 Impact on steward: `attestations`
 
@@ -78,7 +78,7 @@ Impact on steward: `attestations`
 
 ### Ensuring that vulnerabilities in products with digital elements can be addressed through security updates
 
-CRA ref: [Annex I, Part I, point (2)(c)](https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=OJ:L_202402847#anx_I)\
+CRA ref: [Annex I, Part I, point (2)(c)][Annex I]\
 Standards request ref: 4\
 Impact on steward: `attestations`
 
@@ -88,7 +88,7 @@ Impact on steward: `attestations`
 
 ### Ensuring protection of products with digital elements from unauthorised access and reporting on possible unauthorised access
 
-CRA ref: [Annex I, Part I, point (2)(d)](https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=OJ:L_202402847#anx_I)\
+CRA ref: [Annex I, Part I, point (2)(d)][Annex I]\
 Standards request ref: 5\
 Impact on steward: `attestations`
 
@@ -98,7 +98,7 @@ Impact on steward: `attestations`
 
 ### Protecting the confidentiality of data stored, transmitted or otherwise processed by a product with digital elements
 
-CRA ref: [Annex I, Part I, point (2)(e)](https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=OJ:L_202402847#anx_I)\
+CRA ref: [Annex I, Part I, point (2)(e)][Annex I]\
 Standards request ref: 6\
 Impact on steward: `attestations`
 
@@ -108,7 +108,7 @@ Impact on steward: `attestations`
 
 ### Protecting the integrity of data, commands, programs by a product with digital elements, and its configuration against any manipulation or modification not authorised by the user, as well as reporting on corruptions
 
-CRA ref: [Annex I, Part I, point (2)(f)](https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=OJ:L_202402847#anx_I)\
+CRA ref: [Annex I, Part I, point (2)(f)][Annex I]\
 Standards request ref: 7\
 Impact on steward: `attestations`
 
@@ -118,7 +118,7 @@ Impact on steward: `attestations`
 
 ### Processing only personal or other data that are adequate, relevant and limited to what is necessary in relation to the intended purpose of the product with digital elements (‘minimisation of data’)
 
-CRA ref: [Annex I, Part I, point (2)(g)](https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=OJ:L_202402847#anx_I)\
+CRA ref: [Annex I, Part I, point (2)(g)][Annex I]\
 Standards request ref: 8\
 Impact on steward: `attestations`
 
@@ -128,7 +128,7 @@ Impact on steward: `attestations`
 
 ### Protecting the availability of essential and basic functions of the product with digital elements
 
-CRA ref: [Annex I, Part I, point (2)(h)](https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=OJ:L_202402847#anx_I)\
+CRA ref: [Annex I, Part I, point (2)(h)][Annex I]\
 Standards request ref: 9\
 Impact on steward: `attestations`
 
@@ -138,7 +138,7 @@ Impact on steward: `attestations`
 
 ### Minimising the negative impact of a product with digital elements or its connected devices on the availability of services provided by other devices or networks
 
-CRA ref: [Annex I, Part I, point (2)(i)](https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=OJ:L_202402847#anx_I)\
+CRA ref: [Annex I, Part I, point (2)(i)][Annex I]\
 Standards request ref: 10\
 Impact on steward: `attestations`
 
@@ -148,7 +148,7 @@ Impact on steward: `attestations`
 
 ### Designing, developing and producing products with digital elements with limitted attack surfaces
 
-CRA ref: [Annex I, Part I, point (2)(j)](https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=OJ:L_202402847#anx_I)\
+CRA ref: [Annex I, Part I, point (2)(j)][Annex I]\
 Standards request ref: 11\
 Impact on steward: `attestations`
 
@@ -158,7 +158,7 @@ Impact on steward: `attestations`
 
 ### Designing, developing and producing products with digital elements that reduce the impact of an incident using appropriate exploitation mitigation mechanisms and techniques
 
-CRA ref: [Annex I, Part I, point (2)(k)](https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=OJ:L_202402847#anx_I)\
+CRA ref: [Annex I, Part I, point (2)(k)][Annex I]\
 Standards request ref: 12\
 Impact on steward: `attestations`
 
@@ -168,7 +168,7 @@ Impact on steward: `attestations`
 
 ### Providing security related information by recording and/or monitoring relevant internal activity of products with digital elements with an opt-out mechanism for the user
 
-CRA ref: [Annex I, Part I, point (2)(l)](https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=OJ:L_202402847#anx_I)\
+CRA ref: [Annex I, Part I, point (2)(l)][Annex I]\
 Standards request ref: 13\
 Impact on steward: `attestations`
 
@@ -176,9 +176,9 @@ Impact on steward: `attestations`
 | ---- | ---- | ---- | ---- | ---- | ---- |
 |  |  |  |  |  |  |
 
-### Securely and easily removing or transferring all data and settings of a product with digital elements.
+### Securely and easily removing or transferring all data and settings of a product with digital elements
 
-CRA ref: [Annex I, Part I, point (2)(m)](https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=OJ:L_202402847#anx_I)\
+CRA ref: [Annex I, Part I, point (2)(m)][Annex I]\
 Standards request ref: 14\
 Impact on steward: `attestations`
 
@@ -188,7 +188,7 @@ Impact on steward: `attestations`
 
 ## Open Source Steward Cybersecurity policy
 
-CRA ref: [Article 24(1)](https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=OJ:L_202402847#art_24)\
+CRA ref: [Article 24(1)][Article 24]\
 Standards request ref: N/A\
 Impact on steward: `obligation`
 
@@ -200,7 +200,7 @@ Impact on steward: `obligation`
 
 ## Due diligence requirements of manufacturers
 
-CRA ref: [Article 13(5)](https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=OJ:L_202402847#art_24)\
+CRA ref: [Article 13(5)][Article 13]\
 Standards request ref: N/A\
 Impact on steward: `attestations`
 
@@ -210,7 +210,7 @@ Impact on steward: `attestations`
 
 ## Voluntary security attestation programmes
 
-CRA ref: [Article 25](https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=OJ:L_202402847#art_25)\
+CRA ref: [Article 25][]\
 Standards request ref: N/A\
 Impact on steward: `attestations`
 
@@ -229,3 +229,9 @@ _Please add relevant resources below that don't fit well in the other categories
 | Name & URL | Publisher | License | Type | Date | Notes |
 | ---- | ---- | ---- | ---- | ---- | ---- |
 |  |  |  |  |  |  |
+
+
+[Annex I]: https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=OJ:L_202402847#anx_I
+[Article 13]: https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=OJ:L_202402847#art_13
+[Article 24]: https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=OJ:L_202402847#art_24
+[Article 25]: https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=OJ:L_202402847#art_25
