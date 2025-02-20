@@ -46,7 +46,7 @@ These standards describe essential cybersecurity requirements for the _Important
 
 | Number | Description | CRA link | ESO |
 |---|---|---|---|
-| 2 | making products with digital elements available on the market without known exploitable vulnerabilities |  [Annex&nbsp;I,&nbsp;Part&nbsp;I,&nbsp;point&nbsp;(2)&#8288;(a)][Annex I] | CEN/CENELEC&nbsp;WG9&nbsp;PT2 |
+| 2 | making products with digital elements available on the market without known exploitable vulnerabilities | [Annex&nbsp;I,&nbsp;Part&nbsp;I,&nbsp;point&nbsp;(2)&#8288;(a)][Annex I] | CEN/CENELEC&nbsp;WG9&nbsp;PT2 |
 | 3 | making products with digital elements available on the market with a secure by default configuration | [Annex&nbsp;I,&nbsp;Part&nbsp;I,&nbsp;point&nbsp;(2)&#8288;(b)][Annex I] | CEN/CENELEC&nbsp;WG9&nbsp;PT2 |
 | 4 | ensuring that vulnerabilities in products with digital elements can be addressed through security updates | [Annex&nbsp;I,&nbsp;Part&nbsp;I,&nbsp;point&nbsp;(2)&#8288;(c)][Annex I] | CEN/CENELEC&nbsp;WG9&nbsp;PT2 |
 | 5 | ensuring protection of products with digital elements from unauthorised access and reporting on possible unauthorised access | [Annex&nbsp;I,&nbsp;Part&nbsp;I,&nbsp;point&nbsp;(2)&#8288;(d)][Annex I] | CEN/CENELEC&nbsp;WG9&nbsp;PT2 |
