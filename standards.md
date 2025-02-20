@@ -4,18 +4,18 @@ This is a summary of the [European Commission implementing decision of a standar
 
 ## Milestone 1 - Horizontal standards due August 30, 2026
 
-| Number | Description | Link |
-|---|---|---|
-| 1 | designing, developing and producing products with digital elements in such a way that they ensure an appropriate level of cybersecurity based on the risks | [Annex&nbsp;I,&nbsp;Part&nbsp;I,&nbsp;point&nbsp;(1)][Annex I] |
-| 15 | vulnerability handling for products with digital elements | [Annex&nbsp;I,&nbsp;Part&nbsp;II][Annex I] |
+| Number | Description | CRA Link | ESO |
+|---|---|---|---|
+| 1 | designing, developing and producing products with digital elements in such a way that they ensure an appropriate level of cybersecurity based on the risks | [Annex&nbsp;I,&nbsp;Part&nbsp;I,&nbsp;point&nbsp;(1)][Annex I] | CEN/CENELEC&nbsp;WG9&nbsp;PT1 |
+| 15 | vulnerability handling for products with digital elements | [Annex&nbsp;I,&nbsp;Part&nbsp;II][Annex I] | CEN/CENELEC&nbsp;WG9&nbsp;PT3 |
 
 ## Milestone 2 - Vertical standards due October 30, 2026
 
 These standards describe essential cybersecurity requirements for the _Important Products_ listed in [Annex III][] and the _Critical Products_ listed in [Annex IV][].
 
-| Number | Description | Link |
-|---|---|---|
-| 16 | identity management systems and privileged access management software and hardware, including authentication and access control readers, including biometric readers | [Annex&nbsp;III,&nbsp;Class&nbsp;I,&nbsp;point&nbsp;(1)][Annex III] |
+| Number | Description | CRA Link | ESO |
+|---|---|---|---|
+| 16 | identity management systems and privileged access management software and hardware, including authentication and access control readers, including biometric readers | [Annex&nbsp;III,&nbsp;Class&nbsp;I,&nbsp;point&nbsp;(1)][Annex III] | 
 | 17 | standalone and embedded browsers | [Annex&nbsp;III,&nbsp;Class&nbsp;I,&nbsp;point&nbsp;(2)][Annex III] |
 | 18 | password managers | [Annex&nbsp;III,&nbsp;Class&nbsp;I,&nbsp;point&nbsp;(3)][Annex III] |
 | 19 | software that searches for, removes, or quarantines malicious software | [Annex&nbsp;III,&nbsp;Class&nbsp;I,&nbsp;point&nbsp;(4)][Annex III] |
@@ -44,21 +44,21 @@ These standards describe essential cybersecurity requirements for the _Important
 
 ## Milestone 3 - Horizontal standards due October 30, 2027
 
-| Number | Description | CRA link |
-|---|---|---|
-| 2 | making products with digital elements available on the market without known exploitable vulnerabilities | [Annex&nbsp;I,&nbsp;Part&nbsp;I,&nbsp;point&nbsp;(2)&#8288;(a)][Annex I] |
-| 3 | making products with digital elements available on the market with a secure by default configuration | [Annex&nbsp;I,&nbsp;Part&nbsp;I,&nbsp;point&nbsp;(2)&#8288;(b)][Annex I] |
-| 4 | ensuring that vulnerabilities in products with digital elements can be addressed through security updates | [Annex&nbsp;I,&nbsp;Part&nbsp;I,&nbsp;point&nbsp;(2)&#8288;(c)][Annex I] |
-| 5 | ensuring protection of products with digital elements from unauthorised access and reporting on possible unauthorised access | [Annex&nbsp;I,&nbsp;Part&nbsp;I,&nbsp;point&nbsp;(2)&#8288;(d)][Annex I] |
-| 6 | protecting the confidentiality of data stored, transmitted or otherwise processed by a product with digital elements | [Annex&nbsp;I,&nbsp;Part&nbsp;I,&nbsp;point&nbsp;(2)&#8288;(e)][Annex I] |
-| 7 | protecting the integrity of data, commands, programs by a product with digital elements, and its configuration against any manipulation or modification not authorised by the user, as well as reporting on corruptions | [Annex&nbsp;I,&nbsp;Part&nbsp;I,&nbsp;point&nbsp;(2)&#8288;(f)][Annex I] |
-| 8 | processing only personal or other data that are adequate, relevant and limited to what is necessary in relation to the intended purpose of the product with digital elements (‘minimisation of data’) | [Annex&nbsp;I,&nbsp;Part&nbsp;I,&nbsp;point&nbsp;(2)&#8288;(g)][Annex I] |
-| 9 | protecting the availability of essential and basic functions of the product with digital elements | [Annex&nbsp;I,&nbsp;Part&nbsp;I,&nbsp;point&nbsp;(2)&#8288;(h)][Annex I] |
-| 10 | minimising the negative impact of a product with digital elements or its connected devices on the availability of services provided by other devices or networks | [Annex&nbsp;I,&nbsp;Part&nbsp;I,&nbsp;point&nbsp;(2)&#8288;(i)][Annex I] |
-| 11 | designing, developing and producing products with digital elements with limitted attack surfaces | [Annex&nbsp;I,&nbsp;Part&nbsp;I,&nbsp;point&nbsp;(2)&#8288;(j)][Annex I] |
-| 12 | designing, developing and producing products with digital elements that reduce the impact of an incident using appropriate exploitation mitigation mechanisms and techniques | [Annex&nbsp;I,&nbsp;Part&nbsp;I,&nbsp;point&nbsp;(2)&#8288;(k)][Annex I] |
-| 13 | providing security related information by recording and/or monitoring relevant internal activity of products with digital elements with an opt-out mechanism for the user | [Annex&nbsp;I,&nbsp;Part&nbsp;I,&nbsp;point&nbsp;(2)&#8288;(l)][Annex I] |
-| 14 | securely and easily removing or transferring all data and settings of a product with digital elements. | [Annex&nbsp;I,&nbsp;Part&nbsp;I,&nbsp;point&nbsp;(2)&#8288;(m)][Annex I] |
+| Number | Description | CRA link | ESO |
+|---|---|---|---|
+| 2 | making products with digital elements available on the market without known exploitable vulnerabilities |  [Annex&nbsp;I,&nbsp;Part&nbsp;I,&nbsp;point&nbsp;(2)&#8288;(a)][Annex I] | CEN/CENELEC&nbsp;WG9&nbsp;PT2 |
+| 3 | making products with digital elements available on the market with a secure by default configuration | [Annex&nbsp;I,&nbsp;Part&nbsp;I,&nbsp;point&nbsp;(2)&#8288;(b)][Annex I] | CEN/CENELEC&nbsp;WG9&nbsp;PT2 |
+| 4 | ensuring that vulnerabilities in products with digital elements can be addressed through security updates | [Annex&nbsp;I,&nbsp;Part&nbsp;I,&nbsp;point&nbsp;(2)&#8288;(c)][Annex I] | CEN/CENELEC&nbsp;WG9&nbsp;PT2 |
+| 5 | ensuring protection of products with digital elements from unauthorised access and reporting on possible unauthorised access | [Annex&nbsp;I,&nbsp;Part&nbsp;I,&nbsp;point&nbsp;(2)&#8288;(d)][Annex I] | CEN/CENELEC&nbsp;WG9&nbsp;PT2 |
+| 6 | protecting the confidentiality of data stored, transmitted or otherwise processed by a product with digital elements | [Annex&nbsp;I,&nbsp;Part&nbsp;I,&nbsp;point&nbsp;(2)&#8288;(e)][Annex I] | CEN/CENELEC&nbsp;WG9&nbsp;PT2 |
+| 7 | protecting the integrity of data, commands, programs by a product with digital elements, and its configuration against any manipulation or modification not authorised by the user, as well as reporting on corruptions | [Annex&nbsp;I,&nbsp;Part&nbsp;I,&nbsp;point&nbsp;(2)&#8288;(f)][Annex I] | CEN/CENELEC&nbsp;WG9&nbsp;PT2 |
+| 8 | processing only personal or other data that are adequate, relevant and limited to what is necessary in relation to the intended purpose of the product with digital elements (‘minimisation of data’) | [Annex&nbsp;I,&nbsp;Part&nbsp;I,&nbsp;point&nbsp;(2)&#8288;(g)][Annex I] | CEN/CENELEC&nbsp;WG9&nbsp;PT2 |
+| 9 | protecting the availability of essential and basic functions of the product with digital elements | [Annex&nbsp;I,&nbsp;Part&nbsp;I,&nbsp;point&nbsp;(2)&#8288;(h)][Annex I] | CEN/CENELEC&nbsp;WG9&nbsp;PT2 |
+| 10 | minimising the negative impact of a product with digital elements or its connected devices on the availability of services provided by other devices or networks | [Annex&nbsp;I,&nbsp;Part&nbsp;I,&nbsp;point&nbsp;(2)&#8288;(i)][Annex I] | CEN/CENELEC&nbsp;WG9&nbsp;PT2 |
+| 11 | designing, developing and producing products with digital elements with limitted attack surfaces | [Annex&nbsp;I,&nbsp;Part&nbsp;I,&nbsp;point&nbsp;(2)&#8288;(j)][Annex I] | CEN/CENELEC&nbsp;WG9&nbsp;PT2 |
+| 12 | designing, developing and producing products with digital elements that reduce the impact of an incident using appropriate exploitation mitigation mechanisms and techniques | [Annex&nbsp;I,&nbsp;Part&nbsp;I,&nbsp;point&nbsp;(2)&#8288;(k)][Annex I] | CEN/CENELEC&nbsp;WG9&nbsp;PT2 |
+| 13 | providing security related information by recording and/or monitoring relevant internal activity of products with digital elements with an opt-out mechanism for the user | [Annex&nbsp;I,&nbsp;Part&nbsp;I,&nbsp;point&nbsp;(2)&#8288;(l)][Annex I] | CEN/CENELEC&nbsp;WG9&nbsp;PT2 |
+| 14 | securely and easily removing or transferring all data and settings of a product with digital elements. | [Annex&nbsp;I,&nbsp;Part&nbsp;I,&nbsp;point&nbsp;(2)&#8288;(m)][Annex I] | CEN/CENELEC&nbsp;WG9&nbsp;PT2 |
 
 [Annex I]:   https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=OJ:L_202402847#anx_I 
 [Annex III]: https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=OJ:L_202402847#anx_III
