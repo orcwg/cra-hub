@@ -58,7 +58,7 @@ These standards describe essential cybersecurity requirements for the _Important
 | 11 | designing, developing and producing products with digital elements with limitted attack surfaces | [Annex&nbsp;I,&nbsp;Part&nbsp;I,&nbsp;point&nbsp;(2)&#8288;(j)][Annex I] |
 | 12 | designing, developing and producing products with digital elements that reduce the impact of an incident using appropriate exploitation mitigation mechanisms and techniques | [Annex&nbsp;I,&nbsp;Part&nbsp;I,&nbsp;point&nbsp;(2)&#8288;(k)][Annex I] |
 | 13 | providing security related information by recording and/or monitoring relevant internal activity of products with digital elements with an opt-out mechanism for the user | [Annex&nbsp;I,&nbsp;Part&nbsp;I,&nbsp;point&nbsp;(2)&#8288;(l)][Annex I] |
-| 14 | securely and easily removing or transferring all data and settings of a product with digital elements. | [Annex&nbsp;I,&nbsp;Part&nbsp;I,&nbsp;point&nbsp;(2)&#8288;(m)][Annex I] |
+| 14 | securely and easily removing or transferring all data and settings of a product with digital elements | [Annex&nbsp;I,&nbsp;Part&nbsp;I,&nbsp;point&nbsp;(2)&#8288;(m)][Annex I] |
 
 [Annex I]:   https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=OJ:L_202402847#anx_I 
 [Annex III]: https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=OJ:L_202402847#anx_III
