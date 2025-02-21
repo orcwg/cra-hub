@@ -162,28 +162,41 @@ In [Article 3(14)][], the CRA defines _open-source software steward_ as a _legal
 
 ### Manufacturers
 
-#### Q: What is a _manufacturer_?
+<a name="q-what-is-a-manufacturer"></a>
+**<span title="FAQ status: pending review">👀</span> [ <a name="faq-tmp-59" href="#faq-tmp-59">FAQ TMP-59</a> ]**
+**What is a _manufacturer_?**
 
 The term _Manufacturer_ is defined in [Article 3(13)][] of the CRA:
 	
 > ‘manufacturer’ means a natural or legal person who develops or manufactures products with digital elements or has products with digital elements designed, developed or manufactured, and markets them under its name or trademark, whether for payment, monetisation or free of charge;
 
-#### Q: Can a _manufacturer_ also be an _open-source software steward_?
+
+<a name="q-can-a-manufacturer-also-be-an-open-source-software-steward"></a>
+**<span title="FAQ status: pending review">👀</span> [ <a name="faq-tmp-30" href="#faq-tmp-30">FAQ TMP-30</a> ]**
+**Can a _manufacturer_ also be an _open-source software steward_?**
 
 Yes, a _manufacturer_ can also be an _open-source software steward_, but it cannot be both the _manufacturer_ and _open-source software steward_ of the same project.
 
 ### EU Legislation
 
-#### Q: What is the _Blue Guide_?
+<a name="q-what-is-the-blue-guide"></a>
+**<span title="FAQ status: pending review">👀</span> [ <a name="faq-tmp-4" href="#faq-tmp-4">FAQ TMP-4</a> ]**
+**What is the _Blue Guide_?**
 
 The [Blue Guide][] is one of the main reference documents of the European Commission explaining how to implement legislation based on the New Legislative Framework (NLF). Unlike the CRA, the Blue Guide does not have legal force. It predates the CRA and only discusses software as something embedded into a physical product, not as standalone.
 For this reason, until an updated version is available, the Blue Guide's guidance should be read in light of the CRA's wider scope and take into account the nuances introduced in the CRA for software. For example, on the concept of "commercial activity", [Recital 18][] CRA provides more specific guidance on "monetisation" and "non-profit organisations" than is available in the Blue Guide's "Making available on the market" section.
 
-#### Q: What is the _New Legislative Framework_ (NLF)?
+<a name="q-what-is-the-new-legislative-framework-nlf"></a>
+**<span title="FAQ status: draft">⚠️</span> [ <a name="faq-tmp-57" href="#faq-tmp-57">FAQ TMP-57</a> ]**
+**What is the _New Legislative Framework_ (NLF)?**
 
-#### Q: What is a _Harmonized Standard_ and why does it matter?
+<a name="q-what-is-a-harmonized-standard-and-why-does-it-matter"></a>
+**<span title="FAQ status: draft">⚠️</span> [ <a name="faq-tmp-56" href="#faq-tmp-56">FAQ TMP-56</a> ]**
+**What is a _Harmonized Standard_ and why does it matter?**
 
-#### Q: What is a _legal person_?
+<a name="q-what-is-a-legal-person"></a>
+**<span title="FAQ status: draft">⚠️</span> [ <a name="faq-tmp-55" href="#faq-tmp-55">FAQ TMP-55</a> ]**
+**What is a _legal person_?**
 
 [benefit from guidance]: #questions-which-would-benefit-from-european-commission-guidance
 
