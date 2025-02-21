@@ -52,7 +52,8 @@ Impact on steward: `obligation`
 | [Guide to coordinated vulnerability disclosure for open source software projects](https://github.com/ossf/oss-vulnerability-guide) | OpenSSF | CC-BY-4.0 | Guidance, templates, and advise for how open source projects and security researchers can better coordinate vulnerability disclosures together | 2022 - present | |
 | [Guidelines and Practices for Multi-Party Vulnerability Coordination and Disclosure](https://www.first.org/global/sigs/vulnerability-coordination/multiparty/guidelines-v1.1) | Forum of Incident Response and Security Teams (FIRST) | none | Guidelines for handling coordiantion of complex (multiparty) vulnerabilities | Spring 2020 | |
 | [The CERT® Guide to Coordinated Vulnerability Disclosure](https://insights.sei.cmu.edu/documents/1945/2017_003_001_503340.pdf) | CERT-CC/Software Engineering Institure (SEI) at Carnegie Mellon University | None - approved for public release and unlimited distribution | Guide | |
- 
+| [EUCC Scheme Guidelines on Vulnerability Management and Disclosure](https://certification.enisa.europa.eu/document/download/5f61edd4-0151-4687-8a08-c11c103498f3_en?filename=EUCC_guidelines_vulnerability%20management%20and%20disclosure_v1.1_0.pdf) | European Union Agency for Cybersecurity (ENISA) | CC-BY-ND 4.0 DEED | Guidelines for the EUCC Scheme | Version 1.1 January 2025 - a schema in the European Common Criteria framework |
+
 
 ## Horizontal Type B Standards (due October 30, 2027)
 
