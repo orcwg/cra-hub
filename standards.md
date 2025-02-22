@@ -15,32 +15,32 @@ These standards describe essential cybersecurity requirements for the _Important
 
 | Number | Description | CRA Link | ESO |
 |---|---|---|---|
-| 16 | identity management systems and privileged access management software and hardware, including authentication and access control readers, including biometric readers | [Annex&nbsp;III,&nbsp;Class&nbsp;I,&nbsp;point&nbsp;(1)][Annex III] | |
-| 17 | standalone and embedded browsers | [Annex&nbsp;III,&nbsp;Class&nbsp;I,&nbsp;point&nbsp;(2)][Annex III] | |
-| 18 | password managers | [Annex&nbsp;III,&nbsp;Class&nbsp;I,&nbsp;point&nbsp;(3)][Annex III] | |
-| 19 | software that searches for, removes, or quarantines malicious software | [Annex&nbsp;III,&nbsp;Class&nbsp;I,&nbsp;point&nbsp;(4)][Annex III] | |
-| 20 | products with digital elements with the function of virtual private network (VPN) | [Annex&nbsp;III,&nbsp;Class&nbsp;I,&nbsp;point&nbsp;(5)][Annex III] | |
-| 21 | network management systems | [Annex&nbsp;III,&nbsp;Class&nbsp;I,&nbsp;point&nbsp;(6)][Annex III] | |
-| 22 | Security information and event management (SIEM) systems | [Annex&nbsp;III,&nbsp;Class&nbsp;I,&nbsp;point&nbsp;(7)][Annex III] | |
-| 23 | boot managers | [Annex&nbsp;III,&nbsp;Class&nbsp;I,&nbsp;point&nbsp;(8)][Annex III] | |
-| 24 | public key infrastructure and digital certificate issuance software | [Annex&nbsp;III,&nbsp;Class&nbsp;I,&nbsp;point&nbsp;(9)][Annex III] | |
-| 25 | physical and virtual network interfaces | [Annex&nbsp;III,&nbsp;Class&nbsp;I,&nbsp;point&nbsp;(10)][Annex III] | |
-| 26 | operating systems | [Annex&nbsp;III,&nbsp;Class&nbsp;I,&nbsp;point&nbsp;(11)][Annex III] | |
-| 27 | routers, modems intended for the connection to the internet, and switches | [Annex&nbsp;III,&nbsp;Class&nbsp;I,&nbsp;point&nbsp;(12)][Annex III] | |
-| 28 | microprocessors with security-related functionalities | [Annex&nbsp;III,&nbsp;Class&nbsp;I,&nbsp;point&nbsp;(13)][Annex III] | |
-| 29 | microcontrollers with security-related functionalities | [Annex&nbsp;III,&nbsp;Class&nbsp;I,&nbsp;point&nbsp;(14)][Annex III] | |
-| 30 | application specific integrated circuits (AS IC) and field-programmable gate arrays (FPGA) with security-related functionalities | [Annex&nbsp;III,&nbsp;Class&nbsp;I,&nbsp;point&nbsp;(15)][Annex III] | |
-| 31 | smart home general purpose virtual assistants | [Annex&nbsp;III,&nbsp;Class&nbsp;I,&nbsp;point&nbsp;(16)][Annex III] | |
-| 32 | smart home products with security functionalities, including smart door locks, security cameras, baby monitoring systems and alarm systems | [Annex&nbsp;III,&nbsp;Class&nbsp;I,&nbsp;point&nbsp;(17)][Annex III] | |
-| 33 | Internet connected toys covered by Directive 2009/48/EC that have social interactive features (e.g. speaking or filming) or that have location tracking features | [Annex&nbsp;III,&nbsp;Class&nbsp;I,&nbsp;point&nbsp;(18)][Annex III] | |
-| 34 | personal wearable products to be worn or placed on a human body that have a health monitoring (such as tracking) purpose and to which Regulation (EU) 2017/745 or Regulation (EU) 2017/746 do not apply or personal wearable products that are intended for the use by and for children | [Annex&nbsp;III,&nbsp;Class&nbsp;I,&nbsp;point&nbsp;(19)][Annex III] | |
-| 35 | hypervisors and container runtime systems that support virtualised execution of operating systems and similar environments | [Annex&nbsp;III,&nbsp;Class&nbsp;II,&nbsp;point&nbsp;(1)][Annex III] | |
-| 36 | firewalls, intrusion detection and/or prevention systems, including specifically those intended for industrial use | [Annex&nbsp;III,&nbsp;Class&nbsp;II,&nbsp;point&nbsp;(2)][Annex III] | |
-| 37 | tamper-resistant microprocessors | [Annex&nbsp;III,&nbsp;Class&nbsp;II,&nbsp;point&nbsp;(3)][Annex III] | |
-| 38 | tamper-resistant microcontrollers | [Annex&nbsp;III,&nbsp;Class&nbsp;II,&nbsp;point&nbsp;(4)][Annex III] | |
-| 39 | Hardware Devices with Security Boxes | [Annex&nbsp;IV,&nbsp;point&nbsp;(1)][Annex IV] | |
-| 40 | smart meter gateways within smart metering systems as defined in Article 2 (23) of Directive (EU) 2019/944 and other devices for advanced security purposes, including for secure cryptoprocessing | [Annex&nbsp;IV,&nbsp;point&nbsp;(2)][Annex IV] | |
-| 41 | smartcards or similar devices, including secure elements | [Annex&nbsp;IV,&nbsp;point&nbsp;(3)][Annex IV] | |
+| 16 | identity management systems and privileged access management software and hardware, including authentication and access control readers, including biometric readers | [Annex&nbsp;III,&nbsp;Class&nbsp;I,&nbsp;point&nbsp;(1)][Annex III] | CEN/CENELEC&nbsp;and&nbsp;ETSI |
+| 17 | standalone and embedded browsers | [Annex&nbsp;III,&nbsp;Class&nbsp;I,&nbsp;point&nbsp;(2)][Annex III] | CEN/CENELEC&nbsp;and&nbsp;ETSI |
+| 18 | password managers | [Annex&nbsp;III,&nbsp;Class&nbsp;I,&nbsp;point&nbsp;(3)][Annex III] | CEN/CENELEC&nbsp;and&nbsp;ETSI |
+| 19 | software that searches for, removes, or quarantines malicious software | [Annex&nbsp;III,&nbsp;Class&nbsp;I,&nbsp;point&nbsp;(4)][Annex III] | CEN/CENELEC&nbsp;and&nbsp;ETSI |
+| 20 | products with digital elements with the function of virtual private network (VPN) | [Annex&nbsp;III,&nbsp;Class&nbsp;I,&nbsp;point&nbsp;(5)][Annex III] | CEN/CENELEC&nbsp;and&nbsp;ETSI |
+| 21 | network management systems | [Annex&nbsp;III,&nbsp;Class&nbsp;I,&nbsp;point&nbsp;(6)][Annex III] | CEN/CENELEC&nbsp;and&nbsp;ETSI |
+| 22 | Security information and event management (SIEM) systems | [Annex&nbsp;III,&nbsp;Class&nbsp;I,&nbsp;point&nbsp;(7)][Annex III] | CEN/CENELEC&nbsp;and&nbsp;ETSI |
+| 23 | boot managers | [Annex&nbsp;III,&nbsp;Class&nbsp;I,&nbsp;point&nbsp;(8)][Annex III] | CEN/CENELEC&nbsp;and&nbsp;ETSI |
+| 24 | public key infrastructure and digital certificate issuance software | [Annex&nbsp;III,&nbsp;Class&nbsp;I,&nbsp;point&nbsp;(9)][Annex III] | CEN/CENELEC&nbsp;and&nbsp;ETSI |
+| 25 | physical and virtual network interfaces | [Annex&nbsp;III,&nbsp;Class&nbsp;I,&nbsp;point&nbsp;(10)][Annex III] | CEN/CENELEC&nbsp;and&nbsp;ETSI |
+| 26 | operating systems | [Annex&nbsp;III,&nbsp;Class&nbsp;I,&nbsp;point&nbsp;(11)][Annex III] | CEN/CENELEC&nbsp;and&nbsp;ETSI |
+| 27 | routers, modems intended for the connection to the internet, and switches | [Annex&nbsp;III,&nbsp;Class&nbsp;I,&nbsp;point&nbsp;(12)][Annex III] | CEN/CENELEC&nbsp;and&nbsp;ETSI |
+| 28 | microprocessors with security-related functionalities | [Annex&nbsp;III,&nbsp;Class&nbsp;I,&nbsp;point&nbsp;(13)][Annex III] | CEN/CENELEC&nbsp;and&nbsp;ETSI |
+| 29 | microcontrollers with security-related functionalities | [Annex&nbsp;III,&nbsp;Class&nbsp;I,&nbsp;point&nbsp;(14)][Annex III] | CEN/CENELEC&nbsp;and&nbsp;ETSI |
+| 30 | application specific integrated circuits (AS IC) and field-programmable gate arrays (FPGA) with security-related functionalities | [Annex&nbsp;III,&nbsp;Class&nbsp;I,&nbsp;point&nbsp;(15)][Annex III] | CEN/CENELEC&nbsp;and&nbsp;ETSI |
+| 31 | smart home general purpose virtual assistants | [Annex&nbsp;III,&nbsp;Class&nbsp;I,&nbsp;point&nbsp;(16)][Annex III] | CEN/CENELEC&nbsp;and&nbsp;ETSI |
+| 32 | smart home products with security functionalities, including smart door locks, security cameras, baby monitoring systems and alarm systems | [Annex&nbsp;III,&nbsp;Class&nbsp;I,&nbsp;point&nbsp;(17)][Annex III] | CEN/CENELEC&nbsp;and&nbsp;ETSI |
+| 33 | Internet connected toys covered by Directive 2009/48/EC that have social interactive features (e.g. speaking or filming) or that have location tracking features | [Annex&nbsp;III,&nbsp;Class&nbsp;I,&nbsp;point&nbsp;(18)][Annex III] | CEN/CENELEC&nbsp;and&nbsp;ETSI |
+| 34 | personal wearable products to be worn or placed on a human body that have a health monitoring (such as tracking) purpose and to which Regulation (EU) 2017/745 or Regulation (EU) 2017/746 do not apply or personal wearable products that are intended for the use by and for children | [Annex&nbsp;III,&nbsp;Class&nbsp;I,&nbsp;point&nbsp;(19)][Annex III] | CEN/CENELEC&nbsp;and&nbsp;ETSI |
+| 35 | hypervisors and container runtime systems that support virtualised execution of operating systems and similar environments | [Annex&nbsp;III,&nbsp;Class&nbsp;II,&nbsp;point&nbsp;(1)][Annex III] | CEN/CENELEC&nbsp;and&nbsp;ETSI |
+| 36 | firewalls, intrusion detection and/or prevention systems, including specifically those intended for industrial use | [Annex&nbsp;III,&nbsp;Class&nbsp;II,&nbsp;point&nbsp;(2)][Annex III] | CEN/CENELEC&nbsp;and&nbsp;ETSI |
+| 37 | tamper-resistant microprocessors | [Annex&nbsp;III,&nbsp;Class&nbsp;II,&nbsp;point&nbsp;(3)][Annex III] | CEN/CENELEC&nbsp;and&nbsp;ETSI |
+| 38 | tamper-resistant microcontrollers | [Annex&nbsp;III,&nbsp;Class&nbsp;II,&nbsp;point&nbsp;(4)][Annex III] | CEN/CENELEC&nbsp;and&nbsp;ETSI |
+| 39 | Hardware Devices with Security Boxes | [Annex&nbsp;IV,&nbsp;point&nbsp;(1)][Annex IV] | CEN/CENELEC |
+| 40 | smart meter gateways within smart metering systems as defined in Article 2 (23) of Directive (EU) 2019/944 and other devices for advanced security purposes, including for secure cryptoprocessing | [Annex&nbsp;IV,&nbsp;point&nbsp;(2)][Annex IV] | CEN/CENELEC |
+| 41 | smartcards or similar devices, including secure elements | [Annex&nbsp;IV,&nbsp;point&nbsp;(3)][Annex IV] | CEN/CENELEC |
 
 ## Milestone 3 - Horizontal standards due October 30, 2027
 
