@@ -18,6 +18,10 @@ The purpose of this document is twofold:
 
 This is a draft document and may be updated, replaced or obsoleted at any time. It is inappropriate to cite this document as other than a work in progress. Publication of this document as a draft does not imply endorsement by the Eclipse Foundation, Open Regulatory Working Group Members, or contributors.
 
+### Issue tracker
+
+Open issues, pull requests, and untriagged FAQs can be found on [GitHub](https://github.com/orcwg/cra-hub/labels/FAQ).
+
 ### Notation conventions
 
 #### Questions which would benefit from European Commission guidance
@@ -33,7 +37,7 @@ The maturity level of the answers contained in this document are indicated using
 
 | Maturity level status | Icon | Description |
 | :-------------------- |:----:| :---------- |
-| Draft                 |   ⚠️  | Hasn't been reviewed by SIG. Answer may be incompplete or incorrect. |
+| Draft                 |   ⚠️  | Hasn't been reviewed by SIG. Answer may be incomplete or incorrect. |
 | Pending Review        |   👀  | Ready to be reviewed by the SIG. |
 | Pending Guidance      |   🛑  | Identified by the SIG as requiring input from the EU Commission. |
 | Approved              |   ✅  | Has been reviewed by the SIG. Represents community best effort to provide an actionable answer. |
@@ -61,7 +65,7 @@ flowchart TD
 
 #### Q: What is the Cyber Resilience Act (CRA)?
 
-The Cyber Resilience Act (CRA) is a new EU Regulation that aims to safeguard consumers and businesses who use software or products with digital components. It creates mandatory cybersecurity requirements for manufacturers and retailers that extend throughout the product lifecycle and the whole software supply chain (including all open source dependencies and transitive dependencies) and helps consumers and business identify such products through the CE mark.
+The Cyber Resilience Act (CRA) is a new EU Regulation that aims to safeguard consumers and businesses who use software or products with digital components. It creates mandatory cybersecurity requirements for manufacturers and retailers that extend throughout the product lifecycle and the whole software supply chain (including all open source dependencies and transitive dependencies) and helps consumers and business identify such products through the [CE mark](https://en.wikipedia.org/wiki/CE_marking).
 
 #### Q: Where is the official text of the CRA?
 
@@ -130,13 +134,19 @@ No. Contributions to an open source project are explicitely not in scope of the 
 
 #### Q: What is an _open-source software steward_?
 
-_Open-source software steward_ is a term defined in [Article 3(14)][] of the CRA. It describes an organization which supports open source software but isn't itself a commercial actor (e.g. an open source foundation):
+_Open-source software steward_ is a term defined in [Article 3(14)][] of the CRA, to subject specific organisations to a subset of CRA obligations because they exist to support free and open source software that is intended for commercial activities (by others):
 
 > ‘open-source software steward’ means a legal person, other than a manufacturer, that has the purpose or objective of systematically providing support on a sustained basis for the development of specific products with digital elements, qualifying as free and open-source software and intended for commercial activities, and that ensures the viability of those products;
 
-_Open-source software steward_ are subject to a "light-touch and tailor-made regulatory regime" ([Recital 19][]), defined in [Article 24][].
+[Recital 19][] states "Open-source software stewards include certain foundations as well as entities that develop and publish free and open-source software in a business context, including not-for-profit entities." At [FOSDEM 2024][FOSDEM24], the European Commission provided three examples of entities the co-legislators had in mind [^EC@FOSDEM24]:
+
+  1. Foundations supporting specific FOSS projects
+  2. Companies that build FOSS for their own use but make it public
+  3. Not-for-profit entities that develop FOSS
 
 #### Q: What are the obligations of _open-source software stewards_?
+
+_Open-source software steward_ are subject to a "light-touch and tailor-made regulatory regime" ([Recital 19][]), defined in [Article 24][].
 
 #### Q: How do _open-source software stewards_ demonstrate that they meet their obligations?
 
@@ -175,6 +185,10 @@ For this reason, until an updated version is available, the Blue Guide's guidanc
 
 #### Q: What is a _legal person_?
 
+#### Q: What is a _security attestation_ in the CRA?
+
+[Security attestations] in the CRA are an optional extension that do not exist yet. They may exist in the future, should the European Commission choose to establish them, with a legislative process called a "delegated act". Until such time, any resemblence with concepts elsewhere by the name of "attestation" is coincidental and should not restrict their future design in the CRA. For example, the "Secure Software Development Attestation" as a concept in the US is unrelated to the CRA.
+
 [benefit from guidance]: #questions-which-would-benefit-from-european-commission-guidance
 
 [CRA]: https://eur-lex.europa.eu/eli/reg/2024/2847/oj
@@ -197,6 +211,4 @@ For this reason, until an updated version is available, the Blue Guide's guidanc
 
 [Blue Guide]: https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:52022XC0629(04)
 
-#### Q: What is a _security attestation_ in the CRA?
-
-[Security attestations] in the CRA are an optional extension that do not exist yet. They may exist in the future, should the European Commission choose to establish them, with a legislative process called a "delegated act". Until such time, any resemblence with concepts elsewhere by the name of "attestation" is coincidental and should not restrict their future design in the CRA. For example, the "Secure Software Development Attestation" as a concept in the US is unrelated to the CRA.
+[^EC@FOSDEM24]: https://fosdem.org/2024/schedule/event/fosdem-2024-3683-the-regulators-are-coming-one-year-on/, at 18 min 10 seconds into the recording
