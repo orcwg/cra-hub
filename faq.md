@@ -158,7 +158,10 @@ No. As defined in [Article 3(14)][], an _open-source software steward_ must be a
 
 #### Q: Can a loosely organized group of maintainers be considered to be an _open-source software steward_?
 
-In [Article 3(14)][], the CRA defines _open-source software steward_ as a _legal person_ which whould exempt loosely organized groups of maintainers from the obligations of _open-source software stewards_. However, in certain European jurisdictions, groups of people acting in concert have been considered as a _legal person_ in certain cases, even though their relationship wasn't formalized by creating an organization of any kind. So it is possible that in some cases, a loosely organized group of maintainers might be considered as an _open-source software steward_ and therefore be subject to the obligations described in [Article 24][]. It is worth noting that not complying to those obligations doesn't carry penalties as per [Article 64(10)(b)][].
+No. As defined in [Article 3(14)][], an _open-source software steward_ must be a _legal person_, which in the context of the CRA means an legal entity such as a business or nonprofit.
+
+> [!CAUTION]
+> Pending confirmation through European Commission Guidance that _legal persons_ do not include _natural persons_ in the context of the CRA.
 
 ### Manufacturers
 
@@ -184,6 +187,11 @@ For this reason, until an updated version is available, the Blue Guide's guidanc
 #### Q: What is a _Harmonized Standard_ and why does it matter?
 
 #### Q: What is a _legal person_?
+
+In the context of the CRA, a _legal person_ means an legal entity such as a business or nonprofit.
+
+> [!CAUTION]
+> Pending confirmation through European Commission Guidance that _legal persons_ do not include _natural persons_ in the context of the CRA.
 
 #### Q: What is a _security attestation_ in the CRA?
 
