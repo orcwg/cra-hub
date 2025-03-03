@@ -193,6 +193,9 @@ In the context of the CRA, a _legal person_ means an legal entity such as a busi
 > [!CAUTION]
 > Pending confirmation through European Commission Guidance that _legal persons_ do not include _natural persons_ in the context of the CRA.
 
+#### Q: What is a _security attestation_ in the CRA?
+
+[Security attestations] in the CRA are an optional extension that do not exist yet. They may exist in the future, should the European Commission choose to establish them, with a legislative process called a "delegated act". Until such time, any resemblence with concepts elsewhere by the name of "attestation" is coincidental and should not restrict their future design in the CRA. For example, the "Secure Software Development Attestation" as a concept in the US is unrelated to the CRA.
 
 [benefit from guidance]: #questions-which-would-benefit-from-european-commission-guidance
 
@@ -215,5 +218,5 @@ In the context of the CRA, a _legal person_ means an legal entity such as a busi
 [NIS 2]: https://eur-lex.europa.eu/eli/dir/2022/2555/oj
 
 [Blue Guide]: https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:52022XC0629(04)
-[^EC@FOSDEM24]: https://fosdem.org/2024/schedule/event/fosdem-2024-3683-the-regulators-are-coming-one-year-on/, at 18 min 10 seconds into the recording
 
+[^EC@FOSDEM24]: https://fosdem.org/2024/schedule/event/fosdem-2024-3683-the-regulators-are-coming-one-year-on/, at 18 min 10 seconds into the recording
