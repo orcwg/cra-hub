@@ -64,19 +64,13 @@ flowchart TD
 
 ```md
 <details>
-	<a name="faq-tmp-GITHUB_ISSUE_ID"></a>
-	<a name="PREVIOUS_ANCHORS_SO_WE_DONT_BREAK_EXTERNAL_REFERENCES"></a>
-	<summary>
-		<strong>
-			<a href="#faq-tmp-GITHUB_ISSUE_ID">tmp-GITHUB_ISSUE_ID.</a>
-			QUESTION
-		</strong>
-	</summary>	
+    <a name="PREVIOUS_ANCHOR_SO_WE_DONT_BREAK_EXTERNAL_REFERENCES"></a>
+    <summary><strong><a name="faq-tmp-GITHUB_ISSUE_ID" href="#faq-tmp-GITHUB_ISSUE_ID">tmp-GITHUB_ISSUE_ID.</a> QUESTION</strong></summary>
 
 ANSWER
 
 > Status: ICON [MATURITY_LEVEL][]
-| GitHub issue(s): [#GITHUB_ISSUE_ID](https://github.com/orcwg/cra-hub/issues/GITHUB_ISSUE_ID) 
+| GitHub issue(s): [#GITHUB_ISSUE_ID](https://github.com/orcwg/cra-hub/issues/GITHUB_ISSUE_ID)
 </details>
 ```
 
@@ -84,15 +78,9 @@ ANSWER
 
 ```md
 <details>
-	<a name="faq-tmp-FINAL_ID"></a>
-	<a name="faq-tmp-GITHUB_ISSUE_ID"></a>
-	<a name="PREVIOUS_ANCHORS_SO_WE_DONT_BREAK_EXTERNAL_REFERENCES"></a>
-	<summary>
-		<strong>
-			<a href="#faq-FINAL_ID">FINAL_ID.</a>
-			QUESTION
-		</strong>
-	</summary>	
+    <a name="PREVIOUS_ANCHOR_SO_WE_DONT_BREAK_EXTERNAL_REFERENCES"></a>
+    <a name="faq-tmp-GITHUB_ISSUE_ID"></a>
+    <summary><strong><a name="faq-FINAL_ID" href="#faq-FINAL_ID">FINAL_ID.</a> QUESTION</strong></summary>
 
 ANSWER
 
@@ -227,14 +215,8 @@ For this reason, until an updated version is available, the Blue Guide's guidanc
 #### Q: What is a _Harmonized Standard_ and why does it matter?
 
 <details>
-	<a name="faq-tmp-55"></a>
 	<a name="q-what-is-a-legal-person"></a>
-	<summary>
-		<strong>
-			<a href="#faq-tmp-55">tmp-55.</a>
-			What is a <em>legal person</em>?
-		</strong>
-	</summary>	
+	<summary><strong><a name="faq-tmp-55" href="#faq-tmp-55">tmp-55.</a> What is a <em>legal person</em>?</strong></summary>
 
 In the context of the CRA, a _legal person_ means an legal entity such as a business or nonprofit.
 
@@ -242,24 +224,17 @@ In the context of the CRA, a _legal person_ means an legal entity such as a busi
 > Pending confirmation through European Commission Guidance that _legal persons_ do not include _natural persons_ in the context of the CRA.
 
 > Status: ⚠️ [Draft][]
-| GitHub issue(s): [#55](https://github.com/orcwg/cra-hub/issues/55) 
+| GitHub issue(s): [#55](https://github.com/orcwg/cra-hub/issues/55)
 </details>
 
-
 <details>
-	<a name="faq-tmp-72"></a>
-	<a name="q-what-is-a-security-attestation-in-the-cra"></a>
-	<summary>
-		<strong>
-			<a href="#faq-tmp-72">tmp-72.</a>
-			What is a <em>security attestation</em> in the CRA?
-		</strong>
-	</summary>	
+    <a name="q-what-is-a-security-attestation-in-the-cra"></a>
+    <summary><strong><a name="faq-tmp-72" href="#faq-tmp-72">tmp-72.</a>What is a <em>security attestation</em> in the CRA?</strong></summary>
 
 Security attestations in the CRA are an optional extension that do not exist yet. They may exist in the future, should the European Commission choose to establish them, with a legislative process called a "delegated act". Until such time, any resemblence with concepts elsewhere by the name of "attestation" is coincidental and should not restrict their future design in the CRA. For example, the "Secure Software Development Attestation" as a concept in the US is unrelated to the CRA.
 
 > Status: ⚠️ [Draft][]
-| GitHub issue(s): [#72](https://github.com/orcwg/cra-hub/issues/72) 
+| GitHub issue(s): [#72](https://github.com/orcwg/cra-hub/issues/72)
 </details>
 
 [benefit from guidance]: #questions-which-would-benefit-from-european-commission-guidance
