@@ -250,7 +250,7 @@ In the context of the CRA, a _legal person_ means an legal entity such as a busi
 
 <details>
     <a name="q-what-is-a-security-attestation-in-the-cra"></a>
-    <summary><strong><a name="faq-tmp-72" href="#faq-tmp-72">tmp-72.</a>What is a <em>security attestation</em> in the CRA?</strong></summary>
+    <summary><strong><a name="faq-tmp-72" href="#faq-tmp-72">tmp-72.</a> What is a <em>security attestation</em> in the CRA?</strong></summary>
 
 Security attestations in the CRA are an optional extension that do not exist yet. They may exist in the future, should the European Commission choose to establish them, with a legislative process called a "delegated act". Until such time, any resemblence with concepts elsewhere by the name of "attestation" is coincidental and should not restrict their future design in the CRA. For example, the "Secure Software Development Attestation" as a concept in the US is unrelated to the CRA.
 
