@@ -37,6 +37,7 @@ The maturity level of the answers contained in this document are indicated using
 
 | Maturity level status | Icon | Description |
 | :-------------------- |:----:| :---------- |
+| No answer yet         |   ❓  | No answer has been drafted yet. |
 | Draft                 |   ⚠️  | Hasn't been reviewed by SIG. Answer may be incomplete or incorrect. |
 | Pending Review        |   👀  | Ready to be reviewed by the SIG. |
 | Pending Guidance      |   🛑  | Identified by the SIG as requiring input from the EU Commission. |
@@ -262,6 +263,7 @@ Security attestations in the CRA are an optional extension that do not exist yet
 </details>
 
 [benefit from guidance]: #questions-which-would-benefit-from-european-commission-guidance
+[No answer yet]: #maturity-level-of-answers
 [Draft]: #maturity-level-of-answers
 [Pending review]: #maturity-level-of-answers
 [Pending guidance]: #maturity-level-of-answers
