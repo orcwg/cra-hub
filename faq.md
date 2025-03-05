@@ -28,8 +28,7 @@ Open issues, pull requests, and untriagged FAQs can be found on [GitHub](https:/
 
 Frequently asked questions which would benefit from guidance from the European Commission are indicated with the following callout:
 
-> [!CAUTION]
-> Pending confirmation through European Commission Guidance that [REASON].
+**🛑 CAUTION:** Pending confirmation through European Commission Guidance that [REASON].
 
 #### Maturity level of answers
 
@@ -188,8 +187,7 @@ No. As defined in [Article 3(14)][], an _open-source software steward_ must be a
 
 No. As defined in [Article 3(14)][], an _open-source software steward_ must be a _legal person_, which in the context of the CRA means an legal entity such as a business or nonprofit.
 
-> [!CAUTION]
-> Pending confirmation through European Commission Guidance that _legal persons_ do not include _natural persons_ in the context of the CRA.
+**🛑 CAUTION:** Pending confirmation through European Commission Guidance that _legal persons_ do not include _natural persons_ in the context of the CRA.
 
 ### Manufacturers
 
@@ -241,8 +239,7 @@ For this reason, until an updated version is available, the Blue Guide's guidanc
 
 In the context of the CRA, a _legal person_ means an legal entity such as a business or nonprofit.
 
-> [!CAUTION]
-> Pending confirmation through European Commission Guidance that _legal persons_ do not include _natural persons_ in the context of the CRA.
+**🛑 CAUTION:** Pending confirmation through European Commission Guidance that _legal persons_ do not include _natural persons_ in the context of the CRA.
 
 > Status: ⚠️ [Draft][]
 | GitHub issue(s): [#55](https://github.com/orcwg/cra-hub/issues/55)
