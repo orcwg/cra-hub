@@ -237,6 +237,10 @@ In the context of the CRA, a _legal person_ means an legal entity such as a busi
 [Security attestations] in the CRA are an optional extension that do not exist yet. They may exist in the future, should the European Commission choose to establish them, with a legislative process called a "delegated act". Until such time, any resemblence with concepts elsewhere by the name of "attestation" is coincidental and should not restrict their future design in the CRA. For example, the "Secure Software Development Attestation" as a concept in the US is unrelated to the CRA.
 
 [benefit from guidance]: #questions-which-would-benefit-from-european-commission-guidance
+[Draft]: #maturity-level-of-answers
+[Pending review]: #maturity-level-of-answers
+[Pending guidance]: #maturity-level-of-answers
+[Approved]: #maturity-level-of-answers
 
 [CRA]: https://eur-lex.europa.eu/eli/reg/2024/2847/oj
 [CRA HTML]: https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=OJ:L_202402847
