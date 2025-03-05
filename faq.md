@@ -49,13 +49,26 @@ Maturity level statuses are assigned using the process described in [Annex 1](#a
 
 ### The Cyber Resilience Act (CRA) itself
 
-#### Q: What is the Cyber Resilience Act (CRA)?
+<details>
+	<a name="q-what-is-the-cyber-resilience-act-cra"></a>
+	<summary><strong><a name="faq-tmp-154" href="#faq-tmp-154">tmp-154.</a> What is the Cyber Resilience Act (CRA)?</strong></summary>
 
 The Cyber Resilience Act (CRA) is a new EU Regulation that aims to safeguard consumers and businesses who use software or products with digital components. It creates mandatory cybersecurity requirements for manufacturers and retailers that extend throughout the product lifecycle and the whole software supply chain (including all open source dependencies and transitive dependencies) and helps consumers and business identify such products through the [CE mark](https://en.wikipedia.org/wiki/CE_marking).
 
-#### Q: Where is the official text of the CRA?
+> Status: ⚠️ [Draft][]
+| GitHub issue(s): [#154](https://github.com/orcwg/cra-hub/issues/154)
+</details>
+
+<details>
+	<a name="q-where-is-the-official-text-of-the-cra"></a>
+	<summary><strong><a name="faq-tmp-155" href="#faq-tmp-155">tmp-155.</a> Where is the official text of the CRA?</strong></summary>
 
 The final text of the CRA can be found on [EUR-Lex][CRA] ([English HTML version][CRA HTML]).
+
+> Status: ⚠️ [Draft][]
+| GitHub issue(s): [#155](https://github.com/orcwg/cra-hub/issues/155)
+</details>
+
 
 #### Q: When does the CRA enter into force and when does the regulation start to apply?
 
