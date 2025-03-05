@@ -133,13 +133,27 @@ _It is worth noting however, that the intent of the EU legislators is to harmoni
 
 ### Open source projects
 
-#### Q: What criteria determine whether an open source project is in scope of the CRA?
+<details>
+    <a name="q-what-criteria-determine-whether-an-open-source-project-is-in-scope-of-the-cra"></a>
+    <summary><strong><a name="faq-tmp-124" href="#faq-tmp-124">tmp-124.</a> What criteria determine whether an open source project is in scope of the CRA?</strong></summary>
 
-#### Q: Is distributing binaries or container images of an open source project considered as making it available on the market?
+> Status: ❓ [No answer yet][]
+| GitHub issue(s): [#124](https://github.com/orcwg/cra-hub/issues/124)
+</details>
+
+
+<details>
+    <a name="q-is-distributing-binaries-or-container-images-of-an-open-source-project-considered-as-making-it-available-on-the-market"></a>
+    <summary><strong><a name="faq-tmp-157" href="#faq-tmp-157">tmp-157.</a> Is distributing binaries or container images of an open source project considered as making it available on the market?</strong></summary>
 
 No. Monetization by the original manufacturer is what determines whether a product is made available on the market. As per [Recital 18][], merely supplying open source components isn't indicative of a commercial activity:
 
 > Furthermore, the supply of products with digital elements qualifying as free and open-source software components intended for integration by other manufacturers into their own products with digital elements should be considered to be making available on the market only if the component is monetised by its original manufacturer. […] In addition, the mere presence of regular releases should not in itself lead to the conclusion that a product with digital elements is supplied in the course of a commercial activity.
+
+> Status: ⚠️ [Draft][]
+| GitHub issue(s): [#157](https://github.com/orcwg/cra-hub/issues/157)
+</details>
+
 
 ### Maintainers
 
