@@ -63,16 +63,19 @@ flowchart TD
 
 ```mustache
 <details>
-	<a name="faq-tmp-{{ GITHUB_ISSUE_ID }}"></a>
-	<a name="{{ PREVIOUS_ANCHORS_SO_WE_DONT_BREAK_EXTERNAL_REFERENCES }}"></a>
+	<a name="faq-tmp-GITHUB_ISSUE_ID"></a>
+	<a name="PREVIOUS_ANCHORS_SO_WE_DONT_BREAK_EXTERNAL_REFERENCES }}"></a>
 	<summary>
-		<strong><a href="#faq-tmp-{{ GITHUB_ISSUE_ID }}">tmp-{{ GITHUB_ISSUE_ID }}.</a> {{ QUESTION }}</strong>
+		<strong>
+			<a href="#faq-tmp-GITHUB_ISSUE_ID">tmp-GITHUB_ISSUE_ID.</a>
+			QUESTION
+		</strong>
 	</summary>	
 
-{{ ANSWER }}
+ANSWER
 
-> Status: {{ ICON } [{{ MATURITY_LEVEL }}][]
-| GitHub issue: [#{{ GITHUB_ISSUE_ID }}](https://github.com/orcwg/cra-hub/issues/{{ GITHUB_ISSUE_ID }}) 
+> Status: ICON [MATURITY_LEVEL][]
+| GitHub issue(s): [#GITHUB_ISSUE_ID](https://github.com/orcwg/cra-hub/issues/GITHUB_ISSUE_ID) 
 </details>
 ```
 
@@ -80,14 +83,17 @@ flowchart TD
 
 ```mustache
 <details>
-	<a name="faq-tmp-{{ ID }}"></a>
-	<a name="faq-tmp-{{ GITHUB_ISSUE_ID }}"></a>
-	<a name="{{ PREVIOUS_ANCHORS_SO_WE_DONT_BREAK_EXTERNAL_REFERENCES }}"></a>
+	<a name="faq-tmp-FINAL_ID"></a>
+	<a name="faq-tmp-GITHUB_ISSUE_ID"></a>
+	<a name="PREVIOUS_ANCHORS_SO_WE_DONT_BREAK_EXTERNAL_REFERENCES"></a>
 	<summary>
-		<strong><a href="#faq-{{ ID }}">{{ ID }}.</a> {{ QUESTION }}</strong>
+		<strong>
+			<a href="#faq-FINAL_ID">FINAL_ID.</a>
+			QUESTION
+		</strong>
 	</summary>	
 
-{{ ANSWER }}
+ANSWER
 
 </details>
 ```
