@@ -61,10 +61,10 @@ flowchart TD
 
 #### Draft FAQ format
 
-```mustache
+```md
 <details>
 	<a name="faq-tmp-GITHUB_ISSUE_ID"></a>
-	<a name="PREVIOUS_ANCHORS_SO_WE_DONT_BREAK_EXTERNAL_REFERENCES }}"></a>
+	<a name="PREVIOUS_ANCHORS_SO_WE_DONT_BREAK_EXTERNAL_REFERENCES"></a>
 	<summary>
 		<strong>
 			<a href="#faq-tmp-GITHUB_ISSUE_ID">tmp-GITHUB_ISSUE_ID.</a>
@@ -81,7 +81,7 @@ ANSWER
 
 #### Final FAQ format
 
-```mustache
+```md
 <details>
 	<a name="faq-tmp-FINAL_ID"></a>
 	<a name="faq-tmp-GITHUB_ISSUE_ID"></a>
