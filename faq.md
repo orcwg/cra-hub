@@ -225,12 +225,25 @@ For this reason, until an updated version is available, the Blue Guide's guidanc
 
 #### Q: What is a _Harmonized Standard_ and why does it matter?
 
-#### Q: What is a _legal person_?
+<details>
+	<a name="faq-tmp-55"></a>
+	<a name="q-what-is-a-legal-person"></a>
+	<summary>
+		<strong>
+			<a href="#faq-tmp-55">tmp-55.</a>
+			What is a <em>legal person</em>?
+		</strong>
+	</summary>	
 
 In the context of the CRA, a _legal person_ means an legal entity such as a business or nonprofit.
 
 > [!CAUTION]
 > Pending confirmation through European Commission Guidance that _legal persons_ do not include _natural persons_ in the context of the CRA.
+
+> Status: ⚠️ [Draft][]
+| GitHub issue(s): [#55](https://github.com/orcwg/cra-hub/issues/55) 
+</details>
+
 
 <details>
 	<a name="faq-tmp-72"></a>
