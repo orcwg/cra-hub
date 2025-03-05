@@ -170,6 +170,30 @@ No. Contributions to an open source project are explicitely not in scope of the 
 </details>
 
 
+<details>
+    <a name="q-can-an-solo-maintainer-be-considered-to-be-an-open-source-software-steward"></a>
+    <summary><strong><a name="faq-tmp-1" href="#faq-tmp-1">tmp-1.</a> Can an solo maintainer be considered to be an <em>open-source software steward</em>?</strong></summary>
+
+No. As defined in [Article 3(14)][], an _open-source software steward_ must be a _legal person_ (e.g. a company, an organization, etc.) in contrast with a _natural person_ (i.e. a human being). The obligations of _open-source software stewards_ described in [Article 24][] therefore do not apply to solo maintainers. It is worth noting however, that _natural persons_ are subject to the same obligations as _legal persons_ would be should they monetize their poject.
+
+> Status: ⚠️ [Draft][]
+| GitHub issue(s): [#1](https://github.com/orcwg/cra-hub/issues/1)
+</details>
+
+
+<details>
+    <a name="q-can-a-loosely-organized-group-of-maintainers-be-considered-to-be-an-open-source-software-steward"></a>
+    <summary><strong><a name="faq-tmp-15" href="#faq-tmp-15">tmp-15.</a> Can a loosely organized group of maintainers be considered to be an <em>open-source software steward</em>?</strong></summary>
+
+No. As defined in [Article 3(14)][], an _open-source software steward_ must be a _legal person_, which in the context of the CRA means an legal entity such as a business or nonprofit.
+
+**🛑 CAUTION:** Pending confirmation through European Commission Guidance that _legal persons_ do not include _natural persons_ in the context of the CRA.
+
+> Status: ⚠️ [Draft][]
+| GitHub issue(s): [#15](https://github.com/orcwg/cra-hub/issues/15)
+</details>
+
+
 ### Open-Source Software Stewards
 
 <details>
@@ -216,30 +240,6 @@ _Open-source software steward_ are subject to a "light-touch and tailor-made reg
 
 > Status: ❓ [No answer yet][]
 | GitHub issue(s): [#158](https://github.com/orcwg/cra-hub/issues/158)
-</details>
-
-
-<details>
-    <a name="q-can-an-solo-maintainer-be-considered-to-be-an-open-source-software-steward"></a>
-    <summary><strong><a name="faq-tmp-1" href="#faq-tmp-1">tmp-1.</a> Can an solo maintainer be considered to be an <em>open-source software steward</em>?</strong></summary>
-
-No. As defined in [Article 3(14)][], an _open-source software steward_ must be a _legal person_ (e.g. a company, an organization, etc.) in contrast with a _natural person_ (i.e. a human being). The obligations of _open-source software stewards_ described in [Article 24][] therefore do not apply to solo maintainers. It is worth noting however, that _natural persons_ are subject to the same obligations as _legal persons_ would be should they monetize their poject.
-
-> Status: ⚠️ [Draft][]
-| GitHub issue(s): [#1](https://github.com/orcwg/cra-hub/issues/1)
-</details>
-
-
-<details>
-    <a name="q-can-a-loosely-organized-group-of-maintainers-be-considered-to-be-an-open-source-software-steward"></a>
-    <summary><strong><a name="faq-tmp-15" href="#faq-tmp-15">tmp-15.</a> Can a loosely organized group of maintainers be considered to be an <em>open-source software steward</em>?</strong></summary>
-
-No. As defined in [Article 3(14)][], an _open-source software steward_ must be a _legal person_, which in the context of the CRA means an legal entity such as a business or nonprofit.
-
-**🛑 CAUTION:** Pending confirmation through European Commission Guidance that _legal persons_ do not include _natural persons_ in the context of the CRA.
-
-> Status: ⚠️ [Draft][]
-| GitHub issue(s): [#15](https://github.com/orcwg/cra-hub/issues/15)
 </details>
 
 
