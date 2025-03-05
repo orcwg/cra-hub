@@ -28,8 +28,7 @@ Open issues, pull requests, and untriagged FAQs can be found on [GitHub](https:/
 
 Frequently asked questions which would benefit from guidance from the European Commission are indicated with the following callout:
 
-> [!CAUTION]
-> Pending confirmation through European Commission Guidance that [REASON].
+**🛑 CAUTION:** Pending confirmation through European Commission Guidance that [REASON].
 
 #### Maturity level of answers
 
@@ -37,41 +36,43 @@ The maturity level of the answers contained in this document are indicated using
 
 | Maturity level status | Icon | Description |
 | :-------------------- |:----:| :---------- |
+| No answer yet         |   ❓  | No answer has been drafted yet. |
 | Draft                 |   ⚠️  | Hasn't been reviewed by SIG. Answer may be incomplete or incorrect. |
 | Pending Review        |   👀  | Ready to be reviewed by the SIG. |
 | Pending Guidance      |   🛑  | Identified by the SIG as requiring input from the EU Commission. |
 | Approved              |   ✅  | Has been reviewed by the SIG. Represents community best effort to provide an actionable answer. |
 
-Maturity level statuses are assigned using the following process. All answers start with a maturity level status of "Draft".
+Maturity level statuses are assigned using the process described in [Annex 1](#annex-1) below.
 
-```mermaid
-flowchart TD
-    A[Status: Draft ⚠️]
-    B[Status: Pending Review 👀]
-    C[Status: Approved ✅]
-    D[Status: Pending Guidance 🛑]
-    A -- Ready for review --> B
-    B --> SIG{"Passes SIG Review?"}
-    SIG -- YES --> Q{"Requires EU guidance?"}
-    SIG -- NO --> A
-    Q -- NO --> C
-    Q -- YES --> D
-    D -- Guidance received --> SIG
-```
 
 ## Frequently Asked Questions about the Cyber Resilience Act (CRA)
 
 ### The Cyber Resilience Act (CRA) itself
 
-#### Q: What is the Cyber Resilience Act (CRA)?
+<details>
+    <a name="q-what-is-the-cyber-resilience-act-cra"></a>
+    <summary><strong><a name="faq-tmp-154" href="#faq-tmp-154">tmp-154.</a> What is the Cyber Resilience Act (CRA)?</strong></summary>
 
 The Cyber Resilience Act (CRA) is a new EU Regulation that aims to safeguard consumers and businesses who use software or products with digital components. It creates mandatory cybersecurity requirements for manufacturers and retailers that extend throughout the product lifecycle and the whole software supply chain (including all open source dependencies and transitive dependencies) and helps consumers and business identify such products through the [CE mark](https://en.wikipedia.org/wiki/CE_marking).
 
-#### Q: Where is the official text of the CRA?
+> Status: ⚠️ [Draft][]
+| GitHub issue(s): [#154](https://github.com/orcwg/cra-hub/issues/154)
+</details>
+
+<details>
+    <a name="q-where-is-the-official-text-of-the-cra"></a>
+    <summary><strong><a name="faq-tmp-155" href="#faq-tmp-155">tmp-155.</a> Where is the official text of the CRA?</strong></summary>
 
 The final text of the CRA can be found on [EUR-Lex][CRA] ([English HTML version][CRA HTML]).
 
-#### Q: When does the CRA enter into force and when does the regulation start to apply?
+> Status: ⚠️ [Draft][]
+| GitHub issue(s): [#155](https://github.com/orcwg/cra-hub/issues/155)
+</details>
+
+
+<details>
+    <a name="q-when-does-the-cra-enter-into-force-and-when-does-the-regulation-start-to-apply"></a>
+    <summary><strong><a name="faq-tmp-10" href="#faq-tmp-10">tmp-10.</a> When does the CRA enter into force and when does the regulation start to apply?</strong></summary>
 
 The CRA enters into force on December 11, 2024. Reporting obligations of manufacturers ([Article 14][]) start to apply on September 11, 2026.
 The notification of conformity of assement bodies ([Chapter IV][]) start to apply on June 11, 2026. Everything else starts to apply on December 11, 2027.
@@ -94,7 +95,13 @@ gantt
     Application phase: 2026-09-11, 2029-06-30
 ```
 
-#### Q: What is in scope of the CRA?
+> Status: ⚠️ [Draft][]
+| GitHub issue(s): [#10](https://github.com/orcwg/cra-hub/issues/10)
+</details>
+
+<details>
+    <a name="q-what-is-in-scope-of-the-cra"></a>
+    <summary><strong><a name="faq-tmp-2" href="#faq-tmp-2">tmp-2.</a> What is in scope of the CRA?</strong></summary>
 
 The following types of product are in scope of the CRA:
 
@@ -102,7 +109,14 @@ The following types of product are in scope of the CRA:
 - Software products (e.g. operating systems, word processing, games or mobile apps, software libraries, etc.)
 - Remote data processing solutions for any of the above, as far as they are necessary for a product to perform its functions (e.g. cloud-based services that allow control of a smart lock at a distance, remote database that backs-up user preferences, etc.)
 
-#### Q: What is NOT in scope of the CRA?
+> Status: ⚠️ [Draft][]
+| GitHub issue(s): [#2](https://github.com/orcwg/cra-hub/issues/2)
+</details>
+
+
+<details>
+    <a name="q-what-is-not-in-scope-of-the-cra"></a>
+    <summary><strong><a name="faq-tmp-156" href="#faq-tmp-156">tmp-156.</a> What is NOT in scope of the CRA?</strong></summary>
 
 The following types of product are NOT in scope of the CRA:
 
@@ -112,27 +126,79 @@ The following types of product are NOT in scope of the CRA:
 
 _It is worth noting however, that the intent of the EU legislators is to harmonize the various regulations mentioned above with the CRA in the near future._
 
+> Status: ⚠️ [Draft][]
+| GitHub issue(s): [#156](https://github.com/orcwg/cra-hub/issues/156)
+</details>
+
+
 ### Open source projects
 
-#### Q: What criteria determine whether an open source project is in scope of the CRA?
+<details>
+    <a name="q-what-criteria-determine-whether-an-open-source-project-is-in-scope-of-the-cra"></a>
+    <summary><strong><a name="faq-tmp-124" href="#faq-tmp-124">tmp-124.</a> What criteria determine whether an open source project is in scope of the CRA?</strong></summary>
 
-#### Q: Is distributing binaries or container images of an open source project considered as making it available on the market?
+> Status: ❓ [No answer yet][]
+| GitHub issue(s): [#124](https://github.com/orcwg/cra-hub/issues/124)
+</details>
+
+
+<details>
+    <a name="q-is-distributing-binaries-or-container-images-of-an-open-source-project-considered-as-making-it-available-on-the-market"></a>
+    <summary><strong><a name="faq-tmp-157" href="#faq-tmp-157">tmp-157.</a> Is distributing binaries or container images of an open source project considered as making it available on the market?</strong></summary>
 
 No. Monetization by the original manufacturer is what determines whether a product is made available on the market. As per [Recital 18][], merely supplying open source components isn't indicative of a commercial activity:
 
 > Furthermore, the supply of products with digital elements qualifying as free and open-source software components intended for integration by other manufacturers into their own products with digital elements should be considered to be making available on the market only if the component is monetised by its original manufacturer. […] In addition, the mere presence of regular releases should not in itself lead to the conclusion that a product with digital elements is supplied in the course of a commercial activity.
 
+> Status: ⚠️ [Draft][]
+| GitHub issue(s): [#157](https://github.com/orcwg/cra-hub/issues/157)
+</details>
+
+
 ### Maintainers
 
-#### Q: Am I subject to the CRA if I only contribute to an open source project?
+<details>
+    <a name="q-am-i-subject-to-the-cra-if-i-only-contribute-to-an-open-source-project"></a>
+    <summary><strong><a name="faq-tmp-17" href="#faq-tmp-17">tmp-17.</a> Am I subject to the CRA if I only contribute to an open source project?</strong></summary>
 
 No. Contributions to an open source project are explicitely not in scope of the CRA. See [Recital 18][]: 
 
 > This Regulation does not apply to natural or legal persons who contribute with source code to products with digital elements qualifying as free and open-source software that are not under their responsibility.
 
+> Status: ⚠️ [Draft][]
+| GitHub issue(s): [#17](https://github.com/orcwg/cra-hub/issues/17)
+</details>
+
+
+<details>
+    <a name="q-can-an-solo-maintainer-be-considered-to-be-an-open-source-software-steward"></a>
+    <summary><strong><a name="faq-tmp-1" href="#faq-tmp-1">tmp-1.</a> Can an solo maintainer be considered to be an <em>open-source software steward</em>?</strong></summary>
+
+No. As defined in [Article 3(14)][], an _open-source software steward_ must be a _legal person_ (e.g. a company, an organization, etc.) in contrast with a _natural person_ (i.e. a human being). The obligations of _open-source software stewards_ described in [Article 24][] therefore do not apply to solo maintainers. It is worth noting however, that _natural persons_ are subject to the same obligations as _legal persons_ would be should they monetize their poject.
+
+> Status: ⚠️ [Draft][]
+| GitHub issue(s): [#1](https://github.com/orcwg/cra-hub/issues/1)
+</details>
+
+
+<details>
+    <a name="q-can-a-loosely-organized-group-of-maintainers-be-considered-to-be-an-open-source-software-steward"></a>
+    <summary><strong><a name="faq-tmp-15" href="#faq-tmp-15">tmp-15.</a> Can a loosely organized group of maintainers be considered to be an <em>open-source software steward</em>?</strong></summary>
+
+No. As defined in [Article 3(14)][], an _open-source software steward_ must be a _legal person_, which in the context of the CRA means an legal entity such as a business or nonprofit.
+
+**🛑 CAUTION:** Pending confirmation through European Commission Guidance that _legal persons_ do not include _natural persons_ in the context of the CRA.
+
+> Status: ⚠️ [Draft][]
+| GitHub issue(s): [#15](https://github.com/orcwg/cra-hub/issues/15)
+</details>
+
+
 ### Open-Source Software Stewards
 
-#### Q: What is an _open-source software steward_?
+<details>
+    <a name="q-what-is-an-open-source-software-steward"></a>
+    <summary><strong><a name="faq-tmp-127" href="#faq-tmp-127">tmp-127.</a> What is an <em>open-source software stewards</em>?</strong></summary>
 
 _Open-source software steward_ is a term defined in [Article 3(14)][] of the CRA, to subject specific organisations to a subset of CRA obligations because they exist to support free and open source software that is intended for commercial activities (by others):
 
@@ -144,60 +210,178 @@ _Open-source software steward_ is a term defined in [Article 3(14)][] of the CRA
   2. Companies that build FOSS for their own use but make it public
   3. Not-for-profit entities that develop FOSS
 
-#### Q: What are the obligations of _open-source software stewards_?
+> Status: ⚠️ [Draft][]
+| GitHub issue(s): [#127](https://github.com/orcwg/cra-hub/issues/127)
+</details>
+
+
+<details>
+    <a name="q-what-are-the-obligations-of-open-source-software-stewards"></a>
+    <summary><strong><a name="faq-tmp-159" href="#faq-tmp-159">tmp-159.</a> What are the obligations of <em>open-source software stewards</em>?</strong></summary>
 
 _Open-source software steward_ are subject to a "light-touch and tailor-made regulatory regime" ([Recital 19][]), defined in [Article 24][].
 
-#### Q: How do _open-source software stewards_ demonstrate that they meet their obligations?
+> Status: ⚠️ [Draft][]
+| GitHub issue(s): [#159](https://github.com/orcwg/cra-hub/issues/159)
+</details>
 
-#### Q: What happens when an _open-source software steward_ doesn't meet its obligations?
+<details>
+    <a name="q-how-do-open-source-software-stewards-demonstrate-that-they-meet-their-obligations"></a>
+    <summary><strong><a name="faq-tmp-11" href="#faq-tmp-11">tmp-11.</a> How do <em>open-source software stewards</em> demonstrate that they meet their obligations?</strong></summary>
 
-#### Q: Can an solo maintainer be considered to be an _open-source software steward_?
+> Status: ❓ [No answer yet][]
+| GitHub issue(s): [#11](https://github.com/orcwg/cra-hub/issues/11)
+</details>
 
-No. As defined in [Article 3(14)][], an _open-source software steward_ must be a _legal person_ (e.g. a company, an organization, etc.) in contrast with a _natural person_ (i.e. a human being). The obligations of _open-source software stewards_ described in [Article 24][] therefore do not apply to solo maintainers. It is worth noting however, that _natural persons_ are subject to the same obligations as _legal persons_ would be should they monetize their poject.
 
-#### Q: Can a loosely organized group of maintainers be considered to be an _open-source software steward_?
+<details>
+    <a name="q-what-happens-when-an-open-source-software-steward-doesnt-meet-its-obligations"></a>
+    <summary><strong><a name="faq-tmp-158" href="#faq-tmp-158">tmp-158.</a> What happens when an <em>open-source software steward</em> doesn't meet its obligations?</strong></summary>
 
-No. As defined in [Article 3(14)][], an _open-source software steward_ must be a _legal person_, which in the context of the CRA means an legal entity such as a business or nonprofit.
+> Status: ❓ [No answer yet][]
+| GitHub issue(s): [#158](https://github.com/orcwg/cra-hub/issues/158)
+</details>
 
-> [!CAUTION]
-> Pending confirmation through European Commission Guidance that _legal persons_ do not include _natural persons_ in the context of the CRA.
 
 ### Manufacturers
 
-#### Q: What is a _manufacturer_?
+<details>
+    <a name="q-what-is-a-manufacturer"></a>
+	<summary><strong><a name="faq-tmp-59" href="#faq-tmp-59">tmp-59.</a> What is a <em>manufacturer</em>?</strong></summary>
 
 The term _Manufacturer_ is defined in [Article 3(13)][] of the CRA:
 	
 > ‘manufacturer’ means a natural or legal person who develops or manufactures products with digital elements or has products with digital elements designed, developed or manufactured, and markets them under its name or trademark, whether for payment, monetisation or free of charge;
 
-#### Q: Can a _manufacturer_ also be an _open-source software steward_?
+> Status: ⚠️ [Draft][]
+| GitHub issue(s): [#59](https://github.com/orcwg/cra-hub/issues/59)
+</details>
+
+
+<details>
+	<a name="q-can-a-manufacturer-also-be-an-open-source-software-steward"></a>
+	<summary><strong><a name="faq-tmp-30" href="#faq-tmp-30">tmp-30.</a> Can a <em>manufacturer</em> also be an <em>open-source software steward</em>?</strong></summary>
 
 Yes, a _manufacturer_ can also be an _open-source software steward_, but it cannot be both the _manufacturer_ and _open-source software steward_ of the same project.
 
+> Status: ⚠️ [Draft][]
+| GitHub issue(s): [#30](https://github.com/orcwg/cra-hub/issues/30)
+</details>
+
+
 ### EU Legislation
 
-#### Q: What is the _Blue Guide_?
+<details>
+	<a name="q-what-is-the-blue-guide"></a>
+	<summary><strong><a name="faq-tmp-4" href="#faq-tmp-4">tmp-4.</a> What is the <em>Blue Guide</em>?</strong></summary>
 
 The [Blue Guide][] is one of the main reference documents of the European Commission explaining how to implement legislation based on the New Legislative Framework (NLF). Unlike the CRA, the Blue Guide does not have legal force. It predates the CRA and only discusses software as something embedded into a physical product, not as standalone.
 For this reason, until an updated version is available, the Blue Guide's guidance should be read in light of the CRA's wider scope and take into account the nuances introduced in the CRA for software. For example, on the concept of "commercial activity", [Recital 18][] CRA provides more specific guidance on "monetisation" and "non-profit organisations" than is available in the Blue Guide's "Making available on the market" section.
 
-#### Q: What is the _New Legislative Framework_ (NLF)?
+> Status: ⚠️ [Draft][]
+| GitHub issue(s): [#4](https://github.com/orcwg/cra-hub/issues/4)
+</details>
 
-#### Q: What is a _Harmonized Standard_ and why does it matter?
 
-#### Q: What is a _legal person_?
+<details>
+    <a name="q-what-is-the-new-legislative-framework-nlf"></a>
+    <summary><strong><a name="faq-tmp-57" href="#faq-tmp-57">tmp-57.</a> What is the <em>New Legislative Framework</em> (NLF)?</strong></summary>	
+
+> Status: ❓ [No answer yet][]
+| GitHub issue(s): [#56](https://github.com/orcwg/cra-hub/issues/56)
+</details>
+
+
+<details>
+    <a name="q-what-is-a-harmonized-standard-and-why-does-it-matter"></a>
+    <summary><strong><a name="faq-tmp-56" href="#faq-tmp-56">tmp-56.</a> What is a <em>Harmonized Standard</em> and why does it matter?</strong></summary>	
+
+> Status: ❓ [No answer yet][]
+| GitHub issue(s): [#56](https://github.com/orcwg/cra-hub/issues/56)
+</details>
+
+
+<details>
+	<a name="q-what-is-a-legal-person"></a>
+	<summary><strong><a name="faq-tmp-55" href="#faq-tmp-55">tmp-55.</a> What is a <em>legal person</em>?</strong></summary>
 
 In the context of the CRA, a _legal person_ means an legal entity such as a business or nonprofit.
 
-> [!CAUTION]
-> Pending confirmation through European Commission Guidance that _legal persons_ do not include _natural persons_ in the context of the CRA.
+**🛑 CAUTION:** Pending confirmation through European Commission Guidance that _legal persons_ do not include _natural persons_ in the context of the CRA.
 
-#### Q: What is a _security attestation_ in the CRA?
+> Status: ⚠️ [Draft][]
+| GitHub issue(s): [#55](https://github.com/orcwg/cra-hub/issues/55)
+</details>
 
-[Security attestations] in the CRA are an optional extension that do not exist yet. They may exist in the future, should the European Commission choose to establish them, with a legislative process called a "delegated act". Until such time, any resemblence with concepts elsewhere by the name of "attestation" is coincidental and should not restrict their future design in the CRA. For example, the "Secure Software Development Attestation" as a concept in the US is unrelated to the CRA.
+<details>
+    <a name="q-what-is-a-security-attestation-in-the-cra"></a>
+    <summary><strong><a name="faq-tmp-72" href="#faq-tmp-72">tmp-72.</a> What is a <em>security attestation</em> in the CRA?</strong></summary>
+
+Security attestations in the CRA are an optional extension that do not exist yet. They may exist in the future, should the European Commission choose to establish them, with a legislative process called a "delegated act". Until such time, any resemblence with concepts elsewhere by the name of "attestation" is coincidental and should not restrict their future design in the CRA. For example, the "Secure Software Development Attestation" as a concept in the US is unrelated to the CRA.
+
+> Status: ⚠️ [Draft][]
+| GitHub issue(s): [#72](https://github.com/orcwg/cra-hub/issues/72)
+</details>
+
+## Annexes
+
+### Annex 1 - Maturity level process
+
+<a name="annex-1"></a>
+Maturity level statuses are assigned using the following process. All answers start with a maturity level status of "No answer yet".
+
+```mermaid
+flowchart TD
+    start[Status: No answer yet ❓]
+    A[Status: Draft ⚠️]
+    B[Status: Pending Review 👀]
+    C[Status: Approved ✅]
+    D[Status: Pending Guidance 🛑]
+    start -- Add draft answer --> A
+    A -- Ready for review --> B
+    B --> SIG{"Passes SIG Review?"}
+    SIG -- YES --> Q{"Requires EU guidance?"}
+    SIG -- NO --> A
+    Q -- NO --> C
+    Q -- YES --> D
+    D -- Guidance received --> SIG
+```
+
+### Annex 2 - FAQ formats
+
+#### Draft FAQ format
+
+```md
+<details>
+    <a name="PREVIOUS_ANCHOR_SO_WE_DONT_BREAK_EXTERNAL_REFERENCES"></a>
+    <summary><strong><a name="faq-tmp-GITHUB_ISSUE_ID" href="#faq-tmp-GITHUB_ISSUE_ID">tmp-GITHUB_ISSUE_ID.</a> QUESTION</strong></summary>
+
+ANSWER
+
+> Status: ICON [MATURITY_LEVEL][]
+| GitHub issue(s): [#GITHUB_ISSUE_ID](https://github.com/orcwg/cra-hub/issues/GITHUB_ISSUE_ID)
+</details>
+```
+
+#### Final FAQ format
+
+```md
+<details>
+    <a name="PREVIOUS_ANCHOR_SO_WE_DONT_BREAK_EXTERNAL_REFERENCES"></a>
+    <a name="faq-tmp-GITHUB_ISSUE_ID"></a>
+    <summary><strong><a name="faq-FINAL_ID" href="#faq-FINAL_ID">FINAL_ID.</a> QUESTION</strong></summary>
+
+ANSWER
+
+</details>
+```
 
 [benefit from guidance]: #questions-which-would-benefit-from-european-commission-guidance
+[No answer yet]: #maturity-level-of-answers
+[Draft]: #maturity-level-of-answers
+[Pending review]: #maturity-level-of-answers
+[Pending guidance]: #maturity-level-of-answers
+[Approved]: #maturity-level-of-answers
 
 [CRA]: https://eur-lex.europa.eu/eli/reg/2024/2847/oj
 [CRA HTML]: https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=OJ:L_202402847
