@@ -157,11 +157,17 @@ No. Monetization by the original manufacturer is what determines whether a produ
 
 ### Maintainers
 
-#### Q: Am I subject to the CRA if I only contribute to an open source project?
+<details>
+    <a name="q-am-i-subject-to-the-cra-if-i-only-contribute-to-an-open-source-project"></a>
+    <summary><strong><a name="faq-tmp-17" href="#faq-tmp-17">tmp-17.</a> Am I subject to the CRA if I only contribute to an open source project?</strong></summary>
 
 No. Contributions to an open source project are explicitely not in scope of the CRA. See [Recital 18][]: 
 
 > This Regulation does not apply to natural or legal persons who contribute with source code to products with digital elements qualifying as free and open-source software that are not under their responsibility.
+
+> Status: ⚠️ [Draft][]
+| GitHub issue(s): [#17](https://github.com/orcwg/cra-hub/issues/17)
+</details>
 
 ### Open-Source Software Stewards
 
