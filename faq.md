@@ -42,51 +42,8 @@ The maturity level of the answers contained in this document are indicated using
 | Pending Guidance      |   🛑  | Identified by the SIG as requiring input from the EU Commission. |
 | Approved              |   ✅  | Has been reviewed by the SIG. Represents community best effort to provide an actionable answer. |
 
-Maturity level statuses are assigned using the following process. All answers start with a maturity level status of "Draft".
+Maturity level statuses are assigned using the process described in [Annex 1](#annex-1) below.
 
-```mermaid
-flowchart TD
-    start[Status: No answer yet ❓]
-    A[Status: Draft ⚠️]
-    B[Status: Pending Review 👀]
-    C[Status: Approved ✅]
-    D[Status: Pending Guidance 🛑]
-    start -- Add draft answer --> A
-    A -- Ready for review --> B
-    B --> SIG{"Passes SIG Review?"}
-    SIG -- YES --> Q{"Requires EU guidance?"}
-    SIG -- NO --> A
-    Q -- NO --> C
-    Q -- YES --> D
-    D -- Guidance received --> SIG
-```
-
-#### Draft FAQ format
-
-```md
-<details>
-    <a name="PREVIOUS_ANCHOR_SO_WE_DONT_BREAK_EXTERNAL_REFERENCES"></a>
-    <summary><strong><a name="faq-tmp-GITHUB_ISSUE_ID" href="#faq-tmp-GITHUB_ISSUE_ID">tmp-GITHUB_ISSUE_ID.</a> QUESTION</strong></summary>
-
-ANSWER
-
-> Status: ICON [MATURITY_LEVEL][]
-| GitHub issue(s): [#GITHUB_ISSUE_ID](https://github.com/orcwg/cra-hub/issues/GITHUB_ISSUE_ID)
-</details>
-```
-
-#### Final FAQ format
-
-```md
-<details>
-    <a name="PREVIOUS_ANCHOR_SO_WE_DONT_BREAK_EXTERNAL_REFERENCES"></a>
-    <a name="faq-tmp-GITHUB_ISSUE_ID"></a>
-    <summary><strong><a name="faq-FINAL_ID" href="#faq-FINAL_ID">FINAL_ID.</a> QUESTION</strong></summary>
-
-ANSWER
-
-</details>
-```
 
 ## Frequently Asked Questions about the Cyber Resilience Act (CRA)
 
@@ -270,6 +227,59 @@ Security attestations in the CRA are an optional extension that do not exist yet
 > Status: ⚠️ [Draft][]
 | GitHub issue(s): [#72](https://github.com/orcwg/cra-hub/issues/72)
 </details>
+
+## Annexes
+
+### Annex 1 - Maturity level process
+
+<a name="annex-1"></a>
+Maturity level statuses are assigned using the following process. All answers start with a maturity level status of "No answer yet".
+
+```mermaid
+flowchart TD
+    start[Status: No answer yet ❓]
+    A[Status: Draft ⚠️]
+    B[Status: Pending Review 👀]
+    C[Status: Approved ✅]
+    D[Status: Pending Guidance 🛑]
+    start -- Add draft answer --> A
+    A -- Ready for review --> B
+    B --> SIG{"Passes SIG Review?"}
+    SIG -- YES --> Q{"Requires EU guidance?"}
+    SIG -- NO --> A
+    Q -- NO --> C
+    Q -- YES --> D
+    D -- Guidance received --> SIG
+```
+
+### Annex 2 - FAQ formats
+
+#### Draft FAQ format
+
+```md
+<details>
+    <a name="PREVIOUS_ANCHOR_SO_WE_DONT_BREAK_EXTERNAL_REFERENCES"></a>
+    <summary><strong><a name="faq-tmp-GITHUB_ISSUE_ID" href="#faq-tmp-GITHUB_ISSUE_ID">tmp-GITHUB_ISSUE_ID.</a> QUESTION</strong></summary>
+
+ANSWER
+
+> Status: ICON [MATURITY_LEVEL][]
+| GitHub issue(s): [#GITHUB_ISSUE_ID](https://github.com/orcwg/cra-hub/issues/GITHUB_ISSUE_ID)
+</details>
+```
+
+#### Final FAQ format
+
+```md
+<details>
+    <a name="PREVIOUS_ANCHOR_SO_WE_DONT_BREAK_EXTERNAL_REFERENCES"></a>
+    <a name="faq-tmp-GITHUB_ISSUE_ID"></a>
+    <summary><strong><a name="faq-FINAL_ID" href="#faq-FINAL_ID">FINAL_ID.</a> QUESTION</strong></summary>
+
+ANSWER
+
+</details>
+```
 
 [benefit from guidance]: #questions-which-would-benefit-from-european-commission-guidance
 [No answer yet]: #maturity-level-of-answers
