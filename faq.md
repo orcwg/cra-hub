@@ -205,14 +205,35 @@ Yes, a _manufacturer_ can also be an _open-source software steward_, but it cann
 
 ### EU Legislation
 
-#### Q: What is the _Blue Guide_?
+<details>
+	<a name="q-what-is-the-blue-guide"></a>
+	<summary><strong><a name="faq-tmp-4" href="#faq-tmp-4">tmp-4.</a> What is the <em>Blue Guide</em>?</strong></summary>
 
 The [Blue Guide][] is one of the main reference documents of the European Commission explaining how to implement legislation based on the New Legislative Framework (NLF). Unlike the CRA, the Blue Guide does not have legal force. It predates the CRA and only discusses software as something embedded into a physical product, not as standalone.
 For this reason, until an updated version is available, the Blue Guide's guidance should be read in light of the CRA's wider scope and take into account the nuances introduced in the CRA for software. For example, on the concept of "commercial activity", [Recital 18][] CRA provides more specific guidance on "monetisation" and "non-profit organisations" than is available in the Blue Guide's "Making available on the market" section.
 
-#### Q: What is the _New Legislative Framework_ (NLF)?
+> Status: ⚠️ [Draft][]
+| GitHub issue(s): [#4](https://github.com/orcwg/cra-hub/issues/4)
+</details>
 
-#### Q: What is a _Harmonized Standard_ and why does it matter?
+
+<details>
+    <a name="q-what-is-the-new-legislative-framework-nlf"></a>
+    <summary><strong><a name="faq-tmp-57" href="#faq-tmp-57">tmp-57.</a> What is the <em>New Legislative Framework</em> (NLF)?</strong></summary>	
+
+> Status: ❓ [No answer yet][]
+| GitHub issue(s): [#56](https://github.com/orcwg/cra-hub/issues/56)
+</details>
+
+
+<details>
+    <a name="q-what-is-a-harmonized-standard-and-why-does-it-matter"></a>
+    <summary><strong><a name="faq-tmp-56" href="#faq-tmp-56">tmp-56.</a> What is a <em>Harmonized Standard</em> and why does it matter?</strong></summary>	
+
+> Status: ❓ [No answer yet][]
+| GitHub issue(s): [#56](https://github.com/orcwg/cra-hub/issues/56)
+</details>
+
 
 <details>
 	<a name="q-what-is-a-legal-person"></a>
