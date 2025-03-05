@@ -236,7 +236,7 @@ _Open-source software steward_ are subject to a "light-touch and tailor-made reg
 
 <details>
     <a name="q-what-happens-when-an-open-source-software-steward-doesnt-meet-its-obligations"></a>
-    <summary><strong><a name="faq-tmp-158" href="#faq-tmp-158">tmp-158.</a> What happens when an <em>open-source software stewards</em> doesn't meet its obligations?</strong></summary>
+    <summary><strong><a name="faq-tmp-158" href="#faq-tmp-158">tmp-158.</a> What happens when an <em>open-source software steward</em> doesn't meet its obligations?</strong></summary>
 
 > Status: ❓ [No answer yet][]
 | GitHub issue(s): [#158](https://github.com/orcwg/cra-hub/issues/158)
