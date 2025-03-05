@@ -50,8 +50,8 @@ Maturity level statuses are assigned using the process described in [Annex 1](#a
 ### The Cyber Resilience Act (CRA) itself
 
 <details>
-	<a name="q-what-is-the-cyber-resilience-act-cra"></a>
-	<summary><strong><a name="faq-tmp-154" href="#faq-tmp-154">tmp-154.</a> What is the Cyber Resilience Act (CRA)?</strong></summary>
+    <a name="q-what-is-the-cyber-resilience-act-cra"></a>
+    <summary><strong><a name="faq-tmp-154" href="#faq-tmp-154">tmp-154.</a> What is the Cyber Resilience Act (CRA)?</strong></summary>
 
 The Cyber Resilience Act (CRA) is a new EU Regulation that aims to safeguard consumers and businesses who use software or products with digital components. It creates mandatory cybersecurity requirements for manufacturers and retailers that extend throughout the product lifecycle and the whole software supply chain (including all open source dependencies and transitive dependencies) and helps consumers and business identify such products through the [CE mark](https://en.wikipedia.org/wiki/CE_marking).
 
@@ -60,8 +60,8 @@ The Cyber Resilience Act (CRA) is a new EU Regulation that aims to safeguard con
 </details>
 
 <details>
-	<a name="q-where-is-the-official-text-of-the-cra"></a>
-	<summary><strong><a name="faq-tmp-155" href="#faq-tmp-155">tmp-155.</a> Where is the official text of the CRA?</strong></summary>
+    <a name="q-where-is-the-official-text-of-the-cra"></a>
+    <summary><strong><a name="faq-tmp-155" href="#faq-tmp-155">tmp-155.</a> Where is the official text of the CRA?</strong></summary>
 
 The final text of the CRA can be found on [EUR-Lex][CRA] ([English HTML version][CRA HTML]).
 
@@ -70,7 +70,9 @@ The final text of the CRA can be found on [EUR-Lex][CRA] ([English HTML version]
 </details>
 
 
-#### Q: When does the CRA enter into force and when does the regulation start to apply?
+<details>
+    <a name="q-when-does-the-cra-enter-into-force-and-when-does-the-regulation-start-to-apply"></a>
+    <summary><strong><a name="faq-tmp-10" href="#faq-tmp-10">tmp-10.</a> When does the CRA enter into force and when does the regulation start to apply?</strong></summary>
 
 The CRA enters into force on December 11, 2024. Reporting obligations of manufacturers ([Article 14][]) start to apply on September 11, 2026.
 The notification of conformity of assement bodies ([Chapter IV][]) start to apply on June 11, 2026. Everything else starts to apply on December 11, 2027.
@@ -93,7 +95,13 @@ gantt
     Application phase: 2026-09-11, 2029-06-30
 ```
 
-#### Q: What is in scope of the CRA?
+> Status: ⚠️ [Draft][]
+| GitHub issue(s): [#10](https://github.com/orcwg/cra-hub/issues/10)
+</details>
+
+<details>
+    <a name="q-what-is-in-scope-of-the-cra"></a>
+    <summary><strong><a name="faq-tmp-2" href="#faq-tmp-2">tmp-2.</a> What is in scope of the CRA?</strong></summary>
 
 The following types of product are in scope of the CRA:
 
@@ -101,7 +109,14 @@ The following types of product are in scope of the CRA:
 - Software products (e.g. operating systems, word processing, games or mobile apps, software libraries, etc.)
 - Remote data processing solutions for any of the above, as far as they are necessary for a product to perform its functions (e.g. cloud-based services that allow control of a smart lock at a distance, remote database that backs-up user preferences, etc.)
 
-#### Q: What is NOT in scope of the CRA?
+> Status: ⚠️ [Draft][]
+| GitHub issue(s): [#2](https://github.com/orcwg/cra-hub/issues/2)
+</details>
+
+
+<details>
+    <a name="q-what-is-not-in-scope-of-the-cra"></a>
+    <summary><strong><a name="faq-tmp-156" href="#faq-tmp-156">tmp-156.</a> What is NOT in scope of the CRA?</strong></summary>
 
 The following types of product are NOT in scope of the CRA:
 
@@ -110,6 +125,11 @@ The following types of product are NOT in scope of the CRA:
 - Products specifically designed to process classified information
 
 _It is worth noting however, that the intent of the EU legislators is to harmonize the various regulations mentioned above with the CRA in the near future._
+
+> Status: ⚠️ [Draft][]
+| GitHub issue(s): [#156](https://github.com/orcwg/cra-hub/issues/156)
+</details>
+
 
 ### Open source projects
 
