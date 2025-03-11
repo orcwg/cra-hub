@@ -171,7 +171,7 @@ No. Contributions to an open source project are explicitely not in scope of the 
 
 
 <details>
-    <summary><strong><a name="faq-tmp-70" href="#faq-tmp-70">tmp-70.</a> I am not subject to the CRA, and want to make this clear to downstream integrators. What should I say? / I am receiving requests from integrators of my code who seem to think I must help them. How can I politely and helpfully explain that I am not their supplier?</strong></summary>
+    <summary><strong><a name="faq-tmp-70" href="#faq-tmp-70">tmp-70.</a> I am NOT subject to the CRA, and want to make this clear to downstream users. What should I say?</strong></summary>
   
 Reply to their requests, stating the following:
 <code>
