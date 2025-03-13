@@ -312,9 +312,11 @@ For this reason, until an updated version is available, the Blue Guide's guidanc
 
 <details>
     <a name="q-what-is-a-harmonized-standard-and-why-does-it-matter"></a>
-    <summary><strong><a name="faq-tmp-56" href="#faq-tmp-56">tmp-56.</a> What is a <em>Harmonized Standard</em> and why does it matter?</strong></summary>	
+    <summary><strong><a name="faq-tmp-56" href="#faq-tmp-56">tmp-56.</a> What is a <em>harmonised standard</em> and why does it matter?</strong></summary>	
 
-> Status: ❓ [No answer yet][]
+A _Harmonized Standard_ is a standard developed by European Standardization organisations, which is designed to provide organisations who follow them with a presumption of compliance with the law. It takes the legal requirements of the law and translates them into technical requirements for those implementing it. The Harmonised Standards for the Cyber Resilience Act will define how most developers comply with the law.
+  
+> Status: ⚠️ [Draft][]
 | GitHub issue(s): [#56](https://github.com/orcwg/cra-hub/issues/56)
 </details>
 
