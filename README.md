@@ -5,7 +5,7 @@ Everything you ever wanted to know about the CRA and its implementation.
 * [FAQ][] ([open issues][FAQ issues])
 * [Inventory of standards, specs, and best practices relevant to the CRA][inventory] ([draft spreadsheet][inventory spreadsheet] | [open issues][inventory issues])
 * [Summary of the harmonized standards requested by the EU Commision to the ESOs][standards]
-* [Important and Critical Product Categories][] ([Input to the Commission][]|[Open pull requests][]|[Related FAQ][]|[Related FAQ issues][])
+* [Important and Critical Product Categories][] ([Input to the Commission][] | [Open pull requests][] | [Related FAQ][] | [Related FAQ issues][])
  
 [FAQ]: https://github.com/orcwg/cra-hub/blob/main/faq.md
 [FAQ issues]: https://github.com/orcwg/cra-hub/labels/FAQ
