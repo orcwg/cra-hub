@@ -96,9 +96,8 @@ There are multiple layers of open hardware that build on each other.
 * Smartcards or similar devices, including secure elements
     * Nitrokey <https://www.nitrokey.com/products/nitrokeys>
 
-
-[Annex III]: https://gitlab.eclipse.org/eclipse-wg/open-regulatory-compliance-wg/cra-topics/-/blob/main/cra.md#annex-iii---important-products-with-digital-elements
-[Annex IV]: https://gitlab.eclipse.org/eclipse-wg/open-regulatory-compliance-wg/cra-topics/-/blob/main/cra.md#annex-iv---critical-products-with-digital-elements
-[Article 7]: https://gitlab.eclipse.org/eclipse-wg/open-regulatory-compliance-wg/cra-topics/-/blob/main/cra.md#article-7---important-products-with-digital-elements
-[Article 8]: https://gitlab.eclipse.org/eclipse-wg/open-regulatory-compliance-wg/cra-topics/-/blob/main/cra.md#article-8---critical-products-with-digital-elements
+[Article 7]: https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=OJ:L_202402847#art_7
+[Article 8]: https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=OJ:L_202402847#art_8
+[Annex III]: https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=OJ:L_202402847#anx_III
+[Annex IV]: https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=OJ:L_202402847#anx_IV
 
