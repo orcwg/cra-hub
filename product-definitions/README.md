@@ -9,9 +9,32 @@
 
 ORC WG is maintaining [FAQs related to Important and Critical Product Categories][FAQ].
 
+## Public Consultations and Feedback
+
+The European Commission organized two sets of consultations for these definitions.
+
+### Current consultations
+#### Have your say - Public Consultations and Feedback
+
+
+
+### Initial consultations
+
+The European Commission organized a series of consultations from June, 15 to July 11, 2024.
+
+- [Registration form to the European Commission CRA consultation][registration form]
+- [Coordination spreadsheet for 25 June - 11 July 2024 consultations][coordination spreadsheet]
+
+ORC WG collaborated with OpenForum Europe (OFE) to respond to these initial consultation and provide further technical input.
+
+- [Initial technical input to the Definitions of Critical and Important Products](./input-to-initial-consultation.md)
+- [PDF shared with the Commission on September 23, 2024](./input-to-initial-consultation-2024-09-23.md)
+
 [Article 7]: https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=OJ:L_202402847#art_7
 [Article 8]: https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=OJ:L_202402847#art_8
 [Annex III]: https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=OJ:L_202402847#anx_III
 [Annex IV]: https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=OJ:L_202402847#anx_IV
-[FAQ]: https://github.com/orcwg/cra-hub/blob/main/faq.md#important-and-critical-product-categories
 
+[FAQ]: https://github.com/orcwg/cra-hub/blob/main/faq.md#important-and-critical-product-categories
+[registration form]: https://ec.europa.eu/eusurvey/runner/CRAconsultations
+[coordination spreadsheet]: https://docs.google.com/spreadsheets/d/1tVEd8A_Bk3k-QBS8CoiHxurYy_IvqcVmL5M2dgayuUg/edit?gid=0#gid=0
