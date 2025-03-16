@@ -23,4 +23,10 @@
 - Not all questions need to be answered by respondents
 - Respondents should be familiar with the CRA already
 
+### Next steps
+
+1. Provide feedback/input to the questions by March 24
+2. Suggest solutions to anonymize and share collected data
+3. Help diffuse the survey to increase reach
+
 [CRA Workstream]: https://www.dialog-cybersicherheit.de/workstreams/
