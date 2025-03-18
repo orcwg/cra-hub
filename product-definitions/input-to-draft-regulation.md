@@ -13,6 +13,12 @@
   </thead>
   <tbody>
     <tr>
+      <td></td>
+      <td></td>
+      <td><em>Please enter your comment and a concise explanation or rationale.</em></td>
+      <td><em>Please enter your proposal (suggestion, modification, etc) as a text fragment for addition into the text or describe it as concise and precise as possible.</em></td>
+    </tr>
+    <tr>
       <td>(1)</td>
       <td>Regulation (EU) 2024/2847 lays down rules on the cybersecurity of products with digital elements. In particular, Article 7(2) of that Regulation sets out categories of important products with digital elements that are subject to conformity assessment procedures that are stricter than those applicable to other products with digital elements. Article 8(2) of Regulation (EU) 2024/2847 sets out categories of critical products with digital elements for which manufacturers could be required to obtain a European cybersecurity certificate under a European cybersecurity certification scheme pursuant to Regulation (EU) 2019/881 of the European Parliament and of the Council or which would be subject to strict conformity assessment procedures.</td>
       <td><!-- Comments --></td>
@@ -70,6 +76,12 @@
   </thead>
   <tbody>
     <tr>
+      <td></td>
+      <td></td>
+      <td><em>Please enter your comment and a concise explanation or rationale.</em></td>
+      <td><em>Please enter your proposal (suggestion, modification, etc) as a text fragment for addition into the text or describe it as concise and precise as possible.</em></td>
+    </tr>
+    <tr>
       <td>1</td>
       <td>
         <p>1. The technical description of the categories of products with digital elements under classes I and II listed in Annex III of Regulation (EU) 2024/2847 shall be as set out in Annex I to this Regulation.</p>
@@ -104,6 +116,12 @@
     </tr>
   </thead>
   <tbody>
+    <tr>
+      <td></td>
+      <td></td>
+      <td><em>Please enter your comment and a concise explanation or rationale.</em></td>
+      <td><em>Please enter your proposal (suggestion, modification, etc) as a text fragment for addition into the text or describe it as concise and precise as possible.</em></td>
+    </tr>
     <tr>
       <td>
         1. Identity management systems and privileged access management software and hardware, including authentication and access control readers, including biometric readers
@@ -427,6 +445,12 @@
   </thead>
   <tbody>
     <tr>
+      <td></td>
+      <td></td>
+      <td><em>Please enter your comment and a concise explanation or rationale.</em></td>
+      <td><em>Please enter your proposal (suggestion, modification, etc) as a text fragment for addition into the text or describe it as concise and precise as possible.</em></td>
+    </tr>    
+    <tr>
       <td>
         1. Hypervisors and container runtime systems that support virtualised execution of operating systems and similar environments
       </td>
@@ -509,6 +533,12 @@
     </tr>
   </thead>
   <tbody>
+    <tr>
+      <td></td>
+      <td></td>
+      <td><em>Please enter your comment and a concise explanation or rationale.</em></td>
+      <td><em>Please enter your proposal (suggestion, modification, etc) as a text fragment for addition into the text or describe it as concise and precise as possible.</em></td>
+    </tr>
     <tr>
       <td>
         1. Hardware Devices with Security Boxes
