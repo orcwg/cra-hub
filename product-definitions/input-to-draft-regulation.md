@@ -157,8 +157,8 @@
           Embedded browsers are browsers that are intended for integration into another system or application.
         </p>
       </td>
-      <td><!-- Comments --></td>
-      <td><!-- Proposed change --></td>
+      <td>Command line tools such as Curl "enable end users to access and interact with web content hosted on servers that are connected to networks such as the Internet" through the <a href="https://en.wikipedia.org/wiki/Command-line_interface">command-line interface</a>. Yet they're not technically browsers. They are used by technically savvy users to perform specific tasks (like looking at HTTP headers for exammple) and their interaction capabilities are limited. We suggest ammending the description to account for this.</td>
+      <td>In the context of this category of products, browsers are software products with digital elements that enable end users to access and interact with web content hosted on servers that are connected to networks such as the Internet <ins>through a graphical user interface (GUI) or assistive technology.</ins></td>
     </tr>
     <tr>
       <td>
