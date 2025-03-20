@@ -214,6 +214,17 @@ No. As defined in [Article 3(14)][], an _open-source software steward_ must be a
 
 ### Open-Source Software Stewards
 
+
+<details>
+    <summary><strong><a name="faq-tmp-170" href="#faq-tmp-170">tmp-170.</a> Can an open source project be WITHOUT an <em>open-source software steward</em>?</strong></summary>
+
+Yes, an open source project can be without an _open-source software steward _. In fact, most open source projets won't have one. It is possible there is no organisation with the purpose or objective of systematically providing support on a sustained basis for the development. If someone (e.g a company) uses code from the project in their product, the company is a manufacturer (as defined in the CRA), but no one becomes a steward based on fact the company uses project code.
+
+> Status: ⚠️ [Draft][]
+| GitHub issue(s): [#170](https://github.com/orcwg/cra-hub/issues/170)
+</details>
+
+
 <details>
     <a name="q-what-is-an-open-source-software-steward"></a>
     <summary><strong><a name="faq-tmp-127" href="#faq-tmp-127">tmp-127.</a> What is an <em>open-source software stewards</em>?</strong></summary>
