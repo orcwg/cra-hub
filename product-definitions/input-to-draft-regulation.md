@@ -45,8 +45,24 @@
     <tr>
       <td><a name="rct_5" href="#rct_5">(5)</a></td>
       <td>Pursuant to Article 13(2) and (3) of Regulation (EU) 2024/2847, manufacturers of products with digital elements are to implement the essential cybersecurity requirements set out in Part I of Annex I to Regulation (EU) 2024/2847 in a way that is proportionate to the risks of the product with digital elements, based on the intended purpose and reasonably foreseeable use as well as the conditions of use of the product with digital elements, taking into account the length of time the product is expected to be in use. In accordance with Article 13(2) and (3) of that Regulation, and irrespective of whether the product with digital elements is considered to be an important or critical product with digital elements, manufacturers are to carry out a comprehensive cybersecurity risk assessment and indicate how the essential cybersecurity requirements are implemented as informed by the risk assessment, including their testing and assurance. Where the core functionality of their product with digital elements fits the technical description of an important or critical product with digital elements, manufacturers are to demonstrate conformity following the specific conformity assessment procedures established by Article 32(2), (3) and (4) of Regulation (EU) 2024/2847.</td>
-      <td><!-- Comments --></td>
-      <td><!-- Proposed change --></td>
+      <td>
+        <p>Comment type: editorial</p>
+        <p>Recital (5) addresses four core points:</p>
+        <ol>
+          <li>The essential requirements need to be implemented using a risk-based approach</li>
+          <li>A comprehensive cybersecurity risk assessment needs to be undertaken and documented</li>
+          <li>Both of the above are true irrespective of whether a product fits the technical description of an important or critical product</li>
+          <li>Products whose core functionality fit the technical description of an important or critical product need a specific conformity assesment.</li>
+        </ol>
+        <p>These are important and welcomed clarifications. In fact we believe they are so important that they should be broken down into separate recitals.</p>
+        </td>
+      <td>
+        <p>(5) Pursuant to Article 13(2) and (3) of Regulation (EU) 2024/2847, manufacturers of products with digital elements are to implement the essential cybersecurity requirements set out in Part I of Annex I to Regulation (EU) 2024/2847 in a way that is proportionate to the risks of the product with digital elements, based on the intended purpose and reasonably foreseeable use as well as the conditions of use of the product with digital elements, taking into account the length of time the product is expected to be in use, and irrespective of whether the product with digital elements is considered to be an important or critical product with digital elements.</p>
+
+        <p>(6) In accordance with Article 13(2) and (3) of  Regulation (EU) 2024/2847, and irrespective of whether the product with digital elements is considered to be an important or critical product with digital elements, manufacturers are to carry out a comprehensive cybersecurity risk assessment and indicate how the essential cybersecurity requirements are implemented as informed by the risk assessment, including their testing and assurance.</p>
+        
+        <p>(7) Where the core functionality of their product with digital elements fits the technical description of an important or critical product with digital elements, manufacturers are to demonstrate conformity following the specific conformity assessment procedures established by Article 32(2), (3) and (4) of Regulation (EU) 2024/2847.</p>
+      </td>
     </tr>
     <tr>
       <td><a name="rct_6" href="#rct_6">(6)</a></td>
