@@ -74,8 +74,7 @@ The final text of the CRA can be found on [EUR-Lex][CRA] ([English HTML version]
     <a name="q-when-does-the-cra-enter-into-force-and-when-does-the-regulation-start-to-apply"></a>
     <summary><strong><a name="faq-tmp-10" href="#faq-tmp-10">tmp-10.</a> When does the CRA enter into force and when does the regulation start to apply?</strong></summary>
 
-The CRA enters into force on December 11, 2024. Reporting obligations of manufacturers ([Article 14][]) start to apply on September 11, 2026.
-The notification of conformity of assement bodies ([Chapter IV][]) start to apply on June 11, 2026. Everything else starts to apply on December 11, 2027.
+The CRA enters into force on December 11, 2024 ([Article 71][]). The notification of conformity of assement bodies ([Chapter IV][]) start to apply on June 11, 2026. Reporting obligations of manufacturers ([Article 14][]) and stewards ([Article 24][]) start to apply on September 11, 2026. Everything else starts to apply on December 11, 2027.
 
 ```mermaid
 %%{init: {'theme':'base'}}%%
@@ -89,8 +88,8 @@ gantt
     Publication in the Official Journal of the EU (November 20, 2024): milestone, 2024-11-20, 5m
     Entry into force (December 11, 2024): milestone, 2024-12-11, 5m
     Implementation phase: 2024-12-11, 3y
-    Reporting obligations of manufacturers (September 11, 2026): milestone, 2026-09-11, 5m
-    Notification of conformity of assement bodies (June 11, 2026): milestone, 2027-06-11, 5m
+    Notification of conformity of assement bodies (June 11, 2026): milestone, 2026-06-11, 5m
+    Reporting obligations (September 11, 2026): milestone, 2026-09-11, 5m
     All other obligations (December 11, 2027): milestone, 2027-12-11, 5m
     Application phase: 2026-09-11, 2029-06-30
 ```
@@ -415,6 +414,7 @@ ANSWER
 [Article 14]: https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=OJ:L_202402847#art_14
 [Article 24]: https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=OJ:L_202402847#art_24
 [Article 64(10)(b)]: https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=OJ:L_202402847#art_64
+[Article 71]: https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=OJ:L_202402847#art_71
 [Chapter IV]: https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=OJ:L_202402847#cpt_IV
 
 [2014/90]: https://eur-lex.europa.eu/eli/dir/2014/90/oj
