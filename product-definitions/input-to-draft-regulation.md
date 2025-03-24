@@ -19,43 +19,43 @@
       <td><em>Please enter your proposal (suggestion, modification, etc) as a text fragment for addition into the text or describe it as concise and precise as possible.</em></td>
     </tr>
     <tr>
-      <td>(1)</td>
+      <td><a name="rct_1" href="#rct_1">(1)</a></td>
       <td>Regulation (EU) 2024/2847 lays down rules on the cybersecurity of products with digital elements. In particular, Article 7(2) of that Regulation sets out categories of important products with digital elements that are subject to conformity assessment procedures that are stricter than those applicable to other products with digital elements. Article 8(2) of Regulation (EU) 2024/2847 sets out categories of critical products with digital elements for which manufacturers could be required to obtain a European cybersecurity certificate under a European cybersecurity certification scheme pursuant to Regulation (EU) 2019/881 of the European Parliament and of the Council or which would be subject to strict conformity assessment procedures.</td>
       <td><!-- Comments --></td>
       <td><!-- Proposed change --></td>
     </tr>
         <tr>
-      <td>(2)</td>
+      <td><a name="rct_2" href="#rct_2">(2)</a></td>
       <td>Pursuant to Article 7(1) and Article 8(1) of Regulation (EU) 2024/2847, the core functionality of a product with digital elements determines whether that product with digital elements fits into the technical description of a category of important or critical products with digital elements and therefore the applicable conformity assessment procedures. A product’s core functionality refers to its fundamental features and capabilities that fulfil the primary purpose for which the product with digital elements has been made available on the market and without which the product would not be able to meet its intended purpose or reasonably foreseeable use.</td>
       <td><!-- Comments --></td>
       <td><!-- Proposed change --></td>
     </tr>
     <tr>
-      <td>(3)</td>
+      <td><a name="rct_3" href="#rct_3">(3)</a></td>
       <td>When developing a product with digital elements, and in order to achieve their desired set of functionalities, manufacturers typically integrate into their own products with digital elements other products with digital elements that can meet the technical description of a category of important or critical products. Pursuant to Regulation (EU) 2024/2847, the integration of a product with digital elements which has the core functionality of a product category set out in Annex III and Annex IV to Regulation (EU) 2024/2847 does not in itself render the product in which it is integrated subject to the conformity assessment procedures applicable to those product categories.</td>
       <td><!-- Comments --></td>
       <td><!-- Proposed change --></td>
     </tr>
     <tr>
-      <td>(4)</td>
+      <td><a name="rct_4" href="#rct_4">(4)</a></td>
       <td>The fact that a product with digital elements performs functions other than or additional to those detailed in the technical descriptions set out in the Annexes does not in itself mean that the product with digital elements does not have the core functionality of a product category set out in the Annexes. For example, products with digital elements that have the core functionality of “operating systems” often include software that performs ancillary functions not included in the technical description of that product category, such as calculators or simple graphics editors. This, however, does not in itself mean that such products with digital elements do not meet the technical description of “operating systems”. On the other hand, a security orchestration, automation and response (SOAR) software often has the ability to perform the functions of products with digital elements in the category of “security information and event management (SIEM) systems”, i.e. gather data, analyse it and present it as actionable information for security purposes. However, as its core functionality is to integrate separate security tools, automate low-level tasks and orchestrate security incident responses, SOAR software are generally not to be considered to meet the technical description of “security information and event management (SIEM) systems”.</td>
       <td><!-- Comments --></td>
       <td><!-- Proposed change --></td>
     </tr>
     <tr>
-      <td>(5)</td>
+      <td><a name="rct_5" href="#rct_5">(5)</a></td>
       <td>Pursuant to Article 13(2) and (3) of Regulation (EU) 2024/2847, manufacturers of products with digital elements are to implement the essential cybersecurity requirements set out in Part I of Annex I to Regulation (EU) 2024/2847 in a way that is proportionate to the risks of the product with digital elements, based on the intended purpose and reasonably foreseeable use as well as the conditions of use of the product with digital elements, taking into account the length of time the product is expected to be in use. In accordance with Article 13(2) and (3) of that Regulation, and irrespective of whether the product with digital elements is considered to be an important or critical product with digital elements, manufacturers are to carry out a comprehensive cybersecurity risk assessment and indicate how the essential cybersecurity requirements are implemented as informed by the risk assessment, including their testing and assurance. Where the core functionality of their product with digital elements fits the technical description of an important or critical product with digital elements, manufacturers are to demonstrate conformity following the specific conformity assessment procedures established by Article 32(2), (3) and (4) of Regulation (EU) 2024/2847.</td>
       <td><!-- Comments --></td>
       <td><!-- Proposed change --></td>
     </tr>
     <tr>
-      <td>(6)</td>
+      <td><a name="rct_6" href="#rct_6">(6)</a></td>
       <td>This Regulation includes examples of products with digital elements whose core functionality fits into the technical description of certain important or critical products with digital elements. Such examples are provided for illustrative purposes only and are not an exhaustive list.</td>
       <td><!-- Comments --></td>
       <td><!-- Proposed change --></td>
     </tr>
     <tr>
-      <td>(7)</td>
+      <td><a name="rct_7" href="#rct_7">(7)</a></td>
       <td>The measures provided for in this Regulation are in accordance with the opinion of the Committee established by Article 62(1) of Regulation (EU) 2024/2847,</td>
       <td><!-- Comments --></td>
       <td><!-- Proposed change --></td>
@@ -82,7 +82,7 @@
       <td><em>Please enter your proposal (suggestion, modification, etc) as a text fragment for addition into the text or describe it as concise and precise as possible.</em></td>
     </tr>
     <tr>
-      <td>1</td>
+      <td><a name="art_1" href="#art_1">1</a></td>
       <td>
         <p>1. The technical description of the categories of products with digital elements under classes I and II listed in Annex III of Regulation (EU) 2024/2847 shall be as set out in Annex I to this Regulation.</p>
         <p>2. The technical description of the categories of products with digital elements listed in Annex IV of Regulation (EU) 2024/2847 shall be as set out in the Annex II to this Regulation.</p>
@@ -91,7 +91,7 @@
       <td><!-- Proposed change --></td>
     </tr>
         <tr>
-      <td>2</td>
+      <td><a name="art_2" href="#art_2">2</a></td>
       <td>
         <p>This Regulation shall enter into force on the twentieth day following that of its publication in the Official Journal of the European Union.</p>
         <p>This Regulation shall be binding in its entirety and directly applicable in all Member States.</p>
@@ -124,7 +124,7 @@
     </tr>
     <tr>
       <td>
-        1. Identity management systems and privileged access management software and hardware, including authentication and access control readers, including biometric readers
+        <a name="important_class_i_1" href="#important_class_i_1">1.</a> Identity management systems and privileged access management software and hardware, including authentication and access control readers, including biometric readers
       </td>
       <td>
         <p>
@@ -142,7 +142,7 @@
     </tr>
     <tr>
       <td>
-        2. Standalone and embedded browsers
+        <a name="important_class_i_2" href="#important_class_i_2">2.</a> Standalone and embedded browsers
       </td>
       <td>
         <p>
@@ -162,7 +162,7 @@
     </tr>
     <tr>
       <td>
-        3. Password managers
+        <a name="important_class_i_3" href="#important_class_i_3">3.</a> Password managers
       </td>
       <td>
         <p>
@@ -177,7 +177,7 @@
     </tr>
     <tr>
       <td>
-        4. Software that searches for, removes, or quarantines malicious software
+        <a name="important_class_i_4" href="#important_class_i_4">4.</a> Software that searches for, removes, or quarantines malicious software
       </td>
       <td>
         <p>
@@ -195,7 +195,7 @@
     </tr>
     <tr>
       <td>
-        5. Products with digital elements with the function of virtual private network (VPN)
+        <a name="important_class_i_5" href="#important_class_i_5">5.</a> Products with digital elements with the function of virtual private network (VPN)
       </td>
       <td>
         <p>
@@ -210,7 +210,7 @@
     </tr>
     <tr>
       <td>
-        6. Network management systems
+        <a name="important_class_i_6" href="#important_class_i_6">6.</a> Network management systems
       </td>
       <td>
         <p>
@@ -225,7 +225,7 @@
     </tr>
     <tr>
       <td>
-        7. Security information and event management (SIEM) systems
+        <a name="important_class_i_7" href="#important_class_i_7">7.</a> Security information and event management (SIEM) systems
       </td>
       <td>
         Products with digital elements that provide the ability to gather data, at least from network components, analyse that data and present it as actionable information for security purposes.
@@ -235,7 +235,7 @@
     </tr>
     <tr>
       <td>
-        8. Boot managers
+        <a name="important_class_i_8" href="#important_class_i_8">8.</a> Boot managers
       </td>
       <td>
         <p>
@@ -250,7 +250,7 @@
     </tr>
     <tr>
       <td>
-        9. Public key infrastructure and digital certificate issuance software
+        <a name="important_class_i_9" href="#important_class_i_9">9.</a> Public key infrastructure and digital certificate issuance software
       </td>
       <td>
         <p>
@@ -265,7 +265,7 @@
     </tr>
     <tr>
       <td>
-        10. Physical and virtual network interfaces
+        <a name="important_class_i_10" href="#important_class_i_10">10.</a> Physical and virtual network interfaces
       </td>
       <td>
         <p>
@@ -280,7 +280,7 @@
     </tr>
     <tr>
       <td>
-        11. Operating systems
+        <a name="important_class_i_11" href="#important_class_i_11">11.</a> Operating systems
       </td>
       <td>
         <p>
@@ -295,7 +295,7 @@
     </tr>
     <tr>
       <td>
-        12. Routers, modems intended for the connection to the internet, and switches
+        <a name="important_class_i_12" href="#important_class_i_12">12.</a> Routers, modems intended for the connection to the internet, and switches
       </td>
       <td>
         <p>
@@ -324,7 +324,7 @@
     </tr>
     <tr>
       <td>
-        13. Microprocessors with security-related
+        <a name="important_class_i_13" href="#important_class_i_13">13.</a> Microprocessors with security-related
         functionalities
       </td>
       <td>
@@ -338,7 +338,7 @@
     </tr>
     <tr>
       <td>
-        14. Microcontrollers with security-related functionalities
+        <a name="important_class_i_14" href="#important_class_i_14">14.</a> Microcontrollers with security-related functionalities
       </td>
       <td>
         Products with digital elements consisting of a general-purpose central processing unit, with sufficient memory allowing the microcontroller to be programmable and typically other peripherals on a single chip, and which provide countermeasures against logical attacks, specifically through the support of additional hardware components.
@@ -348,7 +348,7 @@
     </tr>
     <tr>
       <td>
-        15. Application specific integrated circuits (ASIC) and field-programmable gate arrays (FPGA) with security-related functionalities
+        <a name="important_class_i_15" href="#important_class_i_15">15.</a> Application specific integrated circuits (ASIC) and field-programmable gate arrays (FPGA) with security-related functionalities
       </td>
       <td>
         <p>
@@ -364,7 +364,7 @@
     </tr>
     <tr>
       <td>
-        16. Smart home general purpose virtual assistants
+        <a name="important_class_i_16" href="#important_class_i_16">16.</a> Smart home general purpose virtual assistants
       </td>
       <td>
         <p>
@@ -379,7 +379,7 @@
     </tr>
     <tr>
       <td>
-        17. Smart home products with security functionalities, including smart door locks, security cameras, baby monitoring systems and alarm systems
+        <a name="important_class_i_17" href="#important_class_i_17">17.</a> Smart home products with security functionalities, including smart door locks, security cameras, baby monitoring systems and alarm systems
       </td>
       <td>
         <p>
@@ -394,7 +394,7 @@
     </tr>
     <tr>
       <td>
-        18. Internet connected toys covered by Directive 2009/48/EC of the European Parliament and of the Council that have social interactive features (e.g. speaking or filming) or that have location tracking features
+        <a name="important_class_i_18" href="#important_class_i_18">18.</a> Internet connected toys covered by Directive 2009/48/EC of the European Parliament and of the Council that have social interactive features (e.g. speaking or filming) or that have location tracking features
       </td>
       <td>
         <p>
@@ -409,7 +409,7 @@
     </tr>
     <tr>
       <td>
-        19. Personal wearable products to be worn or placed on a human body that have a health monitoring (such as tracking) purpose and to which Regulation (EU) 2017/745 or (EU) 2017/746 of the European Parliament and of the Council do not apply, or personal wearable products that are intended for the use by and for children
+        <a name="important_class_i_19" href="#important_class_i_19">19.</a> Personal wearable products to be worn or placed on a human body that have a health monitoring (such as tracking) purpose and to which Regulation (EU) 2017/745 or (EU) 2017/746 of the European Parliament and of the Council do not apply, or personal wearable products that are intended for the use by and for children
       </td>
       <td>
         <p>
@@ -452,7 +452,7 @@
     </tr>    
     <tr>
       <td>
-        1. Hypervisors and container runtime systems that support virtualised execution of operating systems and similar environments
+        <a name="important_class_ii_1" href="#important_class_ii_1">1.</a> Hypervisors and container runtime systems that support virtualised execution of operating systems and similar environments
       </td>
       <td>
         <p>
@@ -477,7 +477,7 @@
     </tr>
     <tr>
       <td>
-        2. Firewalls, intrusion detection and prevention systems
+        <a name="important_class_ii_2" href="#important_class_ii_2">2.</a> Firewalls, intrusion detection and prevention systems
       </td>
       <td>
         <p>
@@ -497,7 +497,7 @@
     </tr>
     <tr>
       <td>
-        3. Tamper-resistant microprocessors
+        <a name="important_class_ii_3" href="#important_class_ii_3">3.</a> Tamper-resistant microprocessors
       </td>
       <td>
         Products with digital elements consisting of microprocessors with security-related functionalities, that provide countermeasures against physical attacks, including tamper evidence, resistance or response.
@@ -507,7 +507,7 @@
     </tr>
     <tr>
       <td>
-        4. Tamper-resistant microcontrollers
+        <a name="important_class_ii_4" href="#important_class_ii_4">4.</a> Tamper-resistant microcontrollers
       </td>
       <td>
         Products with digital elements consisting of microcontrollers with security-related functionalities, that provide countermeasures against physical attacks, including tamper evidence, resistance or response.
@@ -541,7 +541,7 @@
     </tr>
     <tr>
       <td>
-        1. Hardware Devices with Security Boxes
+        <a name="critical_1" href="#critical_1">1.</a> Hardware Devices with Security Boxes
       </td>
       <td>
         <p>
@@ -556,7 +556,7 @@
     </tr>
     <tr>
       <td>
-        2. Smart meter gateways within smart metering systems as defined in Article 2(23) of Directive (EU) 2019/944 of the European Parliament and of the Council and other devices for advanced security purposes, including for secure cryptoprocessing
+        <a name="critical_2" href="#critical_2">2.</a> Smart meter gateways within smart metering systems as defined in Article 2(23) of Directive (EU) 2019/944 of the European Parliament and of the Council and other devices for advanced security purposes, including for secure cryptoprocessing
       </td>
       <td>
         <p>
@@ -571,7 +571,7 @@
     </tr>
     <tr>
       <td>
-        3. Smartcards or similar devices, including secure elements
+        <a name="critical_3" href="#critical_3">3.</a> Smartcards or similar devices, including secure elements
       </td>
       <td>
         <p>
