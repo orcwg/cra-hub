@@ -158,8 +158,8 @@
         </p>
       </td>
       <td>Command-line tools (such as Curl) and other web clients used for software development and testing also "enable end users to access and interact with web content hosted on servers that are connected to networks such as the Internet" through the <a href="https://en.wikipedia.org/wiki/Command-line_interface">command-line interface</a> or through other means. Yet they are not browsers per se. They are used by technically savvy users to perform specific tasks (like looking at HTTP headers for example) and their interaction capabilities are limited. We suggest amending the description to account for this.</td>
-      <td><p>In the context of this category of products, browsers are software products with digital elements that enable end users to access and interact with web content hosted on servers that are connected to networks such as the Internet <ins>through a graphical user interface (GUI) or assistive technology.</ins></p>
-      <p><ins>This category does not include command-line tools and other web clients intended to be used for software development and testing.</ins></p>
+      <td><p>In the context of this category of products, browsers are software products with digital elements that fetch and render web content hosted on servers that are connected to networks such as the Internet, and enable end users to access and interact with it through a graphical user interface (GUI) or assistive technology.</p>
+      <p>This category does not include command-line tools and web clients intended to be used for software development and testing.</p>
       </td>
     </tr>
     <tr>
