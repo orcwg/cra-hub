@@ -472,7 +472,11 @@
           This category includes but is not limited to low-level container runtimes and high-level container runtimes.
         </p>
       </td>
-      <td><!-- Comments --></td>
+      <td><!-- Comments -->
+        <p>
+          It's not entirely clear where hardware-based virtualization components fall. Hardware-based virtualization components are often also called "hypervisors"(https://en.wikipedia.org/wiki/Hypervisor). These are implemented as hardware components inside of CPUs and microcontrollers. Most software hypervisors use hardware hypervisors to perform the virtualization tasks. Do hardware hypervisors fall under "Microprocessors with security-related functionalities"? or under "hypervisors"?
+        </p>
+      </td>
       <td><!-- Proposed change --></td>
     </tr>
     <tr>
@@ -588,7 +592,14 @@
           This category includes but is not limited to replaceable sim cards, payment cards, physical access cards, digital tachograph cards or wrist bands with integrated secure elements.
         </p>        
       </td>
-      <td><!-- Comments --></td>
+      <td><!-- Comments -->
+        <p>
+          Some of these components, such as TPMs, are sometimes implemented as software instead of components. For example, confidential computing hypervisors often include vTPMs (https://trustedcomputinggroup.org/about/what-is-a-virtual-trusted-platform-module-vtpm/). This is a piece of software that carries out the same hardware-based security functions, but in software instead. These are either implemented as pure-software components or as software layers on top of physical TPMs. Do TPMs only fall under "secure elements" when they are implemented purely in hardware? Or do software implementations also fall under this category?
+
+          It is not entirely clear where hardware-based confidential computing components such as trusted execution environments (TEEs) fall. They don't seem to fall under "Hypervisors", because that definition explicitly says "software..", while these components are part of CPUs and microcontrollers. I would expect them to fall under "Secure Elements", because it is a tamper-resistant microcontroller/microprocessor designed to securily store and process sensitive data. However, it is not similar to a smartcard. With a smartcard, the entire device is tamper-resistant, while TEEs and TPMs are tamper-resistant elements of regular devices. However, one might argue that TEEs are instead covered by the Class 1 important category "Microprocessors with security-related functionalities". Given that TEEs often perform similar functionalities to TPMs, and are used in similarly highly sensitive scenarios to protect data and keys from tampering, I would suggest these fall under the same category as TPMs. If they indeed fall under this category, it might be best to explicitly state that.
+      </td> 
+        </p>
+      </td>
       <td><!-- Proposed change --></td>
     </tr>
   </tbody>
