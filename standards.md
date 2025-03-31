@@ -1,10 +1,10 @@
 # Summary of European Commission implementing decision of a standardisation request to the ESOs
 
-This is a summary of the [European Commission implementing decision of a standardisation request to the ESOs](https://ec.europa.eu/transparency/documents-register/detail?ref=C(2025)618&lang=en) of February 2, 2025 (PDFs: [act](./resources/C(2025)618_0.pdf), [annexes](./resources/C(2025)618_1.pdf)).
+This is a summary of the [European Commission implementing decision of a standardisation request to the ESOs][StandReq] of February 2, 2025 (PDFs: [act](./resources/C(2025)618_0.pdf), [annexes](./resources/C(2025)618_1.pdf)).
 
 ## Milestone 1 - Horizontal standards due August 30, 2026
 
-| Number | Description | CRA Link | CEN/CENELEC | ETSI | Provides presumption of conformity |
+| Number | Description | CRA Link | CEN/CENELEC | ETSI | Provides presumption of conformity<sup><a href="#note-1">[1]</a><sup> |
 |---|---|---|:---:|:---:|:---:|
 | 1 | designing, developing and producing products with digital elements in such a way that they ensure an appropriate level of cybersecurity based on the risks | [Annex&nbsp;I,&nbsp;Part&nbsp;I,&nbsp;point&nbsp;(1)][Annex I] | WG9&nbsp;PT1 | - | No |
 | 15 | vulnerability handling for products with digital elements | [Annex&nbsp;I,&nbsp;Part&nbsp;II][Annex I] | WG9&nbsp;PT3 | - | No |
@@ -13,7 +13,7 @@ This is a summary of the [European Commission implementing decision of a standar
 
 These standards describe essential cybersecurity requirements for the _Important Products_ listed in [Annex III][] and the _Critical Products_ listed in [Annex IV][].
 
-| Number | Description | CRA Link | CEN/CENELEC | ETSI | Provides presumption of conformity |
+| Number | Description | CRA Link | CEN/CENELEC | ETSI | Provides presumption of conformity<sup><a href="#note-1">[1]</a><sup> |
 |---|---|---|:---:|:---:|:---:|
 | 16 | identity management systems and privileged access management software and hardware, including authentication and access control readers, including biometric readers | [Annex&nbsp;III,&nbsp;Class&nbsp;I,&nbsp;point&nbsp;(1)][Annex III] | _TBD_ | _TBD_ | Yes |
 | 17 | standalone and embedded browsers | [Annex&nbsp;III,&nbsp;Class&nbsp;I,&nbsp;point&nbsp;(2)][Annex III] | _TBD_ | _TBD_ | Yes |
@@ -44,7 +44,7 @@ These standards describe essential cybersecurity requirements for the _Important
 
 ## Milestone 3 - Horizontal standards due October 30, 2027
 
-| Number | Description | CRA Link | CEN/CENELEC | ETSI | Provides presumption of conformity |
+| Number | Description | CRA Link | CEN/CENELEC | ETSI | Provides presumption of conformity<sup><a href="#note-1">[1]</a><sup> |
 |---|---|---|:---:|:---:|:---:|
 | 2 | making products with digital elements available on the market without known exploitable vulnerabilities | [Annex&nbsp;I,&nbsp;Part&nbsp;I,&nbsp;point&nbsp;(2)&#8288;(a)][Annex I] | WG9&nbsp;PT2 |  -  | No |
 | 3 | making products with digital elements available on the market with a secure by default configuration | [Annex&nbsp;I,&nbsp;Part&nbsp;I,&nbsp;point&nbsp;(2)&#8288;(b)][Annex I] | WG9&nbsp;PT2 |  -  | No |
@@ -60,6 +60,11 @@ These standards describe essential cybersecurity requirements for the _Important
 | 13 | providing security related information by recording and/or monitoring relevant internal activity of products with digital elements with an opt-out mechanism for the user | [Annex&nbsp;I,&nbsp;Part&nbsp;I,&nbsp;point&nbsp;(2)&#8288;(l)][Annex I] | WG9&nbsp;PT2 |  -  | No |
 | 14 | securely and easily removing or transferring all data and settings of a product with digital elements | [Annex&nbsp;I,&nbsp;Part&nbsp;I,&nbsp;point&nbsp;(2)&#8288;(m)][Annex I] | WG9&nbsp;PT2 |  -  | No |
 
+---
+
+<sup><a href="#note-1" name="note-1">[1]</a></sup> _Vertical standards mentioned in Point 2.3 of Annex II of the [European Commission implementing decision of a standardisation request to the ESOs][StandReq] are the only one requested to aim to provide a presumption of conformity._
+
+[StandReq]:  https://ec.europa.eu/transparency/documents-register/detail?ref=C(2025)618&lang=en
 [Annex I]:   https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=OJ:L_202402847#anx_I 
 [Annex III]: https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=OJ:L_202402847#anx_III
 [Annex IV]:  https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=OJ:L_202402847#anx_IV
