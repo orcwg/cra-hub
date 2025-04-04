@@ -289,10 +289,18 @@ Yes, a _manufacturer_ can also be an _open-source software steward_, but it cann
 ### Standards
 
 <details>
-    <a name="q-what-is-a-harmonized-standard-and-why-does-it-matter"></a>
-    <summary><strong><a name="faq-tmp-56" href="#faq-tmp-56">tmp-56.</a> What is a <em>harmonised standard</em> and why does it matter?</strong></summary>	
+    <a name="q-what-is-a-harmonised-standard-and-why-does-it-matter"></a>
+    <summary><strong><a name="faq-tmp-56" href="#faq-tmp-56">tmp-56.</a> What is a <em>harmonised standard</em> and why does it matter?</strong></summary>
 
-A _harmonised standard_ is a standard developed by the [European Standardisation Organisations (ESOs)][ESO]. It takes the legal requirements of the law and translates them into technical requirements for those implementing it. Certain _harmonised standards_ provide organisations which implement them with a _presumption of conformity_ with the law. This is why it is expected that most organisations will choose to implement the _harmonised standards_ to comply with the CRA. The ORC WG maintains a [list of _harmonised standards_][standards] requested by the European Commission to the ESOs.
+A _harmonised standard_ is a standard adopted by one of the [European Standardisation Organisations (ESOs)][ESO]. Certain (but not all) _harmonised standards_ are referenced in the _Official Journal of the European Union_.
+Any harmonised standard  referenced in this way provides organisations that implement them with a _presumption of conformity_ with the law.
+This is why it is expected that most organisations will choose to implement these referenced _harmonised standards_ to comply with the CRA.
+
+However, not all harmonised standards are referenced. Those that are not referenced are often foundational standards upon which other standards build.
+For example, vertical standards (industry-specific standards) may build upon horizontal standards (general standards that apply across industries).
+
+The ORC WG maintains a [list of _harmonised standards_][standards] requested by the European Commission to the ESOs.
+This list indicates whether they are going to be referenced and thus provide a presumption of conformity.
   
 > Status: ⚠️ [Draft][]
 | GitHub issue(s): [#56](https://github.com/orcwg/cra-hub/issues/56)
