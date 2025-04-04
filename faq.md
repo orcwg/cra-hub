@@ -347,7 +347,7 @@ Security attestations in the CRA are an optional extension that do not exist yet
 
 ## Acknowledgments
 
-The following people have contributed to the this document either directly or indirectly (e.g. by raising questions):
+The following people have contributed to this document either directly or indirectly (e.g. by raising questions):
 Adrian O'Sullivan,
 Aeva Black,
 Alberto Pianon,
