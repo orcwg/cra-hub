@@ -69,6 +69,7 @@ Impact on steward: `Partial obligation` ("foster development of secure product",
   <details>
 
     <summary>More info</summary>
+
     * **Title:** OWASP DevSecOps Maturity Model (DSOMM)
     * **URL:** https://dsomm.owasp.org
     * **Publisher:** OWASP
