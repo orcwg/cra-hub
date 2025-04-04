@@ -391,7 +391,7 @@ Timothée Mazzucotelli,
 Tobie Langel,
 and Victor Roland.
 
-If you have contributed to this document and aren't properly acknowldged or if you want to edit or remove your name, please let us know by [opening an issue](https://github.com/orcwg/cra-hub/issues/new) and will fix this right away.
+If you have contributed to this document and aren't properly acknowledged or if you want to edit or remove your name, please let us know by [opening an issue](https://github.com/orcwg/cra-hub/issues/new) and we will fix this right away.
 
 ## Annexes
 
