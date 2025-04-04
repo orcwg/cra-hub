@@ -296,7 +296,8 @@ A _harmonised standard_ is a standard adopted by one of the [European Standardis
 Any harmonised standard  referenced in this way provides organisations that implement them with a _presumption of conformity_ with the law.
 This is why it is expected that most organisations will choose to implement these referenced _harmonised standards_ to comply with the CRA.
 
-However, not all harmonised standards are referenced. Those that are not referenced are often foundational standards upon which other standards build.
+However, not all harmonised standards are referenced.
+Those that are not referenced are often foundational standards upon which other standards build.
 For example, vertical standards (industry-specific standards) may build upon horizontal standards (general standards that apply across industries).
 
 The ORC WG maintains a [list of _harmonised standards_][standards] requested by the European Commission to the ESOs.
