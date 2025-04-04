@@ -9,14 +9,37 @@ _Please add all relevant resources as a table row under the relevant section or 
 
 ## Table of Content
 
-* [Horizontal Type A Standards (due Aug. 2026)](#horizontal-type-a-standards-due-august-30-2026)
+* [Principles of Cyber Resilience](#horizontal-type-a-standards-due-august-30-2026)
 * [Horizontal Type B Standards (due Sept. 2027)](#horizontal-type-b-standards-due-october-30-2027)
 * [Open Source Steward Cybersecurity policy](#open-source-steward-cybersecurity-policy)
 * [Due diligence requirements of manufacturers](#due-diligence-requirements-of-manufacturers)
 * [Voluntary security attestation programmes](#voluntary-security-attestation-programmes)
 * [Other](#other)
 
-## Horizontal Type A Standards (due August 30, 2026)
+## Principles of Cyber Resilience
+
+> Designing, developing and producing products with digital elements in such a way that they ensure an appropriate level of cybersecurity based on the risks.
+
+CRA ref: [Annex I, Part I, point (1)][Annex I]\
+Standards request ref: [1](https://github.com/orcwg/cra-hub/blob/main/standards.md#milestone-1---horizontal-standards-due-august-30-2026)\
+Impact on steward: `Partial obligation` ("foster development of secure product", [Article 24(1)][Article 24])
+
+### Risk analysis
+
+* [OWASP Software Assurance Maturity Model (SAMM)](https://owaspsamm.org), OWASP, CC-BY-SA-4.0, Maturity Model, 2009 – present. SAMM is a maturity model that helps organizations implement a Secure Development Lifecycle.
+
+### Secure design & secure coding principles
+
+* [OpenStack Secure Development Guidelines](https://security.openstack.org/#secure-development-guidelines), OpenStack Community, CC-BY-3.0, informal, 2015-02-18 – present.
+* [OWASP Cheat Sheet Series](https://cheatsheetseries.owasp.org), OWASP, CC BY-SA 4.0, Informal Guidelines, 2014 – present. OWASP Cheat Sheets are a collection of pragmatic security guidelines and best practices for a wide range of technologies.
+
+### Security processes & governance
+
+* [OWASP DevSecOps Maturity Model (DSOMM)](https://dsomm.owasp.org), OWASP, GPL-3, Maturity Model, 2017 – present. DSOMM is a maturity model aimed at implementing DevSecOps best practices.
+* [NIST Secure Software Development Framework (NIST SP 800-218)](https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-218.pdf), National Institute of Standards and Technology (NIST), No License Required, Guidelines, 2022-02 – present. SSDF is a set of community-derived and regulatory-aligned practices for the creation and usage of software.
+
+
+
 
 ### Designing, developing and producing products with digital elements in such a way that they ensure an appropriate level of cybersecurity based on the risks
 
