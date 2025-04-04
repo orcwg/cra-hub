@@ -74,7 +74,7 @@ The final text of the CRA can be found on [EUR-Lex][CRA] ([English HTML version]
     <a name="q-when-does-the-cra-enter-into-force-and-when-does-the-regulation-start-to-apply"></a>
     <summary><strong><a name="faq-tmp-10" href="#faq-tmp-10">tmp-10.</a> When does the CRA enter into force and when does the regulation start to apply?</strong></summary>
 
-The CRA enters into force on December 11, 2024 ([Article 71][]). The notification of conformity of assement bodies ([Chapter IV][]) start to apply on June 11, 2026. Reporting obligations of manufacturers ([Article 14][]) and stewards ([Article 24][]) start to apply on September 11, 2026. Everything else starts to apply on December 11, 2027.
+The CRA enters into force on December 11, 2024 ([Article 71][]). The notification of conformity of assessment bodies ([Chapter IV][]) start to apply on June 11, 2026. Reporting obligations of manufacturers ([Article 14][]) and stewards ([Article 24][]) start to apply on September 11, 2026. Everything else starts to apply on December 11, 2027.
 
 ```mermaid
 %%{init: {'theme':'base'}}%%
