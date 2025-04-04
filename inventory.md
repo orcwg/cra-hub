@@ -26,12 +26,39 @@ Impact on steward: `Partial obligation` ("foster development of secure product",
 
 ### Risk analysis
 
-* [OWASP Software Assurance Maturity Model (SAMM)](https://owaspsamm.org), OWASP, CC-BY-SA-4.0, Maturity Model, 2009 – present. SAMM is a maturity model that helps organizations implement a Secure Development Lifecycle.
+* [OWASP Software Assurance Maturity Model (SAMM)](https://owaspsamm.org) - SAMM is a maturity model that helps organizations implement a Secure Development Lifecycle.
+  <details>
+    <summary>More info</summary>
+    * **Title:** OWASP Software Assurance Maturity Model (SAMM)
+    * **URL:** https://owaspsamm.org
+    * **Publisher:** OWASP
+    * **License:** CC-BY-SA 4.0
+    * **Type:** Maturity Model
+    * **Publication date:** 2009 – present
+  </details>
 
 ### Secure design & secure coding principles
 
-* [OpenStack Secure Development Guidelines](https://security.openstack.org/#secure-development-guidelines), OpenStack Community, CC-BY-3.0, informal, 2015-02-18 – present.
-* [OWASP Cheat Sheet Series](https://cheatsheetseries.owasp.org), OWASP, CC BY-SA 4.0, Informal Guidelines, 2014 – present. OWASP Cheat Sheets are a collection of pragmatic security guidelines and best practices for a wide range of technologies.
+* [OpenStack Secure Development Guidelines](https://security.openstack.org/#secure-development-guidelines) - The OpenStack security team have collaboratively developed this set of guidelines and best practices to help avoid common mistakes that lead to security vulnerabilities within the OpenStack platform.
+  <details>
+    <summary>More info</summary>
+    * **Title:** OpenStack Secure Development Guidelines
+    * **URL:** https://security.openstack.org/#secure-development-guidelines
+    * **Publisher:** OpenStack Community
+    * **License:** CC-BY 3.0
+    * **Type:** Informal
+    * **Publication date:** 2015-02-18 – present
+  </details>
+* [OWASP Cheat Sheet Series](https://cheatsheetseries.owasp.org) - OWASP Cheat Sheets are a collection of pragmatic security guidelines and best practices for a wide range of technologies.
+  <details>
+    <summary>More info</summary>
+    * **Title:** OWASP Cheat Sheet Series
+    * **URL:** https://cheatsheetseries.owasp.org
+    * **Publisher:** OWASP
+    * **License:** CC-BY-SA 4.0
+    * **Type:** Informal Guidelines
+    * **Publication date:** 2014 – present
+  </details>
 
 ### Security processes & governance
 
