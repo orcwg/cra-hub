@@ -62,11 +62,27 @@ Impact on steward: `Partial obligation` ("foster development of secure product",
 
 ### Security processes & governance
 
-* [OWASP DevSecOps Maturity Model (DSOMM)](https://dsomm.owasp.org), OWASP, GPL-3, Maturity Model, 2017 – present. DSOMM is a maturity model aimed at implementing DevSecOps best practices.
-* [NIST Secure Software Development Framework (NIST SP 800-218)](https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-218.pdf), National Institute of Standards and Technology (NIST), No License Required, Guidelines, 2022-02 – present. SSDF is a set of community-derived and regulatory-aligned practices for the creation and usage of software.
-
-
-
+* [OWASP DevSecOps Maturity Model (DSOMM)](https://dsomm.owasp.org) - DSOMM is a maturity model aimed at implementing DevSecOps best practices.
+  <details>
+    <summary>More info</summary>
+    * **Title:** OWASP DevSecOps Maturity Model (DSOMM)
+    * **URL:** https://dsomm.owasp.org
+    * **Publisher:** OWASP
+    * **License:** GPL-3
+    * **Type:** Maturity Model
+    * **Publication date:** 2017 – present
+  </details>
+* [NIST Secure Software Development Framework (SSDF)](https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-218.pdf) - SSDF is a set of community-derived and regulatory-aligned practices for the creation and usage of software.
+  <details>
+    <summary>More info</summary>
+    * **Title:** NIST Secure Software Development Framework (SSDF)
+    * **URL:** https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-218.pdf
+    * **Publisher:** National Institute of Standards and Technology (NIST)
+    * **Publisher reference:** NIST SP 800-218
+    * **License:** Public domain
+    * **Type:** Guidelines
+    * **Publication date:** 2022-02 – present.
+  </details>
 
 ### Designing, developing and producing products with digital elements in such a way that they ensure an appropriate level of cybersecurity based on the risks
 
