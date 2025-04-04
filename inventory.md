@@ -29,6 +29,7 @@ Impact on steward: `Partial obligation` ("foster development of secure product",
 * [OWASP Software Assurance Maturity Model (SAMM)](https://owaspsamm.org) - SAMM is a maturity model that helps organizations implement a Secure Development Lifecycle.
   <details>
     <summary>More info</summary>
+
     * **Title:** OWASP Software Assurance Maturity Model (SAMM)
     * **URL:** https://owaspsamm.org
     * **Publisher:** OWASP
@@ -42,6 +43,7 @@ Impact on steward: `Partial obligation` ("foster development of secure product",
 * [OpenStack Secure Development Guidelines](https://security.openstack.org/#secure-development-guidelines) - The OpenStack security team have collaboratively developed this set of guidelines and best practices to help avoid common mistakes that lead to security vulnerabilities within the OpenStack platform.
   <details>
     <summary>More info</summary>
+
     * **Title:** OpenStack Secure Development Guidelines
     * **URL:** https://security.openstack.org/#secure-development-guidelines
     * **Publisher:** OpenStack Community
@@ -52,6 +54,7 @@ Impact on steward: `Partial obligation` ("foster development of secure product",
 * [OWASP Cheat Sheet Series](https://cheatsheetseries.owasp.org) - OWASP Cheat Sheets are a collection of pragmatic security guidelines and best practices for a wide range of technologies.
   <details>
     <summary>More info</summary>
+
     * **Title:** OWASP Cheat Sheet Series
     * **URL:** https://cheatsheetseries.owasp.org
     * **Publisher:** OWASP
@@ -64,6 +67,7 @@ Impact on steward: `Partial obligation` ("foster development of secure product",
 
 * [OWASP DevSecOps Maturity Model (DSOMM)](https://dsomm.owasp.org) - DSOMM is a maturity model aimed at implementing DevSecOps best practices.
   <details>
+
     <summary>More info</summary>
     * **Title:** OWASP DevSecOps Maturity Model (DSOMM)
     * **URL:** https://dsomm.owasp.org
@@ -75,6 +79,7 @@ Impact on steward: `Partial obligation` ("foster development of secure product",
 * [NIST Secure Software Development Framework (SSDF)](https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-218.pdf) - SSDF is a set of community-derived and regulatory-aligned practices for the creation and usage of software.
   <details>
     <summary>More info</summary>
+
     * **Title:** NIST Secure Software Development Framework (SSDF)
     * **URL:** https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-218.pdf
     * **Publisher:** National Institute of Standards and Technology (NIST)
