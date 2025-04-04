@@ -89,6 +89,53 @@ Impact on steward: `Partial obligation` ("foster development of secure product",
     * **Type:** Guidelines
     * **Publication date:** 2022-02 – present.
   </details>
+  
+## Option 2
+
+### Secure design & secure coding principles
+
+| Title | Description |
+| ----- | ----------- |
+| [OpenStack Secure Development Guidelines](https://security.openstack.org/#secure-development-guidelines) | The OpenStack security team have collaboratively developed this set of guidelines and best practices to help avoid common mistakes that lead to security vulnerabilities within the OpenStack platform.<details><summary>More info</summary><li>Title: OpenStack Secure Development Guidelines<li>URL: https://security.openstack.org/#secure-development-guidelines<li>Publisher: OpenStack Community<li>License: CC-BY 3.0<li>Type: Informal<li>Publication date: 2015-02-18 – present</details> |
+| [OWASP Cheat Sheet Series](https://cheatsheetseries.owasp.org) | OWASP Cheat Sheets are a collection of pragmatic security guidelines and best practices for a wide range of technologies.<details><summary>More info</summary><li>Title: OWASP Cheat Sheet Series<li>URL: https://cheatsheetseries.owasp.org<li>Publisher: OWASP<li>License: CC-BY-SA 4.0<li>Type: Informal Guidelines<li>2014 – present</details> |
+    
+
+## Option 3
+
+### Secure design & secure coding principles
+
+| Title | Description | More info |
+| ----- | ----------- | --------- |
+| [OpenStack Secure Development Guidelines](https://security.openstack.org/#secure-development-guidelines) | The OpenStack security team have collaboratively developed this set of guidelines and best practices to help avoid common mistakes that lead to security vulnerabilities within the OpenStack platform. | <details><summary>More info</summary><li>Title: OpenStack Secure Development Guidelines<li>URL: https://security.openstack.org/#secure-development-guidelines<li>Publisher: OpenStack Community<li>License: CC-BY 3.0<li>Type: Informal<li>Publication date: 2015-02-18 – present</details> |
+| [OWASP Cheat Sheet Series](https://cheatsheetseries.owasp.org) | OWASP Cheat Sheets are a collection of pragmatic security guidelines and best practices for a wide range of technologies. | <details><summary>More info</summary><li>Title: OWASP Cheat Sheet Series<li>URL: https://cheatsheetseries.owasp.org<li>Publisher: OWASP<li>License: CC-BY-SA 4.0<li>Type: Informal Guidelines<li>2014 – present</details> |
+
+
+### Security processes & governance
+
+* [OWASP DevSecOps Maturity Model (DSOMM)](https://dsomm.owasp.org) - DSOMM is a maturity model aimed at implementing DevSecOps best practices.
+  <details>
+
+    <summary>More info</summary>
+
+    * **Title:** OWASP DevSecOps Maturity Model (DSOMM)
+    * **URL:** https://dsomm.owasp.org
+    * **Publisher:** OWASP
+    * **License:** GPL-3
+    * **Type:** Maturity Model
+    * **Publication date:** 2017 – present
+  </details>
+* [NIST Secure Software Development Framework (SSDF)](https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-218.pdf) - SSDF is a set of community-derived and regulatory-aligned practices for the creation and usage of software.
+  <details>
+    <summary>More info</summary>
+
+    * **Title:** NIST Secure Software Development Framework (SSDF)
+    * **URL:** https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-218.pdf
+    * **Publisher:** National Institute of Standards and Technology (NIST)
+    * **Publisher reference:** NIST SP 800-218
+    * **License:** Public domain
+    * **Type:** Guidelines
+    * **Publication date:** 2022-02 – present.
+  </details>
 
 ### Designing, developing and producing products with digital elements in such a way that they ensure an appropriate level of cybersecurity based on the risks
 
