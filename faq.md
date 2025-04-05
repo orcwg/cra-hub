@@ -289,7 +289,7 @@ Yes, a _manufacturer_ can also be an _open-source software steward_, but it cann
 ### Standards
 
 <details>
-    <a name="q-what-is-a-harmonised-standard-and-why-does-it-matter"></a>
+    <a name="q-what-is-a-harmonized-standard-and-why-does-it-matter"></a>
     <summary><strong><a name="faq-tmp-56" href="#faq-tmp-56">tmp-56.</a> What is a <em>harmonised standard</em> and why does it matter?</strong></summary>
 
 A _harmonised standard_ is a standard adopted by one of the [European Standardisation Organisations (ESOs)][ESO]. Certain (but not all) _harmonised standards_ are referenced in the _Official Journal of the European Union_.
