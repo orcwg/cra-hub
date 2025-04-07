@@ -30,7 +30,7 @@
 
 * Do you plan to replace open source projects with proprietary software because of the CRA?
 
-* ia there any other legislation you are considering in your efforts to adapt to the CRA? 
+* Is there any other legislation you are considering in your efforts to adapt to the CRA? 
 
 
 ## Questions for potential stewards:
