@@ -157,10 +157,30 @@ No. Monetization by the original manufacturer is what determines whether a produ
 ### Maintainers
 
 <details>
+    <a name="q-should-i-worry-about-the-CRA"></a>
+    <summary><strong><a name="faq-tmp-133a" href="#faq-tmp-133a">tmp-133a.</a> I am worried about how the CRA might impact me, and so I am considering shutting down my open source projects. Should I do that?</strong></summary>
+
+The CRA should have zero or minimal impact on most open source developers, so you should probably not shut down your open source projects because of the CRA. There are several reasons for this:
+
+First, the CRA likely does not apply to you. 
+
+- If you're just a contributor, the CRA explicitly exempts you. For more detail, see [tmp-17](#faq-tmp-17).
+- If you're a maintainer, and you _do not_ "monetise" your FOSS codebase, the CRA explicitly exempts you. For more detail, see [tmp-133b](#faq-tmp-133b).
+- If you're a maintainer, and you _do_ monetise your FOSS codebase, you may still be exempted, depending on exactly how you are monetizing the codebase and your participation in it. For more detail, see [tmp-133c](#faq-tmp-133c).
+
+Second, even if the CRA does ultimately apply to you, penalties for solo and small-team maintainers are unlikely to be severe. For more detail, see [tmp-133d](#faq-tmp-133d).
+
+As a result, we would strongly urge you _not_ to shut down any open source projects (or your participation in those projects) just because of the CRA.
+
+> Status: ⚠️ [Draft][]
+| GitHub issue(s): [#133](https://github.com/orcwg/cra-hub/issues/133)
+</details>
+
+<details>
     <a name="q-am-i-subject-to-the-cra-if-i-only-contribute-to-an-open-source-project"></a>
     <summary><strong><a name="faq-tmp-17" href="#faq-tmp-17">tmp-17.</a> Am I subject to the CRA if I only contribute to an open source project?</strong></summary>
 
-No. Contributions to an open source project are explicitely not in scope of the CRA. See [Recital 18][]: 
+No. Contributions to an open source codebase are explicitely not in scope of the CRA. See [Recital 18][]: 
 
 > This Regulation does not apply to natural or legal persons who contribute with source code to products with digital elements qualifying as free and open-source software that are not under their responsibility.
 
@@ -168,6 +188,54 @@ No. Contributions to an open source project are explicitely not in scope of the 
 | GitHub issue(s): [#17](https://github.com/orcwg/cra-hub/issues/17)
 </details>
 
+<details>
+    <a name="q-am-I-subject-if-I-dont-monetise"></a>
+    <summary><strong><a name="faq-tmp-133b" href="#faq-tmp-133b">tmp-133b.</a> Am I subject to the CRA if I maintain, but do not monetise, an open source project?</strong></summary>
+
+If you are the maintainer of an open source codebase, and you do not monetise it, then the CRA _does not_ require you to do _anything_.
+
+The CRA applies
+> only in relation to products... supplied ... in the course of a _commercial activity_
+([Recital 15][], emphasis added)
+
+And it states that
+
+> the provision of ... free and open-source software that are not monetised by their manufacturers _should not be considered to be a commercial activity_
+([Recital 18][], emphasis added)
+
+
+> Status: ⚠️ [Draft][]
+| GitHub issue(s): [#133](https://github.com/orcwg/cra-hub/issues/133)
+</details>
+
+<details>
+    <a name="q-am-I-subject-if-I-do-monetise"></a>
+    <summary><strong><a name="faq-tmp-133c" href="#faq-tmp-133c">tmp-133c.</a> Am I subject to the CRA if I maintain and monetise an open source project?</strong></summary>
+
+If you are the maintainer of an open source codebase, and you do monetise it, then the CRA may apply to you, since you may be participating in a "commercial activity". 
+
+However, there are at least two significant exceptions that may allow you to take money for your work without being subject to the CRA.
+
+- If you monetise your software only by accepting donations that cover the "costs associated with the design, development, and provision" of the product, then the CRA says your participation is not a "commercial activity" and so it does not regulate you or your codebase. (See [Recital 15][] for more details.)
+- If you monetise your software by charging for a security attestation programme, that may also not be a "commercial activity" for purposes of the regulation. The exact nature of that exemption is still to be determined. (See [Recital 21][] for more details.)
+
+> Status: ⚠️ [Draft][]
+| GitHub issue(s): [#133](https://github.com/orcwg/cra-hub/issues/133)
+</details>
+
+<details>
+    <a name="q-what-penalties"></a>
+    <summary><strong><a name="faq-tmp-133d" href="#faq-tmp-133d">tmp-133d.</a> If I maintain an open source codebase, and am treated as a "manufacturer" or "steward", what penalties could I face for violating the CRA?</strong></summary>
+
+If you are a solo or small-team maintainer of an open source codebase, but do get treated as a manufacturer or steward for some reason (such as [monetisation](#faq-tmp-133c)), you may be subject to some penalties. However, the penalties should be limited. In particular:
+
+- If you are regulated because you are a steward, stewards are explicitly exempted from any fines, though you may still be required to take corrective actions for any problems that are uncovered. See [Article 64][].
+
+- If you are regulated because you are a manufacturer, penalties must still be constrained. Specifically, all penalties must be "proportionate" ([Recital 120][]; [Article 64][]). In addition, when imposed on a natural person, the penalties must take into account "the economic situation" and "size" of the entity ([Recital 121]; [Article 64][]). As a result, while it is not formally required, most regulators will likely to request corrective action before imposing a fine.
+
+> Status: ⚠️ [Draft][]
+| GitHub issue(s): [#133](https://github.com/orcwg/cra-hub/issues/133)
+</details>
 
 <details>
     <summary><strong><a name="faq-tmp-70" href="#faq-tmp-70">tmp-70.</a> I am NOT subject to the CRA, and want to make this clear to downstream users. What should I say?</strong></summary>
@@ -490,11 +558,13 @@ ANSWER
 
 [CRA]: https://eur-lex.europa.eu/eli/reg/2024/2847/oj
 [CRA HTML]: https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=OJ:L_202402847
+[Recital 15]: https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=OJ:L_202402847#rct_18
 [Recital 18]: https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=OJ:L_202402847#rct_18
 [Recital 19]: https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=OJ:L_202402847#rct_19
 [Article 3(13)]: https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=OJ:L_202402847#art_3
 [Article 3(14)]: https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=OJ:L_202402847#art_3
 [Article 14]: https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=OJ:L_202402847#art_14
+[Article 18]: https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=OJ:L_202402847#art_18
 [Article 24]: https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=OJ:L_202402847#art_24
 [Article 64(10)(b)]: https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=OJ:L_202402847#art_64
 [Article 71]: https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=OJ:L_202402847#art_71
