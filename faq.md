@@ -100,13 +100,13 @@ gantt
 
 <details>
     <a name="q-what-is-in-scope-of-the-cra"></a>
-    <summary><strong><a name="faq-tmp-2" href="#faq-tmp-2">tmp-2.</a> What is in scope of the CRA?</strong></summary>
+    <summary><strong><a name="faq-tmp-2" href="#faq-tmp-2">tmp-2.</a> What kinds of products are regulated by the CRA?</strong></summary>
 
-The following types of product are in scope of the CRA:
+The following types of product are "in scope" (i.e., their design and production may be regulated by) the CRA:
 
 - Hardware products (e.g. laptops, smart appliances, mobile phones, network equipment, CPUs, etc.)
 - Software products (e.g. operating systems, word processing, games or mobile apps, software libraries, etc.)
-- Remote data processing solutions for any of the above, as far as they are necessary for a product to perform its functions (e.g. cloud-based services that allow control of a smart lock at a distance, remote database that backs-up user preferences, etc.)
+- Remote data processing solutions for any of the above, as far as those solutions are necessary for a product to perform its functions (e.g. cloud-based services that allow control of a smart lock at a distance, remote database that backs-up user preferences, etc.)
 
 > Status: ⚠️ [Draft][]
 | GitHub issue(s): [#2](https://github.com/orcwg/cra-hub/issues/2)
