@@ -74,8 +74,9 @@ The final text of the CRA can be found on [EUR-Lex][CRA] ([English HTML version]
     <a name="q-when-does-the-cra-enter-into-force-and-when-does-the-regulation-start-to-apply"></a>
     <summary><strong><a name="faq-tmp-10" href="#faq-tmp-10">tmp-10.</a> When does the CRA enter into force and when does the regulation start to apply?</strong></summary>
 
+
 The CRA enters into force on December 11, 2024. Reporting obligations of actively exploited vulnerabilities and severe incidents ([Article 14][]) start to apply on September 11, 2026.
-The notification of conformity of assement bodies ([Chapter IV][]) start to apply on June 11, 2026. Everything else starts to apply on December 11, 2027. _(Source: [Article 71][])_
+The notification of conformity of assessment bodies ([Chapter IV][]) start to apply on June 11, 2026. Everything else starts to apply on December 11, 2027. _(Source: [Article 71][])_
 
 ```mermaid
 %%{init: {'theme':'base'}}%%
@@ -90,7 +91,7 @@ gantt
     Entry into force (December 11, 2024): milestone, 2024-12-11, 5m
     Implementation phase: 2024-12-11, 3y
     Reporting obligations of vulnerabilities and incidents (September 11, 2026): milestone, 2026-09-11, 5m
-    Notification of conformity of assement bodies (June 11, 2026): milestone, 2027-06-11, 5m
+    Notification of conformity of assessment bodies (June 11, 2026): milestone, 2027-06-11, 5m
     All other obligations (December 11, 2027): milestone, 2027-12-11, 5m
     Application phase: 2026-09-11, 2029-06-30
 ```
@@ -102,13 +103,13 @@ gantt
 
 <details>
     <a name="q-what-is-in-scope-of-the-cra"></a>
-    <summary><strong><a name="faq-tmp-2" href="#faq-tmp-2">tmp-2.</a> What is in scope of the CRA?</strong></summary>
+    <summary><strong><a name="faq-tmp-2" href="#faq-tmp-2">tmp-2.</a> What kinds of products are regulated by the CRA?</strong></summary>
 
-The following types of product are in scope of the CRA:
+The following types of product are "in scope" (i.e., their design and production may be regulated by) the CRA:
 
 - Hardware products (e.g. laptops, smart appliances, mobile phones, network equipment, CPUs, etc.)
 - Software products (e.g. operating systems, word processing, games or mobile apps, software libraries, etc.)
-- Remote data processing solutions for any of the above, as far as they are necessary for a product to perform its functions (e.g. cloud-based services that allow control of a smart lock at a distance, remote database that backs-up user preferences, etc.)
+- Remote data processing solutions for any of the above, as far as those solutions are necessary for a product to perform its functions (e.g. cloud-based services that allow control of a smart lock at a distance, remote database that backs-up user preferences, etc.)
 
 > Status: ⚠️ [Draft][]
 | GitHub issue(s): [#2](https://github.com/orcwg/cra-hub/issues/2)
@@ -288,6 +289,20 @@ Yes, a _manufacturer_ can also be an _open-source software steward_, but it cann
 </details>
 
 
+### Standards
+
+<details>
+    <a name="q-what-is-a-harmonized-standard-and-why-does-it-matter"></a>
+    <summary><strong><a name="faq-tmp-56" href="#faq-tmp-56">tmp-56.</a> What is a <em>harmonised standard</em> and why does it matter?</strong></summary>	
+
+A _harmonised standard_ is a standard developed by the [European Standardisation Organisations (ESOs)][ESO]. It takes the legal requirements of the law and translates them into technical requirements for those implementing it. Certain _harmonised standards_ provide organisations which implement them with a _presumption of conformity_ with the law. This is why it is expected that most organisations will choose to implement the _harmonised standards_ to comply with the CRA. The ORC WG maintains a [list of _harmonised standards_][standards] requested by the European Commission to the ESOs.
+  
+> Status: ⚠️ [Draft][]
+| GitHub issue(s): [#56](https://github.com/orcwg/cra-hub/issues/56)
+</details>
+
+### Important and Critical Product Categories
+
 ### EU Legislation
 
 <details>
@@ -307,17 +322,6 @@ For this reason, until an updated version is available, the Blue Guide's guidanc
     <summary><strong><a name="faq-tmp-57" href="#faq-tmp-57">tmp-57.</a> What is the <em>New Legislative Framework</em> (NLF)?</strong></summary>	
 
 > Status: ❓ [No answer yet][]
-| GitHub issue(s): [#56](https://github.com/orcwg/cra-hub/issues/56)
-</details>
-
-
-<details>
-    <a name="q-what-is-a-harmonized-standard-and-why-does-it-matter"></a>
-    <summary><strong><a name="faq-tmp-56" href="#faq-tmp-56">tmp-56.</a> What is a <em>harmonised standard</em> and why does it matter?</strong></summary>	
-
-A _harmonised standard_ is a standard developed by the [European Standardisation Organisations (ESOs)][ESO]. It takes the legal requirements of the law and translates them into technical requirements for those implementing it. Certain _harmonised standards_ provide organisations which implement them with a _presumption of compliance_ with the law. This is why it is expected that most organisations will choose to implement the _harmonised standards_ to comply with the CRA. The ORC WG maintains a [list of _harmonised standards_][standards] requested by the European Commission to the ESOs.
-  
-> Status: ⚠️ [Draft][]
 | GitHub issue(s): [#56](https://github.com/orcwg/cra-hub/issues/56)
 </details>
 
