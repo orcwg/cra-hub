@@ -298,7 +298,6 @@ The _presumption of conformity_ provided by harmonised standards referenced in t
 
 However, not all harmonised standards are referenced.
 Those that are not referenced are often foundational standards upon which other standards build.
-For example, vertical standards (industry-specific standards) may build upon horizontal standards (general standards that apply across industries).
 
 The ORC WG maintains a [list of _harmonised standards_][standards] requested by the European Commission to the ESOs.
 This list indicates whether they are going to be referenced and thus provide a presumption of conformity.
