@@ -294,7 +294,7 @@ Yes, a _manufacturer_ can also be an _open-source software steward_, but it cann
 
 A _harmonised standard_ is a standard adopted by one of the [European Standardisation Organisations (ESOs)][ESO]. Certain (but not all) _harmonised standards_ are referenced in the _Official Journal of the European Union_ by the European Commission.
 Any harmonised standard  referenced in this way provides organisations that implement them with a _presumption of conformity_ with the law.
-This is why it is expected that most organisations will choose to implement these referenced _harmonised standards_ to comply with the CRA.
+The _presumption of conformity_ provided by harmonised standards referenced in the _Official Journal of the European Union_ is why it is expected that most organisations will choose to implement such standards when they exist in order to comply with the CRA.
 
 However, not all harmonised standards are referenced.
 Those that are not referenced are often foundational standards upon which other standards build.
