@@ -4,11 +4,6 @@
 # CRA Hub
 Everything you ever wanted to know about the Cyber Resilience Act (CRA) and its implementation. This hub is maintained by the [Open Regulatory Compliance](https://github.com/orcwg/orcwg) (ORC) Working Group, a neutral forum for the open source community and the broader software industry to facilitate compliance with the CRA. 
 
-Table of Contents
-* [About the CRA](#about-the-cra) 
-* [CRA Resources](#cra-resources)
-* [How to Contribute](#how-to-contribute)
-* [Stay Up to Date](#stay-up-to-date)
 
 ## About the CRA
 Visit [Getting Started With the CRA](https://orcwg.org/cra/) for an overview of the CRA including a timeline.
