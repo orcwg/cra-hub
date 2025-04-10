@@ -41,6 +41,4 @@ To contribute:
 2. Consider joining the [mailing list](https://accounts.eclipse.org/mailing-list/open-regulatory-compliance) and [SIG calls](https://github.com/orcwg/orcwg/blob/main/MEETINGS.md#cyber-resilience-sig-call) to get up to speed.
 3. Review CRA Resources and view “open issues” above to contribute.
 
-## Stay Up to Date
-RSS feed: [orcwg.org/news](https://orcwg.org/news/)
 
