@@ -220,7 +220,7 @@
           This category includes but is not limited to network management systems that can be deployed on premise or on cloud.
         </p>
       </td>
-      <td><!-- Comments --></td>
+      <td>It appears that the description goes beyond <em>centralized control over configuration</em> for large-scale networks (frequency scheduling in mobile networks, optical configuration for cable systems or other network control plane management software) to include a broad range of software that does networking, including scanners and implementations of common, low-level query-response protocols. For example, a software implementation of the ARP protocol to map IP addresses to MAC addresses on common LAN networks, because it collects such mappings, thereby collecting information about and by doing so configuring network elements. Is that the intent? Related, perhaps more realistic examples when it comes to standalone products, would include implementations for DHCP, or DNS (respectively to e.g. assign IP addresses and names on a local LAN). Are these all intended to be scoped as a "network management system", an "important product" in the context of the CRA?</td>
       <td><!-- Proposed change --></td>
     </tr>
     <tr>
