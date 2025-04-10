@@ -260,8 +260,12 @@
           This category includes but is not limited to key management systems, digital certificate management systems and online certificate status protocol responders.
         </p>
       </td>
-      <td><!-- Comments --></td>
-      <td><!-- Proposed change --></td>
+      <td>The inclusion of the terms "distribution", "validation", and "storage" appears to broaden the scope beyond the issuance/signing side of a PKI (as signified by "Public key infrastructure and digital certificate issuance software"). It even appears to encompass "relying parties" (the software that consumes PKI contents). This broad reading of the scope is possible because of the inclusion of these terms, but also because the first sentence does not distinguish between PDEs that manage private versus public cryptographic key material.</td>
+      <td>The words "distribution", "validation" and "storage" should probably be removed.
+
+          For additional clarity, the second sentence could be amended by adding something like: ", but excludes relying parties."
+
+          Finally, the first sentence could be amended to read "asymetric cryptographic private keys"</td>
     </tr>
     <tr>
       <td>
