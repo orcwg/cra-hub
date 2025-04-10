@@ -215,7 +215,7 @@ No. As defined in [Article 3(14)][], an _open-source software steward_ must be a
 
 
 <details>
-    <summary><strong><a name="faq-tmp-170" href="#faq-tmp-170">tmp-170.</a> Can an open source project be WITHOUT an <em>open-source software steward</em>?</strong></summary>
+    <summary><strong><a name="faq-tmp-170" href="#faq-tmp-170">tmp-170.</a> Can an open source project be WITHOUT an <em>open source software steward</em>?</strong></summary>
 
 No. Most open source projects will not have a steward. 
 
