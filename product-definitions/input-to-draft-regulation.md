@@ -123,6 +123,12 @@
       <td><em>Please enter your proposal (suggestion, modification, etc) as a text fragment for addition into the text or describe it as concise and precise as possible.</em></td>
     </tr>
     <tr>
+      <td>Column 2 name "Technical description"</td>
+      <td>Column 2 name "Technical description"</td>
+      <td>Suggest changing to "Technical description of core functionality" to tie this to paragraph 2 of the recital, making it clear that products that contain some of these features as ancillary functionality are not in scope.</td>
+      <td>Rename Column 2 to "Technical description <span style="color:blue"> of core functionality"</span></td>
+    </tr>
+    <tr>
       <td>
         <a name="important_class_i_1" href="#important_class_i_1">1.</a> Identity management systems and privileged access management software and hardware, including authentication and access control readers, including biometric readers
       </td>
