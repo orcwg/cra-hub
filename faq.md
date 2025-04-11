@@ -213,6 +213,21 @@ No. As defined in [Article 3(14)][], an _open-source software steward_ must be a
 
 ### Open-Source Software Stewards
 
+
+<details>
+    <summary><strong><a name="faq-tmp-170" href="#faq-tmp-170">tmp-170.</a> Do all open source projects have an <em>open source software steward</em>?</strong></summary>
+
+No. Most open source projects will not have a steward. 
+
+A steward must be a "legal person" (Art. 3), such as a company, and most open source projects are not supported by a company. 
+
+The stewarding organization must also have "the purpose or objective of systematically providing support on a sustained basis" (Art. 3) and their software must be "ultimately intended for commercial activities" (recital 19). Organizations who do not meet those tests will also not be considered stewards.
+
+> Status: ⚠️ [Draft][]
+| GitHub issue(s): [#170](https://github.com/orcwg/cra-hub/issues/170)
+</details>
+
+
 <details>
     <a name="q-what-is-an-open-source-software-steward"></a>
     <summary><strong><a name="faq-tmp-127" href="#faq-tmp-127">tmp-127.</a> What is an <em>open-source software stewards</em>?</strong></summary>
