@@ -299,7 +299,7 @@ Harmonised standards may be referenced with restrictions, in which case they onl
 The _presumption of conformity_ provided by harmonised standards referenced in the _Official Journal of the European Union_ is why it is expected that most organisations will choose to implement such standards when they exist, to comply with the CRA.
 
 However, not all harmonised standards are referenced.
-Those that are not referenced are often foundational standards upon which other standards build.
+Those that are not referenced are often foundational standards upon which other standards build. In general, only the vertical (product-specific) standards are referenced, though sometimes horizontal standards that cover generic requirements may be referenced with restrictions.
 In general, only the vertical (product-specific) standards are referenced, though sometimes horizontal standards that cover generic requirements may be referenced.
 
 The ORC WG maintains a [list of _harmonised standards_][standards] requested by the European Commission to the ESOs.
