@@ -210,6 +210,7 @@ Impact on steward: `attestations`
 
 | Name & URL | Publisher | License | Type | Date | Notes |
 | ---- | ---- | ---- | ---- | ---- | ---- |
+| [Software Identification for Cybersecurity: Survey and Recommendations for Regulators](https://swhsec.github.io/pdf/swhid_for_cybersecurity_regulations.pdf) | SWHSec (Barais, Di Cosmo, Mé, Zacchiroli, Zendra) | CC BY 4.0 | Position Paper / Guidance | 2025 | Focuses on identifying source code artifacts to support software integrity, traceability, and availability, relevant for CRA due diligence |
 |  |  |  |  |  |  |
 
 ## Voluntary security attestation programmes
