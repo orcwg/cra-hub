@@ -590,17 +590,25 @@
         </p>
         <p>
           This category includes but is not limited to replaceable sim cards, payment cards, physical access cards, digital tachograph cards or wrist bands with integrated secure elements.
-        </p>        
+        </p>
       </td>
       <td><!-- Comments -->
         <p>
-          Some of these components, such as TPMs, are sometimes implemented as software instead of components. For example, confidential computing hypervisors often include vTPMs (https://trustedcomputinggroup.org/about/what-is-a-virtual-trusted-platform-module-vtpm/). This is a piece of software that carries out the same hardware-based security functions, but in software instead. These are either implemented as pure-software components or as software layers on top of physical TPMs. Do TPMs only fall under "secure elements" when they are implemented purely in hardware? Or do software implementations also fall under this category?
-
-          It is not entirely clear where hardware-based confidential computing components such as trusted execution environments (TEEs) fall. They don't seem to fall under "Hypervisors", because that definition explicitly says "software..", while these components are part of CPUs and microcontrollers. I would expect them to fall under "Secure Elements", because it is a tamper-resistant microcontroller/microprocessor designed to securily store and process sensitive data. However, it is not similar to a smartcard. With a smartcard, the entire device is tamper-resistant, while TEEs and TPMs are tamper-resistant elements of regular devices. However, one might argue that TEEs are instead covered by the Class 1 important category "Microprocessors with security-related functionalities". Given that TEEs often perform similar functionalities to TPMs, and are used in similarly highly sensitive scenarios to protect data and keys from tampering, I would suggest these fall under the same category as TPMs. If they indeed fall under this category, it might be best to explicitly state that.
+          Hardware Trusted Execution Environments are alternatives to TPMs to securely store, process and manage sensitive data in a tamper-resistant manner. These are secure areas of a microprocessor designed to prevent unauthorized access and tampering of code and data, even from the device owner or operating system code. Examples of these are Intel SGX, TDX, and Arm TrustZone. Although TEEs are used for the same purposes as TPMs, one significant difference is that a TEE is a part of a microprocessor, not a separate hardware component incorporating a microprocessor. As such, one might argue that TEEs are instead part of Class II Important Products "Tamper-resistant microprocessors". However, unlike regular tamper-resistant microprocessors, TEEs are specifically designed to securely store, process and manage sensitive data and cryptographic operations. As such, these are used in critical data protection scenarios such protecting cryptographic keys used in banking transactions on mobile phones with Android TEE. Therefor, we advise to explicitly reference TEEs in this category.
+        </p>
+        <p>
+          Some of these components, such as TPMs, are sometimes implemented as software components instead of hardware components. For example, a vTPM (https://trustedcomputinggroup.org/about/what-is-a-virtual-trusted-platform-module-vtpm/) performs the same functionality as a TPM, but it is implemented in software. Similar to TPMs, these are designed and used to securely store, process, and manage sensitive data and cryptographic operations. This software always uses tamper-resistant functionality of microcontrollers or microprocessors, but these microcontrollers or microprocessors are not always dedicated solely to the TPM. A vTPM often runs as software logically separated by tamper-resistant functionality of a generic microprocessor. As such, it could be argued that a vTPM does not fall into this category, even though it is equally critical as hardware TPMs. Therefor, we recommend to explicitly add vTPMs to the listed examples of "secure elements".
+        </p>
       </td> 
+      </td>
+      <td><!-- Proposed change -->
+        <p>
+          Secure elements are hardware components that incorporate a tamper-resistant microcontroller or microprocessor and an application environment or operating system, and may include one or more applications, designed to securely store, process, and manage sensitive data and cryptographic operations.
+        </p>
+        <p>
+          This category includes but is not limited to Trusted Platform Modules (TPMs)<ins>, Virtual Trusted Platform Modules</ins><ins>, Trusted Execution Environments</ins> or embedded sim cards.
         </p>
       </td>
-      <td><!-- Proposed change --></td>
     </tr>
   </tbody>
 </table>
