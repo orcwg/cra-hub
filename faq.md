@@ -74,8 +74,7 @@ The final text of the CRA can be found on [EUR-Lex][CRA] ([English HTML version]
     <a name="q-when-does-the-cra-enter-into-force-and-when-does-the-regulation-start-to-apply"></a>
     <summary><strong><a name="faq-tmp-10" href="#faq-tmp-10">tmp-10.</a> When does the CRA enter into force and when does the regulation start to apply?</strong></summary>
 
-The CRA enters into force on December 11, 2024. Reporting obligations of manufacturers ([Article 14][]) start to apply on September 11, 2026.
-The notification of conformity of assement bodies ([Chapter IV][]) start to apply on June 11, 2026. Everything else starts to apply on December 11, 2027.
+The CRA enters into force on December 11, 2024 ([Article 71][]). The notification of conformity of assessment bodies ([Chapter IV][]) start to apply on June 11, 2026. Reporting obligations of manufacturers ([Article 14][]) and stewards ([Article 24][]) start to apply on September 11, 2026. Everything else starts to apply on December 11, 2027.
 
 ```mermaid
 %%{init: {'theme':'base'}}%%
@@ -89,8 +88,8 @@ gantt
     Publication in the Official Journal of the EU (November 20, 2024): milestone, 2024-11-20, 5m
     Entry into force (December 11, 2024): milestone, 2024-12-11, 5m
     Implementation phase: 2024-12-11, 3y
-    Reporting obligations of manufacturers (September 11, 2026): milestone, 2026-09-11, 5m
-    Notification of conformity of assement bodies (June 11, 2026): milestone, 2027-06-11, 5m
+    Notification of conformity of assement bodies (June 11, 2026): milestone, 2026-06-11, 5m
+    Reporting obligations (September 11, 2026): milestone, 2026-09-11, 5m
     All other obligations (December 11, 2027): milestone, 2027-12-11, 5m
     Application phase: 2026-09-11, 2029-06-30
 ```
@@ -101,13 +100,13 @@ gantt
 
 <details>
     <a name="q-what-is-in-scope-of-the-cra"></a>
-    <summary><strong><a name="faq-tmp-2" href="#faq-tmp-2">tmp-2.</a> What is in scope of the CRA?</strong></summary>
+    <summary><strong><a name="faq-tmp-2" href="#faq-tmp-2">tmp-2.</a> What kinds of products are regulated by the CRA?</strong></summary>
 
-The following types of product are in scope of the CRA:
+The following types of product are "in scope" (i.e., their design and production may be regulated by) the CRA:
 
 - Hardware products (e.g. laptops, smart appliances, mobile phones, network equipment, CPUs, etc.)
 - Software products (e.g. operating systems, word processing, games or mobile apps, software libraries, etc.)
-- Remote data processing solutions for any of the above, as far as they are necessary for a product to perform its functions (e.g. cloud-based services that allow control of a smart lock at a distance, remote database that backs-up user preferences, etc.)
+- Remote data processing solutions for any of the above, as far as those solutions are necessary for a product to perform its functions (e.g. cloud-based services that allow control of a smart lock at a distance, remote database that backs-up user preferences, etc.)
 
 > Status: ⚠️ [Draft][]
 | GitHub issue(s): [#2](https://github.com/orcwg/cra-hub/issues/2)
@@ -214,6 +213,21 @@ No. As defined in [Article 3(14)][], an _open-source software steward_ must be a
 
 ### Open-Source Software Stewards
 
+
+<details>
+    <summary><strong><a name="faq-tmp-170" href="#faq-tmp-170">tmp-170.</a> Do all open source projects have an <em>open source software steward</em>?</strong></summary>
+
+No. Most open source projects will not have a steward. 
+
+A steward must be a "legal person" (Art. 3), such as a company, and most open source projects are not supported by a company. 
+
+The stewarding organization must also have "the purpose or objective of systematically providing support on a sustained basis" (Art. 3) and their software must be "ultimately intended for commercial activities" (recital 19). Organizations who do not meet those tests will also not be considered stewards.
+
+> Status: ⚠️ [Draft][]
+| GitHub issue(s): [#170](https://github.com/orcwg/cra-hub/issues/170)
+</details>
+
+
 <details>
     <a name="q-what-is-an-open-source-software-steward"></a>
     <summary><strong><a name="faq-tmp-127" href="#faq-tmp-127">tmp-127.</a> What is an <em>open-source software stewards</em>?</strong></summary>
@@ -291,9 +305,19 @@ Yes, a _manufacturer_ can also be an _open-source software steward_, but it cann
 
 <details>
     <a name="q-what-is-a-harmonized-standard-and-why-does-it-matter"></a>
-    <summary><strong><a name="faq-tmp-56" href="#faq-tmp-56">tmp-56.</a> What is a <em>harmonised standard</em> and why does it matter?</strong></summary>	
+    <summary><strong><a name="faq-tmp-56" href="#faq-tmp-56">tmp-56.</a> What is a <em>harmonised standard</em> and why does it matter?</strong></summary>
 
-A _harmonised standard_ is a standard developed by the [European Standardisation Organisations (ESOs)][ESO]. It takes the legal requirements of the law and translates them into technical requirements for those implementing it. Certain _harmonised standards_ provide organisations which implement them with a _presumption of conformity_ with the law. This is why it is expected that most organisations will choose to implement the _harmonised standards_ to comply with the CRA. The ORC WG maintains a [list of _harmonised standards_][standards] requested by the European Commission to the ESOs.
+A _harmonised standard_ is a standard adopted by one of the [European Standardisation Organisations (ESOs)][ESO].
+Certain (but not all) _harmonised standards_ are referenced in the [_Official Journal of the European Union_][OJEU] by the European Commission.
+Harmonised standards referenced in this way provide products that conform with them a _presumption of conformity_ with the requirements covered by those standards.
+Harmonised standards may be referenced with restrictions, in which case they only provide partial _presumption of conformity_.
+The _presumption of conformity_ provided by harmonised standards referenced in the _Official Journal of the European Union_ is why it is expected that most organisations will choose to implement such standards when they exist, to comply with the CRA.
+
+However, not all harmonised standards are referenced.
+Those that are not referenced are often foundational standards upon which other standards build. In general, only the vertical (product-specific) standards are referenced, though sometimes horizontal standards that cover generic requirements may be referenced with restrictions.
+In general, only the vertical (product-specific) standards are referenced, though sometimes horizontal standards that cover generic requirements may be referenced.
+
+The ORC WG maintains a [list of _harmonised standards_][standards] requested by the European Commission to the ESOs.
   
 > Status: ⚠️ [Draft][]
 | GitHub issue(s): [#56](https://github.com/orcwg/cra-hub/issues/56)
@@ -345,6 +369,57 @@ Security attestations in the CRA are an optional extension that do not exist yet
 > Status: ⚠️ [Draft][]
 | GitHub issue(s): [#72](https://github.com/orcwg/cra-hub/issues/72)
 </details>
+
+## Acknowledgments
+
+The following people have contributed to this document either directly or indirectly (e.g. by raising questions):
+Adrian O'Sullivan,
+Aeva Black,
+Alberto Pianon,
+Alex Lennon,
+Alistair Woodman,
+Chris Jenkins,
+Christopher "CRob" Robinson,
+Daniel Appelquist,
+Daniel Stenberg,
+Dick Brooks,
+Dirk-Willem van Gulik,
+Felix Reda,
+Florian Idelberger,
+Gesine Freund,
+Hermann Seuschek,
+Ilonka Sievers,
+Jakub Zelenka,
+Jan Westerkamp,
+John Ellis,
+Jordan Maris,
+Juan Rico,
+Lars Francke,
+Luis Villa,
+Maarten Aertsen,
+Marta Rybczynska,
+Mattias Dahlberg,
+Maxim Baele,
+Mikaël Barbero,
+Mike Bursell,
+Nils Adermann,
+Olle E. Johansson,
+Pete Allor,
+Piotr P. Karwasz,
+Poul-Henning Kamp,
+Ria Schalnat,
+Roman Zhukov,
+Ruth Suehle,
+Salve J. Nilsen,
+Seth Michael Larson,
+Simon Phipps,
+Stefane Fermigier,
+Timo Perala,
+Timothée Mazzucotelli,
+Tobie Langel,
+and Victor Roland.
+
+If you have contributed to this document and aren't properly acknowledged or if you want to edit or remove your name, please let us know by [opening an issue](https://github.com/orcwg/cra-hub/issues/new) and we will fix this right away.
 
 ## Annexes
 
@@ -415,6 +490,7 @@ ANSWER
 [Article 14]: https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=OJ:L_202402847#art_14
 [Article 24]: https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=OJ:L_202402847#art_24
 [Article 64(10)(b)]: https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=OJ:L_202402847#art_64
+[Article 71]: https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=OJ:L_202402847#art_71
 [Chapter IV]: https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=OJ:L_202402847#cpt_IV
 
 [2014/90]: https://eur-lex.europa.eu/eli/dir/2014/90/oj
@@ -427,5 +503,6 @@ ANSWER
 [Blue Guide]: https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:52022XC0629(04)
 [ESO]: https://single-market-economy.ec.europa.eu/single-market/european-standards_en
 [standards]: https://github.com/orcwg/cra-hub/blob/main/standards.md
+[OJEU]: https://eur-lex.europa.eu/oj/direct-access.html 
 
 [^EC@FOSDEM24]: https://fosdem.org/2024/schedule/event/fosdem-2024-3683-the-regulators-are-coming-one-year-on/, at 18 min 10 seconds into the recording

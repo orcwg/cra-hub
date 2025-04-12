@@ -55,11 +55,13 @@
           <li>Products whose core functionality fit the technical description of an important or critical product need a specific conformity assesment.</li>
         </ol>
         <p>These are important and welcomed clarifications. In fact we believe they are so important that they should be broken down into separate recitals.</p>
+        <p>Additionally, Recital (5) omits to reference the special regime for free and open source products mentioned in article 32(5) while referencing the other relevant points of that article. Including point (5) when mentioning points (2), (3), and (4) of article 32 will avoid creating uncertainty for stakeholders who might not well understand the interplay between the different parts of the regulation.</p>
+
         </td>
       <td>
         <p>(5) Pursuant to Article 13(2) and (3) of Regulation (EU) 2024/2847, manufacturers of products with digital elements are to implement the essential cybersecurity requirements set out in Part I of Annex I to Regulation (EU) 2024/2847 in a way that is proportionate to the risks of the product with digital elements, based on the intended purpose and reasonably foreseeable use as well as the conditions of use of the product with digital elements, taking into account the length of time the product is expected to be in use, and irrespective of whether the product with digital elements is considered to be an important or critical product with digital elements.</p>
         <p>(6) In accordance with Article 13(2) and (3) of  Regulation (EU) 2024/2847, and irrespective of whether the product with digital elements is considered to be an important or critical product with digital elements, manufacturers are to carry out a comprehensive cybersecurity risk assessment and indicate how the essential cybersecurity requirements are implemented as informed by the risk assessment, including their testing and assurance.</p>
-        <p>(7) Where the core functionality of their product with digital elements fits the technical description of an important or critical product with digital elements, manufacturers are to demonstrate conformity following the specific conformity assessment procedures established by Article 32(2), (3) and (4) of Regulation (EU) 2024/2847.</p>
+        <p>(7) Where the core functionality of their product with digital elements fits the technical description of an important or critical product with digital elements, manufacturers are to demonstrate conformity following the specific conformity assessment procedures established by Article 32(2), (3), (4) and (5) of Regulation (EU) 2024/2847.</p>
       </td>
     </tr>
     <tr>
@@ -234,8 +236,13 @@
           This category includes but is not limited to network management systems that can be deployed on premise or on cloud.
         </p>
       </td>
-      <td><!-- Comments --></td>
-      <td><!-- Proposed change --></td>
+      <td><!-- Comments -->
+        <p>It appears that the description goes beyond <em>centralized administrative control over configuration</em> for large-scale networks (frequency scheduling in mobile networks, optical configuration for cable systems or other network control plane management software) to include a broad range of software that does networking, including scanners and implementations of common, low-level query-response protocols.</p>
+        <p> For example, a software implementation of the ARP protocol to map IP addresses to MAC addresses on common LAN networks, because it collects such mappings, thereby collecting information about and by doing so configuring network elements. Is that the intent? Related, perhaps more realistic examples when it comes to standalone products, would include implementations for DHCP, or DNS (respectively to e.g. assign IP addresses and names on a local LAN).</p>
+        <p>Are these all intended to be scoped as a "network management system", an "important product" in the context of the CRA? If not, perhaps condsider the proposed change to emphasize the <em>management</em> aspect of the category.</p>
+      </td>
+      <td><!-- Proposed change -->Products with digital elements that <del>collect information about and allow</del><ins>facilitate centralised administrative control by an operator over</ins> the configuration of network elements, such as servers, routers, switches, workstations, printers or mobile devices.
+</td>
     </tr>
     <tr>
       <td>
