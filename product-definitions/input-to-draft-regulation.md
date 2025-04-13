@@ -1,6 +1,6 @@
 # ORC WG Input to the Draft EU Commission Implementing Regulation on the technical description of important and critical product categories
 
-## Recitals 
+## Recitals
 
 <table>
   <thead>
