@@ -311,8 +311,8 @@
           This category includes but is not limited to real-time operating systems, operating systems for servers, mainframes and mobile devices, network operating systems and general-purpose operating systems.
         </p>
       </td>
-      <td><!-- Comments --></td>
-      <td><!-- Proposed change --></td>
+      <td><!-- Comments -->Suggest to rephrase the definition to avoid misunerstanding, based on multiple types and purposes of operating systems. Propose to add OSes for workstations & laptops as the important examples.</td>
+      <td><!-- Proposed change -->Software products with digital elements <span style="color:blue"> that provide an abstract interface of the underlying hardware on one or more architectures (i.e. x86, ARM, etc.) as virtualized or bare metal to applications, allocate CPU time and/or memory to applications, controlling peripherals, enable execution and control of applications, provide common basic interfaces to applications (such as lower-level interfaces to networks, storage, human inputs, and/or display), and provide common basic services to applications (such as the ability to copy, rename, and delete files). </span> <span style="color:red"> <del> control the execution of programs and that may provide services such as resource allocation, scheduling, input-output control, and data management. </del> </span> This category includes but is not limited to real-time operating systems, operating systems for servers, mainframes and mobile devices, <span style="color:blue"> workstation operating systems, </span> network operating systems and general-purpose operating systems. <span style="color:blue"> This category does not include hypervisors. </span></td>
     </tr>
     <tr>
       <td>
