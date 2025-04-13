@@ -626,7 +626,7 @@
   <tbody>
     <tr>
       <td>Suggest renaming the column 2 of the annex tables to "Technical description of core functionality" to tie this to paragraph 2 of the recital, making it clear that products that contain some of these features as ancillary functionality are not in scope.</td>
-      <td>Rename Column 2 of the annex tables to "Technical description <ins>of core functionality</ins></td>
+      <td>Rename Column 2 of the annex tables to "Technical description<ins> of core functionality</ins>"</td>
     </tr>
   </tbody>
 </table>
