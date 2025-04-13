@@ -188,8 +188,8 @@
           This category includes but is not limited to local password managers, browser-based password managers, enterprise password managers as well as hardware-based password managers.
         </p>
       </td>
-      <td><!-- Comments --></td>
-      <td><!-- Proposed change --></td>
+     <td><!-- Comments -->Suggest to add clarification for password managers that are component of the bigger systems (e.g, device or operating system).</td>
+      <td><!-- Proposed change -->[...] This category includes but is not limited to local password managers, browser-based password managers, enterprise password managers as well as hardware-based password managers. <span style="color:blue"> This excludes the cases where password management capability is included as part of a bigger system to enable its functioning (e.g. entire device or operating system). </span> </td>
     </tr>
     <tr>
       <td>
