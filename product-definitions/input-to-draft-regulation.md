@@ -266,8 +266,9 @@
           This category includes but is not limited to single-stage and multi-stage boot loaders as well as boot managers allowing users to select boot options.
         </p>
       </td>
-      <td><!-- Comments --></td>
-      <td><!-- Proposed change --></td>
+      <td><!-- Comments -->Clarify if the intent of this is to explicitly call out standalone boot managers separate from the operating system or not as operating systems include boot managers. There are several boot managers that are standalone and would be considered a distinct product or software from the operating system (allowing you to select between multiple operating systems).
+</td>
+      <td><!-- Proposed change -->Software products with digital elements that allow users to select boot options or load the operating system kernel or some of its elements and other system resources into the main memory of a device after it has been powered-up or restarted. <span style="color:blue"> This category focuses on standalone boot managers, and does not include boot managers that are part of an operating system. </span> This category includes but is not limited to single-stage and multi-stage boot loaders as well as boot managers allowing users to select boot options.
     </tr>
     <tr>
       <td>
