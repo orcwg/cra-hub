@@ -211,8 +211,8 @@
           This category includes but is not limited to software that searches for malicious software in real-time or manually, rootkit detection and rescue disks with the core functionality of searching, removing or quarantining malicious software, as well as software matching the above definition that is used as a component in other products, such as firewalls.
         </p>
       </td>
-      <td><!-- Comments --></td>
-      <td><!-- Proposed change --></td>
+      <td><!-- Comments -->Suggest removing "compromise" word to better refine the scope of the definition and adding clarification for components of the bigger systems. This definition is very broad and may unintentionally include capabilities of products that it is not intended for. By including "or compromise" in "mitigate system infection or compromise" it advertently includes various functions meant to do just that. The Linux Security Modules (LSMs) like SELinux are designed to prevent compromise and mitigate the risk and impact were a compromise to occur.  As written it creates additional effort for software providing "intelligent security" or secure by design as part of its value to adopters and consumers so they are less reliant on additional tooling and technology that may not perform as optimally as these capabilties inherent in the software to be "self-protecting" when configured and enforced.</td>
+      <td><!-- Proposed change -->Software products with digital elements, typically referred to as antivirus or antimalware, that search for malicious software or code, or remove or quarantine such software or code to prevent or mitigate system infection <del>or compromise</del> [...]</td>
     </tr>
     <tr>
       <td>
