@@ -474,7 +474,6 @@
       </td>
       <td><!-- Comments -->
         <p>
-          It's not entirely clear where hardware-based virtualization components fall. Hardware-based virtualization components are often also called "hypervisors"(https://en.wikipedia.org/wiki/Hypervisor). These are implemented as hardware components inside of CPUs and microcontrollers. Most software hypervisors use hardware hypervisors to perform the virtualization tasks. Do hardware hypervisors fall under "Microprocessors with security-related functionalities"? or under "hypervisors"?
         </p>
       </td>
       <td><!-- Proposed change --></td>
