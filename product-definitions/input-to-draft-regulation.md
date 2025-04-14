@@ -157,9 +157,13 @@
           Embedded browsers are browsers that are intended for integration into another system or application.
         </p>
       </td>
-      <td>Command-line tools (such as Curl) and other web clients used for software development and testing also "enable end users to access and interact with web content hosted on servers that are connected to networks such as the Internet" through the <a href="https://en.wikipedia.org/wiki/Command-line_interface">command-line interface</a> or through other means. Yet they are not browsers per se. In particular they do not <em>render</em> the web content, but merely fetch it. They are used by technically savvy users to perform specific tasks (like looking at HTTP headers for example) and their interaction capabilities are limited. We suggest amending the description to account for this.</td>
-      <td><p>In the context of this category of products, browsers are software products with digital elements that fetch and render web content hosted on servers that are connected to networks such as the Internet, and enable end users to access and interact with it through a graphical user interface (GUI) or assistive technology.</p>
-      <p>This category does not include command-line tools and web clients intended to be used primarily for software development and testing.</p>
+      <td>
+        <p>Command-line tools (such as Curl) and other web clients used for software development and testing also "enable end users to access and interact with web content hosted on servers that are connected to networks such as the Internet" through the <a href="https://en.wikipedia.org/wiki/Command-line_interface">command-line interface</a> or through other means. Yet they are not browsers per se. In particular they do not <em>render</em> the web content, but merely fetch it. They are used by technically savvy users to perform specific tasks (like looking at HTTP headers for example) and their interaction capabilities are limited. We suggest amending the description to account for this.</p>
+        <p>Additionally, browsers are often used in automation scenarios, for example run tests, fetch, generate, or index Web content, etc., without an end user being involved at all. Browsers used in such scenarions, often called "headless browsers", should be specifically excluded from this category as weel.</p>
+      </td>
+      <td>
+        <p>In the context of this category of products, browsers are software products with digital elements that fetch and render web content hosted on servers that are connected to networks such as the Internet, and enable end users to access and interact with it through a graphical user interface (GUI) or assistive technology.</p>
+        <p>This category does not include command-line tools and web clients intended to be used primarily for software development and testing, nor does it include "headless browsers" intended to be used primarily for automation purposes (such as running tests or indexing Web content).</p>
       </td>
     </tr>
     <tr>
