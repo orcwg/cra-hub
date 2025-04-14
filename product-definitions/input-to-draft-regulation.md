@@ -193,8 +193,8 @@
           This category includes but is not limited to local password managers, browser-based password managers, enterprise password managers as well as hardware-based password managers.
         </p>
       </td>
-      <td><!-- Comments --></td>
-      <td><!-- Proposed change --></td>
+     <td><!-- Comments -->Suggest to add clarification that password managers that are component of a product with with digital elements (for example, a device or an operating system) do not affect that categorisation of that product.</td>
+      <td><!-- Proposed change -->[...] This category includes but is not limited to local password managers, browser-based password managers, enterprise password managers as well as hardware-based password managers.<ins> As indicated in Recital (3), merely including password management capability in a product with digital elements (for example in a mobile device or an operating system) does not by itself affect the categorisation of that product.</ins> </td>
     </tr>
     <tr>
       <td>
