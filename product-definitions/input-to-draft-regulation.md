@@ -502,8 +502,8 @@
           This category includes but is not limited to low-level container runtimes and high-level container runtimes.
         </p>
       </td>
-      <td><!-- Comments --></td>
-      <td><!-- Proposed change --></td>
+      <td><!-- Comments -->Suggest to amend definitions to align with the industry accepted definitions, instead of establishing the new requirements (accounting for changes in technology). Suggest to amend The technical details of the hypervisor definition (as it could cause confusion by attempting to call out nested virtualization in this definition). </td>
+     <td><!-- Proposed change -->Hypervisors are software products with digital elements that <span style="color:blue"> allow for multiple virtual machines to run on a single physical machine, that each appear to have direct access to the hardware, each workload may include an operating system, and it may provide additional virtualization on top of virtual machines. </span> <span style="color:red"> <del> mediate access to physical computing resources and enable the execution and management of virtualised workloads, by running directly on a host, on top of an operating system, or on a combination of the two. </del> </span> This category includes but is not limited to type 1 hypervisors, type 2 hypervisors and hybrid hypervisors.</td>
     </tr>
     <tr>
       <td>
