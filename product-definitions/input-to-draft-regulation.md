@@ -511,7 +511,7 @@
           In the context of this category of products, a container <ins>image </ins>is a software product that encapsulates one or more software components and its dependencies in a single package, enabling it to run independently and consistently.
         </p>
         <p>
-          This category includes but is not limited to low-level container runtimes and high-level container runtimes. <ins> This category does not include container images, the configuration files to build them and container tools which are not managing container images.</ins>
+          This category includes but is not limited to low-level container runtimes and high-level container runtimes.<ins> This category does not include container images, the configuration files to build them and container tools which are not managing container images.</ins>
         </p>
       </td>
     </tr>
