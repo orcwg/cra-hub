@@ -33,13 +33,13 @@
     <tr>
       <td><a name="rct_3" href="#rct_3">(3)</a></td>
       <td>When developing a product with digital elements, and in order to achieve their desired set of functionalities, manufacturers typically integrate into their own products with digital elements other products with digital elements that can meet the technical description of a category of important or critical products. Pursuant to Regulation (EU) 2024/2847, the integration of a product with digital elements which has the core functionality of a product category set out in Annex III and Annex IV to Regulation (EU) 2024/2847 does not in itself render the product in which it is integrated subject to the conformity assessment procedures applicable to those product categories.</td>
- <td><!-- Comments -->The last recital in the recital mainly replicates the last sentence of Article 7(1) of the CRA, retaining the same ambiguity. In order to provide legal certainty, the implementing act should provide further guidance on what is meant by the "in itself" wording used in Article 7(1). Restructure this sentence to convey the true intent more clearly, which we understand it to be: if product A is included as a part of product B, and the core functionality of product B is defined in Annex III and Annex IV, that does not automatically make product A subject to the conformity assessment requirements applicable to product B.</td>
+ <td><!-- Comments -->The last sentence in the recital mainly replicates the last sentence of Article 7(1) of the CRA, retaining the same ambiguity. In order to provide legal certainty, the implementing act should provide further guidance on what is meant by the "in itself" wording used in Article 7(1). Restructure this sentence to convey the true intent more clearly, which we understand it to be: if product A is included as a part of product B, and the core functionality of product B is defined in Annex III and Annex IV, that does not automatically make product A subject to the conformity assessment requirements applicable to product B.</td>
       <td><!-- Proposed change -->When developing a product with digital elements, and in order to achieve their desired set of functionalities, manufacturers typically integrate into their own products with digital elements other products with digital elements that can meet the technical description of a category of important or critical products. Pursuant to Regulation (EU) 2024/2847, the integration of a product with digital elements which has the core functionality of a product category set out in Annex III and Annex IV to Regulation (EU) 2024/2847 does not <del>in itself </del>render the product in which it is integrated subject to the conformity assessment procedures applicable to those product categories<ins>, unless such integration results in the manufacture of a new product with digital elements that meets the technical description of a category of important or critical products</ins>.</td>
     </tr>
     <tr>
       <td><a name="rct_4" href="#rct_4">(4)</a></td>
       <td>The fact that a product with digital elements performs functions other than or additional to those detailed in the technical descriptions set out in the Annexes does not in itself mean that the product with digital elements does not have the core functionality of a product category set out in the Annexes. For example, products with digital elements that have the core functionality of “operating systems” often include software that performs ancillary functions not included in the technical description of that product category, such as calculators or simple graphics editors. This, however, does not in itself mean that such products with digital elements do not meet the technical description of “operating systems”. On the other hand, a security orchestration, automation and response (SOAR) software often has the ability to perform the functions of products with digital elements in the category of “security information and event management (SIEM) systems”, i.e. gather data, analyse it and present it as actionable information for security purposes. However, as its core functionality is to integrate separate security tools, automate low-level tasks and orchestrate security incident responses, SOAR software are generally not to be considered to meet the technical description of “security information and event management (SIEM) systems”.</td>
-      <td>Please generalise the "SOAR" example. Unlike the “operating system” example, which is preceded by a general principle, nothing in the SOAR example makes it clear that this reasoning applies as a general principle.</td>
+      <td>We suggest to generalise the "SOAR" example. Unlike the “operating system” example, which is preceded by a general principle, nothing in the SOAR example makes it clear that this reasoning applies as a general principle.</td>
       <td>Insert, as second sentence, something like: "On the other hand, where a PDE has the ability to perform the functions of products with digital elements in a certain category but has a different core functionality, that PDE is generally not to be considered to meet the technical description that category." Then, reword the sentence SOAR as merely an example of that principle.</td>
     </tr>
     <tr>
@@ -113,6 +113,23 @@
       </td>
       <td><!-- Comments --></td>
       <td><!-- Proposed change --></td>
+    </tr>
+  </tbody>
+</table>
+
+## Other
+
+<table>
+  <thead>
+    <tr>
+      <th>Comments</th>
+      <th>Proposed change</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Suggest renaming the column 2 of the annex tables to "Technical description of core functionality" to tie this to paragraph 2 of the recital, making it clear that products that contain some of these features as ancillary functionality are not in scope.</td>
+      <td>Rename Column 2 of the annex tables to "Technical description<ins> of core functionality</ins>"</td>
     </tr>
   </tbody>
 </table>
@@ -272,7 +289,7 @@
           This category includes but is not limited to single-stage and multi-stage boot loaders as well as boot managers allowing users to select boot options.
         </p>
       </td>
-      <td><!-- Comments -->Clarify if the intent of this is to explicitly call out standalone boot managers separate from the operating system or not as operating systems include boot managers. There are several boot managers that are standalone and would be considered a distinct product or software from the operating system (allowing you to select between multiple operating systems).
+      <td><!-- Comments -->Clarify if the intent of this is to explicitly call out standalone boot managers separate from the operating system or not, as operating systems include boot managers. There are several boot managers that are standalone and would be considered a distinct product or software from the operating system (allowing you to select between multiple operating systems).
 </td>
       <td><!-- Proposed change -->Software products with digital elements that allow users to select boot options or load the operating system kernel or some of its elements and other system resources into the main memory of a device after it has been powered-up or restarted. This category includes but is not limited to single-stage and multi-stage boot loaders as well as boot managers allowing users to select boot options.<ins> This category does not include boot managers that are part of an operating system.</ins>
     </tr>
@@ -291,7 +308,7 @@
       <td>The inclusion of the terms "distribution", "validation", and "storage" appears to broaden the scope beyond the issuance/signing side of a PKI (as signified by "Public key infrastructure and digital certificate issuance software"). It even appears to encompass "relying parties" (the software that consumes PKI contents). This broad reading of the scope is possible because of the inclusion of these terms, but also because the first sentence does not distinguish between PDEs that manage private versus public cryptographic key material.</td>
       <td>The words "distribution", "validation" and "storage" should probably be removed.
           For additional clarity, the second sentence could be amended by adding something like: ", but excludes relying parties."
-          Finally, the first sentence could be amended to read "asymetric cryptographic private keys"</td>
+          Finally, the first sentence could be amended to read "asymetric cryptographic private keys".</td>
     </tr>
     <tr>
       <td>
@@ -640,19 +657,3 @@
   </tbody>
 </table>
 
-## Other
-
-<table>
-  <thead>
-    <tr>
-      <th>Comments</th>
-      <th>Proposed change</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>Suggest renaming the column 2 of the annex tables to "Technical description of core functionality" to tie this to paragraph 2 of the recital, making it clear that products that contain some of these features as ancillary functionality are not in scope.</td>
-      <td>Rename Column 2 of the annex tables to "Technical description<ins> of core functionality</ins>"</td>
-    </tr>
-  </tbody>
-</table>
