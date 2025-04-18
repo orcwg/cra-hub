@@ -472,10 +472,7 @@
           This category includes but is not limited to low-level container runtimes and high-level container runtimes.
         </p>
       </td>
-      <td><!-- Comments -->
-        <p>
-        </p>
-      </td>
+      <td><!-- Comments --></td>
       <td><!-- Proposed change --></td>
     </tr>
     <tr>
@@ -591,22 +588,8 @@
           This category includes but is not limited to replaceable sim cards, payment cards, physical access cards, digital tachograph cards or wrist bands with integrated secure elements.
         </p>
       </td>
-      <td><!-- Comments -->
-        <p>
-          Hardware Trusted Execution Environments are alternatives to TPMs to securely store, process and manage sensitive data in a tamper-resistant manner. These are secure areas of a microprocessor designed to prevent unauthorized access and tampering of code and data, even from the device owner or operating system code. Examples of these are Intel SGX, TDX, and Arm TrustZone. Although TEEs are used for the same purposes as TPMs, one significant difference is that a TEE is a part of a microprocessor, not a separate hardware component incorporating a microprocessor. As such, one might argue that TEEs are instead part of Class II Important Products "Tamper-resistant microprocessors". However, unlike regular tamper-resistant microprocessors, TEEs are specifically designed to securely store, process and manage sensitive data and cryptographic operations. As such, these are used in critical data protection scenarios such protecting cryptographic keys used in banking transactions on mobile phones with Android TEE. Therefor, we advise to explicitly reference TEEs in this category.
-        </p>
-        <p>
-          Some of these components, such as TPMs, are sometimes implemented as software components instead of hardware components. For example, a vTPM (https://trustedcomputinggroup.org/about/what-is-a-virtual-trusted-platform-module-vtpm/) performs the same functionality as a TPM, but it is implemented in software. Similar to TPMs, these are designed and used to securely store, process, and manage sensitive data and cryptographic operations. This software always uses tamper-resistant functionality of microcontrollers or microprocessors, but these microcontrollers or microprocessors are not always dedicated solely to the TPM. A vTPM often runs as software logically separated by tamper-resistant functionality of a generic microprocessor. As such, it could be argued that a vTPM does not fall into this category, even though it is equally critical as hardware TPMs. Therefor, we recommend to explicitly add vTPMs to the listed examples of "secure elements".
-        </p>
-      </td> 
-      </td>
-      <td><!-- Proposed change -->
-        <p>
-          Secure elements are hardware components that incorporate a tamper-resistant microcontroller or microprocessor and an application environment or operating system, and may include one or more applications, designed to securely store, process, and manage sensitive data and cryptographic operations.
-        </p>
-        <p>
-          This category includes but is not limited to Trusted Platform Modules (TPMs)<ins>, Virtual Trusted Platform Modules</ins><ins>, Trusted Execution Environments</ins> or embedded sim cards.
-        </p>
+      <td><!-- Comments -->This category does not explicitly mention Virtual Trusted Platform Modules (vTPMs), but the inclusion of Trusted Platform Modules in the examples of products that fall in this category creates legal uncertainty as to whether vTPMs are included or not. As vTPMs rely on specific hardware to provide their security guarantees, we believe it is the hardware provides those guarantees that should meet additional security requirements, not the software itself which is already covered by other Class I products. To avoid creating uncertainty we believe vTPMs should be explicitly excluded from this category.</td> 
+      <td><!-- Proposed change -->[…] This category includes but is not limited to Trusted Platform Modules (TPMs) or embedded sim cards.<ins> This category does not include Virtual Trusted Platform Modules (vTPMs).</ins> […]
       </td>
     </tr>
   </tbody>
