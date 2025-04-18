@@ -320,8 +320,14 @@
           This category includes but is not limited to real-time operating systems, operating systems for servers, mainframes and mobile devices, network operating systems and general-purpose operating systems.
         </p>
       </td>
-      <td><!-- Comments --></td>
-      <td><!-- Proposed change --></td>
+      <td><!-- Comments -->
+        <p>We suggest rephrasing the definition to avoid the accidental inclusion of products with digital elements which are not operating systems but which would nonetheless fit the current discription. For example, build tools, hypervisors and sometimes compilers control the execution of programs (in the sense of starting them up) but don't provide the other services necessary to be considered an operating system. Operating systems provide an abstract interface of the underlying hardware to applications, but this fundamental concept is not indicated in the current definition.</p>
+        <p>We also propose to include operating systems for workstations and laptops as important additional examples.</p>
+      </td>
+      <td>
+        <p>Software products with digital elements that <del>control the execution of programs and that may provide services such as resource allocation, scheduling, input-output control, and data management</del><ins>provide an abstract interface of the underlying hardware, allocate CPU time and/or memory to applications (computer programs), enable control of applications by providing interfaces (such as lower-level interfaces to peripherals, networks, storage, human inputs, and/or display) and common basic services (such as the ability to copy, rename, and delete files) to applications to further run them on the system</ins>.</p>
+        <p>This category includes but is not limited to real-time operating systems, operating systems for servers, mainframes and mobile devices, <ins>workstation and laptop operating systems</ins>, network operating systems and general-purpose operating systems.<ins> This category does not include compliers, build tools and hypervisors.</ins></p>
+      </td>
     </tr>
     <tr>
       <td>
