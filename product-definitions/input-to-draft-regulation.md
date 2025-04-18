@@ -589,8 +589,7 @@
         </p>
       </td>
       <td><!-- Comments -->This category does not explicitly mention Virtual Trusted Platform Modules (vTPMs), but the inclusion of Trusted Platform Modules in the examples of products that fall in this category creates legal uncertainty as to whether vTPMs are included or not. As vTPMs rely on specific hardware to provide their security guarantees, we believe it is the hardware provides those guarantees that should meet additional security requirements, not the software itself which is already covered by other Class I products. To avoid creating uncertainty we believe vTPMs should be explicitly excluded from this category.</td> 
-      <td><!-- Proposed change -->[…] This category includes but is not limited to Trusted Platform Modules (TPMs) or embedded sim cards.<ins> This category does not include Virtual Trusted Platform Modules (vTPMs).</ins> […]
-      </td>
+      <td><!-- Proposed change -->[…] This category includes but is not limited to Trusted Platform Modules (TPMs) or embedded sim cards.<ins> This category does not include Virtual Trusted Platform Modules (vTPMs).</ins> […]</td>
     </tr>
   </tbody>
 </table>
