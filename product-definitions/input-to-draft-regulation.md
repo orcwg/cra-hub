@@ -502,7 +502,7 @@
           This category includes but is not limited to low-level container runtimes and high-level container runtimes.
         </p>
       </td>
-      <td><!-- Comments -->We suggest clarifying this definition by refering to container images rather than containers throughout the text and clearly exluding them, along with confiiguration files, and container tools whose function isn't to manage container image lifecyle.</td>
+      <td><!-- Comments -->We suggest clarifying this definition by refering to container images rather than containers throughout the text and clearly exluding from this category container images, along with configuration files and container tools whose function isn't to manage container image lifecyle.</td>
       <td><!-- Proposed change -->
         <p>
           Container runtime systems are software products with digital elements that manage the lifecycle of <del>containers</del><ins>container images</ins> running on a host operating system, allocating resources and providing isolation between each container <ins>image </ins> and the rest of the system, through operating system level or application-level virtualisation.
