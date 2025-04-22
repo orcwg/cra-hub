@@ -11,20 +11,23 @@ ORC WG is maintaining [FAQs related to Important and Critical Product Categories
 
 ## Public Consultations and Feedback
 
-The European Commission organized two sets of consultations for these definitions.
-
 ### Current consultations
+
+No ongoing consultation at the moment.
+
+### Past consultations
+
 #### Have your say - Public Consultations and Feedback
 
 On March 13, 2025, the European Commission released [draft implementing regulation][] on the definition of important and critical product categories and opened public consultations until April 18, 2025.
 
-**👉 ORC WG will collect community comments and feedback through pull requests against a [dedicated markdown document](./input-to-draft-regulation.md), which will be submitted to the European Commission using the requested spreadsheet before April 18, 2025.**
+**ORC WG collected community comments and feedback and submitted it to the European Commission using the requested spreadsheet on April 18, 2025.**
 
-* [ORC WG Input to the Draft EU Commission Implementing Regulation on the technical description of important and critical product](./input-to-draft-regulation.md)
-* [Related pull requests][]
+* ORC WG Input to the Draft EU Commission Implementing Regulation on the technical description of important and critical product ([markdown](./input-to-draft-regulation.md) | [XLSX](./input-to-draft-regulation-2025-04-18.xlsx) | [Official submission](https://ec.europa.eu/info/law/better-regulation/have-your-say/initiatives/14449-Technical-description-of-important-and-critical-products-with-digital-elements/F3536950_en))
 * [Additional resources](../resources#march-13-2025---draft-product-definitions)
 
-### Initial consultations
+
+#### Initial informal consultations
 
 The European Commission organized a series of consultations from June, 15 to July 11, 2024.
 
