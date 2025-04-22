@@ -1,5 +1,13 @@
 # ORC WG Input to the Draft EU Commission Implementing Regulation on the technical description of important and critical product categories
 
+## Opening statement
+
+The Open Regulatory Compliance (ORC) Working Group of the Eclipse Foundation thanks the European Commission for the opportunity to provide input to this draft implementing regulation.
+
+We take the opportunity to thank the Commission for the clarifications provided by the recitals which shine a light on areas that were a source of concern and confusion for the open source community.
+
+Additionally, we believe that the structure chosen for the descriptions in the annexes (which combines a short description with the opportunity to specifically include or exclude certain products from a category) brings substantial clarity while keeping the descriptions succint. We commend the Commission for choosing it.
+
 ## Recitals
 
 <table>
