@@ -315,7 +315,6 @@ The _presumption of conformity_ provided by harmonised standards referenced in t
 
 However, not all harmonised standards are referenced.
 Those that are not referenced are often foundational standards upon which other standards build. In general, only the vertical (product-specific) standards are referenced, though sometimes horizontal standards that cover generic requirements may be referenced with restrictions.
-In general, only the vertical (product-specific) standards are referenced, though sometimes horizontal standards that cover generic requirements may be referenced.
 
 The ORC WG maintains a [list of _harmonised standards_][standards] requested by the European Commission to the ESOs.
   
