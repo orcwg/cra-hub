@@ -194,7 +194,7 @@ Impact on steward: `attestations`
 From [Annex I, Part I, point (1)][Annex I] of the CRA:
 > Designing, developing and producing products with digital elements in such a way that they ensure an appropriate level of cybersecurity based on the risks
 
-Standards request ref: 1 (Horizontal Type A Standard due August 30, 2026)\
+Standards request ref: [1 (Horizontal Type A Standard due August 30, 2026)][Horizontal standards]\
 Impact on steward: `Partial obligation` ("foster development of secure product", [Article 24(1)][Article 24])
 
 TODO: CONVERT BELOW TABLE
@@ -404,3 +404,7 @@ TODO: CONVERT BELOW TABLE
 [Article 13]: https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=OJ:L_202402847#art_13
 [Article 24]: https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=OJ:L_202402847#art_24
 [Article 25]: https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=OJ:L_202402847#art_25
+
+[Horizontal standards]: https://github.com/orcwg/cra-hub/blob/main/standards.md#milestone-1---horizontal-standards-due-august-30-2026
+[Vertical standards]: https://github.com/orcwg/cra-hub/blob/main/standards.md#milestone-2---vertical-standards-due-october-30-2026
+[Type B standards]: https://github.com/orcwg/cra-hub/blob/main/standards.md#milestone-3---horizontal-standards-due-october-30-2027
