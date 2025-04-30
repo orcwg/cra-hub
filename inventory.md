@@ -9,13 +9,25 @@ _Please add all relevant resources as a table row under the relevant section or 
 
 ## Table of Content
 
-* [Horizontal Type A Standards (due Aug. 2026)](#horizontal-type-a-standards-due-august-30-2026)
-* [Horizontal Type B Standards (due Sept. 2027)](#horizontal-type-b-standards-due-october-30-2027)
-* [Open Source Steward Cybersecurity policy](#open-source-steward-cybersecurity-policy)
-* [Due diligence requirements of manufacturers](#due-diligence-requirements-of-manufacturers)
-* [Voluntary security attestation programmes](#voluntary-security-attestation-programmes)
-* [Other](#other)
+* [1. Principles of security resilience](#1-principles-of-security-resilience)
+  * [1.1 Risk analysis](#11-risk-analysis)
+  * [1.2 Secure design & secure coding principles](#12-secure-design--secure-coding-principles)
+  * [1.3 Security processes & governance](#13-security-processes--governance)
+* [2. Generic Security Requirements](#2-generic-security-requirements)
+  * [2.1 Security requirements & controls](#21-security-requirements--controls)
+  * [2.2 Security Hardening Guidelines](#22-security-hardening-guidelines)
+  * [2.3 Cryptography](#23-cryptography)
+* [3. Vulnerability management](#3-vulnerability-management)
+  * [3.1 SBOM & Supply chain assurance](#31-sbom--supply-chain-assurance)
+  * [3.2 Vulnerability handling](#32-vulnerability-handling)
+* [4. Compliance requirements](#4-compliance-requirements)
+  * [4.1 Open Source Steward Cybersecurity policy](#41-open-source-steward-cybersecurity-policy)
+  * [4.2 Due diligence requirements](#42-due-diligence-requirements)
+  * [4.3 Security attestations](#43-security-attestations)
+* [5. Similar legislation](#5-similar-legislation)
+* [6. Other](#6-other)
 
+<!--
 ## Horizontal Type A Standards (due August 30, 2026)
 
 ###
@@ -174,9 +186,7 @@ Impact on steward: `attestations`
 CRA ref: [Annex I, Part I, point (2)(m)][Annex I]\
 Standards request ref: 14\
 Impact on steward: `attestations`
-
-
-
+-->
 
 
 ## 1. Principles of security resilience
