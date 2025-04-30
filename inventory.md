@@ -190,7 +190,7 @@ This section contains references which are relevant to the requirements expresse
 
 > Products with digital elements shall be designed, developed and produced in such a way that they ensure an appropriate level of cybersecurity based on the risks.
 
-Standards request ref: [1][Horizontal standards] (Horizontal Type A Standard due August 30, 2026)]\
+Standards request ref: [1][Horizontal standards] (Horizontal Type A Standard due August 30, 2026)\
 Impact on steward: `Partial obligation` ("foster development of secure product", [Article 24(1)][Article 24])
 
 TODO: CONVERT BELOW TABLE
