@@ -186,11 +186,11 @@ Impact on steward: `attestations`
 
 ## 1. Principles of security resilience
 
-This section contains references which are relevant to the requirements epxressed in [Annex I, Part I, point (1)][Annex I] of the CRA:
+This section contains references which are relevant to the requirements expressed in [Annex I, Part I, point (1)][Annex I] of the CRA:
 
-> Designing, developing and producing products with digital elements in such a way that they ensure an appropriate level of cybersecurity based on the risks
+> Products with digital elements shall be designed, developed and produced in such a way that they ensure an appropriate level of cybersecurity based on the risks.
 
-Standards request ref: [1 (Horizontal Type A Standard due August 30, 2026)][Horizontal standards]\
+Standards request ref: [1][Horizontal standards] (Horizontal Type A Standard due August 30, 2026)]\
 Impact on steward: `Partial obligation` ("foster development of secure product", [Article 24(1)][Article 24])
 
 TODO: CONVERT BELOW TABLE
