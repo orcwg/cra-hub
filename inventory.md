@@ -1,11 +1,6 @@
-# Inventory of resources relevant to the horizontal CRA standards, Open Source Steward obligations, and voluntary attestation program
+# Inventory of resources relevant to development and usage of open source under the Cyber Resilience Act
 
-The goal of this document is to collect resources that are relevant to the CRA obligations of _open-source software stewards_ and _manufacturers_ when it comes to the development and usage of open source.
-
-_Please add all relevant resources as a table row under the relevant section or subsection._
-
-> [!Note]
-> Additional resources are currently collected in this [spreadsheet](https://docs.google.com/spreadsheets/d/1Y36Vueb3Eo_djOuRdpyzoCS1vzGaKpjP-99g3J6rw7Y/edit?gid=0#gid=0) and will be folded into this document shortly.
+The goal of this document is to provide a comprehensive list of resources that are relevant to the CRA obligations of open source software stewards and manufacturers when it comes to the development and usage of open source. The underlying purpose is to provide specification and standardization effort with easy access to documented industry and community best practices related to the development and integration of open source software and to the interactions between developers and consumers of open source.
 
 ## Table of Content
 
@@ -191,7 +186,8 @@ Impact on steward: `attestations`
 
 ## 1. Principles of security resilience
 
-From [Annex I, Part I, point (1)][Annex I] of the CRA:
+This section contains references which are relevant to the requirements epxressed in [Annex I, Part I, point (1)][Annex I] of the CRA:
+
 > Designing, developing and producing products with digital elements in such a way that they ensure an appropriate level of cybersecurity based on the risks
 
 Standards request ref: [1 (Horizontal Type A Standard due August 30, 2026)][Horizontal standards]\
