@@ -18,20 +18,9 @@ _Please add all relevant resources as a table row under the relevant section or 
 
 ## Horizontal Type A Standards (due August 30, 2026)
 
-### Designing, developing and producing products with digital elements in such a way that they ensure an appropriate level of cybersecurity based on the risks
-
-CRA ref: [Annex I, Part I, point (1)][Annex I]\
-Standards request ref: 1\
-Impact on steward: `Partial obligation` ("foster development of secure product", [Article 24(1)][Article 24])
+###
 
 
-| Name & URL | Publisher | License | Type | Date | Notes |
-| ---- | ---- | ---- | ---- | ---- | ---- |
-| [OpenStack Secure Development Guidelines](https://security.openstack.org/#secure-development-guidelines) | OpenStack Community | CC-BY-3.0 | informal | 2015-02-18 – present | |
-| [OWASP Software Assurance Maturity Model (SAMM)](https://owaspsamm.org) | OWASP | CC-BY-SA-4.0 | Maturity Model | 2009 – present | SAMM is a maturity model that helps organizations implement a Secure Development Lifecycle. |
-| [OWASP DevSecOps Maturity Model (DSOMM)](https://dsomm.owasp.org) | OWASP | GPL-3 | Maturity Model | 2017 – present | DSOMM is a maturity model aimed at implementing DevSecOps best practices. |
-| [OWASP Cheat Sheet Series](https://cheatsheetseries.owasp.org) | OWASP | CC BY-SA 4.0 | Informal Guidelines | 2014 – present | OWASP Cheat Sheets are a collection of pragmatic secruity guidelines and best practices for a wide range of technologies. |
-| [NIST Secure Software Development Framework (NIST SP 800-218)](https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-218.pdf) | National Institute of Standards and Technology (NIST) | No License Required | Guidelines | 2022-02 - present | SSDF is a set of community-derived and regulatory-aligned practices for the creation and usage of software |
 
 ### Vulnerability handling for products with digital elements
 
@@ -190,7 +179,179 @@ Impact on steward: `attestations`
 | ---- | ---- | ---- | ---- | ---- | ---- |
 |  |  |  |  |  |  |
 
-## Open Source Steward Cybersecurity policy
+
+
+## Principles of security resilience
+
+> Designing, developing and producing products with digital elements in such a way that they ensure an appropriate level of cybersecurity based on the risks
+
+CRA ref: [Annex I, Part I, point (1)][Annex I]\
+Standards request ref: 1 (Horizontal Type A Standard due August 30, 2026)\
+Impact on steward: `Partial obligation` ("foster development of secure product", [Article 24(1)][Article 24])
+
+TODO: CONVERT BELOW TABLE
+
+| Name & URL | Publisher | License | Type | Date | Notes |
+| ---- | ---- | ---- | ---- | ---- | ---- |
+| [OWASP DevSecOps Maturity Model (DSOMM)](https://dsomm.owasp.org) | OWASP | GPL-3 | Maturity Model | 2017 – present | DSOMM is a maturity model aimed at implementing DevSecOps best practices. |
+| [NIST Secure Software Development Framework (NIST SP 800-218)](https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-218.pdf) | National Institute of Standards and Technology (NIST) | No License Required | Guidelines | 2022-02 - present | SSDF is a set of community-derived and regulatory-aligned practices for the creation and usage of software |
+
+* [BSI TR-03183: Cyber Resilience Requirements for Manufacturers and Products](https://www.bsi.bund.de/EN/Themen/Unternehmen-und-Organisationen/Standards-und-Zertifizierung/Technische-Richtlinien/TR-nach-Thema-sortiert/tr03183/TR-03183_node.html) - This is a German Federal Office for Information Security (BSI) guideline adopted in 2023 to prepare manufacturers for the EU Cyber Resilience Act. It provides detailed requirements and recommendations for product cybersecurity, essentially translating upcoming regulatory expectations into actionable criteria. TR-03183 is divided into parts; Part 1 covers general cyber resilience requirements (e.g. taking a risk-based approach to product security, ensuring secure software development and lifecycle, establishing a vulnerability handling process), and Part 2 focuses specifically on Software Bill of Materials (SBOM) and related transparency measures. The guideline likely also has parts on secure update mechanisms and incident reporting. By following TR-03183, device and software manufacturers can implement baseline security controls (like strong authentication, encryption for data in transit/storage, integrity protections, etc.) and produce artifacts (such as an SBOM) that demonstrate compliance. It effectively serves as an early blueprint for CRA compliance in Germany, giving industry a head-start on meeting those future legal obligations by voluntarily aligning with the technical measures BSI recommends.
+  <details>
+    <summary>More info</summary>
+
+    * **Title:** BSI TR-03183: Cyber Resilience Requirements for Manufacturers and Products
+    * **URL:** https://www.bsi.bund.de/EN/Themen/Unternehmen-und-Organisationen/Standards-und-Zertifizierung/Technische-Richtlinien/TR-nach-Thema-sortiert/tr03183/TR-03183_node.html
+    * **Publisher:** BSI
+    * **License:** 
+    * **Type:** Formal
+    * **Publication date:** 2024
+  </details>
+
+* [ETSI 303 645 - Cyber Security for Consumer Internet of Things: Baseline Requirements](https://www.etsi.org/deliver/etsi_en/303600_303699/303645/02.01.01_60/en_303645v020101p.pdf) - ETSI EN 303 645 is a European standard specifying baseline cybersecurity requirements for consumer Internet of Things devices. It enumerates a set of fundamental practices that manufacturers of smart home and wearable devices, for instance, should implement to significantly improve security. Notable provisions include: avoiding universal default passwords (each device must have a unique or user-set credential), providing a means to manage vulnerability disclosure (publish a contact for security issues), keeping software updated (and informing consumers of update duration), securely storing sensitive data, and minimizing exposed attack surfaces. The standard, first released in 2020 (and updated in v2.1.1 to refine requirements), has 13 key provisions in total. While voluntary, EN 303 645 has become highly influential; its guidelines have been adopted or referenced by governments and industry schemes globally (such as in the UK’s and Australia’s IoT codes of practice and Singapore’s CLS levels). In summary, ETSI EN 303 645 serves as a baseline “security hygiene” checklist for IoT products to reduce common vulnerabilities and make consumer devices more resilient against attacks like botnet recruitment or data breaches.
+  <details>
+    <summary>More info</summary>
+
+    * **Title:** ETSI 303 645 - Cyber Security for Consumer Internet of Things: Baseline Requirements
+    * **URL:** https://www.etsi.org/deliver/etsi_en/303600_303699/303645/02.01.01_60/en_303645v020101p.pdf
+    * **Publisher:** ETSI
+    * **License:** ?
+    * **Type:** formal
+    * **Publication date:** 2021
+  </details>
+
+* [ISO 31000:2018 Risk management — Guidelines](https://www.iso.org/standard/65694.html) - ISO 31000:2018 is an international standard that provides principles and generic guidelines for effective risk management in organizations. Rather than prescribing a specific technique, it outlines a framework and process that organizations can use to identify, assess, and treat risks systematically. Key concepts include establishing the context of risk (understanding the internal and external environment), performing structured risk assessments (identifying risks, analyzing their likelihood and impact, evaluating priorities), and then treating the risks with appropriate controls or mitigation strategies. The standard emphasizes that risk management should be iterative and embedded into organizational processes, decision-making, and culture. By following ISO 31000’s guidelines, organizations of any type can improve their ability to manage uncertainty, minimize losses, and maximize opportunities in a rational, auditable way.
+  <details>
+    <summary>More info</summary>
+
+    * **Title:**  ISO 31000:2018 Risk management — Guidelines
+    * **URL:** https://www.iso.org/standard/65694.html
+    * **Publisher:** ISO
+    * **License:** ?
+    * **Type:** Formal
+    * **Publication date:** 2018
+  </details>
+  
+
+* [NIST 800-37: Risk Management Framework for Information Systems and Organizations: A System Life Cycle Approach for Security and Privacy](https://csrc.nist.gov/pubs/sp/800/37/r2/final) - NIST Special Publication 800-37 Revision 2 is the authoritative guide on applying a Risk Management Framework (RMF) to information systems. The RMF provides a disciplined, structured process that integrates security and privacy into the system development life cycle. The steps of the RMF include: Prepare (organizational and system level preparation for risk management), Categorize (determining the system’s impact level in terms of confidentiality, integrity, availability), Select (choosing an initial set of security and privacy controls from standards like NIST 800-53 based on that categorization and tailoring them as needed), Implement (putting the controls in place), Assess (evaluating how effectively the controls are implemented), Authorize (a senior official formally accepting the residual risk before the system operates), and Monitor (continuously tracking the system’s security posture and control effectiveness over time). Rev. 2 of SP 800-37, published in 2018, updated the process to better support organization-wide risk management, emphasized the importance of privacy, and aligned with the NIST Cybersecurity Framework. It promotes ongoing authorization and continuous monitoring rather than one-time snapshots. Utilizing RMF helps organizations (especially U.S. federal agencies and contractors) ensure that security is not an afterthought but a continuous, lifecycle concern tied to risk decisions.
+  <details>
+    <summary>More info</summary>
+
+    * **Title:** NIST 800-37: Risk Management Framework for Information Systems and Organizations: A System Life Cycle Approach for Security and Privacy
+    * **URL:** https://csrc.nist.gov/pubs/sp/800/37/r2/final
+    * **Publisher:** NIST
+    * **License:** ?
+    * **Type:** informal
+    * **Publication date:** 2018
+  </details>
+
+* [NIST SP 800-160 Vol. 2 Rev. 1: Developing Cyber-Resilient Systems: A Systems Security Engineering Approach](https://csrc.nist.gov/pubs/sp/800/160/v2/r1/final) - This NIST publication focuses on engineering principles for cyber resilience, complementing traditional cybersecurity (which often emphasizes protection and detection) with strategies to ensure essential functions can withstand and recover from attacks. It adopts a systems security engineering perspective, meaning it embeds resilience into the system design lifecycle. The document introduces a catalog of cyber resiliency techniques and approaches — for example, techniques like redundancy (having backup components), diversity (using different implementations to avoid common-mode failures), segmentation (limiting the blast radius of compromises), deception (confusing or slowing attackers), and graceful degradation (maintaining partial functionality under stress). Rev. 1 updates these concepts and provides use cases and mappings to known frameworks (like mapping resiliency techniques to NIST CSF functions). By applying the guidance in SP 800-160 Vol. 2, system architects and engineers can design systems that continue to operate even while under attack or after compromise, thereby protecting critical missions. The document essentially shifts the focus from just preventing breaches to assuming that incidents will happen and planning how the system will cope and adapt when they do.
+  <details>
+    <summary>More info</summary>
+
+    * **Title:** NIST SP 800-160 Vol. 2 Rev. 1: Developing Cyber-Resilient Systems: A Systems Security Engineering Approach
+    * **URL:** https://csrc.nist.gov/pubs/sp/800/160/v2/r1/final
+    * **Publisher:** NIST
+    * **License:** ?
+    * **Type:** informal
+    * **Publication date:** 2021
+  </details>
+
+### Risk analysis 
+
+* [EN18031 - Common security requirements for radio equipment ](https://www.nen.nl/nen-en-18031-1-2024-en-328074) - EN 18031-1:2024 is a new European harmonized standard developed to support the security provisions of the EU Radio Equipment Directive (RED). As of August 2024, certain radio-connected devices (including many IoT products) must comply with Article 3(3)(d)-(f) of the RED, which mandates network protection, privacy of data, and fraud prevention. EN 18031-1 provides the “common security requirements” that manufacturers can implement to meet these legal obligations. It likely covers a broad set of controls such as requiring authentication for critical functions, ensuring secure data transmission, protecting personal data handled by the equipment, and maintaining software update mechanisms. This standard builds on prior work (like ETSI EN 303 645) but formalizes it under CEN/CENELEC for regulatory conformity. By following EN 18031-1, manufacturers can self-declare or certify that their wireless and IoT products adhere to the necessary cybersecurity baseline, thereby fulfilling the RED requirements and allowing them to be placed on the EU market. Essentially, EN 18031-1 operationalizes the Cyber Resilience Act’s spirit early for radio devices, harmonizing security across all consumer smart products in Europe.
+  <details>
+    <summary>More info</summary>
+
+    * **Title:** EN18031 - Common security requirements for radio equipment 
+    * **URL:** https://www.nen.nl/nen-en-18031-1-2024-en-328074
+    * **Publisher:** NEN-EN
+    * **License:** ?
+    * **Type:** formal
+    * **Publication date:** 2024
+  </details>
+
+* [OWASP Threat Modeling Cheat Sheet](https://cheatsheetseries.owasp.org/cheatsheets/Threat_Modeling_Cheat_Sheet.html) - The OWASP Threat Modeling Cheat Sheet is a distilled guide to performing threat modeling, which is the process of systematically identifying and addressing potential threats to an application’s security during the design phase. The cheat sheet outlines the essential steps in threat modeling: defining the security objectives, creating an application diagram or understanding the architecture, identifying threats (often using frameworks like STRIDE: Spoofing, Tampering, Repudiation, Information disclosure, Denial of service, Elevation of privilege), and devising mitigations for those threats. It provides tips and best practices, such as focusing on high-risk assets, involving diverse stakeholders (developers, architects, security engineers), and iterating the threat model as the design evolves. By following this concise guide, developers and teams can ensure they consider security early in the development lifecycle—modeling what could go wrong and building in defenses—rather than reacting to issues late in the game.
+  <details>
+    <summary>More info</summary>
+
+    * **Title:** OWASP Threat Modeling Cheat Sheet
+    * **URL:** https://cheatsheetseries.owasp.org/cheatsheets/Threat_Modeling_Cheat_Sheet.html
+    * **Publisher:** OWASP
+    * **License:** CC BY-SA 4.0
+    * **Type:** informal
+    * **Publication date:** ?
+  </details>
+
+### Secure design & secure coding principles
+
+* [OpenStack Secure development guidelines](https://security.openstack.org/#secure-development-guidelines) - The OpenStack Security Team has created a set of secure development guidelines and best practices to help developers avoid common mistakes that could introduce vulnerabilities in the OpenStack platform. These guidelines cover various areas of secure coding (e.g. proper file permissions, input validation, avoiding insecure libraries, using encryption correctly) and serve as a baseline for developers to follow so that OpenStack components are built with security in mind. By adhering to these recommendations, contributors to OpenStack can systematically reduce security weaknesses and improve the overall resilience of the cloud software.
+  <details>
+    <summary>More info</summary>
+
+    * **Title:** OpenStack Secure development guidelines
+    * **URL:** https://security.openstack.org/#secure-development-guidelines
+    * **Publisher:** OpenStack Community
+    * **License:** CC-BY-3.0
+    * **Type:** informal
+    * **Publication date:** 2015-02-18 – present
+  </details>
+  
+* [OWASP Cheat Sheet Series](https://cheatsheetseries.owasp.org/) - The OWASP Cheat Sheet Series is a collection of concise, high-value guides on a wide range of application security topics. Each cheat sheet focuses on a specific area (for example, authentication, injection prevention, error handling, etc.) and distills essential best practices and recommendations in an easy-to-reference format. Created and maintained by security experts in the OWASP community, the cheat sheets provide developers and defenders with clear guidelines to implement security controls correctly. By following the Cheat Sheet Series, practitioners can quickly learn the do’s and don’ts of application security for common scenarios, thereby improving the security of software without needing to wade through extensive documentation.
+  <details>
+    <summary>More info</summary>
+
+    * **Title:** OWASP Cheat Sheet Series
+    * **URL:** https://cheatsheetseries.owasp.org/
+    * **Publisher:** OWASP
+    * **License:** CC BY-SA 4.0
+    * **Type:** informal
+    * **Publication date:** 2014 – present
+  </details>
+
+### Security processes & governance
+
+* [NIST Cybersecurity Framework](https://www.nist.gov/cyberframework) - The NIST CSF is a high-level framework that helps organizations manage and reduce cybersecurity risk. It is composed of five Core Functions: Identify (know your assets, systems, data, and risks), Protect (implement safeguards like access controls, training, maintenance), Detect (deploy activities to promptly detect anomalies and incidents), Respond (have plans and actions for containing and minimizing incidents), and Recover (restore any capabilities or services impaired by incidents and incorporate lessons learned). Under each function are Categories and Subcategories that outline specific outcomes (for example, under Protect -> Access Control, an outcome is “identities and credentials are managed for authorized devices and users”). The CSF also includes Implementation Tiers to gauge the maturity of risk management practices and a Profile concept to tailor the framework to the organization’s goals and sector. Initially developed for critical infrastructure, the CSF has been widely adopted across industries globally because of its flexibility and clear structure. It’s often used as a starting point for developing a cybersecurity program or as a communication tool between technical teams and management, since it distills complex security practices into a straightforward, business-aligned format. (Note: A CSF 2.0 update is underway to incorporate more guidance on governance and supply chain risk.)
+  <details>
+    <summary>More info</summary>
+
+    * **Title:** NIST Cybersecurity Framework
+    * **URL:** https://www.nist.gov/cyberframework
+    * **Publisher:** NIST
+    * **License:** ?
+    * **Type:** informal
+    * **Publication date:** Ongoing
+  </details>
+
+* [OWASP Software Assurance Maturity Model (SAMM)](https://owaspsamm.org/) - OWASP SAMM is an open framework that organizations use to evaluate and improve their software security practices. It defines 15 security practices grouped into 5 business functions (such as Governance, Design, Implementation, Verification, and Operations), each with maturity levels and activities. By assessing their maturity against SAMM’s criteria, organizations can identify gaps in how they design, develop, and deploy software, and then follow SAMM’s guidance to incrementally implement more advanced security practices. The model is technology-agnostic and is updated by the OWASP community to reflect current best practices, making it a versatile roadmap for building a robust software security assurance program.
+  <details>
+    <summary>More info</summary>
+
+    * **Title:** OWASP Software Assurance Maturity Model (SAMM)
+    * **URL:** https://owaspsamm.org/
+    * **Publisher:** OWASP
+    * **License:** CC-BY-SA 4.0
+    * **Type:** informal
+    * **Publication date:** 2009 – present
+  </details>
+
+## Generic Security Requirements
+
+### Security requirements & controls
+
+### Security Hardening Guidelines
+
+### Cryptography
+ 
+## Vulnerability management
+
+### SBOM & Supply chain assurance
+
+### Vulnerability handling
+
+## Compliance requirements
+
+### Open Source Steward Cybersecurity policy
 
 CRA ref: [Article 24(1)][Article 24]\
 Standards request ref: N/A\
@@ -202,7 +363,7 @@ Impact on steward: `obligation`
 | [OpenSSF Security Policy Templates](https://github.com/ossf/oss-vulnerability-guide/tree/main/templates/security_policies) | OpenSSF | Apache-2.0 | Policy Template | 2022- present | |
 
 
-## Due diligence requirements of manufacturers
+### Due diligence requirements
 
 CRA ref: [Article 13(5)][Article 13]\
 Standards request ref: N/A\
@@ -212,7 +373,7 @@ Impact on steward: `attestations`
 | ---- | ---- | ---- | ---- | ---- | ---- |
 |  |  |  |  |  |  |
 
-## Voluntary security attestation programmes
+### Security attestations
 
 CRA ref: [Article 25][]\
 Standards request ref: N/A\
@@ -223,16 +384,12 @@ Impact on steward: `attestations`
 | [FreeBSD SSDF Attestation](https://freebsdfoundation.org/news-and-events/latest-news/freebsd-foundation-announces-ssdf-attestation/) | [FreeBSD Foundation](https://freebsdfoundation.org/) | Confidential | attestation | 2024-11-03 |  |
 | [Secure Software Development Framework (SSDF)](https://csrc.nist.gov/projects/ssdf) | [NIST](https://www.nist.gov/) | Public Domain (attribution appreciated) | recommendations | 2022-02-03 |  |
 
+
 ## Other
-CRA ref: TBD\
-Standards request ref: N/A\
-Impact on steward: TBD
 
-_Please add relevant resources below that don't fit well in the other categories. Please explain why they're important in the notes._
+### Similar legislation
 
-| Name & URL | Publisher | License | Type | Date | Notes |
-| ---- | ---- | ---- | ---- | ---- | ---- |
-|  |  |  |  |  |  |
+### Other
 
 
 [Annex I]: https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=OJ:L_202402847#anx_I
