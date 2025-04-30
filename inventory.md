@@ -175,17 +175,15 @@ CRA ref: [Annex I, Part I, point (2)(m)][Annex I]\
 Standards request ref: 14\
 Impact on steward: `attestations`
 
-| Name & URL | Publisher | License | Type | Date | Notes |
-| ---- | ---- | ---- | ---- | ---- | ---- |
-|  |  |  |  |  |  |
 
 
 
-## Principles of security resilience
 
+## 1. Principles of security resilience
+
+From [Annex I, Part I, point (1)][Annex I] of the CRA:
 > Designing, developing and producing products with digital elements in such a way that they ensure an appropriate level of cybersecurity based on the risks
 
-CRA ref: [Annex I, Part I, point (1)][Annex I]\
 Standards request ref: 1 (Horizontal Type A Standard due August 30, 2026)\
 Impact on steward: `Partial obligation` ("foster development of secure product", [Article 24(1)][Article 24])
 
@@ -257,7 +255,7 @@ TODO: CONVERT BELOW TABLE
     * **Publication date:** 2021
   </details>
 
-### Risk analysis 
+### 1.1 Risk analysis 
 
 * [EN18031 - Common security requirements for radio equipment ](https://www.nen.nl/nen-en-18031-1-2024-en-328074) - EN 18031-1:2024 is a new European harmonized standard developed to support the security provisions of the EU Radio Equipment Directive (RED). As of August 2024, certain radio-connected devices (including many IoT products) must comply with Article 3(3)(d)-(f) of the RED, which mandates network protection, privacy of data, and fraud prevention. EN 18031-1 provides the “common security requirements” that manufacturers can implement to meet these legal obligations. It likely covers a broad set of controls such as requiring authentication for critical functions, ensuring secure data transmission, protecting personal data handled by the equipment, and maintaining software update mechanisms. This standard builds on prior work (like ETSI EN 303 645) but formalizes it under CEN/CENELEC for regulatory conformity. By following EN 18031-1, manufacturers can self-declare or certify that their wireless and IoT products adhere to the necessary cybersecurity baseline, thereby fulfilling the RED requirements and allowing them to be placed on the EU market. Essentially, EN 18031-1 operationalizes the Cyber Resilience Act’s spirit early for radio devices, harmonizing security across all consumer smart products in Europe.
   <details>
@@ -283,7 +281,7 @@ TODO: CONVERT BELOW TABLE
     * **Publication date:** ?
   </details>
 
-### Secure design & secure coding principles
+### 1.2 Secure design & secure coding principles
 
 * [OpenStack Secure development guidelines](https://security.openstack.org/#secure-development-guidelines) - The OpenStack Security Team has created a set of secure development guidelines and best practices to help developers avoid common mistakes that could introduce vulnerabilities in the OpenStack platform. These guidelines cover various areas of secure coding (e.g. proper file permissions, input validation, avoiding insecure libraries, using encryption correctly) and serve as a baseline for developers to follow so that OpenStack components are built with security in mind. By adhering to these recommendations, contributors to OpenStack can systematically reduce security weaknesses and improve the overall resilience of the cloud software.
   <details>
@@ -309,7 +307,7 @@ TODO: CONVERT BELOW TABLE
     * **Publication date:** 2014 – present
   </details>
 
-### Security processes & governance
+### 1.3 Security processes & governance
 
 * [NIST Cybersecurity Framework](https://www.nist.gov/cyberframework) - The NIST CSF is a high-level framework that helps organizations manage and reduce cybersecurity risk. It is composed of five Core Functions: Identify (know your assets, systems, data, and risks), Protect (implement safeguards like access controls, training, maintenance), Detect (deploy activities to promptly detect anomalies and incidents), Respond (have plans and actions for containing and minimizing incidents), and Recover (restore any capabilities or services impaired by incidents and incorporate lessons learned). Under each function are Categories and Subcategories that outline specific outcomes (for example, under Protect -> Access Control, an outcome is “identities and credentials are managed for authorized devices and users”). The CSF also includes Implementation Tiers to gauge the maturity of risk management practices and a Profile concept to tailor the framework to the organization’s goals and sector. Initially developed for critical infrastructure, the CSF has been widely adopted across industries globally because of its flexibility and clear structure. It’s often used as a starting point for developing a cybersecurity program or as a communication tool between technical teams and management, since it distills complex security practices into a straightforward, business-aligned format. (Note: A CSF 2.0 update is underway to incorporate more guidance on governance and supply chain risk.)
   <details>
@@ -335,27 +333,29 @@ TODO: CONVERT BELOW TABLE
     * **Publication date:** 2009 – present
   </details>
 
-## Generic Security Requirements
+## 2. Generic Security Requirements
 
-### Security requirements & controls
+### 2.1 Security requirements & controls
 
-### Security Hardening Guidelines
+### 2.2 Security Hardening Guidelines
 
-### Cryptography
+### 2.3 Cryptography
  
-## Vulnerability management
+## 3. Vulnerability management
 
-### SBOM & Supply chain assurance
+### 3.1 SBOM & Supply chain assurance
 
-### Vulnerability handling
+### 3.2 Vulnerability handling
 
-## Compliance requirements
+## 4. Compliance requirements
 
-### Open Source Steward Cybersecurity policy
+### 4.1 Open Source Steward Cybersecurity policy
 
 CRA ref: [Article 24(1)][Article 24]\
 Standards request ref: N/A\
 Impact on steward: `obligation`
+
+TODO: CONVERT BELOW TABLE
 
 | Name & URL | Publisher | License | Type | Date | Notes |
 | ---- | ---- | ---- | ---- | ---- | ---- |
@@ -363,21 +363,21 @@ Impact on steward: `obligation`
 | [OpenSSF Security Policy Templates](https://github.com/ossf/oss-vulnerability-guide/tree/main/templates/security_policies) | OpenSSF | Apache-2.0 | Policy Template | 2022- present | |
 
 
-### Due diligence requirements
+### 4.2 Due diligence requirements
 
 CRA ref: [Article 13(5)][Article 13]\
 Standards request ref: N/A\
 Impact on steward: `attestations`
 
-| Name & URL | Publisher | License | Type | Date | Notes |
-| ---- | ---- | ---- | ---- | ---- | ---- |
-|  |  |  |  |  |  |
 
-### Security attestations
+
+### 4.3 Security attestations
 
 CRA ref: [Article 25][]\
 Standards request ref: N/A\
 Impact on steward: `attestations`
+
+TODO: CONVERT BELOW TABLE
 
 | Name & URL | Publisher | License | Type | Date | Notes |
 | ---- | ---- | ---- | ---- | ---- | ---- |
@@ -385,11 +385,9 @@ Impact on steward: `attestations`
 | [Secure Software Development Framework (SSDF)](https://csrc.nist.gov/projects/ssdf) | [NIST](https://www.nist.gov/) | Public Domain (attribution appreciated) | recommendations | 2022-02-03 |  |
 
 
-## Other
+## 5. Similar legislation
 
-### Similar legislation
-
-### Other
+## 6. Other
 
 
 [Annex I]: https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=OJ:L_202402847#anx_I
