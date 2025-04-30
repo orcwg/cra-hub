@@ -2,6 +2,8 @@
 
 The goal of this document is to provide a comprehensive list of resources that are relevant to the CRA obligations of open source software stewards and manufacturers when it comes to the development and usage of open source. The underlying purpose is to provide specification and standardization effort with easy access to documented industry and community best practices related to the development and integration of open source software and to the interactions between developers and consumers of open source.
 
+Note: the description of each resource has been generated using a large language model and verified for accuracy.
+
 ## Table of Content
 
 * [1. Principles of security resilience](#1-principles-of-security-resilience)
