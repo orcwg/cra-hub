@@ -37,20 +37,7 @@ CRA ref: [Annex I, Part II][Annex I]\
 Standards request ref: 15\
 Impact on steward: `obligation`
 
-| Name & URL | Publisher | License | Type | Date | Notes |
-| ---- | ---- | ---- | ---- | ---- | ---- |
-| [OpenStack Vulnerability Management Process](https://security.openstack.org/vmt-process.html) | OpenStack Community | CC-BY-3.0 | informal | 2011-10-25 – present | Subsequently adapted by many other communities and early inspiration for standards like those compiled by CII/OpenSSF |
-| [PHP Security Policies and Process](https://github.com/php/policies/blob/main/security-policies.rst) | PHP Project | none but [CC-BY-4.0 proposed](https://github.com/php/policies/blob/main/security-policies.rst) | informal | 2024-02-06 – present | Just initial info about managing security.txt file but it should contain more info in the future |
-| [PHP Vulnerability Disclosure Policy](https://github.com/php/policies/blob/main/security-classification.rst) | PHP Project | none but [CC-BY-4.0 proposed](https://github.com/php/policies/blob/main/security-policies.rst) | informal | 2023-12-04 – present | Security issues classification and their handling |
-| [RFC 9116](https://www.rfc-editor.org/rfc/rfc9116) | IETF | IETF Trust Legal Provisions (TLP) | RFC | 2022-04 | A File Format to Aid in Security Vulnerability Disclosure |
-| [PHP release process](https://github.com/php/php-src/blob/master/docs/release-process.md) | PHP project | PHP 3.01 | informal | 2007-11-22 - present | It includes some info about releasing of security fixes |
-| [ASF Classification of vulnerabilties ](https://security.apache.org/blog/severityrating/) | ASF | [ASLv2](https://www.apache.org/licenses/LICENSE-2.0) | practice | 25 Apr, 2023  | Captures lessons learned and best practices around vulnerability classification; Improves upon similar scales used by [Microsoft](https://www.microsoft.com/en-us/msrc/security-update-severity-rating-system?oneroute=true), OpenSSL, Red Hat various Apache projects] |
-| [Generic ASF vulnerability reporting process](https://apache.org/security/) | ASF | [ASLv2](https://www.apache.org/licenses/LICENSE-2.0) | policy | current | Generic process for reporting a vulnerability (i.e. not project specific) |
-|[Generic ASF handling process for vulnerabilities](https://apache.org/security/committers.html) | ASF | [ASLv2](https://www.apache.org/licenses/LICENSE-2.0) | policy | current | Generic process for developers to follow when handling a vulnerability report (i.e. not project/risk specific) |
-| [Guide to coordinated vulnerability disclosure for open source software projects](https://github.com/ossf/oss-vulnerability-guide) | OpenSSF | CC-BY-4.0 | Guidance, templates, and advise for how open source projects and security researchers can better coordinate vulnerability disclosures together | 2022 - present | |
-| [Guidelines and Practices for Multi-Party Vulnerability Coordination and Disclosure](https://www.first.org/global/sigs/vulnerability-coordination/multiparty/guidelines-v1.1) | Forum of Incident Response and Security Teams (FIRST) | none | Guidelines for handling coordiantion of complex (multiparty) vulnerabilities | Spring 2020 | |
-| [The CERT® Guide to Coordinated Vulnerability Disclosure](https://insights.sei.cmu.edu/documents/1945/2017_003_001_503340.pdf) | CERT-CC/Software Engineering Institure (SEI) at Carnegie Mellon University | None - approved for public release and unlimited distribution | Guide | |
-| [EUCC Scheme Guidelines on Vulnerability Management and Disclosure](https://certification.enisa.europa.eu/document/download/5f61edd4-0151-4687-8a08-c11c103498f3_en?filename=EUCC_guidelines_vulnerability%20management%20and%20disclosure_v1.1_0.pdf) | European Union Agency for Cybersecurity (ENISA) | CC-BY-ND 4.0 DEED | Guidelines for the EUCC Scheme | Version 1.1 January 2025 - a schema in the European Common Criteria framework |
+
 
 
 ## Horizontal Type B Standards (due October 30, 2027)
@@ -61,22 +48,13 @@ CRA ref: [Annex I, Part I, point (2)(a)][Annex I]\
 Standards request ref: 2\
 Impact on steward: `attestations`
 
-| Name & URL | Publisher | License | Type | Date | Notes |
-| ---- | ---- | ---- | ---- | ---- | ---- |
-| [FIRST PSIRT Services Framework](https://www.first.org/standards/frameworks/psirts/psirt_services_framework_v1.1) | FIRST | Public Domain | Framework | 2015-present | Guidance on how to create, manage, and operate a Product Security Incident Repsonse Team (PSIRT) |
-| [FIRST PSIRT Services Maturity Guidance ](https://www.first.org/standards/frameworks/psirts/psirt_maturity_document) | FIRST | Public Domain | Framework | 2015-present | Guidance on how to demostrate Operational Capabiulity and Maturity for PSIRTs |
-| [FIRST CSIRT Services Framework](https://www.first.org/standards/frameworks/csirts/csirt_services_framework_v2.1) | FIRST | Public Domain | Framework | 2015-present | Guidance on how to create, manage, and operate a Computer Security Incident Repsonse Team (CSIRT) |
-
-
 ### Making products with digital elements available on the market with a secure by default configuration
 
 CRA ref: [Annex I, Part I, point (2)(b)][Annex I]\
 Standards request ref: 3\
 Impact on steward: `attestations`
 
-| Name & URL | Publisher | License | Type | Date | Notes |
-| ---- | ---- | ---- | ---- | ---- | ---- |
-|  |  |  |  |  |  |
+
 
 ### Ensuring that vulnerabilities in products with digital elements can be addressed through security updates
 
@@ -84,9 +62,7 @@ CRA ref: [Annex I, Part I, point (2)(c)][Annex I]\
 Standards request ref: 4\
 Impact on steward: `attestations`
 
-| Name & URL | Publisher | License | Type | Date | Notes |
-| ---- | ---- | ---- | ---- | ---- | ---- |
-|  |  |  |  |  |  |
+
 
 ### Ensuring protection of products with digital elements from unauthorised access and reporting on possible unauthorised access
 
@@ -94,9 +70,7 @@ CRA ref: [Annex I, Part I, point (2)(d)][Annex I]\
 Standards request ref: 5\
 Impact on steward: `attestations`
 
-| Name & URL | Publisher | License | Type | Date | Notes |
-| ---- | ---- | ---- | ---- | ---- | ---- |
-|  |  |  |  |  |  |
+
 
 ### Protecting the confidentiality of data stored, transmitted or otherwise processed by a product with digital elements
 
@@ -104,9 +78,7 @@ CRA ref: [Annex I, Part I, point (2)(e)][Annex I]\
 Standards request ref: 6\
 Impact on steward: `attestations`
 
-| Name & URL | Publisher | License | Type | Date | Notes |
-| ---- | ---- | ---- | ---- | ---- | ---- |
-|  |  |  |  |  |  |
+
 
 ### Protecting the integrity of data, commands, programs by a product with digital elements, and its configuration against any manipulation or modification not authorised by the user, as well as reporting on corruptions
 
@@ -114,9 +86,7 @@ CRA ref: [Annex I, Part I, point (2)(f)][Annex I]\
 Standards request ref: 7\
 Impact on steward: `attestations`
 
-| Name & URL | Publisher | License | Type | Date | Notes |
-| ---- | ---- | ---- | ---- | ---- | ---- |
-|  |  |  |  |  |  |
+
 
 ### Processing only personal or other data that are adequate, relevant and limited to what is necessary in relation to the intended purpose of the product with digital elements (‘minimisation of data’)
 
@@ -124,9 +94,7 @@ CRA ref: [Annex I, Part I, point (2)(g)][Annex I]\
 Standards request ref: 8\
 Impact on steward: `attestations`
 
-| Name & URL | Publisher | License | Type | Date | Notes |
-| ---- | ---- | ---- | ---- | ---- | ---- |
-|  |  |  |  |  |  |
+
 
 ### Protecting the availability of essential and basic functions of the product with digital elements
 
@@ -134,9 +102,7 @@ CRA ref: [Annex I, Part I, point (2)(h)][Annex I]\
 Standards request ref: 9\
 Impact on steward: `attestations`
 
-| Name & URL | Publisher | License | Type | Date | Notes |
-| ---- | ---- | ---- | ---- | ---- | ---- |
-|  |  |  |  |  |  |
+
 
 ### Minimising the negative impact of a product with digital elements or its connected devices on the availability of services provided by other devices or networks
 
@@ -144,9 +110,7 @@ CRA ref: [Annex I, Part I, point (2)(i)][Annex I]\
 Standards request ref: 10\
 Impact on steward: `attestations`
 
-| Name & URL | Publisher | License | Type | Date | Notes |
-| ---- | ---- | ---- | ---- | ---- | ---- |
-|  |  |  |  |  |  |
+
 
 ### Designing, developing and producing products with digital elements with limitted attack surfaces
 
@@ -154,9 +118,7 @@ CRA ref: [Annex I, Part I, point (2)(j)][Annex I]\
 Standards request ref: 11\
 Impact on steward: `attestations`
 
-| Name & URL | Publisher | License | Type | Date | Notes |
-| ---- | ---- | ---- | ---- | ---- | ---- |
-|  |  |  |  |  |  |
+
 
 ### Designing, developing and producing products with digital elements that reduce the impact of an incident using appropriate exploitation mitigation mechanisms and techniques
 
@@ -164,9 +126,7 @@ CRA ref: [Annex I, Part I, point (2)(k)][Annex I]\
 Standards request ref: 12\
 Impact on steward: `attestations`
 
-| Name & URL | Publisher | License | Type | Date | Notes |
-| ---- | ---- | ---- | ---- | ---- | ---- |
-|  |  |  |  |  |  |
+
 
 ### Providing security related information by recording and/or monitoring relevant internal activity of products with digital elements with an opt-out mechanism for the user
 
@@ -174,9 +134,7 @@ CRA ref: [Annex I, Part I, point (2)(l)][Annex I]\
 Standards request ref: 13\
 Impact on steward: `attestations`
 
-| Name & URL | Publisher | License | Type | Date | Notes |
-| ---- | ---- | ---- | ---- | ---- | ---- |
-|  |  |  |  |  |  |
+
 
 ### Securely and easily removing or transferring all data and settings of a product with digital elements
 
@@ -343,6 +301,13 @@ TODO: CONVERT BELOW TABLE
 
 ## 2. Generic Security Requirements
 
+
+| Name & URL | Publisher | License | Type | Date | Notes |
+| ---- | ---- | ---- | ---- | ---- | ---- |
+| [FIRST PSIRT Services Framework](https://www.first.org/standards/frameworks/psirts/psirt_services_framework_v1.1) | FIRST | Public Domain | Framework | 2015-present | Guidance on how to create, manage, and operate a Product Security Incident Repsonse Team (PSIRT) |
+| [FIRST PSIRT Services Maturity Guidance ](https://www.first.org/standards/frameworks/psirts/psirt_maturity_document) | FIRST | Public Domain | Framework | 2015-present | Guidance on how to demostrate Operational Capabiulity and Maturity for PSIRTs |
+| [FIRST CSIRT Services Framework](https://www.first.org/standards/frameworks/csirts/csirt_services_framework_v2.1) | FIRST | Public Domain | Framework | 2015-present | Guidance on how to create, manage, and operate a Computer Security Incident Repsonse Team (CSIRT) |
+
 ### 2.1 Security requirements and controls
 
 ### 2.2 Security Hardening Guidelines
@@ -350,6 +315,24 @@ TODO: CONVERT BELOW TABLE
 ### 2.3 Cryptography
  
 ## 3. Vulnerability management
+
+TODO: CONVERT BELOW TABLE
+
+
+| Name & URL | Publisher | License | Type | Date | Notes |
+| ---- | ---- | ---- | ---- | ---- | ---- |
+| [OpenStack Vulnerability Management Process](https://security.openstack.org/vmt-process.html) | OpenStack Community | CC-BY-3.0 | informal | 2011-10-25 – present | Subsequently adapted by many other communities and early inspiration for standards like those compiled by CII/OpenSSF |
+| [PHP Security Policies and Process](https://github.com/php/policies/blob/main/security-policies.rst) | PHP Project | none but [CC-BY-4.0 proposed](https://github.com/php/policies/blob/main/security-policies.rst) | informal | 2024-02-06 – present | Just initial info about managing security.txt file but it should contain more info in the future |
+| [PHP Vulnerability Disclosure Policy](https://github.com/php/policies/blob/main/security-classification.rst) | PHP Project | none but [CC-BY-4.0 proposed](https://github.com/php/policies/blob/main/security-policies.rst) | informal | 2023-12-04 – present | Security issues classification and their handling |
+| [RFC 9116](https://www.rfc-editor.org/rfc/rfc9116) | IETF | IETF Trust Legal Provisions (TLP) | RFC | 2022-04 | A File Format to Aid in Security Vulnerability Disclosure |
+| [PHP release process](https://github.com/php/php-src/blob/master/docs/release-process.md) | PHP project | PHP 3.01 | informal | 2007-11-22 - present | It includes some info about releasing of security fixes |
+| [ASF Classification of vulnerabilties ](https://security.apache.org/blog/severityrating/) | ASF | [ASLv2](https://www.apache.org/licenses/LICENSE-2.0) | practice | 25 Apr, 2023  | Captures lessons learned and best practices around vulnerability classification; Improves upon similar scales used by [Microsoft](https://www.microsoft.com/en-us/msrc/security-update-severity-rating-system?oneroute=true), OpenSSL, Red Hat various Apache projects] |
+| [Generic ASF vulnerability reporting process](https://apache.org/security/) | ASF | [ASLv2](https://www.apache.org/licenses/LICENSE-2.0) | policy | current | Generic process for reporting a vulnerability (i.e. not project specific) |
+|[Generic ASF handling process for vulnerabilities](https://apache.org/security/committers.html) | ASF | [ASLv2](https://www.apache.org/licenses/LICENSE-2.0) | policy | current | Generic process for developers to follow when handling a vulnerability report (i.e. not project/risk specific) |
+| [Guide to coordinated vulnerability disclosure for open source software projects](https://github.com/ossf/oss-vulnerability-guide) | OpenSSF | CC-BY-4.0 | Guidance, templates, and advise for how open source projects and security researchers can better coordinate vulnerability disclosures together | 2022 - present | |
+| [Guidelines and Practices for Multi-Party Vulnerability Coordination and Disclosure](https://www.first.org/global/sigs/vulnerability-coordination/multiparty/guidelines-v1.1) | Forum of Incident Response and Security Teams (FIRST) | none | Guidelines for handling coordiantion of complex (multiparty) vulnerabilities | Spring 2020 | |
+| [The CERT® Guide to Coordinated Vulnerability Disclosure](https://insights.sei.cmu.edu/documents/1945/2017_003_001_503340.pdf) | CERT-CC/Software Engineering Institure (SEI) at Carnegie Mellon University | None - approved for public release and unlimited distribution | Guide | |
+| [EUCC Scheme Guidelines on Vulnerability Management and Disclosure](https://certification.enisa.europa.eu/document/download/5f61edd4-0151-4687-8a08-c11c103498f3_en?filename=EUCC_guidelines_vulnerability%20management%20and%20disclosure_v1.1_0.pdf) | European Union Agency for Cybersecurity (ENISA) | CC-BY-ND 4.0 DEED | Guidelines for the EUCC Scheme | Version 1.1 January 2025 - a schema in the European Common Criteria framework |
 
 * [CISA Software Acquisition Guide](https://cisa.gov/sag) - _See full description in [Section 4.2 Due diligence requirements][Section 4.2]._
 
