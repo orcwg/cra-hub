@@ -6,23 +6,23 @@ Note: the description of each resource has been generated using a large language
 
 ## Table of Content
 
-* [1. Principles of security resilience](#1-principles-of-security-resilience)
-  * [1.1 Risk analysis](#11-risk-analysis)
-  * [1.2 Secure design & secure coding principles](#12-secure-design--secure-coding-principles)
-  * [1.3 Security processes & governance](#13-security-processes--governance)
-* [2. Generic Security Requirements](#2-generic-security-requirements)
-  * [2.1 Security requirements & controls](#21-security-requirements--controls)
-  * [2.2 Security Hardening Guidelines](#22-security-hardening-guidelines)
-  * [2.3 Cryptography](#23-cryptography)
-* [3. Vulnerability management](#3-vulnerability-management)
-  * [3.1 SBOM & Supply chain assurance](#31-sbom--supply-chain-assurance)
-  * [3.2 Vulnerability handling](#32-vulnerability-handling)
-* [4. Compliance requirements](#4-compliance-requirements)
-  * [4.1 Open Source Steward Cybersecurity policy](#41-open-source-steward-cybersecurity-policy)
-  * [4.2 Due diligence requirements](#42-due-diligence-requirements)
-  * [4.3 Security attestations](#43-security-attestations)
-* [5. Similar legislation](#5-similar-legislation)
-* [6. Other](#6-other)
+* [1. Principles of security resilience][Section 1]
+  * [1.1 Risk analysis][Section 1.1]
+  * [1.2 Secure design and secure coding principles][Section 1.2]
+  * [1.3 Security processes and governance][Section 1.3]
+* [2. Generic Security Requirements][Section 2]
+  * [2.1 Security requirements and controls][Section 2.1]
+  * [2.2 Security Hardening Guidelines][Section 2.2]
+  * [2.3 Cryptography][Section 2.3]
+* [3. Vulnerability management][Section 3]
+  * [3.1 SBOM and Supply chain assurance][Section 3.1]
+  * [3.2 Vulnerability handling][Section 3.2]
+* [4. Compliance requirements][Section 4.]
+  * [4.1 Open Source Steward Cybersecurity policy][Section 4.1]
+  * [4.2 Due diligence requirements][Section 4.2]
+  * [4.3 Security attestations][Section 4.3]
+* [5. Similar legislation][Section 5]
+* [6. Other][Section 6]
 
 <!--
 ## Horizontal Type A Standards (due August 30, 2026)
@@ -289,7 +289,7 @@ TODO: CONVERT BELOW TABLE
     * **Publication date:** ?
   </details>
 
-### 1.2 Secure design & secure coding principles
+### 1.2 Secure design and secure coding principles
 
 * [OpenStack Secure development guidelines](https://security.openstack.org/#secure-development-guidelines) - The OpenStack Security Team has created a set of secure development guidelines and best practices to help developers avoid common mistakes that could introduce vulnerabilities in the OpenStack platform. These guidelines cover various areas of secure coding (e.g. proper file permissions, input validation, avoiding insecure libraries, using encryption correctly) and serve as a baseline for developers to follow so that OpenStack components are built with security in mind. By adhering to these recommendations, contributors to OpenStack can systematically reduce security weaknesses and improve the overall resilience of the cloud software.
   <details>
@@ -315,7 +315,7 @@ TODO: CONVERT BELOW TABLE
     * **Publication date:** 2014 – present
   </details>
 
-### 1.3 Security processes & governance
+### 1.3 Security processes and governance
 
 * [NIST Cybersecurity Framework](https://www.nist.gov/cyberframework) - The NIST CSF is a high-level framework that helps organizations manage and reduce cybersecurity risk. It is composed of five Core Functions: Identify (know your assets, systems, data, and risks), Protect (implement safeguards like access controls, training, maintenance), Detect (deploy activities to promptly detect anomalies and incidents), Respond (have plans and actions for containing and minimizing incidents), and Recover (restore any capabilities or services impaired by incidents and incorporate lessons learned). Under each function are Categories and Subcategories that outline specific outcomes (for example, under Protect -> Access Control, an outcome is “identities and credentials are managed for authorized devices and users”). The CSF also includes Implementation Tiers to gauge the maturity of risk management practices and a Profile concept to tailor the framework to the organization’s goals and sector. Initially developed for critical infrastructure, the CSF has been widely adopted across industries globally because of its flexibility and clear structure. It’s often used as a starting point for developing a cybersecurity program or as a communication tool between technical teams and management, since it distills complex security practices into a straightforward, business-aligned format. (Note: A CSF 2.0 update is underway to incorporate more guidance on governance and supply chain risk.)
   <details>
@@ -343,7 +343,7 @@ TODO: CONVERT BELOW TABLE
 
 ## 2. Generic Security Requirements
 
-### 2.1 Security requirements & controls
+### 2.1 Security requirements and controls
 
 ### 2.2 Security Hardening Guidelines
 
@@ -351,7 +351,7 @@ TODO: CONVERT BELOW TABLE
  
 ## 3. Vulnerability management
 
-### 3.1 SBOM & Supply chain assurance
+### 3.1 SBOM and Supply chain assurance
 
 ### 3.2 Vulnerability handling
 
@@ -397,6 +397,23 @@ TODO: CONVERT BELOW TABLE
 
 ## 6. Other
 
+[Section 1]:   #1-principles-of-security-resilience
+[Section 1.1]: #11-risk-analysis
+[Section 1.2]: #12-secure-design-and-secure-coding-principles
+[Section 1.3]: #13-security-processes-and-governance
+[Section 2]:   #2-generic-security-requirements
+[Section 2.1]: #21-security-requirements-and-controls
+[Section 2.2]: #22-security-hardening-guidelines
+[Section 2.3]: #23-cryptography
+[Section 3]:   #3-vulnerability-management
+[Section 3.1]: #31-sbom--supply-chain-assurance
+[Section 3.2]: #32-vulnerability-handling
+[Section 4.]:  #4-compliance-requirements
+[Section 4.1]: #41-open-source-steward-cybersecurity-policy
+[Section 4.2]: #42-due-diligence-requirements
+[Section 4.3]: #43-security-attestations
+[Section 5]:   #5-similar-legislation
+[Section 6]:   #6-other
 
 [Annex I]: https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=OJ:L_202402847#anx_I
 [Article 13]: https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=OJ:L_202402847#art_13
