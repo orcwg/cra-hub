@@ -411,18 +411,6 @@ TODO: CONVERT BELOW TABLE
 | [FreeBSD SSDF Attestation](https://freebsdfoundation.org/news-and-events/latest-news/freebsd-foundation-announces-ssdf-attestation/) | [FreeBSD Foundation](https://freebsdfoundation.org/) | Confidential | attestation | 2024-11-03 |  |
 | [Secure Software Development Framework (SSDF)](https://csrc.nist.gov/projects/ssdf) | [NIST](https://www.nist.gov/) | Public Domain (attribution appreciated) | recommendations | 2022-02-03 |  |
 
-* [Best Practices Badge](https://www.bestpractices.dev/en) - The OpenSSF Best Practices Badge Program is a voluntary self-certification initiative that allows open-source software projects to demonstrate their adherence to a broad range of security and quality best practices. Projects complete a web-based questionnaire covering topics like version control, vulnerability disclosure, testing, code review, and build process hygiene. If they meet the criteria, they earn a badge that can be displayed to indicate the project follows industry-recommended practices for open source development. The program (originating from the Core Infrastructure Initiative and now under the Open Source Security Foundation) aims to improve software health and transparency; consumers of open source can use the badge as one indicator that a project is more likely to produce secure, reliable software.
-  <details>
-    <summary>More info</summary>
-
-    * **Title:** Best Practices Badge
-    * **URL:** https://www.bestpractices.dev/en
-    * **Publisher:** OpenSSF
-    * **License:** MIT/CDLA-Permissive
-    * **Type:** 
-    * **Publication date:** from 2021 under the current name
-  </details>
-  
 * [Authoritative Guide to Attestations](https://cyclonedx.org/guides/OWASP_CycloneDX-Authoritative-Guide-to-Attestations-en.pdf) - This guide provides organizations with a framework for digitally transforming their audit and attestation workflows using standardized, machine-readable attestations. An attestation in this context is a cryptographically signed statement about some aspect of a software product or process (for example, an attestation that a product was built in a secure environment or complies with certain standards). The guide explains how to create and use such attestations, leveraging the CycloneDX format, to document compliance or security assurances in an automated way. By following the guide, organizations can move away from purely manual audit statements and instead generate verifiable digital evidence of their security practices, making it easier to trust and verify software in supply chains or regulatory contexts.
   <details>
     <summary>More info</summary>
@@ -435,9 +423,177 @@ TODO: CONVERT BELOW TABLE
     * **Publication date:** 2024 – present
   </details>
 
+* [Best Practices Badge](https://www.bestpractices.dev/en) - The OpenSSF Best Practices Badge Program is a voluntary self-certification initiative that allows open-source software projects to demonstrate their adherence to a broad range of security and quality best practices. Projects complete a web-based questionnaire covering topics like version control, vulnerability disclosure, testing, code review, and build process hygiene. If they meet the criteria, they earn a badge that can be displayed to indicate the project follows industry-recommended practices for open source development. The program (originating from the Core Infrastructure Initiative and now under the Open Source Security Foundation) aims to improve software health and transparency; consumers of open source can use the badge as one indicator that a project is more likely to produce secure, reliable software.
+  <details>
+    <summary>More info</summary>
+
+    * **Title:** Best Practices Badge
+    * **URL:** https://www.bestpractices.dev/en
+    * **Publisher:** OpenSSF
+    * **License:** MIT/CDLA-Permissive
+    * **Type:** 
+    * **Publication date:** from 2021 under the current name
+  </details>
+
 ## 5. Similar legislation
 
+* [Australia Code of Practice - Securing the Internet of Things for Consumers]() - Australia released a voluntary Code of Practice for consumer IoT security in 2020 (developed by the Department of Home Affairs). This code closely mirrors the UK’s 13 IoT security principles and ETSI’s guidelines. It includes practices such as: don’t use default passwords (and preferably implement unique passwords per device), implement a vulnerability disclosure policy, keep software updated and securely updateable, securely store credentials, minimize data collection, and ensure devices can be securely deleted or reset by users. The Australian Code of Practice serves as guidance for industry; while not legally binding, it was endorsed by the government as the expected norm. Companies are encouraged to adopt it and even use it as a competitive advantage (demonstrating compliance could be marketed to consumers). The code also set the stage for potential future regulation if voluntary uptake is insufficient. By articulating clear best practices, Australia’s government aimed to elevate IoT security and protect Australian consumers from common IoT threats like unauthorized access or data breaches via their smart devices. The principles from this code of practice have since influenced discussions on IoT security regulation and labeling in Australia (such as the work towards an IoT security “star rating” similar to other countries).
+  <details>
+    <summary>More info</summary>
+
+    * **Title:** Australia Code of Practice - Securing the Internet of Things for Consumers
+    * **URL:** 
+    * **Publisher:** 
+    * **License:** 
+    * **Type:** 
+    * **Publication date:** 
+  </details>
+
+* [CSCRF for SEBI REs](https://www.sebi.gov.in/legal/circulars/aug-2024/cybersecurity-and-cyber-resilience-framework-cscrf-for-sebi-regulated-entities-res-_85964.html) - Introduced by the Securities and Exchange Board of India in August 2024, the CSCRF is a comprehensive framework of cybersecurity guidelines for India’s capital market entities (stock exchanges, depositories, brokers, asset managers, etc.). It mandates that these regulated entities implement uniform baseline measures to anticipate cyber threats, protect systems, detect incidents, respond to attacks, and recover operations – aligning with broader cyber resilience goals. The CSCRF sets out objectives like addressing evolving threats, aligning with international standards, enforcing regular cybersecurity audits, and standardizing incident reporting. It introduces structured requirements by combining Cyber Resilience Goals (Anticipate, Withstand, Recover, Evolve) with Cybersecurity Functions (such as Governance, Identify, Protect, Detect, Respond). Entities are categorized by size/impact and must implement controls appropriate to their category. Overall, this framework elevates the cybersecurity posture of India’s financial sector by requiring consistent practices and accountability across all regulated organizations.
+  <details>
+    <summary>More info</summary>
+
+    * **Title:** CSCRF for SEBI REs
+    * **URL:** https://www.sebi.gov.in/legal/circulars/aug-2024/cybersecurity-and-cyber-resilience-framework-cscrf-for-sebi-regulated-entities-res-_85964.html
+    * **Publisher:** SEBI
+    * **License:** 
+    * **Type:** Formal
+    * **Publication date:** 45524
+  </details>
+
+* [CISA Secure by Design Pledge](https://www.cisa.gov/sites/default/files/2024-05/CISA%20Secure%20by%20Design%20Pledge_508c.pdf) - The Secure by Design pledge is an initiative by the U.S. Cybersecurity and Infrastructure Security Agency calling on technology companies to fundamentally shift their development philosophy to prioritize security from the start. The pledge outlines core principles such as developing software with a proactive adversary mindset (anticipating how software could be misused or attacked), ensuring default configurations are secure out-of-the-box (so customers don’t have to harden products themselves), practicing transparency in vulnerability handling (including publishing SBOMs and disclosing vulnerabilities), and enabling continuous security testing and feedback during development. Companies that take the pledge publicly commit to these values, signaling that they will invest in practices like threat modeling, secure coding training, rigorous testing, and building security features (like authentication and encryption) as integral parts of their products. The broader goal is cultural: to move the industry away from treating security as an afterthought or add-on, and instead have security as a foundational aspect of product design, thereby reducing the prevalence of easily exploitable weaknesses in widely used technology.
+  <details>
+    <summary>More info</summary>
+
+    * **Title:** CISA Secure by Design Pledge
+    * **URL:** https://www.cisa.gov/sites/default/files/2024-05/CISA%20Secure%20by%20Design%20Pledge_508c.pdf
+    * **Publisher:** CISA
+    * **License:** 
+    * **Type:** 
+    * **Publication date:** 2024
+  </details>
+
+* [Cybersecurity Labelling Scheme for IoT - CLS(IoT)](https://www.csa.gov.sg/our-programmes/certification-and-labelling-schemes/cybersecurity-labelling-scheme/about/) - Singapore’s Cybersecurity Labelling Scheme is a four-tier rating program launched in 2020 by the Cyber Security Agency (CSA) to improve the security of consumer smart devices. Under CLS, IoT products (like home routers, smart cameras, etc.) are evaluated and given a security grade of Level 1 (basic) to Level 4 (most robust), indicated by the number of stars on the label. Each level corresponds to a set of cybersecurity provisions: for example, Level 1 requires adherence to baseline security requirements (largely based on ETSI EN 303 645), higher levels add requirements like using a vetted standard (Level 2), conducting structured lifecycle security measures and binary analysis (Level 3), and perhaps formal certification or penetration testing (Level 4). The label helps consumers easily identify products with better cybersecurity and incentivizes manufacturers to incorporate stronger security into design to achieve higher ratings. Singapore’s CLS is one of the first schemes of its kind in Asia and includes mutual recognition arrangements (e.g., a device meeting Finland’s cybersecurity label is recognized at CLS Level 3, and vice versa), promoting international coherence in IoT security standards.
+  <details>
+    <summary>More info</summary>
+
+    * **Title:** Cybersecurity Labelling Scheme for IoT - CLS(IoT)
+    * **URL:** https://www.csa.gov.sg/our-programmes/certification-and-labelling-schemes/cybersecurity-labelling-scheme/about/
+    * **Publisher:** CSA
+    * **License:** 
+    * **Type:** Formal
+    * **Publication date:** 
+  </details>
+
+* [CyberTrust Mark](https://www.fcc.gov/CyberTrustMark) - The Cyber Trust Mark is a forthcoming labeling scheme introduced by the U.S. Federal Communications Commission (FCC) to signify consumer IoT products that meet certain cybersecurity benchmarks. Under this program, makers of smart devices (like smart thermostats, fitness trackers, connected appliances, etc.) can voluntarily undergo an evaluation of their product’s security features. The baseline criteria likely include things like: unique default passwords or user setup of credentials, a commitment to provide security updates for a minimum period, having a vulnerability reporting mechanism, and perhaps compliance with standards such as ETSI EN 303 645. Devices that pass the evaluation will be allowed to display the “Cyber Trust Mark” logo (possibly a shield icon or similar) on their packaging. This functions similarly to an EnergyStar label but for cybersecurity. The idea is to help consumers easily identify products that are deemed more secure, thereby encouraging manufacturers to improve security to earn the mark. Over time, widespread adoption of the Cyber Trust Mark aims to raise the minimum security level of IoT devices available in the U.S. market by combining consumer choice with a recognizable seal of approval for security.
+  <details>
+    <summary>More info</summary>
+
+    * **Title:** CyberTrust Mark
+    * **URL:** https://www.fcc.gov/CyberTrustMark
+    * **Publisher:** US FCC
+    * **License:** 
+    * **Type:** formal
+    * **Publication date:** 2023
+  </details>
+
+* [Finland’s national consumer IoT certification scheme]() -  Finland was a pioneer in Europe for consumer IoT security certification, launching its cybersecurity label program in 2019. In this scheme run by Traficom (the Finnish Transport and Communications Agency), manufacturers can apply to have their smart products evaluated against a set of security criteria. Certified products receive a “Cybersecurity Label” (Tietoturvamerkki in Finnish) that they can display to inform consumers that the device meets Finland’s security requirements. The criteria include things like no default passwords, secure communications, and a commitment by the vendor to update the product’s software to fix vulnerabilities. The Finnish label is voluntary but has seen adoption in products like smart watches, home hubs, and IoT appliances. The program’s goal is to raise consumer awareness and reward companies that invest in security. Finland’s label has gained international recognition – it has mutual recognition with Singapore’s CLS (whereby a product meeting the Finnish label is accepted as Level 3 in Singapore’s scheme). This national certification helps build trust in IoT products and influenced the development of similar labeling efforts across the EU.
+  <details>
+    <summary>More info</summary>
+
+    * **Title:** Finland’s national consumer IoT certification scheme
+    * **URL:** 
+    * **Publisher:** 
+    * **License:** 
+    * **Type:** 
+    * **Publication date:** 
+  </details>
+  
+* [Germany BSI IoT label](https://www.bsi.bund.de/EN/Themen/Unternehmen-und-Organisationen/IT-Sicherheitskennzeichen/it-sicherheitskennzeichen_node.html) - The German Federal Office for Information Security (BSI) introduced an “IT-Sicherheitskennzeichen” (IT Security Label) in 2022 for consumer IT products. This is a voluntary label that manufacturers can obtain to signal that their product meets basic cybersecurity requirements and that the manufacturer is transparent about its security features. Rather than extensive lab testing, the BSI label currently works as a self-declaration: the manufacturer commits to certain practices (for example, providing software updates for a minimum period, and having no universal default passwords) and BSI publishes a webpage for each labeled product detailing its security properties and update policy. The label itself is often a QR code that consumers can scan to read those details on BSI’s website. This approach educates consumers on what the device does for security and what they as users should do (like applying updates). Products like routers, smart TVs, and cameras have started getting the label. The label program also ties into international efforts: Germany and Singapore have a mutual recognition arrangement (devices with Germany’s label count as at least CLS Level 2 in Singapore and vice versa). Overall, the BSI IT Security Label aims to increase IoT product security through transparency and by pushing manufacturers to adhere to baseline good practices in order to earn the official recognition.
+  <details>
+    <summary>More info</summary>
+
+    * **Title:** Germany BSI IoT label
+    * **URL:** 
+    * **Publisher:** 
+    * **License:** 
+    * **Type:** 
+    * **Publication date:** 
+  </details>
+
+* [India TEC Code of Practice for Securing Consumer IoT]() - India’s Telecommunication Engineering Centre (TEC), under the Department of Telecom, released a “Code of Practice” in January 2022 as a guideline for consumer IoT security. This code of practice is largely aligned with global benchmarks like ETSI EN 303 645 and the UK’s 13 principles for IoT security. It provides a list of best practices that manufacturers should implement: some examples include using unique per-device passwords, implementing a vulnerability disclosure mechanism, securing personal data, ensuring communications are encrypted, and providing software updates to devices. While not a regulation, this document serves as an official reference for what the Indian government expects in terms of IoT device security. It’s intended for device manufacturers, IoT service providers, and app developers to consult and adopt these measures in their products and services. By following the TEC’s code, IoT companies can significantly raise the security level of their products in India, and it prepares them for any future mandatory requirements. The issuance of this guideline reflects India’s recognition of the growing risks posed by the proliferation of IoT devices and the need to protect consumers and critical networks from those risks.
+  <details>
+    <summary>More info</summary>
+
+    * **Title:** India TEC Code of Practice for Securing Consumer IoT
+    * **URL:** 
+    * **Publisher:** 
+    * **License:** 
+    * **Type:** 
+    * **Publication date:** 
+  </details>
+
+* [Strengthening and Promoting Innovation in the Nation's Cybersecurity](https://www.federalregister.gov/documents/2025/01/17/2025-01470/strengthening-and-promoting-innovation-in-the-nations-cybersecurity) - Executive Order 14144 (signed January 2025) is a broad directive aimed at improving the nation’s cybersecurity and spurring innovation in secure technology. It includes multiple initiatives: one major element is leveraging federal procurement to set higher cybersecurity standards (the government will prefer or require products that meet specific security criteria, thus incentivizing vendors), and another is encouraging the development of new security solutions (through funding R&D or public-private collaboration). The EO calls for updates to federal acquisition regulations to define what makes a product “trustworthy” (for instance, having an SBOM, secure development attestations, and no known vulnerabilities at delivery). It also endorses programs like security labeling for consumer IoT (the “Cyber Trust Mark”) to drive market transparency. Additionally, the EO may establish interagency efforts to streamline cyber incident information sharing and invest in cybersecurity workforce and education to support innovation. Overall, EO 14144 uses the federal government’s roles as both regulator and top customer to push the ecosystem towards products that are secure by design, while also fostering an environment where cutting-edge cybersecurity practices and technologies are developed and adopted.
+  <details>
+    <summary>More info</summary>
+
+    * **Title:** Strengthening and promoting innovation in the ....
+    * **URL:** https://www.federalregister.gov/documents/2025/01/17/2025-01470/strengthening-and-promoting-innovation-in-the-nations-cybersecurity
+    * **Publisher:** US Executive Order 14144
+    * **License:** 
+    * **Type:** 
+    * **Publication date:** 2025
+  </details>
+
+* [U.K.’s Product Security and Telecommunications Infrastructure Bill]() - The UK PSTI Act 2022 is a landmark law that establishes cybersecurity requirements for consumer connectable products (the IoT devices). Building on prior voluntary guidelines, it makes certain practices legally mandatory for manufacturers, importers, and distributors in the UK. The Act’s first set of requirements (which will be enforced via secondary regulations) include: banning universal default passwords in devices, requiring a public point of contact for vulnerability reporting, and mandating transparency about the minimum time period during which the device will receive security updates. Manufacturers must provide a compliance statement for their products covering these aspects. The law gives regulators power to fine companies that don’t comply. Essentially, PSTI turns basic IoT security principles into law – for example, if a toy or appliance ships with a default password like “admin” that is not unique, that will be illegal to sell in the UK. The Act also gives the government flexibility to expand requirements over time (it can add further provisions like mandates around data encryption or firewalls if needed). By legislating these measures, the UK aims to remove the most egregious vulnerabilities from consumer devices and drive manufacturers globally to improve the security of the products that end up in British households.
+  <details>
+    <summary>More info</summary>
+
+    * **Title:** U.K.’s Product Security and Telecommunications Infrastructure Bill
+    * **URL:** 
+    * **Publisher:** 
+    * **License:** 
+    * **Type:** 
+    * **Publication date:** 
+  </details>
+
+* [US Executive Order 14144](https://www.federalregister.gov/documents/2025/01/17/2025-01470/strengthening-and-promoting-innovation-in-the-nations-cybersecurity#p-10) - A key aspect of Executive Order 14144 is its directive to federal procurement authorities to define and enforce criteria for “secure and trustworthy” products. The Executive Order mandates that federal agencies, when buying software or connected devices, must ensure those products meet rigorous cybersecurity standards – effectively using government contracts as a driver for better security. It tasks NIST and other agencies with establishing what technical evidence or certifications a vendor must provide to be considered trustworthy. This could include providing an SBOM for supplied software, proving that the software was developed under secure processes (via self-attestation or third-party audit), demonstrating compliance with specific standards (like FIPS-validated cryptography, or adherence to zero-trust principles if relevant), and ensuring mechanisms for swift vulnerability remediation. The Federal Acquisition Regulation (FAR) will be updated accordingly, making these requirements legally binding in contracts. In practical terms, this means a software company wanting to sell to the U.S. government will need to implement robust security in their product and supply chain or risk being excluded. The intent is both to protect government systems from supply chain attacks and to influence the broader market: when large vendors improve security to sell to the government, those improvements often propagate to all customers.
+  <details>
+    <summary>More info</summary>
+
+    * **Title:** EO 14144
+    * **URL:** https://www.federalregister.gov/documents/2025/01/17/2025-01470/strengthening-and-promoting-innovation-in-the-nations-cybersecurity#p-10
+    * **Publisher:** US Government
+    * **License:** 
+    * **Type:**  
+    * **Publication date:** 2025
+  </details>
+
+* [Vietnam’s Cyber Information Security Requirements for Internet of things]() - In 2021, Vietnam’s Ministry of Information and Communications issued a set of baseline cybersecurity requirements for consumer Internet-of-Things devices (for example, network cameras, Wi-Fi routers, and smart home gadgets). This was formalized in a decision (Decision 736/QD-BTTTT) that lists mandatory security features for IoT products in Vietnam. These requirements include having unique default credentials or forcing password changes on setup, providing secure update mechanisms for device firmware, implementing data protection measures, and ensuring devices undergo security testing. The regulation also often requires manufacturers to have a point of contact for vulnerability reporting. Vietnam’s move mirrors the global trend initiated by standards like ETSI EN 303 645 but makes it enforceable within the country’s jurisdiction. Manufacturers of IoT devices in Vietnam (or exporters to Vietnam) need to comply with these rules to sell their products legally. The aim is to reduce the prevalence of easily exploitable IoT devices (which could be hijacked for botnets or spying) on the Vietnamese market, thereby enhancing overall cyber hygiene and protecting consumers.
+  <details>
+    <summary>More info</summary>
+
+    * **Title:** Vietnam’s Cyber Information Security Requirements for Internet of things
+    * **URL:** 
+    * **Publisher:** 
+    * **License:** 
+    * **Type:** 
+    * **Publication date:** 
+  </details>
+
 ## 6. Other
+
+* [Cyber Resilience Act Requirements Standards Mapping - Joint Research Centre & ENISA Joint Analysis](https://www.enisa.europa.eu/publications/cyber-resilience-act-requirements-standards-mapping) - This joint analysis report by the European Commission’s Joint Research Centre (JRC) and ENISA examines how existing cybersecurity standards relate to the requirements of the proposed Cyber Resilience Act (CRA). The CRA will impose certain security requirements on hardware and software products in the EU, and this report maps each specific CRA requirement (for example, on secure design, vulnerability handling, encryption, etc.) to one or more international or European standards that address that topic. The analysis identifies where suitable standards already exist (and could be used to comply with or demonstrate conformity to that CRA requirement) and where there are gaps (i.e. no current standard fully covers a particular requirement, indicating a need for further standardization). This mapping is valuable for industry and regulators: manufacturers can use it to figure out which standards or certifications might help them meet CRA obligations, and standards organizations can see where new work might be needed. Overall, the report serves as a bridge between the high-level legal requirements of the CRA and the practical technical standards that can fulfill them.
+  <details>
+    <summary>More info</summary>
+
+    * **Title:** Cyber Resilience Act Requirements Standards Mapping - Joint Research Centre & ENISA Joint Analysis
+    * **URL:** https://www.enisa.europa.eu/publications/cyber-resilience-act-requirements-standards-mapping
+    * **Publisher:** ENISA
+    * **License:** 
+    * **Type:** 
+    * **Publication date:** 
+  </details>
 
 [Section 1]:   #1-principles-of-security-resilience
 [Section 1.1]: #11-risk-analysis
