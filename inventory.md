@@ -153,13 +153,6 @@ This section contains references which are relevant to the requirements expresse
 Standards request ref: [1][Horizontal standards] (Horizontal Type A Standard due August 30, 2026)\
 Impact on steward: `Partial obligation` ("foster development of secure product", [Article 24(1)][Article 24])
 
-TODO: CONVERT BELOW TABLE
-
-| Name & URL | Publisher | License | Type | Date | Notes |
-| ---- | ---- | ---- | ---- | ---- | ---- |
-| [OWASP DevSecOps Maturity Model (DSOMM)](https://dsomm.owasp.org) | OWASP | GPL-3 | Maturity Model | 2017 – present | DSOMM is a maturity model aimed at implementing DevSecOps best practices. |
-| [NIST Secure Software Development Framework (NIST SP 800-218)](https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-218.pdf) | National Institute of Standards and Technology (NIST) | No License Required | Guidelines | 2022-02 - present | SSDF is a set of community-derived and regulatory-aligned practices for the creation and usage of software |
-
 * [BSI TR-03183: Cyber Resilience Requirements for Manufacturers and Products](https://www.bsi.bund.de/EN/Themen/Unternehmen-und-Organisationen/Standards-und-Zertifizierung/Technische-Richtlinien/TR-nach-Thema-sortiert/tr03183/TR-03183_node.html) - This is a German Federal Office for Information Security (BSI) guideline adopted in 2023 to prepare manufacturers for the EU Cyber Resilience Act. It provides detailed requirements and recommendations for product cybersecurity, essentially translating upcoming regulatory expectations into actionable criteria. TR-03183 is divided into parts; Part 1 covers general cyber resilience requirements (e.g. taking a risk-based approach to product security, ensuring secure software development and lifecycle, establishing a vulnerability handling process), and Part 2 focuses specifically on Software Bill of Materials (SBOM) and related transparency measures. The guideline likely also has parts on secure update mechanisms and incident reporting. By following TR-03183, device and software manufacturers can implement baseline security controls (like strong authentication, encryption for data in transit/storage, integrity protections, etc.) and produce artifacts (such as an SBOM) that demonstrate compliance. It effectively serves as an early blueprint for CRA compliance in Germany, giving industry a head-start on meeting those future legal obligations by voluntarily aligning with the technical measures BSI recommends.
   <details>
     <summary>More info</summary>
@@ -220,6 +213,18 @@ TODO: CONVERT BELOW TABLE
     * **Type:** informal
     * **Publication date:** 2021
   </details>
+  
+* [NIST SP 800-218: Secure Software Development Framework (SSDF)](https://csrc.nist.gov/pubs/sp/800/218/final) - NIST’s Secure Software Development Framework is a set of recommended practices for integrating security into the software development life cycle. Version 1.1 of the SSDF (published in 2022) organizes these practices into four groups: Prepare the Organization (ensure the development team has the resources, training, and governance to produce secure code), Protect the Software (establish secure environments and tools, and protect code integrity – e.g., via version control protections and dependency management), Produce Well-Secured Software (implement security design, code, and testing practices – like threat modeling, static analysis, and code review – and address findings), and Respond to Vulnerabilities (define processes to handle internally and externally reported bugs in released software, including patching and communication). Each practice is described at a high level with mappings to more specific standards (like OWASP, ISO, etc.). The SSDF is meant to be adaptable: organizations of any size can implement its core tenets and can integrate them into existing development workflows (waterfall, Agile, DevOps, etc.). By following the SSDF, software producers minimize the introduction of vulnerabilities and establish a workflow to catch and fix security issues early, which ultimately leads to more secure products for end users.
+  <details>
+    <summary>More info</summary>
+
+    * **Title:** NIST SP 800-218: Secure Software Development Framework (SSDF) Version 1.1: Recommendations for Mitigating the Risk of Software Vulnerabilities
+    * **URL:** https://csrc.nist.gov/pubs/sp/800/218/final
+    * **Publisher:** NIST
+    * **License:** ?
+    * **Type:** informal
+    * **Publication date:** 2022
+  </details>
 
 ### 1.1 Risk analysis 
 
@@ -248,18 +253,6 @@ TODO: CONVERT BELOW TABLE
   </details>
 
 ### 1.2 Secure design and secure coding principles
-
-* [NIST SP 800-218: Secure Software Development Framework (SSDF) Version 1.1: Recommendations for Mitigating the Risk of Software Vulnerabilities](https://csrc.nist.gov/pubs/sp/800/218/final) - NIST’s Secure Software Development Framework is a set of recommended practices for integrating security into the software development life cycle. Version 1.1 of the SSDF (published in 2022) organizes these practices into four groups: Prepare the Organization (ensure the development team has the resources, training, and governance to produce secure code), Protect the Software (establish secure environments and tools, and protect code integrity – e.g., via version control protections and dependency management), Produce Well-Secured Software (implement security design, code, and testing practices – like threat modeling, static analysis, and code review – and address findings), and Respond to Vulnerabilities (define processes to handle internally and externally reported bugs in released software, including patching and communication). Each practice is described at a high level with mappings to more specific standards (like OWASP, ISO, etc.). The SSDF is meant to be adaptable: organizations of any size can implement its core tenets and can integrate them into existing development workflows (waterfall, Agile, DevOps, etc.). By following the SSDF, software producers minimize the introduction of vulnerabilities and establish a workflow to catch and fix security issues early, which ultimately leads to more secure products for end users.
-  <details>
-    <summary>More info</summary>
-
-    * **Title:** NIST SP 800-218: Secure Software Development Framework (SSDF) Version 1.1: Recommendations for Mitigating the Risk of Software Vulnerabilities
-    * **URL:** https://csrc.nist.gov/pubs/sp/800/218/final
-    * **Publisher:** NIST
-    * **License:** ?
-    * **Type:** informal
-    * **Publication date:** 2022
-  </details>
 
 * [OpenStack Secure development guidelines](https://security.openstack.org/#secure-development-guidelines) - The OpenStack Security Team has created a set of secure development guidelines and best practices to help developers avoid common mistakes that could introduce vulnerabilities in the OpenStack platform. These guidelines cover various areas of secure coding (e.g. proper file permissions, input validation, avoiding insecure libraries, using encryption correctly) and serve as a baseline for developers to follow so that OpenStack components are built with security in mind. By adhering to these recommendations, contributors to OpenStack can systematically reduce security weaknesses and improve the overall resilience of the cloud software.
   <details>
@@ -310,6 +303,18 @@ TODO: CONVERT BELOW TABLE
     * **License:** ?
     * **Type:** informal
     * **Publication date:** Ongoing
+  </details>
+
+* [OWASP DevSecOps Maturity Model (DSOMM)](https://dsomm.owasp.org) - The OWASP DevSecOps Maturity Model (DSOMM) is a framework that guides organizations in assessing and enhancing the integration of security within their DevOps processes. It defines multiple domains of software development and operations (such as source code, build pipelines, and deployment environments) and outlines progressive maturity levels for each domain, providing clear benchmarks for improvement. By using DSOMM, teams can identify gaps in their current DevSecOps practices and prioritize security measures—ranging from basic safeguards in continuous integration to advanced, automated security testing—appropriate to their maturity level. This model serves as a reference for building more secure development pipelines, aligning with broader software security best practices and supporting compliance efforts by ensuring that security controls are systematically embedded in the software lifecycle.
+  <details>
+    <summary>More info</summary>
+
+    * **Title:** OWASP DevSecOps Maturity Model (DSOMM)
+    * **URL:** https://dsomm.owasp.org
+    * **Publisher:** OWASP
+    * **License:** GPL-3
+    * **Type:** Maturity Model
+    * **Publication date:** 2017 – present
   </details>
 
 * [OWASP Software Assurance Maturity Model (SAMM)](https://owaspsamm.org/) - OWASP SAMM is an open framework that organizations use to evaluate and improve their software security practices. It defines 15 security practices grouped into 5 business functions (such as Governance, Design, Implementation, Verification, and Operations), each with maturity levels and activities. By assessing their maturity against SAMM’s criteria, organizations can identify gaps in how they design, develop, and deploy software, and then follow SAMM’s guidance to incrementally implement more advanced security practices. The model is technology-agnostic and is updated by the OWASP community to reflect current best practices, making it a versatile roadmap for building a robust software security assurance program.
