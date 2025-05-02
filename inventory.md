@@ -770,6 +770,18 @@ Impact on steward: `attestations`
     * **Publication date:** from 2021 under the current name
   </details>
   
+* [Secure Software Development Attestation Form](https://www.cisa.gov/resources-tools/resources/secure-software-development-attestation-form) - In March 2024, the Cybersecurity and Infrastructure Security Agency (CISA) and the U.S. Office of Management and Budget (OMB) jointly released the Secure Software Development Attestation Form. This document serves as a compliance mechanism under federal cybersecurity initiatives, requiring software producers to affirm adherence to National Institute of Standards and Technology (NIST) secure software development guidelines in accordance with Executive Order 14028 and OMB memoranda M-22-18 and M-23-16. The form’s purpose is to provide assurance that any software used by federal agencies is securely developed, effectively enforcing minimum secure development standards and toolsets among vendors. By tying this attestation to U.S. federal procurement, the government compels software suppliers to demonstrate compliance with specified development practices, and failure to provide a signed attestation may result in agencies discontinuing use of the software. Overall, the resource establishes a uniform attestation process that supports regulatory compliance and strengthens the security of the software supply chain in government acquisitions.
+  <details>
+    <summary>More info</summary>
+
+    * **Title:** Secure Software Development Attestation Form
+    * **URL:** https://www.cisa.gov/resources-tools/resources/secure-software-development-attestation-form
+    * **Publisher:** CISA
+    * **License:** Public Domain
+    * **Type:** Form
+    * **Publication date:** 2024
+  </details>
+  
 * [FreeBSD SSDF Attestation](https://freebsdfoundation.org/news-and-events/latest-news/freebsd-foundation-announces-ssdf-attestation/) - In November 2023, the FreeBSD Foundation announced the availability of a Secure Software Development Framework (SSDF) Attestation, a formal report that documents how the FreeBSD open-source operating system’s development practices align with NIST’s SSDF guidelines. This attestation was developed to assist commercial users of FreeBSD in meeting emerging security requirements—specifically, U.S. government software procurement rules that require suppliers to self-attest to following secure development practices (as mandated by NIST SP 800-218 and related OMB directives). The announcement highlights FreeBSD’s longstanding emphasis on security by design and explains that the attestation service allows vendors and cloud providers relying on FreeBSD to easily demonstrate that the upstream software meets recognized secure development criteria. By providing this attestation, the FreeBSD Foundation bridges open-source development with regulatory compliance needs, reflecting broader trends (in the U.S. and potentially in the EU through initiatives like the Cyber Resilience Act) to demand greater assurance of software supply chain security.
   <details>
     <summary>More info</summary>
