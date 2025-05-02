@@ -301,6 +301,7 @@ TODO: CONVERT BELOW TABLE
 
 ## 2. Generic Security Requirements
 
+TODO: DOCUMENT HOW THIS CATEGORY IS BROKEN DOWN AND WHY
 
 | Name & URL | Publisher | License | Type | Date | Notes |
 | ---- | ---- | ---- | ---- | ---- | ---- |
@@ -634,6 +635,8 @@ TODO: CONVERT BELOW TABLE
   </details>
   
 ## Acknowledgments
+
+TODO: ADD MISSING CONTRIBUTORS
 
 The following people have contributed to this document either directly or indirectly (e.g. by raising questions):
 Maxim Baele,
