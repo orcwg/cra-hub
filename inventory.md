@@ -310,6 +310,42 @@ TODO: CONVERT BELOW TABLE
 
 ### 2.1 Security requirements and controls
 
+* [Hardware Secure Boot](https://www.opencompute.org/documents/secure-boot-2-pdf) - This guide from the Open Compute Project (OCP) provides design requirements and recommendations for implementing secure boot in hardware systems (like servers or network devices). Secure boot is a mechanism where the system’s boot firmware (BIOS/UEFI or similar) will only execute code that is cryptographically signed by a trusted authority. The OCP guide likely details how to establish a root of trust in hardware (such as using a TPM or dedicated secure element to store cryptographic keys), how to sign bootloaders and OS kernels, and how the verification process should work at each stage of the boot chain. It may also discuss managing keys (for example, allowing owners to enroll their own keys or update keys securely) and handling firmware updates in a secure manner (ensuring updates are signed and verified). By adhering to this guide, manufacturers can ensure their devices are protected against low-level malware: even if an attacker has physical access or can alter the boot device, the system will refuse to run untrusted boot code, thus preventing persistent malware like rootkits from taking hold. In summary, the OCP Secure Boot Guide is a blueprint for building devices that only run authentic, untampered software from power-on through full system startup.
+  <details>
+    <summary>More info</summary>
+
+    * **Title:** Hardware Secure Boot
+    * **URL:** https://www.opencompute.org/documents/secure-boot-2-pdf
+    * **Publisher:** OpenCompute
+    * **License:** 
+    * **Type:** informal
+    * **Publication date:** 
+  </details>
+
+* [NIST SP 800-53 Rev. 5: Security and Privacy Controls for Information Systems and Organizations](https://csrc.nist.gov/pubs/sp/800/53/r5/upd1/final) - NIST SP 800-53 is a comprehensive catalog of controls (safeguards and countermeasures) that organizations can apply to protect information systems and personal data. Revision 5, released in 2020, expanded the catalog to integrate privacy fully alongside security and made the language more outcome-based (less federal-centric), so it’s usable by a wider audience (government, industry, international). The catalog is organized into families like Access Control, Incident Response, Cryptography, Personnel Security, etc., each containing specific controls. For example, in Access Control, one control is implementing role-based access with the principle of least privilege. Rev. 5 introduced new control families for areas like Supply Chain Risk Management, refined controls for advanced technologies (IoT, mobile), and removed the concept of “low/medium/high baselines” from the document itself (that moved to separate guidance) to focus on the controls. An organization using SP 800-53 will select a subset of these controls based on its risk assessment (often guided by frameworks like SP 800-37 RMF) and then implement and document them. SP 800-53 is widely used not only by U.S. federal agencies (it’s the backbone of FedRAMP, DoD, etc. requirements) but also by others as a rich reference of security best practices to draw from when securing systems.
+  <details>
+    <summary>More info</summary>
+
+    * **Title:** NIST SP 800-53 Rev. 5: Security and Privacy Controls for Information Systems and Organizations
+    * **URL:** https://csrc.nist.gov/pubs/sp/800/53/r5/upd1/final
+    * **Publisher:** NIST
+    * **License:** ?
+    * **Type:** informal
+    * **Publication date:** 2020
+  </details>
+
+* [OWASP Application Security Verification Standard](https://owasp.org/www-project-application-security-verification-standard/) - The OWASP ASVS is a framework that provides a checklist of application security requirements and controls in a structured manner, serving as a basis for testing web application security. It defines three levels of verification depth: Level 1 (basic, for all applications) through Level 3 (advanced, for the most critical applications). Each level comprises requirements across categories such as Authentication, Access Control, Data Protection, Error Handling, and others. For example, at Level 1, there might be a requirement that the application has no default passwords and uses HTTPS; at higher levels, requirements become more stringent, like implementing strong multi-factor authentication, or using cryptographic modules with specific certifications. Developers and architects can use ASVS during development to ensure they build in these controls, and security testers can use it as a guide for what to verify (it’s often used to structure penetration testing or security code review efforts). By using ASVS, organizations get a common language for what it means for an application to be “secure” at a given level, and they can assert compliance to that level. Ultimately, ASVS helps raise the security baseline by providing clear, measurable security criteria for applications.
+  <details>
+    <summary>More info</summary>
+
+    * **Title:** OWASP Application Security Verification Standard
+    * **URL:** https://owasp.org/www-project-application-security-verification-standard/
+    * **Publisher:** OWASP
+    * **License:** CC BY-SA 3.0
+    * **Type:** 
+    * **Publication date:** 
+  </details>
+
 ### 2.2 Security Hardening Guidelines
 
 ### 2.3 Cryptography
