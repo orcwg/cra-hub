@@ -216,6 +216,21 @@ No. As defined in [Article 3(14)][], an _open-source software steward_ must be a
 
 ### Open-Source Software Stewards
 
+
+<details>
+    <summary><strong><a name="faq-tmp-170" href="#faq-tmp-170">tmp-170.</a> Do all open source projects have an <em>open source software steward</em>?</strong></summary>
+
+No. Most open source projects will not have a steward. 
+
+A steward must be a "legal person" (Art. 3), such as a company, and most open source projects are not supported by a company. 
+
+The stewarding organization must also have "the purpose or objective of systematically providing support on a sustained basis" (Art. 3) and their software must be "ultimately intended for commercial activities" (recital 19). Organizations who do not meet those tests will also not be considered stewards.
+
+> Status: ⚠️ [Draft][]
+| GitHub issue(s): [#170](https://github.com/orcwg/cra-hub/issues/170)
+</details>
+
+
 <details>
     <a name="q-what-is-an-open-source-software-steward"></a>
     <summary><strong><a name="faq-tmp-127" href="#faq-tmp-127">tmp-127.</a> What is an <em>open-source software stewards</em>?</strong></summary>
@@ -262,6 +277,14 @@ _Open-source software steward_ are subject to a "light-touch and tailor-made reg
 | GitHub issue(s): [#158](https://github.com/orcwg/cra-hub/issues/158)
 </details>
 
+<details>
+	<a name="q-does-a-steward-bear-translation-costs-into-many-languages"></a>
+	<summary><strong><a name="faq-tmp-152" href="#faq-tmp-152">tmp-152.</a> Does a steward bear the cost of translating and maintain its policy documents in many of the EU languages?</strong></summary>
+
+> Status: 🛑 [Pending Guidance][]
+| GitHub issue(s): [#152](https://github.com/orcwg/cra-hub/issues/152)
+</details>
+
 
 ### Manufacturers
 
@@ -293,9 +316,18 @@ Yes, a _manufacturer_ can also be an _open-source software steward_, but it cann
 
 <details>
     <a name="q-what-is-a-harmonized-standard-and-why-does-it-matter"></a>
-    <summary><strong><a name="faq-tmp-56" href="#faq-tmp-56">tmp-56.</a> What is a <em>harmonised standard</em> and why does it matter?</strong></summary>	
+    <summary><strong><a name="faq-tmp-56" href="#faq-tmp-56">tmp-56.</a> What is a <em>harmonised standard</em> and why does it matter?</strong></summary>
 
-A _harmonised standard_ is a standard developed by the [European Standardisation Organisations (ESOs)][ESO]. It takes the legal requirements of the law and translates them into technical requirements for those implementing it. Certain _harmonised standards_ provide organisations which implement them with a _presumption of conformity_ with the law. This is why it is expected that most organisations will choose to implement the _harmonised standards_ to comply with the CRA. The ORC WG maintains a [list of _harmonised standards_][standards] requested by the European Commission to the ESOs.
+A _harmonised standard_ is a standard adopted by one of the [European Standardisation Organisations (ESOs)][ESO].
+Certain (but not all) _harmonised standards_ are referenced in the [_Official Journal of the European Union_][OJEU] by the European Commission.
+Harmonised standards referenced in this way provide products that conform with them a _presumption of conformity_ with the requirements covered by those standards.
+Harmonised standards may be referenced with restrictions, in which case they only provide partial _presumption of conformity_.
+The _presumption of conformity_ provided by harmonised standards referenced in the _Official Journal of the European Union_ is why it is expected that most organisations will choose to implement such standards when they exist, to comply with the CRA.
+
+However, not all harmonised standards are referenced.
+Those that are not referenced are often foundational standards upon which other standards build. In general, only the vertical (product-specific) standards are referenced, though sometimes horizontal standards that cover generic requirements may be referenced with restrictions.
+
+The ORC WG maintains a [list of _harmonised standards_][standards] requested by the European Commission to the ESOs.
   
 > Status: ⚠️ [Draft][]
 | GitHub issue(s): [#56](https://github.com/orcwg/cra-hub/issues/56)
@@ -347,6 +379,57 @@ Security attestations in the CRA are an optional extension that do not exist yet
 > Status: ⚠️ [Draft][]
 | GitHub issue(s): [#72](https://github.com/orcwg/cra-hub/issues/72)
 </details>
+
+## Acknowledgments
+
+The following people have contributed to this document either directly or indirectly (e.g. by raising questions):
+Adrian O'Sullivan,
+Aeva Black,
+Alberto Pianon,
+Alex Lennon,
+Alistair Woodman,
+Chris Jenkins,
+Christopher "CRob" Robinson,
+Daniel Appelquist,
+Daniel Stenberg,
+Dick Brooks,
+Dirk-Willem van Gulik,
+Felix Reda,
+Florian Idelberger,
+Gesine Freund,
+Hermann Seuschek,
+Ilonka Sievers,
+Jakub Zelenka,
+Jan Westerkamp,
+John Ellis,
+Jordan Maris,
+Juan Rico,
+Lars Francke,
+Luis Villa,
+Maarten Aertsen,
+Marta Rybczynska,
+Mattias Dahlberg,
+Maxim Baele,
+Mikaël Barbero,
+Mike Bursell,
+Nils Adermann,
+Olle E. Johansson,
+Pete Allor,
+Piotr P. Karwasz,
+Poul-Henning Kamp,
+Ria Schalnat,
+Roman Zhukov,
+Ruth Suehle,
+Salve J. Nilsen,
+Seth Michael Larson,
+Simon Phipps,
+Stefane Fermigier,
+Timo Perala,
+Timothée Mazzucotelli,
+Tobie Langel,
+and Victor Roland.
+
+If you have contributed to this document and aren't properly acknowledged or if you want to edit or remove your name, please let us know by [opening an issue](https://github.com/orcwg/cra-hub/issues/new) and we will fix this right away.
 
 ## Annexes
 
@@ -430,5 +513,6 @@ ANSWER
 [Blue Guide]: https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:52022XC0629(04)
 [ESO]: https://single-market-economy.ec.europa.eu/single-market/european-standards_en
 [standards]: https://github.com/orcwg/cra-hub/blob/main/standards.md
+[OJEU]: https://eur-lex.europa.eu/oj/direct-access.html 
 
 [^EC@FOSDEM24]: https://fosdem.org/2024/schedule/event/fosdem-2024-3683-the-regulators-are-coming-one-year-on/, at 18 min 10 seconds into the recording

@@ -1,5 +1,13 @@
 # ORC WG Input to the Draft EU Commission Implementing Regulation on the technical description of important and critical product categories
 
+## Opening statement
+
+The Open Regulatory Compliance (ORC) Working Group of the Eclipse Foundation thanks the European Commission for the opportunity to provide input to this draft implementing regulation.
+
+We take the opportunity to thank the Commission for the clarifications provided by the recitals which shine a light on areas that were a source of concern and confusion for the open source community.
+
+Additionally, we believe that the structure chosen for the descriptions in the annexes (which combines a short description with the opportunity to specifically include or exclude certain products from a category) brings substantial clarity while keeping the descriptions succint. We commend the Commission for choosing it.
+
 ## Recitals
 
 <table>
@@ -27,26 +35,41 @@
         <tr>
       <td><a name="rct_2" href="#rct_2">(2)</a></td>
       <td>Pursuant to Article 7(1) and Article 8(1) of Regulation (EU) 2024/2847, the core functionality of a product with digital elements determines whether that product with digital elements fits into the technical description of a category of important or critical products with digital elements and therefore the applicable conformity assessment procedures. A product’s core functionality refers to its fundamental features and capabilities that fulfil the primary purpose for which the product with digital elements has been made available on the market and without which the product would not be able to meet its intended purpose or reasonably foreseeable use.</td>
-      <td><!-- Comments --></td>
-      <td><!-- Proposed change --></td>
+      <td><!-- Comments -->We recognize that "reasonably foreseeable use" of a product with digital elements is a relevant consideration in assessing the scope of CRA obligations with respect to a given product. However, we do not see it helpful for legal certainty to introduce the same concept into the assessment of whether a product should be considered important or critical. Given the implications of such a classification, such an assessment should only be based on the intended use of the product. Ensuring objective clarity in this implementing act aligns with the EU's "simplification" process to help business optimse their resilience whilst being able to focus finite resources on growing their business in Europe.</td>
+      <td><!-- Proposed change -->Pursuant to Article 7(1) and Article 8(1) of Regulation (EU) 2024/2847, the core functionality of a product with digital elements determines whether that product with digital elements fits into the technical description of a category of important or critical products with digital elements and therefore the applicable conformity assessment procedures. A product’s core functionality refers to its fundamental features and capabilities that fulfil the primary purpose for which the product with digital elements has been made available on the market and without which the product would not be able to meet its intended purpose<del> or reasonably foreseeable use</del>.</td>
     </tr>
     <tr>
       <td><a name="rct_3" href="#rct_3">(3)</a></td>
       <td>When developing a product with digital elements, and in order to achieve their desired set of functionalities, manufacturers typically integrate into their own products with digital elements other products with digital elements that can meet the technical description of a category of important or critical products. Pursuant to Regulation (EU) 2024/2847, the integration of a product with digital elements which has the core functionality of a product category set out in Annex III and Annex IV to Regulation (EU) 2024/2847 does not in itself render the product in which it is integrated subject to the conformity assessment procedures applicable to those product categories.</td>
-      <td><!-- Comments --></td>
-      <td><!-- Proposed change --></td>
+ <td><!-- Comments -->The last sentence in the recital mainly replicates the last sentence of Article 7(1) of the CRA, retaining the same ambiguity. In order to provide legal certainty, the implementing act should provide further guidance on what is meant by the "in itself" wording used in Article 7(1). Restructure this sentence to convey the true intent more clearly, which we understand it to be: if product A is included as a part of product B, and the core functionality of product B is defined in Annex III and Annex IV, that does not automatically make product A subject to the conformity assessment requirements applicable to product B.</td>
+      <td><!-- Proposed change -->When developing a product with digital elements, and in order to achieve their desired set of functionalities, manufacturers typically integrate into their own products with digital elements other products with digital elements that can meet the technical description of a category of important or critical products. Pursuant to Regulation (EU) 2024/2847, the integration of a product with digital elements which has the core functionality of a product category set out in Annex III and Annex IV to Regulation (EU) 2024/2847 does not <del>in itself </del>render the product in which it is integrated subject to the conformity assessment procedures applicable to those product categories<ins>, unless such integration results in the manufacture of a new product with digital elements that meets the technical description of a category of important or critical products</ins>.</td>
     </tr>
     <tr>
       <td><a name="rct_4" href="#rct_4">(4)</a></td>
       <td>The fact that a product with digital elements performs functions other than or additional to those detailed in the technical descriptions set out in the Annexes does not in itself mean that the product with digital elements does not have the core functionality of a product category set out in the Annexes. For example, products with digital elements that have the core functionality of “operating systems” often include software that performs ancillary functions not included in the technical description of that product category, such as calculators or simple graphics editors. This, however, does not in itself mean that such products with digital elements do not meet the technical description of “operating systems”. On the other hand, a security orchestration, automation and response (SOAR) software often has the ability to perform the functions of products with digital elements in the category of “security information and event management (SIEM) systems”, i.e. gather data, analyse it and present it as actionable information for security purposes. However, as its core functionality is to integrate separate security tools, automate low-level tasks and orchestrate security incident responses, SOAR software are generally not to be considered to meet the technical description of “security information and event management (SIEM) systems”.</td>
-      <td><!-- Comments --></td>
-      <td><!-- Proposed change --></td>
+      <td>We suggest to generalise the "SOAR" example. Unlike the “operating system” example, which is preceded by a general principle, nothing in the SOAR example makes it clear that this reasoning applies as a general principle.</td>
+      <td>Insert, as second sentence, something like: "On the other hand, where a PDE has the ability to perform the functions of products with digital elements in a certain category but has a different core functionality, that PDE is generally not to be considered to meet the technical description that category." Then, reword the sentence SOAR as merely an example of that principle.</td>
     </tr>
     <tr>
       <td><a name="rct_5" href="#rct_5">(5)</a></td>
       <td>Pursuant to Article 13(2) and (3) of Regulation (EU) 2024/2847, manufacturers of products with digital elements are to implement the essential cybersecurity requirements set out in Part I of Annex I to Regulation (EU) 2024/2847 in a way that is proportionate to the risks of the product with digital elements, based on the intended purpose and reasonably foreseeable use as well as the conditions of use of the product with digital elements, taking into account the length of time the product is expected to be in use. In accordance with Article 13(2) and (3) of that Regulation, and irrespective of whether the product with digital elements is considered to be an important or critical product with digital elements, manufacturers are to carry out a comprehensive cybersecurity risk assessment and indicate how the essential cybersecurity requirements are implemented as informed by the risk assessment, including their testing and assurance. Where the core functionality of their product with digital elements fits the technical description of an important or critical product with digital elements, manufacturers are to demonstrate conformity following the specific conformity assessment procedures established by Article 32(2), (3) and (4) of Regulation (EU) 2024/2847.</td>
-      <td><!-- Comments --></td>
-      <td><!-- Proposed change --></td>
+      <td>
+        <p>Comment type: editorial</p>
+        <p>Recital (5) addresses four core points:</p>
+        <ol>
+          <li>The essential requirements need to be implemented using a risk-based approach</li>
+          <li>A comprehensive cybersecurity risk assessment needs to be undertaken and documented</li>
+          <li>Both of the above are true irrespective of whether a product fits the technical description of an important or critical product</li>
+          <li>Products whose core functionality fit the technical description of an important or critical product need a specific conformity assesment.</li>
+        </ol>
+        <p>These are important and welcomed clarifications. In fact we believe they are so important that they should be broken down into separate recitals.</p>
+        <p>Additionally, Recital (5) omits to reference the special regime for free and open source products mentioned in article 32(5) while referencing the other relevant points of that article. Including point (5) when mentioning points (2), (3), and (4) of article 32 will avoid creating uncertainty for stakeholders who might not well understand the interplay between the different parts of the regulation.</p>
+      </td>
+      <td>
+        <p>(5) Pursuant to Article 13(2) and (3) of Regulation (EU) 2024/2847, manufacturers of products with digital elements are to implement the essential cybersecurity requirements set out in Part I of Annex I to Regulation (EU) 2024/2847 in a way that is proportionate to the risks of the product with digital elements, based on the intended purpose and reasonably foreseeable use as well as the conditions of use of the product with digital elements, taking into account the length of time the product is expected to be in use, and irrespective of whether the product with digital elements is considered to be an important or critical product with digital elements.</p>
+        <p>(6) In accordance with Article 13(2) and (3) of  Regulation (EU) 2024/2847, and irrespective of whether the product with digital elements is considered to be an important or critical product with digital elements, manufacturers are to carry out a comprehensive cybersecurity risk assessment and indicate how the essential cybersecurity requirements are implemented as informed by the risk assessment, including their testing and assurance.</p>
+        <p>(7) Where the core functionality of their product with digital elements fits the technical description of an important or critical product with digital elements, manufacturers are to demonstrate conformity following the specific conformity assessment procedures established by Article 32(2), (3), (4) and (5) of Regulation (EU) 2024/2847.</p>
+      </td>
     </tr>
     <tr>
       <td><a name="rct_6" href="#rct_6">(6)</a></td>
@@ -102,6 +125,23 @@
   </tbody>
 </table>
 
+## Other
+
+<table>
+  <thead>
+    <tr>
+      <th>Comments</th>
+      <th>Proposed change</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Suggest renaming the column 2 of the annex tables to "Technical description of core functionality" to tie this to paragraph 2 of the recital, making it clear that products that contain some of these features as ancillary functionality are not in scope.</td>
+      <td>Rename Column 2 of the annex tables to "Technical description<ins> of core functionality</ins>"</td>
+    </tr>
+  </tbody>
+</table>
+
 ## Annex I
 
 ### Class I Important Products
@@ -137,8 +177,8 @@
           This category includes but is not limited to products with digital elements that have the core functionality of either or both identity management and privileged access management; authentication and access control readers; biometric readers; single sign-on software; federated identity management software and multi-factor authentication software.
         </p>
       </td>
-      <td><!-- Comments --></td>
-      <td><!-- Proposed change --></td>
+      <td><!-- Comments -->Identity management systems is a very broad term and as defined here would arbitrarily include a broader set of products than may be intended due to the nature by which technology must secure communications. Many product solutions have mechanisms for identity provisioning/deprovisioning, authentication, authorisation, however are not an IDM product. For example, Kerberos, a network authentication protocol, uses identity as the unique principal (captured in the ticket or digital certificate) that permits hosts to prove their identity to one another in order to establish secure communication mutually and is used to support single sign on (SSO), yet it isn't an identity management systems. We suggest to edit the definition to make sure other solutions with merely establishing secure communiction functionality (but which arent't identity management products themselves) are out of scope.</td>
+      <td><!-- Proposed change -->Identity management systems are products with digital elements <ins>designed to provide core functionality that is explicitly used for identity lifecycle management, for the purposes of identifying, authorizing, and revoking access to resources defined by an organization and are often referred to as Identity Provider solutions. This excludes identity management functionality used solely for secure communication establishment.</ins><del>that provide mechanisms for identity lifecycle management, such as identity provisioning, maintenance, authentication, authorisation and deprovisioning, and including associated metadata.</del> [...]</td>
     </tr>
     <tr>
       <td>
@@ -157,8 +197,14 @@
           Embedded browsers are browsers that are intended for integration into another system or application.
         </p>
       </td>
-      <td><!-- Comments --></td>
-      <td><!-- Proposed change --></td>
+      <td>
+        <p>Command-line tools (such as Curl) and other web clients used for software development and testing also "enable end users to access and interact with web content hosted on servers that are connected to networks such as the Internet" through the <a href="https://en.wikipedia.org/wiki/Command-line_interface">command-line interface</a> or through other means. Yet they are not browsers per se. In particular they do not <em>render</em> the web content, but merely fetch it. They are used by technically savvy users to perform specific tasks (like looking at HTTP headers for example) and their interaction capabilities are limited. We suggest amending the description to account for this.</p>
+        <p>Additionally, browsers are often used in automation scenarios, for example run tests, fetch, generate, or index Web content, etc., without an end user being involved at all. Browsers used in such scenarions, often called "headless browsers", should be specifically excluded from this category as weel.</p>
+      </td>
+      <td>
+        <p>In the context of this category of products, browsers are software products with digital elements that fetch and render web content hosted on servers that are connected to networks such as the Internet, and enable end users to access and interact with it through a graphical user interface (GUI) or assistive technology.</p>
+        <p>This category does not include command-line tools and web clients intended to be used primarily for software development and testing, nor does it include "headless browsers" intended to be used primarily for automation purposes (such as running tests or indexing Web content).</p>
+      </td>
     </tr>
     <tr>
       <td>
@@ -172,8 +218,8 @@
           This category includes but is not limited to local password managers, browser-based password managers, enterprise password managers as well as hardware-based password managers.
         </p>
       </td>
-      <td><!-- Comments --></td>
-      <td><!-- Proposed change --></td>
+     <td><!-- Comments -->Suggest to add clarification that password managers that are component of a product with with digital elements (for example, a device or an operating system) do not affect that categorisation of that product.</td>
+      <td><!-- Proposed change -->[...] This category includes but is not limited to local password managers, browser-based password managers, enterprise password managers as well as hardware-based password managers.<ins> As indicated in Recital (3), merely including password management capability in a product with digital elements (for example in a mobile device or an operating system) does not by itself affect the categorisation of that product.</ins> </td>
     </tr>
     <tr>
       <td>
@@ -190,8 +236,8 @@
           This category includes but is not limited to software that searches for malicious software in real-time or manually, rootkit detection and rescue disks with the core functionality of searching, removing or quarantining malicious software, as well as software matching the above definition that is used as a component in other products, such as firewalls.
         </p>
       </td>
-      <td><!-- Comments --></td>
-      <td><!-- Proposed change --></td>
+      <td><!-- Comments -->Suggest removing "compromise" word to better refine the scope of the definition and adding clarification for components of the bigger systems. This definition is very broad and may unintentionally include capabilities of products that it is not intended for. By including "or compromise" in "mitigate system infection or compromise" it advertently includes various functions meant to do just that. The Linux Security Modules (LSMs) like SELinux are designed to prevent compromise and mitigate the risk and impact were a compromise to occur.  As written it creates additional effort for software providing "intelligent security" or secure by design as part of its value to adopters and consumers so they are less reliant on additional tooling and technology that may not perform as optimally as these capabilties inherent in the software to be "self-protecting" when configured and enforced.</td>
+      <td><!-- Proposed change -->Software products with digital elements, typically referred to as antivirus or antimalware, that search for malicious software or code, or remove or quarantine such software or code to prevent or mitigate system infection <del>or compromise</del> [...]</td>
     </tr>
     <tr>
       <td>
@@ -220,8 +266,13 @@
           This category includes but is not limited to network management systems that can be deployed on premise or on cloud.
         </p>
       </td>
-      <td><!-- Comments --></td>
-      <td><!-- Proposed change --></td>
+      <td><!-- Comments -->
+        <p>It appears that the description goes beyond <em>centralized administrative control over configuration</em> for large-scale networks (frequency scheduling in mobile networks, optical configuration for cable systems or other network control plane management software) to include a broad range of software that does networking, including scanners and implementations of common, low-level query-response protocols.</p>
+        <p> For example, a software implementation of the ARP protocol to map IP addresses to MAC addresses on common LAN networks, because it collects such mappings, thereby collecting information about and by doing so configuring network elements. Is that the intent? Related, perhaps more realistic examples when it comes to standalone products, would include implementations for DHCP, or DNS (respectively to e.g. assign IP addresses and names on a local LAN).</p>
+        <p>Are these all intended to be scoped as a "network management system", an "important product" in the context of the CRA? If not, perhaps condsider the proposed change to emphasize the <em>management</em> aspect of the category.</p>
+      </td>
+      <td><!-- Proposed change -->Products with digital elements that <del>collect information about and allow</del><ins>facilitate centralised administrative control by an operator over</ins> the configuration of network elements, such as servers, routers, switches, workstations, printers or mobile devices.
+</td>
     </tr>
     <tr>
       <td>
@@ -230,8 +281,9 @@
       <td>
         Products with digital elements that provide the ability to gather data, at least from network components, analyse that data and present it as actionable information for security purposes.
       </td>
-      <td><!-- Comments --></td>
-      <td><!-- Proposed change --></td>
+    <td><!-- Comments -->The definition of a SIEM provided here is overly broad and would bring a number of products in scope that provide an aggregation function of logs among many other capabilities. A service that collects logs, events, and traces and forwards them to a data lake (for example to apply machine learning or provide various business metrics) would also be in scope by this definition. Suggest to clarify that collecting information only (without analyzing for security purposes) such as logging does not qualify a products with digital elements for this category.
+</td>
+      <td><!-- Proposed change -->Products with digital elements that <ins>analyze and manage logs to identify security threats and events in aggregate, establishing patterns and indicators of suspicious activity for the purpose of threat detection, incident response, and compliance reporting</ins><del>provide the ability to gather data, at least from network components, analyse that data and present it as actionable information for security purposes.</del></td>
     </tr>
     <tr>
       <td>
@@ -245,8 +297,9 @@
           This category includes but is not limited to single-stage and multi-stage boot loaders as well as boot managers allowing users to select boot options.
         </p>
       </td>
-      <td><!-- Comments --></td>
-      <td><!-- Proposed change --></td>
+      <td><!-- Comments -->Clarify if the intent of this is to explicitly call out standalone boot managers separate from the operating system or not, as operating systems include boot managers. There are several boot managers that are standalone and would be considered a distinct product or software from the operating system (allowing you to select between multiple operating systems).
+</td>
+      <td><!-- Proposed change -->Software products with digital elements that allow users to select boot options or load the operating system kernel or some of its elements and other system resources into the main memory of a device after it has been powered-up or restarted. This category includes but is not limited to single-stage and multi-stage boot loaders as well as boot managers allowing users to select boot options.<ins> This category does not include boot managers that are part of an operating system.</ins>
     </tr>
     <tr>
       <td>
@@ -260,8 +313,10 @@
           This category includes but is not limited to key management systems, digital certificate management systems and online certificate status protocol responders.
         </p>
       </td>
-      <td><!-- Comments --></td>
-      <td><!-- Proposed change --></td>
+      <td>The inclusion of the terms "distribution", "validation", and "storage" appears to broaden the scope beyond the issuance/signing side of a PKI (as signified by "Public key infrastructure and digital certificate issuance software"). It even appears to encompass "relying parties" (the software that consumes PKI contents). This broad reading of the scope is possible because of the inclusion of these terms, but also because the first sentence does not distinguish between PDEs that manage private versus public cryptographic key material.</td>
+      <td>The words "distribution", "validation" and "storage" should probably be removed.
+          For additional clarity, the second sentence could be amended by adding something like: ", but excludes relying parties."
+          Finally, the first sentence could be amended to read "asymetric cryptographic private keys".</td>
     </tr>
     <tr>
       <td>
@@ -290,8 +345,14 @@
           This category includes but is not limited to real-time operating systems, operating systems for servers, mainframes and mobile devices, network operating systems and general-purpose operating systems.
         </p>
       </td>
-      <td><!-- Comments --></td>
-      <td><!-- Proposed change --></td>
+      <td><!-- Comments -->
+        <p>We suggest rephrasing the definition to avoid the accidental inclusion of products with digital elements which are not operating systems but which would nonetheless fit the current discription. For example, build tools, hypervisors and sometimes compilers control the execution of programs (in the sense of starting them up) but don't provide the other services necessary to be considered an operating system. Operating systems provide an abstract interface of the underlying hardware to applications, but this fundamental concept is not indicated in the current definition.</p>
+        <p>We also propose to include operating systems for workstations and laptops as important additional examples.</p>
+      </td>
+      <td>
+        <p>Software products with digital elements that <del>control the execution of programs and that may provide services such as resource allocation, scheduling, input-output control, and data management</del><ins>provide an abstract interface of the underlying hardware, allocate CPU time and/or memory to applications (computer programs), enable control of applications by providing interfaces (such as lower-level interfaces to peripherals, networks, storage, human inputs, and/or display) and common basic services (such as the ability to copy, rename, and delete files) to applications to further run them on the system</ins>.</p>
+        <p>This category includes but is not limited to real-time operating systems, operating systems for servers, mainframes and mobile devices, <ins>workstation and laptop operating systems</ins>, network operating systems and general-purpose operating systems.<ins> This category does not include compliers, build tools and hypervisors.</ins></p>
+      </td>
     </tr>
     <tr>
       <td>
@@ -472,8 +533,18 @@
           This category includes but is not limited to low-level container runtimes and high-level container runtimes.
         </p>
       </td>
-      <td><!-- Comments --></td>
-      <td><!-- Proposed change --></td>
+      <td><!-- Comments -->We suggest clarifying this definition by refering to container images rather than containers throughout the text and clearly exluding from this category container images, along with configuration files and container tools whose function isn't to manage container image lifecyle.</td>
+      <td><!-- Proposed change -->
+        <p>
+          Container runtime systems are software products with digital elements that manage the lifecycle of <del>containers</del><ins>container images</ins> running on a host operating system, allocating resources and providing isolation between each container <ins>image </ins> and the rest of the system, through operating system level or application-level virtualisation.
+        </p>
+        <p>
+          In the context of this category of products, a container <ins>image </ins>is a software product that encapsulates one or more software components and its dependencies in a single package, enabling it to run independently and consistently.
+        </p>
+        <p>
+          This category includes but is not limited to low-level container runtimes and high-level container runtimes.<ins> This category does not include container images, the configuration files to build them and container tools which are not managing container images.</ins>
+        </p>
+      </td>
     </tr>
     <tr>
       <td>
@@ -586,10 +657,10 @@
         </p>
         <p>
           This category includes but is not limited to replaceable sim cards, payment cards, physical access cards, digital tachograph cards or wrist bands with integrated secure elements.
-        </p>        
+        </p>
       </td>
-      <td><!-- Comments --></td>
-      <td><!-- Proposed change --></td>
+      <td><!-- Comments -->This category does not explicitly mention Virtual Trusted Platform Modules (vTPMs), but the inclusion of Trusted Platform Modules in the examples of products that fall in this category creates legal uncertainty as to whether vTPMs are included or not. As vTPMs rely on specific hardware to provide their security guarantees, we believe it is the hardware provides those guarantees that should meet additional security requirements, not the software itself which is already covered by other Class I products. To avoid creating uncertainty we believe vTPMs should be explicitly excluded from this category.</td>
+      <td><!-- Proposed change -->[…] This category includes but is not limited to Trusted Platform Modules (TPMs) or embedded sim cards.<ins> This category does not include Virtual Trusted Platform Modules (vTPMs).</ins> […]</td>
     </tr>
   </tbody>
 </table>
