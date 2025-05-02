@@ -249,6 +249,18 @@ TODO: CONVERT BELOW TABLE
 
 ### 1.2 Secure design and secure coding principles
 
+* [NIST SP 800-218: Secure Software Development Framework (SSDF) Version 1.1: Recommendations for Mitigating the Risk of Software Vulnerabilities](https://csrc.nist.gov/pubs/sp/800/218/final) - NIST’s Secure Software Development Framework is a set of recommended practices for integrating security into the software development life cycle. Version 1.1 of the SSDF (published in 2022) organizes these practices into four groups: Prepare the Organization (ensure the development team has the resources, training, and governance to produce secure code), Protect the Software (establish secure environments and tools, and protect code integrity – e.g., via version control protections and dependency management), Produce Well-Secured Software (implement security design, code, and testing practices – like threat modeling, static analysis, and code review – and address findings), and Respond to Vulnerabilities (define processes to handle internally and externally reported bugs in released software, including patching and communication). Each practice is described at a high level with mappings to more specific standards (like OWASP, ISO, etc.). The SSDF is meant to be adaptable: organizations of any size can implement its core tenets and can integrate them into existing development workflows (waterfall, Agile, DevOps, etc.). By following the SSDF, software producers minimize the introduction of vulnerabilities and establish a workflow to catch and fix security issues early, which ultimately leads to more secure products for end users.
+  <details>
+    <summary>More info</summary>
+
+    * **Title:** NIST SP 800-218: Secure Software Development Framework (SSDF) Version 1.1: Recommendations for Mitigating the Risk of Software Vulnerabilities
+    * **URL:** https://csrc.nist.gov/pubs/sp/800/218/final
+    * **Publisher:** NIST
+    * **License:** ?
+    * **Type:** informal
+    * **Publication date:** 2022
+  </details>
+
 * [OpenStack Secure development guidelines](https://security.openstack.org/#secure-development-guidelines) - The OpenStack Security Team has created a set of secure development guidelines and best practices to help developers avoid common mistakes that could introduce vulnerabilities in the OpenStack platform. These guidelines cover various areas of secure coding (e.g. proper file permissions, input validation, avoiding insecure libraries, using encryption correctly) and serve as a baseline for developers to follow so that OpenStack components are built with security in mind. By adhering to these recommendations, contributors to OpenStack can systematically reduce security weaknesses and improve the overall resilience of the cloud software.
   <details>
     <summary>More info</summary>
@@ -272,6 +284,7 @@ TODO: CONVERT BELOW TABLE
     * **Type:** informal
     * **Publication date:** 2014 – present
   </details>
+  
 
 ### 1.3 Security processes and governance
 
