@@ -466,6 +466,18 @@ TODO: CONVERT BELOW TABLE
     * **Type:** 
     * **Publication date:** 2024
   </details>
+  
+* [JavaScript SBOM and Software Attestation Challenges and Recommendations](https://github.com/openjs-foundation/security-collab-space/blob/main/OpenJS-SBOM-CSCRM-Challenges-Recommendations.md) - The OWASP DevSecOps Maturity Model (DSOMM) is a framework that guides organizations in assessing and enhancing the integration of security within their DevOps processes. It defines multiple domains of software development and operations (such as source code, build pipelines, and deployment environments) and outlines progressive maturity levels for each domain, providing clear benchmarks for improvement. By using DSOMM, teams can identify gaps in their current DevSecOps practices and prioritize security measures—ranging from basic safeguards in continuous integration to advanced, automated security testing—appropriate to their maturity level. This model serves as a reference for building more secure development pipelines, aligning with broader software security best practices and supporting compliance efforts by ensuring that security controls are systematically embedded in the software lifecycle.
+  <details>
+    <summary>More info</summary>
+
+    * **Title:** JavaScript SBOM and Software Attestation Challenges and Recommendations
+    * **URL:** https://github.com/openjs-foundation/security-collab-space/blob/main/OpenJS-SBOM-CSCRM-Challenges-Recommendations.md
+    * **Publisher:** OpenJS Security Collaboration Space
+    * **License:** 
+    * **Type:** informal
+    * **Publication date:** 2024
+  </details>
 
 * [SLSA Supply Chain Levels for Software Artifacts](https://github.com/slsa-framework/slsa) - SLSA (pronounced “salsa”) is a security framework for improving software supply chain integrity, created by a consortium of industry leaders. It defines a maturity model with four levels that software producers can achieve, each level adding more advanced supply chain protections. At Level 1, basic requirements like using version control and build scripts are in place. By Level 2, tamper-evident builds are required (e.g. generating provenance metadata). Level 3 mandates trusted, verifiable builds (such as using a dedicated, isolated build service to prevent interference), and Level 4 involves the highest assurances including two-party review of all changes and a hermetic, reproducible build process. The framework is documented openly (on GitHub) and provides specifications for how to produce attestations (metadata) that a build meets a certain SLSA level. The purpose of SLSA is to thwart supply chain attacks (like code tampering, compromised dependencies, etc.) by incrementally hardening the build and release process. Organizations can adopt SLSA guidelines to progressively make their software build pipelines more secure, and customers can eventually prefer software that comes with SLSA provenance, indicating it was built under strict controls.
   <details>
