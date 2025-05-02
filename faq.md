@@ -274,6 +274,14 @@ _Open-source software steward_ are subject to a "light-touch and tailor-made reg
 | GitHub issue(s): [#158](https://github.com/orcwg/cra-hub/issues/158)
 </details>
 
+<details>
+	<a name="q-does-a-steward-bear-translation-costs-into-many-languages"></a>
+	<summary><strong><a name="faq-tmp-152" href="#faq-tmp-152">tmp-152.</a> Does a steward bear the cost of translating and maintain its policy documents in many of the EU languages?</strong></summary>
+
+> Status: 🛑 [Pending Guidance][]
+| GitHub issue(s): [#152](https://github.com/orcwg/cra-hub/issues/152)
+</details>
+
 
 ### Manufacturers
 
