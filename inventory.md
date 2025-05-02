@@ -2,7 +2,7 @@
 
 The goal of this document is to provide a comprehensive list of resources that are relevant to the CRA obligations of open source software stewards and manufacturers when it comes to the development and usage of open source. The underlying purpose is to provide specification and standardization effort with easy access to documented industry and community best practices related to the development and integration of open source software and to the interactions between developers and consumers of open source.
 
-Note: the description of each resource has been generated using a large language model and verified for accuracy. See [Annex I](#annex-i) below for the prompt used.
+_Note: the description of each resource has been generated using a large language model and verified for accuracy. See [Annex I - LLM Usage][LLM usage] below for the prompts and tools used._
 
 ## Table of Content
 
@@ -23,6 +23,8 @@ Note: the description of each resource has been generated using a large language
   * [4.3 Security attestations][Section 4.3]
 * [5. Similar legislation][Section 5]
 * [6. Other][Section 6]
+* [Acknowledgements][]
+* [Annex I][LLM usage]
 
 <!--
 ## Horizontal Type A Standards (due August 30, 2026)
@@ -948,7 +950,7 @@ and Tobie Langel.
 
 If you have contributed to this document and aren't properly acknowledged or if you want to edit or remove your name, please let us know by [opening an issue](https://github.com/orcwg/cra-hub/issues/new) and we will fix this right away.
 
-## Annex I
+## Annex I - LLM Usage
 
 Prompt used:
 
@@ -975,6 +977,8 @@ LLM used: OpenAI ChatGPT 4.5 using "deep research".
 [Section 4.3]: #43-security-attestations
 [Section 5]:   #5-similar-legislation
 [Section 6]:   #6-other
+[Acknowledgments]: #acknowledgments
+[LLM usage]:   #annex-i--llm-usage
 
 [Annex I]: https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=OJ:L_202402847#anx_I
 [Article 13]: https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=OJ:L_202402847#art_13
