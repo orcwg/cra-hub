@@ -2,7 +2,7 @@
 
 The goal of this document is to provide a comprehensive list of resources that are relevant to the CRA obligations of open source software stewards and manufacturers when it comes to the development and usage of open source. The underlying purpose is to provide specification and standardization effort with easy access to documented industry and community best practices related to the development and integration of open source software and to the interactions between developers and consumers of open source.
 
-Note: the description of each resource has been generated using a large language model and verified for accuracy.
+Note: the description of each resource has been generated using a large language model and verified for accuracy. See [Annex I](#annex-i) below for the prompt used.
 
 ## Table of Content
 
@@ -596,6 +596,16 @@ TODO: CONVERT BELOW TABLE
     * **Type:** 
     * **Publication date:** 
   </details>
+
+## Annex I
+
+Prompt used:
+
+> I linked to a spreadsheet on google drive. These are resources that are relevant for organizations that need to adhere to the EU cyber resilience act. Add a new column "E"  in sheet 1 and insert a brief summary of the resource (1 paragraph). Do this in a dry, neutral and academic style, resembling a wikipdia summary.  all types of resources are to be taken at face value.
+> 
+> the url is the authorative resource. and yes the summary should reflect the content
+ 
+LLM used: OpenAI ChatGPT 4.5 using "deep research".
 
 [Section 1]:   #1-principles-of-security-resilience
 [Section 1.1]: #11-risk-analysis
