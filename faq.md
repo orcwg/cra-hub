@@ -76,7 +76,7 @@ The final text of the CRA can be found on [EUR-Lex][CRA] ([English HTML version]
 
 
 The CRA enters into force on December 11, 2024. Reporting obligations of actively exploited vulnerabilities and severe incidents ([Article 14][]) start to apply on September 11, 2026.
-The notification of conformity of assessment bodies ([Chapter IV][]) start to apply on June 11, 2026. Everything else starts to apply on December 11, 2027. _(Source: [Article 71][])_
+All other obligations for software developers start to apply on December 11, 2027. _(Source: [Article 71][])_
 
 ```mermaid
 %%{init: {'theme':'base'}}%%
