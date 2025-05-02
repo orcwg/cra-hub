@@ -275,6 +275,18 @@ TODO: CONVERT BELOW TABLE
 
 ### 1.3 Security processes and governance
 
+* [Compiler Hardening Guide/ C C++ compiler options](https://best.openssf.org/Compiler-Hardening-Guides/Compiler-Options-Hardening-Guide-for-C-and-C++.html) - This guide (hosted by the OpenSSF Best Practices community) outlines how to leverage modern compiler features and settings to produce more secure software binaries in C and C++. It provides practical recommendations on compiler options that enable various hardening mechanisms. Examples include turning on stack canaries and stack overflow protections (-fstack-protector-strong), using address space layout randomization friendly flags (-fPIE for position-independent executables, and linking with -pie), enabling control-flow integrity or forward-edge protections (if supported by the compiler toolchain), enabling warnings and treating them as errors for risky patterns, and using memory sanitization tools in testing builds. The guide may also discuss choices like enabling Fortify Source (to catch certain buffer overflows at runtime) and using latest standards (e.g. C11/C17 features that improve safety). Each suggested option is explained in terms of what security benefit it provides and any trade-offs (such as performance impact or compatibility). Following this hardening guide helps developers raise the baseline security of their C/C++ applications, making them more resistant to common memory corruption vulnerabilities by catching issues early or making exploitation much more difficult.
+  <details>
+    <summary>More info</summary>
+
+    * **Title:** Compiler Hardening Guide/ C C++ compiler options
+    * **URL:** https://best.openssf.org/Compiler-Hardening-Guides/Compiler-Options-Hardening-Guide-for-C-and-C++.html
+    * **Publisher:** OpenSSF
+    * **License:** ?
+    * **Type:** informal
+    * **Publication date:** 2024
+  </details>
+  
 * [NIST Cybersecurity Framework](https://www.nist.gov/cyberframework) - The NIST CSF is a high-level framework that helps organizations manage and reduce cybersecurity risk. It is composed of five Core Functions: Identify (know your assets, systems, data, and risks), Protect (implement safeguards like access controls, training, maintenance), Detect (deploy activities to promptly detect anomalies and incidents), Respond (have plans and actions for containing and minimizing incidents), and Recover (restore any capabilities or services impaired by incidents and incorporate lessons learned). Under each function are Categories and Subcategories that outline specific outcomes (for example, under Protect -> Access Control, an outcome is “identities and credentials are managed for authorized devices and users”). The CSF also includes Implementation Tiers to gauge the maturity of risk management practices and a Profile concept to tailor the framework to the organization’s goals and sector. Initially developed for critical infrastructure, the CSF has been widely adopted across industries globally because of its flexibility and clear structure. It’s often used as a starting point for developing a cybersecurity program or as a communication tool between technical teams and management, since it distills complex security practices into a straightforward, business-aligned format. (Note: A CSF 2.0 update is underway to incorporate more guidance on governance and supply chain risk.)
   <details>
     <summary>More info</summary>
