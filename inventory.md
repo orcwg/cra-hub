@@ -570,6 +570,42 @@ TODO: CONVERT BELOW TABLE
     * **Publication date:** 2024 edition
   </details>
 
+* [FIRST PSIRT Services Framework](https://www.first.org/standards/frameworks/psirts/psirt_services_framework_v1.1) - The FIRST PSIRT Services Framework version 1.1 is a comprehensive reference document that describes the range of services a Product Security Incident Response Team (PSIRT) can provide. Developed by the Forum of Incident Response and Security Teams (FIRST) with input from industry experts, it enumerates and defines service categories, services, and functions specific to PSIRTs, recognizing that product-focused incident response has unique considerations compared to traditional CSIRTs. The framework covers strategic, tactical, and operational facets of a PSIRT program—from stakeholder management and vulnerability handling processes to incident coordination and post-incident analysis—offering a structured vocabulary and model for organizations either establishing a new PSIRT or benchmarking an existing one. By standardizing what effective product security response entails, the PSIRT Services Framework helps organizations ensure they meet industry best practices and regulatory expectations for managing product vulnerabilities and incidents, an area increasingly significant under product security regulations and guidelines (including parallels to the EU Cyber Resilience Act’s focus on post-market security).
+  <details>
+    <summary>More info</summary>
+
+    * **Title:** FIRST PSIRT Services Framework
+    * **URL:** https://www.first.org/standards/frameworks/psirts/psirt_services_framework_v1.1
+    * **Publisher:** FIRST
+    * **License:** Public Domain
+    * **Type:** Framework
+    * **Publication date:** 2015-present
+  </details>
+
+* [FIRST PSIRT Services Maturity Guidance](https://www.first.org/standards/frameworks/psirts/psirt_maturity_document) - The FIRST PSIRT Maturity Document is a guidance framework aimed at helping organizations develop and improve their Product Security Incident Response Team capabilities over time. It builds upon the PSIRT Services Framework by outlining a maturity model—describing foundational levels and more advanced stages of PSIRT development—to illustrate how a team can evolve from basic operational readiness to a fully mature, proactive product security program. The document emphasizes essential early steps, such as securing executive sponsorship, defining clear policies (aligned with standards like ISO/IEC 29147 and 30111 for vulnerability disclosure and handling), and establishing core processes for vulnerability triage and response, before progressing to more sophisticated functions. Through this staged approach, the PSIRT Maturity guide enables organizations to assess their current state and identify priorities for enhancement, ensuring that even as regulatory and customer expectations for robust vulnerability response increase, the organization can methodically reach higher levels of preparedness and effectiveness.
+  <details>
+    <summary>More info</summary>
+
+    * **Title:** FIRST PSIRT Services Maturity Guidance
+    * **URL:** https://www.first.org/standards/frameworks/psirts/psirt_maturity_document
+    * **Publisher:** FIRST
+    * **License:** Public Domain
+    * **Type:** Framework
+    * **Publication date:** 2015-present
+  </details>
+
+* [FIRST CSIRT Services Framework](https://www.first.org/standards/frameworks/csirts/csirt_services_framework_v2.1) - The FIRST CSIRT Services Framework version 2.1 is a standardized taxonomy of services for Computer Security Incident Response Teams (CSIRTs), providing a structured description of the possible activities and functions such teams can perform. Co-developed by experts in the FIRST community (with support from groups like TF-CSIRT and the International Telecommunication Union), this framework lists core service categories—such as incident handling, alerts and warnings, vulnerability management, and other cybersecurity services—and breaks them down into specific sub-services and functions with clear definitions. It is intended to guide CSIRTs in defining or expanding their service portfolios, ensuring consistency in terminology and understanding across the incident response community. As the de facto reference for CSIRT operations, version 2.1 helps new and existing teams align with internationally recognized practices, which is valuable for meeting the expectations of frameworks like the EU NIS Directive/NIS2 and complementing the broader regulatory push (including the EU Cyber Resilience Act) for well-structured cybersecurity incident management capabilities.
+  <details>
+    <summary>More info</summary>
+
+    * **Title:** FIRST CSIRT Services Framework
+    * **URL:** https://www.first.org/standards/frameworks/csirts/csirt_services_framework_v2.1
+    * **Publisher:** FIRST
+    * **License:** Public Domain
+    * **Type:** Framework
+    * **Publication date:** 2015-present
+  </details>
+
 * [NIST SP 800-61 Rev. 3 (Initial Public Draft): Incident Response Recommendations and Considerations for Cybersecurity Risk Management: A CSF 2.0 Community Profile](https://csrc.nist.gov/pubs/sp/800/61/r3/ipd) - This is the draft of the third revision to NIST’s Computer Security Incident Handling Guide. It updates the well-known incident response lifecycle guidance (Prepare, Detect and Analyze, Contain, Eradicate and Recover, Post-Incident) to address modern challenges and to align with the upcoming NIST Cybersecurity Framework 2.0. The draft emphasizes integrating incident response with overall risk management and uses the CSF structure to organize recommendations. It highlights considerations such as cloud incidents, supply-chain incidents, and coordinating with external entities (like law enforcement or industry sharing groups) – topics that have grown in importance since the previous Rev. 2. The draft also suggests metrics and continuous improvement practices for incident response teams, encouraging organizations to not just react to incidents but to collect lessons learned and feed those back into defensive measures. In essence, SP 800-61 Rev. 3 will serve as a contemporary playbook for cybersecurity incident response, ensuring teams are well-prepared and that their processes fit into a broader strategy for resilience.
   <details>
     <summary>More info</summary>
@@ -698,13 +734,6 @@ CRA ref: [Article 25][]\
 Standards request ref: N/A\
 Impact on steward: `attestations`
 
-TODO: CONVERT BELOW TABLE
-
-| Name & URL | Publisher | License | Type | Date | Notes |
-| ---- | ---- | ---- | ---- | ---- | ---- |
-| [FreeBSD SSDF Attestation](https://freebsdfoundation.org/news-and-events/latest-news/freebsd-foundation-announces-ssdf-attestation/) | [FreeBSD Foundation](https://freebsdfoundation.org/) | Confidential | attestation | 2024-11-03 |  |
-| [Secure Software Development Framework (SSDF)](https://csrc.nist.gov/projects/ssdf) | [NIST](https://www.nist.gov/) | Public Domain (attribution appreciated) | recommendations | 2022-02-03 |  |
-
 * [Authoritative Guide to Attestations](https://cyclonedx.org/guides/OWASP_CycloneDX-Authoritative-Guide-to-Attestations-en.pdf) - This guide provides organizations with a framework for digitally transforming their audit and attestation workflows using standardized, machine-readable attestations. An attestation in this context is a cryptographically signed statement about some aspect of a software product or process (for example, an attestation that a product was built in a secure environment or complies with certain standards). The guide explains how to create and use such attestations, leveraging the CycloneDX format, to document compliance or security assurances in an automated way. By following the guide, organizations can move away from purely manual audit statements and instead generate verifiable digital evidence of their security practices, making it easier to trust and verify software in supply chains or regulatory contexts.
   <details>
     <summary>More info</summary>
@@ -727,6 +756,18 @@ TODO: CONVERT BELOW TABLE
     * **License:** MIT/CDLA-Permissive
     * **Type:** 
     * **Publication date:** from 2021 under the current name
+  </details>
+  
+* [FreeBSD SSDF Attestation](https://freebsdfoundation.org/news-and-events/latest-news/freebsd-foundation-announces-ssdf-attestation/) - In November 2023, the FreeBSD Foundation announced the availability of a Secure Software Development Framework (SSDF) Attestation, a formal report that documents how the FreeBSD open-source operating system’s development practices align with NIST’s SSDF guidelines. This attestation was developed to assist commercial users of FreeBSD in meeting emerging security requirements—specifically, U.S. government software procurement rules that require suppliers to self-attest to following secure development practices (as mandated by NIST SP 800-218 and related OMB directives). The announcement highlights FreeBSD’s longstanding emphasis on security by design and explains that the attestation service allows vendors and cloud providers relying on FreeBSD to easily demonstrate that the upstream software meets recognized secure development criteria. By providing this attestation, the FreeBSD Foundation bridges open-source development with regulatory compliance needs, reflecting broader trends (in the U.S. and potentially in the EU through initiatives like the Cyber Resilience Act) to demand greater assurance of software supply chain security.
+  <details>
+    <summary>More info</summary>
+
+    * **Title:** FreeBSD SSDF Attestation
+    * **URL:** https://freebsdfoundation.org/news-and-events/latest-news/freebsd-foundation-announces-ssdf-attestation/
+    * **Publisher:** FreeBSD Foundation
+    * **License:** Confidential
+    * **Type:** attestation
+    * **Publication date:** 45599
   </details>
   
 * [OpenJS Ecosystem Sustainability Program (ESP)](https://openjsf.org/blog/ecosystem-sustainability-program) - The OpenJS Ecosystem Sustainability Program (ESP) is an initiative by the OpenJS Foundation aimed at enhancing the security and longevity of widely-used but under-maintained JavaScript projects. Launched with HeroDevs as its inaugural partner, the program offers long-term support for legacy software, exemplified by the introduction of ""Never-Ending Support"" (NES) for Express.js. ESP is an opt-in, partner-driven model designed to secure outdated software and generate new revenue streams for OpenJS projects. By providing structured support for aging yet critical components of the JavaScript ecosystem, ESP addresses software supply chain risks and aligns with regulatory expectations for secure software maintenance, such as those outlined in the EU Cyber Resilience Act. 
