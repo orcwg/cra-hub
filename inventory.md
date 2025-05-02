@@ -24,7 +24,7 @@ _Note: the description of each resource has been generated using a large languag
 * [5. Similar legislation][Section 5]
 * [6. Other][Section 6]
 * [Acknowledgments][]
-* [Annex I][LLM usage]
+* [Annex I - LLM Usage][LLM usage]
 
 <!--
 ## Horizontal Type A Standards (due August 30, 2026)
