@@ -707,6 +707,18 @@ TODO: CONVERT BELOW TABLE
     * **Type:** 
     * **Publication date:** from 2021 under the current name
   </details>
+  
+* [OpenJS Ecosystem Sustainability Program (ESP)](https://openjsf.org/blog/ecosystem-sustainability-program) - This resource is a collaborative report produced by the OpenJS Foundation’s security working group, addressing the practical challenges of implementing Software Bill of Materials (SBOM) and Cyber Supply Chain Risk Management (C-SCRM) in open source projects. It identifies key obstacles, such as generating comprehensive SBOMs, ensuring their accuracy and maintenance, and integrating supply chain security practices into development workflows, especially within widely-used JavaScript ecosystems. The document offers recommendations to mitigate these issues, advocating for improved tooling, standardized processes, and cross-project knowledge sharing to strengthen supply chain transparency and vulnerability management. By highlighting these challenges and solutions, the report provides guidance relevant to improving software security posture in line with emerging regulatory expectations (like those of the EU Cyber Resilience Act) that emphasize software supply chain integrity and documentation.
+  <details>
+    <summary>More info</summary>
+
+    * **Title:** OpenJS Ecosystem Sustainability Program (ESP)
+    * **URL:** https://openjsf.org/blog/ecosystem-sustainability-program
+    * **Publisher:** OpenJS
+    * **License:** 
+    * **Type:** informal
+    * **Publication date:** 2024
+  </details>
 
 ## 5. Similar legislation
 
