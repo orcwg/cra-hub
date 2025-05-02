@@ -333,13 +333,29 @@ Impact on steward: `Partial obligation` ("foster development of secure product",
 
 ## 2. Generic Security Requirements
 
-TODO: DOCUMENT HOW THIS CATEGORY IS BROKEN DOWN AND WHY
+This section contains references which are relevant to the requirements expressed in [Annex I, Part I, point (2)][Annex I] of the CRA:
 
-The list of security requirements in Annex I, part 2 is high-level, requiring adaptation for each PDE.
-The resources are divided into three main categories that cover different aspects of adapting and implementing the high-level security requirements.
-Resources in the "Security requirements & controls" category provide best practices on selecting and refining security requirements for various types of products and components.
-The "Security Hardening Guidelines" category contains best practices on hardening third-party components integrated into products.
-As applying "Cryptography" is sufficiently complex, it is split out in its main subcategory.
+> On the basis of the cybersecurity risk assessment referred to in Article 13(2) and where applicable, products with digital elements shall:
+> 
+> (a) be made available on the market without known exploitable vulnerabilities;\
+> (b) be made available on the market with a secure by default configuration, unless otherwise agreed between manufacturer and business user in relation to a tailor-made product with digital elements, including the possibility to reset the product to its original state;\
+> (c) ensure that vulnerabilities can be addressed through security updates, including, where applicable, through automatic security updates that are installed within an appropriate timeframe enabled as a default setting, with a clear and easy-to-use opt-out mechanism, through the notification of available updates to users, and the option to temporarily postpone them;\
+> (d) ensure protection from unauthorised access by appropriate control mechanisms, including but not limited to authentication, identity or access management systems, and report on possible unauthorised access;\
+> (e) protect the confidentiality of stored, transmitted or otherwise processed data, personal or other, such as by encrypting relevant data at rest or in transit by state of the art mechanisms, and by using other technical means;\
+> (f) protect the integrity of stored, transmitted or otherwise processed data, personal or other, commands, programs and configuration against any manipulation or modification not authorised by the user, and report on corruptions;\
+> (g) process only data, personal or other, that are adequate, relevant and limited to what is necessary in relation to the intended purpose of the product with digital elements (data minimisation);\
+> (h) protect the availability of essential and basic functions, also after an incident, including through resilience and mitigation measures against denial-of-service attacks;\
+> (i) minimise the negative impact by the products themselves or connected devices on the availability of services provided by other devices or networks;\
+> (j) be designed, developed and produced to limit attack surfaces, including external interfaces;\
+> (k) be designed, developed and produced to reduce the impact of an incident using appropriate exploitation mitigation mechanisms and techniques;\
+> (l) provide security related information by recording and monitoring relevant internal activity, including the access to or modification of data, services or functions, with an opt-out mechanism for the user;\
+> (m) provide the possibility for users to securely and easily remove on a permanent basis all data and settings and, where such data can be transferred to other products or systems, ensure that this is done in a secure manner.
+
+The references are divided into three categories that cover the different aspects of adapting and implementing those requirements:
+
+* The references listed in [Section 2.1 Security requirements and controls][Section 2.1] provide best practices on selecting and refining the relevant security requirements for a specific product or component.
+* The references listed in [Section 2.2 Security Hardening Guidelines][Section 2.2] provide best practices hardening third-party components integrated into products.
+* The references listed in [Section 2.3 Cryptography][Section 2.3] provide best practices when implementing cryptography.
 
 ### 2.1 Security requirements and controls
 
