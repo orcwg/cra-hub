@@ -23,7 +23,7 @@ _Note: the description of each resource has been generated using a large languag
   * [4.3 Security attestations][Section 4.3]
 * [5. Similar legislation][Section 5]
 * [6. Other][Section 6]
-* [Acknowledgements][]
+* [Acknowledgments][]
 * [Annex I][LLM usage]
 
 <!--
@@ -978,7 +978,7 @@ LLM used: OpenAI ChatGPT 4.5 using "deep research".
 [Section 5]:   #5-similar-legislation
 [Section 6]:   #6-other
 [Acknowledgments]: #acknowledgments
-[LLM usage]:   #annex-i--llm-usage
+[LLM usage]:   #annex-i---llm-usage
 
 [Annex I]: https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=OJ:L_202402847#anx_I
 [Article 13]: https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=OJ:L_202402847#art_13
