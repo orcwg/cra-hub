@@ -606,6 +606,18 @@ TODO: CONVERT BELOW TABLE
     * **Publication date:** 45261
   </details>
 
+* [OpenSSF Outbound Vulnerability Disclosure Policy Template](https://github.com/ossf/wg-vulnerability-disclosures/blob/main/docs/Outbound_Vulnerability_Disclosure_Policy_template.md) - The Open Source Security Foundation (OpenSSF) Outbound Vulnerability Disclosure Policy Template is a model policy document designed to guide organizations in responsibly disclosing security vulnerabilities they discover in external projects or products. This template adheres to the “Model Outbound Vulnerability Disclosure Policy” (version 0.1.1) and clarifies processes distinct from inbound vulnerability handling, focusing on how an organization should report a discovered vulnerability to the affected third party or vendor. It outlines recommended steps such as initial notification, coordination with the affected product’s security team or a relevant CERT, setting timelines for remediation and public disclosure, and conditions for involving outside stakeholders (for instance, regulators or the broader security community) if a vulnerability remains unaddressed. By following this template, organizations can establish a clear and consistent outbound disclosure practice, which contributes to the overall health of the software ecosystem and aligns with broader cybersecurity norms and compliance considerations that encourage transparency in vulnerability management across supply chains.
+  <details>
+    <summary>More info</summary>
+
+    * **Title:** OpenSSF Outbound Vulnerability Disclosure Policy Template
+    * **URL:** https://github.com/ossf/wg-vulnerability-disclosures/blob/main/docs/Outbound_Vulnerability_Disclosure_Policy_template.md
+    * **Publisher:** OpenSSF
+    * **License:** Apache-2.0
+    * **Type:** Policy Template
+    * **Publication date:** 2024- present
+  </details>
+
 * [Patching and Updates Guidelines from Berkeley Information Security Office](https://security.berkeley.edu/MSSND/patching-and-updates-guidelines) - Published by the University of California, Berkeley’s Information Security Office, this guideline provides best practices for keeping systems and applications up to date with security patches. It stresses the importance of timely patching as a critical defense against exploits of known vulnerabilities. Key recommendations include maintaining an inventory of all IT assets to know what needs patching, categorizing updates by severity and applying critical security patches as soon as possible (ideally within a defined timeframe like 48-72 hours for high severity), and establishing a regular patch cycle for less urgent updates. The guidelines also suggest testing patches in a staging environment when feasible, having a rollback plan in case an update causes issues, and using automated management tools to deploy patches at scale across an organization’s devices. Additionally, the document might cover how to handle systems that can’t be patched (due to compatibility or support issues), such as isolating them or applying compensating controls. Overall, the Berkeley guidelines serve as a practical manual for IT teams to build a robust patch management process, which in turn reduces an organization’s exposure to known exploits.
   <details>
     <summary>More info</summary>
@@ -638,14 +650,18 @@ CRA ref: [Article 24(1)][Article 24]\
 Standards request ref: N/A\
 Impact on steward: `obligation`
 
-TODO: CONVERT BELOW TABLE
+* [OpenSSF Security Policy Templates](https://github.com/ossf/oss-vulnerability-guide/tree/main/templates/security_policies) - This resource is a collection of security policy templates provided by the Open Source Security Foundation’s Open Source Software Vulnerability Guide project to help open source maintainers create robust security policies for their projects. The templates include ready-made text and structure for documents like a project’s security policy or “SECURITY.md,” vulnerability reporting guidelines, and coordinated disclosure procedures, all of which maintainers can adapt to their specific needs. By offering standardized language covering aspects such as how to report vulnerabilities, expected response times, and how fixes and advisories will be communicated, these templates lower the barrier for projects to implement best practices in vulnerability management and communication. They are directly relevant to improving open source software resilience and assist projects in meeting expectations set by users and regulations (for instance, the EU Cyber Resilience Act’s call for clear vulnerability disclosure policies), ensuring that even smaller projects can align with industry standards in security process documentation.
+  <details>
+    <summary>More info</summary>
 
-| Name & URL | Publisher | License | Type | Date | Notes |
-| ---- | ---- | ---- | ---- | ---- | ---- |
-| [OpenSSF Outbound Vulnerability Disclosure Policy Template](https://github.com/ossf/wg-vulnerability-disclosures/blob/main/docs/Outbound_Vulnerability_Disclosure_Policy_template.md) | OpenSSF | Apache-2.0 | Policy Template | 2024- present | |
-| [OpenSSF Security Policy Templates](https://github.com/ossf/oss-vulnerability-guide/tree/main/templates/security_policies) | OpenSSF | Apache-2.0 | Policy Template | 2022- present | |
-
-
+    * **Title:** OpenSSF Security Policy Templates
+    * **URL:** https://github.com/ossf/oss-vulnerability-guide/tree/main/templates/security_policies
+    * **Publisher:** OpenSSF
+    * **License:** Apache-2.0
+    * **Type:** Policy Template
+    * **Publication date:** 2022- present
+  </details>
+  
 ### 4.2 Due diligence requirements
 
 CRA ref: [Article 13(5)][Article 13]\
