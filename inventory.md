@@ -328,6 +328,12 @@ TODO: CONVERT BELOW TABLE
 
 TODO: DOCUMENT HOW THIS CATEGORY IS BROKEN DOWN AND WHY
 
+The list of security requirements in Annex I, part 2 is high-level, requiring adaptation for each PDE.
+The resources are divided into three main categories that cover different aspects of adapting and implementing the high-level security requirements.
+Resources in the "Security requirements & controls" category provide best practices on selecting and refining security requirements for various types of products and components.
+The "Security Hardening Guidelines" category contains best practices on hardening third-party components integrated into products.
+As applying "Cryptography" is sufficiently complex, it is split out in its main subcategory.
+
 | Name & URL | Publisher | License | Type | Date | Notes |
 | ---- | ---- | ---- | ---- | ---- | ---- |
 | [FIRST PSIRT Services Framework](https://www.first.org/standards/frameworks/psirts/psirt_services_framework_v1.1) | FIRST | Public Domain | Framework | 2015-present | Guidance on how to create, manage, and operate a Product Security Incident Repsonse Team (PSIRT) |
@@ -396,11 +402,204 @@ TODO: CONVERT BELOW TABLE
 | [The CERT® Guide to Coordinated Vulnerability Disclosure](https://insights.sei.cmu.edu/documents/1945/2017_003_001_503340.pdf) | CERT-CC/Software Engineering Institure (SEI) at Carnegie Mellon University | None - approved for public release and unlimited distribution | Guide | |
 | [EUCC Scheme Guidelines on Vulnerability Management and Disclosure](https://certification.enisa.europa.eu/document/download/5f61edd4-0151-4687-8a08-c11c103498f3_en?filename=EUCC_guidelines_vulnerability%20management%20and%20disclosure_v1.1_0.pdf) | European Union Agency for Cybersecurity (ENISA) | CC-BY-ND 4.0 DEED | Guidelines for the EUCC Scheme | Version 1.1 January 2025 - a schema in the European Common Criteria framework |
 
-* [CISA Software Acquisition Guide](https://cisa.gov/sag) - _See full description in [Section 4.2 Due diligence requirements][Section 4.2]._
 
 ### 3.1 SBOM and Supply chain assurance
 
+* [CycloneDX (ECMA-424)](https://ecma-international.org/publications-and-standards/standards/ecma-424/) - CycloneDX, originally a BOM (Bill of Materials) format from OWASP for software components, has been ratified as an international standard by Ecma International (as ECMA-424). This standard formalizes the schema and usage of CycloneDX for creating Software Bills of Materials, which enumerate the components and dependencies in a software product. ECMA-424 (CycloneDX v1.6) defines how to represent components, their licenses, version information, relationships, and relevant metadata (like hashes, integrity proofs, and known vulnerabilities) in a machine-readable way. The publication of CycloneDX as ECMA-424 means it is a globally recognized specification, facilitating widespread adoption. It enables organizations to exchange SBOM information consistently across tools and industries, enhancing transparency and helping stakeholders (developers, consumers, regulators) to track and manage supply chain risk by knowing exactly what is inside a software product.
+  <details>
+    <summary>More info</summary>
+
+    * **Title:** ECMA-424
+    * **URL:** https://ecma-international.org/publications-and-standards/standards/ecma-424/
+    * **Publisher:** ECMA International
+    * **License:** ?
+    * **Type:** Formal
+    * **Publication date:** June 2024 (version 1.0)
+  </details>
+
+* [CISA Software Acquisition Guide](https://cisa.gov/sag) - _See full description in [Section 4.2 Due diligence requirements][Section 4.2]._
+  
+* [IETF SCITT](https://datatracker.ietf.org/doc/draft-ietf-scitt-software-use-cases/) - The IETF’s SCITT working group is developing a set of protocols to enable a trustworthy ledger of software supply chain events (like signing, transferring, and auditing software components). The linked document on software use cases describes scenarios where organizations need a verifiable record of actions in the supply chain. For example, one use case might be tracking the provenance of a piece of code: a developer commits code and signs it, a build service records that it built a binary from specific source, a scanner logs that it scanned the binary for vulnerabilities, etc. SCITT envisions a tamper-evident ledger (possibly blockchain-like or using transparency logs) where each of these actions is recorded by actors with cryptographic signatures. The use case document illustrates how this can help – for instance, a consumer of software can query the ledger to see if a given software package version has a recorded build attestation and security scan results before trusting it. Another use case could involve regulatory compliance: proving to an auditor that every software component in a device went through certain security checks. By enumerating such cases, the document guides the design of the SCITT architecture to ensure it meets real-world needs. In essence, SCITT’s use cases highlight the forthcoming ability to establish a chain of trust for software artifacts through standardized evidence, improving the integrity and transparency of the software supply chain.
+  <details>
+    <summary>More info</summary>
+
+    * **Title:** IETF SCITT
+    * **URL:** https://datatracker.ietf.org/doc/draft-ietf-scitt-software-use-cases/
+    * **Publisher:** IETF
+    * **License:** 
+    * **Type:** formal
+    * **Publication date:** DRAFT 2024
+  </details>
+
+* [ISO/IEC 5962:2021](https://www.iso.org/standard/81870.html) - ISO/IEC 5962:2021 is the international standardization of the Software Package Data Exchange (SPDX) format as a norm for Software Bill of Materials. SPDX originated as a Linux Foundation project to describe the components and licenses in software, and it was brought into ISO to encourage global adoption. The standard defines how to list all pieces of software (open-source libraries, proprietary modules, etc.), along with metadata like their versions, checksums, licenses, and relationships, in a structured document. Using ISO 5962 (SPDX), organizations can share SBOMs across organizational and tool boundaries with confidence that everyone interprets the content the same way. This promotes transparency in software supply chains, helps with automated license compliance checks, and aids vulnerability management (by quickly identifying if a product contains a component with a known CVE). SPDX as an ISO standard underscores its maturity and the importance of SBOMs in modern cybersecurity and compliance workflows.
+  <details>
+    <summary>More info</summary>
+
+    * **Title:** ISO/IEC 5962:2021
+    * **URL:** https://www.iso.org/standard/81870.html
+    * **Publisher:** ISO
+    * **License:** ?
+    * **Type:** Formal
+    * **Publication date:** August 2021 (Version 1.0)
+  </details>
+
+* [Lessons Learned during SBOM Implementation and Adoption](https://energycentral.com/c/iu/facts-and-opinions-about-sbom-implementation-and-adoption) - This article, written by a practitioner with extensive experience in SBOMs, shares practical insights and opinions on the current state of SBOM usage. One key point the author makes is that the only authoritative SBOM for a product should come from its original producer – they have the best knowledge of the components. However, even producers might not have perfect insight into every sub-component, especially when they incorporate third-party elements, highlighting the need for upstream component transparency. The author argues against waiting for SBOM technology to be “perfect” or universally adopted; even imperfect SBOMs provide significant value right now by giving visibility into software contents and risks. The article notes that many tools and a vibrant community already exist to help generate and use SBOMs, debunking the myth that SBOM is immature. It also reminds readers that there are two well-established SBOM standards (CycloneDX and SPDX) that are sufficient for current needs. The author cautions that there are both proponents and detractors of SBOMs speaking in the industry, and suggests readers do their own evaluations – in other words, experiment with SBOMs on their own software to see the benefits firsthand. Overall, the piece encourages organizations to start integrating SBOM practices into their workflows today, to improve software risk management and comply with emerging requirements, rather than adopting a “wait and see” approach.
+  <details>
+    <summary>More info</summary>
+
+    * **Title:** Energy Central article
+    * **URL:** https://energycentral.com/c/iu/facts-and-opinions-about-sbom-implementation-and-adoption
+    * **Publisher:** Energy Central/Dick Brooks
+    * **License:** 
+    * **Type:** informal
+    * **Publication date:** Febrary 16, 2025
+  </details>
+
+* [NASA procurement practices and process](https://www.nasa.gov/secure-software-development-self-attestation-resources-and-knowledge/) - In response to federal requirements (stemming from Executive Order 14028) that government agencies only use software following secure development practices, NASA has instituted a process where software suppliers must self-attest to their security. NASA’s public resources for this include guidance and forms for vendors. Essentially, a contractor providing software to NASA needs to review their own software development processes against criteria (largely drawn from NIST’s Secure Software Development Framework and related guidance) and then sign a statement confirming they comply. The NASA site likely provides a checklist or template covering topics like: does the vendor conduct threat modeling? Do they run static code analysis? How do they manage third-party component vulnerabilities? etc. It might also have educational material to help suppliers understand what practices are expected. By implementing this attestation process, NASA ensures its contractors are consciously evaluating and improving their security postures. This ultimately reduces risk in NASA’s supply chain—only software built with a baseline of security best practices should be running in NASA environments—and it reinforces industry adoption of secure development norms.
+  <details>
+    <summary>More info</summary>
+
+    * **Title:** US NASA procurement practices and process
+    * **URL:** https://www.nasa.gov/secure-software-development-self-attestation-resources-and-knowledge/
+    * **Publisher:** NASA
+    * **License:** 
+    * **Type:** 
+    * **Publication date:** 2024
+  </details>
+
+* [SLSA Supply Chain Levels for Software Artifacts](https://github.com/slsa-framework/slsa) - SLSA (pronounced “salsa”) is a security framework for improving software supply chain integrity, created by a consortium of industry leaders. It defines a maturity model with four levels that software producers can achieve, each level adding more advanced supply chain protections. At Level 1, basic requirements like using version control and build scripts are in place. By Level 2, tamper-evident builds are required (e.g. generating provenance metadata). Level 3 mandates trusted, verifiable builds (such as using a dedicated, isolated build service to prevent interference), and Level 4 involves the highest assurances including two-party review of all changes and a hermetic, reproducible build process. The framework is documented openly (on GitHub) and provides specifications for how to produce attestations (metadata) that a build meets a certain SLSA level. The purpose of SLSA is to thwart supply chain attacks (like code tampering, compromised dependencies, etc.) by incrementally hardening the build and release process. Organizations can adopt SLSA guidelines to progressively make their software build pipelines more secure, and customers can eventually prefer software that comes with SLSA provenance, indicating it was built under strict controls.
+  <details>
+    <summary>More info</summary>
+
+    * **Title:** SLSA Supply Chain Levels for Software Artifacts
+    * **URL:** https://github.com/slsa-framework/slsa
+    * **Publisher:** OpenSSF
+    * **License:** Apache 2.0 and others
+    * **Type:** Semi-formal
+    * **Publication date:** 
+  </details>
+
+* [Technical guidelines on SBOMs from CERT-In](https://www.cert-in.org.in/PDF/SBOM_Guidelines.pdf) - In October 2024, the Indian Computer Emergency Response Team (CERT-In) released a set of technical guidelines on Software Bill of Materials (SBOM) for organizations in the public sector and critical industries. This document underscores the value of SBOMs as a tool for transparency in software supply chains and provides recommendations for how to generate and maintain SBOMs. It outlines processes and best practices for implementing SBOMs – such as what component information should be included (name, version, supplier, known vulnerabilities, etc.) – and offers guidance on integrating SBOM use into procurement and risk management. The goal of these guidelines is to ensure that Indian government agencies and essential service providers adopt SBOM practices to enhance software security and resilience, in line with global trends and regulatory expectations.
+  <details>
+    <summary>More info</summary>
+
+    * **Title:** Technical guidelines on SBOMs
+    * **URL:** https://www.cert-in.org.in/PDF/SBOM_Guidelines.pdf
+    * **Publisher:** CERT-IN
+    * **License:** 
+    * **Type:** informal
+    * **Publication date:** 03.10.2024 (Version 1.0)
+  </details>
+
+* [Technical guidelines on SBOMs from CISA](https://www.cisa.gov/sites/default/files/2024-07/PDM24050%20Software%20Acquisition%20Guide%20for%20Government%20Enterprise%20ConsumersV2_508c.pdf) - In mid-2024, CISA released updated guidance (version 2.0 of its Software Acquisition guidance for enterprises) focusing on how government organizations should handle SBOMs. This technical guide provides detailed procedures for requesting SBOMs from software vendors, ingesting and validating those SBOMs, and using them for risk analysis. It likely advises agencies to use automated tools to parse SBOM data to identify components and check them against vulnerability databases (so if a vendor provides an SBOM, the agency can quickly see if any included library has known flaws). It also covers establishing workflows to manage SBOM data at scale – for example, keeping a repository of SBOMs for all software in use, updating it when software is patched or upgraded, and integrating SBOM review into continuous monitoring. The guide emphasizes that simply obtaining SBOMs is not the end goal; organizations must also develop the capability to act on SBOM information (like prioritizing patches or isolating systems when a critical vulnerability in a common component emerges). By following these guidelines, government enterprises can move toward proactive supply chain security management, gaining visibility into their software assets and being better prepared to respond to new threats or compliance checks (like those required by EO mandates).
+  <details>
+    <summary>More info</summary>
+
+    * **Title:** Technical guidelines on SBOMs
+    * **URL:** https://www.cisa.gov/sites/default/files/2024-07/PDM24050%20Software%20Acquisition%20Guide%20for%20Government%20Enterprise%20ConsumersV2_508c.pdf
+    * **Publisher:** US Government
+    * **License:** 
+    * **Type:** formal
+    * **Publication date:** 2024
+  </details>
+
+* [Unique identifier for software components (ECMA International)](https://github.com/package-url/purl-spec) - The Package URL specification defines a standard way to identify software packages across different programming ecosystems using a simple, URL-like format. A “purl” takes the form of a URI that includes a package’s type (e.g. npm, Maven, PyPI, GitHub), the namespace or group (if applicable), the package name, version, and any qualifiers or subpath. For example, a purl might look like: pkg:maven/org.apache.commons/commons-lang3@3.12.0. This one identifier concisely tells you the package manager (Maven), group (org.apache.commons), artifact (commons-lang3), and version (3.12.0). The purl spec, maintained on GitHub, has become widely used in tools and SBOM formats because it provides a consistent way to refer to components. It helps automate the tracking of dependencies, vulnerability matching (linking known vulnerabilities to package coordinates), and license compliance, since every package instance can be referenced uniformly. In summary, Package URL is like a universal addressing system for software components, making it easier to integrate data about packages across different systems and databases.
+  <details>
+    <summary>More info</summary>
+
+    * **Title:** Unique identifier for software components
+    * **URL:** https://github.com/package-url/purl-spec
+    * **Publisher:** ECMA International (in 2025)
+    * **License:** ?
+    * **Type:** Formal
+    * **Publication date:** 2025
+  </details>
+
+* [Unique identifier for software components (Software Heritage)](https://www.swhid.org/specification) - The Software Heritage ID is a scheme for assigning permanent, unique identifiers to software artifacts (such as source code files, commits, or releases) based on their content. The specification (developed by the Software Heritage archive) defines a cryptographic hash-based ID format that includes a prefix (swh:), a content hash, and additional qualifiers to denote the type of artifact and its position in the archive’s Merkle graph. For example, there are SWHIDs for files (blobs), directories (which list files), commits (snapshots of directories with metadata), and releases (tags). Because SWHIDs are content-derived, they are immutable and globally unique: the same piece of code will always have the same SWHID. This system enables precise references to software components regardless of where they are stored or how they are named elsewhere. In practice, SWHIDs facilitate long-term preservation, citation, and tracking of software, since one can resolve an SWHID via the Software Heritage archive to retrieve the exact artifact, and they help with supply chain integrity by ensuring that references to source code are unambiguous and verifiable.
+  <details>
+    <summary>More info</summary>
+
+    * **Title:** Unique identifier for software components
+    * **URL:** https://www.swhid.org/specification
+    * **Publisher:** Software Heritage (ISO pending)
+    * **License:**  ? (Issue raised on GitHub)
+    * **Type:** Semi-formal
+    * **Publication date:** Dec 2023 (v 1.1)
+  </details>
+  
 ### 3.2 Vulnerability handling
+
+* [CERT Guide to CVD](https://certcc.github.io/CERT-Guide-to-CVD/) - The CERT Guide to CVD is a comprehensive handbook for establishing a coordinated vulnerability disclosure process. Published by the CERT Coordination Center (part of Carnegie Mellon University’s Software Engineering Institute), it walks through the entire lifecycle of handling a discovered security vulnerability when multiple parties are involved (the finder, the affected vendor, possibly intermediaries like bug bounty platforms or coordination centers). The guide covers fundamental concepts and roles (what it means to be a finder, vendor, coordinator), and lays out best practices on how to receive vulnerability reports, triage and analyze them, communicate between researchers and vendors, remediate the issues, and eventually disclose the vulnerability publicly in a responsible manner. It addresses challenges such as multi-vendor coordination (when a vulnerability affects multiple products) and dealing with disagreements or communication breakdowns. By following the CERT Guide, organizations can improve how they respond to vulnerability reports, ensuring that fixes are developed and delivered to users faster and with less conflict, ultimately reducing harm from security flaws.
+  <details>
+    <summary>More info</summary>
+
+    * **Title:** CERT Guide to CVD
+    * **URL:** https://certcc.github.io/CERT-Guide-to-CVD/
+    * **Publisher:** Carnegie Mellon University
+    * **License:** 
+    * **Type:** 
+    * **Publication date:** From 2017
+  </details>
+
+* [CNA Rules](https://www.cve.org/resourcessupport/allresources/cnarules) - The CNA Operational Rules are the policy framework governing how CVE Identifiers are assigned to vulnerabilities by authorized organizations. These rules, maintained by the CVE Program, detail the responsibilities of CNAs (organizations like software vendors or security coordinators that assign CVE IDs for vulnerabilities in their scope) and the processes they must follow. The document covers how CVE requests are handled, how and when a CNA should assign an ID, the required information for each CVE record, and how to communicate and publish vulnerabilities in coordination with reporters and other stakeholders. It also establishes procedures for disputes or exceptions (with the CVE Board overseeing cases that fall outside normal rules). The latest version (v4.0) of the CNA Rules introduces more flexibility and community input into CVE assignment, aiming to improve the efficiency and consistency of vulnerability identification worldwide. In essence, the CNA Rules ensure the CVE system operates smoothly, with each CNA doing its part to accurately catalog vulnerabilities in a timely manner.
+  <details>
+    <summary>More info</summary>
+
+    * **Title:** CNA Rules
+    * **URL:** https://www.cve.org/resourcessupport/allresources/cnarules
+    * **Publisher:** MITRE
+    * **License:** ?
+    * **Type:** Semi-formal
+    * **Publication date:** 2024 edition
+  </details>
+
+* [NIST SP 800-61 Rev. 3 (Initial Public Draft): Incident Response Recommendations and Considerations for Cybersecurity Risk Management: A CSF 2.0 Community Profile](https://csrc.nist.gov/pubs/sp/800/61/r3/ipd) - This is the draft of the third revision to NIST’s Computer Security Incident Handling Guide. It updates the well-known incident response lifecycle guidance (Prepare, Detect and Analyze, Contain, Eradicate and Recover, Post-Incident) to address modern challenges and to align with the upcoming NIST Cybersecurity Framework 2.0. The draft emphasizes integrating incident response with overall risk management and uses the CSF structure to organize recommendations. It highlights considerations such as cloud incidents, supply-chain incidents, and coordinating with external entities (like law enforcement or industry sharing groups) – topics that have grown in importance since the previous Rev. 2. The draft also suggests metrics and continuous improvement practices for incident response teams, encouraging organizations to not just react to incidents but to collect lessons learned and feed those back into defensive measures. In essence, SP 800-61 Rev. 3 will serve as a contemporary playbook for cybersecurity incident response, ensuring teams are well-prepared and that their processes fit into a broader strategy for resilience.
+  <details>
+    <summary>More info</summary>
+
+    * **Title:** NIST SP 800-61 Rev. 3 (Initial Public Draft): Incident Response Recommendations and Considerations for Cybersecurity Risk Management: A CSF 2.0 Community Profile
+    * **URL:** https://csrc.nist.gov/pubs/sp/800/61/r3/ipd
+    * **Publisher:** NIST
+    * **License:** ?
+    * **Type:** informal
+    * **Publication date:** 2024
+  </details>
+
+* [NIST SP 800-231: Bug Framework (BF): Formalizing Cybersecurity Weaknesses and Vulnerabilities](https://csrc.nist.gov/pubs/sp/800/231/final) - NIST’s Bug Framework (BF) is an effort to formalize how we describe software weaknesses and vulnerabilities. Unlike vulnerability databases (which catalog specific instances of bugs in products), the BF provides a methodology and language to define classes of bugs in a rigorous way. It builds on concepts from existing taxonomies like CWE (Common Weakness Enumeration) but adds formal structure, making it easier to see the relations between bugs. For example, the framework may define a hierarchy or mapping of how a higher-level weakness (say “Improper Input Validation”) can manifest as different lower-level bug types in certain contexts. It likely introduces a model to reason from root causes to impacts. The intent is to aid tools and researchers: with a formal bug definition language, static analysis tools or formal methods can more precisely identify and categorize issues, and data analysts can better aggregate and compare vulnerability information across different sources. In essence, SP 800-231 is bringing scientific rigor to how we classify software flaws, which can improve communication (everyone uses terms the same way), allow for more automation in vulnerability management, and potentially help discover logical gaps in existing security coverage.
+  <details>
+    <summary>More info</summary>
+
+    * **Title:** NIST SP 800-231: Bug Framework (BF): Formalizing Cybersecurity Weaknesses and Vulnerabilities
+    * **URL:** https://csrc.nist.gov/pubs/sp/800/231/final
+    * **Publisher:** NIST
+    * **License:** ?
+    * **Type:** informal
+    * **Publication date:** 2024
+  </details>
+
+* [OpenChain ISO/IEC 18974 - Security Assurance](https://openchainproject.org/security-assurance) - ISO/IEC 18974:2023, also known as the OpenChain Security Assurance standard, defines the key requirements for establishing a quality open source software security assurance program. It is designed to help organizations systematically identify and address known vulnerabilities in the open source components they use (for example, by checking for CVEs and dependency alerts). The standard outlines where in the software supply chain security processes should be in place, how roles and responsibilities for security should be assigned, and how to sustain these processes over time. It is intended to be lightweight and accessible, with support from the OpenChain community (providing reference materials and self-certification checklists), so that organizations of all sizes can adopt it and certify that their open source handling meets a baseline of security trustworthiness.
+  <details>
+    <summary>More info</summary>
+
+    * **Title:** OpenChain ISO/IEC 18974 - Security Assurance
+    * **URL:** https://openchainproject.org/security-assurance
+    * **Publisher:** OpenChain/ISO
+    * **License:** CC-BY-4.0
+    * **Type:** 
+    * **Publication date:** 45261
+  </details>
+
+* [Patching and Updates Guidelines from Berkeley Information Security Office](https://security.berkeley.edu/MSSND/patching-and-updates-guidelines) - Published by the University of California, Berkeley’s Information Security Office, this guideline provides best practices for keeping systems and applications up to date with security patches. It stresses the importance of timely patching as a critical defense against exploits of known vulnerabilities. Key recommendations include maintaining an inventory of all IT assets to know what needs patching, categorizing updates by severity and applying critical security patches as soon as possible (ideally within a defined timeframe like 48-72 hours for high severity), and establishing a regular patch cycle for less urgent updates. The guidelines also suggest testing patches in a staging environment when feasible, having a rollback plan in case an update causes issues, and using automated management tools to deploy patches at scale across an organization’s devices. Additionally, the document might cover how to handle systems that can’t be patched (due to compatibility or support issues), such as isolating them or applying compensating controls. Overall, the Berkeley guidelines serve as a practical manual for IT teams to build a robust patch management process, which in turn reduces an organization’s exposure to known exploits.
+  <details>
+    <summary>More info</summary>
+
+    * **Title:** Patching and Updates Guidelines from Berkeley Information Security Office
+    * **URL:** https://security.berkeley.edu/MSSND/patching-and-updates-guidelines
+    * **Publisher:** UC Berkeley 
+    * **License:** 
+    * **Type:** informal
+    * **Publication date:** 
+  </details>
 
 ## 4. Compliance requirements
 
