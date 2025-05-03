@@ -11,9 +11,6 @@ _Note: the description of each resource has been generated using a large languag
   * [1.2 Secure design and secure coding principles][Section 1.2]
   * [1.3 Security processes and governance][Section 1.3]
 * [2. Generic Security Requirements][Section 2]
-  * [2.1 Security requirements and controls][Section 2.1]
-  * [2.2 Security Hardening Guidelines][Section 2.2]
-  * [2.3 Cryptography][Section 2.3]
 * [3. Vulnerability management][Section 3]
   * [3.1 SBOM and Supply chain assurance][Section 3.1]
   * [3.2 Vulnerability handling][Section 3.2]
@@ -351,14 +348,6 @@ This section contains references which are relevant to the requirements expresse
 > (l) provide security related information by recording and monitoring relevant internal activity, including the access to or modification of data, services or functions, with an opt-out mechanism for the user;\
 > (m) provide the possibility for users to securely and easily remove on a permanent basis all data and settings and, where such data can be transferred to other products or systems, ensure that this is done in a secure manner.
 
-The references are divided into three categories that cover the different aspects of adapting and implementing those requirements:
-
-* The references listed in [Section 2.1 Security requirements and controls][Section 2.1] provide best practices on selecting and refining the relevant security requirements for a specific product or component.
-* The references listed in [Section 2.2 Security Hardening Guidelines][Section 2.2] provide best practices hardening third-party components integrated into products.
-* The references listed in [Section 2.3 Cryptography][Section 2.3] provide best practices when implementing cryptography.
-
-### 2.1 Security requirements and controls
-
 * [Hardware Secure Boot](https://www.opencompute.org/documents/secure-boot-2-pdf) - This guide from the Open Compute Project (OCP) provides design requirements and recommendations for implementing secure boot in hardware systems (like servers or network devices). Secure boot is a mechanism where the system’s boot firmware (BIOS/UEFI or similar) will only execute code that is cryptographically signed by a trusted authority. The OCP guide likely details how to establish a root of trust in hardware (such as using a TPM or dedicated secure element to store cryptographic keys), how to sign bootloaders and OS kernels, and how the verification process should work at each stage of the boot chain. It may also discuss managing keys (for example, allowing owners to enroll their own keys or update keys securely) and handling firmware updates in a secure manner (ensuring updates are signed and verified). By adhering to this guide, manufacturers can ensure their devices are protected against low-level malware: even if an attacker has physical access or can alter the boot device, the system will refuse to run untrusted boot code, thus preventing persistent malware like rootkits from taking hold. In summary, the OCP Secure Boot Guide is a blueprint for building devices that only run authentic, untampered software from power-on through full system startup.
   <details>
     <summary>More info</summary>
@@ -395,9 +384,6 @@ The references are divided into three categories that cover the different aspect
     * **Publication date:** 
   </details>
 
-### 2.2 Security Hardening Guidelines
-
-### 2.3 Cryptography
  
 ## 3. Vulnerability management
 
@@ -1184,9 +1170,6 @@ LLM used: OpenAI ChatGPT 4.5 using "deep research".
 [Section 1.2]: #12-secure-design-and-secure-coding-principles
 [Section 1.3]: #13-security-processes-and-governance
 [Section 2]:   #2-generic-security-requirements
-[Section 2.1]: #21-security-requirements-and-controls
-[Section 2.2]: #22-security-hardening-guidelines
-[Section 2.3]: #23-cryptography
 [Section 3]:   #3-vulnerability-management
 [Section 3.1]: #31-sbom--supply-chain-assurance
 [Section 3.2]: #32-vulnerability-handling
