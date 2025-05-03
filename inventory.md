@@ -22,6 +22,7 @@ _Note: the description of each resource has been generated using a large languag
 * [5. Due diligence requirements][Section 5]
 * [6. Security attestations][Section 6]
 * [7. Similar legislation][Section 7]
+* [8. Other][Section 8]
 * [Acknowledgments][]
 * [Annex I - LLM Usage][LLM usage]
 
@@ -59,18 +60,6 @@ The impact on open source software stewards is limited to a partial obligation t
     * **Publisher:** Federal Office for Information Security (BSI), Germany
     * **License:** Not specified 
     * **Type:** Technical Guideline (draft regulatory standard)
-    * **Publication date:** 2024
-  </details>
-
-* [Cyber Resilience Act Compliance Guide for Open Source](https://code.inno3.eu/ouvert/guide-cra/-/raw/main/CNLL_inno3_Guide-CRA_VE_1.0.pdf) - This guide, put together by European open source advocacy groups, interprets the EU Cyber Resilience Act (CRA) through the lens of open source software development. The CRA will impose certain security and compliance requirements on “products with digital elements.” Many open source maintainers are concerned about how to meet these obligations. The guide likely breaks down the CRA’s key requirements – such as providing security support and updates for a product, having a vulnerability disclosure process, ensuring the software is developed following secure practices, and including technical documentation – and offers suggestions for open source projects to address them. It might recommend things like adopting an open source security best practices badge (to show development follows guidelines), publishing an SBOM for releases, clearly stating how users will be alerted to issues or updates, and possibly working with downstream distributors who can help fulfill CRA duties. It also may clarify which open source scenarios are out of scope of the CRA (for example, maybe software provided without commercial intent). In short, this compliance guide serves as a bridge to help the open source community understand and prepare for the new regulatory landscape under the CRA, aiming to ensure that open source can remain sustainable and trusted under these rules.
-  <details>
-    <summary>More info</summary>
-
-    * **Title:** Cyber Resilience Act Compliance Guide for Open Source
-    * **URL:** https://code.inno3.eu/ouvert/guide-cra/-/raw/main/CNLL_inno3_Guide-CRA_VE_1.0.pdf
-    * **Publisher:** inno³ and CNLL
-    * **License:** CC-by-SA 4.0
-    * **Type:** 
     * **Publication date:** 2024
   </details>
 
@@ -1020,7 +1009,19 @@ Impact on steward: `attestations`
     * **Publication date:** 
   </details>
 
-## 6. Other
+## 8. Other
+
+* [Cyber Resilience Act Compliance Guide for Open Source](https://code.inno3.eu/ouvert/guide-cra/-/raw/main/CNLL_inno3_Guide-CRA_VE_1.0.pdf) - This guide, put together by European open source advocacy groups, interprets the EU Cyber Resilience Act (CRA) through the lens of open source software development. The CRA will impose certain security and compliance requirements on “products with digital elements.” Many open source maintainers are concerned about how to meet these obligations. The guide likely breaks down the CRA’s key requirements – such as providing security support and updates for a product, having a vulnerability disclosure process, ensuring the software is developed following secure practices, and including technical documentation – and offers suggestions for open source projects to address them. It might recommend things like adopting an open source security best practices badge (to show development follows guidelines), publishing an SBOM for releases, clearly stating how users will be alerted to issues or updates, and possibly working with downstream distributors who can help fulfill CRA duties. It also may clarify which open source scenarios are out of scope of the CRA (for example, maybe software provided without commercial intent). In short, this compliance guide serves as a bridge to help the open source community understand and prepare for the new regulatory landscape under the CRA, aiming to ensure that open source can remain sustainable and trusted under these rules.
+  <details>
+    <summary>More info</summary>
+
+    * **Title:** Cyber Resilience Act Compliance Guide for Open Source
+    * **URL:** https://code.inno3.eu/ouvert/guide-cra/-/raw/main/CNLL_inno3_Guide-CRA_VE_1.0.pdf
+    * **Publisher:** inno³ and CNLL
+    * **License:** CC-by-SA 4.0
+    * **Type:** 
+    * **Publication date:** 2024
+  </details>
 
 * [Cyber Resilience Act Requirements Standards Mapping - Joint Research Centre & ENISA Joint Analysis](https://www.enisa.europa.eu/publications/cyber-resilience-act-requirements-standards-mapping) - This joint analysis report by the European Commission’s Joint Research Centre (JRC) and ENISA examines how existing cybersecurity standards relate to the requirements of the proposed Cyber Resilience Act (CRA). The CRA will impose certain security requirements on hardware and software products in the EU, and this report maps each specific CRA requirement (for example, on secure design, vulnerability handling, encryption, etc.) to one or more international or European standards that address that topic. The analysis identifies where suitable standards already exist (and could be used to comply with or demonstrate conformity to that CRA requirement) and where there are gaps (i.e. no current standard fully covers a particular requirement, indicating a need for further standardization). This mapping is valuable for industry and regulators: manufacturers can use it to figure out which standards or certifications might help them meet CRA obligations, and standards organizations can see where new work might be needed. Overall, the report serves as a bridge between the high-level legal requirements of the CRA and the practical technical standards that can fulfill them.
   <details>
@@ -1079,13 +1080,14 @@ LLM used: OpenAI ChatGPT 4.5 using "deep research".
 [Section 3.1]: #31-vulnerability-management-specifications-and-policy-templates
 [Section 3.2]: #32-existing-open-source-foundation-policies
 [Section 3.3]: #33-vulnerability-management-guidelines
-[Section 4]:  #4-sboms
+[Section 4]:   #4-sboms
 [Section 4.1]: #41-technical-specifications-for-sboms
 [Section 4.2]: #42-technical-specifications-for-software-identification
 [Section 4.3]: #43-sbom-implementation-guidelines
 [Section 5]:   #5-due-diligence-requirements
 [Section 6]:   #6-security-attestations
 [Section 7]:   #7-similar-legislation
+[Section 8]:   #other
 [Acknowledgments]: #acknowledgments
 [LLM usage]:   #annex-i---llm-usage
 
