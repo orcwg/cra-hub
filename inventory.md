@@ -49,7 +49,7 @@ This section contains references which are relevant to the requirements expresse
 
 > Products with digital elements shall be designed, developed and produced in such a way that they ensure an appropriate level of cybersecurity based on the risks.
 
-The impact on open source software stewards is limited to a partial obligation to "foster development of secure product" expressined in [Article 24(1)][Article 24].
+The impact on open source software stewards is limited to a partial obligation to "foster development of secure product" expressed in [Article 24(1)][Article 24].
 
 * [BSI Technical Guideline TR-03183: Cyber Resilience Requirements for Manufacturers and Products - Part 1: General requirements](https://www.bsi.bund.de/SharedDocs/Downloads/EN/BSI/Publications/TechGuidelines/TR03183/BSI-TR-03183-1-0_9_0.pdf?__blob=publicationFile&v=4) - The [Technical Guideline TR-03183](https://www.bsi.bund.de/dok/TR-03183-en) from Germany’s BSI delineates a set of cyber resilience requirements for manufacturers and product, aligned with the EU’s upcoming Cyber Resilience Act (CRA). The guideline translates the CRA’s regulatory expectations into concrete technical criteria and practices. By providing this framework in advance of the CRA’s full enforcement, the document helps industry stakeholders bolster software security and compliance, ensuring that products with digital elements are developed and maintained in line with emerging European cybersecurity standards. Part 1 focuses on the general requirements of the CRA (e.g. applying a risk-based approach and securing the software development lifecycle).
   <details>
