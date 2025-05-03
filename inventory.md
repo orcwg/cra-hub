@@ -37,120 +37,16 @@ Standards request ref: 15\
 Impact on steward: `obligation`
 
 
-
-
-## Horizontal Type B Standards (due October 30, 2027)
-
-### Making products with digital elements available on the market without known exploitable vulnerabilities
-
-CRA ref: [Annex I, Part I, point (2)(a)][Annex I]\
-Standards request ref: 2\
-Impact on steward: `attestations`
-
-### Making products with digital elements available on the market with a secure by default configuration
-
-CRA ref: [Annex I, Part I, point (2)(b)][Annex I]\
-Standards request ref: 3\
-Impact on steward: `attestations`
-
-
-
-### Ensuring that vulnerabilities in products with digital elements can be addressed through security updates
-
-CRA ref: [Annex I, Part I, point (2)(c)][Annex I]\
-Standards request ref: 4\
-Impact on steward: `attestations`
-
-
-
-### Ensuring protection of products with digital elements from unauthorised access and reporting on possible unauthorised access
-
-CRA ref: [Annex I, Part I, point (2)(d)][Annex I]\
-Standards request ref: 5\
-Impact on steward: `attestations`
-
-
-
-### Protecting the confidentiality of data stored, transmitted or otherwise processed by a product with digital elements
-
-CRA ref: [Annex I, Part I, point (2)(e)][Annex I]\
-Standards request ref: 6\
-Impact on steward: `attestations`
-
-
-
-### Protecting the integrity of data, commands, programs by a product with digital elements, and its configuration against any manipulation or modification not authorised by the user, as well as reporting on corruptions
-
-CRA ref: [Annex I, Part I, point (2)(f)][Annex I]\
-Standards request ref: 7\
-Impact on steward: `attestations`
-
-
-
-### Processing only personal or other data that are adequate, relevant and limited to what is necessary in relation to the intended purpose of the product with digital elements (‘minimisation of data’)
-
-CRA ref: [Annex I, Part I, point (2)(g)][Annex I]\
-Standards request ref: 8\
-Impact on steward: `attestations`
-
-
-
-### Protecting the availability of essential and basic functions of the product with digital elements
-
-CRA ref: [Annex I, Part I, point (2)(h)][Annex I]\
-Standards request ref: 9\
-Impact on steward: `attestations`
-
-
-
-### Minimising the negative impact of a product with digital elements or its connected devices on the availability of services provided by other devices or networks
-
-CRA ref: [Annex I, Part I, point (2)(i)][Annex I]\
-Standards request ref: 10\
-Impact on steward: `attestations`
-
-
-
-### Designing, developing and producing products with digital elements with limitted attack surfaces
-
-CRA ref: [Annex I, Part I, point (2)(j)][Annex I]\
-Standards request ref: 11\
-Impact on steward: `attestations`
-
-
-
-### Designing, developing and producing products with digital elements that reduce the impact of an incident using appropriate exploitation mitigation mechanisms and techniques
-
-CRA ref: [Annex I, Part I, point (2)(k)][Annex I]\
-Standards request ref: 12\
-Impact on steward: `attestations`
-
-
-
-### Providing security related information by recording and/or monitoring relevant internal activity of products with digital elements with an opt-out mechanism for the user
-
-CRA ref: [Annex I, Part I, point (2)(l)][Annex I]\
-Standards request ref: 13\
-Impact on steward: `attestations`
-
-
-
-### Securely and easily removing or transferring all data and settings of a product with digital elements
-
-CRA ref: [Annex I, Part I, point (2)(m)][Annex I]\
-Standards request ref: 14\
-Impact on steward: `attestations`
 -->
 
 
 ## 1. Principles of security resilience
 
-This section contains references which are relevant to the requirements expressed in [Annex I, Part I, point (1)][Annex I] of the CRA:
+This section contains references which are relevant to the requirements expressed in [Annex I, Part I, point (1)][Annex I] of the CRA. It corresponds to the [horizontal standards number 1][Horizontal standards] of the European Commission's  standardisation request to the ESOs:
 
 > Products with digital elements shall be designed, developed and produced in such a way that they ensure an appropriate level of cybersecurity based on the risks.
 
-Standards request ref: [1][Horizontal standards] (Horizontal Type A Standard due August 30, 2026)\
-Impact on steward: `Partial obligation` ("foster development of secure product", [Article 24(1)][Article 24])
+The impact on open source software stewards is limited to a partial obligation to "foster development of secure product" expressined in [Article 24(1)][Article 24].
 
 * [BSI Technical Guideline TR-03183: Cyber Resilience Requirements for Manufacturers and Products - Part 1: General requirements](https://www.bsi.bund.de/SharedDocs/Downloads/EN/BSI/Publications/TechGuidelines/TR03183/BSI-TR-03183-1-0_9_0.pdf?__blob=publicationFile&v=4) - The [Technical Guideline TR-03183](https://www.bsi.bund.de/dok/TR-03183-en) from Germany’s BSI delineates a set of cyber resilience requirements for manufacturers and product, aligned with the EU’s upcoming Cyber Resilience Act (CRA). The guideline translates the CRA’s regulatory expectations into concrete technical criteria and practices. By providing this framework in advance of the CRA’s full enforcement, the document helps industry stakeholders bolster software security and compliance, ensuring that products with digital elements are developed and maintained in line with emerging European cybersecurity standards. Part 1 focuses on the general requirements of the CRA (e.g. applying a risk-based approach and securing the software development lifecycle).
   <details>
@@ -330,7 +226,7 @@ Impact on steward: `Partial obligation` ("foster development of secure product",
 
 ## 2. Generic Security Requirements
 
-This section contains references which are relevant to the requirements expressed in [Annex I, Part I, point (2)][Annex I] of the CRA:
+This section contains references which are relevant to the requirements expressed in [Annex I, Part I, point (2)][Annex I] of the CRA. It corresponds to the [horizontal type "B" standards number 2 to 14][Type B standards] of the European Commission's  standardisation request to the ESOs.
 
 > On the basis of the cybersecurity risk assessment referred to in Article 13(2) and where applicable, products with digital elements shall:
 > 
@@ -348,8 +244,7 @@ This section contains references which are relevant to the requirements expresse
 > (l) provide security related information by recording and monitoring relevant internal activity, including the access to or modification of data, services or functions, with an opt-out mechanism for the user;\
 > (m) provide the possibility for users to securely and easily remove on a permanent basis all data and settings and, where such data can be transferred to other products or systems, ensure that this is done in a secure manner.
 
-> [!Note]
-> These requirements do not apply open source software stewards. However, per [Article 25][] of the CRA, stewards (as well as developers and users of open source software and other third parties) may participate in voluntary security attestation programmes that assess the conformity of their software to some or all of these requirements.
+These requirements do not apply open source software stewards. However, per [Article 25][] of the CRA, stewards (as well as developers and users of open source software and other third parties) may participate in voluntary security attestation programmes that assess the conformity of their software to some or all of these requirements.
 
 * [Hardware Secure Boot](https://www.opencompute.org/documents/secure-boot-2-pdf) - This guide from the Open Compute Project (OCP) provides design requirements and recommendations for implementing secure boot in hardware systems (like servers or network devices). Secure boot is a mechanism where the system’s boot firmware (BIOS/UEFI or similar) will only execute code that is cryptographically signed by a trusted authority. The OCP guide likely details how to establish a root of trust in hardware (such as using a TPM or dedicated secure element to store cryptographic keys), how to sign bootloaders and OS kernels, and how the verification process should work at each stage of the boot chain. It may also discuss managing keys (for example, allowing owners to enroll their own keys or update keys securely) and handling firmware updates in a secure manner (ensuring updates are signed and verified). By adhering to this guide, manufacturers can ensure their devices are protected against low-level malware: even if an attacker has physical access or can alter the boot device, the system will refuse to run untrusted boot code, thus preventing persistent malware like rootkits from taking hold. In summary, the OCP Secure Boot Guide is a blueprint for building devices that only run authentic, untampered software from power-on through full system startup.
   <details>
