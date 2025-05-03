@@ -26,26 +26,9 @@ _Note: the description of each resource has been generated using a large languag
 * [Acknowledgments][]
 * [Annex I - LLM Usage][LLM usage]
 
-<!--
-## Horizontal Type A Standards (due August 30, 2026)
-
-###
-
-
-
-### Vulnerability handling for products with digital elements
-
-CRA ref: [Annex I, Part II][Annex I]\
-Standards request ref: 15\
-Impact on steward: `obligation`
-
-
--->
-
-
 ## 1. Principles of security resilience
 
-This section contains references which are relevant to the requirements expressed in [Annex I, Part I, point (1)][Annex I] of the CRA. It corresponds to the [horizontal type "A" standard number 1][Horizontal standards] of the European Commission's  standardisation request to the ESOs:
+This section contains references which are relevant to the requirements expressed in [Annex I, Part I(1)][Annex I] of the CRA. It corresponds to the [horizontal type "A" standard number 1][Horizontal standards] of the European Commission's standardisation request to the ESOs:
 
 > Products with digital elements shall be designed, developed and produced in such a way that they ensure an appropriate level of cybersecurity based on the risks.
 
@@ -229,7 +212,7 @@ The impact on open source software stewards is limited to a partial obligation t
 
 ## 2. Generic Security Requirements
 
-This section contains references which are relevant to the requirements expressed in [Annex I, Part I, point (2)][Annex I] of the CRA. It corresponds to the [horizontal type "B" standards number 2 to 14][Type B standards] of the European Commission's  standardisation request to the ESOs.
+This section contains references which are relevant to the requirements expressed in [Annex I, Part I(2)][Annex I] of the CRA. It corresponds to the [horizontal type "B" standards number 2 to 14][Type B standards] of the European Commission's standardisation request to the ESOs.
 
 > On the basis of the cybersecurity risk assessment referred to in Article 13(2) and where applicable, products with digital elements shall:
 > 
@@ -287,13 +270,26 @@ These requirements do not apply open source software stewards. However, per [Art
 
 ## 3. Vulnerability Management
 
+This section contains references which are relevant to:
+
+1. The requirements expressed in [Annex I, Part II][Annex I] of the CRA. This corresponds to the [horizontal type "B" standard number 15][Horizontal standards] of the European Commission's standardisation request to the ESOs:
+  
+  > Manufacturers of products with digital elements shall:
+  > (1) identify and document vulnerabilities and components contained in products with digital elements, including by drawing up a software bill of materials in a commonly used and machine-readable format covering at the very least the top-level dependencies of the products;\
+  > (2) in relation to the risks posed to products with digital elements, address and remediate vulnerabilities without delay, including by providing security updates; where technically feasible, new security updates shall be provided separately from functionality updates;\
+  > (3) apply effective and regular tests and reviews of the security of the product with digital elements;\
+  > (4) once a security update has been made available, share and publicly disclose information about fixed vulnerabilities, including a description of the vulnerabilities, information allowing users to identify the product with digital elements affected, the impacts of the vulnerabilities, their severity and clear and accessible information helping users to remediate the vulnerabilities; in duly justified cases, where manufacturers consider the security risks of publication to outweigh the security benefits, they may delay making public information regarding a fixed vulnerability until after users have been given the possibility to apply the relevant patch;\
+  > (5) put in place and enforce a policy on coordinated vulnerability disclosure;\
+  > (6) take measures to facilitate the sharing of information about potential vulnerabilities in their product with digital elements as well as in third-party components contained in that product, including by providing a contact address for the reporting of the vulnerabilities discovered in the product with digital elements;\
+  > (7) provide for mechanisms to securely distribute updates for products with digital elements to ensure that vulnerabilities are fixed or mitigated in a timely manner and, where applicable for security updates, in an automatic manner;\
+  > (8) ensure that, where security updates are available to address identified security issues, they are disseminated without delay and, unless otherwise agreed between a manufacturer and a business user in relation to a tailor-made product with digital elements, free of charge, accompanied by advisory messages providing users with the relevant information, including on potential action to be taken.
+
+2. The requirement for open source software stewards to "put in place and document a cybersecurity policy" expressed in [Article 24(1)][24] of the CRA. It has no corresponding standard request in the [European Commission's standardisation request to the ESOs][ESO request].
+  
+  > \1. Open-source software stewards shall put in place and document in a verifiable manner a cybersecurity policy to foster the development of a secure product with digital elements as well as an effective handling of vulnerabilities by the developers of that product. That policy shall also foster the voluntary reporting of vulnerabilities as laid down in Article 15 by the developers of that product and take into account the specific nature of the open-source software steward and the legal and organisational arrangements to which it is subject. That policy shall, in particular, include aspects related to documenting, addressing and remediating vulnerabilities and promote the sharing of information concerning discovered vulnerabilities within the open-source community.
+
+
 ### 3.1 Vulnerability management specifications and policy templates
-
-Open Source Steward Cybersecurity policy
-
-CRA ref: [Article 24(1)][Article 24]\
-Standards request ref: N/A\
-Impact on steward: `obligation`
 
 * [OpenSSF Security Policy Templates](https://github.com/ossf/oss-vulnerability-guide/tree/main/templates/security_policies) - This resource is a collection of security policy templates provided by the Open Source Security Foundation’s Open Source Software Vulnerability Guide project to help open source maintainers create robust security policies for their projects. The templates include ready-made text and structure for documents like a project’s security policy or “SECURITY.md,” vulnerability reporting guidelines, and coordinated disclosure procedures, all of which maintainers can adapt to their specific needs. By offering standardized language covering aspects such as how to report vulnerabilities, expected response times, and how fixes and advisories will be communicated, these templates lower the barrier for projects to implement best practices in vulnerability management and communication. They are directly relevant to improving open source software resilience and assist projects in meeting expectations set by users and regulations (for instance, the EU Cyber Resilience Act’s call for clear vulnerability disclosure policies), ensuring that even smaller projects can align with industry standards in security process documentation.
   <details>
@@ -570,8 +566,12 @@ Impact on steward: `obligation`
     * **Publication date:** 
   </details>
 
-
 ## 4. SBOM
+
+This section contains references which are relevant to the requirements expressed in [Annex I, Part II(1)][Annex I] of the CRA. It corresponds to the [horizontal type "B" standard number 15][Horizontal standards] of the European Commission's standardisation request to the ESOs:
+
+> Manufacturers of products with digital elements shall:
+> (1) identify and document vulnerabilities and components contained in products with digital elements, including by drawing up a software bill of materials in a commonly used and machine-readable format covering at the very least the top-level dependencies of the products;
 
 ### 4.1 Technical specifications for SBOMs
 
@@ -727,9 +727,9 @@ Impact on steward: `obligation`
  
 ### 5. Due diligence requirements
 
-CRA ref: [Article 13(5)][Article 13]\
-Standards request ref: N/A\
-Impact on steward: `attestations`
+This section contains references which are relevant to the requirement to "exercise due diligence" expressed in [Article 13(5)][Article 13] of the CRA. It has no corresponding standard request in the [European Commission's standardisation request to the ESOs][ESO request].
+
+> 5. For the purpose of complying with paragraph 1, manufacturers shall exercise due diligence when integrating components sourced from third parties so that those components do not compromise the cybersecurity of the product with digital elements, including when integrating components of free and open-source software that have not been made available on the market in the course of a commercial activity.
 
 * [CISA Software Acquisition Guide](https://cisa.gov/sag) - The U.S. CISA Software Acquisition Guide provides practical guidance to government agencies (and large enterprises) on how to incorporate security considerations into the procurement of software. It outlines how buyers should define security requirements in RFPs/contracts – such as requiring vendors to follow secure development standards (like the NIST SSDF), provide artifacts like SBOMs and vulnerability disclosure policies, and agree to notify and patch if vulnerabilities are found. It also advises on evaluating supplier risk (e.g. checking if the vendor has had frequent security issues historically or if they have certified processes like ISO 27001). The guide suggests structuring the vendor selection process to include security questionnaires or assessments and to prefer vendors who can demonstrate secure-by-design approaches (perhaps via certifications or past performance). Additionally, it covers how to handle acquired software: establishing processes for incoming SBOM analysis, periodic re-scans for vulnerabilities in the product, and ensuring maintenance contracts cover security updates. By following this guide, procurement officers and risk managers can make more informed decisions, selecting products that not only meet functionality needs but also contribute positively to the organization’s security posture, thereby using market forces to encourage vendors to deliver safer software.
   <details>
@@ -783,9 +783,9 @@ Impact on steward: `attestations`
 
 ### 6. Security attestations
 
-CRA ref: [Article 25][]\
-Standards request ref: N/A\
-Impact on steward: `attestations`
+This section contains references which are relevant to the "security attestation of free and open-source software" described in [Article 25][Article 25] of the CRA. It has no corresponding standard request in the [European Commission's standardisation request to the ESOs][ESO request].
+
+> In order to facilitate the due diligence obligation set out in Article 13(5), in particular as regards manufacturers that integrate free and open-source software components in their products with digital elements, the Commission is empowered to adopt delegated acts in accordance with Article 61 to supplement this Regulation by establishing voluntary security attestation programmes allowing the developers or users of products with digital elements qualifying as free and open-source software as well as other third parties to assess the conformity of such products with all or certain essential cybersecurity requirements or other obligations laid down in this Regulation.
 
 * [Authoritative Guide to Attestations](https://cyclonedx.org/guides/OWASP_CycloneDX-Authoritative-Guide-to-Attestations-en.pdf) - This guide provides organizations with a framework for digitally transforming their audit and attestation workflows using standardized, machine-readable attestations. An attestation in this context is a cryptographically signed statement about some aspect of a software product or process (for example, an attestation that a product was built in a secure environment or complies with certain standards). The guide explains how to create and use such attestations, leveraging the CycloneDX format, to document compliance or security assurances in an automated way. By following the guide, organizations can move away from purely manual audit statements and instead generate verifiable digital evidence of their security practices, making it easier to trust and verify software in supply chains or regulatory contexts.
   <details>
@@ -862,6 +862,8 @@ Impact on steward: `attestations`
 
 
 ## 7. Similar legislation
+
+This section contains references to legislation that is similar or related to the CRA. It is organized by country.
 
 ### Australia
 
@@ -1100,6 +1102,7 @@ OpenAI ChatGPT 4.5 using "deep research".
 [Article 24]: https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=OJ:L_202402847#art_24
 [Article 25]: https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=OJ:L_202402847#art_25
 
+[ESO request]: https://github.com/orcwg/cra-hub/blob/main/standards.md
 [Horizontal standards]: https://github.com/orcwg/cra-hub/blob/main/standards.md#milestone-1---horizontal-standards-due-august-30-2026
 [Vertical standards]: https://github.com/orcwg/cra-hub/blob/main/standards.md#milestone-2---vertical-standards-due-october-30-2026
 [Type B standards]: https://github.com/orcwg/cra-hub/blob/main/standards.md#milestone-3---horizontal-standards-due-october-30-2027
