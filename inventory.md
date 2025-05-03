@@ -430,8 +430,6 @@ TODO: add description of section. Possibly breakdown section a little more.
     * **Publication date:** June 2024 (version 1.0)
   </details>
 
-* [CISA Software Acquisition Guide](https://cisa.gov/sag) - _See full description in [Section 4.2 Due diligence requirements][Section 4.2]._
-  
 * [IETF SCITT](https://datatracker.ietf.org/doc/draft-ietf-scitt-software-use-cases/) - The IETF’s SCITT working group is developing a set of protocols to enable a trustworthy ledger of software supply chain events (like signing, transferring, and auditing software components). The linked document on software use cases describes scenarios where organizations need a verifiable record of actions in the supply chain. For example, one use case might be tracking the provenance of a piece of code: a developer commits code and signs it, a build service records that it built a binary from specific source, a scanner logs that it scanned the binary for vulnerabilities, etc. SCITT envisions a tamper-evident ledger (possibly blockchain-like or using transparency logs) where each of these actions is recorded by actors with cryptographic signatures. The use case document illustrates how this can help – for instance, a consumer of software can query the ledger to see if a given software package version has a recorded build attestation and security scan results before trusting it. Another use case could involve regulatory compliance: proving to an auditor that every software component in a device went through certain security checks. By enumerating such cases, the document guides the design of the SCITT architecture to ensure it meets real-world needs. In essence, SCITT’s use cases highlight the forthcoming ability to establish a chain of trust for software artifacts through standardized evidence, improving the integrity and transparency of the software supply chain.
   <details>
     <summary>More info</summary>
@@ -444,7 +442,7 @@ TODO: add description of section. Possibly breakdown section a little more.
     * **Publication date:** DRAFT 2024
   </details>
 
-* [ISO/IEC 5962:2021](https://www.iso.org/standard/81870.html) - ISO/IEC 5962:2021 is the international standardization of the Software Package Data Exchange (SPDX) format as a norm for Software Bill of Materials. SPDX originated as a Linux Foundation project to describe the components and licenses in software, and it was brought into ISO to encourage global adoption. The standard defines how to list all pieces of software (open-source libraries, proprietary modules, etc.), along with metadata like their versions, checksums, licenses, and relationships, in a structured document. Using ISO 5962 (SPDX), organizations can share SBOMs across organizational and tool boundaries with confidence that everyone interprets the content the same way. This promotes transparency in software supply chains, helps with automated license compliance checks, and aids vulnerability management (by quickly identifying if a product contains a component with a known CVE). SPDX as an ISO standard underscores its maturity and the importance of SBOMs in modern cybersecurity and compliance workflows.
+* [Software Package Data Exchange (SPDX) ISO/IEC 5962:2021](https://www.iso.org/standard/81870.html) - ISO/IEC 5962:2021 is the international standardization of the Software Package Data Exchange (SPDX) format as a norm for Software Bill of Materials. SPDX originated as a Linux Foundation project to describe the components and licenses in software, and it was brought into ISO to encourage global adoption. The standard defines how to list all pieces of software (open-source libraries, proprietary modules, etc.), along with metadata like their versions, checksums, licenses, and relationships, in a structured document. Using ISO 5962 (SPDX), organizations can share SBOMs across organizational and tool boundaries with confidence that everyone interprets the content the same way. This promotes transparency in software supply chains, helps with automated license compliance checks, and aids vulnerability management (by quickly identifying if a product contains a component with a known CVE). SPDX as an ISO standard underscores its maturity and the importance of SBOMs in modern cybersecurity and compliance workflows.
   <details>
     <summary>More info</summary>
 
@@ -492,18 +490,6 @@ TODO: add description of section. Possibly breakdown section a little more.
     * **Publication date:** 2021
   </details>
 
-* [NASA procurement practices and process](https://www.nasa.gov/secure-software-development-self-attestation-resources-and-knowledge/) - In response to federal requirements (stemming from Executive Order 14028) that government agencies only use software following secure development practices, NASA has instituted a process where software suppliers must self-attest to their security. NASA’s public resources for this include guidance and forms for vendors. Essentially, a contractor providing software to NASA needs to review their own software development processes against criteria (largely drawn from NIST’s Secure Software Development Framework and related guidance) and then sign a statement confirming they comply. The NASA site likely provides a checklist or template covering topics like: does the vendor conduct threat modeling? Do they run static code analysis? How do they manage third-party component vulnerabilities? etc. It might also have educational material to help suppliers understand what practices are expected. By implementing this attestation process, NASA ensures its contractors are consciously evaluating and improving their security postures. This ultimately reduces risk in NASA’s supply chain—only software built with a baseline of security best practices should be running in NASA environments—and it reinforces industry adoption of secure development norms.
-  <details>
-    <summary>More info</summary>
-
-    * **Title:** US NASA procurement practices and process
-    * **URL:** https://www.nasa.gov/secure-software-development-self-attestation-resources-and-knowledge/
-    * **Publisher:** NASA
-    * **License:** 
-    * **Type:** 
-    * **Publication date:** 2024
-  </details>
-
 * [SLSA Supply Chain Levels for Software Artifacts](https://github.com/slsa-framework/slsa) - SLSA (pronounced “salsa”) is a security framework for improving software supply chain integrity, created by a consortium of industry leaders. It defines a maturity model with four levels that software producers can achieve, each level adding more advanced supply chain protections. At Level 1, basic requirements like using version control and build scripts are in place. By Level 2, tamper-evident builds are required (e.g. generating provenance metadata). Level 3 mandates trusted, verifiable builds (such as using a dedicated, isolated build service to prevent interference), and Level 4 involves the highest assurances including two-party review of all changes and a hermetic, reproducible build process. The framework is documented openly (on GitHub) and provides specifications for how to produce attestations (metadata) that a build meets a certain SLSA level. The purpose of SLSA is to thwart supply chain attacks (like code tampering, compromised dependencies, etc.) by incrementally hardening the build and release process. Organizations can adopt SLSA guidelines to progressively make their software build pipelines more secure, and customers can eventually prefer software that comes with SLSA provenance, indicating it was built under strict controls.
   <details>
     <summary>More info</summary>
@@ -527,7 +513,19 @@ TODO: add description of section. Possibly breakdown section a little more.
     * **Type:** Technical report (survey & policy recommendations)
     * **Publication date:** 2025
   </details>
-  
+
+* [Software Package Data Exchange (SPDX) ISO/IEC 5962:2021](https://www.iso.org/standard/81870.html) - ISO/IEC 5962:2021 is the international standardization of the Software Package Data Exchange (SPDX) format as a norm for Software Bill of Materials. SPDX originated as a Linux Foundation project to describe the components and licenses in software, and it was brought into ISO to encourage global adoption. The standard defines how to list all pieces of software (open-source libraries, proprietary modules, etc.), along with metadata like their versions, checksums, licenses, and relationships, in a structured document. Using ISO 5962 (SPDX), organizations can share SBOMs across organizational and tool boundaries with confidence that everyone interprets the content the same way. This promotes transparency in software supply chains, helps with automated license compliance checks, and aids vulnerability management (by quickly identifying if a product contains a component with a known CVE). SPDX as an ISO standard underscores its maturity and the importance of SBOMs in modern cybersecurity and compliance workflows.
+  <details>
+    <summary>More info</summary>
+
+    * **Title:** ISO/IEC 5962:2021
+    * **URL:** https://www.iso.org/standard/81870.html
+    * **Publisher:** ISO
+    * **License:** ?
+    * **Type:** Formal
+    * **Publication date:** August 2021 (Version 1.0)
+  </details>
+
 * [Technical guidelines on SBOMs from CERT-In](https://www.cert-in.org.in/PDF/SBOM_Guidelines.pdf) - In October 2024, the Indian Computer Emergency Response Team (CERT-In) released a set of technical guidelines on Software Bill of Materials (SBOM) for organizations in the public sector and critical industries. This document underscores the value of SBOMs as a tool for transparency in software supply chains and provides recommendations for how to generate and maintain SBOMs. It outlines processes and best practices for implementing SBOMs – such as what component information should be included (name, version, supplier, known vulnerabilities, etc.) – and offers guidance on integrating SBOM use into procurement and risk management. The goal of these guidelines is to ensure that Indian government agencies and essential service providers adopt SBOM practices to enhance software security and resilience, in line with global trends and regulatory expectations.
   <details>
     <summary>More info</summary>
@@ -902,6 +900,19 @@ Impact on steward: `attestations`
     * **License:** CC-BY-4.0
     * **Type:** 
     * **Publication date:** 2023 – present
+  </details>
+
+
+* [NASA procurement practices and process](https://www.nasa.gov/secure-software-development-self-attestation-resources-and-knowledge/) - In response to federal requirements (stemming from Executive Order 14028) that government agencies only use software following secure development practices, NASA has instituted a process where software suppliers must self-attest to their security. NASA’s public resources for this include guidance and forms for vendors. Essentially, a contractor providing software to NASA needs to review their own software development processes against criteria (largely drawn from NIST’s Secure Software Development Framework and related guidance) and then sign a statement confirming they comply. The NASA site likely provides a checklist or template covering topics like: does the vendor conduct threat modeling? Do they run static code analysis? How do they manage third-party component vulnerabilities? etc. It might also have educational material to help suppliers understand what practices are expected. By implementing this attestation process, NASA ensures its contractors are consciously evaluating and improving their security postures. This ultimately reduces risk in NASA’s supply chain—only software built with a baseline of security best practices should be running in NASA environments—and it reinforces industry adoption of secure development norms.
+  <details>
+    <summary>More info</summary>
+
+    * **Title:** US NASA procurement practices and process
+    * **URL:** https://www.nasa.gov/secure-software-development-self-attestation-resources-and-knowledge/
+    * **Publisher:** NASA
+    * **License:** 
+    * **Type:** 
+    * **Publication date:** 2024
   </details>
 
 ### 4.3 Security attestations
