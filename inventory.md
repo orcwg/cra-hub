@@ -42,7 +42,7 @@ Impact on steward: `obligation`
 
 ## 1. Principles of security resilience
 
-This section contains references which are relevant to the requirements expressed in [Annex I, Part I, point (1)][Annex I] of the CRA. It corresponds to the [horizontal standards number 1][Horizontal standards] of the European Commission's  standardisation request to the ESOs:
+This section contains references which are relevant to the requirements expressed in [Annex I, Part I, point (1)][Annex I] of the CRA. It corresponds to the [horizontal type "A" standard number 1][Horizontal standards] of the European Commission's  standardisation request to the ESOs:
 
 > Products with digital elements shall be designed, developed and produced in such a way that they ensure an appropriate level of cybersecurity based on the risks.
 
