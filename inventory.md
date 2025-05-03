@@ -274,7 +274,7 @@ This section contains references which are relevant to:
 
 1. The requirements expressed in [Annex I, Part II][Annex I] of the CRA. This corresponds to the [horizontal type "B" standard number 15][Horizontal standards] of the European Commission's standardisation request to the ESOs:
     
-    > Manufacturers of products with digital elements shall:
+    > Manufacturers of products with digital elements shall:\
     > (1) identify and document vulnerabilities and components contained in products with digital elements, including by drawing up a software bill of materials in a commonly used and machine-readable format covering at the very least the top-level dependencies of the products;\
     > (2) in relation to the risks posed to products with digital elements, address and remediate vulnerabilities without delay, including by providing security updates; where technically feasible, new security updates shall be provided separately from functionality updates;\
     > (3) apply effective and regular tests and reviews of the security of the product with digital elements;\
@@ -286,7 +286,7 @@ This section contains references which are relevant to:
 
 2. The requirement for open source software stewards to "put in place and document a cybersecurity policy" expressed in [Article 24(1)][Article 24] of the CRA. It has no corresponding standard request in the [European Commission's standardisation request to the ESOs][ESO request].
     
-    > 1. Open-source software stewards shall put in place and document in a verifiable manner a cybersecurity policy to foster the development of a secure product with digital elements as well as an effective handling of vulnerabilities by the developers of that product. That policy shall also foster the voluntary reporting of vulnerabilities as laid down in Article 15 by the developers of that product and take into account the specific nature of the open-source software steward and the legal and organisational arrangements to which it is subject. That policy shall, in particular, include aspects related to documenting, addressing and remediating vulnerabilities and promote the sharing of information concerning discovered vulnerabilities within the open-source community.
+    > 1\. Open-source software stewards shall put in place and document in a verifiable manner a cybersecurity policy to foster the development of a secure product with digital elements as well as an effective handling of vulnerabilities by the developers of that product. That policy shall also foster the voluntary reporting of vulnerabilities as laid down in Article 15 by the developers of that product and take into account the specific nature of the open-source software steward and the legal and organisational arrangements to which it is subject. That policy shall, in particular, include aspects related to documenting, addressing and remediating vulnerabilities and promote the sharing of information concerning discovered vulnerabilities within the open-source community.
 
 
 ### 3.1 Vulnerability management specifications and policy templates
