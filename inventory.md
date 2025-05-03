@@ -155,15 +155,15 @@ This section contains references which are relevant to the requirements expresse
 Standards request ref: [1][Horizontal standards] (Horizontal Type A Standard due August 30, 2026)\
 Impact on steward: `Partial obligation` ("foster development of secure product", [Article 24(1)][Article 24])
 
-* [BSI TR-03183: Cyber Resilience Requirements for Manufacturers and Products](https://www.bsi.bund.de/EN/Themen/Unternehmen-und-Organisationen/Standards-und-Zertifizierung/Technische-Richtlinien/TR-nach-Thema-sortiert/tr03183/TR-03183_node.html) - This is a German Federal Office for Information Security (BSI) guideline adopted in 2023 to prepare manufacturers for the EU Cyber Resilience Act. It provides detailed requirements and recommendations for product cybersecurity, essentially translating upcoming regulatory expectations into actionable criteria. TR-03183 is divided into parts; Part 1 covers general cyber resilience requirements (e.g. taking a risk-based approach to product security, ensuring secure software development and lifecycle, establishing a vulnerability handling process), and Part 2 focuses specifically on Software Bill of Materials (SBOM) and related transparency measures. The guideline likely also has parts on secure update mechanisms and incident reporting. By following TR-03183, device and software manufacturers can implement baseline security controls (like strong authentication, encryption for data in transit/storage, integrity protections, etc.) and produce artifacts (such as an SBOM) that demonstrate compliance. It effectively serves as an early blueprint for CRA compliance in Germany, giving industry a head-start on meeting those future legal obligations by voluntarily aligning with the technical measures BSI recommends.
+* [BSI Technical Guideline TR-03183: Cyber Resilience Requirements for Manufacturers and Products - Part 1: General requirements](https://www.bsi.bund.de/SharedDocs/Downloads/EN/BSI/Publications/TechGuidelines/TR03183/BSI-TR-03183-1-0_9_0.pdf?__blob=publicationFile&v=4) - The [Technical Guideline TR-03183](https://www.bsi.bund.de/dok/TR-03183-en) from Germany’s BSI delineates a set of cyber resilience requirements for manufacturers and product, aligned with the EU’s upcoming Cyber Resilience Act (CRA). The guideline translates the CRA’s regulatory expectations into concrete technical criteria and practices. By providing this framework in advance of the CRA’s full enforcement, the document helps industry stakeholders bolster software security and compliance, ensuring that products with digital elements are developed and maintained in line with emerging European cybersecurity standards. Part 1 focuses on the general requirements of the CRA (e.g. applying a risk-based approach and securing the software development lifecycle).
   <details>
     <summary>More info</summary>
 
-    * **Title:** BSI TR-03183: Cyber Resilience Requirements for Manufacturers and Products
-    * **URL:** https://www.bsi.bund.de/EN/Themen/Unternehmen-und-Organisationen/Standards-und-Zertifizierung/Technische-Richtlinien/TR-nach-Thema-sortiert/tr03183/TR-03183_node.html
-    * **Publisher:** BSI
-    * **License:** 
-    * **Type:** Formal
+    * **Title:** Technical Guideline TR-03183: Cyber Resilience Requirements for Manufacturers and Products - Part 1: General requirements
+    * **URL:** https://www.bsi.bund.de/SharedDocs/Downloads/EN/BSI/Publications/TechGuidelines/TR03183/BSI-TR-03183-1-0_9_0.pdf?__blob=publicationFile&v=4
+    * **Publisher:** Federal Office for Information Security (BSI), Germany
+    * **License:** Not specified 
+    * **Type:** Technical Guideline (draft regulatory standard)
     * **Publication date:** 2024
   </details>
 
@@ -401,26 +401,22 @@ The references are divided into three categories that cover the different aspect
  
 ## 3. Vulnerability management
 
-TODO: CONVERT BELOW TABLE
 
-
-| Name & URL | Publisher | License | Type | Date | Notes |
-| ---- | ---- | ---- | ---- | ---- | ---- |
-| [OpenStack Vulnerability Management Process](https://security.openstack.org/vmt-process.html) | OpenStack Community | CC-BY-3.0 | informal | 2011-10-25 – present | Subsequently adapted by many other communities and early inspiration for standards like those compiled by CII/OpenSSF |
-| [PHP Security Policies and Process](https://github.com/php/policies/blob/main/security-policies.rst) | PHP Project | none but [CC-BY-4.0 proposed](https://github.com/php/policies/blob/main/security-policies.rst) | informal | 2024-02-06 – present | Just initial info about managing security.txt file but it should contain more info in the future |
-| [PHP Vulnerability Disclosure Policy](https://github.com/php/policies/blob/main/security-classification.rst) | PHP Project | none but [CC-BY-4.0 proposed](https://github.com/php/policies/blob/main/security-policies.rst) | informal | 2023-12-04 – present | Security issues classification and their handling |
-| [RFC 9116](https://www.rfc-editor.org/rfc/rfc9116) | IETF | IETF Trust Legal Provisions (TLP) | RFC | 2022-04 | A File Format to Aid in Security Vulnerability Disclosure |
-| [PHP release process](https://github.com/php/php-src/blob/master/docs/release-process.md) | PHP project | PHP 3.01 | informal | 2007-11-22 - present | It includes some info about releasing of security fixes |
-| [ASF Classification of vulnerabilties ](https://security.apache.org/blog/severityrating/) | ASF | [ASLv2](https://www.apache.org/licenses/LICENSE-2.0) | practice | 25 Apr, 2023  | Captures lessons learned and best practices around vulnerability classification; Improves upon similar scales used by [Microsoft](https://www.microsoft.com/en-us/msrc/security-update-severity-rating-system?oneroute=true), OpenSSL, Red Hat various Apache projects] |
-| [Generic ASF vulnerability reporting process](https://apache.org/security/) | ASF | [ASLv2](https://www.apache.org/licenses/LICENSE-2.0) | policy | current | Generic process for reporting a vulnerability (i.e. not project specific) |
-|[Generic ASF handling process for vulnerabilities](https://apache.org/security/committers.html) | ASF | [ASLv2](https://www.apache.org/licenses/LICENSE-2.0) | policy | current | Generic process for developers to follow when handling a vulnerability report (i.e. not project/risk specific) |
-| [Guide to coordinated vulnerability disclosure for open source software projects](https://github.com/ossf/oss-vulnerability-guide) | OpenSSF | CC-BY-4.0 | Guidance, templates, and advise for how open source projects and security researchers can better coordinate vulnerability disclosures together | 2022 - present | |
-| [Guidelines and Practices for Multi-Party Vulnerability Coordination and Disclosure](https://www.first.org/global/sigs/vulnerability-coordination/multiparty/guidelines-v1.1) | Forum of Incident Response and Security Teams (FIRST) | none | Guidelines for handling coordiantion of complex (multiparty) vulnerabilities | Spring 2020 | |
-| [The CERT® Guide to Coordinated Vulnerability Disclosure](https://insights.sei.cmu.edu/documents/1945/2017_003_001_503340.pdf) | CERT-CC/Software Engineering Institure (SEI) at Carnegie Mellon University | None - approved for public release and unlimited distribution | Guide | |
-| [EUCC Scheme Guidelines on Vulnerability Management and Disclosure](https://certification.enisa.europa.eu/document/download/5f61edd4-0151-4687-8a08-c11c103498f3_en?filename=EUCC_guidelines_vulnerability%20management%20and%20disclosure_v1.1_0.pdf) | European Union Agency for Cybersecurity (ENISA) | CC-BY-ND 4.0 DEED | Guidelines for the EUCC Scheme | Version 1.1 January 2025 - a schema in the European Common Criteria framework |
-
+TODO: add description of section. Possibly breakdown section a little more.
 
 ### 3.1 SBOM and Supply chain assurance
+
+* [BSI Technical Guideline TR-03183: Cyber Resilience Requirements for Manufacturers and Products - Part 2: Software Bill of Materials (SBOM)](https://www.bsi.bund.de/SharedDocs/Downloads/EN/BSI/Publications/TechGuidelines/TR03183/BSI-TR-03183-2-2_0_0.pdf?__blob=publicationFile&v=3) - The [Technical Guideline TR-03183](https://www.bsi.bund.de/dok/TR-03183-en) from Germany’s BSI delineates a set of cyber resilience requirements for manufacturers and product, aligned with the EU’s upcoming Cyber Resilience Act (CRA). The guideline translates the CRA’s regulatory expectations into concrete technical criteria and practices. By providing this framework in advance of the CRA’s full enforcement, the document helps industry stakeholders bolster software security and compliance, ensuring that products with digital elements are developed and maintained in line with emerging European cybersecurity standards. Part 2 describes formal and technical requirements for Software Bill of Materials (SBOM).
+  <details>
+    <summary>More info</summary>
+
+    * **Title:** Technical Guideline TR-03183: Cyber Resilience Requirements for Manufacturers and Products - Part 2 Software Bill of Materials (SBOM)
+    * **URL:** https://www.bsi.bund.de/SharedDocs/Downloads/EN/BSI/Publications/TechGuidelines/TR03183/BSI-TR-03183-2-2_0_0.pdf?__blob=publicationFile&v=3
+    * **Publisher:** Federal Office for Information Security (BSI), Germany
+    * **License:** Not specified 
+    * **Type:** Technical Guideline (draft regulatory standard)
+    * **Publication date:** 2024
+  </details>
 
 * [CycloneDX (ECMA-424)](https://ecma-international.org/publications-and-standards/standards/ecma-424/) - CycloneDX, originally a BOM (Bill of Materials) format from OWASP for software components, has been ratified as an international standard by Ecma International (as ECMA-424). This standard formalizes the schema and usage of CycloneDX for creating Software Bills of Materials, which enumerate the components and dependencies in a software product. ECMA-424 (CycloneDX v1.6) defines how to represent components, their licenses, version information, relationships, and relevant metadata (like hashes, integrity proofs, and known vulnerabilities) in a machine-readable way. The publication of CycloneDX as ECMA-424 means it is a globally recognized specification, facilitating widespread adoption. It enables organizations to exchange SBOM information consistently across tools and industries, enhancing transparency and helping stakeholders (developers, consumers, regulators) to track and manage supply chain risk by knowing exactly what is inside a software product.
   <details>
@@ -460,6 +456,18 @@ TODO: CONVERT BELOW TABLE
     * **Publication date:** August 2021 (Version 1.0)
   </details>
 
+* [JavaScript SBOM and Software Attestation Challenges and Recommendations](https://github.com/openjs-foundation/security-collab-space/blob/main/OpenJS-SBOM-CSCRM-Challenges-Recommendations.md) - This resource is a collaborative report produced by the OpenJS Foundation’s security working group, addressing the practical challenges of implementing Software Bill of Materials (SBOM) and Cyber Supply Chain Risk Management (C-SCRM) in open source projects. It identifies key obstacles, such as generating comprehensive SBOMs, ensuring their accuracy and maintenance, and integrating supply chain security practices into development workflows, especially within widely-used JavaScript ecosystems. The document offers recommendations to mitigate these issues, advocating for improved tooling, standardized processes, and cross-project knowledge sharing to strengthen supply chain transparency and vulnerability management. By highlighting these challenges and solutions, the report provides guidance relevant to improving software security posture in line with emerging regulatory expectations (like those of the EU Cyber Resilience Act) that emphasize software supply chain integrity and documentation.
+  <details>
+    <summary>More info</summary>
+
+    * **Title:** JavaScript SBOM and Software Attestation Challenges and Recommendations
+    * **URL:** https://github.com/openjs-foundation/security-collab-space/blob/main/OpenJS-SBOM-CSCRM-Challenges-Recommendations.md
+    * **Publisher:** OpenJS Security Collaboration Space
+    * **License:** 
+    * **Type:** informal
+    * **Publication date:** 2024
+  </details>
+  
 * [Lessons Learned during SBOM Implementation and Adoption](https://energycentral.com/c/iu/facts-and-opinions-about-sbom-implementation-and-adoption) - This article, written by a practitioner with extensive experience in SBOMs, shares practical insights and opinions on the current state of SBOM usage. One key point the author makes is that the only authoritative SBOM for a product should come from its original producer – they have the best knowledge of the components. However, even producers might not have perfect insight into every sub-component, especially when they incorporate third-party elements, highlighting the need for upstream component transparency. The author argues against waiting for SBOM technology to be “perfect” or universally adopted; even imperfect SBOMs provide significant value right now by giving visibility into software contents and risks. The article notes that many tools and a vibrant community already exist to help generate and use SBOMs, debunking the myth that SBOM is immature. It also reminds readers that there are two well-established SBOM standards (CycloneDX and SPDX) that are sufficient for current needs. The author cautions that there are both proponents and detractors of SBOMs speaking in the industry, and suggests readers do their own evaluations – in other words, experiment with SBOMs on their own software to see the benefits firsthand. Overall, the piece encourages organizations to start integrating SBOM practices into their workflows today, to improve software risk management and comply with emerging requirements, rather than adopting a “wait and see” approach.
   <details>
     <summary>More info</summary>
@@ -472,6 +480,18 @@ TODO: CONVERT BELOW TABLE
     * **Publication date:** Febrary 16, 2025
   </details>
 
+* [The Minimum Elements for a Software Bill of Materials (SBOM) ](https://www.ntia.doc.gov/files/ntia/publications/sbom_minimum_elements_report.pdf) - This official report outlines the fundamental requirements for a minimum Software Bill of Materials (SBOM) as part of a national cybersecurity initiative. It specifies the core data elements that an SBOM should contain (such as component names, versions, and suppliers), along with the need for machine-readable formats and automated tooling to generate and use SBOMs at scale. The document also describes basic organizational processes for maintaining SBOMs and leveraging them in managing software vulnerabilities and license compliance. Issued under the directive of a U.S. Executive Order aimed at improving cybersecurity, the report establishes a common baseline for SBOM content and practices, laying a foundation for greater transparency in software supply chains while noting potential extensions for future use cases beyond the minimum requirements.
+  <details>
+    <summary>More info</summary>
+
+    * **Title:** The Minimum Elements for a Software Bill of Materials (SBOM) 
+    * **URL:** https://www.ntia.doc.gov/files/ntia/publications/sbom_minimum_elements_report.pdf
+    * **Publisher:** United States Department of Commerce (NTIA)
+    * **License:** Public Domain
+    * **Type:** Government report (cybersecurity guidance)
+    * **Publication date:** 2021
+  </details>
+
 * [NASA procurement practices and process](https://www.nasa.gov/secure-software-development-self-attestation-resources-and-knowledge/) - In response to federal requirements (stemming from Executive Order 14028) that government agencies only use software following secure development practices, NASA has instituted a process where software suppliers must self-attest to their security. NASA’s public resources for this include guidance and forms for vendors. Essentially, a contractor providing software to NASA needs to review their own software development processes against criteria (largely drawn from NIST’s Secure Software Development Framework and related guidance) and then sign a statement confirming they comply. The NASA site likely provides a checklist or template covering topics like: does the vendor conduct threat modeling? Do they run static code analysis? How do they manage third-party component vulnerabilities? etc. It might also have educational material to help suppliers understand what practices are expected. By implementing this attestation process, NASA ensures its contractors are consciously evaluating and improving their security postures. This ultimately reduces risk in NASA’s supply chain—only software built with a baseline of security best practices should be running in NASA environments—and it reinforces industry adoption of secure development norms.
   <details>
     <summary>More info</summary>
@@ -481,18 +501,6 @@ TODO: CONVERT BELOW TABLE
     * **Publisher:** NASA
     * **License:** 
     * **Type:** 
-    * **Publication date:** 2024
-  </details>
-  
-* [JavaScript SBOM and Software Attestation Challenges and Recommendations](https://github.com/openjs-foundation/security-collab-space/blob/main/OpenJS-SBOM-CSCRM-Challenges-Recommendations.md) - This resource is a collaborative report produced by the OpenJS Foundation’s security working group, addressing the practical challenges of implementing Software Bill of Materials (SBOM) and Cyber Supply Chain Risk Management (C-SCRM) in open source projects. It identifies key obstacles, such as generating comprehensive SBOMs, ensuring their accuracy and maintenance, and integrating supply chain security practices into development workflows, especially within widely-used JavaScript ecosystems. The document offers recommendations to mitigate these issues, advocating for improved tooling, standardized processes, and cross-project knowledge sharing to strengthen supply chain transparency and vulnerability management. By highlighting these challenges and solutions, the report provides guidance relevant to improving software security posture in line with emerging regulatory expectations (like those of the EU Cyber Resilience Act) that emphasize software supply chain integrity and documentation.
-  <details>
-    <summary>More info</summary>
-
-    * **Title:** JavaScript SBOM and Software Attestation Challenges and Recommendations
-    * **URL:** https://github.com/openjs-foundation/security-collab-space/blob/main/OpenJS-SBOM-CSCRM-Challenges-Recommendations.md
-    * **Publisher:** OpenJS Security Collaboration Space
-    * **License:** 
-    * **Type:** informal
     * **Publication date:** 2024
   </details>
 
@@ -508,6 +516,18 @@ TODO: CONVERT BELOW TABLE
     * **Publication date:** 
   </details>
 
+* [Software Identification for Cybersecurity: Survey and Recommendations for Regulators](https://swhsec.github.io/pdf/swhid_for_cybersecurity_regulations.pdf) - This paper provides a comprehensive overview of how software components—especially open-source elements—can be uniquely identified to improve cybersecurity. It examines current challenges in software identification and reviews existing identifier schemes, highlighting issues like naming inconsistencies and ephemerality. In response, the authors advocate for Software Heritage persistent IDs (SWHIDs), which are content-derived, permanent identifiers, as a unified solution for tracking software artifacts across systems. The report emphasizes that SWHIDs would facilitate better vulnerability management and transparency, aligning with emerging regulatory requirements (such as the EU Cyber Resilience Act and U.S. executive orders) by ensuring every component in the supply chain can be traced and verified in a stable, tool-agnostic manner.
+  <details>
+    <summary>More info</summary>
+
+    * **Title:** Software Identification for Cybersecurity: Survey and Recommendations for Regulators
+    * **URL:** https://swhsec.github.io/pdf/swhid_for_cybersecurity_regulations.pdf
+    * **Publisher:** Olivier Barais, Roberto Di Cosmo, Ludovic Mé, Stefano Zacchiroli, and Olivier Zendra
+    * **License:** Not specified
+    * **Type:** Technical report (survey & policy recommendations)
+    * **Publication date:** 2025
+  </details>
+  
 * [Technical guidelines on SBOMs from CERT-In](https://www.cert-in.org.in/PDF/SBOM_Guidelines.pdf) - In October 2024, the Indian Computer Emergency Response Team (CERT-In) released a set of technical guidelines on Software Bill of Materials (SBOM) for organizations in the public sector and critical industries. This document underscores the value of SBOMs as a tool for transparency in software supply chains and provides recommendations for how to generate and maintain SBOMs. It outlines processes and best practices for implementing SBOMs – such as what component information should be included (name, version, supplier, known vulnerabilities, etc.) – and offers guidance on integrating SBOM use into procurement and risk management. The goal of these guidelines is to ensure that Indian government agencies and essential service providers adopt SBOM practices to enhance software security and resilience, in line with global trends and regulatory expectations.
   <details>
     <summary>More info</summary>
@@ -558,15 +578,63 @@ TODO: CONVERT BELOW TABLE
   
 ### 3.2 Vulnerability handling
 
-* [CERT Guide to CVD](https://certcc.github.io/CERT-Guide-to-CVD/) - The CERT Guide to CVD is a comprehensive handbook for establishing a coordinated vulnerability disclosure process. Published by the CERT Coordination Center (part of Carnegie Mellon University’s Software Engineering Institute), it walks through the entire lifecycle of handling a discovered security vulnerability when multiple parties are involved (the finder, the affected vendor, possibly intermediaries like bug bounty platforms or coordination centers). The guide covers fundamental concepts and roles (what it means to be a finder, vendor, coordinator), and lays out best practices on how to receive vulnerability reports, triage and analyze them, communicate between researchers and vendors, remediate the issues, and eventually disclose the vulnerability publicly in a responsible manner. It addresses challenges such as multi-vendor coordination (when a vulnerability affects multiple products) and dealing with disagreements or communication breakdowns. By following the CERT Guide, organizations can improve how they respond to vulnerability reports, ensuring that fixes are developed and delivered to users faster and with less conflict, ultimately reducing harm from security flaws.
+* [ASF Classification of vulnerabilties](https://security.apache.org/blog/severityrating/) - The Apache Software Foundation (ASF) introduced a standardized vulnerability severity rating system classifying issues into Low, Moderate, Important, and Critical levels based on their exploitability and potential impact. Critical vulnerabilities involve remote exploitation without prerequisites, while lower levels require specific conditions or have less severe implications. This simplified severity rating complements the CVSS system, offering clear, consistent assessments across ASF projects, thereby aiding administrators in prioritizing vulnerability responses and improving coordinated disclosure clarity.
   <details>
     <summary>More info</summary>
 
-    * **Title:** CERT Guide to CVD
+    * **Title:** ASF Classification of vulnerabilties
+    * **URL:** https://security.apache.org/blog/severityrating/
+    * **Publisher:** ASF
+    * **License:** ASLv2
+    * **Type:** practice
+    * **Publication date:** 2023
+  </details>
+
+* [ASF Project Security for Committers](https://apache.org/security/committers.html) - The ASF’s Committers’ Guidelines detail a comprehensive process for Apache project maintainers responding to vulnerabilities. It emphasizes confidentiality, structured routing of reports, prompt acknowledgment, private investigation, CVE identification, and coordinated patch development. The resolution phase includes internal advisory preparation and reporter collaboration, followed by synchronized public announcements of patches and advisories. Post-disclosure, the guidelines mandate website updates and CVE documentation. These detailed procedures align with international standards and legal obligations for coordinated vulnerability disclosure.
+  <details>
+    <summary>More info</summary>
+
+    * **Title:** Generic ASF handling process for vulnerabilities
+    * **URL:** https://apache.org/security/committers.html
+    * **Publisher:** ASF
+    * **License:** ASLv2
+    * **Type:** policy
+    * **Publication date:** current
+  </details>
+
+* [ASF vulnerability reporting process](https://apache.org/security/) - The ASF Security Policies provide guidelines for reporting and handling vulnerabilities across Apache projects. It emphasizes confidential initial reporting, centralized tracking by the ASF Security Team, and CVE coordination. The policy clearly defines exclusions, instructs users on the correct reporting channels, and outlines a structured response including confidential handling, private fix coordination, and public advisory issuance. These policies ensure consistency in vulnerability management, aligning ASF projects with coordinated disclosure best practices and regulatory expectations, such as the EU Cyber Resilience Act.
+  <details>
+    <summary>More info</summary>
+
+    * **Title:** ASF vulnerability reporting process
+    * **URL:** https://apache.org/security/
+    * **Publisher:** ASF
+    * **License:** ASLv2
+    * **Type:** policy
+    * **Publication date:** current
+  </details>
+
+* [BSI Technical Guideline TR-03183: Cyber Resilience Requirements for Manufacturers and Products - Part 3: Vulnerability Reports and Notifications](https://www.bsi.bund.de/SharedDocs/Downloads/EN/BSI/Publications/TechGuidelines/TR03183/BSI-TR-03183-3-0_9_0.pdf?__blob=publicationFile&v=3) - The [Technical Guideline TR-03183](https://www.bsi.bund.de/dok/TR-03183-en) from Germany’s BSI delineates a set of cyber resilience requirements for manufacturers and product, aligned with the EU’s upcoming Cyber Resilience Act (CRA). The guideline translates the CRA’s regulatory expectations into concrete technical criteria and practices. By providing this framework in advance of the CRA’s full enforcement, the document helps industry stakeholders bolster software security and compliance, ensuring that products with digital elements are developed and maintained in line with emerging European cybersecurity standards. Part 3 describes the handling of incoming vulnerability reports.
+  <details>
+    <summary>More info</summary>
+
+    * **Title:** Technical Guideline TR-03183: Cyber Resilience Requirements for Manufacturers and Products - Part 1: General requirements
+    * **URL:** https://www.bsi.bund.de/SharedDocs/Downloads/EN/BSI/Publications/TechGuidelines/TR03183/BSI-TR-03183-3-0_9_0.pdf?__blob=publicationFile&v=3
+    * **Publisher:** Federal Office for Information Security (BSI), Germany
+    * **License:** Not specified 
+    * **Type:** Technical Guideline (draft regulatory standard)
+    * **Publication date:** 2024
+  </details>
+
+* [The CERT Guide to Coordinated Vulnerability Disclosure](https://certcc.github.io/CERT-Guide-to-CVD/) - The CERT Guide to Coordinated Vulnerability Disclosure (CVD) is a comprehensive handbook for establishing a coordinated vulnerability disclosure process. Published by the CERT Coordination Center (part of Carnegie Mellon University’s Software Engineering Institute), it walks through the entire lifecycle of handling a discovered security vulnerability when multiple parties are involved (the finder, the affected vendor, possibly intermediaries like bug bounty platforms or coordination centers). The guide covers fundamental concepts and roles (what it means to be a finder, vendor, coordinator), and lays out best practices on how to receive vulnerability reports, triage and analyze them, communicate between researchers and vendors, remediate the issues, and eventually disclose the vulnerability publicly in a responsible manner. It addresses challenges such as multi-vendor coordination (when a vulnerability affects multiple products) and dealing with disagreements or communication breakdowns. By following the CERT Guide, organizations can improve how they respond to vulnerability reports, ensuring that fixes are developed and delivered to users faster and with less conflict, ultimately reducing harm from security flaws. The [original guide](https://insights.sei.cmu.edu/documents/1945/2017_003_001_503340.pdf) also exists as a PDF.
+  <details>
+    <summary>More info</summary>
+
+    * **Title:** The CERT Guide to Coordinated Vulnerability Disclosure
     * **URL:** https://certcc.github.io/CERT-Guide-to-CVD/
     * **Publisher:** Carnegie Mellon University
-    * **License:** 
-    * **Type:** 
+    * **License:** None - approved for public release and unlimited distribution
+    * **Type:** Guide
     * **Publication date:** From 2017
   </details>
 
@@ -582,6 +650,18 @@ TODO: CONVERT BELOW TABLE
     * **Publication date:** 2024 edition
   </details>
 
+* [EUCC Scheme Guidelines on Vulnerability Management and Disclosure](https://certification.enisa.europa.eu/document/download/5f61edd4-0151-4687-8a08-c11c103498f3_en?filename=EUCC_guidelines_vulnerability%20management%20and%20disclosure_v1.1_0.pdf) - ENISA’s EUCC Vulnerability Management and Disclosure Guidelines detail requirements for vulnerability management under the EU Common Criteria certification scheme. It outlines structured internal management procedures and disclosure obligations, mandating confidential information sharing with authorities following vulnerability resolution. The guidelines ensure certified products maintain robust vulnerability management programs and compliance with EU regulatory requirements, integrating international standards into daily cybersecurity practices for manufacturers and evaluation facilities.
+  <details>
+    <summary>More info</summary>
+
+    * **Title:** EUCC Scheme Guidelines on Vulnerability Management and Disclosure
+    * **URL:** https://certification.enisa.europa.eu/document/download/5f61edd4-0151-4687-8a08-c11c103498f3_en?filename=EUCC_guidelines_vulnerability%20management%20and%20disclosure_v1.1_0.pdf
+    * **Publisher:** European Union Agency for Cybersecurity (ENISA)
+    * **License:** CC-BY-ND 4.0 DEED
+    * **Type:** Guidelines for the EUCC Scheme
+    * **Publication date:** 2025
+  </details>
+
 * [FIRST PSIRT Services Framework](https://www.first.org/standards/frameworks/psirts/psirt_services_framework_v1.1) - The FIRST PSIRT Services Framework version 1.1 is a comprehensive reference document that describes the range of services a Product Security Incident Response Team (PSIRT) can provide. Developed by the Forum of Incident Response and Security Teams (FIRST) with input from industry experts, it enumerates and defines service categories, services, and functions specific to PSIRTs, recognizing that product-focused incident response has unique considerations compared to traditional CSIRTs. The framework covers strategic, tactical, and operational facets of a PSIRT program—from stakeholder management and vulnerability handling processes to incident coordination and post-incident analysis—offering a structured vocabulary and model for organizations either establishing a new PSIRT or benchmarking an existing one. By standardizing what effective product security response entails, the PSIRT Services Framework helps organizations ensure they meet industry best practices and regulatory expectations for managing product vulnerabilities and incidents, an area increasingly significant under product security regulations and guidelines (including parallels to the EU Cyber Resilience Act’s focus on post-market security).
   <details>
     <summary>More info</summary>
@@ -592,6 +672,18 @@ TODO: CONVERT BELOW TABLE
     * **License:** Public Domain
     * **Type:** Framework
     * **Publication date:** 2015-present
+  </details>
+
+* [FIRST Guidelines and Practices for Multi-Party Vulnerability Coordination and Disclosure](https://www.first.org/global/sigs/vulnerability-coordination/multiparty/guidelines-v1.1) - FIRST’s Multiparty Vulnerability Coordination Guidelines provide a framework for managing vulnerabilities affecting multiple stakeholders. It addresses the complexities of contemporary software ecosystems, advocating for robust advanced planning, clear communication, minimal exposure of sensitive information, and rapid response to leaks. The guidelines include practical use-case scenarios and advice on roles, embargo timelines, and public communication strategies, complementing existing ISO standards. This structured approach ensures effective coordination in complex disclosure situations, enhancing cybersecurity resilience.
+  <details>
+    <summary>More info</summary>
+
+    * **Title:** Guidelines and Practices for Multi-Party Vulnerability Coordination and Disclosure
+    * **URL:** https://www.first.org/global/sigs/vulnerability-coordination/multiparty/guidelines-v1.1
+    * **Publisher:** Forum of Incident Response and Security Teams (FIRST)
+    * **License:** none
+    * **Type:** Guidelines for handling coordiantion of complex (multiparty) vulnerabilities
+    * **Publication date:** 2020
   </details>
 
 * [FIRST PSIRT Services Maturity Guidance](https://www.first.org/standards/frameworks/psirts/psirt_maturity_document) - The FIRST PSIRT Maturity Document is a guidance framework aimed at helping organizations develop and improve their Product Security Incident Response Team capabilities over time. It builds upon the PSIRT Services Framework by outlining a maturity model—describing foundational levels and more advanced stages of PSIRT development—to illustrate how a team can evolve from basic operational readiness to a fully mature, proactive product security program. The document emphasizes essential early steps, such as securing executive sponsorship, defining clear policies (aligned with standards like ISO/IEC 29147 and 30111 for vulnerability disclosure and handling), and establishing core processes for vulnerability triage and response, before progressing to more sophisticated functions. Through this staged approach, the PSIRT Maturity guide enables organizations to assess their current state and identify priorities for enhancement, ensuring that even as regulatory and customer expectations for robust vulnerability response increase, the organization can methodically reach higher levels of preparedness and effectiveness.
@@ -654,6 +746,18 @@ TODO: CONVERT BELOW TABLE
     * **Publication date:** 45261
   </details>
 
+* [OpenSSF Guide to coordinated vulnerability disclosure for open source software projects](https://github.com/ossf/oss-vulnerability-guide) - The Open Source Security Foundation’s (OpenSSF) Guide to Coordinated Vulnerability Disclosure educates open-source maintainers about structured vulnerability management. It describes the coordinated disclosure lifecycle, from preparation and initial reporting through confidential assessment, remediation under embargo, and public disclosure. The guide provides practical templates, emphasizes proactive planning, and is informed by industry best practices. This resource supports the implementation of consistent disclosure practices in open-source communities, assisting maintainers in meeting regulatory demands and improving overall software security maturity.
+  <details>
+    <summary>More info</summary>
+
+    * **Title:** Guide to coordinated vulnerability disclosure for open source software projects
+    * **URL:** https://github.com/ossf/oss-vulnerability-guide
+    * **Publisher:** OpenSSF
+    * **License:** CC-BY-4.0
+    * **Type:** Guidance, templates, and advise for how open source projects and security researchers can better coordinate vulnerability disclosures together
+    * **Publication date:** 2022 – present
+  </details>
+
 * [OpenSSF Outbound Vulnerability Disclosure Policy Template](https://github.com/ossf/wg-vulnerability-disclosures/blob/main/docs/Outbound_Vulnerability_Disclosure_Policy_template.md) - The Open Source Security Foundation (OpenSSF) Outbound Vulnerability Disclosure Policy Template is a model policy document designed to guide organizations in responsibly disclosing security vulnerabilities they discover in external projects or products. This template adheres to the “Model Outbound Vulnerability Disclosure Policy” (version 0.1.1) and clarifies processes distinct from inbound vulnerability handling, focusing on how an organization should report a discovered vulnerability to the affected third party or vendor. It outlines recommended steps such as initial notification, coordination with the affected product’s security team or a relevant CERT, setting timelines for remediation and public disclosure, and conditions for involving outside stakeholders (for instance, regulators or the broader security community) if a vulnerability remains unaddressed. By following this template, organizations can establish a clear and consistent outbound disclosure practice, which contributes to the overall health of the software ecosystem and aligns with broader cybersecurity norms and compliance considerations that encourage transparency in vulnerability management across supply chains.
   <details>
     <summary>More info</summary>
@@ -666,6 +770,18 @@ TODO: CONVERT BELOW TABLE
     * **Publication date:** 2024- present
   </details>
 
+* [OpenStack Vulnerability Management Process](https://security.openstack.org/vmt-process.html) - The OpenStack VMT Process describes how OpenStack manages security vulnerabilities through coordinated disclosure. It outlines the responsibilities of the independent VMT, including prompt vulnerability resolution, limiting early information exposure, and structured handling from initial report receipt to embargoed disclosure. The process involves confidential reporting channels, internal patch review, drafting impact descriptions, and brief embargo periods. Each issue receives dedicated coordination, including CVE assignment and release scheduling. The documented practices align with industry standards for coordinated vulnerability disclosure and multi-party incident handling.
+  <details>
+    <summary>More info</summary>
+
+    * **Title:** OpenStack Vulnerability Management Process
+    * **URL:** https://security.openstack.org/vmt-process.html
+    * **Publisher:** OpenStack Community
+    * **License:** CC-BY-3.0
+    * **Type:** informal
+    * **Publication date:** 2011 – present
+  </details>
+
 * [Patching and Updates Guidelines from Berkeley Information Security Office](https://security.berkeley.edu/MSSND/patching-and-updates-guidelines) - Published by the University of California, Berkeley’s Information Security Office, this guideline provides best practices for keeping systems and applications up to date with security patches. It stresses the importance of timely patching as a critical defense against exploits of known vulnerabilities. Key recommendations include maintaining an inventory of all IT assets to know what needs patching, categorizing updates by severity and applying critical security patches as soon as possible (ideally within a defined timeframe like 48-72 hours for high severity), and establishing a regular patch cycle for less urgent updates. The guidelines also suggest testing patches in a staging environment when feasible, having a rollback plan in case an update causes issues, and using automated management tools to deploy patches at scale across an organization’s devices. Additionally, the document might cover how to handle systems that can’t be patched (due to compatibility or support issues), such as isolating them or applying compensating controls. Overall, the Berkeley guidelines serve as a practical manual for IT teams to build a robust patch management process, which in turn reduces an organization’s exposure to known exploits.
   <details>
     <summary>More info</summary>
@@ -676,6 +792,42 @@ TODO: CONVERT BELOW TABLE
     * **License:** 
     * **Type:** informal
     * **Publication date:** 
+  </details>
+  
+* [PHP Security Policies and Process](https://github.com/php/policies/blob/main/security-policies.rst) - PHP’s Security Policies and Process is a meta-policy outlining PHP’s approach to vulnerability disclosure and maintenance of public security information via the security.txt file. It directs maintainers on keeping vulnerability reporting channels clear and up-to-date, linking internal security handling with external communications. The document ensures that the security.txt is updated consistently, aligning PHP’s processes with established best practices and regulatory frameworks, such as the EU Cyber Resilience Act, by providing clarity and transparency in vulnerability disclosure.
+  <details>
+    <summary>More info</summary>
+
+    * **Title:** PHP Security Policies and Process
+    * **URL:** https://github.com/php/policies/blob/main/security-policies.rst
+    * **Publisher:** PHP Project
+    * **License:** none but CC-BY-4.0 proposed
+    * **Type:** informal
+    * **Publication date:** 2024 – present
+  </details>
+
+* [PHP Vulnerability Disclosure Policy](https://github.com/php/policies/blob/main/security-classification.rst) - PHP’s Security Issue Classification document defines which PHP bugs constitute security vulnerabilities and categorizes them into Low, Medium, and High severity based on their potential impact and ease of exploitation. High severity issues typically allow serious compromises and receive CVE identifiers, whereas Low severity issues pose limited risks. The document outlines private handling procedures for high-risk vulnerabilities and public bug-fix approaches for lower-risk issues. It sets clear reporting guidelines and supports structured, coordinated vulnerability disclosure aligned with industry practices.
+  <details>
+    <summary>More info</summary>
+
+    * **Title:** PHP Vulnerability Disclosure Policy
+    * **URL:** https://github.com/php/policies/blob/main/security-classification.rst
+    * **Publisher:** PHP Project
+    * **License:** none but CC-BY-4.0 proposed
+    * **Type:** informal
+    * **Publication date:** 2023 – present
+  </details>
+
+* [PHP Release Process](https://github.com/php/php-src/blob/master/docs/release-process.md) - The PHP Release Process outlines detailed procedures for PHP version releases, specifically highlighting steps for security-focused updates. It distinguishes between regular updates and security releases, requiring explicit labeling and careful scheduling to optimize user response. Release managers follow structured preparation steps including testing, packaging, and documentation, with clear guidance on announcements emphasizing the urgency of security patches. By standardizing this communication and release strategy, PHP maintains transparency and meets coordinated disclosure standards expected by compliance frameworks.
+  <details>
+    <summary>More info</summary>
+
+    * **Title:** PHP Release Process
+    * **URL:** https://github.com/php/php-src/blob/master/docs/release-process.md
+    * **Publisher:** PHP project
+    * **License:** PHP 3.01
+    * **Type:** informal
+    * **Publication date:** 2007 – present
   </details>
 
 ## 4. Compliance requirements
@@ -709,7 +861,19 @@ Impact on steward: `obligation`
     * **Type:** Policy Template
     * **Publication date:** 2022- present
   </details>
-  
+ 
+* [RFC 9116](https://www.rfc-editor.org/rfc/rfc9116) - RFC 9116 defines the “security.txt” standard, providing a standardized file format for organizations to publish their vulnerability disclosure policies and security contact information. The RFC addresses the absence of clear reporting mechanisms, presenting a machine-readable structure with fields for contact information, encryption details, acknowledgments, policy links, and expiration dates. Widely adopted despite its informational status, RFC 9116 facilitates improved communication between vulnerability reporters and software maintainers, enhancing coordinated disclosure processes and aligning with regulatory requirements such as the EU Cyber Resilience Act.
+  <details>
+    <summary>More info</summary>
+
+    * **Title:** RFC 9116
+    * **URL:** https://www.rfc-editor.org/rfc/rfc9116
+    * **Publisher:** IETF
+    * **License:** IETF Trust Legal Provisions (TLP)
+    * **Type:** RFC
+    * **Publication date:** 2022
+  </details>
+ 
 ### 4.2 Due diligence requirements
 
 CRA ref: [Article 13(5)][Article 13]\
