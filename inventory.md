@@ -824,7 +824,7 @@ TODO: add description of section. Possibly breakdown section a little more.
 
     * **Title:** Cyber Resilience Act Compliance Guide for Open Source
     * **URL:** https://code.inno3.eu/ouvert/guide-cra/-/raw/main/CNLL_inno3_Guide-CRA_VE_1.0.pdf
-    * **Publisher:** inno³ and CNLL,
+    * **Publisher:** inno³ and CNLL
     * **License:** CC-by-SA 4.0
     * **Type:** 
     * **Publication date:** 2024
