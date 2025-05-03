@@ -1061,15 +1061,19 @@ and Tobie Langel.
 
 If you have contributed to this document and aren't properly acknowledged or if you want to edit or remove your name, please let us know by [opening an issue](https://github.com/orcwg/cra-hub/issues/new) and we will fix this right away.
 
+This document was compiled, curated, and edited by Maxim Baele (Toreon/OWASP) and Tobie Langel (UnlockOpen/Eclipse Foundation).
+
 ## Annex I - LLM Usage
 
-Prompt used:
+**Prompt used:**
 
 > I linked to a spreadsheet on google drive. These are resources that are relevant for organizations that need to adhere to the EU cyber resilience act. Add a new column "E"  in sheet 1 and insert a brief summary of the resource (1 paragraph). Do this in a dry, neutral and academic style, resembling a wikipdia summary.  all types of resources are to be taken at face value.
 > 
 > the url is the authorative resource. and yes the summary should reflect the content
  
-LLM used: OpenAI ChatGPT 4.5 using "deep research".
+**LLM used:**
+
+OpenAI ChatGPT 4.5 using "deep research".
 
 [Section 1]:   #1-principles-of-security-resilience
 [Section 1.1]: #11-risk-analysis
