@@ -12,14 +12,16 @@ _Note: the description of each resource has been generated using a large languag
   * [1.3 Security processes and governance][Section 1.3]
 * [2. Generic Security Requirements][Section 2]
 * [3. Vulnerability management][Section 3]
-  * [3.1 SBOM and Supply chain assurance][Section 3.1]
-  * [3.2 Vulnerability handling][Section 3.2]
-* [4. Compliance requirements][Section 4.]
-  * [4.1 Open Source Steward Cybersecurity policy][Section 4.1]
-  * [4.2 Due diligence requirements][Section 4.2]
-  * [4.3 Security attestations][Section 4.3]
-* [5. Similar legislation][Section 5]
-* [6. Other][Section 6]
+  * [3.1 Vulnerability management specifications and policy templates][Section 3.1]
+  * [3.2 Existing open source foundation policies][Section 3.2]
+  * [3.3 Vulnerability management guidelines][Section 3.3]
+* [4. SBOMs][Section 4]
+  * [4.1 Technical specifications for SBOMs][Section 4.1]
+  * [4.2 Technical specifications for software identification][Section 4.2]
+  * [4.3 SBOM implementation guidelines][Section 4.3]
+* [5. Due diligence requirements][Section 5]
+* [6. Security attestations][Section 6]
+* [7. Similar legislation][Section 7]
 * [Acknowledgments][]
 * [Annex I - LLM Usage][LLM usage]
 
@@ -57,6 +59,18 @@ The impact on open source software stewards is limited to a partial obligation t
     * **Publisher:** Federal Office for Information Security (BSI), Germany
     * **License:** Not specified 
     * **Type:** Technical Guideline (draft regulatory standard)
+    * **Publication date:** 2024
+  </details>
+
+* [Cyber Resilience Act Compliance Guide for Open Source](https://code.inno3.eu/ouvert/guide-cra/-/raw/main/CNLL_inno3_Guide-CRA_VE_1.0.pdf) - This guide, put together by European open source advocacy groups, interprets the EU Cyber Resilience Act (CRA) through the lens of open source software development. The CRA will impose certain security and compliance requirements on “products with digital elements.” Many open source maintainers are concerned about how to meet these obligations. The guide likely breaks down the CRA’s key requirements – such as providing security support and updates for a product, having a vulnerability disclosure process, ensuring the software is developed following secure practices, and including technical documentation – and offers suggestions for open source projects to address them. It might recommend things like adopting an open source security best practices badge (to show development follows guidelines), publishing an SBOM for releases, clearly stating how users will be alerted to issues or updates, and possibly working with downstream distributors who can help fulfill CRA duties. It also may clarify which open source scenarios are out of scope of the CRA (for example, maybe software provided without commercial intent). In short, this compliance guide serves as a bridge to help the open source community understand and prepare for the new regulatory landscape under the CRA, aiming to ensure that open source can remain sustainable and trusted under these rules.
+  <details>
+    <summary>More info</summary>
+
+    * **Title:** Cyber Resilience Act Compliance Guide for Open Source
+    * **URL:** https://code.inno3.eu/ouvert/guide-cra/-/raw/main/CNLL_inno3_Guide-CRA_VE_1.0.pdf
+    * **Publisher:** inno³ and CNLL
+    * **License:** CC-by-SA 4.0
+    * **Type:** 
     * **Publication date:** 2024
   </details>
 
@@ -282,183 +296,68 @@ These requirements do not apply open source software stewards. However, per [Art
     * **Publication date:** 
   </details>
 
- 
-## 3. Vulnerability management
+## 3. Vulnerability Management
 
+### 3.1 Vulnerability management specifications and policy templates
 
-TODO: add description of section. Possibly breakdown section a little more.
+Open Source Steward Cybersecurity policy
 
-### 3.1 SBOM and Supply chain assurance
+CRA ref: [Article 24(1)][Article 24]\
+Standards request ref: N/A\
+Impact on steward: `obligation`
 
-* [BSI Technical Guideline TR-03183: Cyber Resilience Requirements for Manufacturers and Products - Part 2: Software Bill of Materials (SBOM)](https://www.bsi.bund.de/SharedDocs/Downloads/EN/BSI/Publications/TechGuidelines/TR03183/BSI-TR-03183-2-2_0_0.pdf?__blob=publicationFile&v=3) - The [Technical Guideline TR-03183](https://www.bsi.bund.de/dok/TR-03183-en) from Germany’s BSI delineates a set of cyber resilience requirements for manufacturers and product, aligned with the EU’s upcoming Cyber Resilience Act (CRA). The guideline translates the CRA’s regulatory expectations into concrete technical criteria and practices. By providing this framework in advance of the CRA’s full enforcement, the document helps industry stakeholders bolster software security and compliance, ensuring that products with digital elements are developed and maintained in line with emerging European cybersecurity standards. Part 2 describes formal and technical requirements for Software Bill of Materials (SBOM).
+* [OpenSSF Security Policy Templates](https://github.com/ossf/oss-vulnerability-guide/tree/main/templates/security_policies) - This resource is a collection of security policy templates provided by the Open Source Security Foundation’s Open Source Software Vulnerability Guide project to help open source maintainers create robust security policies for their projects. The templates include ready-made text and structure for documents like a project’s security policy or “SECURITY.md,” vulnerability reporting guidelines, and coordinated disclosure procedures, all of which maintainers can adapt to their specific needs. By offering standardized language covering aspects such as how to report vulnerabilities, expected response times, and how fixes and advisories will be communicated, these templates lower the barrier for projects to implement best practices in vulnerability management and communication. They are directly relevant to improving open source software resilience and assist projects in meeting expectations set by users and regulations (for instance, the EU Cyber Resilience Act’s call for clear vulnerability disclosure policies), ensuring that even smaller projects can align with industry standards in security process documentation.
   <details>
     <summary>More info</summary>
 
-    * **Title:** Technical Guideline TR-03183: Cyber Resilience Requirements for Manufacturers and Products - Part 2 Software Bill of Materials (SBOM)
-    * **URL:** https://www.bsi.bund.de/SharedDocs/Downloads/EN/BSI/Publications/TechGuidelines/TR03183/BSI-TR-03183-2-2_0_0.pdf?__blob=publicationFile&v=3
-    * **Publisher:** Federal Office for Information Security (BSI), Germany
-    * **License:** Not specified 
-    * **Type:** Technical Guideline (draft regulatory standard)
-    * **Publication date:** 2024
-  </details>
-
-* [CycloneDX (ECMA-424)](https://ecma-international.org/publications-and-standards/standards/ecma-424/) - CycloneDX, originally a BOM (Bill of Materials) format from OWASP for software components, has been ratified as an international standard by Ecma International (as ECMA-424). This standard formalizes the schema and usage of CycloneDX for creating Software Bills of Materials, which enumerate the components and dependencies in a software product. ECMA-424 (CycloneDX v1.6) defines how to represent components, their licenses, version information, relationships, and relevant metadata (like hashes, integrity proofs, and known vulnerabilities) in a machine-readable way. The publication of CycloneDX as ECMA-424 means it is a globally recognized specification, facilitating widespread adoption. It enables organizations to exchange SBOM information consistently across tools and industries, enhancing transparency and helping stakeholders (developers, consumers, regulators) to track and manage supply chain risk by knowing exactly what is inside a software product.
-  <details>
-    <summary>More info</summary>
-
-    * **Title:** ECMA-424
-    * **URL:** https://ecma-international.org/publications-and-standards/standards/ecma-424/
-    * **Publisher:** ECMA International
-    * **License:** ?
-    * **Type:** Formal
-    * **Publication date:** June 2024 (version 1.0)
-  </details>
-
-* [IETF SCITT](https://datatracker.ietf.org/doc/draft-ietf-scitt-software-use-cases/) - The IETF’s SCITT working group is developing a set of protocols to enable a trustworthy ledger of software supply chain events (like signing, transferring, and auditing software components). The linked document on software use cases describes scenarios where organizations need a verifiable record of actions in the supply chain. For example, one use case might be tracking the provenance of a piece of code: a developer commits code and signs it, a build service records that it built a binary from specific source, a scanner logs that it scanned the binary for vulnerabilities, etc. SCITT envisions a tamper-evident ledger (possibly blockchain-like or using transparency logs) where each of these actions is recorded by actors with cryptographic signatures. The use case document illustrates how this can help – for instance, a consumer of software can query the ledger to see if a given software package version has a recorded build attestation and security scan results before trusting it. Another use case could involve regulatory compliance: proving to an auditor that every software component in a device went through certain security checks. By enumerating such cases, the document guides the design of the SCITT architecture to ensure it meets real-world needs. In essence, SCITT’s use cases highlight the forthcoming ability to establish a chain of trust for software artifacts through standardized evidence, improving the integrity and transparency of the software supply chain.
-  <details>
-    <summary>More info</summary>
-
-    * **Title:** IETF SCITT
-    * **URL:** https://datatracker.ietf.org/doc/draft-ietf-scitt-software-use-cases/
-    * **Publisher:** IETF
-    * **License:** 
-    * **Type:** formal
-    * **Publication date:** DRAFT 2024
-  </details>
-
-* [Software Package Data Exchange (SPDX) ISO/IEC 5962:2021](https://www.iso.org/standard/81870.html) - ISO/IEC 5962:2021 is the international standardization of the Software Package Data Exchange (SPDX) format as a norm for Software Bill of Materials. SPDX originated as a Linux Foundation project to describe the components and licenses in software, and it was brought into ISO to encourage global adoption. The standard defines how to list all pieces of software (open-source libraries, proprietary modules, etc.), along with metadata like their versions, checksums, licenses, and relationships, in a structured document. Using ISO 5962 (SPDX), organizations can share SBOMs across organizational and tool boundaries with confidence that everyone interprets the content the same way. This promotes transparency in software supply chains, helps with automated license compliance checks, and aids vulnerability management (by quickly identifying if a product contains a component with a known CVE). SPDX as an ISO standard underscores its maturity and the importance of SBOMs in modern cybersecurity and compliance workflows.
-  <details>
-    <summary>More info</summary>
-
-    * **Title:** ISO/IEC 5962:2021
-    * **URL:** https://www.iso.org/standard/81870.html
-    * **Publisher:** ISO
-    * **License:** ?
-    * **Type:** Formal
-    * **Publication date:** August 2021 (Version 1.0)
-  </details>
-
-* [JavaScript SBOM and Software Attestation Challenges and Recommendations](https://github.com/openjs-foundation/security-collab-space/blob/main/OpenJS-SBOM-CSCRM-Challenges-Recommendations.md) - This resource is a collaborative report produced by the OpenJS Foundation’s security working group, addressing the practical challenges of implementing Software Bill of Materials (SBOM) and Cyber Supply Chain Risk Management (C-SCRM) in open source projects. It identifies key obstacles, such as generating comprehensive SBOMs, ensuring their accuracy and maintenance, and integrating supply chain security practices into development workflows, especially within widely-used JavaScript ecosystems. The document offers recommendations to mitigate these issues, advocating for improved tooling, standardized processes, and cross-project knowledge sharing to strengthen supply chain transparency and vulnerability management. By highlighting these challenges and solutions, the report provides guidance relevant to improving software security posture in line with emerging regulatory expectations (like those of the EU Cyber Resilience Act) that emphasize software supply chain integrity and documentation.
-  <details>
-    <summary>More info</summary>
-
-    * **Title:** JavaScript SBOM and Software Attestation Challenges and Recommendations
-    * **URL:** https://github.com/openjs-foundation/security-collab-space/blob/main/OpenJS-SBOM-CSCRM-Challenges-Recommendations.md
-    * **Publisher:** OpenJS Security Collaboration Space
-    * **License:** 
-    * **Type:** informal
-    * **Publication date:** 2024
-  </details>
-  
-* [Lessons Learned during SBOM Implementation and Adoption](https://energycentral.com/c/iu/facts-and-opinions-about-sbom-implementation-and-adoption) - This article, written by a practitioner with extensive experience in SBOMs, shares practical insights and opinions on the current state of SBOM usage. One key point the author makes is that the only authoritative SBOM for a product should come from its original producer – they have the best knowledge of the components. However, even producers might not have perfect insight into every sub-component, especially when they incorporate third-party elements, highlighting the need for upstream component transparency. The author argues against waiting for SBOM technology to be “perfect” or universally adopted; even imperfect SBOMs provide significant value right now by giving visibility into software contents and risks. The article notes that many tools and a vibrant community already exist to help generate and use SBOMs, debunking the myth that SBOM is immature. It also reminds readers that there are two well-established SBOM standards (CycloneDX and SPDX) that are sufficient for current needs. The author cautions that there are both proponents and detractors of SBOMs speaking in the industry, and suggests readers do their own evaluations – in other words, experiment with SBOMs on their own software to see the benefits firsthand. Overall, the piece encourages organizations to start integrating SBOM practices into their workflows today, to improve software risk management and comply with emerging requirements, rather than adopting a “wait and see” approach.
-  <details>
-    <summary>More info</summary>
-
-    * **Title:** Energy Central article
-    * **URL:** https://energycentral.com/c/iu/facts-and-opinions-about-sbom-implementation-and-adoption
-    * **Publisher:** Energy Central/Dick Brooks
-    * **License:** 
-    * **Type:** informal
-    * **Publication date:** Febrary 16, 2025
-  </details>
-
-* [The Minimum Elements for a Software Bill of Materials (SBOM) ](https://www.ntia.doc.gov/files/ntia/publications/sbom_minimum_elements_report.pdf) - This official report outlines the fundamental requirements for a minimum Software Bill of Materials (SBOM) as part of a national cybersecurity initiative. It specifies the core data elements that an SBOM should contain (such as component names, versions, and suppliers), along with the need for machine-readable formats and automated tooling to generate and use SBOMs at scale. The document also describes basic organizational processes for maintaining SBOMs and leveraging them in managing software vulnerabilities and license compliance. Issued under the directive of a U.S. Executive Order aimed at improving cybersecurity, the report establishes a common baseline for SBOM content and practices, laying a foundation for greater transparency in software supply chains while noting potential extensions for future use cases beyond the minimum requirements.
-  <details>
-    <summary>More info</summary>
-
-    * **Title:** The Minimum Elements for a Software Bill of Materials (SBOM) 
-    * **URL:** https://www.ntia.doc.gov/files/ntia/publications/sbom_minimum_elements_report.pdf
-    * **Publisher:** United States Department of Commerce (NTIA)
-    * **License:** Public Domain
-    * **Type:** Government report (cybersecurity guidance)
-    * **Publication date:** 2021
-  </details>
-
-* [SLSA Supply Chain Levels for Software Artifacts](https://github.com/slsa-framework/slsa) - SLSA (pronounced “salsa”) is a security framework for improving software supply chain integrity, created by a consortium of industry leaders. It defines a maturity model with four levels that software producers can achieve, each level adding more advanced supply chain protections. At Level 1, basic requirements like using version control and build scripts are in place. By Level 2, tamper-evident builds are required (e.g. generating provenance metadata). Level 3 mandates trusted, verifiable builds (such as using a dedicated, isolated build service to prevent interference), and Level 4 involves the highest assurances including two-party review of all changes and a hermetic, reproducible build process. The framework is documented openly (on GitHub) and provides specifications for how to produce attestations (metadata) that a build meets a certain SLSA level. The purpose of SLSA is to thwart supply chain attacks (like code tampering, compromised dependencies, etc.) by incrementally hardening the build and release process. Organizations can adopt SLSA guidelines to progressively make their software build pipelines more secure, and customers can eventually prefer software that comes with SLSA provenance, indicating it was built under strict controls.
-  <details>
-    <summary>More info</summary>
-
-    * **Title:** SLSA Supply Chain Levels for Software Artifacts
-    * **URL:** https://github.com/slsa-framework/slsa
+    * **Title:** OpenSSF Security Policy Templates
+    * **URL:** https://github.com/ossf/oss-vulnerability-guide/tree/main/templates/security_policies
     * **Publisher:** OpenSSF
-    * **License:** Apache 2.0 and others
-    * **Type:** Semi-formal
-    * **Publication date:** 
-  </details>
-
-* [Software Identification for Cybersecurity: Survey and Recommendations for Regulators](https://swhsec.github.io/pdf/swhid_for_cybersecurity_regulations.pdf) - This paper provides a comprehensive overview of how software components—especially open-source elements—can be uniquely identified to improve cybersecurity. It examines current challenges in software identification and reviews existing identifier schemes, highlighting issues like naming inconsistencies and ephemerality. In response, the authors advocate for Software Heritage persistent IDs (SWHIDs), which are content-derived, permanent identifiers, as a unified solution for tracking software artifacts across systems. The report emphasizes that SWHIDs would facilitate better vulnerability management and transparency, aligning with emerging regulatory requirements (such as the EU Cyber Resilience Act and U.S. executive orders) by ensuring every component in the supply chain can be traced and verified in a stable, tool-agnostic manner.
-  <details>
-    <summary>More info</summary>
-
-    * **Title:** Software Identification for Cybersecurity: Survey and Recommendations for Regulators
-    * **URL:** https://swhsec.github.io/pdf/swhid_for_cybersecurity_regulations.pdf
-    * **Publisher:** Olivier Barais, Roberto Di Cosmo, Ludovic Mé, Stefano Zacchiroli, and Olivier Zendra
-    * **License:** Not specified
-    * **Type:** Technical report (survey & policy recommendations)
-    * **Publication date:** 2025
-  </details>
-
-* [Software Package Data Exchange (SPDX) ISO/IEC 5962:2021](https://www.iso.org/standard/81870.html) - ISO/IEC 5962:2021 is the international standardization of the Software Package Data Exchange (SPDX) format as a norm for Software Bill of Materials. SPDX originated as a Linux Foundation project to describe the components and licenses in software, and it was brought into ISO to encourage global adoption. The standard defines how to list all pieces of software (open-source libraries, proprietary modules, etc.), along with metadata like their versions, checksums, licenses, and relationships, in a structured document. Using ISO 5962 (SPDX), organizations can share SBOMs across organizational and tool boundaries with confidence that everyone interprets the content the same way. This promotes transparency in software supply chains, helps with automated license compliance checks, and aids vulnerability management (by quickly identifying if a product contains a component with a known CVE). SPDX as an ISO standard underscores its maturity and the importance of SBOMs in modern cybersecurity and compliance workflows.
-  <details>
-    <summary>More info</summary>
-
-    * **Title:** ISO/IEC 5962:2021
-    * **URL:** https://www.iso.org/standard/81870.html
-    * **Publisher:** ISO
-    * **License:** ?
-    * **Type:** Formal
-    * **Publication date:** August 2021 (Version 1.0)
-  </details>
-
-* [Technical guidelines on SBOMs from CERT-In](https://www.cert-in.org.in/PDF/SBOM_Guidelines.pdf) - In October 2024, the Indian Computer Emergency Response Team (CERT-In) released a set of technical guidelines on Software Bill of Materials (SBOM) for organizations in the public sector and critical industries. This document underscores the value of SBOMs as a tool for transparency in software supply chains and provides recommendations for how to generate and maintain SBOMs. It outlines processes and best practices for implementing SBOMs – such as what component information should be included (name, version, supplier, known vulnerabilities, etc.) – and offers guidance on integrating SBOM use into procurement and risk management. The goal of these guidelines is to ensure that Indian government agencies and essential service providers adopt SBOM practices to enhance software security and resilience, in line with global trends and regulatory expectations.
-  <details>
-    <summary>More info</summary>
-
-    * **Title:** Technical guidelines on SBOMs
-    * **URL:** https://www.cert-in.org.in/PDF/SBOM_Guidelines.pdf
-    * **Publisher:** CERT-IN
-    * **License:** 
-    * **Type:** informal
-    * **Publication date:** 03.10.2024 (Version 1.0)
-  </details>
-
-* [Technical guidelines on SBOMs from CISA](https://www.cisa.gov/sites/default/files/2024-07/PDM24050%20Software%20Acquisition%20Guide%20for%20Government%20Enterprise%20ConsumersV2_508c.pdf) - In mid-2024, CISA released updated guidance (version 2.0 of its Software Acquisition guidance for enterprises) focusing on how government organizations should handle SBOMs. This technical guide provides detailed procedures for requesting SBOMs from software vendors, ingesting and validating those SBOMs, and using them for risk analysis. It likely advises agencies to use automated tools to parse SBOM data to identify components and check them against vulnerability databases (so if a vendor provides an SBOM, the agency can quickly see if any included library has known flaws). It also covers establishing workflows to manage SBOM data at scale – for example, keeping a repository of SBOMs for all software in use, updating it when software is patched or upgraded, and integrating SBOM review into continuous monitoring. The guide emphasizes that simply obtaining SBOMs is not the end goal; organizations must also develop the capability to act on SBOM information (like prioritizing patches or isolating systems when a critical vulnerability in a common component emerges). By following these guidelines, government enterprises can move toward proactive supply chain security management, gaining visibility into their software assets and being better prepared to respond to new threats or compliance checks (like those required by EO mandates).
-  <details>
-    <summary>More info</summary>
-
-    * **Title:** Technical guidelines on SBOMs
-    * **URL:** https://www.cisa.gov/sites/default/files/2024-07/PDM24050%20Software%20Acquisition%20Guide%20for%20Government%20Enterprise%20ConsumersV2_508c.pdf
-    * **Publisher:** US Government
-    * **License:** 
-    * **Type:** formal
-    * **Publication date:** 2024
-  </details>
-
-* [Unique identifier for software components (ECMA International)](https://github.com/package-url/purl-spec) - The Package URL specification defines a standard way to identify software packages across different programming ecosystems using a simple, URL-like format. A “purl” takes the form of a URI that includes a package’s type (e.g. npm, Maven, PyPI, GitHub), the namespace or group (if applicable), the package name, version, and any qualifiers or subpath. For example, a purl might look like: pkg:maven/org.apache.commons/commons-lang3@3.12.0. This one identifier concisely tells you the package manager (Maven), group (org.apache.commons), artifact (commons-lang3), and version (3.12.0). The purl spec, maintained on GitHub, has become widely used in tools and SBOM formats because it provides a consistent way to refer to components. It helps automate the tracking of dependencies, vulnerability matching (linking known vulnerabilities to package coordinates), and license compliance, since every package instance can be referenced uniformly. In summary, Package URL is like a universal addressing system for software components, making it easier to integrate data about packages across different systems and databases.
-  <details>
-    <summary>More info</summary>
-
-    * **Title:** Unique identifier for software components
-    * **URL:** https://github.com/package-url/purl-spec
-    * **Publisher:** ECMA International (in 2025)
-    * **License:** ?
-    * **Type:** Formal
-    * **Publication date:** 2025
-  </details>
-
-* [Unique identifier for software components (Software Heritage)](https://www.swhid.org/specification) - The Software Heritage ID is a scheme for assigning permanent, unique identifiers to software artifacts (such as source code files, commits, or releases) based on their content. The specification (developed by the Software Heritage archive) defines a cryptographic hash-based ID format that includes a prefix (swh:), a content hash, and additional qualifiers to denote the type of artifact and its position in the archive’s Merkle graph. For example, there are SWHIDs for files (blobs), directories (which list files), commits (snapshots of directories with metadata), and releases (tags). Because SWHIDs are content-derived, they are immutable and globally unique: the same piece of code will always have the same SWHID. This system enables precise references to software components regardless of where they are stored or how they are named elsewhere. In practice, SWHIDs facilitate long-term preservation, citation, and tracking of software, since one can resolve an SWHID via the Software Heritage archive to retrieve the exact artifact, and they help with supply chain integrity by ensuring that references to source code are unambiguous and verifiable.
-  <details>
-    <summary>More info</summary>
-
-    * **Title:** Unique identifier for software components
-    * **URL:** https://www.swhid.org/specification
-    * **Publisher:** Software Heritage (ISO pending)
-    * **License:**  ? (Issue raised on GitHub)
-    * **Type:** Semi-formal
-    * **Publication date:** Dec 2023 (v 1.1)
+    * **License:** Apache-2.0
+    * **Type:** Policy Template
+    * **Publication date:** 2022- present
   </details>
   
-### 3.2 Vulnerability handling
+* [OpenSSF Outbound Vulnerability Disclosure Policy Template](https://github.com/ossf/wg-vulnerability-disclosures/blob/main/docs/Outbound_Vulnerability_Disclosure_Policy_template.md) - The Open Source Security Foundation (OpenSSF) Outbound Vulnerability Disclosure Policy Template is a model policy document designed to guide organizations in responsibly disclosing security vulnerabilities they discover in external projects or products. This template adheres to the “Model Outbound Vulnerability Disclosure Policy” (version 0.1.1) and clarifies processes distinct from inbound vulnerability handling, focusing on how an organization should report a discovered vulnerability to the affected third party or vendor. It outlines recommended steps such as initial notification, coordination with the affected product’s security team or a relevant CERT, setting timelines for remediation and public disclosure, and conditions for involving outside stakeholders (for instance, regulators or the broader security community) if a vulnerability remains unaddressed. By following this template, organizations can establish a clear and consistent outbound disclosure practice, which contributes to the overall health of the software ecosystem and aligns with broader cybersecurity norms and compliance considerations that encourage transparency in vulnerability management across supply chains.
+  <details>
+    <summary>More info</summary>
+
+    * **Title:** OpenSSF Outbound Vulnerability Disclosure Policy Template
+    * **URL:** https://github.com/ossf/wg-vulnerability-disclosures/blob/main/docs/Outbound_Vulnerability_Disclosure_Policy_template.md
+    * **Publisher:** OpenSSF
+    * **License:** Apache-2.0
+    * **Type:** Policy Template
+    * **Publication date:** 2024- present
+  </details>
+  
+* [NIST SP 800-231: Bug Framework (BF): Formalizing Cybersecurity Weaknesses and Vulnerabilities](https://csrc.nist.gov/pubs/sp/800/231/final) - NIST’s Bug Framework (BF) is an effort to formalize how we describe software weaknesses and vulnerabilities. Unlike vulnerability databases (which catalog specific instances of bugs in products), the BF provides a methodology and language to define classes of bugs in a rigorous way. It builds on concepts from existing taxonomies like CWE (Common Weakness Enumeration) but adds formal structure, making it easier to see the relations between bugs. For example, the framework may define a hierarchy or mapping of how a higher-level weakness (say “Improper Input Validation”) can manifest as different lower-level bug types in certain contexts. It likely introduces a model to reason from root causes to impacts. The intent is to aid tools and researchers: with a formal bug definition language, static analysis tools or formal methods can more precisely identify and categorize issues, and data analysts can better aggregate and compare vulnerability information across different sources. In essence, SP 800-231 is bringing scientific rigor to how we classify software flaws, which can improve communication (everyone uses terms the same way), allow for more automation in vulnerability management, and potentially help discover logical gaps in existing security coverage.
+  <details>
+    <summary>More info</summary>
+
+    * **Title:** NIST SP 800-231: Bug Framework (BF): Formalizing Cybersecurity Weaknesses and Vulnerabilities
+    * **URL:** https://csrc.nist.gov/pubs/sp/800/231/final
+    * **Publisher:** NIST
+    * **License:** ?
+    * **Type:** informal
+    * **Publication date:** 2024
+  </details>
+ 
+* [RFC 9116](https://www.rfc-editor.org/rfc/rfc9116) - RFC 9116 defines the “security.txt” standard, providing a standardized file format for organizations to publish their vulnerability disclosure policies and security contact information. The RFC addresses the absence of clear reporting mechanisms, presenting a machine-readable structure with fields for contact information, encryption details, acknowledgments, policy links, and expiration dates. Widely adopted despite its informational status, RFC 9116 facilitates improved communication between vulnerability reporters and software maintainers, enhancing coordinated disclosure processes and aligning with regulatory requirements such as the EU Cyber Resilience Act.
+  <details>
+    <summary>More info</summary>
+
+    * **Title:** RFC 9116
+    * **URL:** https://www.rfc-editor.org/rfc/rfc9116
+    * **Publisher:** IETF
+    * **License:** IETF Trust Legal Provisions (TLP)
+    * **Type:** RFC
+    * **Publication date:** 2022
+  </details>
+
+
+### 3.2 Existing open source foundation policies
+
+#### Apache Softwate Foundation (ASF)
 
 * [ASF Classification of vulnerabilties](https://security.apache.org/blog/severityrating/) - The Apache Software Foundation (ASF) introduced a standardized vulnerability severity rating system classifying issues into Low, Moderate, Important, and Critical levels based on their exploitability and potential impact. Critical vulnerabilities involve remote exploitation without prerequisites, while lower levels require specific conditions or have less severe implications. This simplified severity rating complements the CVSS system, offering clear, consistent assessments across ASF projects, thereby aiding administrators in prioritizing vulnerability responses and improving coordinated disclosure clarity.
   <details>
@@ -495,6 +394,60 @@ TODO: add description of section. Possibly breakdown section a little more.
     * **Type:** policy
     * **Publication date:** current
   </details>
+  
+#### OpenStack Foundation
+
+* [OpenStack Vulnerability Management Process](https://security.openstack.org/vmt-process.html) - The OpenStack VMT Process describes how OpenStack manages security vulnerabilities through coordinated disclosure. It outlines the responsibilities of the independent VMT, including prompt vulnerability resolution, limiting early information exposure, and structured handling from initial report receipt to embargoed disclosure. The process involves confidential reporting channels, internal patch review, drafting impact descriptions, and brief embargo periods. Each issue receives dedicated coordination, including CVE assignment and release scheduling. The documented practices align with industry standards for coordinated vulnerability disclosure and multi-party incident handling.
+  <details>
+    <summary>More info</summary>
+
+    * **Title:** OpenStack Vulnerability Management Process
+    * **URL:** https://security.openstack.org/vmt-process.html
+    * **Publisher:** OpenStack Community
+    * **License:** CC-BY-3.0
+    * **Type:** informal
+    * **Publication date:** 2011 – present
+  </details>
+
+#### PHP Foundation
+
+* [PHP Security Policies and Process](https://github.com/php/policies/blob/main/security-policies.rst) - PHP’s Security Policies and Process is a meta-policy outlining PHP’s approach to vulnerability disclosure and maintenance of public security information via the security.txt file. It directs maintainers on keeping vulnerability reporting channels clear and up-to-date, linking internal security handling with external communications. The document ensures that the security.txt is updated consistently, aligning PHP’s processes with established best practices and regulatory frameworks, such as the EU Cyber Resilience Act, by providing clarity and transparency in vulnerability disclosure.
+  <details>
+    <summary>More info</summary>
+
+    * **Title:** PHP Security Policies and Process
+    * **URL:** https://github.com/php/policies/blob/main/security-policies.rst
+    * **Publisher:** PHP Project
+    * **License:** none but CC-BY-4.0 proposed
+    * **Type:** informal
+    * **Publication date:** 2024 – present
+  </details>
+
+* [PHP Vulnerability Disclosure Policy](https://github.com/php/policies/blob/main/security-classification.rst) - PHP’s Security Issue Classification document defines which PHP bugs constitute security vulnerabilities and categorizes them into Low, Medium, and High severity based on their potential impact and ease of exploitation. High severity issues typically allow serious compromises and receive CVE identifiers, whereas Low severity issues pose limited risks. The document outlines private handling procedures for high-risk vulnerabilities and public bug-fix approaches for lower-risk issues. It sets clear reporting guidelines and supports structured, coordinated vulnerability disclosure aligned with industry practices.
+  <details>
+    <summary>More info</summary>
+
+    * **Title:** PHP Vulnerability Disclosure Policy
+    * **URL:** https://github.com/php/policies/blob/main/security-classification.rst
+    * **Publisher:** PHP Project
+    * **License:** none but CC-BY-4.0 proposed
+    * **Type:** informal
+    * **Publication date:** 2023 – present
+  </details>
+
+* [PHP Release Process](https://github.com/php/php-src/blob/master/docs/release-process.md) - The PHP Release Process outlines detailed procedures for PHP version releases, specifically highlighting steps for security-focused updates. It distinguishes between regular updates and security releases, requiring explicit labeling and careful scheduling to optimize user response. Release managers follow structured preparation steps including testing, packaging, and documentation, with clear guidance on announcements emphasizing the urgency of security patches. By standardizing this communication and release strategy, PHP maintains transparency and meets coordinated disclosure standards expected by compliance frameworks.
+  <details>
+    <summary>More info</summary>
+
+    * **Title:** PHP Release Process
+    * **URL:** https://github.com/php/php-src/blob/master/docs/release-process.md
+    * **Publisher:** PHP project
+    * **License:** PHP 3.01
+    * **Type:** informal
+    * **Publication date:** 2007 – present
+  </details>
+
+### 3.3 Vulnerability management guidelines
 
 * [BSI Technical Guideline TR-03183: Cyber Resilience Requirements for Manufacturers and Products - Part 3: Vulnerability Reports and Notifications](https://www.bsi.bund.de/SharedDocs/Downloads/EN/BSI/Publications/TechGuidelines/TR03183/BSI-TR-03183-3-0_9_0.pdf?__blob=publicationFile&v=3) - The [Technical Guideline TR-03183](https://www.bsi.bund.de/dok/TR-03183-en) from Germany’s BSI delineates a set of cyber resilience requirements for manufacturers and product, aligned with the EU’s upcoming Cyber Resilience Act (CRA). The guideline translates the CRA’s regulatory expectations into concrete technical criteria and practices. By providing this framework in advance of the CRA’s full enforcement, the document helps industry stakeholders bolster software security and compliance, ensuring that products with digital elements are developed and maintained in line with emerging European cybersecurity standards. Part 3 describes the handling of incoming vulnerability reports.
   <details>
@@ -604,30 +557,6 @@ TODO: add description of section. Possibly breakdown section a little more.
     * **Publication date:** 2024
   </details>
 
-* [NIST SP 800-231: Bug Framework (BF): Formalizing Cybersecurity Weaknesses and Vulnerabilities](https://csrc.nist.gov/pubs/sp/800/231/final) - NIST’s Bug Framework (BF) is an effort to formalize how we describe software weaknesses and vulnerabilities. Unlike vulnerability databases (which catalog specific instances of bugs in products), the BF provides a methodology and language to define classes of bugs in a rigorous way. It builds on concepts from existing taxonomies like CWE (Common Weakness Enumeration) but adds formal structure, making it easier to see the relations between bugs. For example, the framework may define a hierarchy or mapping of how a higher-level weakness (say “Improper Input Validation”) can manifest as different lower-level bug types in certain contexts. It likely introduces a model to reason from root causes to impacts. The intent is to aid tools and researchers: with a formal bug definition language, static analysis tools or formal methods can more precisely identify and categorize issues, and data analysts can better aggregate and compare vulnerability information across different sources. In essence, SP 800-231 is bringing scientific rigor to how we classify software flaws, which can improve communication (everyone uses terms the same way), allow for more automation in vulnerability management, and potentially help discover logical gaps in existing security coverage.
-  <details>
-    <summary>More info</summary>
-
-    * **Title:** NIST SP 800-231: Bug Framework (BF): Formalizing Cybersecurity Weaknesses and Vulnerabilities
-    * **URL:** https://csrc.nist.gov/pubs/sp/800/231/final
-    * **Publisher:** NIST
-    * **License:** ?
-    * **Type:** informal
-    * **Publication date:** 2024
-  </details>
-
-* [OpenChain ISO/IEC 18974 - Security Assurance](https://openchainproject.org/security-assurance) - ISO/IEC 18974:2023, also known as the OpenChain Security Assurance standard, defines the key requirements for establishing a quality open source software security assurance program. It is designed to help organizations systematically identify and address known vulnerabilities in the open source components they use (for example, by checking for CVEs and dependency alerts). The standard outlines where in the software supply chain security processes should be in place, how roles and responsibilities for security should be assigned, and how to sustain these processes over time. It is intended to be lightweight and accessible, with support from the OpenChain community (providing reference materials and self-certification checklists), so that organizations of all sizes can adopt it and certify that their open source handling meets a baseline of security trustworthiness.
-  <details>
-    <summary>More info</summary>
-
-    * **Title:** OpenChain ISO/IEC 18974 - Security Assurance
-    * **URL:** https://openchainproject.org/security-assurance
-    * **Publisher:** OpenChain/ISO
-    * **License:** CC-BY-4.0
-    * **Type:** 
-    * **Publication date:** 45261
-  </details>
-
 * [OpenSSF Guide to coordinated vulnerability disclosure for open source software projects](https://github.com/ossf/oss-vulnerability-guide) - The Open Source Security Foundation’s (OpenSSF) Guide to Coordinated Vulnerability Disclosure educates open-source maintainers about structured vulnerability management. It describes the coordinated disclosure lifecycle, from preparation and initial reporting through confidential assessment, remediation under embargo, and public disclosure. The guide provides practical templates, emphasizes proactive planning, and is informed by industry best practices. This resource supports the implementation of consistent disclosure practices in open-source communities, assisting maintainers in meeting regulatory demands and improving overall software security maturity.
   <details>
     <summary>More info</summary>
@@ -638,30 +567,6 @@ TODO: add description of section. Possibly breakdown section a little more.
     * **License:** CC-BY-4.0
     * **Type:** Guidance, templates, and advise for how open source projects and security researchers can better coordinate vulnerability disclosures together
     * **Publication date:** 2022 – present
-  </details>
-
-* [OpenSSF Outbound Vulnerability Disclosure Policy Template](https://github.com/ossf/wg-vulnerability-disclosures/blob/main/docs/Outbound_Vulnerability_Disclosure_Policy_template.md) - The Open Source Security Foundation (OpenSSF) Outbound Vulnerability Disclosure Policy Template is a model policy document designed to guide organizations in responsibly disclosing security vulnerabilities they discover in external projects or products. This template adheres to the “Model Outbound Vulnerability Disclosure Policy” (version 0.1.1) and clarifies processes distinct from inbound vulnerability handling, focusing on how an organization should report a discovered vulnerability to the affected third party or vendor. It outlines recommended steps such as initial notification, coordination with the affected product’s security team or a relevant CERT, setting timelines for remediation and public disclosure, and conditions for involving outside stakeholders (for instance, regulators or the broader security community) if a vulnerability remains unaddressed. By following this template, organizations can establish a clear and consistent outbound disclosure practice, which contributes to the overall health of the software ecosystem and aligns with broader cybersecurity norms and compliance considerations that encourage transparency in vulnerability management across supply chains.
-  <details>
-    <summary>More info</summary>
-
-    * **Title:** OpenSSF Outbound Vulnerability Disclosure Policy Template
-    * **URL:** https://github.com/ossf/wg-vulnerability-disclosures/blob/main/docs/Outbound_Vulnerability_Disclosure_Policy_template.md
-    * **Publisher:** OpenSSF
-    * **License:** Apache-2.0
-    * **Type:** Policy Template
-    * **Publication date:** 2024- present
-  </details>
-
-* [OpenStack Vulnerability Management Process](https://security.openstack.org/vmt-process.html) - The OpenStack VMT Process describes how OpenStack manages security vulnerabilities through coordinated disclosure. It outlines the responsibilities of the independent VMT, including prompt vulnerability resolution, limiting early information exposure, and structured handling from initial report receipt to embargoed disclosure. The process involves confidential reporting channels, internal patch review, drafting impact descriptions, and brief embargo periods. Each issue receives dedicated coordination, including CVE assignment and release scheduling. The documented practices align with industry standards for coordinated vulnerability disclosure and multi-party incident handling.
-  <details>
-    <summary>More info</summary>
-
-    * **Title:** OpenStack Vulnerability Management Process
-    * **URL:** https://security.openstack.org/vmt-process.html
-    * **Publisher:** OpenStack Community
-    * **License:** CC-BY-3.0
-    * **Type:** informal
-    * **Publication date:** 2011 – present
   </details>
 
 * [Patching and Updates Guidelines from Berkeley Information Security Office](https://security.berkeley.edu/MSSND/patching-and-updates-guidelines) - Published by the University of California, Berkeley’s Information Security Office, this guideline provides best practices for keeping systems and applications up to date with security patches. It stresses the importance of timely patching as a critical defense against exploits of known vulnerabilities. Key recommendations include maintaining an inventory of all IT assets to know what needs patching, categorizing updates by severity and applying critical security patches as soon as possible (ideally within a defined timeframe like 48-72 hours for high severity), and establishing a regular patch cycle for less urgent updates. The guidelines also suggest testing patches in a staging environment when feasible, having a rollback plan in case an update causes issues, and using automated management tools to deploy patches at scale across an organization’s devices. Additionally, the document might cover how to handle systems that can’t be patched (due to compatibility or support issues), such as isolating them or applying compensating controls. Overall, the Berkeley guidelines serve as a practical manual for IT teams to build a robust patch management process, which in turn reduces an organization’s exposure to known exploits.
@@ -675,88 +580,163 @@ TODO: add description of section. Possibly breakdown section a little more.
     * **Type:** informal
     * **Publication date:** 
   </details>
+
+
+## 4. SBOM
+
+### 4.1 Technical specifications for SBOMs
+
+* [CycloneDX (ECMA-424)](https://ecma-international.org/publications-and-standards/standards/ecma-424/) - CycloneDX, originally a BOM (Bill of Materials) format from OWASP for software components, has been ratified as an international standard by Ecma International (as ECMA-424). This standard formalizes the schema and usage of CycloneDX for creating Software Bills of Materials, which enumerate the components and dependencies in a software product. ECMA-424 (CycloneDX v1.6) defines how to represent components, their licenses, version information, relationships, and relevant metadata (like hashes, integrity proofs, and known vulnerabilities) in a machine-readable way. The publication of CycloneDX as ECMA-424 means it is a globally recognized specification, facilitating widespread adoption. It enables organizations to exchange SBOM information consistently across tools and industries, enhancing transparency and helping stakeholders (developers, consumers, regulators) to track and manage supply chain risk by knowing exactly what is inside a software product.
+  <details>
+    <summary>More info</summary>
+
+    * **Title:** ECMA-424
+    * **URL:** https://ecma-international.org/publications-and-standards/standards/ecma-424/
+    * **Publisher:** ECMA International
+    * **License:** ?
+    * **Type:** Formal
+    * **Publication date:** June 2024 (version 1.0)
+  </details>
+
+* [Software Package Data Exchange (SPDX) ISO/IEC 5962:2021](https://www.iso.org/standard/81870.html) - ISO/IEC 5962:2021 is the international standardization of the Software Package Data Exchange (SPDX) format as a norm for Software Bill of Materials. SPDX originated as a Linux Foundation project to describe the components and licenses in software, and it was brought into ISO to encourage global adoption. The standard defines how to list all pieces of software (open-source libraries, proprietary modules, etc.), along with metadata like their versions, checksums, licenses, and relationships, in a structured document. Using ISO 5962 (SPDX), organizations can share SBOMs across organizational and tool boundaries with confidence that everyone interprets the content the same way. This promotes transparency in software supply chains, helps with automated license compliance checks, and aids vulnerability management (by quickly identifying if a product contains a component with a known CVE). SPDX as an ISO standard underscores its maturity and the importance of SBOMs in modern cybersecurity and compliance workflows.
+  <details>
+    <summary>More info</summary>
+
+    * **Title:** ISO/IEC 5962:2021
+    * **URL:** https://www.iso.org/standard/81870.html
+    * **Publisher:** ISO
+    * **License:** ?
+    * **Type:** Formal
+    * **Publication date:** August 2021 (Version 1.0)
+  </details>
+
+### 4.2 Technical specifications for software identification
+
+* [Software Identification for Cybersecurity: Survey and Recommendations for Regulators](https://swhsec.github.io/pdf/swhid_for_cybersecurity_regulations.pdf) - This paper provides a comprehensive overview of how software components—especially open-source elements—can be uniquely identified to improve cybersecurity. It examines current challenges in software identification and reviews existing identifier schemes, highlighting issues like naming inconsistencies and ephemerality. In response, the authors advocate for Software Heritage persistent IDs (SWHIDs), which are content-derived, permanent identifiers, as a unified solution for tracking software artifacts across systems. The report emphasizes that SWHIDs would facilitate better vulnerability management and transparency, aligning with emerging regulatory requirements (such as the EU Cyber Resilience Act and U.S. executive orders) by ensuring every component in the supply chain can be traced and verified in a stable, tool-agnostic manner.
+  <details>
+    <summary>More info</summary>
+
+    * **Title:** Software Identification for Cybersecurity: Survey and Recommendations for Regulators
+    * **URL:** https://swhsec.github.io/pdf/swhid_for_cybersecurity_regulations.pdf
+    * **Publisher:** Olivier Barais, Roberto Di Cosmo, Ludovic Mé, Stefano Zacchiroli, and Olivier Zendra
+    * **License:** Not specified
+    * **Type:** Technical report (survey & policy recommendations)
+    * **Publication date:** 2025
+  </details>
+
+* [Unique identifier for software components (ECMA International)](https://github.com/package-url/purl-spec) - The Package URL specification defines a standard way to identify software packages across different programming ecosystems using a simple, URL-like format. A “purl” takes the form of a URI that includes a package’s type (e.g. npm, Maven, PyPI, GitHub), the namespace or group (if applicable), the package name, version, and any qualifiers or subpath. For example, a purl might look like: pkg:maven/org.apache.commons/commons-lang3@3.12.0. This one identifier concisely tells you the package manager (Maven), group (org.apache.commons), artifact (commons-lang3), and version (3.12.0). The purl spec, maintained on GitHub, has become widely used in tools and SBOM formats because it provides a consistent way to refer to components. It helps automate the tracking of dependencies, vulnerability matching (linking known vulnerabilities to package coordinates), and license compliance, since every package instance can be referenced uniformly. In summary, Package URL is like a universal addressing system for software components, making it easier to integrate data about packages across different systems and databases.
+  <details>
+    <summary>More info</summary>
+
+    * **Title:** Unique identifier for software components
+    * **URL:** https://github.com/package-url/purl-spec
+    * **Publisher:** ECMA International (in 2025)
+    * **License:** ?
+    * **Type:** Formal
+    * **Publication date:** 2025
+  </details>
+
+* [Unique identifier for software components (Software Heritage)](https://www.swhid.org/specification) - The Software Heritage ID is a scheme for assigning permanent, unique identifiers to software artifacts (such as source code files, commits, or releases) based on their content. The specification (developed by the Software Heritage archive) defines a cryptographic hash-based ID format that includes a prefix (swh:), a content hash, and additional qualifiers to denote the type of artifact and its position in the archive’s Merkle graph. For example, there are SWHIDs for files (blobs), directories (which list files), commits (snapshots of directories with metadata), and releases (tags). Because SWHIDs are content-derived, they are immutable and globally unique: the same piece of code will always have the same SWHID. This system enables precise references to software components regardless of where they are stored or how they are named elsewhere. In practice, SWHIDs facilitate long-term preservation, citation, and tracking of software, since one can resolve an SWHID via the Software Heritage archive to retrieve the exact artifact, and they help with supply chain integrity by ensuring that references to source code are unambiguous and verifiable.
+  <details>
+    <summary>More info</summary>
+
+    * **Title:** Unique identifier for software components
+    * **URL:** https://www.swhid.org/specification
+    * **Publisher:** Software Heritage (ISO pending)
+    * **License:**  ? (Issue raised on GitHub)
+    * **Type:** Semi-formal
+    * **Publication date:** Dec 2023 (v 1.1)
+  </details>
+    
   
-* [PHP Security Policies and Process](https://github.com/php/policies/blob/main/security-policies.rst) - PHP’s Security Policies and Process is a meta-policy outlining PHP’s approach to vulnerability disclosure and maintenance of public security information via the security.txt file. It directs maintainers on keeping vulnerability reporting channels clear and up-to-date, linking internal security handling with external communications. The document ensures that the security.txt is updated consistently, aligning PHP’s processes with established best practices and regulatory frameworks, such as the EU Cyber Resilience Act, by providing clarity and transparency in vulnerability disclosure.
+### 4.3 SBOM implementation guidelines
+
+* [BSI Technical Guideline TR-03183: Cyber Resilience Requirements for Manufacturers and Products - Part 2: Software Bill of Materials (SBOM)](https://www.bsi.bund.de/SharedDocs/Downloads/EN/BSI/Publications/TechGuidelines/TR03183/BSI-TR-03183-2-2_0_0.pdf?__blob=publicationFile&v=3) - The [Technical Guideline TR-03183](https://www.bsi.bund.de/dok/TR-03183-en) from Germany’s BSI delineates a set of cyber resilience requirements for manufacturers and product, aligned with the EU’s upcoming Cyber Resilience Act (CRA). The guideline translates the CRA’s regulatory expectations into concrete technical criteria and practices. By providing this framework in advance of the CRA’s full enforcement, the document helps industry stakeholders bolster software security and compliance, ensuring that products with digital elements are developed and maintained in line with emerging European cybersecurity standards. Part 2 describes formal and technical requirements for Software Bill of Materials (SBOM).
   <details>
     <summary>More info</summary>
 
-    * **Title:** PHP Security Policies and Process
-    * **URL:** https://github.com/php/policies/blob/main/security-policies.rst
-    * **Publisher:** PHP Project
-    * **License:** none but CC-BY-4.0 proposed
-    * **Type:** informal
-    * **Publication date:** 2024 – present
-  </details>
-
-* [PHP Vulnerability Disclosure Policy](https://github.com/php/policies/blob/main/security-classification.rst) - PHP’s Security Issue Classification document defines which PHP bugs constitute security vulnerabilities and categorizes them into Low, Medium, and High severity based on their potential impact and ease of exploitation. High severity issues typically allow serious compromises and receive CVE identifiers, whereas Low severity issues pose limited risks. The document outlines private handling procedures for high-risk vulnerabilities and public bug-fix approaches for lower-risk issues. It sets clear reporting guidelines and supports structured, coordinated vulnerability disclosure aligned with industry practices.
-  <details>
-    <summary>More info</summary>
-
-    * **Title:** PHP Vulnerability Disclosure Policy
-    * **URL:** https://github.com/php/policies/blob/main/security-classification.rst
-    * **Publisher:** PHP Project
-    * **License:** none but CC-BY-4.0 proposed
-    * **Type:** informal
-    * **Publication date:** 2023 – present
-  </details>
-
-* [PHP Release Process](https://github.com/php/php-src/blob/master/docs/release-process.md) - The PHP Release Process outlines detailed procedures for PHP version releases, specifically highlighting steps for security-focused updates. It distinguishes between regular updates and security releases, requiring explicit labeling and careful scheduling to optimize user response. Release managers follow structured preparation steps including testing, packaging, and documentation, with clear guidance on announcements emphasizing the urgency of security patches. By standardizing this communication and release strategy, PHP maintains transparency and meets coordinated disclosure standards expected by compliance frameworks.
-  <details>
-    <summary>More info</summary>
-
-    * **Title:** PHP Release Process
-    * **URL:** https://github.com/php/php-src/blob/master/docs/release-process.md
-    * **Publisher:** PHP project
-    * **License:** PHP 3.01
-    * **Type:** informal
-    * **Publication date:** 2007 – present
-  </details>
-
-## 4. Compliance requirements
-
-* [Cyber Resilience Act Compliance Guide for Open Source](https://code.inno3.eu/ouvert/guide-cra/-/raw/main/CNLL_inno3_Guide-CRA_VE_1.0.pdf) - This guide, put together by European open source advocacy groups, interprets the EU Cyber Resilience Act (CRA) through the lens of open source software development. The CRA will impose certain security and compliance requirements on “products with digital elements.” Many open source maintainers are concerned about how to meet these obligations. The guide likely breaks down the CRA’s key requirements – such as providing security support and updates for a product, having a vulnerability disclosure process, ensuring the software is developed following secure practices, and including technical documentation – and offers suggestions for open source projects to address them. It might recommend things like adopting an open source security best practices badge (to show development follows guidelines), publishing an SBOM for releases, clearly stating how users will be alerted to issues or updates, and possibly working with downstream distributors who can help fulfill CRA duties. It also may clarify which open source scenarios are out of scope of the CRA (for example, maybe software provided without commercial intent). In short, this compliance guide serves as a bridge to help the open source community understand and prepare for the new regulatory landscape under the CRA, aiming to ensure that open source can remain sustainable and trusted under these rules.
-  <details>
-    <summary>More info</summary>
-
-    * **Title:** Cyber Resilience Act Compliance Guide for Open Source
-    * **URL:** https://code.inno3.eu/ouvert/guide-cra/-/raw/main/CNLL_inno3_Guide-CRA_VE_1.0.pdf
-    * **Publisher:** inno³ and CNLL
-    * **License:** CC-by-SA 4.0
-    * **Type:** 
+    * **Title:** Technical Guideline TR-03183: Cyber Resilience Requirements for Manufacturers and Products - Part 2 Software Bill of Materials (SBOM)
+    * **URL:** https://www.bsi.bund.de/SharedDocs/Downloads/EN/BSI/Publications/TechGuidelines/TR03183/BSI-TR-03183-2-2_0_0.pdf?__blob=publicationFile&v=3
+    * **Publisher:** Federal Office for Information Security (BSI), Germany
+    * **License:** Not specified 
+    * **Type:** Technical Guideline (draft regulatory standard)
     * **Publication date:** 2024
   </details>
 
-### 4.1 Open Source Steward Cybersecurity policy
-
-CRA ref: [Article 24(1)][Article 24]\
-Standards request ref: N/A\
-Impact on steward: `obligation`
-
-* [OpenSSF Security Policy Templates](https://github.com/ossf/oss-vulnerability-guide/tree/main/templates/security_policies) - This resource is a collection of security policy templates provided by the Open Source Security Foundation’s Open Source Software Vulnerability Guide project to help open source maintainers create robust security policies for their projects. The templates include ready-made text and structure for documents like a project’s security policy or “SECURITY.md,” vulnerability reporting guidelines, and coordinated disclosure procedures, all of which maintainers can adapt to their specific needs. By offering standardized language covering aspects such as how to report vulnerabilities, expected response times, and how fixes and advisories will be communicated, these templates lower the barrier for projects to implement best practices in vulnerability management and communication. They are directly relevant to improving open source software resilience and assist projects in meeting expectations set by users and regulations (for instance, the EU Cyber Resilience Act’s call for clear vulnerability disclosure policies), ensuring that even smaller projects can align with industry standards in security process documentation.
+* [IETF Detailed Software Supply Chain Uses Cases for SCITT SCITT](https://datatracker.ietf.org/doc/draft-ietf-scitt-software-use-cases/) - The IETF’s SCITT working group is developing a set of protocols to enable a trustworthy ledger of software supply chain events (like signing, transferring, and auditing software components). The linked document on software use cases describes scenarios where organizations need a verifiable record of actions in the supply chain. For example, one use case might be tracking the provenance of a piece of code: a developer commits code and signs it, a build service records that it built a binary from specific source, a scanner logs that it scanned the binary for vulnerabilities, etc. SCITT envisions a tamper-evident ledger (possibly blockchain-like or using transparency logs) where each of these actions is recorded by actors with cryptographic signatures. The use case document illustrates how this can help – for instance, a consumer of software can query the ledger to see if a given software package version has a recorded build attestation and security scan results before trusting it. Another use case could involve regulatory compliance: proving to an auditor that every software component in a device went through certain security checks. By enumerating such cases, the document guides the design of the SCITT architecture to ensure it meets real-world needs. In essence, SCITT’s use cases highlight the forthcoming ability to establish a chain of trust for software artifacts through standardized evidence, improving the integrity and transparency of the software supply chain.
   <details>
     <summary>More info</summary>
 
-    * **Title:** OpenSSF Security Policy Templates
-    * **URL:** https://github.com/ossf/oss-vulnerability-guide/tree/main/templates/security_policies
-    * **Publisher:** OpenSSF
-    * **License:** Apache-2.0
-    * **Type:** Policy Template
-    * **Publication date:** 2022- present
-  </details>
- 
-* [RFC 9116](https://www.rfc-editor.org/rfc/rfc9116) - RFC 9116 defines the “security.txt” standard, providing a standardized file format for organizations to publish their vulnerability disclosure policies and security contact information. The RFC addresses the absence of clear reporting mechanisms, presenting a machine-readable structure with fields for contact information, encryption details, acknowledgments, policy links, and expiration dates. Widely adopted despite its informational status, RFC 9116 facilitates improved communication between vulnerability reporters and software maintainers, enhancing coordinated disclosure processes and aligning with regulatory requirements such as the EU Cyber Resilience Act.
-  <details>
-    <summary>More info</summary>
-
-    * **Title:** RFC 9116
-    * **URL:** https://www.rfc-editor.org/rfc/rfc9116
+    * **Title:** Detailed Software Supply Chain Uses Cases for SCITT
+    * **URL:** https://datatracker.ietf.org/doc/draft-ietf-scitt-software-use-cases/
     * **Publisher:** IETF
-    * **License:** IETF Trust Legal Provisions (TLP)
-    * **Type:** RFC
-    * **Publication date:** 2022
+    * **License:** 
+    * **Type:** Internet-Draft
+    * **Publication date:** 2024
   </details>
+
+* [JavaScript SBOM and Software Attestation Challenges and Recommendations](https://github.com/openjs-foundation/security-collab-space/blob/main/OpenJS-SBOM-CSCRM-Challenges-Recommendations.md) - This resource is a collaborative report produced by the OpenJS Foundation’s security working group, addressing the practical challenges of implementing Software Bill of Materials (SBOM) and Cyber Supply Chain Risk Management (C-SCRM) in open source projects. It identifies key obstacles, such as generating comprehensive SBOMs, ensuring their accuracy and maintenance, and integrating supply chain security practices into development workflows, especially within widely-used JavaScript ecosystems. The document offers recommendations to mitigate these issues, advocating for improved tooling, standardized processes, and cross-project knowledge sharing to strengthen supply chain transparency and vulnerability management. By highlighting these challenges and solutions, the report provides guidance relevant to improving software security posture in line with emerging regulatory expectations (like those of the EU Cyber Resilience Act) that emphasize software supply chain integrity and documentation.
+  <details>
+    <summary>More info</summary>
+
+    * **Title:** JavaScript SBOM and Software Attestation Challenges and Recommendations
+    * **URL:** https://github.com/openjs-foundation/security-collab-space/blob/main/OpenJS-SBOM-CSCRM-Challenges-Recommendations.md
+    * **Publisher:** OpenJS Security Collaboration Space
+    * **License:** 
+    * **Type:** informal
+    * **Publication date:** 2024
+  </details>
+  
+* [Lessons Learned during SBOM Implementation and Adoption](https://energycentral.com/c/iu/facts-and-opinions-about-sbom-implementation-and-adoption) - This article, written by a practitioner with extensive experience in SBOMs, shares practical insights and opinions on the current state of SBOM usage. One key point the author makes is that the only authoritative SBOM for a product should come from its original producer – they have the best knowledge of the components. However, even producers might not have perfect insight into every sub-component, especially when they incorporate third-party elements, highlighting the need for upstream component transparency. The author argues against waiting for SBOM technology to be “perfect” or universally adopted; even imperfect SBOMs provide significant value right now by giving visibility into software contents and risks. The article notes that many tools and a vibrant community already exist to help generate and use SBOMs, debunking the myth that SBOM is immature. It also reminds readers that there are two well-established SBOM standards (CycloneDX and SPDX) that are sufficient for current needs. The author cautions that there are both proponents and detractors of SBOMs speaking in the industry, and suggests readers do their own evaluations – in other words, experiment with SBOMs on their own software to see the benefits firsthand. Overall, the piece encourages organizations to start integrating SBOM practices into their workflows today, to improve software risk management and comply with emerging requirements, rather than adopting a “wait and see” approach.
+  <details>
+    <summary>More info</summary>
+
+    * **Title:** Energy Central article
+    * **URL:** https://energycentral.com/c/iu/facts-and-opinions-about-sbom-implementation-and-adoption
+    * **Publisher:** Energy Central/Dick Brooks
+    * **License:** 
+    * **Type:** informal
+    * **Publication date:** Febrary 16, 2025
+  </details>
+
+* [The Minimum Elements for a Software Bill of Materials (SBOM) ](https://www.ntia.doc.gov/files/ntia/publications/sbom_minimum_elements_report.pdf) - This official report outlines the fundamental requirements for a minimum Software Bill of Materials (SBOM) as part of a national cybersecurity initiative. It specifies the core data elements that an SBOM should contain (such as component names, versions, and suppliers), along with the need for machine-readable formats and automated tooling to generate and use SBOMs at scale. The document also describes basic organizational processes for maintaining SBOMs and leveraging them in managing software vulnerabilities and license compliance. Issued under the directive of a U.S. Executive Order aimed at improving cybersecurity, the report establishes a common baseline for SBOM content and practices, laying a foundation for greater transparency in software supply chains while noting potential extensions for future use cases beyond the minimum requirements.
+  <details>
+    <summary>More info</summary>
+
+    * **Title:** The Minimum Elements for a Software Bill of Materials (SBOM) 
+    * **URL:** https://www.ntia.doc.gov/files/ntia/publications/sbom_minimum_elements_report.pdf
+    * **Publisher:** United States Department of Commerce (NTIA)
+    * **License:** Public Domain
+    * **Type:** Government report (cybersecurity guidance)
+    * **Publication date:** 2021
+  </details>
+
+* [Technical guidelines on SBOMs from CERT-In](https://www.cert-in.org.in/PDF/SBOM_Guidelines.pdf) - In October 2024, the Indian Computer Emergency Response Team (CERT-In) released a set of technical guidelines on Software Bill of Materials (SBOM) for organizations in the public sector and critical industries. This document underscores the value of SBOMs as a tool for transparency in software supply chains and provides recommendations for how to generate and maintain SBOMs. It outlines processes and best practices for implementing SBOMs – such as what component information should be included (name, version, supplier, known vulnerabilities, etc.) – and offers guidance on integrating SBOM use into procurement and risk management. The goal of these guidelines is to ensure that Indian government agencies and essential service providers adopt SBOM practices to enhance software security and resilience, in line with global trends and regulatory expectations.
+  <details>
+    <summary>More info</summary>
+
+    * **Title:** Technical guidelines on SBOMs
+    * **URL:** https://www.cert-in.org.in/PDF/SBOM_Guidelines.pdf
+    * **Publisher:** CERT-IN
+    * **License:** 
+    * **Type:** informal
+    * **Publication date:** 03.10.2024 (Version 1.0)
+  </details>
+
+* [Technical guidelines on SBOMs from CISA](https://www.cisa.gov/sites/default/files/2024-07/PDM24050%20Software%20Acquisition%20Guide%20for%20Government%20Enterprise%20ConsumersV2_508c.pdf) - In mid-2024, CISA released updated guidance (version 2.0 of its Software Acquisition guidance for enterprises) focusing on how government organizations should handle SBOMs. This technical guide provides detailed procedures for requesting SBOMs from software vendors, ingesting and validating those SBOMs, and using them for risk analysis. It likely advises agencies to use automated tools to parse SBOM data to identify components and check them against vulnerability databases (so if a vendor provides an SBOM, the agency can quickly see if any included library has known flaws). It also covers establishing workflows to manage SBOM data at scale – for example, keeping a repository of SBOMs for all software in use, updating it when software is patched or upgraded, and integrating SBOM review into continuous monitoring. The guide emphasizes that simply obtaining SBOMs is not the end goal; organizations must also develop the capability to act on SBOM information (like prioritizing patches or isolating systems when a critical vulnerability in a common component emerges). By following these guidelines, government enterprises can move toward proactive supply chain security management, gaining visibility into their software assets and being better prepared to respond to new threats or compliance checks (like those required by EO mandates).
+  <details>
+    <summary>More info</summary>
+
+    * **Title:** Technical guidelines on SBOMs
+    * **URL:** https://www.cisa.gov/sites/default/files/2024-07/PDM24050%20Software%20Acquisition%20Guide%20for%20Government%20Enterprise%20ConsumersV2_508c.pdf
+    * **Publisher:** US Government
+    * **License:** 
+    * **Type:** formal
+    * **Publication date:** 2024
+  </details>
+
  
-### 4.2 Due diligence requirements
+### 5. Due diligence requirements
 
 CRA ref: [Article 13(5)][Article 13]\
 Standards request ref: N/A\
@@ -799,7 +779,20 @@ Impact on steward: `attestations`
     * **Publication date:** 2024
   </details>
 
-### 4.3 Security attestations
+* [OpenChain ISO/IEC 18974 - Security Assurance](https://openchainproject.org/security-assurance) - ISO/IEC 18974:2023, also known as the OpenChain Security Assurance standard, defines the key requirements for establishing a quality open source software security assurance program. It is designed to help organizations systematically identify and address known vulnerabilities in the open source components they use (for example, by checking for CVEs and dependency alerts). The standard outlines where in the software supply chain security processes should be in place, how roles and responsibilities for security should be assigned, and how to sustain these processes over time. It is intended to be lightweight and accessible, with support from the OpenChain community (providing reference materials and self-certification checklists), so that organizations of all sizes can adopt it and certify that their open source handling meets a baseline of security trustworthiness.
+  <details>
+    <summary>More info</summary>
+
+    * **Title:** OpenChain ISO/IEC 18974 - Security Assurance
+    * **URL:** https://openchainproject.org/security-assurance
+    * **Publisher:** OpenChain/ISO
+    * **License:** CC-BY-4.0
+    * **Type:** 
+    * **Publication date:** 45261
+  </details>
+
+
+### 6. Security attestations
 
 CRA ref: [Article 25][]\
 Standards request ref: N/A\
@@ -829,18 +822,6 @@ Impact on steward: `attestations`
     * **Publication date:** from 2021 under the current name
   </details>
   
-* [Secure Software Development Attestation Form](https://www.cisa.gov/resources-tools/resources/secure-software-development-attestation-form) - In March 2024, the Cybersecurity and Infrastructure Security Agency (CISA) and the U.S. Office of Management and Budget (OMB) jointly released the Secure Software Development Attestation Form. This document serves as a compliance mechanism under federal cybersecurity initiatives, requiring software producers to affirm adherence to National Institute of Standards and Technology (NIST) secure software development guidelines in accordance with Executive Order 14028 and OMB memoranda M-22-18 and M-23-16. The form’s purpose is to provide assurance that any software used by federal agencies is securely developed, effectively enforcing minimum secure development standards and toolsets among vendors. By tying this attestation to U.S. federal procurement, the government compels software suppliers to demonstrate compliance with specified development practices, and failure to provide a signed attestation may result in agencies discontinuing use of the software. Overall, the resource establishes a uniform attestation process that supports regulatory compliance and strengthens the security of the software supply chain in government acquisitions.
-  <details>
-    <summary>More info</summary>
-
-    * **Title:** Secure Software Development Attestation Form
-    * **URL:** https://www.cisa.gov/resources-tools/resources/secure-software-development-attestation-form
-    * **Publisher:** CISA
-    * **License:** Public Domain
-    * **Type:** Form
-    * **Publication date:** 2024
-  </details>
-  
 * [FreeBSD SSDF Attestation](https://freebsdfoundation.org/news-and-events/latest-news/freebsd-foundation-announces-ssdf-attestation/) - In November 2023, the FreeBSD Foundation announced the availability of a Secure Software Development Framework (SSDF) Attestation, a formal report that documents how the FreeBSD open-source operating system’s development practices align with NIST’s SSDF guidelines. This attestation was developed to assist commercial users of FreeBSD in meeting emerging security requirements—specifically, U.S. government software procurement rules that require suppliers to self-attest to following secure development practices (as mandated by NIST SP 800-218 and related OMB directives). The announcement highlights FreeBSD’s longstanding emphasis on security by design and explains that the attestation service allows vendors and cloud providers relying on FreeBSD to easily demonstrate that the upstream software meets recognized secure development criteria. By providing this attestation, the FreeBSD Foundation bridges open-source development with regulatory compliance needs, reflecting broader trends (in the U.S. and potentially in the EU through initiatives like the Cyber Resilience Act) to demand greater assurance of software supply chain security.
   <details>
     <summary>More info</summary>
@@ -865,7 +846,33 @@ Impact on steward: `attestations`
     * **Publication date:** 2024
   </details>
 
-## 5. Similar legislation
+* [Secure Software Development Attestation Form](https://www.cisa.gov/resources-tools/resources/secure-software-development-attestation-form) - In March 2024, the Cybersecurity and Infrastructure Security Agency (CISA) and the U.S. Office of Management and Budget (OMB) jointly released the Secure Software Development Attestation Form. This document serves as a compliance mechanism under federal cybersecurity initiatives, requiring software producers to affirm adherence to National Institute of Standards and Technology (NIST) secure software development guidelines in accordance with Executive Order 14028 and OMB memoranda M-22-18 and M-23-16. The form’s purpose is to provide assurance that any software used by federal agencies is securely developed, effectively enforcing minimum secure development standards and toolsets among vendors. By tying this attestation to U.S. federal procurement, the government compels software suppliers to demonstrate compliance with specified development practices, and failure to provide a signed attestation may result in agencies discontinuing use of the software. Overall, the resource establishes a uniform attestation process that supports regulatory compliance and strengthens the security of the software supply chain in government acquisitions.
+  <details>
+    <summary>More info</summary>
+
+    * **Title:** Secure Software Development Attestation Form
+    * **URL:** https://www.cisa.gov/resources-tools/resources/secure-software-development-attestation-form
+    * **Publisher:** CISA
+    * **License:** Public Domain
+    * **Type:** Form
+    * **Publication date:** 2024
+  </details>
+
+
+* [SLSA Supply Chain Levels for Software Artifacts](https://github.com/slsa-framework/slsa) - SLSA (pronounced “salsa”) is a security framework for improving software supply chain integrity, created by a consortium of industry leaders. It defines a maturity model with four levels that software producers can achieve, each level adding more advanced supply chain protections. At Level 1, basic requirements like using version control and build scripts are in place. By Level 2, tamper-evident builds are required (e.g. generating provenance metadata). Level 3 mandates trusted, verifiable builds (such as using a dedicated, isolated build service to prevent interference), and Level 4 involves the highest assurances including two-party review of all changes and a hermetic, reproducible build process. The framework is documented openly (on GitHub) and provides specifications for how to produce attestations (metadata) that a build meets a certain SLSA level. The purpose of SLSA is to thwart supply chain attacks (like code tampering, compromised dependencies, etc.) by incrementally hardening the build and release process. Organizations can adopt SLSA guidelines to progressively make their software build pipelines more secure, and customers can eventually prefer software that comes with SLSA provenance, indicating it was built under strict controls.
+  <details>
+    <summary>More info</summary>
+
+    * **Title:** SLSA Supply Chain Levels for Software Artifacts
+    * **URL:** https://github.com/slsa-framework/slsa
+    * **Publisher:** OpenSSF
+    * **License:** Apache 2.0 and others
+    * **Type:** Semi-formal
+    * **Publication date:** 
+  </details>
+
+
+## 7. Similar legislation
 
 ### Australia
 
@@ -1069,14 +1076,16 @@ LLM used: OpenAI ChatGPT 4.5 using "deep research".
 [Section 1.3]: #13-security-processes-and-governance
 [Section 2]:   #2-generic-security-requirements
 [Section 3]:   #3-vulnerability-management
-[Section 3.1]: #31-sbom--supply-chain-assurance
-[Section 3.2]: #32-vulnerability-handling
-[Section 4.]:  #4-compliance-requirements
-[Section 4.1]: #41-open-source-steward-cybersecurity-policy
-[Section 4.2]: #42-due-diligence-requirements
-[Section 4.3]: #43-security-attestations
-[Section 5]:   #5-similar-legislation
-[Section 6]:   #6-other
+[Section 3.1]: #31-vulnerability-management-specifications-and-policy-templates
+[Section 3.2]: #32-existing-open-source-foundation-policies
+[Section 3.3]: #33-vulnerability-management-guidelines
+[Section 4]:  #4-sboms
+[Section 4.1]: #41-technical-specifications-for-sboms
+[Section 4.2]: #42-technical-specifications-for-software-identification
+[Section 4.3]: #43-sbom-implementation-guidelines
+[Section 5]:   #5-due-diligence-requirements
+[Section 6]:   #6-security-attestations
+[Section 7]:   #7-similar-legislation
 [Acknowledgments]: #acknowledgments
 [LLM usage]:   #annex-i---llm-usage
 
