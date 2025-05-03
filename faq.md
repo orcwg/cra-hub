@@ -55,7 +55,7 @@ Maturity level statuses are assigned using the process described in [Annex 1](#a
 
 The Cyber Resilience Act (CRA) is a new EU Regulation that aims to safeguard consumers and businesses who use software or products with digital components. It creates mandatory cybersecurity requirements for manufacturers and retailers that extend throughout the product lifecycle and the whole software supply chain (including all open source dependencies and transitive dependencies) and helps consumers and business identify such products through the [CE mark](https://en.wikipedia.org/wiki/CE_marking).
 
-> Status: ⚠️ [Draft][]
+> Status: ✅ [Approved][]
 | GitHub issue(s): [#154](https://github.com/orcwg/cra-hub/issues/154)
 </details>
 
@@ -65,7 +65,7 @@ The Cyber Resilience Act (CRA) is a new EU Regulation that aims to safeguard con
 
 The final text of the CRA can be found on [EUR-Lex][CRA] ([English HTML version][CRA HTML]).
 
-> Status: ⚠️ [Draft][]
+> Status: ✅ [Approved][]
 | GitHub issue(s): [#155](https://github.com/orcwg/cra-hub/issues/155)
 </details>
 
@@ -94,7 +94,7 @@ gantt
     Application phase: 2026-09-11, 2029-06-30
 ```
 
-> Status: ⚠️ [Draft][]
+> Status: ✅ [Approved][]
 | GitHub issue(s): [#10](https://github.com/orcwg/cra-hub/issues/10)
 </details>
 
@@ -108,7 +108,7 @@ The following types of product are "in scope" (i.e., their design and production
 - Software products (e.g. operating systems, word processing, games or mobile apps, software libraries, etc.)
 - Remote data processing solutions for any of the above, as far as those solutions are necessary for a product to perform its functions (e.g. cloud-based services that allow control of a smart lock at a distance, remote database that backs-up user preferences, etc.)
 
-> Status: ⚠️ [Draft][]
+> Status: ✅ [Approved][]
 | GitHub issue(s): [#2](https://github.com/orcwg/cra-hub/issues/2)
 </details>
 
