@@ -725,7 +725,7 @@ This section contains references which are relevant to the requirements expresse
   </details>
 
  
-### 5. Due diligence requirements
+## 5. Due diligence requirements
 
 This section contains references which are relevant to the requirement to "exercise due diligence" expressed in [Article 13(5)][Article 13] of the CRA. It has no corresponding standard request in the [European Commission's standardisation request to the ESOs][ESO request].
 
@@ -781,7 +781,7 @@ This section contains references which are relevant to the requirement to "exerc
   </details>
 
 
-### 6. Security attestations
+## 6. Security attestations
 
 This section contains references which are relevant to the "security attestation of free and open-source software" described in [Article 25][Article 25] of the CRA. It has no corresponding standard request in the [European Commission's standardisation request to the ESOs][ESO request].
 
