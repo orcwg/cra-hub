@@ -3,7 +3,7 @@
 Everything you ever wanted to know about the CRA and its implementation.
 
 * [FAQ][] ([open issues][FAQ issues])
-* [Inventory of standards, specs, and best practices relevant to the CRA][inventory] ([draft spreadsheet][inventory spreadsheet] | [open issues][inventory issues])
+* [Inventory of resources relevant to development and usage of open source under the CRA][inventory] ([open issues][inventory issues])
 * [Summary of the harmonized standards requested by the EU Commision to the ESOs][standards]
 * [Important and Critical Product Categories][] ([input to the Commission][] | [open pull requests][] | [related FAQ][] | [related FAQ issues][])
 * [Questionnaires][]
