@@ -1039,8 +1039,9 @@ This section contains references to legislation that is similar or related to th
   
 ## Acknowledgments
 
-The following people have contributed to this document either directly or indirectly (e.g. by raising questions):
+The following people have contributed to this document either directly or indirectly (e.g. by raising issues):
 
+Andrew Katz,
 Anthony Harrison,
 Ayan Sinha Mahapatra,
 Christopher "CRob" Robinson,
