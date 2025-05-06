@@ -1,8 +1,8 @@
 ### Version 1 - May 12, 2025
 
-# Inventory of resources relevant to development and usage of open source under the Cyber Resilience Act
+# CRA Resource Inventory: references relevant to the development and integration of open source under the Cyber Resilience Act
 
-The goal of this document is to provide a comprehensive list of resources that are relevant to the CRA obligations of open source software stewards and manufacturers when it comes to the development and usage of open source. The underlying purpose is to provide specification and standardization effort with easy access to documented industry and community best practices related to the development and integration of open source software and to the interactions between developers and consumers of open source.
+The goal of this document is to provide a comprehensive list of resources that are relevant to the obligations of open source software stewards and manufacturers when it comes to the development and integration of open source under the Cyber Resilience Act (CRA) and to the interactions between all of the different stakeholders. The underlying purpose is to provide specification and standardization efforts with easy access to documented industry and community best practices.
 
 _Note: the description of each resource has been generated using a large language model and verified for accuracy. See [Annex I - LLM Usage][LLM usage] below for the prompts and tools used._
 
@@ -10,7 +10,9 @@ _Note: the description of each resource has been generated using a large languag
 
 This document is a [deliverable](https://github.com/orcwg/orcwg/blob/main/cyber-resilience-sig/deliverables.md#12-inventory) of the [Cyber Resilience SIG](https://github.com/orcwg/orcwg/tree/main/cyber-resilience-sig#readme) of the [Open Regulatory Compliance Working Group (ORC)](https://orcwg.org/) of the [Eclipse Foundation](https://www.eclipse.org/). It was approved to be released as version 1.0 by the Cyber Resilience SIG on May 12, 2025. It represents the consensus of ORC and its [members](https://orcwg.org/membership/).
 
-This document is released under the [CC-BY 4.0 License](https://github.com/orcwg/orcwg/blob/main/LICENSE.md). It is not governed by the Eclipse Foundation Specification Process (EFSP). To contribute to future revisions of this document or submit errata, please [open an issue](https://github.com/orcwg/cra-hub/issues/new) or [send a pull request on GitHub](https://github.com/orcwg/cra-hub/blob/main/inventory.md).
+This document is released under the [CC-BY 4.0 License](https://github.com/orcwg/orcwg/blob/main/LICENSE.md). It is not governed by the Eclipse Foundation Specification Process (EFSP).
+
+This document is developed in the open, [on GitHub](https://github.com/orcwg/cra-hub/blob/main/inventory.md). To contribute to future revisions of this document or submit errata, please send a pull request or [open an issue](https://github.com/orcwg/cra-hub/issues/new).
 
 ## Table of Content
 
