@@ -361,6 +361,22 @@ This section contains references which are relevant to:
     * **Publication date:** 2022
   </details>
 
+* [OpenVEX Specification](https://github.com/openvex/spec) - OpenVEX is a lightweight
+implementation of the Vulnerability Exploitability Exchange. VEX offers a rapid
+channel to communicate the impact of vulnerabilities found in software components.
+VEX can be used to inform about non-exploitable vulnerabilities addressing requirements
+outlined in Article 13(2) and other sections of the CRA.
+  <details>
+    <summary>More info</summary>
+
+    * **Title:** OpenVEX Specification and Tooling
+    * **URL:** https://github.com/openvex/spec
+    * **Publisher:** OpenSSF
+    * **License:** Apache-2.0 / Community-Spec-1.0
+    * **Type:** Specification
+    * **Publication date:** Aug 2023
+  </details>
+
 
 ### 3.2 Existing open source foundation policies
 
