@@ -268,6 +268,28 @@ These requirements do not apply open source software stewards. However, per [Art
     * **Publication date:** 
   </details>
 
+* [Open Source Project Security Baseline](https://baseline.openssf.org/) - The Open
+Source Project Security Baseline (OSPS Baseline for short) is a structured,
+community curated set of security requirements designed to bolster the security
+posture of open source software projects. The OSPS Baseline offers a tiered
+framework of security practices that evolve with project maturity. It compiles
+existing guidance from OpenSSF and other expert groups, outlining tasks,
+processes, artifacts, and configurations that enhance software development and
+consumption security. By adhering to the Baseline, developers can lay a foundation
+that supports compliance with global cybersecurity regulations, such as the EU
+Cyber Resilience Act (CRA) and U.S. National Institute of Standards and
+Technology (NIST) Secure Software Development Framework (SSDF).
+  <details>
+    <summary>More info</summary>
+
+    * **Title:** Open Source Project Security Baseline
+    * **URL:** https://github.com/ossf/security-baseline
+    * **Publisher:** OpenSSF
+    * **License:** Community Specification License 1.0
+    * **Type:** Framework
+    * **Publication date:** Feb 2025
+  </details>
+
 ## 3. Vulnerability Management
 
 This section contains references which are relevant to:
