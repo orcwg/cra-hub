@@ -736,6 +736,25 @@ This section contains references which are relevant to the requirements expresse
     * **Publication date:** 2024
   </details>
 
+* [CISA SBOM Community - SBOM Reference Implementations](https://github.com/SBOM-Community/SBOM-Generation) - A white paper examinining the practical challenges of producing robust, National
+Telecommunications and Information Administration (NTIA) Minimum Elements-adherent,
+Software Bills of Materials (SBOM) that not only meet the NTIA Minimum Elements
+but can go beyond this to meet future compliance frameworks. As of publication,
+the authors' research found that no single open source tool can reliably generate
+an SBOM that adheres to NTIA Minimum Elements out of the box. The authors propose
+a six-step process that separates SBOM creation (or "authoring") into distinct,
+manageable phases (Generation, Augmentation, Enrichment, Verification, Signing).
+  <details>
+    <summary>More info</summary>
+
+    * **Title:** White Paper: Enhancing Software Bill of Materials (SBOM) Generation
+    * **URL:** https://github.com/SBOM-Community/SBOM-Generation/blob/main/whitepaper/Draft-SBOM-Generation-White-Paper-Feb-25-2025.pdf
+    * **Publisher:** CISA SBOM Community - Reference Implementations Tiger Team
+    * **License:** Apache-2.0
+    * **Type:** formal
+    * **Publication date:** Feb 2025
+  </details>
+
  
 ## 5. Due diligence requirements
 
