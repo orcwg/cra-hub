@@ -6,7 +6,8 @@ The open source ecosystem is a rich ecosystem composed of very different types o
 
 1. Identify important traits of open source projects that help differentiate and categorize projects into meaningful groups.
 2. Define a set of categories based on those traits.
-3. Provide examples of open source projects for each category and demonstrate where they fit and why.
+3. Propose a mapping from identified traits and categories to CRA roles (_Manufacturer_, _Open Source Software Steward_, not in scope).
+4. Provide examples of open source projects for each category and demonstrate where they fit and why.
 
 ## Status of this document
 
@@ -34,9 +35,14 @@ Traits:
 
 Projects which share certain traits naturally fall in the same category. We've regrouped them in the following categories.
 
-## 3. Case studies
 
-Using the framework described in section 1 above, here are a few case studies.
+## 3. CRA Mapping
+
+This section proposes from the traits and categories identified in section 2 ann 3 respectively to CRA roles (_Manufacturer_, _Open Source Software Steward_, not in scope).
+
+## 4. Case studies
+
+Using the framework described in section 1 and the mapping described in section to 3, provide a few case studies.
 
 ## Acknowledgements
 
