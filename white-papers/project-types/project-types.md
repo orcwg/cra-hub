@@ -47,6 +47,10 @@ Using the framework described in section 1 and the mapping described in section 
 ## Acknowledgements
 
 The following people have contributed to this document either directly or indirectly (e.g. by raising issues):
-Tobie Langel.
+Florian Idelberger,
+Georg Link,
+Götz Görisch,
+Steffen Zimmermann,
+and Tobie Langel.
 
 If you have contributed to this document and aren't properly acknowledged or if you want to edit or remove your name, please let us know by [opening an issue](https://github.com/orcwg/cra-hub/issues/new) and we will fix this right away.
