@@ -379,7 +379,45 @@ This section contains references which are relevant to:
     * **Type:** policy
     * **Publication date:** current
   </details>
-  
+
+### Eclipse Foundation
+
+* [Eclipse Foundation Security Policy](https://www.eclipse.org/security/policy/) - The Eclipse Foundation Security Policy describes the general principles under which the Eclipse Foundation manages the reporting, management, discussion, and disclosure of Vulnerabilities discovered in Eclipse software. The policy applies to all Eclipse Foundation projects.
+  <details>
+    <summary>More info</summary>
+
+    * **Title:** Eclipse Foundation Security Policy
+    * **URL:** https://www.eclipse.org/security/policy/
+    * **Publisher:** Eclipse Foundation
+    * **License:** Eclipse Public License v2.0
+    * **Type:** policy
+    * **Publication date:** 2024, current
+  </details>
+
+* [Managing and Reporting Vulnerabilities from the Eclipse Foundation Handbook](https://www.eclipse.org/projects/handbook/#vulnerability) - The Eclipse Foundation Handbook provides guidelines on processes related to the life cycle of projects under the Eclipse Foundation. The chapter on managing and reporting vulnerabilities describes details, and gives implementation options, of the process described in the [Eclipse Foundation Security Policy](https://www.eclipse.org/security/policy/).
+  <details>
+    <summary>More info</summary>
+
+    * **Title:** Eclipse Foundation Handbook: Managing and Reporting Vulnerabilities
+    * **URL:** https://www.eclipse.org/projects/handbook/#vulnerability
+    * **Publisher:** Eclipse Foundation
+    * **License:** Eclipse Public License v2.0
+    * **Type:** practice
+    * **Publication date:** current
+  </details>
+
+* [The Eclipse Security Handbook](https://eclipse-csi.github.io/security-handbook/) - The Eclipse Security handbook provides guidelines on securing developer's account, advanced topics in vulnerability management (like embargoes and security advisories), or SBOM (Software Bill of Materials).
+  <details>
+    <summary>More info</summary>
+
+    * **Title:** Eclipse Security Handbook
+    * **URL:** https://eclipse-csi.github.io/security-handbook/
+    * **Publisher:** Eclipse Foundation
+    * **License:** Eclipse Public License v2.0
+    * **Type:** practice
+    * **Publication date:** current
+  </details>
+
 #### OpenStack Foundation
 
 * [OpenStack Vulnerability Management Process](https://security.openstack.org/vmt-process.html) - The OpenStack VMT Process describes how OpenStack manages security vulnerabilities through coordinated disclosure. It outlines the responsibilities of the independent VMT, including prompt vulnerability resolution, limiting early information exposure, and structured handling from initial report receipt to embargoed disclosure. The process involves confidential reporting channels, internal patch review, drafting impact descriptions, and brief embargo periods. Each issue receives dedicated coordination, including CVE assignment and release scheduling. The documented practices align with industry standards for coordinated vulnerability disclosure and multi-party incident handling.
