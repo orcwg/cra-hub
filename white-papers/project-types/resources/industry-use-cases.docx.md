@@ -47,7 +47,7 @@ Questions:
 **UseCase 4**  
 (e.g. providing a library which one uses in their product also as open source to be reused)
 
-A manufacturer provides a product with digital elements to the European market. The manufacturer needs to develop a new software library on its own to use it as a component in the product with digital elements. The software library is also made available under an open-source license to be used by others, without charging a prize for it.
+A manufacturer provides a product with digital elements to the European market. The manufacturer needs to develop a new software library on its own to use it as a component in the product with digital elements. The software library is also made available under an open-source license to be used by others, without charging a price for it.
 
 Questions:
 
