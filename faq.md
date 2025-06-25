@@ -138,8 +138,8 @@ _It is worth noting however, that the intent of the EU legislators is to harmoni
 <details>
     <a name="q-what-criteria-determine-whether-an-open-source-project-is-in-scope-of-the-cra"></a>
     <summary><strong><a name="faq-tmp-124" href="#faq-tmp-124">tmp-124.</a> What criteria determine whether an open source project is in scope of the CRA?</strong></summary>
-    - The CRA regulates _natural and legal persons_ (either an individual or an organisation that has a legal personality, like a business, foundation or charity). There are three possible categories with descending requirements. These categories are _manufacturer_, _Open Source Software Steward_, or _Out of Scope_.
 
+The CRA regulates _natural and legal persons_ (either an individual or an organisation that has a legal personality, like a business, foundation or charity). There are three possible categories with descending requirements. These categories are _manufacturer_, _Open Source Software Steward_, or _Out of Scope_.
 > Note: At present, we believe that a natural person (an individual) cannot be considered an Open Source Software Steward, however we are currently verifying this with the European Commission. We will provide more detailed guidance as soon as possible.
 
 - You are **out of scope** of the CRA (meaning you are not required to comply with the regulation), if you are a natural person (an individual), and:
@@ -155,6 +155,7 @@ _It is worth noting however, that the intent of the EU legislators is to harmoni
 <details>
     <a name="q-what-is-monetizing"></a>
     <summary><strong><a name="faq-tmp-33" href="#faq-tmp-33">tmp-33.</a> What does "Monetizing without making a profit" mean?</strong></summary>
+	
 - As an individual, if you are monetizing your project without the intention of making a profit, you are outside the scope of the regulation.
 - According to [Recital 15 of the CRA](https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=OJ:L_202402847#rct_15), monetising without intention of making a profit means you fulfil the following cumulative requirements:
     - You are not providing a software platform through which you monetise other services (for instance, Google's Android).
