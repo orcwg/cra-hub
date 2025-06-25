@@ -114,6 +114,22 @@ The following types of product are "in scope" (i.e., their design and production
 
 
 <details>
+    <a name="q-As-an-open-source-steward-do-i-have-to-affix-the-ce-mark"></a>
+    <summary><strong><a name="faq-tmp-34" href="#faq-tmp-34">tmp-34.</a> What is the 'CE Mark' and do I need to add it to my software ?</em>?</strong></summary>
+The CE mark is a distinctive symbol indicating that a product complies with the relevant EU product regulations. <strong>Under the CRA, only manufacturers are authorized to affix the CE mark to a product.</strong> Open Source software stewards and developers outside the scope of the law cannot do so
+
+For Manufacturers, under the Cyber Resilience Act (CRA), Article 30 of the Regulation outlines the requirements for CE marking on digital products, whether hardware or software.
+- Hardware: The CE mark must, in principle, be affixed directly to the product. If this is not feasible, it may be placed on the packaging and in the EU declaration of conformity.
+- Software: The CE mark must appear either in the EU declaration of conformity or on a website accompanying the software product, provided it is easily accessible to consumers.
+
+Failure to properly affix the CE mark when required may result in financial penalties, as defined by national law.
+
+> Status:✅ [Approved][]
+| GitHub issue(s): [#34](https://github.com/orcwg/cra-hub/issues/34)
+</details>
+
+
+<details>
     <a name="q-what-is-not-in-scope-of-the-cra"></a>
     <summary><strong><a name="faq-tmp-156" href="#faq-tmp-156">tmp-156.</a> What is NOT in scope of the CRA?</strong></summary>
 
