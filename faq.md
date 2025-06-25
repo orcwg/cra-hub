@@ -372,6 +372,12 @@ The term _Manufacturer_ is defined in [Article 3(13)][] of the CRA:
 
 Yes, a _manufacturer_ can also be an _open-source software steward_, but it cannot be both the _manufacturer_ and _open-source software steward_ of the same project.
 
+In 2024 Benjamin Bögel of the European Commission gave a FOSDEM presentation and specifically gave, as examples of stewards, “companies that build [OSS] for their use [for integration into their own products] but make [the OSS] public.” [^EC@FOSDEM24][]. This only makes sense if an organization can be a manufacturer for one program and a steward for another.
+
+Mike Bursell, Co-chair, OpenSSF Cyber Policy Working Group (WG), believes that “if the organisation both sells a PDE that uses [some] open source project, and [separately] hosts [that open source project], supports it, and provides updates and patches for the community [that’s a real community]… then that would put [the organization] in both categories [depending on which software is being discussed].” [Bursell2025][]
+
+Whether or not an organization is a steward depends on many specifics. If the organization meets the criteria for a _manufacturer_ for some software, by definition it is a _manufacturer_. For more information, see CRA [Recital 18][] and the [PLD Recital 15]().
+
 > Status: ⚠️ [Draft][]
 | GitHub issue(s): [#30](https://github.com/orcwg/cra-hub/issues/30)
 </details>
@@ -581,5 +587,9 @@ ANSWER
 [ESO]: https://single-market-economy.ec.europa.eu/single-market/european-standards_en
 [standards]: https://github.com/orcwg/cra-hub/blob/main/standards.md
 [OJEU]: https://eur-lex.europa.eu/oj/direct-access.html 
+
+[PLD Recital 15]: https://eur-lex.europa.eu/eli/dir/2024/2853#rct_15
+
+[Bursell2024]: https://openssf.org/blog/2025/02/20/does-the-eu-cra-affect-my-business]
 
 [^EC@FOSDEM24]: https://fosdem.org/2024/schedule/event/fosdem-2024-3683-the-regulators-are-coming-one-year-on/, at 18 min 10 seconds into the recording
