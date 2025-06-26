@@ -325,7 +325,7 @@ The stewarding organization must also have "the purpose or objective of systemat
 
 <details>
     <a name="q-what-is-an-open-source-software-steward"></a>
-    <summary><strong><a name="faq-tmp-127" href="#faq-tmp-127">tmp-127.</a> What is an <em>open-source software stewards</em>?</strong></summary>
+    <summary><strong><a name="faq-tmp-127" href="#faq-tmp-127">tmp-127.</a> What is an <em>open-source software steward</em>?</strong></summary>
 
 _Open-source software steward_ is a term defined in [Article 3(14)][] of the CRA, to subject specific organisations to a subset of CRA obligations because they exist to support free and open source software that is intended for commercial activities (by others):
 
@@ -346,7 +346,7 @@ _Open-source software steward_ is a term defined in [Article 3(14)][] of the CRA
     <a name="q-what-are-the-obligations-of-open-source-software-stewards"></a>
     <summary><strong><a name="faq-tmp-159" href="#faq-tmp-159">tmp-159.</a> What are the obligations of <em>open-source software stewards</em>?</strong></summary>
 
-_Open-source software steward_ are subject to a "light-touch and tailor-made regulatory regime" ([Recital 19][]), defined in [Article 24][].
+_Open-source software stewards_ are subject to a "light-touch and tailor-made regulatory regime" ([Recital 19][]), defined in [Article 24][].
 
 > Status: ⚠️ [Draft][]
 | GitHub issue(s): [#159](https://github.com/orcwg/cra-hub/issues/159)
