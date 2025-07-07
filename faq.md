@@ -82,6 +82,8 @@ See [FAQ README][].
 
 ### Important and Critical Product Categories
 
+* [Does a product which includes an open source component belonging to the category of important products (Annex III) inherit that category?](./faq/important-and-critical-products/does-a-product-inherit-the-cassification-of-an-included-open-source-component.md) <a name="q-does-a-product-inherit-the-classification-of-an-important-product-from-a-component"></a><a name="faq-tmp-237"></a>
+
 ### Security attestations
 
 * [What is a _security attestation_ in the CRA?](./faq/attestations/what-is-a-security-attestation.md) <a name="q-what-is-a-security-attestation-in-the-cra"></a><a name="faq-tmp-72"></a>
