@@ -53,8 +53,9 @@ Maturity level statuses are assigned using the process described in [Annex 1](#a
 * [Where is the official text of the CRA?](./faq/cra-txt.md) <a name="q-where-is-the-official-text-of-the-cra"></a><a name="faq-tmp-155"></a>
 * [When does the CRA enter into force and when does the regulation start to apply?](./faq/cra-timeline.md) <a name="q-when-does-the-cra-enter-into-force-and-when-does-the-regulation-start-to-apply"></a><a name="faq-tmp-10"></a>
 * [What kinds of products are regulated by the CRA?](./faq/cra-in-scope.md) <a name="q-what-is-in-scope-of-the-cra"></a><a name="faq-tmp-2"></a>
+* [What kinds of products are NOT regulated by the CRA?](./faq/cra-out-of-scope.md) <a name="q-what-is-not-in-scope-of-the-cra"></a><a name="faq-tmp-156"></a> 
 * [What is the 'CE Mark' and do I need to add it to my software?](./faq/ce-mark.md) <a name="q-As-an-open-source-steward-do-i-have-to-affix-the-ce-mark"></a><a name="faq-tmp-34"></a> 
-* [What is NOT in scope of the CRA?](./faq/cra-out-of-scope.md) <a name="q-what-is-not-in-scope-of-the-cra"></a><a name="faq-tmp-156"></a> 
+
 
 ### Open source projects
 
