@@ -49,105 +49,12 @@ Maturity level statuses are assigned using the process described in [Annex 1](#a
 
 ### The Cyber Resilience Act (CRA) itself
 
-<details>
-    <a name="q-what-is-the-cyber-resilience-act-cra"></a>
-    <summary><strong><a name="faq-tmp-154" href="#faq-tmp-154">tmp-154.</a> What is the Cyber Resilience Act (CRA)?</strong></summary>
-
-The Cyber Resilience Act (CRA) is a new EU Regulation that aims to safeguard consumers and businesses who use software or products with digital components. It creates mandatory cybersecurity requirements for manufacturers and retailers that extend throughout the product lifecycle and the whole software supply chain (including all open source dependencies and transitive dependencies) and helps consumers and business identify such products through the [CE mark](https://en.wikipedia.org/wiki/CE_marking).
-
-> Status: ✅ [Approved][]
-| GitHub issue(s): [#154](https://github.com/orcwg/cra-hub/issues/154)
-</details>
-
-<details>
-    <a name="q-where-is-the-official-text-of-the-cra"></a>
-    <summary><strong><a name="faq-tmp-155" href="#faq-tmp-155">tmp-155.</a> Where is the official text of the CRA?</strong></summary>
-
-The final text of the CRA can be found on [EUR-Lex][CRA] ([English HTML version][CRA HTML]).
-
-> Status: ✅ [Approved][]
-| GitHub issue(s): [#155](https://github.com/orcwg/cra-hub/issues/155)
-</details>
-
-
-<details>
-    <a name="q-when-does-the-cra-enter-into-force-and-when-does-the-regulation-start-to-apply"></a>
-    <summary><strong><a name="faq-tmp-10" href="#faq-tmp-10">tmp-10.</a> When does the CRA enter into force and when does the regulation start to apply?</strong></summary>
-
-
-The CRA enters into force on December 11, 2024. Reporting obligations of actively exploited vulnerabilities and severe incidents ([Article 14][]) start to apply on September 11, 2026.
-All other obligations for software developers start to apply on December 11, 2027. _(Source: [Article 71][])_
-
-```mermaid
-%%{init: {'theme':'base'}}%%
-gantt
-    title CRA Implementation Timeline
-    dateFormat  YYYY-MM-DD
-    axisFormat %Y-Q%q
-    tickInterval 3month
-
-    Drafting phase: 2024-01-01, 2024-11-20
-    Publication in the Official Journal of the EU (November 20, 2024): milestone, 2024-11-20, 5m
-    Entry into force (December 11, 2024): milestone, 2024-12-11, 5m
-    Implementation phase: 2024-12-11, 3y
-    Reporting obligations of vulnerabilities and incidents (September 11, 2026): milestone, 2026-09-11, 5m
-    Notification of conformity of assessment bodies (June 11, 2026): milestone, 2027-06-11, 5m
-    All other obligations (December 11, 2027): milestone, 2027-12-11, 5m
-    Application phase: 2026-09-11, 2029-06-30
-```
-
-> Status: ✅ [Approved][]
-| GitHub issue(s): [#10](https://github.com/orcwg/cra-hub/issues/10)
-</details>
-
-
-<details>
-    <a name="q-what-is-in-scope-of-the-cra"></a>
-    <summary><strong><a name="faq-tmp-2" href="#faq-tmp-2">tmp-2.</a> What kinds of products are regulated by the CRA?</strong></summary>
-
-The following types of product are "in scope" (i.e., their design and production may be regulated by) the CRA:
-
-- Hardware products (e.g. laptops, smart appliances, mobile phones, network equipment, CPUs, etc.)
-- Software products (e.g. operating systems, word processing, games or mobile apps, software libraries, etc.)
-- Remote data processing solutions for any of the above, as far as those solutions are necessary for a product to perform its functions (e.g. cloud-based services that allow control of a smart lock at a distance, remote database that backs-up user preferences, etc.)
-
-> Status: ✅ [Approved][]
-| GitHub issue(s): [#2](https://github.com/orcwg/cra-hub/issues/2)
-</details>
-
-
-<details>
-    <a name="q-As-an-open-source-steward-do-i-have-to-affix-the-ce-mark"></a>
-    <summary><strong><a name="faq-tmp-34" href="#faq-tmp-34">tmp-34.</a> What is the 'CE Mark' and do I need to add it to my software ?</em></strong></summary>
-The CE mark is a distinctive symbol indicating that a product complies with the relevant EU product regulations. <strong>Under the CRA, only manufacturers are authorized to affix the CE mark to a product.</strong> Open Source software stewards, and developers outside the scope of the law cannot do so
-
-For Manufacturers, under the Cyber Resilience Act (CRA), Article 30 of the Regulation outlines the requirements for CE marking on digital products, whether hardware or software.
-- Hardware: The CE mark must, in principle, be affixed directly to the product. If this is not feasible, it may be placed on the packaging and in the EU declaration of conformity.
-- Software: The CE mark must appear either in the EU declaration of conformity or on a website accompanying the software product, provided it is easily accessible to consumers.
-
-Failure to properly affix the CE mark when required may result in financial penalties, as defined by national law.
-
-> Status:✅ [Approved][]
-| GitHub issue(s): [#34](https://github.com/orcwg/cra-hub/issues/34)
-</details>
-
-
-<details>
-    <a name="q-what-is-not-in-scope-of-the-cra"></a>
-    <summary><strong><a name="faq-tmp-156" href="#faq-tmp-156">tmp-156.</a> What is NOT in scope of the CRA?</strong></summary>
-
-The following types of product are NOT in scope of the CRA:
-
-- Products already covered by other regulations or directives: civil aviation equipment ([2018/1139][]), marine equipment ([2014/90][]), medical devices ([2017/745][] and [2017/746][]), motor vehicles ([2019/2144][]), and software as a service (SaaS) ([NIS 2][])
-- Products exclusively designed for national security or defence purposes
-- Products specifically designed to process classified information
-
-_It is worth noting however, that the intent of the EU legislators is to harmonize the various regulations mentioned above with the CRA in the near future._
-
-> Status: ⚠️ [Draft][]
-| GitHub issue(s): [#156](https://github.com/orcwg/cra-hub/issues/156)
-</details>
-
+* [What is the Cyber Resilience Act (CRA)?](./faq/cra.md) <a name="q-what-is-the-cyber-resilience-act-cra"></a><a name="faq-tmp-154"></a>
+* [Where is the official text of the CRA?](./faq/cra-txt.md) <a name="q-where-is-the-official-text-of-the-cra"></a><a name="faq-tmp-155"></a>
+* [When does the CRA enter into force and when does the regulation start to apply?](./faq/cra-timeline.md) <a name="q-when-does-the-cra-enter-into-force-and-when-does-the-regulation-start-to-apply"></a><a name="faq-tmp-10"></a>
+* [What kinds of products are regulated by the CRA?](./faq/cra-in-scope.md) <a name="q-what-is-in-scope-of-the-cra"></a><a name="faq-tmp-2"></a>
+* [What is the 'CE Mark' and do I need to add it to my software?](./faq/ce-mark.md) <a name="q-As-an-open-source-steward-do-i-have-to-affix-the-ce-mark"></a><a name="faq-tmp-34"></a> 
+* [What is NOT in scope of the CRA?](./faq/cra-out-of-scope.md) <a name="q-what-is-not-in-scope-of-the-cra"></a><a name="faq-tmp-156"></a> 
 
 ### Open source projects
 
@@ -571,32 +478,7 @@ flowchart TD
 
 ### Annex 2 - FAQ formats
 
-#### Draft FAQ format
-
-```md
-<details>
-    <a name="PREVIOUS_ANCHOR_SO_WE_DONT_BREAK_EXTERNAL_REFERENCES"></a>
-    <summary><strong><a name="faq-tmp-GITHUB_ISSUE_ID" href="#faq-tmp-GITHUB_ISSUE_ID">tmp-GITHUB_ISSUE_ID.</a> QUESTION</strong></summary>
-
-ANSWER
-
-> Status: ICON [MATURITY_LEVEL][]
-| GitHub issue(s): [#GITHUB_ISSUE_ID](https://github.com/orcwg/cra-hub/issues/GITHUB_ISSUE_ID)
-</details>
-```
-
-#### Final FAQ format
-
-```md
-<details>
-    <a name="PREVIOUS_ANCHOR_SO_WE_DONT_BREAK_EXTERNAL_REFERENCES"></a>
-    <a name="faq-tmp-GITHUB_ISSUE_ID"></a>
-    <summary><strong><a name="faq-FINAL_ID" href="#faq-FINAL_ID">FINAL_ID.</a> QUESTION</strong></summary>
-
-ANSWER
-
-</details>
-```
+See [FAQ README](./faq/README.md).
 
 [benefit from guidance]: #questions-which-would-benefit-from-european-commission-guidance
 [No answer yet]: #maturity-level-of-answers
