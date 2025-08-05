@@ -173,7 +173,7 @@ The CRA regulates _natural and legal persons_ (either an individual or an organi
     <summary><strong><a name="faq-tmp-33" href="#faq-tmp-33">tmp-33.</a> What does "Monetizing without making a profit" mean?</strong></summary>
 	
 - As an individual, if you are monetizing your project without the intention of making a profit, you are outside the scope of the regulation.
-- According to [Recital 15 of the CRA](https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=OJ:L_202402847#rct_15), monetising without intention of making a profit means you fulfil the following cumulative requirements:
+- According to [Recital 15][] of the CRA, monetising without intention of making a profit means you fulfil the following cumulative requirements:
     - You are not providing a software platform through which you monetise other services (for instance, Google's Android).
     - You are not requiring as a condition for use the processing of personal data for reasons other than exclusively for improving the security, compatibility or interoperability of your software. (in particular, you're not giving people access to your software in exchange for their personal data)
    - You are receiving donations or providing technical services in exchange for remuneration, where the total received does not exceed the cost of development of your software (hosting, hardware, compute etc..).
@@ -285,10 +285,10 @@ If you are a solo or small-team maintainer of an open source codebase, but do ge
   
 Reply to their requests, stating the following:
 <code>
-- On the basis of [Recital 18 of the Cyber Resilience Act](https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=OJ:L_202402847#rct_18), I do not fall within the scope of the regulation, and cannot be considered as a Manufacturer or an Open source software steward under the Cyber Resilience Act.
-- On the basis of [Recital 15 of the Product Liability Directive](https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=OJ:L_202402853#rct_15), I cannot be held liable for your use of my code.
+- On the basis of [Recital 18][] of the Cyber Resilience Act, I do not fall within the scope of the regulation, and cannot be considered as a Manufacturer or an Open source software steward under the Cyber Resilience Act.
+- On the basis of [PLD Recital 15][], I cannot be held liable for your use of my code.
 - **While I don't have obligations towards you, you may have some towards me:**
-	- On the basis of [Article 13.6 the Cyber Resilience Act](https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=OJ:L_202402847#art_13), if you believe you have found a security flaw in this code, you are responsible for reporting it by following the vulnerability disclosure process here: << project link >>. You are also responsible for fixing it within your product and providing the fix upstream.
+	- On the basis of [Article 13(6)][] the Cyber Resilience Act, if you believe you have found a security flaw in this code, you are responsible for reporting it by following the vulnerability disclosure process here: << project link >>. You are also responsible for fixing it within your product and providing the fix upstream.
 </code>
 
 > Status: ⚠️ [Draft][]
@@ -332,7 +332,7 @@ No. Most open source projects will not have a steward.
 
 A steward must be a "legal person" (Art. 3), such as a company, and most open source projects are not supported by a company. 
 
-The stewarding organization must also have "the purpose or objective of systematically providing support on a sustained basis" (Art. 3) and their software must be "ultimately intended for commercial activities" (recital 19). Organizations who do not meet those tests will also not be considered stewards.
+The stewarding organization must also have "the purpose or objective of systematically providing support on a sustained basis" (Art. 3) and their software must be "ultimately intended for commercial activities" ([Recital 19][]). Organizations who do not meet those tests will also not be considered stewards.
 
 > Status: ⚠️ [Draft][]
 | GitHub issue(s): [#170](https://github.com/orcwg/cra-hub/issues/170)
@@ -607,11 +607,15 @@ ANSWER
 
 [CRA]: https://eur-lex.europa.eu/eli/reg/2024/2847/oj
 [CRA HTML]: https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=OJ:L_202402847
-[Recital 15]: https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=OJ:L_202402847#rct_18
+[Recital 15]: https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=OJ:L_202402847#rct_15
 [Recital 18]: https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=OJ:L_202402847#rct_18
 [Recital 19]: https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=OJ:L_202402847#rct_19
+[Recital 21]: https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=OJ:L_202402847#rct_21
+[Recital 120]: https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=OJ:L_202402847#rct_120
+[Recital 121]: https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=OJ:L_202402847#rct_121
 [Article 3(13)]: https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=OJ:L_202402847#art_3
 [Article 3(14)]: https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=OJ:L_202402847#art_3
+[Article 13(6)]: https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=OJ:L_202402847#art_13
 [Article 14]: https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=OJ:L_202402847#art_14
 [Article 18]: https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=OJ:L_202402847#art_18
 [Article 24]: https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=OJ:L_202402847#art_24
