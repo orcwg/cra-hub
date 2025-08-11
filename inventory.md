@@ -237,7 +237,7 @@ This section contains references which are relevant to the requirements expresse
 > (i) minimise the negative impact by the products themselves or connected devices on the availability of services provided by other devices or networks;\
 > (j) be designed, developed and produced to limit attack surfaces, including external interfaces;\
 > (k) be designed, developed and produced to reduce the impact of an incident using appropriate exploitation mitigation mechanisms and techniques;\
-> (l) provide security related information by recording and monitoring relevant internal activity, including te access to or modification of data, services or functions, with an opt-out mechanism for the user;\
+> (l) provide security related information by recording and monitoring relevant internal activity, including the access to or modification of data, services or functions, with an opt-out mechanism for the user;\
 > (m) provide the possibility for users to securely and easily remove on a permanent basis all data and settings and, where such data can be transferred to other products or systems, ensure that this is done in a secure manner.
 
 These requirements do not apply open source software stewards. However, per [Article 25][] of the CRA, stewards (as well as developers and users of open source software and other third parties) may participate in voluntary security attestation programmes that assess the conformity of their software to some or all of these requirements.
