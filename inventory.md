@@ -4,6 +4,10 @@ The goal of this document is to provide a comprehensive list of resources that a
 
 _Note: the description of each resource has been generated using a large language model and verified for accuracy. See [Annex I - LLM Usage][LLM usage] below for the prompts and tools used._
 
+## Status of this document
+
+This is a draft document and may be updated, replaced or obsoleted at any time. It is inappropriate to cite this document as other than a work in progress. Publication of this document as a draft does not imply endorsement by the Eclipse Foundation, Open Regulatory Working Group Members, or contributors.
+
 ## Table of Content
 
 * [1. Principles of security resilience][Section 1]
