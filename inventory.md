@@ -710,6 +710,18 @@ This section contains references which are relevant to the requirements expresse
     * **Publication date:** 2021
   </details>
 
+* [OpenChain Telco SBOM Guide Version 1.1](https://github.com/OpenChain-Project/Telco-WG/blob/main/OpenChain-Telco-SBOM-Guide_EN.md) - The OpenChain Telco SBOM Guide is a telecommunications industry-focused framework for creating, delivering, and consuming Software Bill of Materials (SBOM) in a standardized manner. Developed by the OpenChain Project’s Telco Work Group with input from major network operators and vendors, it defines key SBOM content requirements and format recommendations (centered on the SPDX standard) to ensure consistency and quality across the supply chain. By establishing a common baseline for SBOM structure and information, the guide helps different parties in the telecom sector share software component lists and security data with greater repeatability and interoperability. This guidance is particularly relevant for organizations preparing to comply with the EU Cyber Resilience Act (CRA), which mandates that manufacturers of digital products provide an SBOM as part of their technical documentation. Adhering to the guide’s recommendations can assist companies in meeting the CRA’s SBOM requirements by aligning their software transparency practices with an open industry standard.
+  <details>
+    <summary>More info</summary>
+
+    * **Title:** OpenChain Telco SBOM Guide Version 1.1
+    * **URL:** https://github.com/OpenChain-Project/Telco-WG/blob/main/OpenChain-Telco-SBOM-Guide_EN.md
+    * **Publisher:** OpenChain Telco Work Group
+    * **License:** CC-BY 4.0
+    * **Type:** Specification
+    * **Publication date:** 2025
+  </details>
+
 * [Technical guidelines on SBOMs from CERT-In](https://www.cert-in.org.in/PDF/SBOM_Guidelines.pdf) - In October 2024, the Indian Computer Emergency Response Team (CERT-In) released a set of technical guidelines on Software Bill of Materials (SBOM) for organizations in the public sector and critical industries. This document underscores the value of SBOMs as a tool for transparency in software supply chains and provides recommendations for how to generate and maintain SBOMs. It outlines processes and best practices for implementing SBOMs – such as what component information should be included (name, version, supplier, known vulnerabilities, etc.) – and offers guidance on integrating SBOM use into procurement and risk management. The goal of these guidelines is to ensure that Indian government agencies and essential service providers adopt SBOM practices to enhance software security and resilience, in line with global trends and regulatory expectations.
   <details>
     <summary>More info</summary>
@@ -1054,8 +1066,9 @@ This section contains references to legislation that is similar or related to th
   
 ## Acknowledgments
 
-The following people have contributed to this document either directly or indirectly (e.g. by raising questions):
+The following people have contributed to this document either directly or indirectly (e.g. by raising issues):
 
+Andrew Katz,
 Anthony Harrison,
 Ayan Sinha Mahapatra,
 Christopher "CRob" Robinson,
@@ -1069,6 +1082,7 @@ Luis Villa,
 Maarten Aertsen,
 Marta Rybczynska,
 Maxim Baele,
+Melissa Birchler,
 Merlijn Sebrechts,
 Pierre Pronchery,
 Roberto Di Cosmo,

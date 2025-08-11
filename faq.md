@@ -74,7 +74,9 @@ The final text of the CRA can be found on [EUR-Lex][CRA] ([English HTML version]
     <a name="q-when-does-the-cra-enter-into-force-and-when-does-the-regulation-start-to-apply"></a>
     <summary><strong><a name="faq-tmp-10" href="#faq-tmp-10">tmp-10.</a> When does the CRA enter into force and when does the regulation start to apply?</strong></summary>
 
-The CRA enters into force on December 11, 2024 ([Article 71][]). The notification of conformity of assessment bodies ([Chapter IV][]) start to apply on June 11, 2026. Reporting obligations of manufacturers ([Article 14][]) and stewards ([Article 24][]) start to apply on September 11, 2026. Everything else starts to apply on December 11, 2027.
+
+The CRA enters into force on December 11, 2024. Reporting obligations of actively exploited vulnerabilities and severe incidents ([Article 14][]) start to apply on September 11, 2026.
+All other obligations for software developers start to apply on December 11, 2027. _(Source: [Article 71][])_
 
 ```mermaid
 %%{init: {'theme':'base'}}%%
@@ -88,8 +90,8 @@ gantt
     Publication in the Official Journal of the EU (November 20, 2024): milestone, 2024-11-20, 5m
     Entry into force (December 11, 2024): milestone, 2024-12-11, 5m
     Implementation phase: 2024-12-11, 3y
-    Notification of conformity of assement bodies (June 11, 2026): milestone, 2026-06-11, 5m
-    Reporting obligations (September 11, 2026): milestone, 2026-09-11, 5m
+    Reporting obligations of vulnerabilities and incidents (September 11, 2026): milestone, 2026-09-11, 5m
+    Notification of conformity of assessment bodies (June 11, 2026): milestone, 2027-06-11, 5m
     All other obligations (December 11, 2027): milestone, 2027-12-11, 5m
     Application phase: 2026-09-11, 2029-06-30
 ```
@@ -97,6 +99,7 @@ gantt
 > Status: ✅ [Approved][]
 | GitHub issue(s): [#10](https://github.com/orcwg/cra-hub/issues/10)
 </details>
+
 
 <details>
     <a name="q-what-is-in-scope-of-the-cra"></a>
@@ -110,6 +113,22 @@ The following types of product are "in scope" (i.e., their design and production
 
 > Status: ✅ [Approved][]
 | GitHub issue(s): [#2](https://github.com/orcwg/cra-hub/issues/2)
+</details>
+
+
+<details>
+    <a name="q-As-an-open-source-steward-do-i-have-to-affix-the-ce-mark"></a>
+    <summary><strong><a name="faq-tmp-34" href="#faq-tmp-34">tmp-34.</a> What is the 'CE Mark' and do I need to add it to my software ?</em></strong></summary>
+The CE mark is a distinctive symbol indicating that a product complies with the relevant EU product regulations. <strong>Under the CRA, only manufacturers are authorized to affix the CE mark to a product.</strong> Open Source software stewards, and developers outside the scope of the law cannot do so
+
+For Manufacturers, under the Cyber Resilience Act (CRA), Article 30 of the Regulation outlines the requirements for CE marking on digital products, whether hardware or software.
+- Hardware: The CE mark must, in principle, be affixed directly to the product. If this is not feasible, it may be placed on the packaging and in the EU declaration of conformity.
+- Software: The CE mark must appear either in the EU declaration of conformity or on a website accompanying the software product, provided it is easily accessible to consumers.
+
+Failure to properly affix the CE mark when required may result in financial penalties, as defined by national law.
+
+> Status:✅ [Approved][]
+| GitHub issue(s): [#34](https://github.com/orcwg/cra-hub/issues/34)
 </details>
 
 
@@ -136,8 +155,32 @@ _It is worth noting however, that the intent of the EU legislators is to harmoni
     <a name="q-what-criteria-determine-whether-an-open-source-project-is-in-scope-of-the-cra"></a>
     <summary><strong><a name="faq-tmp-124" href="#faq-tmp-124">tmp-124.</a> What criteria determine whether an open source project is in scope of the CRA?</strong></summary>
 
+The CRA regulates _natural and legal persons_ (either an individual or an organisation that has a legal personality, like a business, foundation or charity). There are three possible categories with descending requirements. These categories are _manufacturer_, _Open Source Software Steward_, or _Out of Scope_.
+> Note: At present, we believe that a natural person (an individual) cannot be considered an Open Source Software Steward, however we are currently verifying this with the European Commission. We will provide more detailed guidance as soon as possible.
+
+- You are **out of scope** of the CRA (meaning you are not required to comply with the regulation), if you are a natural person (an individual), and:
+  - you are not monetising your project at all, or
+  - you are monetising your project, without the intention of making a profit. (See Question: What does "Monetizing without making a profit" mean?)
+
+> Note: Further information for legal persons (organisations, foundations, associations) will be provided here as soon as we receive further clarifications and information from the European Commission.
 > Status: ❓ [No answer yet][]
 | GitHub issue(s): [#124](https://github.com/orcwg/cra-hub/issues/124)
+</details>
+
+
+<details>
+    <a name="q-what-is-monetizing"></a>
+    <summary><strong><a name="faq-tmp-33" href="#faq-tmp-33">tmp-33.</a> What does "Monetizing without making a profit" mean?</strong></summary>
+	
+- As an individual, if you are monetizing your project without the intention of making a profit, you are outside the scope of the regulation.
+- According to [Recital 15][] of the CRA, monetising without intention of making a profit means you fulfil the following cumulative requirements:
+    - You are not providing a software platform through which you monetise other services (for instance, Google's Android).
+    - You are not requiring as a condition for use the processing of personal data for reasons other than exclusively for improving the security, compatibility or interoperability of your software. (in particular, you're not giving people access to your software in exchange for their personal data)
+   - You are receiving donations or providing technical services in exchange for remuneration, where the total received does not exceed the cost of development of your software (hosting, hardware, compute etc..).
+
+> Note: We are waiting for clarification from the Commission as to if remuneration for hours worked on the project can be counted in the cost of development. 
+> Status: 🛑 [Pending Guidance][]
+| GitHub issue(s): [#33](https://github.com/orcwg/cra-hub/issues/33)
 </details>
 
 
@@ -242,10 +285,10 @@ If you are a solo or small-team maintainer of an open source codebase, but do ge
   
 Reply to their requests, stating the following:
 <code>
-- On the basis of [Recital 18 of the Cyber Resilience Act](https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=OJ:L_202402847#rct_18), I do not fall within the scope of the regulation, and cannot be considered as a Manufacturer or an Open source software steward under the Cyber Resilience Act.
-- On the basis of [Recital 15 of the Product Liability Directive](https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=OJ:L_202402853#rct_15), I cannot be held liable for your use of my code.
+- On the basis of [Recital 18][] of the Cyber Resilience Act, I do not fall within the scope of the regulation, and cannot be considered as a Manufacturer or an Open source software steward under the Cyber Resilience Act.
+- On the basis of [PLD Recital 15][], I cannot be held liable for your use of my code.
 - **While I don't have obligations towards you, you may have some towards me:**
-	- On the basis of [Article 13.6 the Cyber Resilience Act](https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=OJ:L_202402847#art_13), if you believe you have found a security flaw in this code, you are responsible for reporting it by following the vulnerability disclosure process here: << project link >>. You are also responsible for fixing it within your product and providing the fix upstream.
+	- On the basis of [Article 13(6)][] the Cyber Resilience Act, if you believe you have found a security flaw in this code, you are responsible for reporting it by following the vulnerability disclosure process here: << project link >>. You are also responsible for fixing it within your product and providing the fix upstream.
 </code>
 
 > Status: ⚠️ [Draft][]
@@ -289,7 +332,7 @@ No. Most open source projects will not have a steward.
 
 A steward must be a "legal person" (Art. 3), such as a company, and most open source projects are not supported by a company. 
 
-The stewarding organization must also have "the purpose or objective of systematically providing support on a sustained basis" (Art. 3) and their software must be "ultimately intended for commercial activities" (recital 19). Organizations who do not meet those tests will also not be considered stewards.
+The stewarding organization must also have "the purpose or objective of systematically providing support on a sustained basis" (Art. 3) and their software must be "ultimately intended for commercial activities" ([Recital 19][]). Organizations who do not meet those tests will also not be considered stewards.
 
 > Status: ⚠️ [Draft][]
 | GitHub issue(s): [#170](https://github.com/orcwg/cra-hub/issues/170)
@@ -298,7 +341,7 @@ The stewarding organization must also have "the purpose or objective of systemat
 
 <details>
     <a name="q-what-is-an-open-source-software-steward"></a>
-    <summary><strong><a name="faq-tmp-127" href="#faq-tmp-127">tmp-127.</a> What is an <em>open-source software stewards</em>?</strong></summary>
+    <summary><strong><a name="faq-tmp-127" href="#faq-tmp-127">tmp-127.</a> What is an <em>open-source software steward</em>?</strong></summary>
 
 _Open-source software steward_ is a term defined in [Article 3(14)][] of the CRA, to subject specific organisations to a subset of CRA obligations because they exist to support free and open source software that is intended for commercial activities (by others):
 
@@ -319,7 +362,7 @@ _Open-source software steward_ is a term defined in [Article 3(14)][] of the CRA
     <a name="q-what-are-the-obligations-of-open-source-software-stewards"></a>
     <summary><strong><a name="faq-tmp-159" href="#faq-tmp-159">tmp-159.</a> What are the obligations of <em>open-source software stewards</em>?</strong></summary>
 
-_Open-source software steward_ are subject to a "light-touch and tailor-made regulatory regime" ([Recital 19][]), defined in [Article 24][].
+_Open-source software stewards_ are subject to a "light-touch and tailor-made regulatory regime" ([Recital 19][]), defined in [Article 24][].
 
 > Status: ⚠️ [Draft][]
 | GitHub issue(s): [#159](https://github.com/orcwg/cra-hub/issues/159)
@@ -371,6 +414,12 @@ The term _Manufacturer_ is defined in [Article 3(13)][] of the CRA:
 	<summary><strong><a name="faq-tmp-30" href="#faq-tmp-30">tmp-30.</a> Can a <em>manufacturer</em> also be an <em>open-source software steward</em>?</strong></summary>
 
 Yes, a _manufacturer_ can also be an _open-source software steward_, but it cannot be both the _manufacturer_ and _open-source software steward_ of the same project.
+
+In 2024 Benjamin Bögel of the European Commission gave a FOSDEM presentation and specifically gave, as examples of stewards, “companies that build [OSS] for their use [for integration into their own products] but make [the OSS] public.” [^EC@FOSDEM24][]. This only makes sense if an organization can be a manufacturer for one program and a steward for another.
+
+Mike Bursell, Co-chair, OpenSSF Cyber Policy Working Group (WG), believes that “if the organisation both sells a PDE that uses [some] open source project, and [separately] hosts [that open source project], supports it, and provides updates and patches for the community [that’s a real community]… then that would put [the organization] in both categories [depending on which software is being discussed].” [Bursell2025][]
+
+Whether or not an organization is a steward depends on many specifics. If the organization meets the criteria for a _manufacturer_ for some software, by definition it is a _manufacturer_. For more information, see CRA [Recital 18][] and the [PLD Recital 15]().
 
 > Status: ⚠️ [Draft][]
 | GitHub issue(s): [#30](https://github.com/orcwg/cra-hub/issues/30)
@@ -558,11 +607,15 @@ ANSWER
 
 [CRA]: https://eur-lex.europa.eu/eli/reg/2024/2847/oj
 [CRA HTML]: https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=OJ:L_202402847
-[Recital 15]: https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=OJ:L_202402847#rct_18
+[Recital 15]: https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=OJ:L_202402847#rct_15
 [Recital 18]: https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=OJ:L_202402847#rct_18
 [Recital 19]: https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=OJ:L_202402847#rct_19
+[Recital 21]: https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=OJ:L_202402847#rct_21
+[Recital 120]: https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=OJ:L_202402847#rct_120
+[Recital 121]: https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=OJ:L_202402847#rct_121
 [Article 3(13)]: https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=OJ:L_202402847#art_3
 [Article 3(14)]: https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=OJ:L_202402847#art_3
+[Article 13(6)]: https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=OJ:L_202402847#art_13
 [Article 14]: https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=OJ:L_202402847#art_14
 [Article 18]: https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=OJ:L_202402847#art_18
 [Article 24]: https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=OJ:L_202402847#art_24
@@ -581,5 +634,9 @@ ANSWER
 [ESO]: https://single-market-economy.ec.europa.eu/single-market/european-standards_en
 [standards]: https://github.com/orcwg/cra-hub/blob/main/standards.md
 [OJEU]: https://eur-lex.europa.eu/oj/direct-access.html 
+
+[PLD Recital 15]: https://eur-lex.europa.eu/eli/dir/2024/2853#rct_15
+
+[Bursell2024]: https://openssf.org/blog/2025/02/20/does-the-eu-cra-affect-my-business]
 
 [^EC@FOSDEM24]: https://fosdem.org/2024/schedule/event/fosdem-2024-3683-the-regulators-are-coming-one-year-on/, at 18 min 10 seconds into the recording
