@@ -272,6 +272,28 @@ These requirements do not apply open source software stewards. However, per [Art
     * **Publication date:** 
   </details>
 
+* [Open Source Project Security Baseline](https://baseline.openssf.org/) - The Open
+Source Project Security Baseline (OSPS Baseline for short) is a structured,
+community curated set of security requirements designed to bolster the security
+posture of open source software projects. The OSPS Baseline offers a tiered
+framework of security practices that evolve with project maturity. It compiles
+existing guidance from OpenSSF and other expert groups, outlining tasks,
+processes, artifacts, and configurations that enhance software development and
+consumption security. By adhering to the Baseline, developers can lay a foundation
+that supports compliance with global cybersecurity regulations, such as the EU
+Cyber Resilience Act (CRA) and U.S. National Institute of Standards and
+Technology (NIST) Secure Software Development Framework (SSDF).
+  <details>
+    <summary>More info</summary>
+
+    * **Title:** Open Source Project Security Baseline
+    * **URL:** https://github.com/ossf/security-baseline
+    * **Publisher:** OpenSSF
+    * **License:** Community Specification License 1.0
+    * **Type:** Framework
+    * **Publication date:** Feb 2025
+  </details>
+
 ## 3. Vulnerability Management
 
 This section contains references which are relevant to:
@@ -341,6 +363,22 @@ This section contains references which are relevant to:
     * **License:** IETF Trust Legal Provisions (TLP)
     * **Type:** RFC
     * **Publication date:** 2022
+  </details>
+
+* [OpenVEX Specification](https://github.com/openvex/spec) - OpenVEX is a lightweight
+implementation of the Vulnerability Exploitability Exchange. VEX offers a rapid
+channel to communicate the impact of vulnerabilities found in software components.
+VEX can be used to inform about non-exploitable vulnerabilities addressing requirements
+outlined in Article 13(2) and other sections of the CRA.
+  <details>
+    <summary>More info</summary>
+
+    * **Title:** OpenVEX Specification and Tooling
+    * **URL:** https://github.com/openvex/spec
+    * **Publisher:** OpenSSF
+    * **License:** Apache-2.0 / Community-Spec-1.0
+    * **Type:** Specification
+    * **Publication date:** Aug 2023
   </details>
 
 
@@ -738,6 +776,25 @@ This section contains references which are relevant to the requirements expresse
     * **License:** 
     * **Type:** formal
     * **Publication date:** 2024
+  </details>
+
+* [CISA SBOM Community - SBOM Reference Implementations](https://github.com/SBOM-Community/SBOM-Generation) - A white paper examinining the practical challenges of producing robust, National
+Telecommunications and Information Administration (NTIA) Minimum Elements-adherent,
+Software Bills of Materials (SBOM) that not only meet the NTIA Minimum Elements
+but can go beyond this to meet future compliance frameworks. As of publication,
+the authors' research found that no single open source tool can reliably generate
+an SBOM that adheres to NTIA Minimum Elements out of the box. The authors propose
+a six-step process that separates SBOM creation (or "authoring") into distinct,
+manageable phases (Generation, Augmentation, Enrichment, Verification, Signing).
+  <details>
+    <summary>More info</summary>
+
+    * **Title:** White Paper: Enhancing Software Bill of Materials (SBOM) Generation
+    * **URL:** https://github.com/SBOM-Community/SBOM-Generation/blob/main/whitepaper/Draft-SBOM-Generation-White-Paper-Feb-25-2025.pdf
+    * **Publisher:** CISA SBOM Community - Reference Implementations Tiger Team
+    * **License:** Apache-2.0
+    * **Type:** formal
+    * **Publication date:** Feb 2025
   </details>
 
  
