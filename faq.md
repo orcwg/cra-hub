@@ -229,34 +229,8 @@ No. As defined in [Article 3(14)][], an _open-source software steward_ must be a
 
 ### Manufacturers
 
-<details>
-    <a name="q-what-is-a-manufacturer"></a>
-	<summary><strong><a name="faq-tmp-59" href="#faq-tmp-59">tmp-59.</a> What is a <em>manufacturer</em>?</strong></summary>
-
-The term _Manufacturer_ is defined in [Article 3(13)][] of the CRA:
-	
-> ‘manufacturer’ means a natural or legal person who develops or manufactures products with digital elements or has products with digital elements designed, developed or manufactured, and markets them under its name or trademark, whether for payment, monetisation or free of charge;
-
-> Status: ⚠️ [Draft][]
-| GitHub issue(s): [#59](https://github.com/orcwg/cra-hub/issues/59)
-</details>
-
-
-<details>
-	<a name="q-can-a-manufacturer-also-be-an-open-source-software-steward"></a>
-	<summary><strong><a name="faq-tmp-30" href="#faq-tmp-30">tmp-30.</a> Can a <em>manufacturer</em> also be an <em>open-source software steward</em>?</strong></summary>
-
-Yes, a _manufacturer_ can also be an _open-source software steward_, but it cannot be both the _manufacturer_ and _open-source software steward_ of the same project.
-
-In 2024 Benjamin Bögel of the European Commission gave a FOSDEM presentation and specifically gave, as examples of stewards, “companies that build [OSS] for their use [for integration into their own products] but make [the OSS] public.” [^EC@FOSDEM24][]. This only makes sense if an organization can be a manufacturer for one program and a steward for another.
-
-Mike Bursell, Co-chair, OpenSSF Cyber Policy Working Group (WG), believes that “if the organisation both sells a PDE that uses [some] open source project, and [separately] hosts [that open source project], supports it, and provides updates and patches for the community [that’s a real community]… then that would put [the organization] in both categories [depending on which software is being discussed].” [Bursell2025][]
-
-Whether or not an organization is a steward depends on many specifics. If the organization meets the criteria for a _manufacturer_ for some software, by definition it is a _manufacturer_. For more information, see CRA [Recital 18][] and the [PLD Recital 15]().
-
-> Status: ⚠️ [Draft][]
-| GitHub issue(s): [#30](https://github.com/orcwg/cra-hub/issues/30)
-</details>
+* [What is a _manufacturer_?](./faq/manufacturers/what-is-a-manufacturer.md) <a name="q-what-is-a-manufacturer"></a><a name="faq-tmp-59"></a> 
+* [Can a _manufacturer_ also be an _open-source software steward_?](./faq/manufacturers/both-manufacturer-and-steward.md) <a name="q-can-a-manufacturer-also-be-an-open-source-software-steward"></a><a name="faq-tmp-30"></a> 
 
 
 ### Standards
