@@ -36,12 +36,12 @@ See [FAQ README][].
 
 ### The Cyber Resilience Act (CRA) itself
 
-* [What is the Cyber Resilience Act (CRA)?](./faq/cra.md) <a name="q-what-is-the-cyber-resilience-act-cra"></a><a name="faq-tmp-154"></a>
-* [Where is the official text of the CRA?](./faq/cra-txt.md) <a name="q-where-is-the-official-text-of-the-cra"></a><a name="faq-tmp-155"></a>
-* [When does the CRA enter into force and when does the regulation start to apply?](./faq/cra-timeline.md) <a name="q-when-does-the-cra-enter-into-force-and-when-does-the-regulation-start-to-apply"></a><a name="faq-tmp-10"></a>
-* [What kinds of products are regulated by the CRA?](./faq/cra-in-scope.md) <a name="q-what-is-in-scope-of-the-cra"></a><a name="faq-tmp-2"></a>
-* [What kinds of products are NOT regulated by the CRA?](./faq/cra-out-of-scope.md) <a name="q-what-is-not-in-scope-of-the-cra"></a><a name="faq-tmp-156"></a> 
-* [What is the 'CE Mark' and do I need to add it to my software?](./faq/ce-mark.md) <a name="q-As-an-open-source-steward-do-i-have-to-affix-the-ce-mark"></a><a name="faq-tmp-34"></a> 
+* [What is the Cyber Resilience Act (CRA)?](./faq/cra-itself/cra.md) <a name="q-what-is-the-cyber-resilience-act-cra"></a><a name="faq-tmp-154"></a>
+* [Where is the official text of the CRA?](./faq/cra-itself/text.md) <a name="q-where-is-the-official-text-of-the-cra"></a><a name="faq-tmp-155"></a>
+* [When does the CRA enter into force and when does the regulation start to apply?](./faq/cra-itself/timeline.md) <a name="q-when-does-the-cra-enter-into-force-and-when-does-the-regulation-start-to-apply"></a><a name="faq-tmp-10"></a>
+* [What kinds of products are regulated by the CRA?](./faq/cra-itself/scope.md) <a name="q-what-is-in-scope-of-the-cra"></a><a name="faq-tmp-2"></a>
+* [What kinds of products are NOT regulated by the CRA?](./faq/cra-itself/out-of-scope.md) <a name="q-what-is-not-in-scope-of-the-cra"></a><a name="faq-tmp-156"></a> 
+* [What is the 'CE Mark' and do I need to add it to my software?](./faq/cra-itself/ce-mark.md) <a name="q-As-an-open-source-steward-do-i-have-to-affix-the-ce-mark"></a><a name="faq-tmp-34"></a> 
 
 
 ### Open source projects
@@ -451,14 +451,14 @@ See [FAQ README][].
 
 See [FAQ README][].
 
-[FAQ README]: ./faq/README.md
+[FAQ README]: ./faq/cra-itself/README.md
 
-[benefit from guidance]: ./faq/README.md#questions-which-would-benefit-from-european-commission-guidance
-[No answer yet]: ./faq/README.md#maturity-level
-[Draft]: ./faq/README.md#maturity-level
-[Pending review]: ./faq/README.md#maturity-level
-[Pending guidance]: ./faq/README.md#maturity-level
-[Approved]: ./faq/README.md#maturity-level
+[benefit from guidance]: ./faq/cra-itself/README.md#questions-which-would-benefit-from-european-commission-guidance
+[No answer yet]: ./faq/cra-itself/README.md#maturity-level
+[Draft]: ./faq/cra-itself/README.md#maturity-level
+[Pending review]: ./faq/cra-itself/README.md#maturity-level
+[Pending guidance]: ./faq/cra-itself/README.md#maturity-level
+[Approved]: ./faq/cra-itself/README.md#maturity-level
 
 [CRA]: https://eur-lex.europa.eu/eli/reg/2024/2847/oj
 [CRA HTML]: https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=OJ:L_202402847
