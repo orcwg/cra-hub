@@ -1,7 +1,6 @@
 ---
 Status: ✅ Approved
 Related issue: https://github.com/orcwg/cra-hub/issues/10
-Labels: cra-itself
 Source: Article 71
 ---
 

@@ -1,7 +1,6 @@
 ---
 Status: ✅ Approved
 Related issue: https://github.com/orcwg/cra-hub/issues/154
-Labels: cra-itself
 ---
 
 # What is the Cyber Resilience Act (CRA)?

@@ -1,7 +1,6 @@
 ---
 Status: ✅ Approved
 Related issue: https://github.com/orcwg/cra-hub/issues/155
-Labels: cra-itself
 ---
 
 # Where is the official text of the CRA?

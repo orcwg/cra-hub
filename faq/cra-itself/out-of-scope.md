@@ -1,7 +1,6 @@
 ---
 Status: ⚠️ Draft
 Related issue: https://github.com/orcwg/cra-hub/issues/156
-Labels: cra-itself
 ---
 
 # What kinds of products are NOT regulated by the CRA?

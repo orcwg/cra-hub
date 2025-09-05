@@ -1,7 +1,6 @@
 ---
 Status: ✅ Approved
 Related issue: https://github.com/orcwg/cra-hub/issues/34
-Labels: ce-mark
 ---
 
 # What is the 'CE mark' and do I need to add it to my software?
