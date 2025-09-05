@@ -75,9 +75,10 @@ There is a subdirectory for each of the following FAQ category:
 * [Maintainers](./maintainers/)
 * [Stewards](./stewards/)
 * [Manufacturers](./manufacturers/)
-* [EU legislation](./eu-legislation/)
 * [Critical and Important Products](./critical-important-products/)
+* [Security Attestations](./attestations/)
 * [Standards](./standards/)
+* [EU legislation](./eu-legislation/)
 
 ### File format
 

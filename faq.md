@@ -265,50 +265,17 @@ Whether or not an organization is a steward depends on many specifics. If the or
 
 ### Important and Critical Product Categories
 
+### Security attestations
+
+* [What is a _security attestation_ in the CRA?](./faq/attestations/what-is-a-security-attestation.md) <a name="q-what-is-a-security-attestation-in-the-cra"></a><a name="faq-tmp-72"></a>
+
+
 ### EU Legislation
 
-<details>
-	<a name="q-what-is-the-blue-guide"></a>
-	<summary><strong><a name="faq-tmp-4" href="#faq-tmp-4">tmp-4.</a> What is the <em>Blue Guide</em>?</strong></summary>
+* [What is the _Blue Guide_?](./faq/eu-legislation/blue-guide.md) <a name="q-what-is-the-blue-guide"></a><a name="faq-tmp-4"></a> 
+* [What is the _New Legislative Framework_ (NLF)?](./faq/eu-legislation/nlf.md) <a name="q-what-is-the-new-legislative-framework-nlf"></a><a name="faq-tmp-57"></a> 
+* [What is a _legal person_?](./faq/eu-legislation/legal-person.md) <a name="q-what-is-a-legal-person"></a><a name="faq-tmp-55"></a>
 
-The [Blue Guide][] is one of the main reference documents of the European Commission explaining how to implement legislation based on the New Legislative Framework (NLF). Unlike the CRA, the Blue Guide does not have legal force. It predates the CRA and only discusses software as something embedded into a physical product, not as standalone.
-For this reason, until an updated version is available, the Blue Guide's guidance should be read in light of the CRA's wider scope and take into account the nuances introduced in the CRA for software. For example, on the concept of "commercial activity", [Recital 18][] CRA provides more specific guidance on "monetisation" and "non-profit organisations" than is available in the Blue Guide's "Making available on the market" section.
-
-> Status: ⚠️ [Draft][]
-| GitHub issue(s): [#4](https://github.com/orcwg/cra-hub/issues/4)
-</details>
-
-
-<details>
-    <a name="q-what-is-the-new-legislative-framework-nlf"></a>
-    <summary><strong><a name="faq-tmp-57" href="#faq-tmp-57">tmp-57.</a> What is the <em>New Legislative Framework</em> (NLF)?</strong></summary>	
-
-> Status: ❓ [No answer yet][]
-| GitHub issue(s): [#56](https://github.com/orcwg/cra-hub/issues/56)
-</details>
-
-
-<details>
-	<a name="q-what-is-a-legal-person"></a>
-	<summary><strong><a name="faq-tmp-55" href="#faq-tmp-55">tmp-55.</a> What is a <em>legal person</em>?</strong></summary>
-
-In the context of the CRA, a _legal person_ means an legal entity such as a business or nonprofit.
-
-**🛑 CAUTION:** Pending confirmation through European Commission Guidance that _legal persons_ do not include _natural persons_ in the context of the CRA.
-
-> Status: ⚠️ [Draft][]
-| GitHub issue(s): [#55](https://github.com/orcwg/cra-hub/issues/55)
-</details>
-
-<details>
-    <a name="q-what-is-a-security-attestation-in-the-cra"></a>
-    <summary><strong><a name="faq-tmp-72" href="#faq-tmp-72">tmp-72.</a> What is a <em>security attestation</em> in the CRA?</strong></summary>
-
-Security attestations in the CRA are an optional extension that do not exist yet. They may exist in the future, should the European Commission choose to establish them, with a legislative process called a "delegated act". Until such time, any resemblence with concepts elsewhere by the name of "attestation" is coincidental and should not restrict their future design in the CRA. For example, the "Secure Software Development Attestation" as a concept in the US is unrelated to the CRA.
-
-> Status: ⚠️ [Draft][]
-| GitHub issue(s): [#72](https://github.com/orcwg/cra-hub/issues/72)
-</details>
 
 ## Acknowledgments
 
