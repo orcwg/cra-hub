@@ -219,75 +219,13 @@ No. As defined in [Article 3(14)][], an _open-source software steward_ must be a
 
 ### Open-Source Software Stewards
 
-
-<details>
-    <summary><strong><a name="faq-tmp-170" href="#faq-tmp-170">tmp-170.</a> Do all open source projects have an <em>open source software steward</em>?</strong></summary>
-
-No. Most open source projects will not have a steward. 
-
-A steward must be a "legal person" (Art. 3), such as a company, and most open source projects are not supported by a company. 
-
-The stewarding organization must also have "the purpose or objective of systematically providing support on a sustained basis" (Art. 3) and their software must be "ultimately intended for commercial activities" ([Recital 19][]). Organizations who do not meet those tests will also not be considered stewards.
-
-> Status: ⚠️ [Draft][]
-| GitHub issue(s): [#170](https://github.com/orcwg/cra-hub/issues/170)
-</details>
-
-
-<details>
-    <a name="q-what-is-an-open-source-software-steward"></a>
-    <summary><strong><a name="faq-tmp-127" href="#faq-tmp-127">tmp-127.</a> What is an <em>open-source software steward</em>?</strong></summary>
-
-_Open-source software steward_ is a term defined in [Article 3(14)][] of the CRA, to subject specific organisations to a subset of CRA obligations because they exist to support free and open source software that is intended for commercial activities (by others):
-
-> ‘open-source software steward’ means a legal person, other than a manufacturer, that has the purpose or objective of systematically providing support on a sustained basis for the development of specific products with digital elements, qualifying as free and open-source software and intended for commercial activities, and that ensures the viability of those products;
-
-[Recital 19][] states "Open-source software stewards include certain foundations as well as entities that develop and publish free and open-source software in a business context, including not-for-profit entities." At [FOSDEM 2024][FOSDEM24], the European Commission provided three examples of entities the co-legislators had in mind [^EC@FOSDEM24]:
-
-  1. Foundations supporting specific FOSS projects
-  2. Companies that build FOSS for their own use but make it public
-  3. Not-for-profit entities that develop FOSS
-
-> Status: ⚠️ [Draft][]
-| GitHub issue(s): [#127](https://github.com/orcwg/cra-hub/issues/127)
-</details>
-
-
-<details>
-    <a name="q-what-are-the-obligations-of-open-source-software-stewards"></a>
-    <summary><strong><a name="faq-tmp-159" href="#faq-tmp-159">tmp-159.</a> What are the obligations of <em>open-source software stewards</em>?</strong></summary>
-
-_Open-source software stewards_ are subject to a "light-touch and tailor-made regulatory regime" ([Recital 19][]), defined in [Article 24][].
-
-> Status: ⚠️ [Draft][]
-| GitHub issue(s): [#159](https://github.com/orcwg/cra-hub/issues/159)
-</details>
-
-<details>
-    <a name="q-how-do-open-source-software-stewards-demonstrate-that-they-meet-their-obligations"></a>
-    <summary><strong><a name="faq-tmp-11" href="#faq-tmp-11">tmp-11.</a> How do <em>open-source software stewards</em> demonstrate that they meet their obligations?</strong></summary>
-
-> Status: ❓ [No answer yet][]
-| GitHub issue(s): [#11](https://github.com/orcwg/cra-hub/issues/11)
-</details>
-
-
-<details>
-    <a name="q-what-happens-when-an-open-source-software-steward-doesnt-meet-its-obligations"></a>
-    <summary><strong><a name="faq-tmp-158" href="#faq-tmp-158">tmp-158.</a> What happens when an <em>open-source software steward</em> doesn't meet its obligations?</strong></summary>
-
-> Status: ❓ [No answer yet][]
-| GitHub issue(s): [#158](https://github.com/orcwg/cra-hub/issues/158)
-</details>
-
-<details>
-	<a name="q-does-a-steward-bear-translation-costs-into-many-languages"></a>
-	<summary><strong><a name="faq-tmp-152" href="#faq-tmp-152">tmp-152.</a> Does a steward bear the cost of translating and maintain its policy documents in many of the EU languages?</strong></summary>
-
-> Status: 🛑 [Pending Guidance][]
-| GitHub issue(s): [#152](https://github.com/orcwg/cra-hub/issues/152)
-</details>
-
+* [Do all open source projects have an _open source software steward_?](./faq/stewards/do-all-projects-have-stewards.md) <a name="faq-tmp-170"></a>
+* [What is an _open-source software steward_?](./faq/stewards/what-is-a-steward.md) <a name="q-what-is-an-open-source-software-steward"></a><a name="faq-tmp-127"></a>
+* [Who can be _open-source software steward_?](./faq/stewards/who-can-be-steward.md)
+* [What are the obligations of _open-source software stewards_?](./faq/stewards/obligations.md) <a name="q-what-are-the-obligations-of-open-source-software-stewards"></a><a name="faq-tmp-159"></a> 
+* [How do _open-source software stewards_ demonstrate that they meet their obligations?](./faq/stewards/demonstrate.md) <a name="q-how-do-open-source-software-stewards-demonstrate-that-they-meet-their-obligations"></a><a name="faq-tmp-11"></a> 
+* [What happens when an _open-source software steward_ doesn't meet its obligations?](./faq/stewards/fines.md) <a name="q-what-happens-when-an-open-source-software-steward-doesnt-meet-its-obligations"></a><a name="faq-tmp-158"></a> 
+* [Does a steward bear the cost of translating and maintaining its policy documents in many of the EU languages?](./faq/stewards/translation-costs.md) <a name="q-does-a-steward-bear-translation-costs-into-many-languages"></a><a name="faq-tmp-152"></a> 
 
 ### Manufacturers
 
