@@ -269,13 +269,11 @@ Whether or not an organization is a steward depends on many specifics. If the or
 
 * [What is a _security attestation_ in the CRA?](./faq/attestations/what-is-a-security-attestation.md) <a name="q-what-is-a-security-attestation-in-the-cra"></a><a name="faq-tmp-72"></a>
 
-
 ### EU Legislation
 
 * [What is the _Blue Guide_?](./faq/eu-legislation/blue-guide.md) <a name="q-what-is-the-blue-guide"></a><a name="faq-tmp-4"></a> 
 * [What is the _New Legislative Framework_ (NLF)?](./faq/eu-legislation/nlf.md) <a name="q-what-is-the-new-legislative-framework-nlf"></a><a name="faq-tmp-57"></a> 
 * [What is a _legal person_?](./faq/eu-legislation/legal-person.md) <a name="q-what-is-a-legal-person"></a><a name="faq-tmp-55"></a>
-
 
 ## Acknowledgments
 
