@@ -89,7 +89,6 @@ Please use [reference style links][].
 ---
 Status: [ICON] [MATURITY_LEVEL]
 Related issue: [URL]
-Labels: [LABELS]
 ---
 
 # [QUESTION]
