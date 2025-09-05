@@ -1,5 +1,24 @@
 # FAQ Contributing Guidelines
 
+## Notation conventions
+
+### Questions which would benefit from European Commission guidance
+
+FAQs which would benefit from guidance from the European Commission are indicated with the following callout:
+
+> [!CAUTION]
+> Pending confirmation through European Commission Guidance that [REASON].
+
+### Maturity level
+
+The maturity level of the answers contained in the FAQ are indicated using the following system:
+
+| Maturity level status | Icon | Description |
+| :-------------------- |:----:| :---------- |
+| Draft                 |  ⚠️  | Hasn't been reviewed by the FAQ TF. Answer may be incomplete or incorrect. |
+| Pending Guidance      |  🛑  | Identified by the FAQ TF as requiring input from the EU Commission. |
+| Approved              |  ✅  | Has been reviewed by the FAQ TF. Represents community best effort to provide an actionable answer. |
+
 ## Format
 
 All FAQ files are stored in the `faq` directory.
@@ -12,6 +31,8 @@ The filename should be a short but informative slug.
 
 All files are markdown files with YAML frontmatter.
 
+Please use [reference style links][].
+
 ```md
 ---
 Status: [ICON] [MATURITY_LEVEL]
@@ -21,7 +42,11 @@ Labels: [LABELS]
 
 # [QUESTION]
 
-[ANSWER]
+[SHORT ANSWER]
+
+[ADDITIONAL NUANCES]
+
+[LINKS]
 ```
 
 ## References
@@ -29,3 +54,47 @@ Labels: [LABELS]
 1. References to the CRA should link to the relevant section of the HTML english version of the official text located on EUR-Lex: https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=OJ:L_202402847
 2. Reference to other EU legal texts should link to their landing page on EUR-Lex, for example: https://eur-lex.europa.eu/eli/reg/2019/2144/oj
 
+
+## FAQ lifecycle
+
+FAQs follow the below lifecycle:
+
+```mermaid
+flowchart TD
+    issue@{ shape: stadium, label: "New GitHub issue"} 
+    draft[Status: ⚠️ Draft]
+    pending[Status: 🛑 Pending Guidance]
+    approved@{ shape: stadium, label: "Status: ✅ Approved"}
+    iterate["Iterate on draft"]
+    review{"Passes review?"}
+    guidance{"Requires EU guidance?"}
+    
+    issue -- Identify question --> draft
+    draft --> iterate
+    iterate -- Ready for review --> review
+    review -- YES --> guidance
+    review -- NO --> iterate
+    guidance -- NO ----> approved
+    guidance -- YES --> pending
+    pending -- Receive guidance --> iterate
+```
+
+The goals of this lifecycle are:
+
+1. Include questions in the FAQs as soon as they are identified; do not wait for an answer to solidify before adding them to the repository.
+2. Make drafting the answers an iterative process; it is better to have an approximate answer than none, provided the answer is clearly identified as such (see next point).
+3. Clearly identify the maturity level of each answer.
+4. Improve accuracy, consistency, and quality of answers through a more rigourous final approval process.
+
+### FAQ Review Process
+
+The FAQ review process should check for the following:
+
+- [ ] There are no objections about the inclusion of the question
+- [ ] There are no objections about the provided answer
+- [ ] The question and answer follow the samne structure as the rest of the FAQ
+- [ ] The tone is similar
+- [ ] The answer is accurate
+- [ ] The answer is properly sourced and referenced
+
+[reference style links]: https://www.markdownguide.org/basic-syntax/#reference-style-links

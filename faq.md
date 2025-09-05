@@ -26,24 +26,11 @@ Open issues, pull requests, and untriagged FAQs can be found on [GitHub](https:/
 
 #### Questions which would benefit from European Commission guidance
 
-Frequently asked questions which would benefit from guidance from the European Commission are indicated with the following callout:
-
-**🛑 CAUTION:** Pending confirmation through European Commission Guidance that [REASON].
+See [FAQ README][].
 
 #### Maturity level of answers
 
-The maturity level of the answers contained in this document are indicated using the following system:
-
-| Maturity level status | Icon | Description |
-| :-------------------- |:----:| :---------- |
-| No answer yet         |   ❓  | No answer has been drafted yet. |
-| Draft                 |   ⚠️  | Hasn't been reviewed by SIG. Answer may be incomplete or incorrect. |
-| Pending Review        |   👀  | Ready to be reviewed by the SIG. |
-| Pending Guidance      |   🛑  | Identified by the SIG as requiring input from the EU Commission. |
-| Approved              |   ✅  | Has been reviewed by the SIG. Represents community best effort to provide an actionable answer. |
-
-Maturity level statuses are assigned using the process described in [Annex 1](#annex-1) below.
-
+See [FAQ README][].
 
 ## Frequently Asked Questions about the Cyber Resilience Act (CRA)
 
@@ -458,35 +445,20 @@ If you have contributed to this document and aren't properly acknowledged or if 
 ### Annex 1 - Maturity level process
 
 <a name="annex-1"></a>
-Maturity level statuses are assigned using the following process. All answers start with a maturity level status of "No answer yet".
-
-```mermaid
-flowchart TD
-    start[Status: No answer yet ❓]
-    A[Status: Draft ⚠️]
-    B[Status: Pending Review 👀]
-    C[Status: Approved ✅]
-    D[Status: Pending Guidance 🛑]
-    start -- Add draft answer --> A
-    A -- Ready for review --> B
-    B --> SIG{"Passes SIG Review?"}
-    SIG -- YES --> Q{"Requires EU guidance?"}
-    SIG -- NO --> A
-    Q -- NO --> C
-    Q -- YES --> D
-    D -- Guidance received --> SIG
-```
+See [FAQ README][].
 
 ### Annex 2 - FAQ formats
 
-See [FAQ README](./faq/README.md).
+See [FAQ README][].
 
-[benefit from guidance]: #questions-which-would-benefit-from-european-commission-guidance
-[No answer yet]: #maturity-level-of-answers
-[Draft]: #maturity-level-of-answers
-[Pending review]: #maturity-level-of-answers
-[Pending guidance]: #maturity-level-of-answers
-[Approved]: #maturity-level-of-answers
+[FAQ README]: ./faq/README.md
+
+[benefit from guidance]: ./faq/README.md#questions-which-would-benefit-from-european-commission-guidance
+[No answer yet]: ./faq/README.md#maturity-level
+[Draft]: ./faq/README.md#maturity-level
+[Pending review]: ./faq/README.md#maturity-level
+[Pending guidance]: ./faq/README.md#maturity-level
+[Approved]: ./faq/README.md#maturity-level
 
 [CRA]: https://eur-lex.europa.eu/eli/reg/2024/2847/oj
 [CRA HTML]: https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=OJ:L_202402847
