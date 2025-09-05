@@ -62,11 +62,22 @@ flowchart TD
 
 ## Format
 
-All FAQ files are stored in the `faq` directory.
-
 There is one question per file.
 
 The filename should be a short but informative slug.
+
+All FAQ files are stored in subdirectories of the `faq` directory.
+
+There is a subdirectory for each of the following FAQ category:
+
+* [The CRA itself](./cra-itself/)
+* [Open source projects](./open-source-projects/)
+* [Maintainers](./maintainers/)
+* [Stewards](./stewards/)
+* [Manufacturers](./manufacturers/)
+* [EU legislation](./eu-legislation/)
+* [Critical and Important Products](./critical-important-products/)
+* [Standards](./standards/)
 
 ### File format
 
