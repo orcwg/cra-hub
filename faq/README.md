@@ -71,14 +71,14 @@ All FAQ files are stored in subdirectories of the `faq` directory.
 There is a subdirectory for each of the following FAQ category:
 
 * [The CRA itself](./cra-itself/)
-* [Open source projects](./open-source-projects/)
+* [Open source projects](./projects/)
 * [Maintainers](./maintainers/)
 * [Stewards](./stewards/)
 * [Manufacturers](./manufacturers/)
 * [Critical and Important Products](./critical-important-products/)
 * [Security Attestations](./attestations/)
 * [Standards](./standards/)
-* [EU legislation](./eu-legislation/)
+* [EU legislation](./legislation/)
 
 ### File format
 

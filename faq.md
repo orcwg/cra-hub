@@ -245,9 +245,9 @@ No. As defined in [Article 3(14)][], an _open-source software steward_ must be a
 
 ### EU Legislation
 
-* [What is the _Blue Guide_?](./faq/eu-legislation/blue-guide.md) <a name="q-what-is-the-blue-guide"></a><a name="faq-tmp-4"></a> 
-* [What is the _New Legislative Framework_ (NLF)?](./faq/eu-legislation/nlf.md) <a name="q-what-is-the-new-legislative-framework-nlf"></a><a name="faq-tmp-57"></a> 
-* [What is a _legal person_?](./faq/eu-legislation/legal-person.md) <a name="q-what-is-a-legal-person"></a><a name="faq-tmp-55"></a>
+* [What is the _Blue Guide_?](./faq/legislation/blue-guide.md) <a name="q-what-is-the-blue-guide"></a><a name="faq-tmp-4"></a> 
+* [What is the _New Legislative Framework_ (NLF)?](./faq/legislation/nlf.md) <a name="q-what-is-the-new-legislative-framework-nlf"></a><a name="faq-tmp-57"></a> 
+* [What is a _legal person_?](./faq/legislation/legal-person.md) <a name="q-what-is-a-legal-person"></a><a name="faq-tmp-55"></a>
 
 ## Acknowledgments
 
