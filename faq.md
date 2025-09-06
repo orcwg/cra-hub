@@ -155,45 +155,5 @@ See [FAQ README][].
 See [FAQ README][].
 
 [FAQ README]: ./faq/cra-itself/README.md
-
 [benefit from guidance]: ./faq/cra-itself/README.md#questions-which-would-benefit-from-european-commission-guidance
-[No answer yet]: ./faq/cra-itself/README.md#maturity-level
-[Draft]: ./faq/cra-itself/README.md#maturity-level
-[Pending review]: ./faq/cra-itself/README.md#maturity-level
-[Pending guidance]: ./faq/cra-itself/README.md#maturity-level
-[Approved]: ./faq/cra-itself/README.md#maturity-level
 
-[CRA]: https://eur-lex.europa.eu/eli/reg/2024/2847/oj
-[CRA HTML]: https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=OJ:L_202402847
-[Recital 15]: https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=OJ:L_202402847#rct_15
-[Recital 18]: https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=OJ:L_202402847#rct_18
-[Recital 19]: https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=OJ:L_202402847#rct_19
-[Recital 21]: https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=OJ:L_202402847#rct_21
-[Recital 120]: https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=OJ:L_202402847#rct_120
-[Recital 121]: https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=OJ:L_202402847#rct_121
-[Article 3(13)]: https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=OJ:L_202402847#art_3
-[Article 3(14)]: https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=OJ:L_202402847#art_3
-[Article 13(6)]: https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=OJ:L_202402847#art_13
-[Article 14]: https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=OJ:L_202402847#art_14
-[Article 18]: https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=OJ:L_202402847#art_18
-[Article 24]: https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=OJ:L_202402847#art_24
-[Article 64(10)(b)]: https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=OJ:L_202402847#art_64
-[Article 71]: https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=OJ:L_202402847#art_71
-[Chapter IV]: https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=OJ:L_202402847#cpt_IV
-
-[2014/90]: https://eur-lex.europa.eu/eli/dir/2014/90/oj
-[2017/745]: https://eur-lex.europa.eu/eli/reg/2017/745/oj
-[2017/746]: https://eur-lex.europa.eu/eli/reg/2017/746/oj
-[2018/1139]: https://eur-lex.europa.eu/eli/reg/2018/1139/oj
-[2019/2144]: https://eur-lex.europa.eu/eli/reg/2019/2144/oj
-[NIS 2]: https://eur-lex.europa.eu/eli/dir/2022/2555/oj
-
-[Blue Guide]: https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:52022XC0629(04)
-[ESO]: https://single-market-economy.ec.europa.eu/single-market/european-standards_en
-[standards]: https://github.com/orcwg/cra-hub/blob/main/standards.md
-[OJEU]: https://eur-lex.europa.eu/oj/direct-access.html 
-
-
-[Bursell2024]: https://openssf.org/blog/2025/02/20/does-the-eu-cra-affect-my-business]
-
-[^EC@FOSDEM24]: https://fosdem.org/2024/schedule/event/fosdem-2024-3683-the-regulators-are-coming-one-year-on/, at 18 min 10 seconds into the recording
