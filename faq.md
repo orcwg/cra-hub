@@ -46,51 +46,9 @@ See [FAQ README][].
 
 ### Open source projects
 
-<details>
-    <a name="q-what-criteria-determine-whether-an-open-source-project-is-in-scope-of-the-cra"></a>
-    <summary><strong><a name="faq-tmp-124" href="#faq-tmp-124">tmp-124.</a> What criteria determine whether an open source project is in scope of the CRA?</strong></summary>
-
-The CRA regulates _natural and legal persons_ (either an individual or an organisation that has a legal personality, like a business, foundation or charity). There are three possible categories with descending requirements. These categories are _manufacturer_, _Open Source Software Steward_, or _Out of Scope_.
-> Note: At present, we believe that a natural person (an individual) cannot be considered an Open Source Software Steward, however we are currently verifying this with the European Commission. We will provide more detailed guidance as soon as possible.
-
-- You are **out of scope** of the CRA (meaning you are not required to comply with the regulation), if you are a natural person (an individual), and:
-  - you are not monetising your project at all, or
-  - you are monetising your project, without the intention of making a profit. (See Question: What does "Monetizing without making a profit" mean?)
-
-> Note: Further information for legal persons (organisations, foundations, associations) will be provided here as soon as we receive further clarifications and information from the European Commission.
-> Status: ❓ [No answer yet][]
-| GitHub issue(s): [#124](https://github.com/orcwg/cra-hub/issues/124)
-</details>
-
-
-<details>
-    <a name="q-what-is-monetizing"></a>
-    <summary><strong><a name="faq-tmp-33" href="#faq-tmp-33">tmp-33.</a> What does "Monetizing without making a profit" mean?</strong></summary>
-	
-- As an individual, if you are monetizing your project without the intention of making a profit, you are outside the scope of the regulation.
-- According to [Recital 15][] of the CRA, monetising without intention of making a profit means you fulfil the following cumulative requirements:
-    - You are not providing a software platform through which you monetise other services (for instance, Google's Android).
-    - You are not requiring as a condition for use the processing of personal data for reasons other than exclusively for improving the security, compatibility or interoperability of your software. (in particular, you're not giving people access to your software in exchange for their personal data)
-   - You are receiving donations or providing technical services in exchange for remuneration, where the total received does not exceed the cost of development of your software (hosting, hardware, compute etc..).
-
-> Note: We are waiting for clarification from the Commission as to if remuneration for hours worked on the project can be counted in the cost of development. 
-> Status: 🛑 [Pending Guidance][]
-| GitHub issue(s): [#33](https://github.com/orcwg/cra-hub/issues/33)
-</details>
-
-
-<details>
-    <a name="q-is-distributing-binaries-or-container-images-of-an-open-source-project-considered-as-making-it-available-on-the-market"></a>
-    <summary><strong><a name="faq-tmp-157" href="#faq-tmp-157">tmp-157.</a> Is distributing binaries or container images of an open source project considered as making it available on the market?</strong></summary>
-
-No. Monetization by the original manufacturer is what determines whether a product is made available on the market. As per [Recital 18][], merely supplying open source components isn't indicative of a commercial activity:
-
-> Furthermore, the supply of products with digital elements qualifying as free and open-source software components intended for integration by other manufacturers into their own products with digital elements should be considered to be making available on the market only if the component is monetised by its original manufacturer. […] In addition, the mere presence of regular releases should not in itself lead to the conclusion that a product with digital elements is supplied in the course of a commercial activity.
-
-> Status: ⚠️ [Draft][]
-| GitHub issue(s): [#157](https://github.com/orcwg/cra-hub/issues/157)
-</details>
-
+* [What criteria determine whether an open source project is in scope of the CRA?](./faq/projects/scope.md) <a name="q-what-criteria-determine-whether-an-open-source-project-is-in-scope-of-the-cra"></a><a name="faq-tmp-124"></a>
+* [What does "Monetizing without making a profit" mean?](./faq/projects/monetizing.md) <a name="q-what-is-monetizing"></a><a name="faq-tmp-33"></a>
+* [What does "Monetizing without making a profit" mean?](./faq/projects/monetizing.md) <a name="q-is-distributing-binaries-or-container-images-of-an-open-source-project-considered-as-making-it-available-on-the-market"></a><a name="faq-tmp-157"></a>
 
 ### Maintainers
 
@@ -231,7 +189,6 @@ No. As defined in [Article 3(14)][], an _open-source software steward_ must be a
 
 * [What is a _manufacturer_?](./faq/manufacturers/what-is-a-manufacturer.md) <a name="q-what-is-a-manufacturer"></a><a name="faq-tmp-59"></a> 
 * [Can a _manufacturer_ also be an _open-source software steward_?](./faq/manufacturers/both-manufacturer-and-steward.md) <a name="q-can-a-manufacturer-also-be-an-open-source-software-steward"></a><a name="faq-tmp-30"></a> 
-
 
 ### Standards
 
