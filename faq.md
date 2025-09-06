@@ -154,6 +154,6 @@ See [FAQ README][].
 
 See [FAQ README][].
 
-[FAQ README]: ./faq/cra-itself/README.md
-[benefit from guidance]: ./faq/cra-itself/README.md#questions-which-would-benefit-from-european-commission-guidance
+[FAQ README]: ./faq/README.md
+[benefit from guidance]: ./faq/README.md#questions-which-would-benefit-from-european-commission-guidance
 
