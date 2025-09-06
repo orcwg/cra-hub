@@ -31,7 +31,7 @@ The FAQ TF Review should check for the following:
 
 - [ ] There are no objections about the inclusion of the question
 - [ ] There are no objections about the provided answer
-- [ ] The question and answer follow the samne structure as the rest of the FAQ
+- [ ] The question and answer follow the same structure as the rest of the FAQ
 - [ ] The tone is similar
 - [ ] The answer is accurate
 - [ ] The answer is properly sourced and referenced
