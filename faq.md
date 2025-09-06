@@ -52,128 +52,14 @@ See [FAQ README][].
 
 ### Maintainers
 
-<details>
-    <a name="q-should-i-worry-about-the-CRA"></a>
-    <summary><strong><a name="faq-tmp-133a" href="#faq-tmp-133a">tmp-133a.</a> I am worried about how the CRA might impact me, and so I am considering shutting down my open source projects. Should I do that?</strong></summary>
-
-The CRA should have zero or minimal impact on most open source developers, so you should probably not shut down your open source projects because of the CRA. There are several reasons for this:
-
-First, the CRA likely does not apply to you. 
-
-- If you're just a contributor, the CRA explicitly exempts you. For more detail, see [tmp-17](#faq-tmp-17).
-- If you're a maintainer, and you _do not_ "monetise" your FOSS codebase, the CRA explicitly exempts you. For more detail, see [tmp-133b](#faq-tmp-133b).
-- If you're a maintainer, and you _do_ monetise your FOSS codebase, you may still be exempted, depending on exactly how you are monetizing the codebase and your participation in it. For more detail, see [tmp-133c](#faq-tmp-133c).
-
-Second, even if the CRA does ultimately apply to you, penalties for solo and small-team maintainers are unlikely to be severe. For more detail, see [tmp-133d](#faq-tmp-133d).
-
-As a result, we would strongly urge you _not_ to shut down any open source projects (or your participation in those projects) just because of the CRA.
-
-> Status: ⚠️ [Draft][]
-| GitHub issue(s): [#133](https://github.com/orcwg/cra-hub/issues/133)
-</details>
-
-<details>
-    <a name="q-am-i-subject-to-the-cra-if-i-only-contribute-to-an-open-source-project"></a>
-    <summary><strong><a name="faq-tmp-17" href="#faq-tmp-17">tmp-17.</a> Am I subject to the CRA if I only contribute to an open source project?</strong></summary>
-
-No. Contributions to an open source codebase are explicitely not in scope of the CRA. See [Recital 18][]: 
-
-> This Regulation does not apply to natural or legal persons who contribute with source code to products with digital elements qualifying as free and open-source software that are not under their responsibility.
-
-> Status: ⚠️ [Draft][]
-| GitHub issue(s): [#17](https://github.com/orcwg/cra-hub/issues/17)
-</details>
-
-<details>
-    <a name="q-am-I-subject-if-I-dont-monetise"></a>
-    <summary><strong><a name="faq-tmp-133b" href="#faq-tmp-133b">tmp-133b.</a> Am I subject to the CRA if I maintain, but do not monetise, an open source project?</strong></summary>
-
-If you are the maintainer of an open source codebase, and you do not monetise it, then the CRA _does not_ require you to do _anything_.
-
-The CRA applies
-> only in relation to products... supplied ... in the course of a _commercial activity_
-([Recital 15][], emphasis added)
-
-And it states that
-
-> the provision of ... free and open-source software that are not monetised by their manufacturers _should not be considered to be a commercial activity_
-([Recital 18][], emphasis added)
-
-
-> Status: ⚠️ [Draft][]
-| GitHub issue(s): [#133](https://github.com/orcwg/cra-hub/issues/133)
-</details>
-
-<details>
-    <a name="q-am-I-subject-if-I-do-monetise"></a>
-    <summary><strong><a name="faq-tmp-133c" href="#faq-tmp-133c">tmp-133c.</a> Am I subject to the CRA if I maintain and monetise an open source project?</strong></summary>
-
-If you are the maintainer of an open source codebase, and you do monetise it, then the CRA may apply to you, since you may be participating in a "commercial activity". 
-
-However, there are at least two significant exceptions that may allow you to take money for your work without being subject to the CRA.
-
-- If you monetise your software only by accepting donations that cover the "costs associated with the design, development, and provision" of the product, then the CRA says your participation is not a "commercial activity" and so it does not regulate you or your codebase. (See [Recital 15][] for more details.)
-- If you monetise your software by charging for a security attestation programme, that may also not be a "commercial activity" for purposes of the regulation. The exact nature of that exemption is still to be determined. (See [Recital 21][] for more details.)
-
-> Status: ⚠️ [Draft][]
-| GitHub issue(s): [#133](https://github.com/orcwg/cra-hub/issues/133)
-</details>
-
-<details>
-    <a name="q-what-penalties"></a>
-    <summary><strong><a name="faq-tmp-133d" href="#faq-tmp-133d">tmp-133d.</a> If I maintain an open source codebase, and am treated as a "manufacturer" or "steward", what penalties could I face for violating the CRA?</strong></summary>
-
-If you are a solo or small-team maintainer of an open source codebase, but do get treated as a manufacturer or steward for some reason (such as [monetisation](#faq-tmp-133c)), you may be subject to some penalties. However, the penalties should be limited. In particular:
-
-- If you are regulated because you are a steward, stewards are explicitly exempted from any fines, though you may still be required to take corrective actions for any problems that are uncovered. See [Article 64][].
-
-- If you are regulated because you are a manufacturer, penalties must still be constrained. Specifically, all penalties must be "proportionate" ([Recital 120][]; [Article 64][]). In addition, when imposed on a natural person, the penalties must take into account "the economic situation" and "size" of the entity ([Recital 121]; [Article 64][]). As a result, while it is not formally required, most regulators will likely to request corrective action before imposing a fine.
-
-> Status: ⚠️ [Draft][]
-| GitHub issue(s): [#133](https://github.com/orcwg/cra-hub/issues/133)
-</details>
-
-<details>
-    <summary><strong><a name="faq-tmp-70" href="#faq-tmp-70">tmp-70.</a> I am NOT subject to the CRA, and want to make this clear to downstream users. What should I say?</strong></summary>
-  
-Reply to their requests, stating the following:
-<code>
-- On the basis of [Recital 18][] of the Cyber Resilience Act, I do not fall within the scope of the regulation, and cannot be considered as a Manufacturer or an Open source software steward under the Cyber Resilience Act.
-- On the basis of [PLD Recital 15][], I cannot be held liable for your use of my code.
-- **While I don't have obligations towards you, you may have some towards me:**
-	- On the basis of [Article 13(6)][] the Cyber Resilience Act, if you believe you have found a security flaw in this code, you are responsible for reporting it by following the vulnerability disclosure process here: << project link >>. You are also responsible for fixing it within your product and providing the fix upstream.
-</code>
-
-> Status: ⚠️ [Draft][]
-| GitHub issue(s): [#70](https://github.com/orcwg/cra-hub/issues/70)
-</details>
-
-
-<details>
-    <a name="q-can-an-solo-maintainer-be-considered-to-be-an-open-source-software-steward"></a>
-    <summary><strong><a name="faq-tmp-1" href="#faq-tmp-1">tmp-1.</a> Can an solo maintainer be considered to be an <em>open-source software steward</em>?</strong></summary>
-
-No. As defined in [Article 3(14)][], an _open-source software steward_ must be a _legal person_ (e.g. a company, an organization, etc.) in contrast with a _natural person_ (i.e. a human being). The obligations of _open-source software stewards_ described in [Article 24][] therefore do not apply to solo maintainers. It is worth noting however, that _natural persons_ are subject to the same obligations as _legal persons_ would be should they monetize their poject.
-
-**🛑 CAUTION:** Pending confirmation through European Commission Guidance that _legal persons_ do not include _natural persons_ in the context of the CRA.
-
-> Status: ⚠️ [Draft][]
-| GitHub issue(s): [#1](https://github.com/orcwg/cra-hub/issues/1)
-</details>
-
-
-<details>
-    <a name="q-can-a-loosely-organized-group-of-maintainers-be-considered-to-be-an-open-source-software-steward"></a>
-    <summary><strong><a name="faq-tmp-15" href="#faq-tmp-15">tmp-15.</a> Can a loosely organized group of maintainers be considered to be an <em>open-source software steward</em>?</strong></summary>
-
-No. As defined in [Article 3(14)][], an _open-source software steward_ must be a _legal person_, which in the context of the CRA means an legal entity such as a business or nonprofit.
-
-**🛑 CAUTION:** Pending confirmation through European Commission Guidance that _legal persons_ do not include _natural persons_ in the context of the CRA.
-
-> Status: ⚠️ [Draft][]
-| GitHub issue(s): [#15](https://github.com/orcwg/cra-hub/issues/15)
-</details>
-
+* [I am worried about how the CRA might impact me, and so I am considering shutting down my open source projects. Should I do that?](./faq/maintainers/should-i-worry.md) <a name="q-should-i-worry-about-the-CRA"></a><a name="faq-tmp-133a"></a>
+* [Am I subject to the CRA if I only contribute to an open source project?](./faq/maintainers/contributors.md) <a name="q-am-i-subject-to-the-cra-if-i-only-contribute-to-an-open-source-project"></a><a name="faq-tmp-17"></a>
+* [Am I subject to the CRA if I maintain, but do not monetize, an open source project?](./faq/maintainers/no-monetization.md) <a name="q-am-I-subject-if-I-dont-monetise"></a><a name="faq-tmp-133b"></a>
+* [Am I subject to the CRA if I maintain and monetise an open source project?](./faq/maintainers/monetization.md) <a name="q-am-I-subject-if-I-do-monetise"></a><a name="faq-tmp-133c"></a>
+* [If I maintain an open source codebase, and am treated as a "manufacturer" or "steward", what penalties could I face for violating the CRA?](./faq/maintainers/penalties.md) <a name="q-what-penalties"></a><a name="faq-tmp-133d"></a>
+* [I am NOT subject to the CRA, and want to make this clear to downstream users. What should I say?](./faq/maintainers/transparency.md) <a name="faq-tmp-70"></a>
+* [Can a solo maintainer be considered to be an _open-source software steward_?](./faq/maintainers/solo-maintainer-steward.md) <a name="q-can-an-solo-maintainer-be-considered-to-be-an-open-source-software-steward"></a><a name="faq-tmp-1"></a>
+* [Can a loosely organized group of maintainers be considered to be an _open-source software steward_?](./faq/maintainers/multiple-maintainers-steward.md) <a name="q-can-a-loosely-organized-group-of-maintainers-be-considered-to-be-an-open-source-software-steward"></a><a name="faq-tmp-15"></a>
 
 ### Open-Source Software Stewards
 
@@ -307,7 +193,6 @@ See [FAQ README][].
 [standards]: https://github.com/orcwg/cra-hub/blob/main/standards.md
 [OJEU]: https://eur-lex.europa.eu/oj/direct-access.html 
 
-[PLD Recital 15]: https://eur-lex.europa.eu/eli/dir/2024/2853#rct_15
 
 [Bursell2024]: https://openssf.org/blog/2025/02/20/does-the-eu-cra-affect-my-business]
 
