@@ -182,7 +182,7 @@ No. As defined in [Article 3(14)][], an _open-source software steward_ must be a
 * [Who can be _open-source software steward_?](./faq/stewards/who-can-be-steward.md)
 * [What are the obligations of _open-source software stewards_?](./faq/stewards/obligations.md) <a name="q-what-are-the-obligations-of-open-source-software-stewards"></a><a name="faq-tmp-159"></a> 
 * [How do _open-source software stewards_ demonstrate that they meet their obligations?](./faq/stewards/demonstrate.md) <a name="q-how-do-open-source-software-stewards-demonstrate-that-they-meet-their-obligations"></a><a name="faq-tmp-11"></a> 
-* [What happens when an _open-source software steward_ doesn't meet its obligations?](./faq/stewards/fines.md) <a name="q-what-happens-when-an-open-source-software-steward-doesnt-meet-its-obligations"></a><a name="faq-tmp-158"></a> 
+* [What happens when an _open-source software steward_ doesn't meet its obligations?](./faq/stewards/penalties.md) <a name="q-what-happens-when-an-open-source-software-steward-doesnt-meet-its-obligations"></a><a name="faq-tmp-158"></a> 
 * [Does a steward bear the cost of translating and maintaining its policy documents in many of the EU languages?](./faq/stewards/translation-costs.md) <a name="q-does-a-steward-bear-translation-costs-into-many-languages"></a><a name="faq-tmp-152"></a> 
 
 ### Manufacturers
