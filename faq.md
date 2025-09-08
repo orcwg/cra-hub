@@ -48,7 +48,7 @@ See [FAQ README][].
 
 * [What criteria determine whether an open source project is in scope of the CRA?](./faq/projects/scope.md) <a name="q-what-criteria-determine-whether-an-open-source-project-is-in-scope-of-the-cra"></a><a name="faq-tmp-124"></a>
 * [What does "Monetizing without making a profit" mean?](./faq/projects/monetizing.md) <a name="q-what-is-monetizing"></a><a name="faq-tmp-33"></a>
-* [What does "Monetizing without making a profit" mean?](./faq/projects/monetizing.md) <a name="q-is-distributing-binaries-or-container-images-of-an-open-source-project-considered-as-making-it-available-on-the-market"></a><a name="faq-tmp-157"></a>
+* [Is distributing binaries or container images of an open source project considered as making it available on the market?](./faq/projects/binaries.md) <a name="q-is-distributing-binaries-or-container-images-of-an-open-source-project-considered-as-making-it-available-on-the-market"></a><a name="faq-tmp-157"></a>
 
 ### Maintainers
 
