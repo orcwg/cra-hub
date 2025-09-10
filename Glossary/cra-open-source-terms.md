@@ -36,9 +36,8 @@ Third-party components are characterised by:
 ## Supplier
 A supplier is the economic operator who places a product with digital elements on the EU market, who bears the legal responsibility for ensuring the product complies with all cybersecurity and conformity requirements.
 
-## Supply chain
-definition:
-reference:
+## Software supply chain
+The software supply chain is the entire sequence of code, dependencies, tools, infrastructure, and processes that are involved in creating, maintaining, distributing, and consuming open source software.
 
 
 ## Open source maintainer
