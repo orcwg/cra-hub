@@ -16,13 +16,13 @@ It is software that anyone can use, modify, and share freely, under a license th
 
 ## Open source project
 An open source project is a collaborative effort to develop software that is distributed under an OSI-approved license, ensuring compliance with the Open Source Definition ([OSD](https://opensource.org/osd))
-. This means the project’s code can be used, modified, and redistributed by anyone, without discrimination, and under conditions that preserve these freedoms.
+. This means the project’s code can be used, modified, and redistributed by anyone, without discrimination, and under conditions that preserve these freedoms. An open source project may range from a single maintainer working independently to a large-scale initiative sustained by a global community of contributors, organisations, and users. Its size and structure can evolve over time, but what defines it is the use of an open source licence and the openness of its development process
 
 Beyond the license, an open source project typically:
 - Provides public access to source code.
 - Welcomes contributions from individuals and organisations.
 - Operates with transparent governance, so decisions about the project are made openly.
-- Builds a community of users and contributors around shared goals.
+
 
 
 ## Third-party component
