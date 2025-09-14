@@ -82,7 +82,7 @@ See [FAQ README][].
 
 ### Important and Critical Product Categories
 
-* [Does a product which includes an open source component belonging to the category of important products (Annex III) inherit that category?](./faq/important-and-critical-products/does-a-product-inherit-the-cassification-of-an-included-open-source-component.md) <a name="q-does-a-product-inherit-the-classification-of-an-important-product-from-a-component"></a><a name="faq-tmp-237"></a>
+* [Does a product which includes an open source component belonging to the category of important products (Annex III) inherit that category?](./faq/important-and-critical-products/inheriting-product-classification.md)
 
 ### Security attestations
 
