@@ -5,7 +5,7 @@
 1. Include questions in the FAQs as soon as they are identified; do not wait for an answer to solidify before adding them to the repository.
 2. Make drafting the answers an iterative process; it is better to have an approximate answer than none, provided the answer is clearly identified as such (see next point).
 3. Clearly identify the [maturity level](#maturity-level) of each answer.
-4. Improve accuracy, consistency, and quality of answers through a more rigourous [final approval process](#final-approval-process).
+4. Improve accuracy, consistency, and quality of answers through a more rigourous [final review process](#review).
 
 
 ## Maturity level
