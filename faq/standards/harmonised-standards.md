@@ -3,6 +3,8 @@ Status: ⚠️ Draft
 Related issue: https://github.com/orcwg/cra-hub/issues/56
 ---
 
+# What is a _harmonised standard_ and why does it matter?
+
 A _harmonised standard_ is a standard adopted by one of the [European Standardisation Organisations (ESOs)][ESO].
 Certain (but not all) _harmonised standards_ are referenced in the [_Official Journal of the European Union_][OJEU] by the European Commission.
 Harmonised standards referenced in this way provide products that conform with them a _presumption of conformity_ with the requirements covered by those standards.
