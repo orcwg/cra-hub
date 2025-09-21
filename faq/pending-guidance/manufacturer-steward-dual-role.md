@@ -1,8 +1,6 @@
 ---
 type: guidance-request
 status: 🛑 Pending Guidance
-references:
-  - faq/manufacturers/both-manufacturer-and-steward.md
 ---
 
 # Manufacturer and steward dual role clarification

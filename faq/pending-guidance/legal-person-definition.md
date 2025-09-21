@@ -1,10 +1,6 @@
 ---
 type: guidance-request
 status: 🛑 Pending Guidance
-references:
-  - faq/legislation/legal-person.md
-  - faq/maintainers/solo-maintainer-steward.md
-  - faq/maintainers/multiple-maintainers-steward.md
 ---
 
 # Legal person definition clarification
