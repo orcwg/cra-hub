@@ -11,4 +11,4 @@ No. As defined in [Article 3(14)][], an _open-source software steward_ must be a
 > Pending confirmation through European Commission Guidance that _legal persons_ do not include _natural persons_ in the context of the CRA.
 
 [Article 3(14)]: https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=OJ:L_202402847#art_3
-[Article 24)]: https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=OJ:L_202402847#art_24
+[Article 24]: https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=OJ:L_202402847#art_24
