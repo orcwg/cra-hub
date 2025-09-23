@@ -20,10 +20,16 @@ The maturity level of the answers contained in the FAQ are indicated using the f
 
 ### Questions which would benefit from European Commission guidance
 
-FAQs which would benefit from guidance from the European Commission are indicated with the following callout:
+FAQs which would benefit from guidance from the European Commission include a `pending-guidance` field in their YAML frontmatter that references a dedicated guidance request file in the `pending-guidance/` folder.
 
-> [!CAUTION]
-> Pending confirmation through European Commission Guidance that [REASON].
+Example:
+```yaml
+---
+Status: ⚠️ Draft
+pending-guidance: legal-person-definition
+Related issue: https://github.com/...
+---
+```
 
 ## Review
 
@@ -79,6 +85,10 @@ There is a subdirectory for each of the following FAQ category:
 * [Security Attestations](./attestations/)
 * [Standards](./standards/)
 * [EU legislation](./legislation/)
+
+## Guidance Requests
+
+The `pending-guidance/` folder contains dedicated files for EU Commission guidance requests that are referenced by multiple FAQs.
 
 ### File format
 
