@@ -75,8 +75,6 @@ See [FAQ README][].
 
 * [What is a _manufacturer_?](./faq/manufacturers/what-is-a-manufacturer.md) <a name="q-what-is-a-manufacturer"></a><a name="faq-tmp-59"></a> 
 * [Can a _manufacturer_ also be an _open-source software steward_?](./faq/manufacturers/both-manufacturer-and-steward.md) <a name="q-can-a-manufacturer-also-be-an-open-source-software-steward"></a><a name="faq-tmp-30"></a> 
-
-
 * [As a _manufacturer_, if I make a mistake or a security flaw is found in my project, will I get in trouble?](./faq/manufacturers/mistakes.md)
 
 ### Standards
