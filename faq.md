@@ -77,17 +77,7 @@ See [FAQ README][].
 * [Can a _manufacturer_ also be an _open-source software steward_?](./faq/manufacturers/both-manufacturer-and-steward.md) <a name="q-can-a-manufacturer-also-be-an-open-source-software-steward"></a><a name="faq-tmp-30"></a> 
 
 
-<details>
-	<a name="q-if-i-make-a-mistake-as-a-manufacturer-will-i-get-in-trouble"></a>
-	<summary><strong><a name="faq-tmp-84" href="#faq-tmp-30">tmp-84.</a> As a <em>manufacturer</em>, if I make a mistake or a security flaw is found in my project, will I get in trouble?  </strong></summary>
-	
-- If, you fail to comply with the CRA, you will likely receive a letter or email from Market Surveillance Authorities asking you to address the issue.
-- If you continue to fail to address the issue as a manufacturer, you could recieve a fine. The fine will be proportional to the size of your organisation and how severely you broke the law.
-- [Microenterprises or small enterprises](https://single-market-economy.ec.europa.eu/smes/sme-fundamentals/sme-definition_en) are exempted from fines relating to the obligation to notify authorities about vunerabilities and severe incidents within 24 hours.
-
-> Status: ✅ [Approved][]
-| GitHub issue(s): [#84](https://github.com/orcwg/cra-hub/issues/84)
-</details>
+* [As a _manufacturer_, if I make a mistake or a security flaw is found in my project, will I get in trouble?](./faq/manufacturers/mistakes.md)
 
 ### Standards
 
