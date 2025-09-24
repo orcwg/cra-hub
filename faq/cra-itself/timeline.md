@@ -14,8 +14,8 @@ All other obligations for software developers start to apply on December 11, 202
 gantt
     title CRA Implementation Timeline
     dateFormat  YYYY-MM-DD
-    axisFormat %Y-Q%q
-    tickInterval 3month
+    axisFormat %Y
+    tickInterval 1year
 
     Drafting phase: 2024-01-01, 2024-11-20
     Publication in the Official Journal of the EU (November 20, 2024): milestone, 2024-11-20, 5m
