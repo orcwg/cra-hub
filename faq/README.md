@@ -26,7 +26,7 @@ Example:
 ```yaml
 ---
 Status: ⚠️ Draft
-pending-guidance: legal-person-definition
+guidance-id: legal-person-definition
 Related issue: https://github.com/...
 ---
 ```

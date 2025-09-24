@@ -1,6 +1,6 @@
 ---
 Status: ⚠️ Draft
-pending-guidance: manufacturer-steward-dual-role
+guidance-id: manufacturer-steward-dual-role
 Related issue: https://github.com/orcwg/cra-hub/issues/30
 ---
 
