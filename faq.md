@@ -36,64 +36,64 @@ See [FAQ README][].
 
 ### The Cyber Resilience Act (CRA) itself
 
-* [What is the Cyber Resilience Act (CRA)?](./faq/cra-itself/cra.md) <a name="q-what-is-the-cyber-resilience-act-cra"></a><a name="faq-tmp-154"></a>
-* [Where is the official text of the CRA?](./faq/cra-itself/text.md) <a name="q-where-is-the-official-text-of-the-cra"></a><a name="faq-tmp-155"></a>
-* [When does the CRA enter into force and when does the regulation start to apply?](./faq/cra-itself/timeline.md) <a name="q-when-does-the-cra-enter-into-force-and-when-does-the-regulation-start-to-apply"></a><a name="faq-tmp-10"></a>
-* [What kinds of products are regulated by the CRA?](./faq/cra-itself/scope.md) <a name="q-what-is-in-scope-of-the-cra"></a><a name="faq-tmp-2"></a>
-* [What kinds of products are NOT regulated by the CRA?](./faq/cra-itself/out-of-scope.md) <a name="q-what-is-not-in-scope-of-the-cra"></a><a name="faq-tmp-156"></a> 
-* [What is the 'CE Mark' and do I need to add it to my software?](./faq/cra-itself/ce-mark.md) <a name="q-As-an-open-source-steward-do-i-have-to-affix-the-ce-mark"></a><a name="faq-tmp-34"></a> 
+* [What is the Cyber Resilience Act (CRA)?](https://cra.orcwg.org/faq/cra-itself/cra/) <a name="q-what-is-the-cyber-resilience-act-cra"></a><a name="faq-tmp-154"></a>
+* [Where is the official text of the CRA?](https://cra.orcwg.org/faq/cra-itself/text/) <a name="q-where-is-the-official-text-of-the-cra"></a><a name="faq-tmp-155"></a>
+* [When does the CRA enter into force and when does the regulation start to apply?](https://cra.orcwg.org/faq/cra-itself/timeline/) <a name="q-when-does-the-cra-enter-into-force-and-when-does-the-regulation-start-to-apply"></a><a name="faq-tmp-10"></a>
+* [What kinds of products are regulated by the CRA?](https://cra.orcwg.org/faq/cra-itself/scope/) <a name="q-what-is-in-scope-of-the-cra"></a><a name="faq-tmp-2"></a>
+* [What kinds of products are NOT regulated by the CRA?](https://cra.orcwg.org/faq/cra-itself/out-of-scope/) <a name="q-what-is-not-in-scope-of-the-cra"></a><a name="faq-tmp-156"></a> 
+* [What is the 'CE Mark' and do I need to add it to my software?](https://cra.orcwg.org/faq/cra-itself/ce-mark/) <a name="q-As-an-open-source-steward-do-i-have-to-affix-the-ce-mark"></a><a name="faq-tmp-34"></a> 
 
 
 ### Open source projects
 
-* [What criteria determine whether an open source project is in scope of the CRA?](./faq/projects/scope.md) <a name="q-what-criteria-determine-whether-an-open-source-project-is-in-scope-of-the-cra"></a><a name="faq-tmp-124"></a>
-* [What does "Monetizing without making a profit" mean?](./faq/projects/monetizing.md) <a name="q-what-is-monetizing"></a><a name="faq-tmp-33"></a>
-* [Is distributing binaries or container images of an open source project considered as making it available on the market?](./faq/projects/binaries.md) <a name="q-is-distributing-binaries-or-container-images-of-an-open-source-project-considered-as-making-it-available-on-the-market"></a><a name="faq-tmp-157"></a>
+* [What criteria determine whether an open source project is in scope of the CRA?](https://cra.orcwg.org/faq/projects/scope/) <a name="q-what-criteria-determine-whether-an-open-source-project-is-in-scope-of-the-cra"></a><a name="faq-tmp-124"></a>
+* [What does "Monetizing without making a profit" mean?](https://cra.orcwg.org/faq/projects/monetizing/) <a name="q-what-is-monetizing"></a><a name="faq-tmp-33"></a>
+* [Is distributing binaries or container images of an open source project considered as making it available on the market?](https://cra.orcwg.org/faq/projects/binaries/) <a name="q-is-distributing-binaries-or-container-images-of-an-open-source-project-considered-as-making-it-available-on-the-market"></a><a name="faq-tmp-157"></a>
 
 ### Maintainers
 
-* [I am worried about how the CRA might impact me, and so I am considering shutting down my open source projects. Should I do that?](./faq/maintainers/should-i-worry.md) <a name="q-should-i-worry-about-the-CRA"></a><a name="faq-tmp-133a"></a>
-* [Am I subject to the CRA if I only contribute to an open source project?](./faq/maintainers/contributors.md) <a name="q-am-i-subject-to-the-cra-if-i-only-contribute-to-an-open-source-project"></a><a name="faq-tmp-17"></a>
-* [Am I subject to the CRA if I maintain, but do not monetize, an open source project?](./faq/maintainers/no-monetization.md) <a name="q-am-I-subject-if-I-dont-monetise"></a><a name="faq-tmp-133b"></a>
-* [Am I subject to the CRA if I maintain and monetise an open source project?](./faq/maintainers/monetization.md) <a name="q-am-I-subject-if-I-do-monetise"></a><a name="faq-tmp-133c"></a>
-* [If I maintain an open source codebase, and am treated as a "manufacturer" or "steward", what penalties could I face for violating the CRA?](./faq/maintainers/penalties.md) <a name="q-what-penalties"></a><a name="faq-tmp-133d"></a>
-* [I am NOT subject to the CRA, and want to make this clear to downstream users. What should I say?](./faq/maintainers/transparency.md) <a name="faq-tmp-70"></a>
-* [Can a solo maintainer be considered to be an _open-source software steward_?](./faq/maintainers/solo-maintainer-steward.md) <a name="q-can-an-solo-maintainer-be-considered-to-be-an-open-source-software-steward"></a><a name="faq-tmp-1"></a>
-* [Can a loosely organized group of maintainers be considered to be an _open-source software steward_?](./faq/maintainers/multiple-maintainers-steward.md) <a name="q-can-a-loosely-organized-group-of-maintainers-be-considered-to-be-an-open-source-software-steward"></a><a name="faq-tmp-15"></a>
+* [I am worried about how the CRA might impact me, and so I am considering shutting down my open source projects. Should I do that?](https://cra.orcwg.org/faq/maintainers/should-i-worry/) <a name="q-should-i-worry-about-the-CRA"></a><a name="faq-tmp-133a"></a>
+* [Am I subject to the CRA if I only contribute to an open source project?](https://cra.orcwg.org/faq/maintainers/contributors/) <a name="q-am-i-subject-to-the-cra-if-i-only-contribute-to-an-open-source-project"></a><a name="faq-tmp-17"></a>
+* [Am I subject to the CRA if I maintain, but do not monetize, an open source project?](https://cra.orcwg.org/faq/maintainers/no-monetization/) <a name="q-am-I-subject-if-I-dont-monetise"></a><a name="faq-tmp-133b"></a>
+* [Am I subject to the CRA if I maintain and monetise an open source project?](https://cra.orcwg.org/faq/maintainers/monetization/) <a name="q-am-I-subject-if-I-do-monetise"></a><a name="faq-tmp-133c"></a>
+* [If I maintain an open source codebase, and am treated as a "manufacturer" or "steward", what penalties could I face for violating the CRA?](https://cra.orcwg.org/faq/maintainers/penalties/) <a name="q-what-penalties"></a><a name="faq-tmp-133d"></a>
+* [I am NOT subject to the CRA, and want to make this clear to downstream users. What should I say?](https://cra.orcwg.org/faq/maintainers/transparency/) <a name="faq-tmp-70"></a>
+* [Can a solo maintainer be considered to be an _open-source software steward_?](https://cra.orcwg.org/faq/maintainers/solo-maintainer-steward/) <a name="q-can-an-solo-maintainer-be-considered-to-be-an-open-source-software-steward"></a><a name="faq-tmp-1"></a>
+* [Can a loosely organized group of maintainers be considered to be an _open-source software steward_?](https://cra.orcwg.org/faq/maintainers/multiple-maintainers-steward/) <a name="q-can-a-loosely-organized-group-of-maintainers-be-considered-to-be-an-open-source-software-steward"></a><a name="faq-tmp-15"></a>
 
 ### Open-Source Software Stewards
 
-* [Do all open source projects have an _open source software steward_?](./faq/stewards/do-all-projects-have-stewards.md) <a name="faq-tmp-170"></a>
-* [What is an _open-source software steward_?](./faq/stewards/what-is-a-steward.md) <a name="q-what-is-an-open-source-software-steward"></a><a name="faq-tmp-127"></a>
-* [Who can be _open-source software steward_?](./faq/stewards/who-can-be-steward.md)
-* [What are the obligations of _open-source software stewards_?](./faq/stewards/obligations.md) <a name="q-what-are-the-obligations-of-open-source-software-stewards"></a><a name="faq-tmp-159"></a> 
-* [How do _open-source software stewards_ demonstrate that they meet their obligations?](./faq/stewards/demonstrate.md) <a name="q-how-do-open-source-software-stewards-demonstrate-that-they-meet-their-obligations"></a><a name="faq-tmp-11"></a> 
-* [What happens when an _open-source software steward_ doesn't meet its obligations?](./faq/stewards/penalties.md) <a name="q-what-happens-when-an-open-source-software-steward-doesnt-meet-its-obligations"></a><a name="faq-tmp-158"></a> 
-* [Does a steward bear the cost of translating and maintaining its policy documents in many of the EU languages?](./faq/stewards/translation-costs.md) <a name="q-does-a-steward-bear-translation-costs-into-many-languages"></a><a name="faq-tmp-152"></a> 
+* [Do all open source projects have an _open source software steward_?](https://cra.orcwg.org/faq/stewards/do-all-projects-have-stewards/) <a name="faq-tmp-170"></a>
+* [What is an _open-source software steward_?](https://cra.orcwg.org/faq/stewards/what-is-a-steward/) <a name="q-what-is-an-open-source-software-steward"></a><a name="faq-tmp-127"></a>
+* [Who can be _open-source software steward_?](https://cra.orcwg.org/faq/stewards/who-can-be-steward/)
+* [What are the obligations of _open-source software stewards_?](https://cra.orcwg.org/faq/stewards/obligations/) <a name="q-what-are-the-obligations-of-open-source-software-stewards"></a><a name="faq-tmp-159"></a> 
+* [How do _open-source software stewards_ demonstrate that they meet their obligations?](https://cra.orcwg.org/faq/stewards/demonstrate/) <a name="q-how-do-open-source-software-stewards-demonstrate-that-they-meet-their-obligations"></a><a name="faq-tmp-11"></a> 
+* [What happens when an _open-source software steward_ doesn't meet its obligations?](https://cra.orcwg.org/faq/stewards/penalties/) <a name="q-what-happens-when-an-open-source-software-steward-doesnt-meet-its-obligations"></a><a name="faq-tmp-158"></a> 
+* [Does a steward bear the cost of translating and maintaining its policy documents in many of the EU languages?](https://cra.orcwg.org/faq/stewards/translation-costs/) <a name="q-does-a-steward-bear-translation-costs-into-many-languages"></a><a name="faq-tmp-152"></a> 
 
 ### Manufacturers
 
-* [What is a _manufacturer_?](./faq/manufacturers/what-is-a-manufacturer.md) <a name="q-what-is-a-manufacturer"></a><a name="faq-tmp-59"></a> 
-* [Can a _manufacturer_ also be an _open-source software steward_?](./faq/manufacturers/both-manufacturer-and-steward.md) <a name="q-can-a-manufacturer-also-be-an-open-source-software-steward"></a><a name="faq-tmp-30"></a> 
-* [As a _manufacturer_, if I make a mistake or a security flaw is found in my project, will I get in trouble?](./faq/manufacturers/mistakes.md)
+* [What is a _manufacturer_?](https://cra.orcwg.org/faq/manufacturers/what-is-a-manufacturer/) <a name="q-what-is-a-manufacturer"></a><a name="faq-tmp-59"></a> 
+* [Can a _manufacturer_ also be an _open-source software steward_?](https://cra.orcwg.org/faq/manufacturers/both-manufacturer-and-steward/) <a name="q-can-a-manufacturer-also-be-an-open-source-software-steward"></a><a name="faq-tmp-30"></a> 
+* [As a _manufacturer_, if I make a mistake or a security flaw is found in my project, will I get in trouble?](https://cra.orcwg.org/faq/manufacturers/mistakes/)
 
 ### Standards
 
-* [What is a _harmonised standard_ and why does it matter?](./faq/standards/harmonised-standards.md) <a name="q-what-is-a-harmonized-standard-and-why-does-it-matter"></a><a name="faq-tmp-56"></a> 
+* [What is a _harmonised standard_ and why does it matter?](https://cra.orcwg.org/faq/standards/harmonised-standards/) <a name="q-what-is-a-harmonized-standard-and-why-does-it-matter"></a><a name="faq-tmp-56"></a> 
 
 ### Important and Critical Product Categories
 
-* [Does a product which includes an open source component belonging to the category of important products (Annex III) inherit that category?](./faq/important-and-critical-products/inheriting-product-classification.md)
+* [Does a product which includes an open source component belonging to the category of important products (Annex III) inherit that category?](https://cra.orcwg.org/faq/important-and-critical-products/inheriting-product-classification/)
 
 ### Security attestations
 
-* [What is a _security attestation_ in the CRA?](./faq/attestations/what-is-a-security-attestation.md) <a name="q-what-is-a-security-attestation-in-the-cra"></a><a name="faq-tmp-72"></a>
+* [What is a _security attestation_ in the CRA?](https://cra.orcwg.org/faq/attestations/what-is-a-security-attestation/) <a name="q-what-is-a-security-attestation-in-the-cra"></a><a name="faq-tmp-72"></a>
 
 ### EU Legislation
 
-* [What is the _Blue Guide_?](./faq/legislation/blue-guide.md) <a name="q-what-is-the-blue-guide"></a><a name="faq-tmp-4"></a> 
-* [What is the _New Legislative Framework_ (NLF)?](./faq/legislation/nlf.md) <a name="q-what-is-the-new-legislative-framework-nlf"></a><a name="faq-tmp-57"></a> 
-* [What is a _legal person_?](./faq/legislation/legal-person.md) <a name="q-what-is-a-legal-person"></a><a name="faq-tmp-55"></a>
+* [What is the _Blue Guide_?](https://cra.orcwg.org/faq/legislation/blue-guide/) <a name="q-what-is-the-blue-guide"></a><a name="faq-tmp-4"></a> 
+* [What is the _New Legislative Framework_ (NLF)?](https://cra.orcwg.org/faq/legislation/nlf/) <a name="q-what-is-the-new-legislative-framework-nlf"></a><a name="faq-tmp-57"></a> 
+* [What is a _legal person_?](https://cra.orcwg.org/faq/legislation/legal-person/) <a name="q-what-is-a-legal-person"></a><a name="faq-tmp-55"></a>
 
 ## Acknowledgments
 
