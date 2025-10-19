@@ -37,5 +37,5 @@ You can find [an explainer on expert groups in general][explainer] on the Europe
 [Annex III]: https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=OJ:L_202402847#anx_III
 [Annex IV]: https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=OJ:L_202402847#anx_IV
 
-[landing page]: https://ec.europa.eu/transparency/expert-groups-register/screen/expert-groups/consult?lang=en&groupID=3967
+[official page]: https://ec.europa.eu/transparency/expert-groups-register/screen/expert-groups/consult?lang=en&groupID=3967
 [explainer]: https://ec.europa.eu/transparency/expert-groups-register/screen/expert-groups-explained?lang=en
