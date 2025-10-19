@@ -5,7 +5,7 @@ Related issue: https://github.com/orcwg/cra-hub/issues/133
 
 # If I maintain an open source codebase, and am treated as a "manufacturer" or "steward", what penalties could I face for violating the CRA?
 
-If you are a solo or small-team maintainer of an open source codebase, but do get treated as a manufacturer or steward for some reason (such as [monetization][]), you may be subject to some penalties. However, the penalties should be limited. In particular:
+If you are a solo or small-team maintainer of an open source codebase, but do get treated as a manufacturer or steward for some reason (such as [monetization][maintainers/monetization]), you may be subject to some penalties. However, the penalties should be limited. In particular:
 
 - If you are regulated because you are a steward, stewards are explicitly exempted from any fines, though you may still be required to take corrective actions for any problems that are uncovered. See [Article 64][].
 
@@ -15,4 +15,3 @@ If you are a solo or small-team maintainer of an open source codebase, but do ge
 [Recital 120]: https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=OJ:L_202402847#rct_120
 [Recital 121]: https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=OJ:L_202402847#rct_121
 
-[monetization]: ./monetization.md

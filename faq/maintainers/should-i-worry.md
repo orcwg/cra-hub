@@ -9,16 +9,10 @@ The CRA should have zero or minimal impact on most open source developers, so yo
 
 First, the CRA likely does not apply to you. 
 
-- If you're just a contributor, the CRA explicitly exempts you. For more detail, see ["Am I subject to the CRA if I only contribute to an open source project?"][contributors]
-- If you're a maintainer, and you _do not_ "monetise" your FOSS codebase, the CRA explicitly exempts you. For more detail, see ["Am I subject to the CRA if I maintain, but do not monetise, an open source project?"][no-monetization].
-- If you're a maintainer, and you _do_ monetise your FOSS codebase, you may still be exempted, depending on exactly how you are monetizing the codebase and your participation in it. For more detail, see [tmp-133c][monetization].
+- If you're just a contributor, the CRA explicitly exempts you. For more detail, see ["Am I subject to the CRA if I only contribute to an open source project?"][maintainers/contributors]
+- If you're a maintainer, and you _do not_ "monetise" your FOSS codebase, the CRA explicitly exempts you. For more detail, see ["Am I subject to the CRA if I maintain, but do not monetise, an open source project?"][maintainers/no-monetization].
+- If you're a maintainer, and you _do_ monetise your FOSS codebase, you may still be exempted, depending on exactly how you are monetizing the codebase and your participation in it. For more detail, see [tmp-133c][maintainers/monetization].
 
-Second, even if the CRA does ultimately apply to you, penalties for solo and small-team maintainers are unlikely to be severe. For more detail, see [tmp-133d][penalties].
+Second, even if the CRA does ultimately apply to you, penalties for solo and small-team maintainers are unlikely to be severe. For more detail, see [tmp-133d][maintainers/penalties].
 
 As a result, we would strongly urge you _not_ to shut down any open source projects (or your participation in those projects) just because of the CRA.
-
-
-[contributors]: ./contributors.md
-[no-monetization]: ./no-monetization.md
-[monetization]: ./monetization.md
-[penalties]: ./penalties.md

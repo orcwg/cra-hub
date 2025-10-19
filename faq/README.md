@@ -111,6 +111,34 @@ Related issue: [URL]
 [LINKS]
 ```
 
+## Cross-References
+
+To reference FAQs from other categories, use reference-style links with `category/filename` IDs (without `.md` extension):
+
+```markdown
+["FAQ Title"][category/filename]
+```
+
+**Examples:**
+```markdown
+see ["Am I subject to the CRA if I only contribute?"][maintainers/contributors]
+see ["What is a steward?"][stewards/what-is-a-steward]
+see ["CRA Expert Group"][cra-itself/cra-expert-group]
+```
+
+The same `category/filename` pattern works in both README.yml files and markdown cross-references:
+
+```yaml
+# README.yml
+faqs:
+  - cra-itself/cra-expert-group
+```
+
+```markdown
+# Markdown file
+["CRA Expert Group"][cra-itself/cra-expert-group]
+```
+
 ## References
 
 1. References to the CRA should link to the relevant section of the HTML english version of the official text located on EUR-Lex: https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=OJ:L_202402847
