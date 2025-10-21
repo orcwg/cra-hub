@@ -31,5 +31,5 @@ In practice, the CRA Expert Group meets in plenary sessions 2-3 times a year. It
 You can find [an explainer on expert groups in general][explainer] on the European Commission's website.
 
 
-[landing page]: https://ec.europa.eu/transparency/expert-groups-register/screen/expert-groups/consult?lang=en&groupID=3967
+[official page]: https://ec.europa.eu/transparency/expert-groups-register/screen/expert-groups/consult?lang=en&groupID=3967
 [explainer]: https://ec.europa.eu/transparency/expert-groups-register/screen/expert-groups-explained?lang=en
