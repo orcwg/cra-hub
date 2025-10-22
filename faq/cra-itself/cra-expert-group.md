@@ -1,5 +1,5 @@
 ---
-Status: ⚠️ Draft
+Status: ✅ Approved
 ---
 
 # What is the CRA Expert Group?
