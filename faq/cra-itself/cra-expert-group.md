@@ -20,22 +20,16 @@ Open source is particularly well represented, as the following open source organ
 - OpenSSF
 - the Sovereign Tech Agency
 
-As described in [Article 9][], the CRA Expert Group is consulted by the European Commission as it:
+As described in [[Article 9]], the CRA Expert Group is consulted by the European Commission as it:
 
-- prepares Guidance as described in [Article 26][],
-- prepares the technical descriptions of the important and critical product categories described in [Article 7][] and [Article 8][], and listed in [Annex III][] and [Annex IV][] respectively, and
+- prepares Guidance as described in [[Article 26]],
+- prepares the technical descriptions of the important and critical product categories described in [[Article 7]] and [[Article 8]], and listed in [[Annex III]] and [[Annex IV]] respectively, and
 - undertakes preparatory work for the evaluation and review of the CRA.
 
 In practice, the CRA Expert Group meets in plenary sessions 2-3 times a year. It has multiple work strands on specific topics, including one on open source, which meet on an _ad-hoc_ basis. The agenda and minutes of the plenary sessions are public and are available on the [CRA Expert Group's offical page][official page]. Draft regulation and guidance shared with the CRA Expert Group may not be shared publicly until it is officially published.
 
 You can find [an explainer on expert groups in general][explainer] on the European Commission's website.
 
-[Article 7]: https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=OJ:L_202402847#art_7
-[Article 8]: https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=OJ:L_202402847#art_8
-[Article 9]: https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=OJ:L_202402847#art_9
-[Article 26]: https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=OJ:L_202402847#art_26
-[Annex III]: https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=OJ:L_202402847#anx_III
-[Annex IV]: https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=OJ:L_202402847#anx_IV
 
 [official page]: https://ec.europa.eu/transparency/expert-groups-register/screen/expert-groups/consult?lang=en&groupID=3967
 [explainer]: https://ec.europa.eu/transparency/expert-groups-register/screen/expert-groups-explained?lang=en

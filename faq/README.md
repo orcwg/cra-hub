@@ -111,10 +111,42 @@ Related issue: [URL]
 [LINKS]
 ```
 
+
+
 ## References
 
-1. References to the CRA should link to the relevant section of the HTML english version of the official text located on EUR-Lex: https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=OJ:L_202402847
-2. Reference to other EU legal texts should link to their landing page on EUR-Lex, for example: https://eur-lex.europa.eu/eli/reg/2019/2144/oj
+### Cross-References
+
+To reference FAQs, just use relative links as you normally would so:
+
+**Examples:**
+```markdown
+["FAQ Title"](../category/faq.md)
+["FAQ Title"](./same-category-faq.md)
+```
+
+### Auto-linking to CRA articles, recitals, and annexes
+
+Use double-bracket notation to auto-link to CRA articles, recitals, and annexes:
+
+```markdown
+[[Article 24]]
+[[Article 3(14)]]
+[[Recital 19]]
+[[Annex III]]
+```
+
+**Examples:**
+```markdown
+As described in [[Article 9]], the Expert Group provides guidance.
+Stewards are defined in [[Article 3(14)]] as legal persons.
+See [[Recital 19]] for additional context on commercial activities.
+```
+
+### External References
+
+1. References to other EU legal texts should link to their landing page on EUR-Lex, for example: https://eur-lex.europa.eu/eli/reg/2019/2144/oj
+2. Use standard reference-style links for all other external references
 
 
 [reference style links]: https://www.markdownguide.org/basic-syntax/#reference-style-links

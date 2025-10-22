@@ -11,7 +11,7 @@ Confirmation that _legal persons_ do not include _natural persons_ in the contex
 
 ## Background
 
-[Article 3(14)][] states that an _open-source software steward_ must be a _legal person_. The term "legal person" has different meanings depending on context and jurisdiction, including within the EU itself.
+[[Article 3(14)]] states that an _open-source software steward_ must be a _legal person_. The term "legal person" has different meanings depending on context and jurisdiction, including within the EU itself.
 
 ## Why this matters
 
@@ -23,4 +23,3 @@ This distinction is crucial for determining:
 
 This guidance affects multiple FAQ answers about who can be considered an open-source software steward under the CRA.
 
-[Article 3(14)]: https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=OJ:L_202402847#art_3
