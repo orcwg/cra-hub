@@ -15,10 +15,10 @@ The CRA Expert Group is a consultative body set up by the European Commission to
 
 Open source is particularly well represented, as the following open source organizations are members:
 
-- the Apache Software Foundation
-- the Eclipse Foundation
-- OpenSSF
-- the Sovereign Tech Agency
+- the Apache Software Foundation,
+- the Eclipse Foundation,
+- OpenSSF, and
+- the Sovereign Tech Agency.
 
 As described in [[Article 9]], the CRA Expert Group is consulted by the European Commission as it:
 
