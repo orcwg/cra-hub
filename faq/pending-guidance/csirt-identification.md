@@ -1,5 +1,6 @@
 ---
 type: guidance-request
+status: 🛑 Pending Guidance
 ---
 
 # CSIRT identification for stewards
