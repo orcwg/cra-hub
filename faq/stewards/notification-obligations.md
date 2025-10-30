@@ -5,11 +5,11 @@ Related issue: https://github.com/orcwg/cra-hub/issues/159, https://github.com/o
 
 # What are the notification obligations of _open-source software stewards_?
 
-Per[[Article 24(3)]], _open-source software stewards_ are subject to a subset of the notification obligations of manufacturers defined in [[Article 14]].
+Per [[Article 24(3)]], _open-source software stewards_ are subject to a subset of the notification obligations of manufacturers defined in [[Article 14]].
 
-* If a steward is involved in the development of an open source project that it stewards, it must notify both its [relevant CSIRT][] and [ENISA][] of _any actively exploited vulnerability_ in that project ([[Article 14(1)]]).
-* If a steward provides IT infrastructure used for the development of an open source project that it stewards, it must notify its [relevant CSIRT][] and [ENISA][] of _any severe incident_ having an impact on the security of that project ([[Article 14(3)]]).
-* In both of those cases, it must inform impacted users (and where appropriate all users) of that open source project ([[Article 14(8)]]) through available channels (blog post, mailing list, direct contact when available, etc.).
+* If a steward is involved in the development of an open source project that it stewards, it must notify both its [relevant CSIRT][] and [ENISA][] of _any actively exploited vulnerability_ in that project, see [[Article 14(1)]].
+* If a steward provides IT infrastructure used for the development of an open source project that it stewards, it must notify its [relevant CSIRT][] and [ENISA][] of _any severe incident_ having an impact on the security of that project, see [[Article 14(3)]].
+* In both of those cases, it must inform impacted users (and where appropriate all users) of that open source project through available channels (blog post, mailing list, direct contact when available, etc.), see [[Article 14(8)]].
 
 The table below provides an actionable summary of those notification and infomration obligations that accounts for stewards not necessarily being aware of who their users are nor being able to reach out to them individually.
 
