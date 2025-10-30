@@ -7,7 +7,7 @@ status: 🛑 Pending Guidance
 
 ## Guidance needed
 
-Criteria for _open-source software stewards_ (and open source maintainers) to identify which CSIRT they need to notify of actively exploited vulnerabilities or severe incidents.
+Defining criteria which _open-source software stewards_ (and open source maintainers) can rely on to identify which CSIRT they need to notify of actively exploited vulnerabilities or severe incidents.
 
 ## Background
 
