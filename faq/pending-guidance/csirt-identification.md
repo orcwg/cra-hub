@@ -1,6 +1,5 @@
 ---
 type: guidance-request
-status: 🛑 Pending Guidance
 ---
 
 # CSIRT identification for stewards
@@ -19,5 +18,5 @@ Stewards (and open source maintainers) shouldn't have to struggle to identify th
 
 ## ORC WG Recommendation
 
-Providing a fallback with ENISA in case a steward (or an open source maintainer) isn't able to easily indentify their CSIRT or struggles with language barriers would be benficial to the cyber resilience of the open source ecosystem and of the European Market.
+Providing a fallback with ENISA in case a Steward (or an open source maintainer) isn't able to easily indentify their CSIRT or struggles with language barriers would be benficial to the cyber resilience of the open source ecosystem and of the European Union.
 
