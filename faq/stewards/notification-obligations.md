@@ -13,7 +13,7 @@ Per [[Article 24(3)]], _open-source software stewards_ are subject to a subset o
 
 The table below provides an actionable summary of those notification and infomration obligations that accounts for stewards not necessarily being aware of who their users are nor being able to reach out to them individually.
 
-| Steward support level | Notify vulnerabilities[^1] | Notify incidents[^2] | General announcement (Blog post, mailing list, etc.)[^3] | Message known users directly[^3] |
+| Steward support level | Notify vulnerabilities[^1] | Notify incidents[^2] | General announcement (e.g. changelog, blog post, mailing list, etc.)[^3] | Message known users directly[^3] |
 | - |:-:|:-:|:-:|:-: |
 | Provides non-technical support | N/A | N/A | N/A | N/A |
 | + provides IT infrastructure | N/A | ✅ | ✅ | N/A |
