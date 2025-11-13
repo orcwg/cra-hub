@@ -38,6 +38,7 @@ The following people have contributed to this document either directly or indire
 * Piotr P. Karwasz
 * Poul-Henning Kamp
 * Ria Schalnat
+* riQQ
 * Roman Zhukov
 * Ruth Suehle
 * Salve J. Nilsen
