@@ -1,0 +1,11 @@
+title: Remote Data Processing
+description: Understanding remote data processing and how it substantially broadens the scope of the CRA
+icon: ☁️
+faqs:
+  - basics
+  - scope
+  - out-of-scope
+  - 3rd-party
+  - in-house
+  - infra
+
