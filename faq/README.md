@@ -74,18 +74,6 @@ The filename should be a short but informative slug.
 
 All FAQ files are stored in subdirectories of the `faq` directory.
 
-There is a subdirectory for each of the following FAQ category:
-
-* [The CRA itself](./cra-itself/)
-* [Open source projects](./projects/)
-* [Maintainers](./maintainers/)
-* [Stewards](./stewards/)
-* [Manufacturers](./manufacturers/)
-* [Critical and Important Products](./critical-important-products/)
-* [Security Attestations](./attestations/)
-* [Standards](./standards/)
-* [EU legislation](./legislation/)
-
 ## Guidance Requests
 
 The `pending-guidance/` folder contains dedicated files for EU Commission guidance requests that are referenced by multiple FAQs.
@@ -121,8 +109,8 @@ To reference FAQs, just use relative links as you normally would so:
 
 **Examples:**
 ```markdown
-["FAQ Title"](../category/faq.md)
-["FAQ Title"](./same-category-faq.md)
+[FAQ Title](../category/faq.md)
+[FAQ Title](./same-category-faq.md)
 ```
 
 ### Auto-linking to CRA articles, recitals, and annexes
