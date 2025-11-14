@@ -33,6 +33,7 @@ The following people have contributed to this document either directly or indire
 * Mikaël Barbero
 * Mike Bursell
 * Nils Adermann
+* Ninn Langel
 * Olle E. Johansson
 * Pete Allor
 * Piotr P. Karwasz
