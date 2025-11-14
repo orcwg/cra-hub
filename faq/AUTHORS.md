@@ -37,6 +37,7 @@ The following people have contributed to this document either directly or indire
 * Pete Allor
 * Piotr P. Karwasz
 * Poul-Henning Kamp
+* Raphaël Gregori
 * Ria Schalnat
 * riQQ
 * Roman Zhukov
