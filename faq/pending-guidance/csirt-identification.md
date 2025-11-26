@@ -17,7 +17,5 @@ Defining criteria which _open-source software stewards_ (and open source maintai
 
 Stewards (and open source maintainers) shouldn't have to struggle to identify the right CSIRT and still be unclear about who to contact in case of an actively exploited vulnerabilities or severe incident.
 
-## ORC WG Recommendation
-
-Providing a fallback with ENISA in case a Steward (or an open source maintainer) isn't able to easily indentify their CSIRT or struggles with language barriers would be benficial to the cyber resilience of the open source ecosystem and of the European Union.
-
+> [!ORC_REC]
+> Providing a fallback with ENISA in case a Steward (or an open source maintainer) isn't able to easily indentify their CSIRT or struggles with language barriers would be benficial to the cyber resilience of the open source ecosystem and of the European Union.
