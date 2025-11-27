@@ -24,7 +24,7 @@ The following people have contributed to this document either directly or indire
 * Jordan Maris
 * Juan Rico
 * Lars Francke
-* libremente
+* Leonardo Favario
 * Luis Villa
 * Maarten Aertsen
 * Marta Rybczynska
