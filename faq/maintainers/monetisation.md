@@ -5,7 +5,7 @@ Related issue: https://github.com/orcwg/cra-hub/issues/133
 
 # Am I subject to the CRA if I maintain and monetise an open source project?
 
-If you are the maintainer of an open source codebase, and you do monetize it, then the CRA may apply to you, since you may be participating in a "commercial activity". 
+If you are the maintainer of an open source codebase, and you do monetise it, then the CRA may apply to you, since you may be participating in a "commercial activity". 
 
 However, there are at least two significant exceptions that may allow you to take money for your work without being subject to the CRA.
 
