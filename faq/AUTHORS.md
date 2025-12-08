@@ -11,6 +11,7 @@ The following people have contributed to this document either directly or indire
 * Christopher "CRob" Robinson
 * Daniel Appelquist
 * Daniel Stenberg
+* Daniel Thompson-Yvetot
 * Dick Brooks
 * Dirk-Willem van Gulik
 * Felix Reda
