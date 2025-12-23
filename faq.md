@@ -47,15 +47,15 @@ See [FAQ README][].
 ### Open source projects
 
 * [What criteria determine whether an open source project is in scope of the CRA?](https://cra.orcwg.org/faq/projects/scope/) <a name="q-what-criteria-determine-whether-an-open-source-project-is-in-scope-of-the-cra"></a><a name="faq-tmp-124"></a>
-* [What does "Monetizing without making a profit" mean?](https://cra.orcwg.org/faq/projects/monetizing/) <a name="q-what-is-monetizing"></a><a name="faq-tmp-33"></a>
+* [What does "Monetizing without making a profit" mean?](https://cra.orcwg.org/faq/projects/monetising/) <a name="q-what-is-monetising"></a><a name="faq-tmp-33"></a>
 * [Is distributing binaries or container images of an open source project considered as making it available on the market?](https://cra.orcwg.org/faq/projects/binaries/) <a name="q-is-distributing-binaries-or-container-images-of-an-open-source-project-considered-as-making-it-available-on-the-market"></a><a name="faq-tmp-157"></a>
 
 ### Maintainers
 
 * [I am worried about how the CRA might impact me, and so I am considering shutting down my open source projects. Should I do that?](https://cra.orcwg.org/faq/maintainers/should-i-worry/) <a name="q-should-i-worry-about-the-CRA"></a><a name="faq-tmp-133a"></a>
 * [Am I subject to the CRA if I only contribute to an open source project?](https://cra.orcwg.org/faq/maintainers/contributors/) <a name="q-am-i-subject-to-the-cra-if-i-only-contribute-to-an-open-source-project"></a><a name="faq-tmp-17"></a>
-* [Am I subject to the CRA if I maintain, but do not monetize, an open source project?](https://cra.orcwg.org/faq/maintainers/no-monetization/) <a name="q-am-I-subject-if-I-dont-monetise"></a><a name="faq-tmp-133b"></a>
-* [Am I subject to the CRA if I maintain and monetise an open source project?](https://cra.orcwg.org/faq/maintainers/monetization/) <a name="q-am-I-subject-if-I-do-monetise"></a><a name="faq-tmp-133c"></a>
+* [Am I subject to the CRA if I maintain, but do not monetise, an open source project?](https://cra.orcwg.org/faq/maintainers/no-monetisation/) <a name="q-am-I-subject-if-I-dont-monetise"></a><a name="faq-tmp-133b"></a>
+* [Am I subject to the CRA if I maintain and monetise an open source project?](https://cra.orcwg.org/faq/maintainers/monetisation/) <a name="q-am-I-subject-if-I-do-monetise"></a><a name="faq-tmp-133c"></a>
 * [If I maintain an open source codebase, and am treated as a "manufacturer" or "steward", what penalties could I face for violating the CRA?](https://cra.orcwg.org/faq/maintainers/penalties/) <a name="q-what-penalties"></a><a name="faq-tmp-133d"></a>
 * [I am NOT subject to the CRA, and want to make this clear to downstream users. What should I say?](https://cra.orcwg.org/faq/maintainers/transparency/) <a name="faq-tmp-70"></a>
 * [Can a solo maintainer be considered to be an _open-source software steward_?](https://cra.orcwg.org/faq/maintainers/solo-maintainer-steward/) <a name="q-can-an-solo-maintainer-be-considered-to-be-an-open-source-software-steward"></a><a name="faq-tmp-1"></a>
