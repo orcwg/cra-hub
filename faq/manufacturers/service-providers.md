@@ -1,6 +1,5 @@
 ---
 Status: ✅ Approved
-label: manufacturers
 Related issue: https://github.com/orcwg/cra-hub/issues/19
 ---
 
