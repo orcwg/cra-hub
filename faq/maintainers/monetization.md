@@ -1,15 +1,17 @@
 ---
-Status: ⚠️ Draft
-Related issue: https://github.com/orcwg/cra-hub/issues/133
+Status: ✅ Approved
+Related issue:
+  - https://github.com/orcwg/cra-hub/issues/133
+  - https://github.com/orcwg/cra-hub/issues/16
+guidance-id: open-source-guidance
 ---
 
-# Am I subject to the CRA if I maintain and monetise an open source project?
+# Am I subject to the CRA if I earn a living from the open source project I maintain?
 
-If you are the maintainer of an open source codebase, and you do monetize it, then the CRA may apply to you, since you may be participating in a "commercial activity". 
+No. If your revenue only covers your actual costs—including a reasonable salary or [living expenses][]—then you are not considered to be monetising the project, and you would not be subject to the CRA on that basis. See [[cra-itself/actual-costs]] for more details on what counts as actual costs.
 
-However, there are at least two significant exceptions that may allow you to take money for your work without being subject to the CRA.
+However, if you are making a profit (revenue exceeding your costs), this likely indicates you are monetising the project. See [[cra-itself/monetisation]] for what constitutes monetisation under the CRA. In that case, you would be considered a manufacturer for the software you monetise, with corresponding obligations under [[Article 13]].
 
-- If you monetise your software only by accepting donations that cover the "costs associated with the design, development, and provision" of the product, then the CRA says your participation is not a "commercial activity" and so it does not regulate you or your codebase. (See [[Recital 15]] for more details.)
-- If you monetise your software by charging for a security attestation programme, that may also not be a "commercial activity" for purposes of the regulation. The exact nature of that exemption is still to be determined. (See [[Recital 21]] for more details.)
+Even in the monetisation scenario, your manufacturer obligations apply only to the monetised version. For example, if you offer both a paid "enterprise" version and a free "community" version, you would be a manufacturer only for the enterprise version. The community version would remain outside the CRA's scope provided you are an indivual and not an organization (see [[maintainers/solo-maintainer-steward]] for more on this distinction).
 
-
+[living expenses]: ./living-expenses.md
