@@ -1,6 +1,7 @@
 ---
 Status: ✅ Approved
 Related issue: https://github.com/orcwg/cra-hub/issues/33
+guidance-id: open-source-guidance
 ---
 
 # Does providing technical support for a fee put you in scope of the CRA?

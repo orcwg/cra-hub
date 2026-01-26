@@ -1,6 +1,7 @@
 ---
 Status: ✅ Approved
 Related issue: https://github.com/orcwg/cra-hub/issues/33
+guidance-id: open-source-guidance
 ---
 
 # What does 'make a profit' mean under the CRA?

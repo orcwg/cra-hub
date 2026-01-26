@@ -1,6 +1,7 @@
 ---
 Status: ✅ Approved
 Related issue: https://github.com/orcwg/cra-hub/issues/33
+guidance-id: open-source-guidance
 ---
 
 # Can a natural person's living expenses count as 'costs' or is that profit?
