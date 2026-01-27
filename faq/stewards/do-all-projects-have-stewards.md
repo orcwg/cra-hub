@@ -1,5 +1,5 @@
 ---
-Status: ⚠️ Draft
+Status: ✅ Approved
 Related issue: https://github.com/orcwg/cra-hub/issues/170
 ---
 
