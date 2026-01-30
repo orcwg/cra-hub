@@ -11,7 +11,7 @@ First, the CRA likely does not apply to you.
 
 - If you're just a contributor, the CRA explicitly exempts you. For more detail, see [[maintainers/contributors]]
 - If you're a maintainer, and you _do not_ "monetise" your FOSS codebase, the CRA explicitly exempts you. For more detail, see [[maintainers/no-monetization]]
-- If you're a maintainer, and you _do_ monetise your FOSS codebase, you may still be exempted, depending on exactly how you are monetizing the codebase and your participation in it. For more detail, see [[maintainers/monetization]]
+- If you're a maintainer, and you _do_ generate revenue from your FOSS codebase, you may still be exempted, depending on exactly how you are monetizing the codebase and your participation in it. For more detail, see [[maintainers/monetization]]
 
 Second, even if the CRA does ultimately apply to you, penalties for solo and small-team maintainers are unlikely to be severe. For more detail, see [[maintainers/penalties]]
 
