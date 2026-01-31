@@ -27,7 +27,7 @@ Example:
 ---
 Status: ⚠️ Draft
 guidance-id: legal-person-definition
-Related issue: https://github.com/...
+Related issues: https://github.com/...
 ---
 ```
 
@@ -87,7 +87,7 @@ Please use [reference style links][].
 ```md
 ---
 Status: [ICON] [MATURITY_LEVEL]
-Related issue: [URL]
+Related issues: [URL]
 ---
 
 # [QUESTION]

@@ -1,8 +1,6 @@
 ---
 Status: ✅ Approved
-Related issue:
-  - https://github.com/orcwg/cra-hub/issues/133
-  - https://github.com/orcwg/cra-hub/issues/16
+Related issues: https://github.com/orcwg/cra-hub/issues/133, https://github.com/orcwg/cra-hub/issues/16
 guidance-id: open-source-guidance
 ---
 

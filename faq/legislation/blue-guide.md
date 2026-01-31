@@ -1,6 +1,6 @@
 ---
 Status: ⚠️ Draft
-Related issue: https://github.com/orcwg/cra-hub/issues/4
+Related issues: https://github.com/orcwg/cra-hub/issues/4
 ---
 
 # What is the _Blue Guide_?

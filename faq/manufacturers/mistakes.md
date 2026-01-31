@@ -1,6 +1,6 @@
 ---
 Status: ✅ Approved
-Related issue: https://github.com/orcwg/cra-hub/issues/84
+Related issues: https://github.com/orcwg/cra-hub/issues/84
 ---
 
 # As a _manufacturer_, if I make a mistake or a security flaw is found in my project, will I get in trouble?

@@ -1,6 +1,6 @@
 ---
 Status: ⚠️ Draft
-Related issue: https://github.com/orcwg/cra-hub/issues/127
+Related issues: https://github.com/orcwg/cra-hub/issues/127
 ---
 
 # What is an _open-source software steward_?

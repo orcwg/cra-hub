@@ -1,6 +1,6 @@
 ---
 Status: ✅ Approved
-Related issue: https://github.com/orcwg/cra-hub/issues/133
+Related issues: https://github.com/orcwg/cra-hub/issues/133
 ---
 
 # I am worried about how the CRA might impact me, and so I am considering shutting down my open source projects. Should I do that?

@@ -1,6 +1,6 @@
 ---
 Status: ✅ Approved
-Related issue: https://github.com/orcwg/cra-hub/issues/19
+Related issues: https://github.com/orcwg/cra-hub/issues/19
 ---
 
 # Is a company considered a manufacturer if it funds the development and maintenance of an open source project that is not under their responsibility?

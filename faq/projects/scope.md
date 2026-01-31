@@ -1,6 +1,6 @@
 ---
 Status: ⚠️ Draft
-Related issue: https://github.com/orcwg/cra-hub/issues/124
+Related issues: https://github.com/orcwg/cra-hub/issues/124
 ---
 
 # What criteria determine whether an open source project is in scope of the CRA?

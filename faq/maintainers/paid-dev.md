@@ -1,6 +1,6 @@
 ---
 Status: ✅ Approved
-Related issue: https://github.com/orcwg/cra-hub/issues/16
+Related issues: https://github.com/orcwg/cra-hub/issues/16
 ---
 
 # Can I get paid to develop an open source project without being considered a manufacturer?

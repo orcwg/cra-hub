@@ -1,6 +1,6 @@
 ---
 Status: ✅ Approved
-Related issue: https://github.com/orcwg/cra-hub/issues/19
+Related issues: https://github.com/orcwg/cra-hub/issues/19
 ---
 
 # Does getting paid for open source software development make you a manufacturer?

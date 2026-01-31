@@ -1,6 +1,6 @@
 ---
 Status: ✅ Approved
-Related issue: https://github.com/orcwg/cra-hub/issues/64
+Related issues: https://github.com/orcwg/cra-hub/issues/64
 ---
 
 # Does receiving grants make me a manufacturer?

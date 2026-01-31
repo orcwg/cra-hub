@@ -1,6 +1,6 @@
 ---
 Status: ✅ Approved
-Related issue: https://github.com/orcwg/cra-hub/issues/11
+Related issues: https://github.com/orcwg/cra-hub/issues/11
 ---
 
 # Will open source stewards be expected to provide an SBOM?

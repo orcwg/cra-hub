@@ -1,6 +1,6 @@
 ---
 Status: ✅ Approved
-Related issue: https://github.com/orcwg/cra-hub/issues/33
+Related issues: https://github.com/orcwg/cra-hub/issues/33
 ---
 
 # If a non-profit receives donations to pay developers, is there an 'intention to monetise'?

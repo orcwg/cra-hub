@@ -1,7 +1,7 @@
 ---
 Status: ✅ Approved
 guidance-id: legal-person-definition
-Related issue: https://github.com/orcwg/cra-hub/issues/1
+Related issues: https://github.com/orcwg/cra-hub/issues/1
 ---
 
 # Can a solo maintainer be considered to be an _open-source software steward_?

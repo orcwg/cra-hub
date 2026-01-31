@@ -1,6 +1,6 @@
 ---
 Status: ✅ Approved
-Related issue: https://github.com/orcwg/cra-hub/issues/11
+Related issues: https://github.com/orcwg/cra-hub/issues/11
 ---
 
 # What technical documentation is expected from an open source steward?

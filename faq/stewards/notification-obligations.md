@@ -1,6 +1,6 @@
 ---
 Status: ⚠️ Draft
-Related issue: https://github.com/orcwg/cra-hub/issues/159, https://github.com/orcwg/cra-hub/issues/185
+Related issues: https://github.com/orcwg/cra-hub/issues/159, https://github.com/orcwg/cra-hub/issues/185
 ---
 
 # What are the notification obligations of _open-source software stewards_?

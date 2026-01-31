@@ -1,6 +1,6 @@
 ---
 Status: ✅ Approved
-Related issue: https://github.com/orcwg/cra-hub/issues/2
+Related issues: https://github.com/orcwg/cra-hub/issues/2
 ---
 
 # What kinds of products are regulated by the CRA?

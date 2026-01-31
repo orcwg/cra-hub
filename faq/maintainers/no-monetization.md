@@ -1,6 +1,6 @@
 ---
 Status: ⚠️ Draft
-Related issue: https://github.com/orcwg/cra-hub/issues/133
+Related issues: https://github.com/orcwg/cra-hub/issues/133
 ---
 
 # Am I subject to the CRA if I maintain, but do not monetize, an open source project?

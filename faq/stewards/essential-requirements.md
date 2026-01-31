@@ -1,6 +1,6 @@
 ---
 Status: ✅ Approved
-Related issue: https://github.com/orcwg/cra-hub/issues/11
+Related issues: https://github.com/orcwg/cra-hub/issues/11
 ---
 
 # Which of the essential requirements described in Annex I, if any, are in scope for the 'light-touch and tailor-made regulatory regime' of stewards?

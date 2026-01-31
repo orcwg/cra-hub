@@ -1,6 +1,6 @@
 ---
 Status: ✅ Approved
-Related issue: https://github.com/orcwg/cra-hub/issues/34
+Related issues: https://github.com/orcwg/cra-hub/issues/34
 ---
 
 # What is the 'CE mark' and do I need to add it to my software?

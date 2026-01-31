@@ -1,6 +1,6 @@
 ---
 Status: ✅ Approved
-Related issue: https://github.com/orcwg/cra-hub/issues/21
+Related issues: https://github.com/orcwg/cra-hub/issues/21
 ---
 
 # What's the difference between a manufacturer and a steward in the context of open source?

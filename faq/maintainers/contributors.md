@@ -1,6 +1,6 @@
 ---
 Status: ✅ Approved
-Related issue: https://github.com/orcwg/cra-hub/issues/17
+Related issues: https://github.com/orcwg/cra-hub/issues/17
 ---
 
 # Am I subject to the CRA if I only contribute to an open source project?

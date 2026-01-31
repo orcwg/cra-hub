@@ -1,6 +1,6 @@
 ---
 Status: ✅ Approved
-Related issue: https://github.com/orcwg/cra-hub/issues/33
+Related issues: https://github.com/orcwg/cra-hub/issues/33
 ---
 
 # What does 'intention to monetise' mean under the CRA?

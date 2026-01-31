@@ -1,6 +1,6 @@
 ---
 Status: ✅ Approved
-Related issue: https://github.com/orcwg/cra-hub/issues/254
+Related issues: https://github.com/orcwg/cra-hub/issues/254
 ---
 
 # What happens to freeware (non-FOSS, free-of-charge) projects under the CRA?

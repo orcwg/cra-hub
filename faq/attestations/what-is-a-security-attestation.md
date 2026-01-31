@@ -1,6 +1,6 @@
 ---
 Status: ⚠️ Draft
-Related issue: https://github.com/orcwg/cra-hub/issues/72
+Related issues: https://github.com/orcwg/cra-hub/issues/72
 ---
 
 # What is a _security attestation_ in the CRA?
