@@ -1,6 +1,6 @@
 ---
 Status: ✅ Approved
-Related issue: https://github.com/orcwg/cra-hub/issues/254
+Related issues: https://github.com/orcwg/cra-hub/issues/254
 ---
 
 # What should open source maintainers who are monetizing their projects expect in terms of enforcement style and corrective actions from market surveillance authorities?
