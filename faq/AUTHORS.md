@@ -10,7 +10,7 @@ The following people have contributed to this document either directly or indire
 * Andrei Mungiu
 * andrzej-piotrowski-pl
 * BANANAS1337
-* Bastien
+* Bastien Guerry
 * Chris Jenkins
 * Christopher "CRob" Robinson
 * Daniel Appelquist
