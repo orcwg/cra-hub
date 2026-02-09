@@ -5,7 +5,7 @@ Related issues: https://github.com/orcwg/cra-hub/issues/254
 
 # What should open source maintainers who are monetizing their projects expect in terms of enforcement style and corrective actions from market surveillance authorities?
 
-Monetizing open source maintainers should expect low-intensity, corrective-first enforcement focused on fixing concrete issues rather than penalties, unless their software creates clear cybersecurity risk at scale.
+Monetizing open source maintainers should expect low-intensity, corrective-first enforcement focused on fixing concrete issues rather than penalties, unless their software causes clear cybersecurity risk at scale.
 
 Authorities are likely to engage only where the maintainer's activities look commercial in practice—for example, paid support, hosted services, enterprise features, or control over releases—not where individuals contribute code without market control. For more on what constitutes monetization that triggers [[manufacturers/what-is-a-manufacturer]], see [[maintainers/monetization]].
 
