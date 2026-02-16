@@ -1,6 +1,6 @@
 ---
 Status: ⚠️ Draft
-Related issue: https://github.com/orcwg/cra-hub/issues/237
+Related issues: https://github.com/orcwg/cra-hub/issues/237
 ---
 
 # Does a product which includes an open source component belonging to the category of important products (Annex III) inherit that category?

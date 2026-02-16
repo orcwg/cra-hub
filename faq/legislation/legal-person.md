@@ -1,7 +1,7 @@
 ---
 Status: ⚠️ Draft
 guidance-id: legal-person-definition
-Related issue: https://github.com/orcwg/cra-hub/issues/55
+Related issues: https://github.com/orcwg/cra-hub/issues/55
 ---
 
 # What is a _legal person_?

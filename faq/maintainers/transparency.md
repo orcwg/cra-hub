@@ -1,6 +1,6 @@
 ---
 Status: ⚠️ Draft
-Related issue: https://github.com/orcwg/cra-hub/issues/70
+Related issues: https://github.com/orcwg/cra-hub/issues/70
 ---
 
 # I am NOT subject to the CRA, and want to make this clear to downstream users. What should I say

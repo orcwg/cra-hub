@@ -1,7 +1,7 @@
 ---
 Status: ⚠️ Draft
 guidance-id: manufacturer-steward-dual-role
-Related issue: https://github.com/orcwg/cra-hub/issues/30
+Related issues: https://github.com/orcwg/cra-hub/issues/30
 ---
 
 # Can a _manufacturer_ also be an _open-source software steward_?

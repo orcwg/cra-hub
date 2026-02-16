@@ -1,6 +1,6 @@
 ---
 Status: ⚠️ Draft
-Related issue: https://github.com/orcwg/cra-hub/issues/157
+Related issues: https://github.com/orcwg/cra-hub/issues/157
 ---
 
 # Is distributing binaries or container images of an open source project considered as making it available on the market?

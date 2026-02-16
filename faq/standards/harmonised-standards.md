@@ -1,6 +1,6 @@
 ---
 Status: ⚠️ Draft
-Related issue: https://github.com/orcwg/cra-hub/issues/56
+Related issues: https://github.com/orcwg/cra-hub/issues/56
 ---
 
 # What is a _harmonised standard_ and why does it matter?

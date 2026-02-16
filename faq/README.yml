@@ -1,0 +1,17 @@
+title: FAQ Categories
+icon: 📚
+description: Browse FAQs by category
+faqs:
+  - cra-itself
+  - contributors
+  - maintainers
+  - projects
+  - stewards
+  - manufacturers
+  - remote-processing
+  - standards
+  - important-and-critical-products
+  - vulnerability-handling
+  - due-diligence
+  - attestations
+  - legislation

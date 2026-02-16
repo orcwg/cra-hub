@@ -1,7 +1,7 @@
 ---
 Status: ⚠️ Draft
 guidance-id: legal-person-definition
-Related issue: https://github.com/orcwg/cra-hub/issues/15
+Related issues: https://github.com/orcwg/cra-hub/issues/15
 ---
 
 # Can a loosely organized group of maintainers be considered to be an _open-source software steward_?

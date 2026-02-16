@@ -1,6 +1,6 @@
 ---
 Status: ⚠️ Draft
-Related issue: https://github.com/orcwg/cra-hub/issues/59
+Related issues: https://github.com/orcwg/cra-hub/issues/59
 ---
 
 # What is a _manufacturer_?

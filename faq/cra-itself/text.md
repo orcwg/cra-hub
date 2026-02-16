@@ -1,6 +1,6 @@
 ---
 Status: ✅ Approved
-Related issue: https://github.com/orcwg/cra-hub/issues/155
+Related issues: https://github.com/orcwg/cra-hub/issues/155
 ---
 
 # Where is the official text of the CRA?

@@ -1,6 +1,6 @@
 ---
 Status: ⚠️ Draft
-Related issue: https://github.com/orcwg/cra-hub/issues/33
+Related issues: https://github.com/orcwg/cra-hub/issues/33
 ---
 
 # What does "Monetizing without making a profit" mean?
