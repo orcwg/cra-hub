@@ -7,7 +7,7 @@ Related issues: https://github.com/orcwg/cra-hub/issues/254
 
 Monetizing open source maintainers should expect low-intensity, corrective-first enforcement focused on fixing concrete issues rather than penalties, unless their software causes clear cybersecurity risk at scale.
 
-Authorities are likely to engage only where the maintainer's activities look commercial in practice—for example, paid support, hosted services, enterprise features, or control over releases—not where individuals contribute code without market control. For more on what constitutes monetization that triggers [[manufacturers/what-is-a-manufacturer]], see [[maintainers/monetization]].
+Authorities are likely to engage only where the maintainer's activities look commercial in practice—for example, paid support, hosted services, enterprise features, or control over releases—not where individuals contribute code without market control. For more on what constitutes monetization that triggers [manufacturer status](../manufacturers/what-is-a-manufacturer.md), see [[maintainers/monetization]].
 
 Based on patterns seen under GDPR enforcement, authorities will initially be reactive, responding to complaints, incidents, or known vulnerabilities. Typical actions will be requests to remediate—patching vulnerabilities, improving default security settings, or clarifying responsibilities—rather than immediate fines. All penalties must be _"effective, proportionate and dissuasive"_ ([[Article 64]]; [[Recital 120]]).
 
