@@ -95,6 +95,15 @@ See [FAQ README][].
 * [What is the _New Legislative Framework_ (NLF)?](https://cra.orcwg.org/faq/legislation/nlf/) <a name="q-what-is-the-new-legislative-framework-nlf"></a><a name="faq-tmp-57"></a> 
 * [What is a _legal person_?](https://cra.orcwg.org/faq/legislation/legal-person/) <a name="q-what-is-a-legal-person"></a><a name="faq-tmp-55"></a>
 
+### Artificial Intelligence and AI agents
+
+* [Does the CRA apply to AI systems and AI agents?](https://cra.orcwg.org/faq/artificial-intelligence/cra-applies-to-ai/) <a name="q-does-the-cra-apply-to-ai-systems-and-ai-agents"></a>
+* [My software embeds an AI model or LLM — is it a product with digital elements?](https://cra.orcwg.org/faq/artificial-intelligence/ai-model-embedded/) <a name="q-does-embedding-an-ai-model-make-my-software-a-product-with-digital-elements"></a>
+* [Is a hosted AI agent or MCP-style tool server in scope, or an out-of-scope cloud service?](https://cra.orcwg.org/faq/artificial-intelligence/hosted-agent-or-cloud/) <a name="q-is-a-hosted-ai-agent-or-tool-server-in-scope-or-an-out-of-scope-cloud-service"></a>
+* [My product is also a high-risk AI system under the AI Act — do I need two separate conformity assessments?](https://cra.orcwg.org/faq/artificial-intelligence/ai-act-conformity/) <a name="q-do-i-need-two-conformity-assessments-for-a-high-risk-ai-product"></a>
+* [What does the CRA require me to log for an AI system, and do the logs need to be tamper-proof?](https://cra.orcwg.org/faq/artificial-intelligence/ai-logging-integrity/) <a name="q-what-does-the-cra-require-me-to-log-and-must-logs-be-tamper-proof"></a>
+* [I maintain an open-source AI-agent framework but do not monetise it — am I in scope?](https://cra.orcwg.org/faq/artificial-intelligence/open-source-ai-framework/) <a name="q-am-i-in-scope-if-i-maintain-an-unmonetised-open-source-ai-agent-framework"></a>
+
 ## Acknowledgments
 
 See [AUTHORS.md][].
