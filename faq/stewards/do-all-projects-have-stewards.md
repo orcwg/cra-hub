@@ -1,6 +1,6 @@
 ---
 Status: ✅ Approved
-Related issues: https://github.com/orcwg/cra-hub/issues/170
+Related issues: https://github.com/orcwg/cra-hub/issues/170, https://github.com/orcwg/cra-hub/issues/150
 ---
 
 # Do all open source projects have an _open-source software steward_?
