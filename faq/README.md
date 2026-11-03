@@ -131,10 +131,48 @@ Stewards are defined in [[Article 3(14)]] as legal persons.
 See [[Recital 19]] for additional context on commercial activities.
 ```
 
+### Auto-linking to other EU legal texts
+
+Prefix the reference with the number of the act to link to an article, recital, or annex of another EU legal text:
+
+```markdown
+[[2022/2555 Article 12(1)]]
+[[2024/2853 Recital 15]]
+```
+
+The best-known texts can also be referenced by a short key: `CRA`, `PLD`, `NIS2`, `DORA`, and `AI-ACT`.
+
+```markdown
+[[NIS2 Article 12(1)]]
+[[PLD Recital 15]]
+[[AI-ACT Annex III]]
+```
+
+Both forms render as "Article 12(1) of the NIS 2 Directive". The act must be listed in [the website's index of EU legal texts][eu-reg]; to add one, or give it a short key, open a pull request there.
+
+### Auto-linking to the Commission's CRA guidance
+
+Prefix the reference with `CRA-GUIDANCE` to link to a section, point, example, or figure of the [Commission's guidance on the application of the CRA][official guidance]:
+
+```markdown
+[[CRA-GUIDANCE Section 3.2.4]]
+[[CRA-GUIDANCE point 71]]
+[[CRA-GUIDANCE Example 1]]
+[[CRA-GUIDANCE Figure 1]]
+```
+
+**Example:**
+```markdown
+Donations that exceed actual costs indicate monetisation ([[CRA-GUIDANCE Section 3.2.4]]).
+```
+
 ### External References
 
-1. References to other EU legal texts should link to their landing page on EUR-Lex, for example: https://eur-lex.europa.eu/eli/reg/2019/2144/oj
+1. References to an EU legal text as a whole should link to its landing page on EUR-Lex, for example: https://eur-lex.europa.eu/eli/reg/2019/2144/oj
 2. Use standard reference-style links for all other external references
+
+[eu-reg]: https://github.com/orcwg/cra.orcwg.org/blob/main/src/_data/eu-reg.json
+[official guidance]: https://cra.orcwg.org/official-guidance/
 
 
 [reference style links]: https://www.markdownguide.org/basic-syntax/#reference-style-links
