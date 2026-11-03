@@ -6,7 +6,7 @@ guidance-id: open-source-guidance
 
 # Am I subject to the CRA if I earn a living from the open source project I maintain?
 
-No, earning a living from the open source project you maintain does not put you under the CRA, as long as what you earn only covers your actual costs, and those include a reasonable salary or [living expenses][] ([[CRA Recital 15]], [[CRA-GUIDANCE point 58]], [[CRA-GUIDANCE point 61]]). See [[cra-itself/actual-costs]] for what counts.
+Not as long as what you earn from the project only covers your actual costs, which include a reasonable salary or [living expenses][] ([[CRA Recital 15]], [[CRA-GUIDANCE point 58]], [[CRA-GUIDANCE point 61]]). See [[cra-itself/actual-costs]] for what counts.
 
 Beyond that, it depends on how you earn it:
 
