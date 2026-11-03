@@ -9,9 +9,8 @@ Reply to their requests, stating the following:
 
 ```
 - On the basis of [[Recital 18]] of the Cyber Resilience Act, I do not fall within the scope of the regulation, and cannot be considered as a Manufacturer or an Open source software steward under the Cyber Resilience Act.
-- On the basis of [Recital 15 of the Product Liability Directive][PLD Recital 15], I cannot be held liable for your use of my code.
+- On the basis of [[PLD Recital 15]], I cannot be held liable for your use of my code.
 - **While I don't have obligations towards you, you may have some towards me:**
 	- On the basis of [[Article 13(6)]] the Cyber Resilience Act, if you believe you have found a security flaw in this code, you are responsible for reporting it by following the vulnerability disclosure process here: << project link >>. You are also responsible for fixing it within your product and providing the fix upstream.
 ```
 
-[PLD Recital 15]: https://eur-lex.europa.eu/eli/dir/2024/2853#rct_15
