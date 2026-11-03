@@ -6,10 +6,10 @@ guidance-id: open-source-guidance
 
 # Can you be a steward of your own codebase or only someone else's?
 
-Yes, you can be an open-source software steward of your own codebase or someone else's.
+Yes, you can be an open-source software steward of your own codebase or of someone else's.
 
-Ownership or authorship of the code is not a determining factor for stewardship under the CRA. What matters is whether a legal person systematically provides support on a sustained basis for the development of specific free and open-source software intended for commercial activities, and ensures the viability of that software, as defined in [[CRA Article 3(14)]] ([[CRA-GUIDANCE point 70]]).
+Who owns or wrote the code does not decide stewardship under the CRA. What matters is whether a company or foundation (a legal person) systematically provides sustained support for the development of specific free and open-source software intended for commercial activities, and ensures its viability, as defined in [[CRA Article 3(14)]] ([[CRA-GUIDANCE point 70]]).
 
-For example, a company that develops open source software for integration into its own products, then publishes it separately without placing it on the market, can be the steward of that software ([[CRA-GUIDANCE point 76]], [[CRA-GUIDANCE Example 29]]). Similarly, a foundation can be a steward for projects it hosts and supports, regardless of whether foundation staff originally authored the code ([[CRA-GUIDANCE point 78]]).
+For example, a company that develops open source software for its own products, then publishes it separately without selling it, can be the steward of that software ([[CRA-GUIDANCE point 76]], [[CRA-GUIDANCE Example 29]]). Likewise, a foundation can be the steward of projects it hosts and supports, whether or not foundation staff wrote the code ([[CRA-GUIDANCE point 78]]).
 
-A legal person can even be a manufacturer for one version of software (such as a paid edition) while simultaneously being a steward for another version (such as a community edition) of the same project ([[CRA-GUIDANCE point 73]], [[CRA-GUIDANCE point 76]]). See [[manufacturers/both-manufacturer-and-steward]] for more details on this scenario.
+A company can even be the manufacturer of one version of the software (such as a paid edition) and at the same time the steward of another version (such as a community edition) of the same project ([[CRA-GUIDANCE point 73]], [[CRA-GUIDANCE point 76]]). See [[manufacturers/both-manufacturer-and-steward]] for more on this scenario.
