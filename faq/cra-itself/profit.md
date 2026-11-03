@@ -6,13 +6,11 @@ guidance-id: open-source-guidance
 
 # What does 'make a profit' mean under the CRA?
 
-Under the CRA, 'making a profit' means earning more money than your actual costs. The distinction matters because accepting donations, or charging for services, without the intention of making a profit is not a commercial activity ([[CRA Recital 15]], [[CRA-GUIDANCE point 61]]).
+Under the CRA, 'making a profit' means earning more money than actual costs. This distinction is important because accepting donations or charging for services without the intention of making a profit is not considered a commercial activity ([[CRA Recital 15]], [[CRA-GUIDANCE point 61]]).
 
-What counts as 'actual costs' depends on who receives the money:
+What counts as 'actual costs' differs depending on who is receiving the funds:
 
-- For **individual maintainers**, actual costs include the expenses of designing, developing and maintaining the software, and reasonable living expenses. An individual who covers their costs and earns a fair remuneration is not making a profit on that basis alone ([[CRA-GUIDANCE point 58]]).
-- For **companies and foundations**, actual costs include operating expenses, reasonable compensation for contributors and staff, and the other costs of designing, developing and providing the software ([[CRA-GUIDANCE point 61]]).
+- For **individual maintainers**, actual costs include expenses related to the design, development, and maintenance of the software, as well as reasonable living expenses. A natural person covering their costs and earning a fair remuneration is not considered to be making a profit on that basis alone ([[CRA-GUIDANCE point 58]]).
+- For **organisations**, actual costs include operational expenses, reasonable compensation for contributors and staff, and other costs associated with the design, development, and provision of the software ([[CRA-GUIDANCE point 61]]).
 
-Accepting donations with the intention of making a profit, or charging for technical support beyond the recovery of actual costs, is what the CRA treats as a commercial activity ([[CRA Recital 15]]). See [[cra-itself/actual-costs]] for how donations and support fees are assessed.
-
-Not-for-profit organisations set up so that all earnings after costs go to their not-for-profit objectives are not supplying software commercially, even when they make a profit ([[CRA Recital 18]], [[CRA-GUIDANCE point 66]]). If such an organisation meets the definition of an open-source software steward, it has the steward's obligations instead ([[CRA-GUIDANCE point 77]]).
+Importantly, not-for-profit organisations that invest all earnings after costs back into achieving their not-for-profit objectives are not considered to be supplying software in the course of a commercial activity, even if they're making a profit ([[CRA Recital 18]], [[CRA-GUIDANCE point 66]]).
