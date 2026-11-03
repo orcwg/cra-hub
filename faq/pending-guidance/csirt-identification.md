@@ -11,7 +11,7 @@ Defining criteria which _open-source software stewards_ (and open source maintai
 
 ## Background
 
-[[CRA Article 17(4)]] explains the criteria _manufacturers_ should use to identify their relevant CSIRT, but these criteria aren't easily applicable to stewards (or open source maintainers).
+[[CRA Article 14(7)]] explains the criteria _manufacturers_ should use to identify their relevant CSIRT, and ENISA states that stewards follow the same criteria ([[srp/faq_18]]), but these criteria aren't easily applicable to stewards (or open source maintainers): a steward has no authorised representative, importer or distributor, which leaves the Member State with the highest number of users, something a steward often cannot know. The Commission's guidance does not address the question.
 
 ## Why this matters
 
