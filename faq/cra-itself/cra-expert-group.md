@@ -1,5 +1,6 @@
 ---
-Status: ⚠️ Draft
+Status: ✅ Approved
+Related issues: https://github.com/orcwg/cra-hub/issues/13
 ---
 
 # What is the CRA Expert Group?
