@@ -11,7 +11,7 @@ Defining criteria which _open-source software stewards_ (and open source maintai
 
 ## Background
 
-[[CRA Article 17(4)]] explains the criteria _manufacturers_ should use to identify their relevant CSIRT, but these criteria aren't easily applicable to stewards (or open source maintainers).
+[[CRA Article 14(7)]] explains the criteria _manufacturers_ should use to identify their relevant CSIRT, but these criteria aren't easily applicable to stewards (or open source maintainers).
 
 ## Why this matters
 
