@@ -5,7 +5,7 @@ Related issues: https://github.com/orcwg/cra-hub/issues/25
 
 # What is the relationship between a project and a steward?
 
-An organisation is an _open-source software steward_ of specific projects, not a steward in general. The CRA defines a steward as a legal person (a company or foundation) that systematically provides sustained support for the development of _"specific products with digital elements"_ and ensures their viability ([[CRA Article 3(14)]]). The Commission's guidance says: _"Being a steward for one specific FOSS does not mean that that legal person is necessarily also a steward for other FOSS that it publishes"_ ([[CRA-GUIDANCE point 72]]).
+An organisation is an _open-source software steward_ of specific projects, not a steward in general. The CRA defines a steward as a company or foundation (a _legal person_) that systematically provides sustained support for the development of _"specific products with digital elements"_ and ensures their viability ([[CRA Article 3(14)]]). The Commission's guidance says: _"Being a steward for one specific FOSS does not mean that that legal person is necessarily also a steward for other FOSS that it publishes"_ ([[CRA-GUIDANCE point 72]]).
 
 So being the steward of one project does not make an organisation the steward of the other projects it hosts or supports. The guidance says that _"for each specific FOSS that it publishes, the legal person will need to ascertain"_ whether that software is placed on the market, which would make the organisation its manufacturer, and if not, whether the software is intended for commercial activities and the organisation sustains it as the definition requires ([[CRA-GUIDANCE point 74]]).
 
