@@ -6,13 +6,12 @@ guidance-id: open-source-guidance
 
 # Does providing technical support for a fee put you in scope of the CRA?
 
-Providing technical support for a fee may or may not put you in scope of the CRA, depending on your relationship to the open source project.
+No, providing technical support to an open source project for a fee does not put you in scope of the CRA, regardless of whether you are the one publishing it, provided access to the project is not restricted.
 
-**If you are the publisher of the project:** Charging for technical support services that are closely associated with the supply of the software can constitute monetisation, which would make the software a product placed on the market. However, this only applies where the price charged _"does not serve only the recuperation of actual costs"_ ([[CRA Recital 15]]). If you're a natural person and the fees only cover costs related to design, development, and maintenance—including reasonable living expenses—this alone would not make you a manufacturer. If you're a legal person that meets the definition of open-source software steward, you would be subject to steward obligations rather than manufacturer obligations for the non-monetised version of the software.
+Support, consulting, training and similar professional services around open source software that anyone can download, install and update for free are services, not a sale of the software ([[CRA-GUIDANCE point 55]], [[CRA-GUIDANCE point 56]], [[CRA-GUIDANCE Example 18]]). What puts you in scope is when a version of the software, or its updates and maintenance, is only available with paid support: that version is a product you sell, and you are its manufacturer ([[CRA-GUIDANCE point 57]], [[CRA-GUIDANCE Example 17]]).
 
-**If you are a not-for-profit organisation:** There is additional flexibility. If your organisation is set up to ensure that all earnings after costs are reinvested in not-for-profit objectives, your activities are not considered commercial even if you charge for support services ([[CRA Recital 18]]).
+Indeed, if the source code itself is only available to paying customers, the software is not considered to be open source under the CRA, whatever its licence, as defined in [[CRA Article 3(48)]] ([[CRA-GUIDANCE point 46]]).
 
-**If you are not the publisher:** You are simply a service provider, and services are not products with digital elements under the CRA. For example, if you help a customer install open source software on their server but don't distribute the software yourself, you are not placing any product on the market and are therefore not in scope.
+Worth also noting one exception: a service that substantially modifies open source software and provides it to customers without publishing your modifications publicly under an open source licence can make you a manufacturer of the derived work ([[CRA-GUIDANCE point 59]], [[CRA Article 22(1)]]).
 
 See also: [[maintainers/living-expenses]] and [[manufacturers/service-providers]].
-
