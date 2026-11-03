@@ -5,9 +5,9 @@ Related issues: https://github.com/orcwg/cra-hub/issues/366
 
 # How does the CRA relate to the AI Act?
 
-The CRA and the AI Act ([Regulation (EU) 2024/1689](https://eur-lex.europa.eu/eli/reg/2024/1689/oj)) can apply to the same product. An AI system that is a product with digital elements is in scope of the CRA. If it is also classified as a high-risk AI system under Article 6 AI Act, both regulations apply.
+The CRA and the AI Act ([Regulation (EU) 2024/1689](https://eur-lex.europa.eu/eli/reg/2024/1689/oj)) can apply to the same product. Any AI system that fits the definition of a product with digital elements, or of its remote data processing solution, is in scope of the CRA, regardless of whether or not it is classified as high-risk under the AI Act. The AI Act's risk classification does not determine CRA scope.
 
-[[Article 12]] of the CRA links the two:
+[[Article 12]] of the CRA does not address scope. It addresses how conformity assessment under the two regulations fits together for products with digital elements that are also classified as high-risk AI systems under Article 6 AI Act:
 
 - **Presumption of conformity.** A product with digital elements that is classified as a high-risk AI system is deemed to comply with the cybersecurity requirements of Article 15 AI Act where the product fulfils the essential cybersecurity requirements of Part I of [[Annex I]], the manufacturer's processes comply with Part II of [[Annex I]], and the level of cybersecurity protection required under Article 15 AI Act is demonstrated in the EU declaration of conformity issued under the CRA. The AI Act requirements on accuracy and robustness still apply separately.
 - **One conformity assessment.** For these products, the conformity assessment procedure of Article 43 AI Act applies. Notified bodies competent under the AI Act may also assess conformity with the CRA essential requirements, provided their compliance with [[Article 39]] CRA was assessed as part of their notification under the AI Act.
