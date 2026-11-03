@@ -1,0 +1,18 @@
+---
+Status: ✅ Approved
+Related issues: https://github.com/orcwg/cra-hub/issues/18
+---
+
+# What makes a maintainer of an open source project a manufacturer?
+
+A maintainer becomes the manufacturer of an open source project when they monetise it, and only for the version they monetise: the paid version, not a free version of the same code.
+
+Two things have to be true. First, the project has to be under your responsibility: you publish it and have primary control over its development, releases and distribution ([[CRA-GUIDANCE point 49]]). That is what being a maintainer means under the CRA; who holds the copyright or has commit access does not decide it, see [[maintainers/who-is-responsible]]. Second, you have to supply the software _"in the course of a commercial activity"_, which is what the CRA calls placing it on the market ([[CRA Article 3(22)]], [[CRA Recital 15]], [[CRA-GUIDANCE point 47]], [[CRA-GUIDANCE point 50]]). For open source, that means monetising it: _"the provision of products with digital elements qualifying as free and open-source software that are not monetised by their manufacturers should not be considered to be a commercial activity"_ ([[CRA Recital 18]], [[CRA-GUIDANCE point 42]]).
+
+The CRA's definition of a manufacturer, _"a natural or legal person who develops or manufactures products with digital elements […] and markets them under its name or trademark, whether for payment, monetisation or free of charge"_ ([[CRA Article 3(13)]]), is wider than that, but it only bites for software placed on the market. So a maintainer who does not monetise the project has no obligations under the CRA, whatever the definition says ([[CRA-GUIDANCE point 87]], [[CRA-GUIDANCE Example 27]]).
+
+Monetising means getting paid for the software itself: charging for it or for its binaries ([[CRA-GUIDANCE point 51]]), reserving a version, its updates or technical assistance for paying users ([[CRA-GUIDANCE point 57]]), using it as a platform to sell other services, requiring users' personal data for other reasons than security or interoperability ([[CRA-GUIDANCE point 54]]), or donations that are in practice the price of access ([[CRA-GUIDANCE point 62]]). Being paid to work on the project, taking donations that cover your costs, or selling optional support around software that anyone can download and update for free does not count ([[CRA Recital 18]], [[CRA-GUIDANCE point 56]], [[CRA-GUIDANCE point 61]], [[CRA-GUIDANCE point 63]]). The details are in [[maintainers/monetization]], [[maintainers/paid-dev]], [[maintainers/donations]] and [[maintainers/technical-support]].
+
+Once you monetise, you are the manufacturer of the paid version, with the obligations of [[CRA Article 13]], but only of that version. A free "community" version with (almost) the same code is a different product under the CRA: it is not monetised, so it is not placed on the market ([[CRA-GUIDANCE point 52]]). If you are an individual, that free version is outside the CRA altogether; if you are a company or foundation, you are its open-source software steward, with the lighter obligations of [[CRA Article 24]] ([[CRA-GUIDANCE point 53]], [[CRA-GUIDANCE point 76]], see [[manufacturers/both-manufacturer-and-steward]]). A not-for-profit organisation set up so that all earnings after costs go to its not-for-profit objectives is a steward even for software it monetises ([[CRA Recital 18]], [[CRA-GUIDANCE point 66]], [[CRA-GUIDANCE Example 24]]).
+
+Monetising also makes you the manufacturer only from the date you start: earlier versions you published without monetising stay as they were ([[CRA-GUIDANCE point 84]]).
