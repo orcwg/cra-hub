@@ -16,7 +16,7 @@ For **legal persons** (such as foundations or companies), actual costs include:
 - Costs associated with design, development, and provision of the software
 - Reasonable compensation for contributors and developers employed by the organisation
 
-The key distinction is that recovering actual costs is not considered commercial activity, while significantly exceeding those costs — particularly with an intention to make a profit — may indicate the software is being supplied in the course of a commercial activity ([[Recital 15]]).
+The key distinction is that recovering actual costs is not considered commercial activity, while significantly exceeding those costs — particularly with an intention to make a profit — may indicate the software is being supplied in the course of a commercial activity ([[CRA Recital 15]]).
 
 This flexibility is important because donations naturally fluctuate over time. Whether someone intends to make a profit should be assessed by considering the broader financial situation over time, not just isolated instances where income temporarily exceeds expenses.
 

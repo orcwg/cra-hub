@@ -7,7 +7,7 @@ Related issues: https://github.com/orcwg/cra-hub/issues/33
 
 Under the CRA, 'intention to monetise' refers to the goal of generating revenue from a product, even when the product itself is provided free of charge. This concept helps determine whether software is being supplied in the course of a commercial activity.
 
-[[Recital 15]] provides several examples of monetisation that go beyond directly charging for a product:
+[[CRA Recital 15]] provides several examples of monetisation that go beyond directly charging for a product:
 
 - **Monetising related services**: Providing a software platform through which the manufacturer monetises other services
 - **Monetising user data**: Requiring the processing of personal data as a condition for use, for reasons other than exclusively improving the security, compatibility, or interoperability of the software

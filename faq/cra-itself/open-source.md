@@ -5,9 +5,9 @@ Related issues: https://github.com/orcwg/cra-hub/issues/254
 
 # How is open source defined under the CRA?
 
-The CRA defines "free and open-source software" in [[Article 3(48)]] as _"software the source code of which is openly shared and which is made available under a free and open-source licence which provides for all rights to make it freely accessible, usable, modifiable and redistributable."_
+The CRA defines "free and open-source software" in [[CRA Article 3(48)]] as _"software the source code of which is openly shared and which is made available under a free and open-source licence which provides for all rights to make it freely accessible, usable, modifiable and redistributable."_
 
-This definition mirrors the common understanding of open source's copyright aspects, aligning closely with the widely recognised ["four freedoms"][four freedoms] of free software and the Open Source Initiative's [Open Source Definition][osd]. [[Recital 18]] further clarifies that free and open source software is _"developed, maintained and distributed openly, including via online platforms."_
+This definition mirrors the common understanding of open source's copyright aspects, aligning closely with the widely recognised ["four freedoms"][four freedoms] of free software and the Open Source Initiative's [Open Source Definition][osd]. [[CRA Recital 18]] further clarifies that free and open source software is _"developed, maintained and distributed openly, including via online platforms."_
 
 Notably, the CRA's requirement that source code be "openly shared" [goes beyond][openly-shared] what the OSD or Free Software Definition formally require; neither explicitly mandates public availability of source code, only licensing rights. This means arrangements where source is not publicly available would not qualify as free and open source software under the CRA, even if the licence itself did.
 

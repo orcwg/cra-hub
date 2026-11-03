@@ -4,9 +4,9 @@ Status: ⚠️ Draft
 
 # What is due diligence?
 
-Under the Cyber Resilience Act, _due diligence_ refers to the obligation of [manufacturers][] to ensure that any third-party components integrated into their products, including Free and Open Source Software, adhere to the essential cybersecurity requirements of [[Annex I]]. Manufacturers remain responsible for the security of the final [product][] as a whole, and failure to comply may result in administrative [fines][]. 
+Under the Cyber Resilience Act, _due diligence_ refers to the obligation of [manufacturers][] to ensure that any third-party components integrated into their products, including Free and Open Source Software, adhere to the essential cybersecurity requirements of [[CRA Annex I]]. Manufacturers remain responsible for the security of the final [product][] as a whole, and failure to comply may result in administrative [fines][]. 
 
-The appropriate level of _due diligence_ depends on the nature and cybersecurity risk of the component. As outlined in [[Recital 34]], _due diligence_ typically involves one or more of the following actions:
+The appropriate level of _due diligence_ depends on the nature and cybersecurity risk of the component. As outlined in [[CRA Recital 34]], _due diligence_ typically involves one or more of the following actions:
 
 * **Verifying conformity:** Checking if the component already bears the [CE marking][] or has demonstrated conformity with the CRA, for example through a [security attestation][].
 * **Checking maintenance:** Verifying that the component receives regular security updates (e.g., checking its update history).

@@ -115,21 +115,23 @@ To reference FAQs, just use relative links as you normally would so:
 
 ### Auto-linking to CRA articles, recitals, and annexes
 
-Use double-bracket notation to auto-link to CRA articles, recitals, and annexes:
+Use double-bracket notation, prefixed with `CRA`, to auto-link to CRA articles, recitals, and annexes:
 
 ```markdown
-[[Article 24]]
-[[Article 3(14)]]
-[[Recital 19]]
-[[Annex III]]
+[[CRA Article 24]]
+[[CRA Article 3(14)]]
+[[CRA Recital 19]]
+[[CRA Annex III]]
 ```
 
 **Examples:**
 ```markdown
-As described in [[Article 9]], the Expert Group provides guidance.
-Stewards are defined in [[Article 3(14)]] as legal persons.
-See [[Recital 19]] for additional context on commercial activities.
+As described in [[CRA Article 9]], the Expert Group provides guidance.
+Stewards are defined in [[CRA Article 3(14)]] as legal persons.
+See [[CRA Recital 19]] for additional context on commercial activities.
 ```
+
+The prefix can be left out (`[[Article 24]]`), but write it: it keeps CRA references consistent with references to other texts.
 
 ### Auto-linking to other EU legal texts
 
