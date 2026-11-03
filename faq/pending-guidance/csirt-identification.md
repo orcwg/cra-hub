@@ -11,7 +11,7 @@ Defining criteria which _open-source software stewards_ (and open source maintai
 
 ## Background
 
-[[CRA Article 14(7)]] explains the criteria _manufacturers_ should use to identify their relevant CSIRT, and ENISA says that stewards, once their reporting obligations apply, are _"responsible for identifying the correct CSIRT designated as coordinator (CDaC) in accordance with Art. 14(7) of the CRA"_ ([[srp/faq_18]]), but these criteria aren't easily applicable to stewards (or open source maintainers): a steward has no authorised representative, importer or distributor, which leaves the Member State with the highest number of users, something a steward often cannot know. Neither ENISA's FAQ nor the Commission's guidance addresses that case.
+[[CRA Article 14(7)]] explains the criteria _manufacturers_ should use to identify their relevant CSIRT, but these criteria aren't easily applicable to stewards (or open source maintainers).
 
 ## Why this matters
 
