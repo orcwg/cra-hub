@@ -150,17 +150,17 @@ The best-known texts can also be referenced by a short key: `CRA`, `PLD`, `NIS2`
 [[AI-ACT Annex III]]
 ```
 
-Both forms render as "NIS 2 Directive Article 12(1)"; an act without a short key is named by its number, "2019/1020 Article 5". The act must be listed in [the website's index of EU legal texts][eu-reg]; to add one, or give it a short key, open a pull request there.
+Both forms render as "Article 12(1) of the NIS 2 Directive". The act must be listed in [the website's index of EU legal texts][eu-reg]; to add one, or give it a short key, open a pull request there.
 
 ### Several citations in a parenthesis
 
-A parenthesis holding nothing but citations, separated by commas, renders them grouped by document and part, with each citation still its own link:
+A parenthesis holding nothing but citations, separated by commas, renders in a short form grouped by document and part, with each citation still its own link:
 
 ```markdown
 ([[CRA Recital 15]], [[CRA-GUIDANCE point 58]], [[CRA-GUIDANCE point 61]])
 ```
 
-renders as "(CRA Recital 15, Guidance points 58 and 61)". Anything else in the parenthesis, such as "see", and each citation renders on its own: "(see CRA Article 5)".
+renders as "(CRA Recital 15, Guidance points 58 and 61)"; a single citation in a parenthesis renders as "(CRA Article 5)", and an act without a short key by its number, "(2019/1020 Article 5)". Anything else in the parenthesis, such as "see", keeps the long form: "(see Article 5 of the CRA)".
 
 ### Auto-linking to the Commission's CRA guidance
 
