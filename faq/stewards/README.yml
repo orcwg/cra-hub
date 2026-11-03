@@ -5,6 +5,7 @@ faqs:
   - do-all-projects-have-stewards
   - what-is-a-steward
   - who-can-be-steward
+  - relationship
   - obligations
   - notification-obligations
   - which-csirt
@@ -18,5 +19,7 @@ faqs:
   - essential-requirements
   - for-profit
   - manufacturer-vs-steward
+  - foundation
   - whose-codebase
+  - multiple
   - paying-developers
