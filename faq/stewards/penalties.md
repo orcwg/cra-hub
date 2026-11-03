@@ -11,6 +11,4 @@ What an authority can do is order corrective action. Where it finds that a stewa
 
 Other kinds of fines are not an option either: the CRA tells Member States not to _"impose other kinds of penalties with pecuniary character"_ on stewards ([[CRA Recital 120]]).
 
-In practical terms, a steward that falls short faces a binding order to fix what was missing, such as publishing its cybersecurity policy, and the reputational cost of being found non-compliant.
-
 For the obligations themselves, see [[stewards/obligations]]; for what enforcement is likely to look like in practice, see [[stewards/enforcement]].
