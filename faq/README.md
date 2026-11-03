@@ -150,7 +150,7 @@ The best-known texts can also be referenced by a short key: `CRA`, `PLD`, `NIS2`
 [[AI-ACT Annex III]]
 ```
 
-Both forms render as "NIS 2 Directive Article 12(1)". The act must be listed in [the website's index of EU legal texts][eu-reg]; to add one, or give it a short key, open a pull request there.
+Both forms render as "NIS 2 Directive Article 12(1)"; an act without a short key is named by its number, "2019/1020 Article 5". The act must be listed in [the website's index of EU legal texts][eu-reg]; to add one, or give it a short key, open a pull request there.
 
 ### Several citations in a parenthesis
 
