@@ -12,6 +12,6 @@ Support, consulting, training and similar professional services around open sour
 
 Indeed, if the source code itself is only available to paying customers, the software is not considered to be open source under the CRA, whatever its licence, as defined in [[CRA Article 3(48)]] ([[CRA-GUIDANCE point 46]]).
 
-Worth also noting one exception: a service that substantially modifies open source software and provides it to customers without providing your modifications publicly under an open source licence makes you a manufacturer of the derived work ([[CRA-GUIDANCE point 59]], [[CRA Article 22(1)]]).
+Worth also noting one exception: a service that substantially modifies open source software and provides it to customers without publishing your modifications publicly under an open source licence can make you a manufacturer of the derived work ([[CRA-GUIDANCE point 59]], [[CRA Article 22(1)]]).
 
 See also: [[maintainers/living-expenses]] and [[manufacturers/service-providers]].
