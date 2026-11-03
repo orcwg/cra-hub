@@ -6,7 +6,7 @@ guidance-id: open-source-guidance
 
 # Does accepting donations make me a manufacturer?
 
-No, as long as you are not accepting them with the intention of making a profit.
+No, receiving donations does not make you a manufacturer, as long as those donations cover your actual costs rather than generate profit.
 
 The CRA says that _"accepting donations without the intention of making a profit should not be considered to be a commercial activity"_, while _"accepting donations exceeding the costs associated with the design, development and provision"_ of the software can be a sign of one ([[CRA Recital 15]]). Costs are broader than hosting and hardware: they include reasonable compensation for the people a company or foundation employs on the project, and an individual's reasonable living expenses ([[CRA-GUIDANCE point 61]]). When assessing whether donations exceed your costs, look at all the income the project brings in, not at one stream.
 
