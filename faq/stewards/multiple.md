@@ -5,7 +5,7 @@ Related issues: https://github.com/orcwg/cra-hub/issues/22
 
 # Can a project have multiple stewards?
 
-Yes, a project can have more than one _open-source software steward_: nothing in the CRA prevents it. Neither the CRA nor the Commission's guidance addresses the case, so what follows is the hub's reading.
+Yes, a project can have more than one _open-source software steward_: nothing in the CRA prevents it. Neither the CRA nor the Commission's guidance addresses the case.
 
 The guidance looks at each organisation and each project separately: a company or foundation (a _legal person_) is the steward of each project it publishes and supports on a sustained basis without monetising it ([[CRA Article 3(14)]], [[CRA-GUIDANCE point 72]], [[CRA-GUIDANCE point 74]]). Two organisations that both do so for the same project are both its stewards.
 
