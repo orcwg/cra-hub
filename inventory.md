@@ -1,12 +1,18 @@
-# Inventory of resources relevant to development and usage of open source under the Cyber Resilience Act
+### Version 1 - May 12, 2025
 
-The goal of this document is to provide a comprehensive list of resources that are relevant to the CRA obligations of open source software stewards and manufacturers when it comes to the development and usage of open source. The underlying purpose is to provide specification and standardization effort with easy access to documented industry and community best practices related to the development and integration of open source software and to the interactions between developers and consumers of open source.
+# CRA Resource Inventory: references relevant to the development and integration of open source under the Cyber Resilience Act
+
+The goal of this document is to provide a comprehensive list of resources that are relevant to the obligations of open source software stewards and manufacturers when it comes to the development and integration of open source under the Cyber Resilience Act (CRA) and to the interactions between all of the different stakeholders. The underlying purpose is to provide specification and standardization efforts with easy access to documented industry and community best practices.
 
 _Note: the description of each resource has been generated using a large language model and verified for accuracy. See [Annex I - LLM Usage][LLM usage] below for the prompts and tools used._
 
 ## Status of this document
 
-This is a draft document and may be updated, replaced or obsoleted at any time. It is inappropriate to cite this document as other than a work in progress. Publication of this document as a draft does not imply endorsement by the Eclipse Foundation, Open Regulatory Working Group Members, or contributors.
+This document is a [deliverable](https://github.com/orcwg/orcwg/blob/main/cyber-resilience-sig/deliverables.md#12-inventory) of the [Cyber Resilience SIG](https://github.com/orcwg/orcwg/tree/main/cyber-resilience-sig#readme) of the [Open Regulatory Compliance Working Group (ORC)](https://orcwg.org/) of the [Eclipse Foundation](https://www.eclipse.org/). It was approved to be released as version 1.0 by the Cyber Resilience SIG on May 12, 2025. It represents the consensus of ORC and its [members](https://orcwg.org/membership/).
+
+This document is released under the [CC-BY 4.0 License](https://github.com/orcwg/orcwg/blob/main/LICENSE.md). It is not governed by the Eclipse Foundation Specification Process (EFSP).
+
+This document is developed in the open, [on GitHub](https://github.com/orcwg/cra-hub/blob/main/inventory.md). To contribute to future revisions of this document or submit errata, please send a pull request or [open an issue](https://github.com/orcwg/cra-hub/issues/new).
 
 ## Table of Content
 
@@ -746,6 +752,11 @@ This section contains references which are relevant to the requirements expresse
 This section contains references which are relevant to the requirement to "exercise due diligence" expressed in [Article 13(5)][Article 13] of the CRA. It has no corresponding standard request in the [European Commission's standardisation request to the ESOs][ESO request].
 
 > 5. For the purpose of complying with paragraph 1, manufacturers shall exercise due diligence when integrating components sourced from third parties so that those components do not compromise the cybersecurity of the product with digital elements, including when integrating components of free and open-source software that have not been made available on the market in the course of a commercial activity.
+
+> [!NOTE]
+> The due diligence obligation of manufacturers outlined in Article 13(5) of the CRA is the cornerstone of the relationship between manufacturers and the open source ecosystem. The CRA finally formalizes the long-held understanding that manufacturers are responsible for the security of the open source components that they integrate in their products. Yet the relationship between manufacturers and the open source projects they integrate remains underspecified. Most of the references we have collected assume the existence of a contractual relationship between a manufacturer and a supplier that addresses compliance obligations.
+>
+> This is of course different when integrating open source components, as no such agreement exists. Neither _open source software stewards_ nor the maintainers of open source projects are suppliers. Open source software is provided _as is_. Not only do manufacturers need to exercise due diligence when they decide to integrate open source projects in their products. They also need to support and contribute to these projects to ensure that they meet their own compliance requirements.
 
 * [CISA Software Acquisition Guide](https://cisa.gov/sag) - The U.S. CISA Software Acquisition Guide provides practical guidance to government agencies (and large enterprises) on how to incorporate security considerations into the procurement of software. It outlines how buyers should define security requirements in RFPs/contracts – such as requiring vendors to follow secure development standards (like the NIST SSDF), provide artifacts like SBOMs and vulnerability disclosure policies, and agree to notify and patch if vulnerabilities are found. It also advises on evaluating supplier risk (e.g. checking if the vendor has had frequent security issues historically or if they have certified processes like ISO 27001). The guide suggests structuring the vendor selection process to include security questionnaires or assessments and to prefer vendors who can demonstrate secure-by-design approaches (perhaps via certifications or past performance). Additionally, it covers how to handle acquired software: establishing processes for incoming SBOM analysis, periodic re-scans for vulnerabilities in the product, and ensuring maintenance contracts cover security updates. By following this guide, procurement officers and risk managers can make more informed decisions, selecting products that not only meet functionality needs but also contribute positively to the organization’s security posture, thereby using market forces to encourage vendors to deliver safer software.
   <details>
