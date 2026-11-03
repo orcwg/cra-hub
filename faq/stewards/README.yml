@@ -17,6 +17,7 @@ faqs:
   - evidence
   - penalties
   - enforcement
+  - inactive
   - sbom
   - documentation
   - essential-requirements
