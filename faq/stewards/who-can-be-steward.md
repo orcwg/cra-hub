@@ -6,7 +6,7 @@ Source: https://fosdem.org/2024/schedule/event/fosdem-2024-3683-the-regulators-a
 
 # Who can be an _open-source software steward_?
 
-[[Recital 19]] states "Open-source software stewards include certain foundations as well as entities that develop and publish free and open-source software in a business context, including not-for-profit entities." At FOSDEM 2024, the European Commission provided three examples of entities the co-legislators had in mind:
+[[CRA Recital 19]] states "Open-source software stewards include certain foundations as well as entities that develop and publish free and open-source software in a business context, including not-for-profit entities." At FOSDEM 2024, the European Commission provided three examples of entities the co-legislators had in mind:
 
   1. Foundations supporting specific FOSS projects
   2. Companies that build FOSS for their own use but make it public

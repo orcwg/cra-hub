@@ -9,7 +9,7 @@ No — the mere popularity of your open source project does not expose you to CR
 
 The CRA does not use popularity, user count, or widespread adoption as criteria for determining whether a project falls within scope. What matters is whether the software is supplied _in the course of a commercial activity_ — meaning whether it is monetised or placed on the market under circumstances that indicate commercial intent.
 
-As [[Recital 18]] clarifies, _"the provision of products with digital elements qualifying as free and open-source software that are not monetised by their manufacturers should not be considered to be a commercial activity."_ This means you can have millions of users, including in enterprise or critical infrastructure environments, without triggering CRA obligations, as long as you are not monetising the project.
+As [[CRA Recital 18]] clarifies, _"the provision of products with digital elements qualifying as free and open-source software that are not monetised by their manufacturers should not be considered to be a commercial activity."_ This means you can have millions of users, including in enterprise or critical infrastructure environments, without triggering CRA obligations, as long as you are not monetising the project.
 
 While popularity itself creates no legal obligations, it may:
 

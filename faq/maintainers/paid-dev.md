@@ -7,7 +7,7 @@ Related issues: https://github.com/orcwg/cra-hub/issues/16
 
 Yes, you can get paid to develop an open source project without being considered a manufacturer under the CRA.
 
-The CRA distinguishes between being paid *for* the software (monetisation) and being paid *to work on* the software (development funding). Receiving payment to develop or maintain an open source project does not, by itself, make you a manufacturer. As [[Recital 18]] clarifies, _"the mere circumstances under which the product with digital elements has been developed, or how the development has been financed, should therefore not be taken into account when determining the commercial or non-commercial nature of that activity."_
+The CRA distinguishes between being paid *for* the software (monetisation) and being paid *to work on* the software (development funding). Receiving payment to develop or maintain an open source project does not, by itself, make you a manufacturer. As [[CRA Recital 18]] clarifies, _"the mere circumstances under which the product with digital elements has been developed, or how the development has been financed, should therefore not be taken into account when determining the commercial or non-commercial nature of that activity."_
 
 This means that various common funding arrangements do not trigger manufacturer status:
 
