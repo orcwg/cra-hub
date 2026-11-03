@@ -10,7 +10,7 @@ Open source projects and their stewards can support manufacturers' due diligence
 Neither the Commission's FAQ nor its guidance says what a project should publish, but both say what manufacturers check. The Commission's guidance says a manufacturer's evidence may be _"documentation obtained from the component manufacturer, such as technical specifications, security documentation or relevant conformity or assurance documentation"_ ([[CRA-GUIDANCE point 171]]); its FAQ adds the component's update history, SBOM, support period and intended purpose ([[official/faq_4-4-2]]). So, following [[CRA Annex VII]], useful documentation includes:
 
 - **Design and development information**: the software's intended purpose and how its components build on or feed into each other.
-- **Vulnerability handling information**: a vulnerability disclosure policy, a contact address for reporting vulnerabilities and how updates are securely distributed, which manufacturers reporting to you have to follow ([[CRA-GUIDANCE point 223]]).
+- **Vulnerability handling information**: a vulnerability disclosure policy, a contact address for reporting vulnerabilities and how updates are securely distributed, which manufacturers reporting a vulnerability have to follow ([[CRA-GUIDANCE point 223]]).
 - **Software bill of materials (SBOM)**: which helps manufacturers understand the supply chain and track vulnerabilities ([[CRA Recital 77]]).
 
 The due diligence obligation itself stays with the manufacturer ([[CRA Article 13(5)]], [[CRA-GUIDANCE point 88]]); what it involves is covered in [[due-diligence/foss]].
