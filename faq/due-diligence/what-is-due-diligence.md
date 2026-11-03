@@ -1,22 +1,22 @@
 ---
-Status: ⚠️ Draft
+Status: ✅ Approved
+Related issues: https://github.com/orcwg/cra-hub/issues/305
 ---
 
 # What is due diligence?
 
-Under the Cyber Resilience Act, _due diligence_ refers to the obligation of [manufacturers][] to ensure that any third-party components integrated into their products, including Free and Open Source Software, adhere to the essential cybersecurity requirements of [[CRA Annex I]]. Manufacturers remain responsible for the security of the final [product][] as a whole, and failure to comply may result in administrative [fines][]. 
+Under the CRA, _due diligence_ is what a manufacturer has to do when it builds components made by others into its product: make sure those components do not compromise the cybersecurity of the product ([[CRA Article 13(5)]]). The Commission's FAQ says manufacturers can integrate components of all kinds, including open source components outside the CRA's scope, _"but they must ensure that such components do not compromise the cybersecurity of their products with digital elements"_ ([[official/faq_4-4-1]]). The components themselves do not have to meet the essential cybersecurity requirements of [[CRA Annex I]]; the product as a whole does ([[official/faq_4-4-3]]).
 
-The appropriate level of _due diligence_ depends on the nature and cybersecurity risk of the component. As outlined in [[CRA Recital 34]], _due diligence_ typically involves one or more of the following actions:
+The Commission's guidance describes due diligence as _"determining what the product with digital elements requires from its components in order to meet its cybersecurity objectives, and verifying, in a risk-based manner, that those components are in line with the product's needs"_ ([[CRA-GUIDANCE point 170]]). If the product relies on a component for cryptography, updates or secure communications, the manufacturer checks that the component delivers them, from its documentation and, where needed, its own tests ([[CRA-GUIDANCE point 171]]).
 
-* **Verifying conformity:** Checking if the component already bears the [CE marking][] or has demonstrated conformity with the CRA, for example through a [security attestation][].
-* **Checking maintenance:** Verifying that the component receives regular security updates (e.g., checking its update history).
-* **Vulnerability scanning:** Ensuring the component is free from known vulnerabilities listed in public databases (e.g., the ENISA database).
-* **Security testing:** Carrying out additional security tests relative to the risk.
+How much checking that takes depends on the component's risk, and on the risk assessment of the product that integrates it ([[official/faq_4-4-2]]). [[CRA Recital 34]] and the Commission's FAQ give a non-exhaustive list of the actions that can be part of due diligence:
 
-If a vulnerability is identified during this process, the manufacturer must remediate it and share the applied fix with the upstream maintainer (i.e., open a merge/pull request upstream).
+- checking whether the component bears the CE marking or has otherwise shown conformity with the CRA;
+- checking that it receives regular security updates;
+- checking public vulnerability databases for vulnerabilities that affect it;
+- running additional security tests, such as fuzzing or penetration testing;
+- reviewing its software bill of materials, support period and intended purpose, and isolating highly critical components ([[official/faq_4-4-2]]).
 
-[manufacturers]: ../manufacturers/what-is-a-manufacturer.md
-[product]: ../cra-itself/scope.md
-[fines]: ../manufacturers/mistakes.md
-[CE marking]: ../cra-itself/ce-mark.md
-[security attestation]: ../attestations/what-is-a-security-attestation.md
+A vulnerability found in a component has to be reported to whoever maintains it, and any fix shared with them ([[CRA Article 13(6)]]). The manufacturer remains responsible for its product as a whole: see [[manufacturers/mistakes]].
+
+For open source components in particular, see [[due-diligence/foss]]; for the CE marking, see [[cra-itself/ce-mark]].
