@@ -3,9 +3,9 @@ Status: ✅ Approved
 Related issues: https://github.com/orcwg/cra-hub/issues/312
 ---
 
-# Does the steward's cybersecurity policy requirement apply to the FOSS project's development practices, or to its integration into other products?
+# Does the steward's cybersecurity policy requirement apply to the open source project's development practices, or to its integration into other products?
 
-The steward's cybersecurity policy requirement applies to the open source project's own development practices, not to how others integrate the project into their products. On the integration side the Commission's guidance is clear: maintainers of open source components that are not sold _"do not bear obligations in relation to other entities that may integrate such components into their products with digital elements"_ ([[CRA-GUIDANCE point 87]]).
+The steward's cybersecurity policy requirement applies to the open source project's own development practices, not to how others integrate the project into their products. On the integration side the Commission's guidance is clear: maintainers of open source components that are not placed on the market _"do not bear obligations in relation to other entities that may integrate such components into their products with digital elements"_ ([[CRA-GUIDANCE point 87]]).
 
 [[CRA Article 24(1)]] requires stewards to _"put in place and document in a verifiable manner a cybersecurity policy to foster the development of a secure product with digital elements as well as an effective handling of vulnerabilities by the developers of that product."_ Neither the Commission's FAQ nor its guidance says more about the policy's scope, but everything the article asks the policy to cover is about how the project itself is developed and maintained:
 
