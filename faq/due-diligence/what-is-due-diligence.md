@@ -9,7 +9,7 @@ Under the CRA, _due diligence_ is what a manufacturer has to do when it builds c
 
 The Commission's guidance describes due diligence as _"determining what the product with digital elements requires from its components in order to meet its cybersecurity objectives, and verifying, in a risk-based manner, that those components are in line with the product's needs"_ ([[CRA-GUIDANCE point 170]]). If the product relies on a component for cryptography, updates or secure communications, the manufacturer checks that the component delivers them, from its documentation and, where needed, its own tests ([[CRA-GUIDANCE point 171]]).
 
-How much checking that takes depends on the component's risk ([[official/faq_4-4-2]]). [[CRA Recital 34]] and the Commission's FAQ list the actions to choose from:
+How much checking that takes depends on the component's risk, and on the risk assessment of the product that integrates it ([[official/faq_4-4-2]]). [[CRA Recital 34]] and the Commission's FAQ give a non-exhaustive list of the actions that can be part of due diligence:
 
 - checking whether the component bears the CE marking or has otherwise shown conformity with the CRA;
 - checking that it receives regular security updates;
