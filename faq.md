@@ -94,6 +94,7 @@ See [FAQ README][].
 * [What is the _Blue Guide_?](https://cra.orcwg.org/faq/legislation/blue-guide/) <a name="q-what-is-the-blue-guide"></a><a name="faq-tmp-4"></a> 
 * [What is the _New Legislative Framework_ (NLF)?](https://cra.orcwg.org/faq/legislation/nlf/) <a name="q-what-is-the-new-legislative-framework-nlf"></a><a name="faq-tmp-57"></a> 
 * [What is a _legal person_?](https://cra.orcwg.org/faq/legislation/legal-person/) <a name="q-what-is-a-legal-person"></a><a name="faq-tmp-55"></a>
+* [How does the CRA relate to the AI Act?](https://cra.orcwg.org/faq/legislation/ai-act/) <a name="q-how-does-the-cra-relate-to-the-ai-act"></a>
 
 ## Acknowledgments
 

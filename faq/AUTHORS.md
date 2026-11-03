@@ -76,6 +76,7 @@ The following people have contributed to this document either directly or indire
 * Shanda Giacomoni
 * Simon Phipps
 * Stefane Fermigier
+* Tilman Mürle
 * Timo Perala
 * Timothée Mazzucotelli
 * Tobie Langel
