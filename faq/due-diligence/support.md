@@ -1,6 +1,6 @@
 ---
 Status: ✅ Approved
-Related issues: https://github.com/orcwg/cra-hub/issues/122
+Related issues: https://github.com/orcwg/cra-hub/issues/67, https://github.com/orcwg/cra-hub/issues/122
 ---
 
 # How can open source projects or their stewards support the due diligence requirements of manufacturers through documentation?
@@ -13,6 +13,6 @@ Neither the Commission's FAQ nor its guidance says what a project should publish
 - **Vulnerability handling information**: a vulnerability disclosure policy, a contact address for reporting vulnerabilities and how updates are securely distributed, which manufacturers reporting a vulnerability have to follow ([[CRA-GUIDANCE point 223]]).
 - **Software bill of materials (SBOM)**: which helps manufacturers understand the supply chain and track vulnerabilities ([[CRA Recital 77]]).
 
-The due diligence obligation itself stays with the manufacturer ([[CRA Article 13(5)]], [[CRA-GUIDANCE point 88]]); what it involves is covered in [[due-diligence/foss]].
+A project that wants to go further can adopt the practices the CRA asks of manufacturers, such as a security policy, an SBOM and a stated support period: see [[projects/practices-to-adopt]]. The due diligence obligation itself stays with the manufacturer ([[CRA Article 13(5)]], [[CRA-GUIDANCE point 88]]); what it involves is covered in [[due-diligence/foss]].
 
 The Commission may also set up voluntary security attestation programmes, which its FAQ says _"would facilitate manufacturers' due diligence obligation"_ ([[official/faq_4-4-4]], [[CRA Article 25]]); as manufacturers and users could finance an attestation ([[CRA Recital 21]]), they could become a source of revenue for a project. None exists yet: see [[attestations/what-is-a-security-attestation]].
