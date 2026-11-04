@@ -11,7 +11,7 @@ A project is only the software. What the CRA looks at is who is responsible for 
 
 - A project an individual publishes without monetising it: nobody is regulated, and the individual has no obligations ([[CRA-GUIDANCE point 53]], [[CRA-GUIDANCE Example 27]]).
 - A project a foundation publishes and sustains for commercial use: the foundation is its steward, with the light obligations of [[CRA Article 24]] ([[CRA-GUIDANCE Example 28]]).
-- A project a company publishes without monetising, but builds into products it sells: the company is the project's steward and the manufacturer of its products ([[CRA-GUIDANCE Example 29]]).
+- A project a company publishes and maintains under its own name without monetising it: the company is its steward, not its manufacturer, even if it uses the project in its own products ([[CRA-GUIDANCE Example 29]]).
 - A project someone monetises: that person is its manufacturer ([[CRA-GUIDANCE point 51]]).
 
 Companies that only contribute to or fund a project are not regulated for it ([[CRA Recital 18]], [[CRA-GUIDANCE point 86]]). For a solo maintainer the person and the project are hard to tell apart, and the CRA's answer is the same either way: no monetisation, no obligations. See [[manufacturers/do-all-projects-have-manufacturers]] and [[stewards/do-all-projects-have-stewards]].
