@@ -142,12 +142,13 @@ Prefix the reference with the number of the act to link to an article, recital, 
 [[2024/2853 Recital 15]]
 ```
 
-The best-known texts can also be referenced by a short key: `CRA`, `PLD`, `NIS2`, `DORA`, and `AI-ACT`.
+The best-known texts can also be referenced by a short key: `CRA`, `PLD`, `NIS2`, `DORA`, `AI-ACT`, and `CRA-CATEGORIES` (Implementing Regulation (EU) 2025/2392, the technical description of the important and critical product categories).
 
 ```markdown
 [[NIS2 Article 12(1)]]
 [[PLD Recital 15]]
 [[AI-ACT Annex III]]
+[[CRA-CATEGORIES Annex I]]
 ```
 
 Both forms render as "Article 12(1) of the NIS 2 Directive". The act must be listed in [the website's index of EU legal texts][eu-reg]; to add one, or give it a short key, open a pull request there.
