@@ -384,7 +384,7 @@ This section contains references which are relevant to:
     * **Publication date:** current
   </details>
 
-### Eclipse Foundation
+#### Eclipse Foundation
 
 * [Eclipse Foundation Security Policy](https://www.eclipse.org/security/policy/) - The Eclipse Foundation Security Policy describes the general principles under which the Eclipse Foundation manages the reporting, management, discussion, and disclosure of Vulnerabilities discovered in Eclipse software. The policy applies to all Eclipse Foundation projects.
   <details>
