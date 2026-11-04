@@ -3,10 +3,12 @@ description: Understanding the manufacturer role and responsibilities under the 
 icon: 🏭
 faqs:
   - what-is-a-manufacturer
+  - individuals
   - do-all-projects-have-manufacturers
   - multiple-manufacturers
   - both-manufacturer-and-steward
   - mistakes
+  - self-assessment
   - enforcement-sme
   - enforcement-enterprise
   - funding-foss-dev
@@ -14,4 +16,5 @@ faqs:
   - contributors
   - support-creates-obligations
   - service-providers
+  - intra-group
   - app-stores
