@@ -9,9 +9,6 @@ A steward's reporting obligations do not cover a version once it has reached its
 
 The guidance says that where an organisation _"ceases to provide systematic support on a sustained basis for a specific FOSS, it may no longer meet the definition of steward"_, and encourages it to _"communicate clearly the change in its status"_ ([[CRA-GUIDANCE point 83]]). What holds for a whole project holds for a version: see [[stewards/inactive]].
 
-A project that declares a version's end of life where users will see it draws that line itself, in its release policy or in a machine-readable statement in the [Common Lifecycle Enumeration (ECMA-428)][cle] or [OpenEoX][] format. Users of an obsolete version are then told what the CRA asks manufacturers' archives to tell them, that running unsupported software carries a risk ([[official/faq_1-7]]). An organisation that sells security updates for an obsolete version is monetising that version, which makes it a manufacturer of it ([[CRA-GUIDANCE point 57]]).
+A project that declares a version's end of life where users will see it draws that line itself. Users of an obsolete version are then told what the CRA asks manufacturers' archives to tell them, that running unsupported software carries a risk ([[official/faq_1-7]]). An organisation that sells security updates for an obsolete version is monetising that version, which makes it a manufacturer of it ([[CRA-GUIDANCE point 57]]).
 
 For projects that predate the CRA, see [[stewards/old-projects]]; for what a steward reports, [[stewards/notification-obligations]].
-
-[cle]: https://github.com/Ecma-TC54/ECMA-428
-[OpenEoX]: https://github.com/oasis-tcs/openeox
