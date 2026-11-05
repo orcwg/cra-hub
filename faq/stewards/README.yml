@@ -19,6 +19,7 @@ faqs:
   - manufacturer-vs-steward
   - manufacturers/both-manufacturer-and-steward
   - foundation
+  - official/faq_4-4-4
   - due-diligence/support
   - obligations
   - essential-requirements
@@ -26,7 +27,9 @@ faqs:
   - translation-costs
   - documentation
   - sbom
+  - official/faq_5-5
   - notification-obligations
+  - srp/faq_18
   - which-csirt
   - demonstrate
   - evidence
