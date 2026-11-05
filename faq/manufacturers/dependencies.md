@@ -9,14 +9,13 @@ All of them that end up in the product, and the remote services the product depe
 
 | Dependency | What it covers | Risk assessment[^1] | Essential requirements[^2] | Due diligence[^3] | Vulnerability handling[^4] |
 |---|---|:-:|:-:|:-:|:-:|
-| **Shipped in the product** |  |  |  |  |  |
-| In-house component | Software the manufacturer develops itself and builds into the product[^5] | ✅ | ✅ | N/A | ✅ |
-| Third-party component | A component bought from a vendor that placed it on the market under the CRA, with its own declaration of conformity and its own manufacturer handling its vulnerabilities[^6] | ✅ |  | ✅ | ✅, supported by the component manufacturer's |
-| Open source component | A library, package, container image or SDK published as open source and not placed on the market, used by the product as shipped[^7] | ✅ |  | ✅ | ✅ |
+| **Components** |  |  |  |  |  |
+| In-house component | Software the manufacturer develops itself and builds into the product or its remote data processing solution[^5] | ✅ | ✅ | N/A | ✅ |
+| Third-party component | A component bought from a vendor that placed it on the market under the CRA, built into the product or its remote data processing solution, with its own declaration of conformity and its own manufacturer handling its vulnerabilities[^6] | ✅ |  | ✅ | ✅, supported by the component manufacturer's |
+| Open source component | A library, package, container image or SDK published as open source and not placed on the market, built into the product or its remote data processing solution[^7] | ✅ |  | ✅ | ✅ |
 | Dependencies of open source components | Software an open source component itself depends on, at any depth; the SBOM need only list top-level dependencies[^8] | ✅ |  | ✅ | ✅ |
 | **Remote data processing solutions** |  |  |  |  |  |
 | Remote data processing solution developed by the manufacturer | Processing at a distance designed and developed by the manufacturer, or under its responsibility, without which the product cannot perform one of its functions, including software run on a third party's cloud; not the hardware it runs on[^9] | ✅, including self-hosted hardware | ✅ | N/A | ✅ |
-| Components of the solution and their dependencies | Third-party and open source components built into the solution, and what they depend on, at any depth: the same as for components shipped in the product, above[^6] | ✅ |  | ✅ | ✅ |
 | Third-party remote service | A remote service the product depends on, not developed by the manufacturer: a SaaS application, a platform's runtime, an infrastructure's hypervisor; the provider's own stack is the provider's responsibility[^10] | ✅ |  | ✅, on the provider | mitigation at product level |
 | Outside the product | Remote processing not needed for the product's functions, back-end systems the product does not interact with, the manufacturer's own IT and build pipelines[^11] | ✅ | N/A | N/A | N/A |
 
