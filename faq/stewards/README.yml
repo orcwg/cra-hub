@@ -3,29 +3,33 @@ description: Understanding the steward role, obligations, and requirements under
 icon: 🌱
 faqs:
   - do-all-projects-have-stewards
-  - nominations
   - what-is-a-steward
   - who-can-be-steward
+  - for-profit
+  - maintainers/solo-maintainer-steward
+  - maintainers/multiple-maintainers-steward
   - opt-in
-  - relationship
+  - nominations
   - business-context
   - sustained-support
-  - obligations
-  - policy-scope
-  - notification-obligations
-  - which-csirt
-  - translation-costs
-  - demonstrate
-  - evidence
-  - penalties
-  - enforcement
-  - inactive
-  - sbom
-  - documentation
-  - essential-requirements
-  - for-profit
-  - manufacturer-vs-steward
-  - foundation
+  - paying-developers
+  - relationship
   - whose-codebase
   - multiple
-  - paying-developers
+  - manufacturer-vs-steward
+  - manufacturers/both-manufacturer-and-steward
+  - foundation
+  - due-diligence/support
+  - obligations
+  - essential-requirements
+  - policy-scope
+  - translation-costs
+  - documentation
+  - sbom
+  - notification-obligations
+  - which-csirt
+  - demonstrate
+  - evidence
+  - inactive
+  - enforcement
+  - penalties
