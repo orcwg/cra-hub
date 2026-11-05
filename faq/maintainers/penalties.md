@@ -1,14 +1,14 @@
 ---
-Status: ⚠️ Draft
-Related issues: https://github.com/orcwg/cra-hub/issues/133
+Status: ✅ Approved
+Related issues: https://github.com/orcwg/cra-hub/issues/133, https://github.com/orcwg/cra-hub/issues/83
 ---
 
 # If I maintain an open source codebase, and am treated as a "manufacturer" or "steward", what penalties could I face for violating the CRA?
 
-If you are a solo or small-team maintainer of an open source codebase, but do get treated as a manufacturer or steward for some reason (such as [monetization][]), you may be subject to some penalties. However, the penalties should be limited. In particular:
+The penalties a maintainer can face under the CRA are orders to put things right and, for manufacturers only, fines; a steward cannot be fined at all. A maintainer who does not monetise their project is neither, and faces nothing, whatever the project's security practices: see [[maintainers/no-monetization]].
 
-- If you are regulated because you are a steward, stewards are explicitly exempted from any fines, though you may still be required to take corrective actions for any problems that are uncovered. See [[CRA Article 64]].
+If you are treated as a manufacturer because you monetise your project, the first step is an order. The Commission's Q&A says that authorities _"could require operators to bring the non-compliance to an end and eliminate the risk"_, and can restrict, withdraw or recall the product ([[cra-basics/what-will-happen-to-non-compliant-products]]). Fines come on top, and the CRA sets their ceilings: up to EUR 15 million, or 2.5% of worldwide turnover for a company if that is higher, for breaching the essential requirements or the manufacturer obligations of Articles 13 and 14, with lower ceilings for the other obligations ([[CRA Article 64]]). These are maximums written with companies in mind. The fine in any given case has to be proportionate, and takes into account the nature and gravity of the infringement, your size and whether you have been fined for it before ([[CRA Article 64(5)(a)]], [[CRA Article 64(5)(c)]]). For an individual, it also takes into account your economic situation and the general level of income in your country ([[CRA Recital 121]]). Micro and small enterprises cannot be fined for missing the 24-hour early warning deadline ([[CRA Article 64(10)(a)]]).
 
-- If you are regulated because you are a manufacturer, penalties must still be constrained. Specifically, all penalties must be "proportionate" ([[CRA Recital 120]]; [[CRA Article 64]]). In addition, when imposed on a natural person, the penalties must take into account "the economic situation" and "size" of the entity ([[CRA Recital 121]]; [[CRA Article 64]]). As a result, while it is not formally required, most regulators will likely to request corrective action before imposing a fine.
+If you are treated as a steward, there is no fine for any infringement ([[CRA Article 64(10)(b)]]) and no other financial penalty either ([[CRA Recital 120]]); an authority can still require corrective action. See [[stewards/penalties]].
 
-[monetization]: ./monetization.md
+What enforcement is likely to look like in practice: [[maintainers/enforcement]]. The steps that come before a fine for a manufacturer: [[manufacturers/mistakes]]. Whether you are in fact treated as either: [[maintainers/should-i-worry]].
