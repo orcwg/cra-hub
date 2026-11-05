@@ -1,18 +1,10 @@
 ---
-Status: ⚠️ Draft
+Status: ✅ Approved
 Related issues: https://github.com/orcwg/cra-hub/issues/133
 ---
 
 # Am I subject to the CRA if I maintain, but do not monetize, an open source project?
 
-If you are the maintainer of an open source codebase, and you do not monetize it, then the CRA _does not_ apply to you.
+No. If you maintain an open source project and do not monetise it, the CRA does not apply to you. The Commission's guidance says that the version an individual supplies for free _"is not within the scope of the CRA"_ ([[CRA-GUIDANCE point 53]]). The CRA applies only to products supplied in the course of a commercial activity, and providing open source software that is not monetised _"should not be considered to be a commercial activity"_ ([[CRA Recital 15]], [[CRA Recital 18]]).
 
-The CRA applies
-> only in relation to products […] supplied […] in the course of a _commercial activity_
-([[CRA Recital 15]], emphasis added)
-
-And it states that
-
-> the provision of […] free and open-source software that are not monetized by their manufacturers _should not be considered to be a commercial activity_
-([[CRA Recital 18]], emphasis added)
-
+What counts as monetising, and what does not: see [[maintainers/become-manufacturer]] and [[maintainers/monetization]]. If a company or foundation publishes the project, rather than you as an individual, it may be the project's steward: see [[stewards/do-all-projects-have-stewards]].
