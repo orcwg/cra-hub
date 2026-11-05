@@ -11,14 +11,15 @@ All of them that end up in the product, and the remote services the product depe
 |---|---|---|
 | In-house component | Software the manufacturer develops itself and builds into the product | Part of the product: the full essential requirements of Annex I, Parts I and II, implemented directly[^1] |
 | Direct dependency | Libraries, packages, container images, SDKs and copied-in code used by the product as shipped | A component of the product: due diligence, vulnerability handling, listed in the SBOM[^2] |
-| Indirect dependency of an open source component | Software an open source component itself depends on, at any depth. A component that is itself a CRA product is covered by its own manufacturer's declaration[^3] | The same as for a direct dependency: due diligence and vulnerability handling. The SBOM need only list top-level dependencies; responsibility extends to all[^4] |
+| Component that is itself a CRA product | A component placed on the market under the CRA, bearing the CE marking, with its own declaration of conformity and its own manufacturer handling its vulnerabilities | Due diligence and vulnerability handling still apply; the component manufacturer's declaration and security updates support them, they do not replace them[^3] |
+| Indirect dependency of an open source component | Software an open source component itself depends on, at any depth | The same as for a direct dependency: due diligence and vulnerability handling. The SBOM need only list top-level dependencies; responsibility extends to all[^4] |
 | Remote data processing solution developed by the manufacturer | Processing at a distance designed and developed by the manufacturer, or under its responsibility, without which the product cannot perform one of its functions, including software run on a third party's cloud infrastructure or platform. The hardware it runs on is not part of the product[^5] | Part of the product: the same essential requirements and conformity assessment. Risks from self-hosted hardware are assessed and mitigated at product level[^6] |
 | Third-party remote service | A remote service the product depends on, not developed by the manufacturer: a SaaS application, a platform's runtime, an infrastructure's hypervisor. The provider's own stack is the provider's responsibility, under NIS 2 for cloud providers[^7] | Treated as a third-party component: risk assessment and mitigation in the product, due diligence on the provider, for which the provider's certifications and compliance evidence count[^8] |
 | Outside the product | Remote processing not needed for the product's functions, back-end systems the product does not interact with, the manufacturer's own IT and build pipelines[^9] | None as a component; risks to the product are covered by the risk assessment[^10] |
 
 [^1]: [[CRA Article 13(1)]], [[CRA-GUIDANCE point 173]]
 [^2]: [[CRA Article 13(5)]], [[official/faq_4-3-6]], [[CRA Annex I, Part II]]
-[^3]: [[official/faq_4-4-1]]
+[^3]: [[official/faq_4-4-1]], [[official/faq_4-3-6]]
 [^4]: [[official/faq_4-3-6]], [[CRA Annex I, Part II]]
 [^5]: [[CRA Article 3(2)]], [[CRA-GUIDANCE point 180]], [[CRA-GUIDANCE point 184]]; see [[remote-processing/scope]]
 [^6]: [[CRA-GUIDANCE point 198]], [[CRA-GUIDANCE point 199]], [[CRA-GUIDANCE point 206]]
