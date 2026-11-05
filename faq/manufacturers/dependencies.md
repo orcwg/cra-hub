@@ -11,7 +11,7 @@ All of them that end up in the product, and the remote services the product depe
 |---|---|:-:|:-:|:-:|:-:|
 | In-house component | Software the manufacturer develops itself and builds into the product[^5] | ✅ | ✅ | N/A | ✅ |
 | Direct dependency | Libraries, packages, container images, SDKs and copied-in code used by the product as shipped[^6] | ✅ |  | ✅ | ✅ |
-| Component that is itself a CRA product | A component placed on the market under the CRA, with its own declaration of conformity and its own manufacturer handling its vulnerabilities[^7] | ✅ |  | ✅ | ✅, supported by the component manufacturer's |
+| Vendored component | A component bought from a vendor that placed it on the market under the CRA, with its own declaration of conformity and its own manufacturer handling its vulnerabilities[^7] | ✅ |  | ✅ | ✅, supported by the component manufacturer's |
 | Indirect dependency of an open source component | Software an open source component itself depends on, at any depth; the SBOM need only list top-level dependencies[^8] | ✅ |  | ✅ | ✅ |
 | Remote data processing solution developed by the manufacturer | Processing at a distance designed and developed by the manufacturer, or under its responsibility, without which the product cannot perform one of its functions, including software run on a third party's cloud; not the hardware it runs on[^9] | ✅, including self-hosted hardware | ✅ | N/A | ✅ |
 | Third-party remote service | A remote service the product depends on, not developed by the manufacturer: a SaaS application, a platform's runtime, an infrastructure's hypervisor; the provider's own stack is the provider's responsibility[^10] | ✅ |  | ✅, on the provider | mitigation at product level |
