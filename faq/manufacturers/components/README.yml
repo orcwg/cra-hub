@@ -1,0 +1,16 @@
+title: Using open source components
+description: What a manufacturer owes on the open source components it builds into its product, from due diligence and vulnerability handling to reporting, and what it owes the projects behind them.
+icon: 🧩
+faqs:
+  - due-diligence/what-is-due-diligence
+  - official/faq_4-4-1
+  - official/faq_4-4-2
+  - official/faq_4-4-4
+  - due-diligence/foss
+  - official/faq_4-3-6
+  - official/faq_4-3-7
+  - vulnerability-handling/what-to-report
+  - vulnerability-handling/deadlines
+  - attestations/what-is-a-security-attestation
+  - due-diligence/relation-to-attestations
+  - manufacturers/support-creates-obligations
