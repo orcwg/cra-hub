@@ -13,4 +13,4 @@ Under [[CRA Article 52(3)]], when a market surveillance authority finds that a s
 
 Stewards also benefit from explicit protection against administrative fines. [[CRA Article 64(10)(b)]] provides that administrative fines _"shall not apply to [...] any infringement of this Regulation by open-source software stewards."_ Sanctions would be unlikely unless a steward controls critical infrastructure and persistently ignores known, systemic risks—and even then, the available remedy would be corrective action rather than financial penalties.
 
-For more details on steward obligations and the consequences of non-compliance, see [[stewards/obligations]] and [[stewards/penalties]].
+For more details on steward obligations and the consequences of non-compliance, see [[stewards/obligations]] and [[stewards/penalties]]; on cooperating with authorities, ORC WG's white paper: [[stewards/white-paper]].
