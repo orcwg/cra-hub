@@ -11,4 +11,4 @@ Grants provide financial support for the development of open source projects, bu
 
 Similarly, _"the mere fact that an open-source software product with digital elements receives financial support from manufacturers or that manufacturers contribute to the development of such a product should not in itself determine that the activity is of commercial nature"_ ([[CRA Recital 18]]).
 
-For more information on what does trigger manufacturer obligations, see [[projects/scope]].
+For more information on what does trigger manufacturer obligations, see [[maintainers/become-manufacturer]].

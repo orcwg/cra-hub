@@ -19,4 +19,4 @@ While popularity itself creates no legal obligations, it may:
 
 None of these change your legal status under the CRA unless you begin monetising or otherwise supplying the software in a commercial context.
 
-For more details on what determines whether an open source project is in scope, see [[projects/scope]]. For information on what constitutes monetisation, see [[maintainers/no-monetization]] and [[maintainers/monetization]].
+For more details on what determines whether an open source project is in scope, see [[maintainers/become-manufacturer]]. For information on what constitutes monetisation, see [[maintainers/no-monetization]] and [[maintainers/monetization]].
