@@ -13,5 +13,5 @@ What makes this hold is saying which versions are maintained. Declare end of lif
 
 For projects that predate the CRA, see [[stewards/old-projects]]; for what a steward reports, [[stewards/notification-obligations]].
 
-[cle]: https://ecma-international.org/publications-and-standards/standards/ecma-428/
-[OpenEoX]: https://www.oasis-open.org/committees/openeox/
+[cle]: https://github.com/Ecma-TC54/ECMA-428
+[OpenEoX]: https://github.com/oasis-tcs/openeox
