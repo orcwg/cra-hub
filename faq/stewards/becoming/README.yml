@@ -1,10 +1,10 @@
-title: Who is a steward
-description: Whether your organisation is an open-source software steward, and of which projects
-icon: 🌱
+title: Qualifying as a steward
+description: Whether your company or foundation is an open-source software steward, which projects it is steward of, and why individuals and loose groups are not.
+icon: 🙋
 faqs:
+  - stewards/who-can-be-steward
   - stewards/do-all-projects-have-stewards
   - stewards/what-is-a-steward
-  - stewards/who-can-be-steward
   - stewards/for-profit
   - maintainers/solo-maintainer-steward
   - maintainers/multiple-maintainers-steward

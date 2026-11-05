@@ -1,5 +1,5 @@
 ---
-Status: ⚠️ Draft
+Status: ✅ Approved
 Related issues: https://github.com/orcwg/cra-hub/issues/127
 Source: https://fosdem.org/2024/schedule/event/fosdem-2024-3683-the-regulators-are-coming-one-year-on/ (18m 10s)
 ---
