@@ -9,7 +9,5 @@ ORC WG's [inventory of resources][inventory] collects the industry and community
 
 The official material comes first: the Commission's guidance and FAQ, ENISA's technical advisories, which are published under a Creative Commons licence, and, once published, the harmonised standards ([[cra-itself/guidance]], [[standards/harmonised-standards]]). Which practices a project should adopt first, and why: [[projects/practices-to-adopt]]. What documentation helps the manufacturers that build on a project: [[due-diligence/support]].
 
-What a language or package ecosystem itself provides varies, and changes. Some package managers generate an SBOM when a package is built, some foundations publish guidance for their ecosystem, and some provide nothing yet. The inventory is where those resources go, so if your ecosystem publishes something, add it there.
-
 [inventory]: https://github.com/orcwg/cra-hub/blob/main/inventory.md
 [community resources]: https://github.com/orcwg/cra-hub/blob/main/community-resources.md
