@@ -164,6 +164,19 @@ The impact on open source software stewards is limited to a partial obligation t
   </details>
   
 
+* [ENISA Secure by Design and Default Playbook](https://www.enisa.europa.eu/publications/enisa-secure-by-design-and-default-playbook) - A practical guide to secure by design and secure by default principles, written for small and medium-sized manufacturers of products with digital elements. It sets out 22 principles and, for each, repeatable actions that can be applied to existing engineering, product and release processes across the life cycle of a product. The principles are also published as a [GitHub repository](https://github.com/enisaeu/enisa-sbd-playbook/).
+  <details>
+    <summary>More info</summary>
+
+    * **Title:** ENISA Secure by Design and Default Playbook: A Practical Guide to Secure by Design and Default Principles for SMEs
+    * **URL:** https://www.enisa.europa.eu/publications/enisa-secure-by-design-and-default-playbook
+    * **Publisher:** ENISA
+    * **License:** CC BY 4.0
+    * **Type:** Guide
+    * **Publication date:** July 2026
+  </details>
+
+
 ### 1.3 Security processes and governance
 
 * [Compiler Hardening Guide/ C C++ compiler options](https://best.openssf.org/Compiler-Hardening-Guides/Compiler-Options-Hardening-Guide-for-C-and-C++.html) - This guide (hosted by the OpenSSF Best Practices community) outlines how to leverage modern compiler features and settings to produce more secure software binaries in C and C++. It provides practical recommendations on compiler options that enable various hardening mechanisms. Examples include turning on stack canaries and stack overflow protections (-fstack-protector-strong), using address space layout randomization friendly flags (-fPIE for position-independent executables, and linking with -pie), enabling control-flow integrity or forward-edge protections (if supported by the compiler toolchain), enabling warnings and treating them as errors for risky patterns, and using memory sanitization tools in testing builds. The guide may also discuss choices like enabling Fortify Source (to catch certain buffer overflows at runtime) and using latest standards (e.g. C11/C17 features that improve safety). Each suggested option is explained in terms of what security benefit it provides and any trade-offs (such as performance impact or compatibility). Following this hardening guide helps developers raise the baseline security of their C/C++ applications, making them more resistant to common memory corruption vulnerabilities by catching issues early or making exploitation much more difficult.
@@ -213,6 +226,19 @@ The impact on open source software stewards is limited to a partial obligation t
     * **Type:** informal
     * **Publication date:** 2009 – present
   </details>
+
+* [Hack23 AB CRA Conformity Assessment Process](https://github.com/Hack23/ISMS-PUBLIC/blob/main/CRA_Conformity_Assessment_Process.md) - A company's public conformity assessment process for the CRA, published as part of its information security management system and marked as a template for other projects to copy. It walks through project identification, CRA scope and classification, technical documentation, risk assessment, the essential cybersecurity requirements, conformity assessment evidence, post-market surveillance and the EU declaration of conformity, with the evidence the company records at each step.
+  <details>
+    <summary>More info</summary>
+
+    * **Title:** Hack23 AB — CRA Conformity Assessment Process
+    * **URL:** https://github.com/Hack23/ISMS-PUBLIC/blob/main/CRA_Conformity_Assessment_Process.md
+    * **Publisher:** Hack23 AB
+    * **License:** Not specified
+    * **Type:** Process template
+    * **Publication date:** June 2026 (version 1.5)
+  </details>
+
 
 ## 2. Generic Security Requirements
 
@@ -608,6 +634,19 @@ This section contains references which are relevant to:
     * **Publication date:** 
   </details>
 
+* [ENISA Technical Advisory on Secure Update Mechanisms](https://www.enisa.europa.eu/publications/enisa-technical-advisory-on-secure-update-mechanisms) - Practical technical guidance for the teams that design, implement or operate the update mechanisms of products with digital elements, written with micro, small and medium-sized manufacturers in mind. It describes common threats across the update life cycle and a set of controls that mitigate them and support secure update delivery, which is what the CRA's vulnerability handling requirements ask of security updates.
+  <details>
+    <summary>More info</summary>
+
+    * **Title:** ENISA Technical Advisory on Secure Update Mechanisms
+    * **URL:** https://www.enisa.europa.eu/publications/enisa-technical-advisory-on-secure-update-mechanisms
+    * **Publisher:** ENISA
+    * **License:** CC BY 4.0
+    * **Type:** Technical advisory
+    * **Publication date:** November 2026
+  </details>
+
+
 ## 4. SBOM
 
 This section contains references which are relevant to the requirements expressed in [Annex I, Part II(1)][Annex I] of the CRA. It corresponds to the [horizontal type "B" standard number 15][Horizontal standards] of the European Commission's standardisation request to the ESOs:
@@ -779,6 +818,20 @@ This section contains references which are relevant to the requirements expresse
   </details>
 
  
+
+* [ENISA Technical Advisory for Software Bill of Materials](https://www.enisa.europa.eu/publications/enisa-technical-advisory-for-software-bill-of-materials) - Practical guidance on adopting SBOMs, intended for organisations, in particular small and medium-sized enterprises and open-source software stewards, that are setting up their first SBOM capability. It outlines an SBOM implementation architecture and its data flows over a defined life cycle, presents an indicative threat model for SBOMs with the risks it targets, and lists measures that address security issues across the SBOM ecosystem. It aligns with the ENISA Secure by Design and Default Playbook.
+  <details>
+    <summary>More info</summary>
+
+    * **Title:** ENISA Technical Advisory for Software Bill of Materials
+    * **URL:** https://www.enisa.europa.eu/publications/enisa-technical-advisory-for-software-bill-of-materials
+    * **Publisher:** ENISA
+    * **License:** CC BY 4.0
+    * **Type:** Technical advisory
+    * **Publication date:** October 2026
+  </details>
+
+
 ## 5. Due diligence requirements
 
 This section contains references which are relevant to the requirement to "exercise due diligence" expressed in [Article 13(5)][Article 13] of the CRA. It has no corresponding standard request in the [European Commission's standardisation request to the ESOs][ESO request].
@@ -832,6 +885,30 @@ This section contains references which are relevant to the requirement to "exerc
     * **License:** CC-BY-4.0
     * **Type:** 
     * **Publication date:** 45261
+  </details>
+
+* [ENISA Technical Advisory for Secure Use of Package Managers](https://www.enisa.europa.eu/publications/enisa-technical-advisory-for-secure-use-of-package-managers) - Guidance on using package managers securely as part of the software development life cycle: the common risks of relying on third-party packages, secure practices for selecting, integrating and monitoring packages, and approaches for addressing vulnerabilities found in dependencies. It bears on the due diligence a manufacturer owes on the components it integrates.
+  <details>
+    <summary>More info</summary>
+
+    * **Title:** ENISA Technical Advisory for Secure Use of Package Managers
+    * **URL:** https://www.enisa.europa.eu/publications/enisa-technical-advisory-for-secure-use-of-package-managers
+    * **Publisher:** ENISA
+    * **License:** CC BY 4.0
+    * **Type:** Technical advisory
+    * **Publication date:** March 2026
+  </details>
+
+* [Baseline practice - Document support levels (PACKAGE-SUPPORT.md)](https://github.com/nodejs/package-maintenance/blob/main/docs/PACKAGE-SUPPORT.md) - A baseline practice from the Node.js Package Maintenance Working Group for documenting the level of support a package maintainer intends to provide, in a standard, machine-readable form: the target versions and platforms, the response expected on issues and security reports, how long the package is supported, and how to obtain support or fund the package. Written for the npm ecosystem and meant to apply to others; the kind of declaration a manufacturer's due diligence on a component looks for.
+  <details>
+    <summary>More info</summary>
+
+    * **Title:** Baseline practice - Document support levels
+    * **URL:** https://github.com/nodejs/package-maintenance/blob/main/docs/PACKAGE-SUPPORT.md
+    * **Publisher:** Node.js Package Maintenance Working Group (OpenJS Foundation)
+    * **License:** Not specified
+    * **Type:** Baseline practice
+    * **Publication date:** 2019, maintained since
   </details>
 
 
@@ -912,6 +989,18 @@ This section contains references which are relevant to the "security attestation
     * **License:** Apache 2.0 and others
     * **Type:** Semi-formal
     * **Publication date:** 
+  </details>
+
+* [CycloneDX Attestations (CDXA)](https://cyclonedx.org/capabilities/attestations/) - The attestations capability of the CycloneDX standard (ECMA-424), introduced in version 1.6, lets an organisation state in a machine-readable form which requirements of a standard it claims to meet, with the evidence, the claims, any counter-evidence and digital signatures behind each. It applies to any set of requirements, including the essential cybersecurity requirements of the CRA, and is the format the Authoritative Guide to Attestations above explains.
+  <details>
+    <summary>More info</summary>
+
+    * **Title:** CycloneDX Attestations
+    * **URL:** https://cyclonedx.org/capabilities/attestations/
+    * **Publisher:** OWASP CycloneDX, standardised by Ecma TC54
+    * **License:** Apache-2.0
+    * **Type:** Specification
+    * **Publication date:** 2024 (CycloneDX 1.6)
   </details>
 
 
