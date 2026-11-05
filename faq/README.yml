@@ -3,7 +3,6 @@ icon: 📚
 description: Browse FAQs by category
 faqs:
   - cra-itself
-  - contributors
   - maintainers
   - projects
   - stewards

@@ -1,27 +1,9 @@
-title: Maintainers
-description: Understanding the role of maintainers under the CRA and clarifying their obligations
+title: Contributors and maintainers
+description: For people who contribute to or maintain an open source project: why contributing never brings you under the CRA, whether maintaining does, how to get paid without becoming a manufacturer, what the companies that use your project owe you, and what follows when the CRA does apply.
 icon: 🧑‍🔧
 faqs:
-  - should-i-worry
-  - monetization
-  - become-manufacturer
-  - contributors
-  - employer
-  - no-monetization
-  - enforcement
-  - penalties
-  - transparency
-  - solo-maintainer-steward
-  - outside-eu
-  - multiple-maintainers-steward
-  - incorporate
-  - hand-to-steward
-  - popularity
-  - used-in-products
-  - consultants
-  - grants
-  - donations
-  - technical-support
-  - living-expenses
-  - paid-dev
-  - sponsorware
+  - contributing
+  - scope
+  - income
+  - downstream
+  - consequences
