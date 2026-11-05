@@ -13,6 +13,6 @@ First, the CRA likely does not apply to you.
 - If you're a maintainer, and you _do not_ "monetise" your FOSS codebase, the CRA explicitly exempts you. For more detail, see [[maintainers/no-monetization]]
 - If you're a maintainer, and you _do_ generate revenue from your FOSS codebase, you may still be exempted, depending on exactly how you are monetizing the codebase and your participation in it. For more detail, see [[maintainers/monetization]]
 
-Second, even if the CRA does ultimately apply to you, penalties for solo and small-team maintainers are unlikely to be severe. For more detail, see [[maintainers/penalties]]
+Second, even if the CRA applies to you because you monetise your project, fines are scaled to the size and means of the person fined. For more detail, see [[maintainers/penalties]]
 
-As a result, we would strongly urge you _not_ to shut down any open source projects (or your participation in those projects) just because of the CRA.
+So there is no reason to shut down an open source project, or your participation in one, because of the CRA.
