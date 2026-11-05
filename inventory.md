@@ -899,7 +899,7 @@ This section contains references which are relevant to the requirement to "exerc
     * **Publication date:** March 2026
   </details>
 
-* [Baseline practice - Document support levels (PACKAGE-SUPPORT.md)](https://github.com/nodejs/package-maintenance/blob/main/docs/PACKAGE-SUPPORT.md) - A baseline practice from the Node.js Package Maintenance Working Group for documenting the level of support a package maintainer intends to provide, in a standard, machine-readable form: the target versions and platforms, the response expected on issues and security reports, how long the package is supported, and how to obtain support or fund the package. Written for the npm ecosystem and meant to apply to others; the kind of declaration a manufacturer's due diligence on a component looks for.
+* [Baseline practice - Document support levels (PACKAGE-SUPPORT.md)](https://github.com/nodejs/package-maintenance/blob/main/docs/PACKAGE-SUPPORT.md) - A baseline practice from the Node.js Package Maintenance Working Group for documenting the level of support a package maintainer intends to provide, in a standard, machine-readable form: the target versions and platforms, the response maintainers aim to give on issues and security reports, and what backs the package, from a hobby to a foundation or a company, and how to fund it. Written for the npm ecosystem and meant to apply to others; the kind of declaration a manufacturer's due diligence on a component looks for.
   <details>
     <summary>More info</summary>
 
