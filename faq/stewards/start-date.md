@@ -9,4 +9,4 @@ The steward obligations all start to apply on 11 December 2027. The Commission's
 
 The earlier date of 11 September 2026 for reporting is for manufacturers only. An organisation that is a manufacturer for one project and a steward for another reports from the earlier date for the first and from the later date for the second: see [[manufacturers/both-manufacturer-and-steward]].
 
-From 11 December 2027 the obligations cover every project the steward sustains, including projects that predate the CRA: see [[stewards/old-projects]]. For the CRA's dates as a whole, see [[cra-itself/timeline]].
+Projects that predate the CRA are covered too: see [[stewards/old-projects]]. For the CRA's dates as a whole, see [[cra-itself/timeline]].
