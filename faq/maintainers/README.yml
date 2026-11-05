@@ -3,25 +3,25 @@ description: Understanding the role of maintainers under the CRA and clarifying 
 icon: 🧑‍🔧
 faqs:
   - should-i-worry
-  - monetization
-  - become-manufacturer
+  - no-monetization
   - contributors
   - employer
-  - no-monetization
-  - enforcement
-  - penalties
-  - transparency
-  - solo-maintainer-steward
+  - popularity
   - outside-eu
+  - solo-maintainer-steward
   - multiple-maintainers-steward
   - incorporate
   - hand-to-steward
-  - popularity
-  - used-in-products
-  - consultants
-  - grants
+  - become-manufacturer
+  - monetization
+  - living-expenses
   - donations
   - technical-support
-  - living-expenses
+  - consultants
   - paid-dev
+  - grants
   - sponsorware
+  - used-in-products
+  - transparency
+  - penalties
+  - enforcement
