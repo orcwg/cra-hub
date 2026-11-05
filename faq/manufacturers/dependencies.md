@@ -12,6 +12,7 @@ All of them that end up in the product, and the remote services the product depe
 | **Components** |  |  |  |  |  |
 | In-house component | Software the manufacturer develops itself and builds into the product or its remote data processing solution[^5] | ✅ | ✅ | N/A | ✅ |
 | Third-party component | A component bought from a vendor that placed it on the market under the CRA, built into the product or its remote data processing solution, with its own declaration of conformity and its own manufacturer handling its vulnerabilities[^6] | ✅ |  | ✅ | ✅ for the product; the component itself is fixed by its manufacturer |
+| Third-party component not subject to the CRA | A component bought from a vendor that did not place it on the EU market, or placed it there before the CRA applied, built into the product or its remote data processing solution[^6] | ✅ |  | ✅ | ✅, including fixing the component, with or without the vendor's help |
 | Open source component | A library, package, container image or SDK published as open source and not placed on the market, built into the product or its remote data processing solution[^7] | ✅ |  | ✅ | ✅, including fixing the component |
 | Recursive dependencies of open source components | Software an open source component itself depends on, at any depth[^8] | ✅ |  | ✅ | ✅, including fixing the component |
 | **Remote data processing solutions (RDPS)** |  |  |  |  |  |
@@ -26,7 +27,7 @@ All of them that end up in the product, and the remote services the product depe
 [^3]: [[CRA Article 13(5)]], [[official/faq_4-4-1]], [[official/faq_4-4-2]]
 [^4]: [[CRA Article 13(8)]], [[CRA Annex I, Part II]], [[official/faq_4-3-6]]
 [^5]: [[CRA-GUIDANCE point 173]]
-[^6]: [[official/faq_4-4-1]], [[official/faq_4-3-6]]
+[^6]: [[official/faq_4-4-1]], [[official/faq_4-3-6]], [[CRA Recital 35]]
 [^7]: [[CRA Article 13(5)]], [[CRA Recital 34]], [[official/faq_4-4-4]], [[official/faq_4-3-6]]; see [[due-diligence/foss]]
 [^8]: [[official/faq_4-3-6]]
 [^9]: [[CRA Article 3(2)]], [[CRA-GUIDANCE point 180]], [[CRA-GUIDANCE point 184]], [[CRA-GUIDANCE point 198]], [[CRA-GUIDANCE point 199]]; see [[remote-processing/scope]]
