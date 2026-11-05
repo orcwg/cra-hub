@@ -10,15 +10,15 @@ All of them that end up in the product, and the remote services the product depe
 | Dependency | What it covers | Risk assessment[^1] | Essential requirements[^2] | Due diligence[^3] | Vulnerability handling[^4] |
 |---|---|:-:|:-:|:-:|:-:|
 | In-house component | Software the manufacturer develops itself and builds into the product[^5] | ✅ | ✅ | N/A | ✅ |
-| Direct dependency | Libraries, packages, container images, SDKs and copied-in code used by the product as shipped[^6] | ✅ | through due diligence | ✅ | ✅ |
-| Component that is itself a CRA product | A component placed on the market under the CRA, with its own declaration of conformity and its own manufacturer handling its vulnerabilities[^7] | ✅ | through due diligence | ✅ | ✅, supported by the component manufacturer's |
-| Indirect dependency of an open source component | Software an open source component itself depends on, at any depth; the SBOM need only list top-level dependencies[^8] | ✅ | through due diligence | ✅ | ✅ |
+| Direct dependency | Libraries, packages, container images, SDKs and copied-in code used by the product as shipped[^6] | ✅ |  | ✅ | ✅ |
+| Component that is itself a CRA product | A component placed on the market under the CRA, with its own declaration of conformity and its own manufacturer handling its vulnerabilities[^7] | ✅ |  | ✅ | ✅, supported by the component manufacturer's |
+| Indirect dependency of an open source component | Software an open source component itself depends on, at any depth; the SBOM need only list top-level dependencies[^8] | ✅ |  | ✅ | ✅ |
 | Remote data processing solution developed by the manufacturer | Processing at a distance designed and developed by the manufacturer, or under its responsibility, without which the product cannot perform one of its functions, including software run on a third party's cloud; not the hardware it runs on[^9] | ✅, including self-hosted hardware | ✅ | N/A | ✅ |
-| Third-party remote service | A remote service the product depends on, not developed by the manufacturer: a SaaS application, a platform's runtime, an infrastructure's hypervisor; the provider's own stack is the provider's responsibility[^10] | ✅ | through due diligence | ✅, on the provider | mitigation at product level |
+| Third-party remote service | A remote service the product depends on, not developed by the manufacturer: a SaaS application, a platform's runtime, an infrastructure's hypervisor; the provider's own stack is the provider's responsibility[^10] | ✅ |  | ✅, on the provider | mitigation at product level |
 | Outside the product | Remote processing not needed for the product's functions, back-end systems the product does not interact with, the manufacturer's own IT and build pipelines[^11] | ✅ | N/A | N/A | N/A |
 
 [^1]: [[CRA Article 13(2)]], [[CRA Article 13(3)]], [[CRA-GUIDANCE point 167]], [[CRA-GUIDANCE point 206]]
-[^2]: Implemented directly for what the manufacturer develops ([[CRA Article 13(1)]], [[CRA-GUIDANCE point 173]]); for what it integrates, ensured through due diligence ([[CRA-GUIDANCE point 173]])
+[^2]: [[CRA Article 13(1)]], [[CRA-GUIDANCE point 173]]
 [^3]: [[CRA Article 13(5)]], [[official/faq_4-4-1]], [[official/faq_4-4-2]]
 [^4]: [[CRA Article 13(8)]], [[CRA Annex I, Part II]], [[official/faq_4-3-6]]
 [^5]: [[CRA-GUIDANCE point 173]]
