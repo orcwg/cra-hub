@@ -9,6 +9,6 @@ Yes. Where your organisation is based does not matter. The CRA defines an _open-
 
 Neither the Commission's FAQ nor its guidance addresses stewards outside the EU directly. ENISA's FAQ assumes them: a steward with no main establishment in the EU reports to the CSIRT of the Member State where its software has the most users ([[srp/faq_18]], [[CRA Article 14(7)]]). See [[stewards/which-csirt]].
 
-The obligations are the same wherever you are: a cybersecurity policy, cooperation with market surveillance authorities at their request, and reporting in certain circumstances ([[CRA Article 24]]). An authority can ask you for your policy documentation in a language it can easily understand ([[CRA Article 24(2)]]): see [[stewards/enforcement]]. The CRA says nothing about an EU representative for stewards; the _authorised representative_ of [[CRA Article 18]] is a manufacturer's.
+The obligations are the same wherever you are: a cybersecurity policy, cooperation with market surveillance authorities at their request, and reporting in certain circumstances ([[CRA Article 24]]). An authority can ask you for your policy documentation in a language it can easily understand ([[CRA Article 24(2)]]): see [[stewards/enforcement]]. Stewards don't have an EU representative: only a manufacturer can appoint an _authorised representative_ ([[CRA Article 18]]).
 
 For an individual maintainer outside the EU, see [[maintainers/outside-eu]].
