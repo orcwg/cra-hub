@@ -1,6 +1,6 @@
 ---
 Status: ✅ Approved
-Related issues: https://github.com/orcwg/cra-hub/issues/305
+Related issues: https://github.com/orcwg/cra-hub/issues/305, https://github.com/orcwg/cra-hub/issues/71
 ---
 
 # What level of due diligence is reasonable for manufacturers integrating open source components?
