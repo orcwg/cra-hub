@@ -1,0 +1,14 @@
+title: Whether the CRA applies to you
+description: For people who maintain an open source project: why the CRA does not apply to you unless you monetise the project, whatever your project's reach, and why the steward role is not yours either.
+icon: 🙋
+faqs:
+  - maintainers/should-i-worry
+  - maintainers/no-monetization
+  - maintainers/contributors
+  - maintainers/employer
+  - maintainers/popularity
+  - maintainers/outside-eu
+  - maintainers/solo-maintainer-steward
+  - maintainers/multiple-maintainers-steward
+  - maintainers/incorporate
+  - maintainers/hand-to-steward
