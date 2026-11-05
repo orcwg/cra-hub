@@ -10,8 +10,8 @@ No, providing technical support to an open source project for a fee does not put
 
 Support, consulting, training and similar professional services around open source software that anyone can download, install and update for free are services, not a sale of the software ([[CRA-GUIDANCE point 55]], [[CRA-GUIDANCE point 56]], [[CRA-GUIDANCE Example 18]]). What puts you in scope is when a version of the software, or its updates and maintenance, is only available with paid support: that version is a product you sell, and you are its manufacturer ([[CRA-GUIDANCE point 57]], [[CRA-GUIDANCE Example 17]]).
 
-Indeed, if the source code itself is only available to paying customers, the software is not considered to be open source under the CRA, whatever its licence, as defined in [[CRA Article 3(48)]] ([[CRA-GUIDANCE point 46]]).
+If the source code itself is only available to paying customers, the software is not considered to be open source under the CRA, whatever its licence, as defined in [[CRA Article 3(48)]] ([[CRA-GUIDANCE point 46]]).
 
-Worth also noting one exception: a service that substantially modifies open source software and provides it to customers without publishing your modifications publicly under an open source licence can make you a manufacturer of the derived work ([[CRA-GUIDANCE point 59]], [[CRA Article 22(1)]]).
+One exception: a support service that substantially modifies the software without publishing the modifications can make you the manufacturer of the result. See [[maintainers/consultants]].
 
 See also: [[maintainers/living-expenses]] and [[manufacturers/service-providers]].
