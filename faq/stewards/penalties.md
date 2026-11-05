@@ -1,6 +1,6 @@
 ---
 Status: ✅ Approved
-Related issues: https://github.com/orcwg/cra-hub/issues/292, https://github.com/orcwg/cra-hub/issues/216, https://github.com/orcwg/cra-hub/issues/158
+Related issues: https://github.com/orcwg/cra-hub/issues/292, https://github.com/orcwg/cra-hub/issues/216, https://github.com/orcwg/cra-hub/issues/158, https://github.com/orcwg/cra-hub/issues/239
 ---
 
 # What happens when an _open-source software steward_ doesn't meet its obligations?
