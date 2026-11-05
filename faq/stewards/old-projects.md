@@ -9,4 +9,4 @@ Yes. The Commission's FAQ says the reporting obligations of Article 14(1), (3) a
 
 The support period does not come into it. A steward has none: its obligations last as long as it sustains the project and end when it stops. See [[stewards/inactive]].
 
-For what a steward reports and to whom, see [[stewards/notification-obligations]] and [[stewards/which-csirt]].
+For when the steward obligations start, see [[stewards/start-date]]; for what a steward reports and to whom, [[stewards/notification-obligations]] and [[stewards/which-csirt]].
