@@ -1,8 +1,9 @@
 title: Manufacturers
-description: Whether your company is the manufacturer of a product under the CRA, what the CRA then asks of it, what it owes on the open source components it uses, and what happens when it falls short.
+description: Whether your company is the manufacturer of a product under the CRA, whether it is also the steward of open source software it publishes, what the CRA then asks of it, what it owes on the open source components it uses, and what happens when it falls short.
 icon: 🏭
 faqs:
   - role
+  - steward
   - duties
   - components
   - enforcement
