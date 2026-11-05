@@ -14,9 +14,25 @@ faqs:
   - app-stores
   - both-manufacturer-and-steward
   - advantages
+  - official/faq_4-2-1
   - self-assessment
   - support-period
+  - official/faq_4-5-2
+  - official/faq_6-10
+  - standards/harmonised-standards
+  - due-diligence/what-is-due-diligence
+  - official/faq_4-4-1
+  - official/faq_4-4-2
+  - official/faq_4-4-4
+  - due-diligence/foss
+  - official/faq_4-3-6
+  - official/faq_4-3-7
+  - vulnerability-handling/what-to-report
+  - vulnerability-handling/deadlines
+  - attestations/what-is-a-security-attestation
+  - due-diligence/relation-to-attestations
   - support-creates-obligations
+  - cra-basics/what-will-happen-to-non-compliant-products
   - mistakes
   - enforcement-sme
   - enforcement-enterprise
