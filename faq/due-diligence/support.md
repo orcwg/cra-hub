@@ -1,6 +1,6 @@
 ---
 Status: ✅ Approved
-Related issues: https://github.com/orcwg/cra-hub/issues/122
+Related issues: https://github.com/orcwg/cra-hub/issues/122, https://github.com/orcwg/cra-hub/issues/67
 ---
 
 # How can open source projects or their stewards support the due diligence requirements of manufacturers through documentation?
