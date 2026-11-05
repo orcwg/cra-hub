@@ -10,4 +10,4 @@ No. As defined in [[CRA Article 3(14)]], an open-source software steward must be
 
 However, should a solo maintainer set up a single-member company that is a legal entity in its own right, distinct from the natural legal persona of the solo maintainer, that entity could qualify as an open-source software steward if it meets the criteria for doing so.
 
-It is also worth noting that natural persons who monetise their project become subject to the CRA as manufacturers. In that case, they face the same obligations as any other manufacturer under [[CRA Article 13]], not the lighter-touch obligations that apply to open-source software stewards under [[CRA Article 24]]. For more on what qualifies as monetisation, see [[maintainers/monetization]].
+Natural persons who monetise their project become subject to the CRA as manufacturers. In that case, they face the same obligations as any other manufacturer under [[CRA Article 13]], not the lighter-touch obligations that apply to open-source software stewards under [[CRA Article 24]]. For more on what qualifies as monetisation, see [[maintainers/monetization]].

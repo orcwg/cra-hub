@@ -15,4 +15,4 @@ First, the CRA likely does not apply to you.
 
 Second, even if the CRA does ultimately apply to you, penalties for solo and small-team maintainers are unlikely to be severe. For more detail, see [[maintainers/penalties]]
 
-As a result, we would strongly urge you _not_ to shut down any open source projects (or your participation in those projects) just because of the CRA.
+So there is no reason to shut down an open source project, or your participation in one, because of the CRA.
