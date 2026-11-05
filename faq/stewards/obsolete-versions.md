@@ -5,7 +5,7 @@ Related issues: https://github.com/orcwg/cra-hub/issues/354
 
 # Do a steward's reporting obligations cover vulnerabilities in obsolete versions of a project?
 
-No, not once a version has reached its end of life. A steward reports actively exploited vulnerabilities _"to the extent that they are involved in the development"_ of the software ([[CRA Article 24(3)]]), and is a steward of software _"intended for commercial activities"_ ([[CRA Article 3(14)]]). A version the project has stopped maintaining is no longer developed, nor meant for anyone to build products on. It is no longer stewarded, so there is nothing to report on it. A version still maintained is covered, however old it is.
+A steward's reporting obligations do not cover a version once it has reached its end of life. A steward reports actively exploited vulnerabilities _"to the extent that they are involved in the development"_ of the software ([[CRA Article 24(3)]]), and is a steward of software _"intended for commercial activities"_ ([[CRA Article 3(14)]]). A version the project has stopped maintaining is no longer developed, nor meant for anyone to build products on. It is no longer stewarded, so there is nothing to report on it. A version still maintained is covered, however old it is.
 
 The guidance says that where an organisation _"ceases to provide systematic support on a sustained basis for a specific FOSS, it may no longer meet the definition of steward"_, and encourages it to _"communicate clearly the change in its status"_ ([[CRA-GUIDANCE point 83]]). What holds for a whole project holds for a version: see [[stewards/inactive]].
 
