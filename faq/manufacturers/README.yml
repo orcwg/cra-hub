@@ -1,22 +1,9 @@
 title: Manufacturers
-description: Understanding the manufacturer role and responsibilities under the CRA
+description: Whether your company is the manufacturer of a product under the CRA, whether it is also the steward of open source software it publishes, what the CRA then asks of it, what it owes on the open source components it uses, and what happens when it falls short.
 icon: 🏭
 faqs:
-  - what-is-a-manufacturer
-  - individuals
-  - advantages
-  - do-all-projects-have-manufacturers
-  - multiple-manufacturers
-  - both-manufacturer-and-steward
-  - mistakes
-  - self-assessment
-  - support-period
-  - enforcement-sme
-  - enforcement-enterprise
-  - funding-foss-dev
-  - major-contributor
-  - contributors
-  - support-creates-obligations
-  - service-providers
-  - intra-group
-  - app-stores
+  - role
+  - steward
+  - duties
+  - components
+  - enforcement
