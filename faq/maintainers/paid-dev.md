@@ -15,6 +15,6 @@ Common funding arrangements therefore do not make you a manufacturer:
 - **Grants and sponsorships**: see [[maintainers/grants]].
 - **Donations** that cover your costs and living expenses: see [[maintainers/donations]] and [[maintainers/living-expenses]].
 
-What does make you a manufacturer is being paid for the software itself: see [[maintainers/become-manufacturer]].
+You become a manufacturer when you are paid for the software itself: see [[maintainers/become-manufacturer]].
 
 For more information on what constitutes monetisation, see [[maintainers/monetization]]. For details on how contributions affect CRA status, see [[maintainers/contributors]].

@@ -20,4 +20,4 @@ A reply you can adapt, for an individual or a project alike:
 [Article 13(6)]: https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32024R2847#art_13
 ```
 
-Whether you are in fact outside the CRA: see [[maintainers/should-i-worry]] and [[maintainers/monetization]]. What integrators can expect from you: [[manufacturers/support-creates-obligations]].
+To check whether you are in fact outside the CRA, see [[maintainers/should-i-worry]] and [[maintainers/monetization]]. For what integrators can expect from you, see [[manufacturers/support-creates-obligations]].
