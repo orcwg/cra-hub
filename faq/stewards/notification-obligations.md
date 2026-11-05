@@ -24,5 +24,7 @@ The table below provides an actionable summary of those notification and informa
 [^2]: [[CRA Art. 14(3)]]
 [^3]: [[CRA Art. 14(8)]]
 
+For a fuller treatment of the reporting obligations and of informing users, see ORC WG's white paper: [[stewards/white-paper]].
+
 [relevant CSIRT]: ../vulnerability-handling/csirt.md
 [ENISA]: ../vulnerability-handling/enisa.md

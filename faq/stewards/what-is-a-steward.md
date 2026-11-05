@@ -9,3 +9,4 @@ _Open-source software steward_ is a term defined in [[CRA Article 3(14)]] of the
 
 > ‘open-source software steward’ means a legal person, other than a manufacturer, that has the purpose or objective of systematically providing support on a sustained basis for the development of specific products with digital elements, qualifying as free and open-source software and intended for commercial activities, and that ensures the viability of those products;
 
+For a longer treatment of the role and its obligations, see [[stewards/white-paper]].
