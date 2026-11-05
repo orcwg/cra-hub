@@ -11,7 +11,7 @@ The guidance is the Commission's interpretation: authoritative, but not binding 
 
 ENISA publishes practical material of its own: Technical Advisories on product security, such as on [secure update mechanisms][update advisory] and [software bills of materials][sbom advisory], a [Secure by Design and Default Playbook][playbook], and material on reporting through the single reporting platform ([[srp/faq_17]]). The advisories and the playbook are published under the Creative Commons Attribution 4.0 licence, so a project can reuse and adapt them in its own documentation, with credit and any changes indicated.
 
-The CRA Expert Group is how input from the community reaches the guidance: the Commission has to consult stakeholders when preparing it ([[CRA Article 26(3)]]), and consults the Expert Group as described in [[CRA Article 9]] (see [[cra-itself/cra-expert-group]]). The Commission also has to keep an easy-to-access list of the delegated and implementing acts adopted under the CRA ([[CRA Article 26(2)]]).
+The CRA Expert Group is how input from the community reaches the guidance: the Commission has to consult stakeholders when preparing it ([[CRA Article 26(3)]]), and consults the Expert Group as described in [[CRA Article 9]] (see [[cra-itself/cra-expert-group]]).
 
 [official guidance]: https://cra.orcwg.org/official-guidance/
 [commission faq]: https://ec.europa.eu/newsroom/dae/redirection/document/122331
