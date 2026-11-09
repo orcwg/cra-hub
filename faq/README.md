@@ -99,6 +99,20 @@ Related issues: [URL]
 [LINKS]
 ```
 
+### Moving an FAQ
+
+An FAQ's id, and so its URL on [cra.orcwg.org](https://cra.orcwg.org/), comes from where its file is: `faq/maintainers/transparency.md` is `maintainers/transparency`, at https://cra.orcwg.org/faq/maintainers/transparency/. To move an FAQ to another folder, for example into a sublist's folder, without changing its URL, give its old id as `id` in the frontmatter:
+
+```yaml
+---
+id: maintainers/transparency
+Status: ✅ Approved
+Related issues: https://github.com/orcwg/cra-hub/issues/70
+---
+```
+
+The FAQ keeps its URL, its API endpoint, and its `[[maintainers/transparency]]` references. Lists and relative links find it where the file now is: the sublist's `README.yml` lists it by its filename (`transparency`), and relative links to and from the file follow its new path, so update them when you move it. Move the file in a commit that changes little else in it (adding `id` is fine), so git sees a rename and the FAQ keeps its creation date on the site. Two FAQs can't have the same id: the site's build fails if they do.
+
 
 
 ## References
