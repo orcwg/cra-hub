@@ -5,7 +5,7 @@ Related issues: https://github.com/orcwg/cra-hub/issues/21
 guidance-id: open-source-guidance
 ---
 
-# Can you be a steward of your own codebase or only someone else's?
+# Can we be a steward of our own codebase or only someone else's?
 
 Yes, you can be an open-source software steward of your own codebase or of someone else's.
 

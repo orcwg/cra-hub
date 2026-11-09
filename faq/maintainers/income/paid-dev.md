@@ -4,7 +4,7 @@ Status: ✅ Approved
 Related issues: https://github.com/orcwg/cra-hub/issues/16
 ---
 
-# Can you get paid to develop an open source project without being considered a manufacturer?
+# Can I get paid to develop an open source project without being considered a manufacturer?
 
 Yes, you can get paid to develop an open source project without being considered a manufacturer under the CRA.
 

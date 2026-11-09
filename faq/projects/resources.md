@@ -3,7 +3,7 @@ Status: ✅ Approved
 Related issues: https://github.com/orcwg/cra-hub/issues/12, https://github.com/orcwg/cra-hub/issues/68
 ---
 
-# Where can you find best practices and resources for meeting the CRA's requirements?
+# Where can I find best practices and resources for meeting the CRA's requirements?
 
 ORC WG's [inventory of resources][inventory] collects the industry and community best practices that are related to the CRA's requirements for open source, by topic: secure design and development principles, vulnerability management, with specifications, policy templates and the policies of existing foundations, SBOMs, with the specifications, software identification and implementation guidelines, due diligence, security attestations, and similar legislation elsewhere. Each section says which requirement of the CRA it serves. The inventory is a working group document, kept up to date as resources appear, and anyone can add to it by pull request. The working group has also written a white paper on what the CRA asks of open-source software stewards ([[stewards/white-paper]]), and keeps a list of [talks and articles][community resources] on the CRA.
 

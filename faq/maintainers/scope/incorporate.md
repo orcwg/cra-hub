@@ -4,7 +4,7 @@ Status: ✅ Approved
 Related issues: https://github.com/orcwg/cra-hub/issues/81
 ---
 
-# As a solo maintainer, should you incorporate to avoid obligations under the CRA?
+# I'm a solo maintainer. Should I incorporate to avoid obligations under the CRA?
 
 No. As a solo maintainer of an open source project you don't monetise, you have no obligations under the CRA to avoid: the CRA does not apply to you (see [[maintainers/no-monetization]]). Incorporating takes nothing off you, and can give you obligations you don't have today.
 

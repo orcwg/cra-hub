@@ -4,7 +4,7 @@ Status: ⚠️ Draft
 Related issues: https://github.com/orcwg/cra-hub/issues/133
 ---
 
-# Are you subject to the CRA if you maintain, but do not monetize, an open source project?
+# Am I subject to the CRA if I maintain, but do not monetize, an open source project?
 
 If you are the maintainer of an open source codebase, and you do not monetize it, then the CRA _does not_ apply to you.
 

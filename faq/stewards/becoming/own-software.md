@@ -4,7 +4,7 @@ Status: ✅ Approved
 Related issues: https://github.com/orcwg/cra-hub/issues/458
 ---
 
-# Is your company the steward of the open source software it publishes?
+# Is my company the steward of the open source software it publishes?
 
 Yes, in most cases your company is the steward of the open source software it publishes. Software your company publishes without being its manufacturer, and uses in its products, its services or other parts of its business, is meant for commercial use, which makes your company its steward. The definition asks for a company or foundation that systematically provides sustained support for specific open source software intended for commercial activities and ensures its viability ([[CRA Article 3(14)]]). The Commission's guidance says the role covers software _"ultimately intended for commercial activities, such as for integration into commercial services or into monetised products"_ ([[CRA-GUIDANCE point 71]]), and gives this very case: a company that develops open source software for its own products and publishes it without placing it on the market _"is not a manufacturer of the software, but may be a steward to it"_ ([[CRA-GUIDANCE point 76]]). Publishing the software and maintaining it is the sustained support the definition asks for ([[CRA-GUIDANCE point 75]]; see [[stewards/sustained-support]]).
 

@@ -5,7 +5,7 @@ Related issues: https://github.com/orcwg/cra-hub/issues/64
 guidance-id: open-source-guidance
 ---
 
-# Do common consulting arrangements make you a manufacturer?
+# Do common consulting arrangements make me a manufacturer?
 
 No, common consulting arrangements do not make you a manufacturer. Helping a client install, configure or integrate software is providing a service, not placing a product on the market. The CRA applies to products, not to services, so providing a service does not make you a manufacturer ([[CRA-GUIDANCE point 59]], [[CRA-GUIDANCE Example 19]], see [[manufacturers/service-providers]]).
 

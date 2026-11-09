@@ -3,7 +3,7 @@ Status: ✅ Approved
 Related issues: https://github.com/orcwg/cra-hub/issues/125, https://github.com/orcwg/cra-hub/issues/238
 ---
 
-# If you sell support for your open source project, who do your manufacturer obligations cover?
+# If I sell support for my open source project, who do my manufacturer obligations cover?
 
 Nobody, as long as the project itself stays free. Selling support, consulting or vulnerability management around open source software that anyone can download, install and update without paying is a service, and the software is not placed on the market: the Commission's guidance says the decisive factor is _"whether access to the FOSS itself … including its maintenance, is conditioned on remuneration"_ ([[CRA-GUIDANCE point 56]], [[CRA-GUIDANCE point 55]]). Your customers get a service, and the software has no manufacturer ([[CRA-GUIDANCE point 59]]; see [[maintainers/technical-support]]). Whether your company is the software's steward is a separate question, decided by whether it publishes and sustains the project, not by the service it sells ([[stewards/own-software]]).
 

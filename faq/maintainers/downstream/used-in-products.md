@@ -4,7 +4,7 @@ Status: ✅ Approved
 Related issues: https://github.com/orcwg/cra-hub/issues/77, https://github.com/orcwg/cra-hub/issues/74
 ---
 
-# Do you have obligations as a maintainer if your open source project is used in commercial or critical products?
+# Do I have obligations as a maintainer if my open source project is used in commercial or critical products?
 
 No. As the maintainer of an open source project you don't monetise, you have no obligations under the CRA, and that does not change when companies build it into their products, however critical, whether you know of those uses or not. The Commission's guidance says that _"maintainers of FOSS components that are not placed on the market do not bear obligations in relation to other entities that may integrate such components into their products with digital elements"_: whether the CRA applies to your project depends only on whether you place it on the market ([[CRA-GUIDANCE point 87]]). Who uses your project, and how many, does not enter into it: see [[maintainers/popularity]].
 

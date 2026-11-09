@@ -4,7 +4,7 @@ Status: ✅ Approved
 Related issues: https://github.com/orcwg/cra-hub/issues/162
 ---
 
-# Is stewardship something you opt in to, or can you be designated as a steward, and if so, by whom?
+# Is stewardship something we opt in to, or can we be designated as a steward, and if so, by whom?
 
 Neither. Your organisation is an _open-source software steward_ when it meets the definition. What counts is what it does, not whether it calls itself a steward or someone names it one. The definition has four parts: a company or foundation (a _legal person_); other than a manufacturer; whose purpose is to systematically provide sustained support for specific open source software intended for commercial use; and which ensures that software's viability ([[CRA Article 3(14)]]). An organisation that fits it _"is subject to the obligations of stewards"_ ([[CRA-GUIDANCE point 70]]).
 

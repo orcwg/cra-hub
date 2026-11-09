@@ -3,7 +3,7 @@ Status: ✅ Approved
 Related issues: https://github.com/orcwg/cra-hub/issues/19
 ---
 
-# Does getting paid for open source software development make you a manufacturer?
+# Does getting paid for open source software development make me a manufacturer?
 
 No. Companies that get paid for open source development work are service providers, not manufacturers under the CRA.
 

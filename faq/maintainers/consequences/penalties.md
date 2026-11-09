@@ -4,7 +4,7 @@ Status: ✅ Approved
 Related issues: https://github.com/orcwg/cra-hub/issues/133, https://github.com/orcwg/cra-hub/issues/83
 ---
 
-# What penalties could you face as the maintainer of an open source project?
+# What penalties could I face as the maintainer of an open source project?
 
 As a maintainer, you face no penalties under the CRA, because the CRA does not apply to you. It applies to manufacturers, and an individual who publishes open source software without monetising it is not one ([[CRA-GUIDANCE point 53]]; see [[maintainers/no-monetization]]). There is nothing to fine, whatever your project's security practices: no SBOM, security policy or formal process is required of you.
 

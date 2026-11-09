@@ -4,7 +4,7 @@ Status: ✅ Approved
 Related issues: https://github.com/orcwg/cra-hub/issues/17
 ---
 
-# Are you subject to the CRA if you only contribute to an open source project?
+# Am I subject to the CRA if I only contribute to an open source project?
 
 No. Contributions to open source projects are explicitely not in scope of the CRA, as stated in [[CRA Recital 18]]:
 

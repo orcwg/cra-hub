@@ -3,7 +3,7 @@ Status: ✅ Approved
 Related issues: https://github.com/orcwg/cra-hub/issues/166
 ---
 
-# Your product category is not listed among the important and critical products. Does that mean it is not in scope of the CRA?
+# My product category is not listed among the important and critical products. Does that mean it is not in scope of the CRA?
 
 No. The lists of important and critical products only pick out the products that face stricter conformity assessment. Most products in scope of the CRA are on neither list, and the CRA applies to them all the same.
 

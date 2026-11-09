@@ -3,7 +3,7 @@ Status: ✅ Approved
 Related issues: https://github.com/orcwg/cra-hub/issues/90
 ---
 
-# If your product has features from several important or critical product categories, which requirements apply?
+# If my product has features from several important or critical product categories, which requirements apply?
 
 The same ones as for any product: the essential cybersecurity requirements of [[CRA Annex I]], once, for the product as a whole. The CRA has no requirements per product category. The categories in [[CRA Annex III]] and [[CRA Annex IV]] decide which conformity assessment procedure applies, not which requirements ([[official/faq_3-1]], [[CRA-GUIDANCE point 137]]), and the "vertical" harmonised standards written for them are one way to show conformity, not extra requirements ([[official/faq_6-10]]).
 
