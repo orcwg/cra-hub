@@ -111,7 +111,7 @@ Related issues: https://github.com/orcwg/cra-hub/issues/70
 ---
 ```
 
-The FAQ keeps its URL, its API endpoint, and its `[[maintainers/transparency]]` references. Lists and relative links find it where the file now is: the sublist's `README.yml` lists it by its filename (`transparency`), and relative links to and from the file follow its new path, so update them when you move it. Move the file in a commit that changes little else in it (adding `id` is fine), so git sees a rename and the FAQ keeps its creation date on the site. Two FAQs can't have the same id: the site's build fails if they do.
+The FAQ keeps its URL, its API endpoint, and its `[[maintainers/transparency]]` references. Lists and relative links find it where the file now is: the sublist's `README.yml` lists it by its filename (`transparency`), and relative links to and from the file follow its new path, so update them when you move it. Move the file in a pull request that changes little else in it (adding `id` and fixing relative links is fine), so git sees a rename: the FAQ then keeps its dates on the site, and the move doesn't show it as recently updated. A new FAQ written in a sublist's folder gives `id: <category>/<slug>` too, so that it can be referenced as `[[<category>/<slug>]]`. Two FAQs can't have the same id: the site's build fails if they do.
 
 
 
