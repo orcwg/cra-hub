@@ -5,7 +5,7 @@ Related issues: https://github.com/orcwg/cra-hub/issues/33, https://github.com/o
 guidance-id: open-source-guidance
 ---
 
-# Does accepting donations make me a manufacturer?
+# Does accepting donations make you a manufacturer?
 
 No, receiving donations does not make you a manufacturer, as long as those donations cover your actual costs rather than generate profit.
 

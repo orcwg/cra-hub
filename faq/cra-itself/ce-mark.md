@@ -3,7 +3,7 @@ Status: ✅ Approved
 Related issues: https://github.com/orcwg/cra-hub/issues/34
 ---
 
-# What is the 'CE mark' and do I need to add it to my software?
+# What is the 'CE mark' and do you need to add it to your software?
 
 The CE mark is a distinctive symbol indicating that a product complies with the relevant EU product regulations. **Under the CRA, only manufacturers are authorized to add the CE mark to a product.** Open source software stewards and developers outside the scope of the CRA cannot do so.
 

@@ -4,7 +4,7 @@ Status: ✅ Approved
 Related issues: https://github.com/orcwg/cra-hub/issues/82
 ---
 
-# Should I give my project to a steward to avoid obligations under the CRA?
+# Should you give your project to a steward to avoid obligations under the CRA?
 
 No. If you maintain an open source project and don't monetise it, the CRA does not apply to you (see [[maintainers/no-monetization]]). There is nothing for a steward to take over.
 

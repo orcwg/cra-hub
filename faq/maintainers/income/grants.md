@@ -4,7 +4,7 @@ Status: ✅ Approved
 Related issues: https://github.com/orcwg/cra-hub/issues/64
 ---
 
-# Does receiving grants make me a manufacturer?
+# Does receiving grants make you a manufacturer?
 
 No. Receiving grants does not make you a manufacturer under the CRA.
 

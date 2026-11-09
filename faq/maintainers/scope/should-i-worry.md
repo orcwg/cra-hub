@@ -4,7 +4,7 @@ Status: ✅ Approved
 Related issues: https://github.com/orcwg/cra-hub/issues/133
 ---
 
-# I am worried about how the CRA might impact me, and so I am considering shutting down my open source projects. Should I do that?
+# Should you shut down your open source projects because you are worried about how the CRA might impact you?
 
 The CRA should have zero or minimal impact on most open source developers, so you should probably not shut down your open source projects because of the CRA. There are several reasons for this:
 

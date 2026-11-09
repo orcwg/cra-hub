@@ -4,7 +4,7 @@ Status: ✅ Approved
 Related issues: https://github.com/orcwg/cra-hub/issues/79
 ---
 
-# I'm a solo maintainer not based in the EU. What impact does the CRA have on me?
+# As a solo maintainer not based in the EU, what impact does the CRA have on you?
 
 The same as on a solo maintainer in the EU: none, unless you monetise your project and supply it to the EU market. Where you live does not enter into it. The CRA applies to products with digital elements _"made available on the market"_, meaning supplied for distribution or use _"on the Union market in the course of a commercial activity"_ ([[CRA Article 2(1)]], [[CRA Article 3(22)]]), wherever the person supplying them is based.
 

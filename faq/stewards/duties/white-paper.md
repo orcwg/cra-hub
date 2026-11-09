@@ -4,7 +4,7 @@ Status: ✅ Approved
 Related issues: https://github.com/orcwg/cra-hub/issues/415
 ---
 
-# Where can I read more about what the CRA asks of stewards?
+# Where can you read more about what the CRA asks of stewards?
 
 ORC WG's [white paper on open-source software stewards and the CRA][white paper] is the longer treatment of the steward role, written by the working group's Cyber Resilience SIG. It is also available as a [PDF][] and as [Markdown on GitHub][markdown].
 

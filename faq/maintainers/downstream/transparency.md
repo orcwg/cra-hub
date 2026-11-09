@@ -4,7 +4,7 @@ Status: ✅ Approved
 Related issues: https://github.com/orcwg/cra-hub/issues/70
 ---
 
-# I am not subject to the CRA, and want to make this clear to downstream users. What should I say?
+# If you are not subject to the CRA and want to make this clear to downstream users, what should you say?
 
 Say that the project is not placed on the market, so neither the CRA nor the Product Liability Directive puts obligations on it towards the companies that use it, and that those companies' obligations run the other way. The Commission's guidance settles the first part: _"maintainers of FOSS components that are not placed on the market do not bear obligations in relation to other entities that may integrate such components into their products with digital elements"_ ([[CRA-GUIDANCE point 87]]). Manufacturers who integrate your project _"are required to comply with the CRA for their own products"_, owe due diligence on your project, and have to report vulnerabilities they find in it to you and share their fixes ([[CRA-GUIDANCE point 88]], [[CRA Article 13(5)]], [[CRA Article 13(6)]]). You are under no obligation to act on their reports or merge their fixes.
 

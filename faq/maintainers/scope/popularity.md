@@ -4,7 +4,7 @@ Status: ✅ Approved
 Related issues: https://github.com/orcwg/cra-hub/issues/75
 ---
 
-# Does the mere popularity of my open source project expose me to CRA regulation?
+# Does the mere popularity of your open source project expose you to CRA regulation?
 
 No — the mere popularity of your open source project does not expose you to CRA regulation.
 
