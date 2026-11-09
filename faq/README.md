@@ -193,6 +193,18 @@ Prefix the reference with `CRA-GUIDANCE` to link to a section, point, example, o
 Donations that exceed actual costs indicate monetisation ([[CRA-GUIDANCE Section 3.2.4]]).
 ```
 
+### Choosing the link text
+
+Add a pipe and your own text to any double-bracket reference to link that text instead of the generated one:
+
+```markdown
+Stewards may issue [[CRA Article 25 | security attestations]].
+```
+
+renders as "Stewards may issue security attestations.", linked to Article 25 of the CRA with its usual tooltip. This works for every reference above and for `[[category/faq]]` references. In a table cell, escape the pipe: `[[CRA Article 25 \| security attestations]]`.
+
+Use it where the sentence reads better with a term than with a citation. Where the reader needs to know which provision supports a claim, keep the plain citation.
+
 ### External References
 
 1. References to an EU legal text as a whole should link to its landing page on EUR-Lex, for example: https://eur-lex.europa.eu/eli/reg/2019/2144/oj
