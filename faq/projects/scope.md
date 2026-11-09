@@ -1,19 +1,18 @@
 ---
-Status: ⚠️ Draft
+Status: ✅ Approved
 Related issues: https://github.com/orcwg/cra-hub/issues/124
 ---
 
 # What criteria determine whether an open source project is in scope of the CRA?
 
-> [!WARNING]  
-> This FAQ needs refactoring.
+Whether an open source project is in scope of the CRA depends on who is responsible for it and whether they monetise it, not on the project itself ([[CRA-GUIDANCE point 49]], [[CRA-GUIDANCE point 50]]). The person or organisation responsible is the one who publishes the project and controls its releases, usually its maintainers: see [[cra-itself/under-responsibility]].
 
-The CRA regulates _natural and legal persons_ (either an individual or an organisation that has a legal personality, like a business, foundation or charity). There are three possible categories with descending requirements. These categories are _manufacturer_, _Open Source Software Steward_, or _Out of Scope_.
+If you are responsible for the project, there are three cases:
 
-> Note: At present, we believe that a natural person (an individual) cannot be considered an Open Source Software Steward, however we are currently verifying this with the European Commission. We will provide more detailed guidance as soon as possible.
+- **You monetise the project**, for example by charging for the software or its binaries: you are its manufacturer, with the obligations of [[CRA Article 13]] ([[CRA-GUIDANCE point 51]]). Monetising without making a profit is covered in [[projects/monetizing]].
+- **You are an individual and don't monetise it**: the project is outside the CRA ([[CRA-GUIDANCE point 53]]). See [[maintainers/no-monetization]].
+- **You are a company or foundation that systematically supports the project on a sustained basis, and it is intended for commercial use**: you are its _open-source software steward_, with the lighter obligations of [[CRA Article 24]] ([[CRA Article 3(14)]], [[CRA-GUIDANCE point 70]]). An individual cannot be a steward: see [[maintainers/solo-maintainer-steward]].
 
-- You are **out of scope** of the CRA (meaning you are not required to comply with the regulation), if you are a natural person (an individual), and:
-  - you are not monetising your project at all, or
-  - you are monetising your project, without the intention of making a profit. (See Question: What does "Monetizing without making a profit" mean?)
+A paid version and a free version of the same codebase are different products. You are the manufacturer of the version you monetise, and the free version falls under one of the other two cases ([[CRA-GUIDANCE point 52]], [[CRA-GUIDANCE point 53]]).
 
-> Note: Further information for legal persons (organisations, foundations, associations) will be provided here as soon as we receive further clarifications and information from the European Commission.
+How this plays out for different kinds of projects is covered in [[cra-itself/projects-or-persons]].
