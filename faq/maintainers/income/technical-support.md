@@ -5,7 +5,7 @@ Related issues: https://github.com/orcwg/cra-hub/issues/33, https://github.com/o
 guidance-id: open-source-guidance
 ---
 
-# Does providing technical support for a fee put you in scope of the CRA?
+# Does providing technical support for a fee put me in scope of the CRA?
 
 No, providing technical support to an open source project for a fee does not put you in scope of the CRA, regardless of whether you are the one publishing it, provided access to the project is not restricted.
 
