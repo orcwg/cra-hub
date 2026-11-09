@@ -1,5 +1,5 @@
 ---
-id: stewards/relationship
+canonical-id: stewards/relationship
 Status: ✅ Approved
 Related issues: https://github.com/orcwg/cra-hub/issues/25
 ---

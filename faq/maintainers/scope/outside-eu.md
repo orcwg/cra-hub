@@ -1,5 +1,5 @@
 ---
-id: maintainers/outside-eu
+canonical-id: maintainers/outside-eu
 Status: ✅ Approved
 Related issues: https://github.com/orcwg/cra-hub/issues/79
 ---

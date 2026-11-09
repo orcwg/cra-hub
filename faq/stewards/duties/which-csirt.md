@@ -1,5 +1,5 @@
 ---
-id: stewards/which-csirt
+canonical-id: stewards/which-csirt
 Status: ✅ Approved
 Related issues: https://github.com/orcwg/cra-hub/issues/167
 ---

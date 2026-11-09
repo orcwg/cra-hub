@@ -1,5 +1,5 @@
 ---
-id: stewards/obligations
+canonical-id: stewards/obligations
 Status: ✅ Approved
 Related issues: https://github.com/orcwg/cra-hub/issues/159
 ---

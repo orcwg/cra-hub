@@ -1,5 +1,5 @@
 ---
-id: stewards/manufacturer-vs-steward
+canonical-id: stewards/manufacturer-vs-steward
 Status: ✅ Approved
 Related issues: https://github.com/orcwg/cra-hub/issues/21
 ---

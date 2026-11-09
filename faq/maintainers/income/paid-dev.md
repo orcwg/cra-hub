@@ -1,5 +1,5 @@
 ---
-id: maintainers/paid-dev
+canonical-id: maintainers/paid-dev
 Status: ✅ Approved
 Related issues: https://github.com/orcwg/cra-hub/issues/16
 ---

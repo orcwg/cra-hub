@@ -1,5 +1,5 @@
 ---
-id: maintainers/should-i-worry
+canonical-id: maintainers/should-i-worry
 Status: ✅ Approved
 Related issues: https://github.com/orcwg/cra-hub/issues/133
 ---

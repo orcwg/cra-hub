@@ -1,5 +1,5 @@
 ---
-id: maintainers/popularity
+canonical-id: maintainers/popularity
 Status: ✅ Approved
 Related issues: https://github.com/orcwg/cra-hub/issues/75
 ---

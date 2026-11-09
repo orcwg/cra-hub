@@ -1,5 +1,5 @@
 ---
-id: stewards/opt-in
+canonical-id: stewards/opt-in
 Status: ✅ Approved
 Related issues: https://github.com/orcwg/cra-hub/issues/162
 ---

@@ -1,5 +1,5 @@
 ---
-id: stewards/multiple
+canonical-id: stewards/multiple
 Status: ✅ Approved
 Related issues: https://github.com/orcwg/cra-hub/issues/22
 ---

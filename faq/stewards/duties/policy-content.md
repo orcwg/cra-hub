@@ -1,5 +1,5 @@
 ---
-id: stewards/policy-content
+canonical-id: stewards/policy-content
 Status: ✅ Approved
 Related issues: https://github.com/orcwg/cra-hub/issues/415
 ---

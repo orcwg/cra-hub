@@ -1,5 +1,5 @@
 ---
-id: maintainers/employer
+canonical-id: maintainers/employer
 Status: ✅ Approved
 Related issues: https://github.com/orcwg/cra-hub/issues/298
 ---

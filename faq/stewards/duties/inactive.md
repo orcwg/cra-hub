@@ -1,5 +1,5 @@
 ---
-id: stewards/inactive
+canonical-id: stewards/inactive
 Status: ✅ Approved
 Related issues: https://github.com/orcwg/cra-hub/issues/292
 ---

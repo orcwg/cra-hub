@@ -1,5 +1,5 @@
 ---
-id: stewards/white-paper
+canonical-id: stewards/white-paper
 Status: ✅ Approved
 Related issues: https://github.com/orcwg/cra-hub/issues/415
 ---

@@ -1,5 +1,5 @@
 ---
-id: stewards/demonstrate
+canonical-id: stewards/demonstrate
 Status: ⚠️ Draft
 Related issues: https://github.com/orcwg/cra-hub/issues/11
 ---

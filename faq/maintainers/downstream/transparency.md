@@ -1,5 +1,5 @@
 ---
-id: maintainers/transparency
+canonical-id: maintainers/transparency
 Status: ✅ Approved
 Related issues: https://github.com/orcwg/cra-hub/issues/70
 ---

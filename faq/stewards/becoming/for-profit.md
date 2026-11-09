@@ -1,5 +1,5 @@
 ---
-id: stewards/for-profit
+canonical-id: stewards/for-profit
 Status: ✅ Approved
 Related issues: https://github.com/orcwg/cra-hub/issues/53
 guidance-id: open-source-guidance

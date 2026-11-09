@@ -1,5 +1,5 @@
 ---
-id: stewards/paying-developers
+canonical-id: stewards/paying-developers
 Status: ✅ Approved
 Related issues: https://github.com/orcwg/cra-hub/issues/33
 ---

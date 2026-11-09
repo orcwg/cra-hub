@@ -1,5 +1,5 @@
 ---
-id: maintainers/no-monetization
+canonical-id: maintainers/no-monetization
 Status: ⚠️ Draft
 Related issues: https://github.com/orcwg/cra-hub/issues/133
 ---

@@ -1,5 +1,5 @@
 ---
-id: stewards/sbom
+canonical-id: stewards/sbom
 Status: ✅ Approved
 Related issues: https://github.com/orcwg/cra-hub/issues/11
 ---

@@ -1,5 +1,5 @@
 ---
-id: stewards/evidence
+canonical-id: stewards/evidence
 Status: ✅ Approved
 Related issues: https://github.com/orcwg/cra-hub/issues/11
 guidance-id: csirt-identification

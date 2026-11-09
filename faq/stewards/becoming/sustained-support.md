@@ -1,5 +1,5 @@
 ---
-id: stewards/sustained-support
+canonical-id: stewards/sustained-support
 Status: ✅ Approved
 Related issues: https://github.com/orcwg/cra-hub/issues/256
 ---

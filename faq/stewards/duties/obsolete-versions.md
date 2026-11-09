@@ -1,5 +1,5 @@
 ---
-id: stewards/obsolete-versions
+canonical-id: stewards/obsolete-versions
 Status: ✅ Approved
 Related issues: https://github.com/orcwg/cra-hub/issues/354
 ---

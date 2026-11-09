@@ -1,5 +1,5 @@
 ---
-id: stewards/notification-obligations
+canonical-id: stewards/notification-obligations
 Status: ✅ Approved
 Related issues: https://github.com/orcwg/cra-hub/issues/159, https://github.com/orcwg/cra-hub/issues/185
 ---

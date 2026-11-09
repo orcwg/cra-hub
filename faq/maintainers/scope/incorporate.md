@@ -1,5 +1,5 @@
 ---
-id: maintainers/incorporate
+canonical-id: maintainers/incorporate
 Status: ✅ Approved
 Related issues: https://github.com/orcwg/cra-hub/issues/81
 ---

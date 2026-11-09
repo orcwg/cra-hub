@@ -1,5 +1,5 @@
 ---
-id: stewards/outside-eu
+canonical-id: stewards/outside-eu
 Status: ✅ Approved
 Related issues: https://github.com/orcwg/cra-hub/issues/417
 ---

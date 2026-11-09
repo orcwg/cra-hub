@@ -1,5 +1,5 @@
 ---
-id: stewards/what-is-a-steward
+canonical-id: stewards/what-is-a-steward
 Status: ✅ Approved
 Related issues: https://github.com/orcwg/cra-hub/issues/127
 ---

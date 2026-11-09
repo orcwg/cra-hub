@@ -1,5 +1,5 @@
 ---
-id: maintainers/sponsorware
+canonical-id: maintainers/sponsorware
 Status: ✅ Approved
 Related issues: https://github.com/orcwg/cra-hub/issues/16
 guidance-id: custom-dev

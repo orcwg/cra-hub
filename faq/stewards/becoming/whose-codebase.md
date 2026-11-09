@@ -1,5 +1,5 @@
 ---
-id: stewards/whose-codebase
+canonical-id: stewards/whose-codebase
 Status: ✅ Approved
 Related issues: https://github.com/orcwg/cra-hub/issues/21
 guidance-id: open-source-guidance

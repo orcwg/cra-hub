@@ -1,5 +1,5 @@
 ---
-id: stewards/essential-requirements
+canonical-id: stewards/essential-requirements
 Status: ✅ Approved
 Related issues: https://github.com/orcwg/cra-hub/issues/11
 ---

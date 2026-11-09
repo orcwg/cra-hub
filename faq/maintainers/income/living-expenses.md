@@ -1,5 +1,5 @@
 ---
-id: maintainers/living-expenses
+canonical-id: maintainers/living-expenses
 Status: ✅ Approved
 Related issues: https://github.com/orcwg/cra-hub/issues/33, https://github.com/orcwg/cra-hub/issues/273
 guidance-id: open-source-guidance

@@ -1,5 +1,5 @@
 ---
-id: stewards/do-all-projects-have-stewards
+canonical-id: stewards/do-all-projects-have-stewards
 Status: ✅ Approved
 Related issues: https://github.com/orcwg/cra-hub/issues/170
 ---
