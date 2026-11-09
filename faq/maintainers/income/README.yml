@@ -2,13 +2,13 @@ title: If your maintenance is financially supported
 description: Which income makes a maintainer the manufacturer of what they sell, and which, from donations to paid support and grants, does not.
 icon: 💶
 faqs:
-  - maintainers/become-manufacturer
-  - maintainers/monetization
-  - maintainers/living-expenses
+  - become-manufacturer
+  - monetization
+  - living-expenses
   - cra-itself/actual-costs
-  - maintainers/donations
-  - maintainers/technical-support
-  - maintainers/consultants
-  - maintainers/paid-dev
-  - maintainers/grants
-  - maintainers/sponsorware
+  - donations
+  - technical-support
+  - consultants
+  - paid-dev
+  - grants
+  - sponsorware

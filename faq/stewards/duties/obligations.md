@@ -1,4 +1,5 @@
 ---
+id: stewards/obligations
 Status: ✅ Approved
 Related issues: https://github.com/orcwg/cra-hub/issues/159
 ---
@@ -14,5 +15,5 @@ _Open-source software stewards_ are subject to a "light-touch and tailor-made re
 
 ORC WG's white paper works through each of these obligations in turn: see [[stewards/white-paper]].
 
-[relevant CSIRT]: ../vulnerability-handling/csirt.md
-[ENISA]: ../vulnerability-handling/enisa.md
+[relevant CSIRT]: ../../vulnerability-handling/csirt.md
+[ENISA]: ../../vulnerability-handling/enisa.md

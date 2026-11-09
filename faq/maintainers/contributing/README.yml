@@ -2,7 +2,7 @@ title: If you're a contributor
 description: Why the CRA does not apply to people who contribute code to projects they don't control, what makes someone a maintainer rather than a contributor, and how that holds when you contribute as an employee or as a company.
 icon: 🧑‍💻
 faqs:
-  - maintainers/contributors
+  - contributors
   - cra-itself/under-responsibility
-  - maintainers/employer
+  - employer
   - manufacturers/contributors

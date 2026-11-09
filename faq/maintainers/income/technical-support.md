@@ -1,4 +1,5 @@
 ---
+id: maintainers/technical-support
 Status: ✅ Approved
 Related issues: https://github.com/orcwg/cra-hub/issues/33, https://github.com/orcwg/cra-hub/issues/16
 guidance-id: open-source-guidance

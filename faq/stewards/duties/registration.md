@@ -1,4 +1,5 @@
 ---
+id: stewards/registration
 Status: ✅ Approved
 Related issues: https://github.com/orcwg/cra-hub/issues/418
 ---

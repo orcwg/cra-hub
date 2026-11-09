@@ -1,4 +1,5 @@
 ---
+id: maintainers/multiple-maintainers-steward
 Status: ✅ Approved
 guidance-id: legal-person-definition
 Related issues: https://github.com/orcwg/cra-hub/issues/15

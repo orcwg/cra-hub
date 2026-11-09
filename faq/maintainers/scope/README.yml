@@ -2,11 +2,11 @@ title: If you're a maintainer
 description: Why the CRA does not apply to the maintainer of an open source project unless they monetise it, whatever the project's reach or where they live, and why the steward role is not for individuals either.
 icon: 🙋
 faqs:
-  - maintainers/should-i-worry
-  - maintainers/no-monetization
-  - maintainers/popularity
-  - maintainers/outside-eu
-  - maintainers/solo-maintainer-steward
-  - maintainers/multiple-maintainers-steward
-  - maintainers/incorporate
-  - maintainers/hand-to-steward
+  - should-i-worry
+  - no-monetization
+  - popularity
+  - outside-eu
+  - solo-maintainer-steward
+  - multiple-maintainers-steward
+  - incorporate
+  - hand-to-steward

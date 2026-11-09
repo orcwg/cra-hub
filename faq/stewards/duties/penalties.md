@@ -1,4 +1,5 @@
 ---
+id: stewards/penalties
 Status: ✅ Approved
 Related issues: https://github.com/orcwg/cra-hub/issues/292, https://github.com/orcwg/cra-hub/issues/216, https://github.com/orcwg/cra-hub/issues/158, https://github.com/orcwg/cra-hub/issues/239
 ---

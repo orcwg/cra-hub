@@ -1,4 +1,5 @@
 ---
+id: stewards/notification-obligations
 Status: ✅ Approved
 Related issues: https://github.com/orcwg/cra-hub/issues/159, https://github.com/orcwg/cra-hub/issues/185
 ---
@@ -26,5 +27,5 @@ The table below provides an actionable summary of those notification and informa
 
 For a fuller treatment of the reporting obligations and of informing users, see ORC WG's white paper: [[stewards/white-paper]].
 
-[relevant CSIRT]: ../vulnerability-handling/csirt.md
-[ENISA]: ../vulnerability-handling/enisa.md
+[relevant CSIRT]: ../../vulnerability-handling/csirt.md
+[ENISA]: ../../vulnerability-handling/enisa.md

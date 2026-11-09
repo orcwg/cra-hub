@@ -1,4 +1,5 @@
 ---
+id: maintainers/popularity
 Status: ✅ Approved
 Related issues: https://github.com/orcwg/cra-hub/issues/75
 ---
@@ -15,7 +16,7 @@ While popularity itself creates no legal obligations, it may:
 
 - Increase visibility to downstream users or market surveillance authorities
 - Lead to requests from companies seeking help with their own compliance efforts
-- Create demand for [security attestations](../attestations/what-are-attestations.md) for your project
+- Create demand for [security attestations](../../attestations/what-are-attestations.md) for your project
 
 None of these change your legal status under the CRA unless you begin monetising or otherwise supplying the software in a commercial context.
 

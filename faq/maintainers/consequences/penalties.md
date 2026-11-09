@@ -1,4 +1,5 @@
 ---
+id: maintainers/penalties
 Status: ✅ Approved
 Related issues: https://github.com/orcwg/cra-hub/issues/133, https://github.com/orcwg/cra-hub/issues/83
 ---

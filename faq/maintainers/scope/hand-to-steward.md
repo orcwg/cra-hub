@@ -1,4 +1,5 @@
 ---
+id: maintainers/hand-to-steward
 Status: ✅ Approved
 Related issues: https://github.com/orcwg/cra-hub/issues/82
 ---

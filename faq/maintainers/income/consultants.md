@@ -1,4 +1,5 @@
 ---
+id: maintainers/consultants
 Status: ✅ Approved
 Related issues: https://github.com/orcwg/cra-hub/issues/64
 guidance-id: open-source-guidance

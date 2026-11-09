@@ -2,24 +2,24 @@ title: Steward obligations
 description: What a steward has to do, from the cybersecurity policy and reporting to showing the obligations are met, and what happens when a project goes quiet or the obligations are not met.
 icon: 📋
 faqs:
-  - stewards/start-date
-  - stewards/obligations
-  - stewards/policy-content
-  - stewards/essential-requirements
-  - stewards/policy-scope
-  - stewards/translation-costs
-  - stewards/documentation
-  - stewards/sbom
-  - stewards/registration
+  - start-date
+  - obligations
+  - policy-content
+  - essential-requirements
+  - policy-scope
+  - translation-costs
+  - documentation
+  - sbom
+  - registration
   - official/faq_5-5
-  - stewards/notification-obligations
+  - notification-obligations
   - srp/faq_18
-  - stewards/which-csirt
-  - stewards/old-projects
-  - stewards/obsolete-versions
-  - stewards/demonstrate
-  - stewards/evidence
-  - stewards/inactive
-  - stewards/enforcement
-  - stewards/penalties
-  - stewards/white-paper
+  - which-csirt
+  - old-projects
+  - obsolete-versions
+  - demonstrate
+  - evidence
+  - inactive
+  - enforcement
+  - penalties
+  - white-paper

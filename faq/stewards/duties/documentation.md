@@ -1,4 +1,5 @@
 ---
+id: stewards/documentation
 Status: ✅ Approved
 Related issues: https://github.com/orcwg/cra-hub/issues/11
 ---

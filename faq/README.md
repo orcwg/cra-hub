@@ -101,7 +101,7 @@ Related issues: [URL]
 
 ### Moving an FAQ
 
-An FAQ's id, and so its URL on [cra.orcwg.org](https://cra.orcwg.org/), comes from where its file is: `faq/maintainers/transparency.md` is `maintainers/transparency`, at https://cra.orcwg.org/faq/maintainers/transparency/. To move an FAQ to another folder, for example into a sublist's folder, without changing its URL, give its old id as `id` in the frontmatter:
+An FAQ's id, and so its URL on [cra.orcwg.org](https://cra.orcwg.org/), comes from where its file is: `faq/cra-itself/scope.md` is `cra-itself/scope`, at https://cra.orcwg.org/faq/cra-itself/scope/. To move an FAQ to another folder, for example into a sublist's folder, without changing its URL, give its old id as `id` in the frontmatter. `faq/maintainers/downstream/transparency.md` was moved from `faq/maintainers/` that way, and is still `maintainers/transparency`:
 
 ```yaml
 ---

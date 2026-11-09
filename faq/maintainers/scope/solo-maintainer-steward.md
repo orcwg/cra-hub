@@ -1,4 +1,5 @@
 ---
+id: maintainers/solo-maintainer-steward
 Status: ✅ Approved
 guidance-id: legal-person-definition
 Related issues: https://github.com/orcwg/cra-hub/issues/1, https://github.com/orcwg/cra-hub/issues/256
