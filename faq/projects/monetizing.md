@@ -14,6 +14,6 @@ Related issues: https://github.com/orcwg/cra-hub/issues/33
     - You are not requiring as a condition for use the processing of personal data for reasons other than exclusively for improving the security, compatibility or interoperability of your software. (in particular, you're not giving people access to your software in exchange for their personal data)
    - You are receiving donations or providing technical services in exchange for remuneration, where the total received does not exceed the cost of development of your software (hosting, hardware, compute etc..).
 
-> Note: We are waiting for clarification from the Commission as to if remuneration for hours worked on the project can be counted in the cost of development.
+These costs include your reasonable living expenses, so being paid fairly for the hours you work on the project does not count as making a profit ([[CRA-GUIDANCE point 58]], [[CRA-GUIDANCE point 61]], see [[cra-itself/actual-costs]]).
 
 
