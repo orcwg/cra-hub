@@ -1,6 +1,6 @@
 ---
 Status: ✅ Approved
-Related issues: https://github.com/orcwg/cra-hub/issues/93
+Related issues: https://github.com/orcwg/cra-hub/issues/93, https://github.com/orcwg/cra-hub/issues/178
 ---
 
 # What is the required support period for a product under the CRA?
