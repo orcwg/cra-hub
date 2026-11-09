@@ -20,7 +20,7 @@ The definition focuses specifically on the software source code and its licensin
 
 Additionally the code must be publicly available.
 
-This definition is relevant for determining whether the CRA's provisions for [open source software stewards](../stewards/what-is-a-steward.md) or the exemptions for non-commercial open source development may apply to a particular project.
+This definition is relevant for determining whether the CRA's provisions for [open source software stewards](../stewards/becoming/what-is-a-steward.md) or the exemptions for non-commercial open source development may apply to a particular project.
 
 [four freedoms]: https://www.gnu.org/philosophy/free-sw.html.en
 [osd]: https://opensource.org/osd

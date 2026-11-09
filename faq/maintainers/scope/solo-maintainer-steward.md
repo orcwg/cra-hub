@@ -1,0 +1,14 @@
+---
+canonical-id: maintainers/solo-maintainer-steward
+Status: ✅ Approved
+guidance-id: legal-person-definition
+Related issues: https://github.com/orcwg/cra-hub/issues/1, https://github.com/orcwg/cra-hub/issues/256
+---
+
+# Can a solo maintainer be considered to be an _open-source software steward_?
+
+No. As defined in [[CRA Article 3(14)]], an open-source software steward must be a legal person (e.g. a company, a foundation, an association) in contrast with a natural person (i.e. a human being). The obligations of open-source software stewards described in [[CRA Article 24]] therefore do not apply to solo maintainers acting in their personal capacity.
+
+However, should a solo maintainer set up a single-member company that is a legal entity in its own right, distinct from the natural legal persona of the solo maintainer, that entity could qualify as an open-source software steward if it meets the criteria for doing so.
+
+Natural persons who monetise their project become subject to the CRA as manufacturers. In that case, they face the same obligations as any other manufacturer under [[CRA Article 13]], not the lighter-touch obligations that apply to open-source software stewards under [[CRA Article 24]]. For more on what qualifies as monetisation, see [[maintainers/monetization]].
