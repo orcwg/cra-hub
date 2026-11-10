@@ -22,7 +22,7 @@ The maturity level of the answers contained in the FAQ are indicated using the f
 
 ### Questions which would benefit from European Commission guidance
 
-FAQs which would benefit from guidance from the European Commission include a `pending-guidance` field in their YAML frontmatter that references a dedicated guidance request file in the `pending-guidance/` folder.
+FAQs which would benefit from guidance from the European Commission include a `guidance-id` field in their YAML frontmatter that references a dedicated guidance request file in the `pending-guidance/` folder.
 
 Example:
 ```yaml
@@ -77,10 +77,6 @@ The filename should be a short but informative slug.
 
 All FAQ files are stored in subdirectories of the `faq` directory.
 
-## Guidance Requests
-
-The `pending-guidance/` folder contains dedicated files for EU Commission guidance requests that are referenced by multiple FAQs.
-
 ### File format
 
 All files are markdown files with YAML frontmatter.
@@ -133,7 +129,7 @@ An example with each kind of entry:
 
 ```yaml
 title: Steward obligations
-description: For foundations and companies that are open-source software stewards and want to know what the CRA asks of them.
+description: Your foundation or company is an open-source software steward? Here is what the CRA asks of it.
 icon: 📋
 faqs:
   - start-date
@@ -158,6 +154,10 @@ python3 -c 'import yaml,sys; [yaml.safe_load(open(f)) for f in sys.argv[1:]]' fa
 ```
 
 How to order a list, when to split it and how to write its description: [style guide](./STYLE.md#lists).
+
+## Guidance Requests
+
+The `pending-guidance/` folder contains dedicated files for EU Commission guidance requests that are referenced by multiple FAQs.
 
 
 

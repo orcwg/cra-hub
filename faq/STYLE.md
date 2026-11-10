@@ -234,23 +234,26 @@ The walk-through also shows what is missing: the question a reader has between t
 
 ### Descriptions
 
-A list's `description` is shown on its card in the FAQ index and at the top of its page. A reader uses it to decide whether the list is for them. It says who the list is for and what they come wanting to know. The entries sit right below it and show what the list covers, so the description doesn't summarise them.
+A list's `description` is shown on its card in the FAQ index and at the top of its page. Its job is to let a reader decide, in a glance, whether the list is for them.
 
-The shape is one sentence: "For [the readers, described by their situation] who want to know [the question that brings them here]."
+A reader decides that by recognising their own situation and seeing what they will come away with. So a good description speaks to the reader about where they stand, in the words they would use about themselves, and says what the list will tell them. It sounds like a person pointing them to the right shelf, not like a table of contents: the entries sit right below it and already show what the list covers.
 
-- **Describe the readers by their situation**, in everyday words they would use about themselves: "people who write, contribute to or maintain open source software", "the people who run an open source project". Not the CRA's label for them, and not a topic ("Understanding product categories", "Essential information about …").
-- **Add the detail that tells readers they belong**, where they might doubt it: "in their spare time or as part of their job", "without selling them", "open source included".
-- **End on what they want to know**, as one or two questions in plain words: "whether the CRA asks anything of them". Not the list of answers that follows.
-- About 25 to 30 words, in the third person, with no colon (see [Lists](./README.md#lists) in the contributing guidelines).
-- A sublist's description does the same within its parent: which of the parent's readers it is for, and what they want to know.
+How it does that is up to the writer. One way that works is to put the reader's situation to them as a question, then say what they will find:
 
-| List | Description |
-|---|---|
-| cra-itself | For anyone new to the Cyber Resilience Act who wants to know what it is, when it applies and whether it concerns the software they make or use. |
-| maintainers | For people who write, contribute to or maintain open source software, in their spare time or as part of their job, and want to know whether the CRA asks anything of them. |
-| projects | For the people who run an open source project and want to know how the CRA sees the project itself and what the project can do to prepare. |
-| stewards | For foundations and companies that support open source projects without selling them, and want to know whether they are open-source software stewards and what that asks of them. |
-| manufacturers | For companies and individuals who sell or otherwise monetise software or connected devices in the EU, open source included, and want to know what the CRA expects of them. |
+> You write, contribute to or maintain open source software? Here is what the CRA asks of you, and what it doesn't.
+
+> Your software relies on cloud or other remote services? Here is when those services count as part of the product under the CRA.
+
+Things that tend to get in the way:
+
+- naming a topic instead of a reader ("Understanding product categories", "Essential information about …");
+- the CRA's label for the reader where they wouldn't yet know it applies to them;
+- a summary of the entries;
+- length: a card holds a sentence or two.
+
+A sublist's description does the same job within its parent: it tells the parent's readers which of them it is for.
+
+One constraint is technical: no colon followed by a space (see [Lists](./README.md#lists) in the contributing guidelines).
 
 ## Terms
 
