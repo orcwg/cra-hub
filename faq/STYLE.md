@@ -234,25 +234,26 @@ The walk-through also shows what is missing: the question a reader has between t
 
 ### Descriptions
 
-A list's `description` is shown on its card in the FAQ index and at the top of its page. A reader uses it to decide whether the list is for them. It says who the list is for and what it tells them. The entries sit right below it and show what the list covers, so the description doesn't summarise them.
+A list's `description` is shown on its card in the FAQ index and at the top of its page. Its job is to let a reader decide, in a glance, whether the list is for them.
 
-The shape is two sentences: the reader's situation, as a question put to them, then what the list tells them, starting with "Here is".
+A reader decides that by recognising their own situation and seeing what they will come away with. So a good description speaks to the reader about where they stand, in the words they would use about themselves, and says what the list will tell them. It sounds like a person pointing them to the right shelf, not like a table of contents: the entries sit right below it and already show what the list covers.
+
+How it does that is up to the writer. One way that works is to put the reader's situation to them as a question, then say what they will find:
 
 > You write, contribute to or maintain open source software? Here is what the CRA asks of you, and what it doesn't.
 
-- **Describe the situation in everyday words** the reader would use about themselves: "You run an open source project?", "Your software relies on cloud or other remote services?". Not the CRA's label for them, and not a topic ("Understanding product categories", "Essential information about …").
-- **Add the detail that tells readers they belong**, where they might doubt it: "without selling them", "open source included".
-- **End on what they will learn**, in plain words: "what the CRA asks of you, and what it doesn't". Not the list of answers that follows.
-- About 20 to 30 words, addressed to the reader as "you", with no colon (see [Lists](./README.md#lists) in the contributing guidelines).
-- A sublist's description does the same within its parent: which of the parent's readers it is for, and what it tells them.
+> Your software relies on cloud or other remote services? Here is when those services count as part of the product under the CRA.
 
-| List | Description |
-|---|---|
-| cra-itself | New to the Cyber Resilience Act? Here is what it is, when it applies and whether it concerns the software you make or use. |
-| maintainers | You write, contribute to or maintain open source software? Here is what the CRA asks of you, and what it doesn't. |
-| projects | You run an open source project? Here is how the CRA sees the project itself and what the project can do to prepare. |
-| stewards | Your foundation or company supports open source projects without selling them? Here is whether that makes it an open-source software steward, and what that asks of it. |
-| manufacturers | You sell or otherwise monetise software or connected devices in the EU, open source included? Here is what the CRA expects of you. |
+Things that tend to get in the way:
+
+- naming a topic instead of a reader ("Understanding product categories", "Essential information about …");
+- the CRA's label for the reader where they wouldn't yet know it applies to them;
+- a summary of the entries;
+- length: a card holds a sentence or two.
+
+A sublist's description does the same job within its parent: it tells the parent's readers which of them it is for.
+
+One constraint is technical: no colon followed by a space (see [Lists](./README.md#lists) in the contributing guidelines).
 
 ## Terms
 
