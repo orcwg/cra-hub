@@ -1,5 +1,7 @@
 # FAQ Contributing Guidelines
 
+How the FAQ works: its lifecycle, file format, lists, reference syntax and pull requests. How to write a FAQ is in the [style guide](./STYLE.md).
+
 ## Goals
 
 1. Include questions in the FAQs as soon as they are identified; do not wait for an answer to solidify before adding them to the repository.
@@ -37,10 +39,11 @@ The FAQ TF Review should check for the following:
 
 - [ ] There are no objections about the inclusion of the question
 - [ ] There are no objections about the provided answer
-- [ ] The question and answer follow the same structure as the rest of the FAQ
-- [ ] The tone is similar
+- [ ] The question and answer follow the [style guide](./STYLE.md)
 - [ ] The answer is accurate
 - [ ] The answer is properly sourced and referenced
+
+An approved FAQ is not reworded for style. A review of one proposes the smallest edit that makes it cite its sources and agree with them: a citation added to a sentence that is right, a rewritten sentence only where a source contradicts it. Where the Commission's guidance contradicts the FAQ, say so plainly and propose the correction.
 
 ## Lifecycle
 
@@ -82,22 +85,31 @@ The `pending-guidance/` folder contains dedicated files for EU Commission guidan
 
 All files are markdown files with YAML frontmatter.
 
-Please use [reference style links][].
-
 ```md
 ---
 Status: [ICON] [MATURITY_LEVEL]
-Related issues: [URL]
+Related issues: [URL], [URL]
 ---
 
 # [QUESTION]
 
-[SHORT ANSWER]
+[DIRECT ANSWER]
 
-[ADDITIONAL NUANCES]
+[MAIN CONDITION OR CLARIFICATION, WITH ITS CITATION]
 
-[LINKS]
+[SUPPORTING DETAIL, POINTERS TO RELATED FAQS]
+
+[REFERENCE-STYLE LINK DEFINITIONS]
 ```
+
+| Field | Use |
+|---|---|
+| `Status` | The [maturity level](#maturity-level), icon included. |
+| `Related issues` | Every issue that asks the question, comma-separated. The site links them from the FAQ and the pull request closes them. When editing a FAQ, keep the issues it lists and add the new one; never drop one. |
+| `guidance-id` | Optional. The id of the request in `pending-guidance/` the FAQ depends on. It stays while that request is open. |
+| `canonical-id` | Optional. The old id of a FAQ that was moved: see [Moving an FAQ](#moving-an-faq). |
+
+The question is the file's single `#` heading. External links are [reference style links][], defined at the end of the file.
 
 ### Moving an FAQ
 
@@ -113,19 +125,57 @@ Related issues: https://github.com/orcwg/cra-hub/issues/70
 
 The FAQ keeps its URL, its API endpoint, and its `[[maintainers/transparency]]` references. Lists and relative links find it where the file now is: the sublist's `README.yml` lists it by its filename (`transparency`), and relative links to and from the file follow its new path, so update them when you move it. Move the file in a pull request that changes little else in it (adding `canonical-id` and fixing relative links is fine), so git sees a rename: the FAQ then keeps its dates on the site, and the move doesn't show it as recently updated. A new FAQ doesn't need a `canonical-id`: one written in a sublist's folder is `<category>/<sublist>/<slug>`, referenced as `[[maintainers/scope/new-faq]]`. Two FAQs can't have the same id: the site's build fails if they do.
 
+### Lists
+
+Each category is a folder with a `README.yml`: its `title`, `description`, `icon`, and `faqs`, the ordered list a reader meets its FAQs in. `faq/README.yml` is the list of categories; a new category needs its own `README.yml` and an entry there.
+
+An example with each kind of entry:
+
+```yaml
+title: Steward obligations
+description: For foundations and companies that are open-source software stewards and want to know what the CRA asks of them.
+icon: 📋
+faqs:
+  - start-date
+  - official/faq_5-5
+  - maintainers/contributors
+  - reporting
+```
+
+An entry of `faqs` is one of:
+
+- a FAQ in the same folder, by its filename without `.md`;
+- a FAQ from another category, by its id (`maintainers/contributors`);
+- a FAQ of the Commission or ENISA, by its id (`official/faq_6-10`, `srp/faq_18`, `cra-basics/…`);
+- a sublist: a subfolder with its own `README.yml`, by the folder's name.
+
+Lists are flat: a sublist is listed from its parent, and its FAQs live in its folder. A FAQ that belongs to two lists is listed from both, not copied. A FAQ file is listed once in its own folder's `README.yml`.
+
+`title` and `description` are unquoted YAML: a colon followed by a space inside one breaks the site's build, and every deploy until it is fixed. Parse every `README.yml` you touch before pushing:
+
+```bash
+python3 -c 'import yaml,sys; [yaml.safe_load(open(f)) for f in sys.argv[1:]]' faq/README.yml faq/*/README.yml faq/*/*/README.yml
+```
+
+How to order a list, when to split it and how to write its description: [style guide](./STYLE.md#lists).
+
 
 
 ## References
 
+A double-bracket reference the site can't resolve renders as literal brackets, so check the forms below before pushing. They don't render on GitHub either: in a pull request or an issue comment, write the source out ("Article 3(14) of the CRA").
+
 ### Cross-References
 
-To reference FAQs, just use relative links as you normally would so:
+To reference another FAQ, put its id in double brackets. It renders as a link with the FAQ's question as its text:
 
-**Examples:**
 ```markdown
-[FAQ Title](../category/faq.md)
-[FAQ Title](./same-category-faq.md)
+See [[maintainers/donations]].
 ```
+
+The same works for a list, by its id (`[[stewards]]`, which renders as the list's title), and for the FAQs of the Commission and ENISA (`[[official/faq_4-2-5]]`, `[[srp/faq_21]]`).
+
+Relative links (`[FAQ Title](../category/faq.md)`) also work, and follow the file rather than its id.
 
 ### Auto-linking to CRA articles, recitals, and annexes
 
@@ -207,8 +257,41 @@ Use it where the sentence reads better with a term than with a citation. Where t
 
 ### External References
 
-1. References to an EU legal text as a whole should link to its landing page on EUR-Lex, for example: https://eur-lex.europa.eu/eli/reg/2019/2144/oj
+1. References to an EU legal text as a whole should link to its landing page on EUR-Lex, for example: https://eur-lex.europa.eu/eli/reg/2019/2144/oj. The site also links the name of an act it knows ("Regulation (EU) 2024/2847", "the Blue Guide") on its own. A double-bracket reference to an act without an Article, Recital or Annex (`[[2025/2392]]`) is not resolved.
 2. Use standard reference-style links for all other external references
+
+## Pull requests
+
+One pull request per issue, or per small group of related issues.
+
+- **Title**: `Adds FAQs for issue #345` (`Adds FAQs for issues #345 and #348`; three or more: `#1, #2, and #3`). The issues are every issue in the `Related issues` of the files added or edited.
+- **Body**: the FAQs added or edited, each with its question and id, the other files changed, and one `Closes` line per related issue, so that every issue the FAQ answers closes when the pull request merges. A question from the issue that an existing FAQ already answers is listed too, with that FAQ's id, so the issue's author sees where each question went.
+
+  ```
+  Adds the following new FAQs:
+  - "Do patent royalties on open source software make me a manufacturer?" ([[manufacturers/patent-royalties]])
+
+  Updates:
+  - `manufacturers/README.yml`
+
+  Closes #345.
+  Closes #348.
+  ```
+
+- **Labels**: one per category touched.
+- **A change to a list** (its order, a split, official FAQs added) is its own pull request, separate from the FAQs it adds: `Reorders the stewards list`, `Splits the stewards list into …`. Reordering, adding official entries and splitting are separate commits. The body gives the new order's logic in a few lines.
+- **A review of an existing FAQ** is titled for what changed: `Cite the Commission's guidance in the donations FAQ`.
+
+Merging closes an issue without telling its author where the answer went. After the merge, comment on each issue the pull request closed with the FAQs that answer it, as links to cra.orcwg.org:
+
+```
+The following question(s) have been answered in the CRA FAQ:
+
+- [Does my employer have obligations for a project I maintain in my own time?](https://cra.orcwg.org/faq/maintainers/employer/)
+- [When is open source software "under the responsibility" of a person or company?](https://cra.orcwg.org/faq/cra-itself/under-responsibility/) (updated)
+```
+
+An issue whose questions are all answered by existing FAQs needs no pull request: post the same comment and close the issue.
 
 [eu-reg]: https://github.com/orcwg/cra.orcwg.org/blob/main/src/_data/eu-reg.json
 [official guidance]: https://cra.orcwg.org/official-guidance/
