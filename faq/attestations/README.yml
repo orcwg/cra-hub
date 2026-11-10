@@ -1,5 +1,5 @@
 title: Security attestations
-description: Understanding security attestations and their role in CRA compliance
+description: For people who run or build on open source projects and want to know what security attestations are, who issues them and how they help companies that use open source.
 icon: 📋
 faqs:
   - what-is-a-security-attestation
