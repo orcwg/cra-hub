@@ -129,7 +129,7 @@ An example with each kind of entry:
 
 ```yaml
 title: Steward obligations
-description: For foundations and companies that are open-source software stewards and want to know what the CRA asks of them.
+description: Your foundation or company is an open-source software steward? Here is what the CRA asks of it.
 icon: 📋
 faqs:
   - start-date

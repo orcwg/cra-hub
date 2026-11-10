@@ -234,23 +234,25 @@ The walk-through also shows what is missing: the question a reader has between t
 
 ### Descriptions
 
-A list's `description` is shown on its card in the FAQ index and at the top of its page. A reader uses it to decide whether the list is for them. It says who the list is for and what they come wanting to know. The entries sit right below it and show what the list covers, so the description doesn't summarise them.
+A list's `description` is shown on its card in the FAQ index and at the top of its page. A reader uses it to decide whether the list is for them. It says who the list is for and what it tells them. The entries sit right below it and show what the list covers, so the description doesn't summarise them.
 
-The shape is one sentence: "For [the readers, described by their situation] who want to know [the question that brings them here]."
+The shape is two sentences: the reader's situation, as a question put to them, then what the list tells them, starting with "Here is".
 
-- **Describe the readers by their situation**, in everyday words they would use about themselves: "people who write, contribute to or maintain open source software", "the people who run an open source project". Not the CRA's label for them, and not a topic ("Understanding product categories", "Essential information about …").
-- **Add the detail that tells readers they belong**, where they might doubt it: "in their spare time or as part of their job", "without selling them", "open source included".
-- **End on what they want to know**, as one or two questions in plain words: "whether the CRA asks anything of them". Not the list of answers that follows.
-- About 25 to 30 words, in the third person, with no colon (see [Lists](./README.md#lists) in the contributing guidelines).
-- A sublist's description does the same within its parent: which of the parent's readers it is for, and what they want to know.
+> You write, contribute to or maintain open source software? Here is what the CRA asks of you, and what it doesn't.
+
+- **Describe the situation in everyday words** the reader would use about themselves: "You run an open source project?", "Your software relies on cloud or other remote services?". Not the CRA's label for them, and not a topic ("Understanding product categories", "Essential information about …").
+- **Add the detail that tells readers they belong**, where they might doubt it: "without selling them", "open source included".
+- **End on what they will learn**, in plain words: "what the CRA asks of you, and what it doesn't". Not the list of answers that follows.
+- About 20 to 30 words, addressed to the reader as "you", with no colon (see [Lists](./README.md#lists) in the contributing guidelines).
+- A sublist's description does the same within its parent: which of the parent's readers it is for, and what it tells them.
 
 | List | Description |
 |---|---|
-| cra-itself | For anyone new to the Cyber Resilience Act who wants to know what it is, when it applies and whether it concerns the software they make or use. |
-| maintainers | For people who write, contribute to or maintain open source software, in their spare time or as part of their job, and want to know whether the CRA asks anything of them. |
-| projects | For the people who run an open source project and want to know how the CRA sees the project itself and what the project can do to prepare. |
-| stewards | For foundations and companies that support open source projects without selling them, and want to know whether they are open-source software stewards and what that asks of them. |
-| manufacturers | For companies and individuals who sell or otherwise monetise software or connected devices in the EU, open source included, and want to know what the CRA expects of them. |
+| cra-itself | New to the Cyber Resilience Act? Here is what it is, when it applies and whether it concerns the software you make or use. |
+| maintainers | You write, contribute to or maintain open source software? Here is what the CRA asks of you, and what it doesn't. |
+| projects | You run an open source project? Here is how the CRA sees the project itself and what the project can do to prepare. |
+| stewards | Your foundation or company supports open source projects without selling them? Here is whether that makes it an open-source software steward, and what that asks of it. |
+| manufacturers | You sell or otherwise monetise software or connected devices in the EU, open source included? Here is what the CRA expects of you. |
 
 ## Terms
 
