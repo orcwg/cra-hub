@@ -19,7 +19,7 @@ The rules here are for text being written. They are not a reason to reword a FAQ
 
 ## Who the FAQs are for
 
-The people who have to act on the answer: maintainers, contributors, developers at companies that ship software, foundation staff. Not lawyers, not policy people. They want to know what applies to them and what to do; they haven't read the regulation and shouldn't need to.
+The people who have to act on the answer: maintainers, contributors, developers at companies that ship software, foundation staff. Not lawyers, not policy people. They want to know what applies to them and what to do. Most haven't read the regulation, so an answer has to make sense without it.
 
 - Address the reader as "you" and "your project".
 - Lead with the practical consequence, then the reason.
