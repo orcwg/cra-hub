@@ -147,7 +147,7 @@ An entry of `faqs` is one of:
 
 Lists are flat: a sublist is listed from its parent, and its FAQs live in its folder. A FAQ that belongs to two lists is listed from both, not copied. A FAQ file is listed once in its own folder's `README.yml`.
 
-`title` and `description` are unquoted YAML: a colon followed by a space inside one breaks the site's build, and every deploy until it is fixed. Parse every `README.yml` you touch before pushing:
+`title` and `description` are unquoted YAML: a colon followed by a space inside one breaks the site's build. The check on the pull request catches it; to find it before pushing, parse every `README.yml` you touch:
 
 ```bash
 python3 -c 'import yaml,sys; [yaml.safe_load(open(f)) for f in sys.argv[1:]]' faq/README.yml faq/*/README.yml faq/*/*/README.yml
@@ -163,7 +163,7 @@ The `pending-guidance/` folder contains dedicated files for EU Commission guidan
 
 ## References
 
-A double-bracket reference the site can't resolve renders as literal brackets, so check the forms below before pushing. They don't render on GitHub either: in a pull request or an issue comment, write the source out ("Article 3(14) of the CRA").
+A double-bracket reference has to resolve: one that names no known document, part, FAQ or list fails the [check](#pull-requests) on the pull request. Double brackets inside code are left alone. The references don't render on GitHub: in a pull request or an issue comment, write the source out ("Article 3(14) of the CRA").
 
 ### Cross-References
 
@@ -174,6 +174,8 @@ See [[maintainers/donations]].
 ```
 
 The same works for a list, by its id (`[[stewards]]`, which renders as the list's title), and for the FAQs of the Commission and ENISA (`[[official/faq_4-2-5]]`, `[[srp/faq_21]]`).
+
+A request for Commission guidance is referenced by its path, `[[pending-guidance/csirt-identification]]`, and renders as a link with the request's title as its text.
 
 Relative links (`[FAQ Title](../category/faq.md)`) also work, and follow the file rather than its id.
 
@@ -263,6 +265,8 @@ Use it where the sentence reads better with a term than with a citation. Where t
 ## Pull requests
 
 One pull request per issue, or per small group of related issues.
+
+Every pull request that touches `faq/` is checked by building [cra.orcwg.org](https://cra.orcwg.org/) with its content. The check fails on what would break the site or publish wrong: a `README.yml` that doesn't parse, a list entry that names no FAQ or list, two FAQs with the same id, a double-bracket reference that doesn't resolve. Its log names each file and reference at fault.
 
 - **Title**: `Adds FAQs for issue #345` (`Adds FAQs for issues #345 and #348`; three or more: `#1, #2, and #3`). The issues are every issue in the `Related issues` of the files added or edited.
 - **Body**: the FAQs added or edited, each with its question and id, the other files changed, and one `Closes` line per related issue, so that every issue the FAQ answers closes when the pull request merges. A question from the issue that an existing FAQ already answers is listed too, with that FAQ's id, so the issue's author sees where each question went.

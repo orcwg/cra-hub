@@ -1,0 +1,51 @@
+name: Check FAQ
+
+# Builds cra.orcwg.org with the pull request's content. The build fails on what would break the
+# site or publish wrong: a README.yml that doesn't parse, a list entry that names no FAQ, two FAQs
+# with the same id, a [[double-bracket]] reference that doesn't resolve.
+
+on:
+  pull_request:
+    paths:
+      - 'faq/**'
+      - '.github/workflows/check-faq.yml'
+
+# The job reads two public repositories and holds no secret
+permissions: {}
+
+concurrency:
+  group: check-faq-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  build-site:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    permissions:
+      contents: read
+    steps:
+      # The site's main branch, as the deploy uses it: the check has to agree with what will be published
+      - name: Checkout the site
+        uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd # v6
+        with:
+          repository: orcwg/cra.orcwg.org
+          persist-credentials: false
+
+      # Into _cache, where the site reads the hub from. Full history: the site dates each FAQ from the git log
+      - name: Checkout the pull request's content
+        uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd # v6
+        with:
+          path: _cache
+          fetch-depth: 0
+          persist-credentials: false
+
+      - name: Setup Node
+        uses: actions/setup-node@53b83947a5a98c8d113130e565377fae1a50d02f # v6
+        with:
+          node-version: '24'
+
+      - name: Install the site's dependencies
+        run: npm ci --ignore-scripts
+
+      - name: Build the site
+        run: npm run build
